@@ -7,7 +7,7 @@ release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-03"
 reading_time_minutes: 2
 keywords: [sub-activity form, work set sub-activity]
 breadcrumb: [Industrial Standards, Reference, Digital Factory Workspace, Industrial Connected Workforce]

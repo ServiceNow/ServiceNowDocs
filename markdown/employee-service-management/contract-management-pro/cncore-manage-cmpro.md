@@ -21,6 +21,8 @@ As administrator work on managing the word document templates, contracts and vie
 As administrator manage clauses and contract templates.
 -   **[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)**  
 As administrator manage contract records.
+-   **[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)**  
+Manage AI skills in Contract Management Pro including use cases, use case mappings, clause mappings, expected responses, and skill activation.
 -   **[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-analytics-pa.md)**  
 The Contracts Dashboard in Contract Management Pro is an analytics and reporting solution that enables you to make data-driven decisions through insights and trends derived from contract request data.
 -   **[Modify assignment rule for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-assign-rule.md)**  

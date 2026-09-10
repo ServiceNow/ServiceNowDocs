@@ -1,6 +1,6 @@
 ---
 title: Pure Storage FlashBlade discovery
-description: The ServiceNow Discovery application uses the FlashBlade Pure Storage pattern to find FlashBlade components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the FlashBlade Pure Storage pattern to find FlashBlade components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/pure-storage-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Pure Storage FlashBlade discovery
 
-The ServiceNow Discovery application uses the FlashBlade Pure Storage pattern to find FlashBlade components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the FlashBlade Pure Storage pattern to find FlashBlade components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery can find Pure Storage FlashBlade version 4.
 

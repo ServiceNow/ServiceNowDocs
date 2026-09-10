@@ -1,6 +1,6 @@
 ---
 title: Test generation
-description: Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with ServiceNow Otto for Creator. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
+description: Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with ServiceNow Otto for Creator. You will be redirected to Test Agent experience where you can simply describe your test requirements in the prompt, and the test is generated. You can then review the generated test before accepting it or make any edits with an updated prompt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/test-generation-intro.html
 release: australia
@@ -14,9 +14,11 @@ breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging application
 
 # Test generation
 
-Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with ServiceNow Otto for Creator. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
+Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with ServiceNow Otto for Creator. You will be redirected to Test Agent experience where you can simply describe your test requirements in the prompt, and the test is generated. You can then review the generated test before accepting it or make any edits with an updated prompt.
 
 Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+You will be redirected to Test Agent for future test generation experience. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md) for more information.
 
 **Note:** [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) is not affected by this deprecation. Only the Test Generation application is planned for future deprecation.
 
@@ -60,5 +62,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

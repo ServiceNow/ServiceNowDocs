@@ -75,6 +75,10 @@ Perform assessments on multiple risks and controls simultaneously in a risk asse
 Map a control objective to an AI system, run its compliance evaluation, and review evaluation results, supporting data, and automatically created issues.
 -   **[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)**  
 Create an AI case in the AI Risk and Compliance workspace by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+-   **[Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-co.md)**  
+Generate AI-assisted recommendations to quickly identify and associate relevant control objectives with an AI Assessment from the AI risk and compliance library.
+-   **[Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-risk-stmt.md)**  
+Generate AI-assisted recommendations to quickly identify and associate relevant risk statements with an AI Assessment from the AI risk and compliance library.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -35,7 +35,7 @@ This store app has the following dependencies:
 
 -   ServiceNow Otto for Platform \(sn\_genai\_platform\)
 -   ServiceNow Otto for FSC Common \(com.snc.sn\_fsc\_genai\)
--   Purchase Order Management application \(sn\_poem\_core\)
+-   Purchase Order Management application \(com.snc.sn\_poem\_core\)
 -   ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\)
 
 Activate the applications in the following order:
@@ -47,5 +47,5 @@ Activate the applications in the following order:
 
 For more information, see [Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
 
-**Parent Topic:**[Explore ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
 

@@ -1,19 +1,19 @@
 ---
-title: App Engine for ERP rapid deployment packs user personas
-description: App Engine for ERP rapid deployment packs define four core personas, each with distinct permissions, workflows, and responsibilities.
+title: App Engine ERP Rapid Deployment Packs user personas
+description: App Engine ERP Rapid Deployment Packs define four core personas, each with distinct permissions, workflows, and responsibilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-user-personas.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-26"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 keywords: [app, engine, erp, sap, rapid, deployment, pack, user, persona, type]
-breadcrumb: [Reference, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# App Engine for ERP rapid deployment packs user personas
+# App Engine ERP Rapid Deployment Packs user personas
 
-App Engine for ERP rapid deployment packs define four core personas, each with distinct permissions, workflows, and responsibilities.
+App Engine ERP Rapid Deployment Packs define four core personas, each with distinct permissions, workflows, and responsibilities.
 
 <table id="table_hpz_zv3_sjc"><thead><tr><th>
 
@@ -81,12 +81,12 @@ Review fully prepared requests across all packs and make the final business deci
 -   VP of Sales
 -   CFO
 -   VP of Finance
--   Manager authorized to sign off on new customers, materials, or financial transactions
+-   Manager approving new customers, materials, or financial transactions
 
 </td></tr></tbody>
 </table>## Persona assignment and permissions
 
 Administrators assign personas based on role and domain responsibilities. Domain access is independent. You might be a requestor for the Customer domain but an enricher for the Cost Center domain. The enricher, governance, and approver personas typically don't have access to the Create New Request portal. They access only the requests that reach their workflow stage.
 
-**Parent Topic:**[App Engine for ERP rapid deployment packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
 

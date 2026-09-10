@@ -1,18 +1,18 @@
 ---
 title: Configure the activity timer log
-description: Configure the activity timer log to appear on selected record pages in CSM Configurable Workspace.
+description: Configure the activity timer log to appear on selected record pages in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-timer-log.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure the activity timer log
 
-Configure the activity timer log to appear on selected record pages in CSM Configurable Workspace.
+Configure the activity timer log to appear on selected record pages in CRM Workspace.
 
 ## Before you begin
 

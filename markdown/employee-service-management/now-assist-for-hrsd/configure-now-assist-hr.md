@@ -90,6 +90,8 @@ Configure the manager insights skill in ServiceNow Otto for HRSD to generate a s
 Enable users to access functionality and benefits of the ServiceNow Otto for HRSD – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 -   **[Configure Activity Response Generation for HR Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.md)**  
 Set up the activity response generation skill in the AI Admin Hub console to enable automated responses in comments and work notes of an HR case.
+-   **[Configuring the Now Assist Context Menu for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.md)**  
+Customize a Now Assist skill so that agents can use the generative AI skills in HR Agent Workspace and Core UI.
 
 **Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 

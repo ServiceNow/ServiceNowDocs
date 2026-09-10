@@ -53,7 +53,7 @@ The following AI agents are used to support the conversational setup process for
 |Notification agent|Configures notification settings for CBS business units to support request, approval, and workflow notifications.|
 |CBS bulk upload agent|Processes bulk data uploads for Workplace Services and Source‑to‑Pay business units by importing records and configuration data.|
 
-For more information on the AI agents, see .
+For more information on the AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 **Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
 

@@ -21,11 +21,9 @@ Set up an integration to stream log data from Amazon Data Firehose directly to t
 
 Set up MID-less log streaming via ITOM Gateway. Choose the deployment method based on your expected log volume. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
 
+As an alternative to the provided procedure, you can set up MID-less integrations for HLA from an AI-enabled MCP Client, without opening the ServiceNow UI. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest.md).
+
 Role required: evt\_mgmt\_admin
-
-## About this task
-
-Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 

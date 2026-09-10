@@ -8,7 +8,7 @@ product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
@@ -34,6 +34,14 @@ Generate Authority to Operate \(ATO\) artifacts such as System Security Plan \(S
 Control tailoring requests enable you to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
 -   **[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)**  
 Open Security Controls Assessment Language \(OSCAL\) provides a standardized way to express control-related information, enabling interoperability, consistency, and automation in IT security. It supports the JSON format only. CAM supports OSCAL version 1.1.2.
+-   **[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)**  
+Link documents to authorization packages, boundaries, and engagements from your workspace, cloud storage, or local systems. Linked documents become shared resources across records.
+-   **[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)**  
+Configure custom workflows in Continuous Authorization and Monitoring to support compliance requirements beyond the default National Institute of Standards and Technology NIST Risk Management Framework.
+-   **[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)**  
+NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
+-   **[Generate an authorization package summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_generate_authorization_package_summary.md)**  
+Generate an AI-powered summary of an authorization package to view its status, key metrics, and operational information in a single consolidated view.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 

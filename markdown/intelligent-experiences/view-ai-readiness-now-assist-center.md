@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI readiness assessments, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
 ---
 
 # View your AI readiness assessment in AI Admin Center
@@ -62,7 +62,7 @@ Follow these steps to review the AI readiness assessments based on your instance
 
 Resolve the reported issues to improve AI implementation readiness.
 
-**Parent Topic:**[Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
+**Parent Topic:**[Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 **Related topics**  
 

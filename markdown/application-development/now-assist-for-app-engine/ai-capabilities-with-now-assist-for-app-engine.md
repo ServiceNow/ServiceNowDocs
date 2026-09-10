@@ -117,7 +117,7 @@ An agentic workflow contains a set of large language model \(LLM\) instructions 
 
 An agentic workflow is controlled by an AI Agent Orchestrator that coordinates the flow of work between AI agents. Additionally, an AI Agent Communicator helps to facilitate communication between the AI Agent Orchestrator and AI agents in the workflow.
 
-For more information about agentic workflows, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
+For more information about agentic workflows, see [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
 
 ## Platform AI agents and agentic workflows vs. custom AI agents and agentic workflows
 
@@ -170,7 +170,7 @@ Can be designed to work within custom apps during the creation process, when you
 
 </td><td>
 
--   [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md)
+-   [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md)
 -   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 -   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 

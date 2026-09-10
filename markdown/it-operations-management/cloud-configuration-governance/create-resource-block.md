@@ -65,7 +65,7 @@ Default Guest InterfaceCreate interface
 
 Select the guest interface that contains the operations you need for the resource. Later you can further define and select the operations to use for this default guest interface. The system gives you a set of default operations for each interface.
 
- If another resource block specifies a **Host interface** \(see the Host interface field description\) that matches what you specify here in the **Guest interface** field, that resource block can be a potential host for this resource block.
+ If another resource block specifies a **Host interface** that matches what you specify here in the **Guest interface** field, that resource block can be a potential host for this resource block. See the Host interface field description.
 
  If you select the **Create interface** check box, enter a name for the guest interface. The system creates the guest interface, opens the resource block that you are configuring in the resource block form, and lists the new interface in the **Resource Guest Interface** related list. See the description of the Resource Guest Interface in the following steps.
 
@@ -81,7 +81,7 @@ Select the interface that the potential host of this resource block must offer u
 
  For example, by default the AWS Datacenter resource block specifies the **Compute** interface as a default guest interface. That means the AWS Datacenter is offering the **Compute** host interface to other resource blocks through which to connect to the AWS Datacenter.
 
- Specify the **Compute** interface here as the host interface of the resource block so the resource block can look for any other resource block using the **Compute** interface as its guest interface. Since the AWS Datacenter does use the **Compute** interface as its guest interface, later you can select the AWS Datacenter as the actual host in the Host Resource related list.
+ Specify the **Compute** interface as the host interface of the resource block. The resource block can then look for any other resource block using the **Compute** interface as its guest interface. The AWS Datacenter uses the **Compute** interface as its guest interface. You can later select the AWS Datacenter as the actual host in the Host Resource related list.
 
  Other resource blocks that offer the **Compute** interface by specifying **Compute** as the guest interface, are also potential hosts for this resource block.
 

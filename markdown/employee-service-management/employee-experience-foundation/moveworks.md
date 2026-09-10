@@ -20,8 +20,6 @@ Moveworks combines agentic reasoning with enterprise-ready integrations to deliv
 
 Here is a quick overview of the product capabilities:
 
-\[Omitted image "moveworks.svg"\] Alt text: Moveworks capabilities
-
 -   **Moveworks AI-Powered employee assistant**: AI Assistant provides an agentic AI experience that millions of employees love for instant support and self-service.
 -   **Rapid agent development**: Agent Studio enables developers to build powerful, enterprise-ready AI agents quickly without extensive coding.
 -   **Unified enterprise search**: Agentic RAG application searches across all your systems, formats, and domains instantly.

@@ -107,5 +107,7 @@ User group to which the contract request is assigned.
 
 [Manage contract records]()
 
+[Manage AI skills]()
+
 [Platform Analytics Solutions for Contract Management Pro]()
 

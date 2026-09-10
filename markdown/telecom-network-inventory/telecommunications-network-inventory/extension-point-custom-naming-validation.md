@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
@@ -20,8 +20,8 @@ The custom name validation extension point validates resolved names in the **Inv
 
 The extension point is registered under the Network Inventory Core application:
 
-|Field|Description|
-|-----|-----------|
+|Field|Entries|
+|-----|-------|
 |Name|`TNINamingValidationBase`|
 |API name|`sn_ni_core.TNINamingValidationBase`|
 |Application|Network Inventory Core \(`sn_ni_core`\)|

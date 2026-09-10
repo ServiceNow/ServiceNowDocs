@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [project scheduling, task constraints, forward scheduling, task dependencies, start date scheduling]
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]

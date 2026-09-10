@@ -78,15 +78,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d472511e377">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d482885e377">
 
 Option
 
-</th><th align="left" id="d472511e380">
+</th><th align="left" id="d482885e380">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d472511e386">
+</th></tr></thead><tbody><tr><td id="d482885e386">
 
 **Apply ACLs to namespaces**
 
@@ -99,7 +99,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d472511e428">
+</td></tr><tr><td id="d482885e428">
 
 **Apply ACLs to defined topics**
 
@@ -528,7 +528,7 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 
 -   Role required: integration\_hub\_admin
 -   The first part of this section shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/kafka-producer-action-designer.md).
--   The second part of this section shows you how to use the ProducerV2 API to publish messages. For more information, see ProducerV2 API.
+-   The second part of this section shows you how to use the ProducerV2 API to publish messages. For more information, see [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 -   To receive all the messages, you need to run two consumers for different datacenters. See [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/consume-messages-hermes.md) for details.
 
 ### Procedure

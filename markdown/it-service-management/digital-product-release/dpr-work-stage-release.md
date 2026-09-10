@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-01"
+reading_time_minutes: 10
 breadcrumb: [Stage-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -32,29 +32,37 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 5.  Select the **Overview** section to review and modify release details, get an overview of its status, or change its readiness target date.
 
-    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-details.md) and [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
+    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-details.md).
 
 6.  Review the risk score for the current phase on the Release overview dashboard.
 
     The risk score for stage-oriented releases considers task completion, policy compliance, readiness dates, and progress thresholds. For more information, see [Risk score for stage-oriented releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-risk-score-release.md).
 
-7.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
+7.  Change the release readiness target to reschedule the release period.
+
+    For more information, see [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
+
+8.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
 
     For more information, see [Update the scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
-8.  Select the **Configuration items** section to review and manage the configuration items in the release.
+9.  Select the **Configuration items** section to review and manage the configuration items in the release.
 
     You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-config-items.md).
 
-9.  Select the **Change requests** section to review and manage the change requests in the release.
+10. Select the **Change requests** section to review and manage the change requests in the release.
 
     You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-change-request.md).
 
-10. From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
+11. From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
 
     For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
-11. Select the **Release notes** section to create and manage release notes for the release.
+12. Select the **Release timeline** to view the release status, activities log, and work on its phases and tasks.
+
+    For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md).
+
+13. Select the **Release notes** section to create and manage release notes for the release.
 
     You have the option to add release notes manually or generate using AI.
 
@@ -76,7 +84,7 @@ Role required: sn\_dpr\_model.release\_admin
 
 ### About this task
 
-By restarting a phase, you can reassess and adjust the plan to overcome the new issues, ensuring that the release stays on track and meets its overall goals. For example, if a certain version of an artifact is being certified during the release process and it doesn't pass the validation, a new version of the artifact can be chosen. Then, you can restart the release from an earlier phase to repeat the same tasks, mapped policies, configuration items, and approvals from those phases.
+By restarting a phase, you can reassess and adjust the plan to overcome the new issues, ensuring that the release stays on track and meets its overall goals. For example, if an artifact version fails validation during certification, you can select a new version of the artifact. Then, you can restart the release from an earlier phase to repeat the same tasks, mapped policies, configuration items, and approvals from those phases.
 
 ### Procedure
 
@@ -96,6 +104,7 @@ By restarting a phase, you can reassess and adjust the plan to overcome the new 
 -   The state of all tasks in the affected phases updates to Open.
 -   The configuration items associated with the affected phases are reassociated with the newly created corresponding phases.
 -   The last run status of the policies mapped to theses phases updates to Not run.
+-   Tasks, policies, and approvals associated with the phase before it was restarted are excluded from the respective metrics and lists on the Release overview dashboard.
 
 ## Execute the release
 
@@ -125,7 +134,15 @@ For more information, see [Email notifications in Digital Product Release](https
 
     \[Omitted image "dpr-release-execution-stage2.png"\] Alt text: Release execution page of a stage-oriented release to track its progress.
 
-2.  Manage the progress of a phase in the release.
+2.  In the Summary form for a phase, enter dates in **Planned start date** and **Planned end date**.
+
+    The planned end date must be on or after the planned start date. The planned start date for the next phase is automatically set to the day after the planned end date of the current phase.
+
+    The **Actual start date** and **Actual end date** fields are populated automatically when the phase starts and ends.
+
+    Hover over a phase on the release timeline to display the phase details, including its state, planned start date, planned end date, and actual end date.
+
+3.  Manage the progress of a phase in the release.
 
     **Note:** If the **stage\_workflow\_auto\_transition** system property is set to true, the phases are automatically closed when all tasks in it are closed and policies comply.
 
@@ -133,11 +150,13 @@ For more information, see [Email notifications in Digital Product Release](https
 
     2.  When all tasks in the current phase are complete and mapped policies comply, mark the phase as complete by selecting **Complete phase**.
 
+        Alternatively, you can complete the current phase from the Release tasks or Release policies pages. Select the release actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text:\) and then select **Complete current release**.
+
         **Note:** If any of the mapped policies is noncompliant, you can complete a phase only when you have any of the roles defined in the system property **sn\_dpr.complete\_phase\_override**.
 
         The state of the current phase is updated to Completed and the next phase is started. The actual end date of the current phase is updated to the current date.
 
-3.  Select **Release tasks** to add tasks in a release phase for a product.
+4.  Select **Release tasks** to add tasks in a release phase for a product.
 
     1.  On the Release tasks page, select **Add task**.
 
@@ -159,7 +178,7 @@ For more information, see [Email notifications in Digital Product Release](https
 
     For an approval task, an approval record is created for the approvers to review and act.An email notification is also sent to them. For more information, see [Approve or reject a release task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-approve-reject-release-task.md).
 
-4.  Track and manage the progress of tasks for the selected phase.
+5.  Track and manage the progress of tasks for the selected phase.
 
     1.  On the Release tasks page, expand a phase in the list by selecting the expand row icon.
 
@@ -181,7 +200,7 @@ For more information, see [Email notifications in Digital Product Release](https
 
         If you complete the current task and the system property **sn\_dpr.sequential\_task\_execution** is set to true, the next task in the order moves to the Open state.
 
-5.  Select **Release policies** to manage mapping of policies to a release phase.
+6.  Select **Release policies** to manage mapping of policies to a release phase.
 
     1.  On the Release policies page, review the mapped policies by their status.
 
@@ -202,7 +221,7 @@ For more information, see [Email notifications in Digital Product Release](https
 
         **Note:** For an in-progress phase, if you remove a previously executed policy, the remaining policies are automatically run after its removal. The updated execution statuses of the individual policies are aggregated and shown in the **Policy status** field on the **Details** tab.
 
-6.  On the Release policies page, select **Run policies** to run policies on the current phase.
+7.  On the Release policies page, select **Run policies** to run policies on the current phase.
 
     All mapped policies are executed in the background for the current phase \(**In Progress** state\). You can check the execution status by refreshing the list on the **Policies** tab.
 
@@ -210,7 +229,7 @@ For more information, see [Email notifications in Digital Product Release](https
 
     When multiple policies are mapped to a phase, their execution statuses are aggregated into the phase's overall status. You can view this aggregated status in the **Policy status** field on the **Details** tab.
 
-7.  If a policy fails compliance, you can request an exception with justification.
+8.  If a policy fails compliance, you can request an exception with justification.
 
     **Note:** This option is only available when both Digital Product Release and GRC: Policy and Compliance Management are installed.
 
@@ -226,11 +245,11 @@ For more information, see [Email notifications in Digital Product Release](https
 
     After the exception is approved, the policy status shows as Compliant with exception in subsequent executions. The phase can be completed if all other policies are compliant.
 
-8.  Close a release after verifying its completeness.
+9.  Close a release after verifying its completeness.
 
     For more information, see [Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-complete-release.md).
 
-9.  Cancel a release if it's no longer required.
+10. Cancel a release if it's no longer required.
 
     **Note:** Only users with the sn\_dpr\_model.release\_admin role can cancel releases.
 

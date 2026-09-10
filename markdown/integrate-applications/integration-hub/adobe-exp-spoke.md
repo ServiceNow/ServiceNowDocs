@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Adobe Experience Platform spoke v2.1.1 is the latest version.
+Adobe Experience Platform spoke v2.1.1 is the latest version. For version history of the spoke, see [Adobe Experience Platform release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-adobe-exper.html).
 
 ## Supported versions
 

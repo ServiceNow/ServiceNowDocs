@@ -1,5 +1,5 @@
 ---
-title: Build with ERP data
+title: Building with ERP data
 description: Use data extracted from ERP systems, such as SAP, to build applications, workflows, playbooks, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, build, create, source, app, flow]
-breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Build with ERP data
+# Building with ERP data
 
 Use data extracted from ERP systems, such as SAP, to build applications, workflows, playbooks, and more.
 

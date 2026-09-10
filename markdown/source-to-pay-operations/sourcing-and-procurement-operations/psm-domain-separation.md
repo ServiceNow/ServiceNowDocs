@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -38,11 +38,17 @@ For more information on support levels, see [Application support for domain sepa
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and Asset Management data model mappings]()
 
 [Primary data tables for Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

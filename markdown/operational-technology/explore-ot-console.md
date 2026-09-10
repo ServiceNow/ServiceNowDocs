@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/explore-
 release: australia
 topic_type: concept
 last_updated: "2026-03-27"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 

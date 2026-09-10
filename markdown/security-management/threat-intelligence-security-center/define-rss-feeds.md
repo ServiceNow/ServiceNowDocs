@@ -202,7 +202,7 @@ Use **Link** and **Unlink** to associate or remove associations between existing
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

@@ -49,7 +49,9 @@ ServiceNow maintains regular verification with Oracle GLAS to provide you with i
 
     The Oracle GLAS Report Job Log \[sn\_itom\_oracleglas\_job\_log\] table opens in a new window. After your report is successfully created, the status of the report changes to Complete in the Oracle GLAS Report Job Logs table.
 
-6.  Select a job log record to view its details including the unique number, name, status, description, and the date and time when the job log is created and updated.
+6.  Select a job log record to view its details, including the unique number, name, status, and description.
+
+    The record also shows the date and time when the job log was created and updated.
 
 7.  On the Oracle GLAS Report Job Log form that opens, download your report by navigating to **Manage Attachments** and selecting **download**.
 

@@ -59,15 +59,15 @@ The following video walks you through the process of adding metadata for fields,
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d220448e300">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d220949e300">
 
 Type of metadata
 
-</th><th align="left" id="d220448e303">
+</th><th align="left" id="d220949e303">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d220448e309">
+</th></tr></thead><tbody><tr><td id="d220949e309">
 
 **Field mapping**
 
@@ -77,7 +77,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d220448e334">
+</td></tr><tr><td id="d220949e334">
 
 **Variables**
 
@@ -129,7 +129,7 @@ Validation errors might occur for the following reasons:
 
 [Configuring signatories in Contract template using Microsoft Word add-in]()
 
-[Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts]()
+[Map clauses and clause variations]()
 
 [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts]()
 

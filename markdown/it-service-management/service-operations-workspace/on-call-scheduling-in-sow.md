@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 5
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -53,6 +53,8 @@ Use the **Schedule** tab to create and manage shifts for your team. This feature
 Use the **Escalation triggers and policies** tab to set an escalation policy and the trigger rules to be followed if there's an incident. You assign these policies and trigger rules, along with notification preferences, to a team.
 
 Use the **On-call Team preferences** tab to edit shift preferences for a group. You can add a Shift Manager and the start day of the week, set preferences for absence requests and shift overlap, and escalation rules for shift overlap.
+
+The Teams page provides an on-call onboarding wizard to configure on-call schedules for multiple teams simultaneously. Users with the rota\_admin role can access this wizard. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Contextual side panel
 

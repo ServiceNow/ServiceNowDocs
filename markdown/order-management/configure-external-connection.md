@@ -34,15 +34,15 @@ External connections are used in configuration rules only. They can only be call
 
 3.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table><thead><tr><th align="left" id="d110718e156">
+<table><thead><tr><th align="left" id="d112064e156">
 
 Authentication type
 
-</th><th align="left" id="d110718e159">
+</th><th align="left" id="d112064e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110718e165">
+</th></tr></thead><tbody><tr><td id="d112064e165">
 
 **No authentication**
 
@@ -50,7 +50,7 @@ Action
 
 No additional fields are required. The external connection calls the API without credentials.
 
-</td></tr><tr><td id="d110718e174">
+</td></tr><tr><td id="d112064e174">
 
 **Bearer token**
 
@@ -58,7 +58,7 @@ No additional fields are required. The external connection calls the API without
 
 In the **Authentication token** field, enter the bearer token provided by the external service.
 
-</td></tr><tr><td id="d110718e186">
+</td></tr><tr><td id="d112064e186">
 
 **OAuth - Client credentials flow**
 

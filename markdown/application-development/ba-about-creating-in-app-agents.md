@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-about-creating-in-app-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -14,8 +14,6 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 # Agentic workflows, agents, and skills
 
 Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
-
-Only users with Build Agent - Prime may create agents and skills.
 
 Verify that you have access to ServiceNow Studio or the ServiceNow IDE.
 

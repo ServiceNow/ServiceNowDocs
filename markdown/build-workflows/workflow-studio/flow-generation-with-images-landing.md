@@ -32,7 +32,7 @@ Create a flow or a subflow from an image by using ServiceNow Otto for Creator.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-roles-1.md)
+Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles
 
 </td></tr></tbody>
 </table>## AI limitations

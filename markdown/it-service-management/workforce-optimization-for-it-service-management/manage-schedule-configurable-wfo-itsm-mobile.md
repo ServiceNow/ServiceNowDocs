@@ -18,6 +18,8 @@ Use the ITSM mobile app to look up your schedule, request time off, or swap your
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.agent
 
 ## Procedure
@@ -26,15 +28,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d472938e68">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d480003e84">
 
 To
 
-</th><th align="left" id="d472938e71">
+</th><th align="left" id="d480003e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d472938e77">
+</th></tr></thead><tbody><tr><td id="d480003e93">
 
 **Request time off after reviewing your schedule**
 
@@ -51,7 +53,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d472938e125">
+</td></tr><tr><td id="d480003e141">
 
 **Request time off after reviewing your time-off requests**
 

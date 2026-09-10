@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a GRC indicator template

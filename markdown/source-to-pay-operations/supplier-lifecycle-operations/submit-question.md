@@ -70,6 +70,8 @@ The application creates a case of type General inquiry and assigns it to the sup
 
 [Update default supplier]()
 
+[Update tax information using the supplier catalog]()
+
 [Request something else using the supplier catalog]()
 
 [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)

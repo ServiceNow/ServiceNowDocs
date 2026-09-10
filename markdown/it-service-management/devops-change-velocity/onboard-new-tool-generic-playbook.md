@@ -1,5 +1,5 @@
 ---
-title: Onboard a new tool using DevOps generic playbook
+title: Onboard a tool using DevOps generic playbook
 description: DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-new-tool-generic-playbook.html
@@ -12,11 +12,11 @@ reading_time_minutes: 2
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
 
-# Onboard a new tool using DevOps generic playbook
+# Onboard a tool using DevOps generic playbook
 
 DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 
-Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see .
 
 Perform the following steps to onboard your custom tool using the DevOps generic playbook.
 
@@ -52,7 +52,7 @@ Each Activity in a playbook is associated to an activity definition. DevOps has 
 -   DevOps Associate Services AD
 -   DevOps Summary AD
 
-For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and .
 
 The DevOps table **sn\_devops\_capability\_activity\_mapping** has been created to maintain associations between Activity definitions and capabilities. This table configuration is used to dynamically render the stages and activities for a tool. You can update the conditions as needed to either enable or disable a particular activity for a tool.
 

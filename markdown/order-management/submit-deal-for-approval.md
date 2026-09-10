@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/submit-deal-for-approval.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deal Registration approvals, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ As a deal agent, you can submit any deal for approval to route it through your o
 
 ## Procedure
 
-1.  Open the deal record that you want to submit for approval in the CSM Configurable Workspace.
+1.  Open the deal record that you want to submit for approval in the CRM Workspace.
 
 2.  Scroll to the Approvals section.
 

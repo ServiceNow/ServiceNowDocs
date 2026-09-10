@@ -62,7 +62,7 @@ Scans contracts, spend, and supplier data on a recurring schedule to surface ran
 
 For more information about savings opportunities and how the Opportunity Finder agents work, see [Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md).
 
-For more information about the AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+For more information about the AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 

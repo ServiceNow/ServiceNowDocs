@@ -112,6 +112,8 @@ Assign a badge template to a workplace location.
 
 [Configure visit requirements]()
 
+[Configure the frequency of email notifications]()
+
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
 [Quick start test for Workplace Visitor Management]()

@@ -24,6 +24,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
+## Spoke version
+
+FRISS Spoke v1.2.0 is the latest version. For version history of the spoke, see [FRISS Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-friss-spoke.html).
+
 ## Supported versions
 
 This spoke was built for FRISS API version v 2.0 but may be compatible with later versions.

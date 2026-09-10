@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-approve-request.html
 release: australia
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-keywords: [app, engine, erp, sap, rapid, deployment, pack, approval, hub]
-breadcrumb: [Use, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [app, engine, sap, erp, rapid, deployment, pack, approve, approval, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Use, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Approve or reject requests in Approval Hub
@@ -17,21 +17,21 @@ As an approver, review master data and journal entry requests in Approval Hub an
 
 ## Before you begin
 
-Role required: An MDM Orchestrator approval role. \(For more information, see [Roles used in App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator approval role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## About this task
 
-Approval Hub is the unified interface where approvers review and decide on pending requests across all rapid deployment packs. For more information, see [Approval Hub rapid deployment pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub.md).
+Approval Hub is the unified interface where approvers review and decide on pending requests across all rapid deployment packs. For more information, see [Approval Hub Rapid Deployment Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **My Approvals Hub** &gt; **My Approvals**.
 
-    The **MDM Dashboard** is displayed by default. Select **ERP Dashboard** or **JE Dashboard** \(Journal Entry Dashboard\) at any time. For details about the information on the dashboards, see [App Engine for ERP Approval Hub dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub-dashboards.md).
+    The **MDM Dashboard** is displayed by default. Select **ERP Dashboard** or **JE Dashboard** \(Journal Entry Dashboard\) at any time. For details about the information on the dashboards, see [App Engine ERP Approval Hub dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub-dashboards.md).
 
 2.  Adjust the time frame \(default is **Last Month**\), by selecting the picker and choosing an option, such as last 7 days or all time.
 
-    \[Omitted image "aes-erp-rdp-approve-hub1.png"\] Alt text: Approval hub with mdm dashboard displayed.
+    \[Omitted image "aes-erp-rdp-approve-hub1.png"\] Alt text: Approval hub with MDM dashboard displayed.
 
 3.  View information about MDM, ERP, and journal entry approvals.
 
@@ -43,7 +43,7 @@ Approval Hub is the unified interface where approvers review and decide on pendi
 
 5.  Filter the tiles as needed.
 
-    For example, filter the MDM requests to show only update requests or filter the journel entry requests to show only expense requests.
+    For example, filter the MDM requests to show only update requests or filter the journal entry requests to show only expense requests.
 
 6.  If you're ready to make a decision, select **Accept** or **Reject** on a request tile.
 
@@ -82,5 +82,5 @@ Approval Hub is the unified interface where approvers review and decide on pendi
 
 After final approval, MDM Orchestrator hands the record off to your ERP integration layer, for example Integration Hub spokes or Zero Copy Connector for ERP, for creation in the target ERP system.
 
-**Parent Topic:**[Using App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
 

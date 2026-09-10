@@ -62,5 +62,5 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)
+[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)
 

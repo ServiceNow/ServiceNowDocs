@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/spo-ai-
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Sourcing and Procurement Operations, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Sourcing and Procurement Operations AI agents
@@ -23,5 +23,5 @@ This Sourcing and Procurement Operations agent provides a summary of a procureme
 -   **[Spend categorization AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/spo-spend-categorization-agent-ai-agent.md)**  
 This Sourcing and Procurement Operations agent predicts and populates product and spend categories in purchase requisition lines, reducing manual effort and improving data accuracy.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

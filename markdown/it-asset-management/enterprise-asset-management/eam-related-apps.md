@@ -20,10 +20,10 @@ Enterprise Asset Management includes a set of specialized applications that expa
 
 |Application|Description|
 |-----------|-----------|
-|Enterprise Asset Management for Healthcare|Extends EAM for managing medical equipment and healthcare facility assets.|
-|Enterprise Asset Management for Facilities|Extends EAM for facilities management|
+|Enterprise Asset Management for Healthcare|Extends EAM to manage medical equipment and healthcare facility assets.|
+|Enterprise Asset Management for Facilities|Extends EAM to manage facility assets.|
 |OT Asset Management|Extends EAM to manage operational technology assets with OT-specific workflows and licensing.|
-|Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)|Extends EAM for managing data center and network infrastructure assets, including a Critical Environment Asset workspace.|
+|Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)|Extends EAM to manage data center and network infrastructure assets.|
 |Enterprise Asset Management for Providers|Extends EAM to support device-as-a-service \(DaaS\) asset management, including RMA response orders and inbound asset orders.|
 
 -   **[Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)**  

@@ -1,6 +1,6 @@
 ---
 title: Managing the Cloud Account Management cloud asset details
-description: Use the cloud asset form in the Cloud Account Management to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
+description: Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/manage-cam-ci-details.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management 
 
 # Managing the Cloud Account Management cloud asset details
 
-Use the cloud asset form in the Cloud Account Management to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
+Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 
-The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings, account health and data associated with the cloud asset, resources, activities, and related services.
+The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings. You can also view account health and data associated with the cloud asset, resources, activities, and related services.
 
 The following sections describe the various sections of the cloud asset form.
 
@@ -63,7 +63,7 @@ This section shows cards with counts of the following services and offerings ass
 
 -   Service Instance: Any CI related to the Service Instance \[cmdb\_ci\_service\_auto\] table where Service Classification is Application Service.
 -   Business Service Offering: Any Service Instance, which has a relationship to Service\_Offering where Service Classification is Business Service.
--   Technology Management Offering: Any Service Instance, which has a relationship to Service\_Offering where Service Classification is Technical Service or the CI is related to a Dynamic CI Group, which is part of a Technical Service Offering.
+-   Technology Management Offering: Any Service Instance that has a relationship to Service\_Offering where Service Classification is Technical Service. Also includes CIs related to a Dynamic CI Group that is part of a Technical Service Offering.
 -   Technology Management Service: Parent of a Technology Management Offering.
 
 ## Health

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-deactivate-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-keywords: [app, engine, erp, sap, rapid, deployment, pack, data, activate, deactivate, delete]
-breadcrumb: [Use, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [app, engine, sap, erp, rapid, deployment, pack, master data management, MDM, agentic, activate, deactivate, delete, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Use, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Deactivate or activate a master data record
@@ -21,7 +21,7 @@ Submit a deactivation or activation request for an existing master data record.
 -   The record must already exist in the system, either approved from an earlier create request or preloaded from your ERP system.
 -   Only records that have been approved are available for deactivation or activation.
 
-Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Role required: An MDM Orchestrator requestor role. \(For more information, see [
 
 7.  Select **Submit Deactivation** or **Submit Activation**.
 
-    \[Omitted image "aes-erp-rdp-deactivate-activate1.png"\] Alt text: Record list filtered to show active records with a sales organization of north american sales and one record selected.
+    \[Omitted image "aes-erp-rdp-deactivate-activate1.png"\] Alt text: Record list filtered to show active records with a sales organization of North American sales and one record selected.
 
 8.  Add a **Batch Name**.
 
@@ -80,5 +80,5 @@ Role required: An MDM Orchestrator requestor role. \(For more information, see [
 
 The request is sent for approval.
 
-**Parent Topic:**[Using App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
 

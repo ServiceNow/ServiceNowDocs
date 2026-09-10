@@ -1,6 +1,6 @@
 ---
 title: Exploring DevOps Change Velocity
-description: Learn how ServiceNow DevOps Change Velocity helps your Development and Change Management teams accelerate change and connect their DevOps tool chain with ServiceNow so that the DevOps tool data can be used to automate change processes.
+description: Learn how ServiceNow DevOps Change Velocity helps your Development and Change Management teams accelerate change and connect their DevOps tool chain with ServiceNow to automate change processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [DevOps Change Velocity, IT Service Management]
 
 # Exploring DevOps Change Velocity
 
-Learn how ServiceNow® DevOps Change Velocity helps your Development and Change Management teams accelerate change and connect their DevOps tool chain with ServiceNow so that the DevOps tool data can be used to automate change processes.
+Learn how ServiceNow® DevOps Change Velocity helps your Development and Change Management teams accelerate change and connect their DevOps tool chain with ServiceNow to automate change processes.
 
 ## DevOps Change Velocity overview
 

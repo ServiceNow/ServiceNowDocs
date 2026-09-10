@@ -63,8 +63,6 @@ For more information on Health and Safety user profiles, see [Health and Safety 
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Add a Health and Safety visitor]()
 
 [Migrate existing safety documents to the Document library]()

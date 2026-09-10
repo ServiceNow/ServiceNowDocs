@@ -1,6 +1,6 @@
 ---
 title: Filter software results using an encoded query in TLM
-description: Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the Lifecycle Timeline view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want TLM to include other software \(non-licensable\) and filter the result.
+description: Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the Lifecycle Timeline view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want Technology Lifecycle Management \(TLM\) to include other software \(non-licensable\) and filter the result.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/use-tpm-encoded-query.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspac
 
 # Filter software results using an encoded query in TLM
 
-Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want TLM to include other software \(non-licensable\) and filter the result.
+Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want Technology Lifecycle Management \(TLM\) to include other software \(non-licensable\) and filter the result.
 
 ## Before you begin
 

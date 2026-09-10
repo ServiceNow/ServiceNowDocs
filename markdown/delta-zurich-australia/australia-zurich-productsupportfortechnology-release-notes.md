@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-productsupportfortechnology-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,8 +75,6 @@ Australia
 
 </td><td>
 
-Australia Early Availability
-
 -   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
 
 Use Service Delivery Overview L1 menu to access the analytics dashboards. The Service Delivery Overview enables you to access charts and summary data on metrics such as proactive cases, account escalations, SLAs, channels used, core KPIs, and more. The Service Delivery Overview page is available in Service Operations Workspace in all releases. For CSM/FSM Configurable Workspace, it is available only in the Zurich and Australia releases.
@@ -113,9 +111,9 @@ Australia
 
 </td><td>
 
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+-   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
 
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
 
 </td></tr></tbody>
@@ -145,10 +143,7 @@ Australia
 
 </td><td>
 
-Australia Early Availability
-
--   The **Analytics** tab is removed from the customer account view.
--   The **Notify Customers** UI action is removed from the case record.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -177,7 +172,8 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   The **Analytics** tab is removed from the customer account view.
+-   The **Notify Customers** UI action is removed from the case record.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -206,7 +202,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

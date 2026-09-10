@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, remote, table, remote table, model, extract, extraction table]
 breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -37,7 +37,7 @@ ERP models
 
 </td><td>
 
-Models function as templates for sets of tables that give you access to ERP data. You can use the standard Zero Copy Connector for ERP models as-is, or clone them to make changes.Manage models to map input and output data for reading and updating the ERP system using wither table read operations or BAPIs \(Business Application Programming Interface\).
+Models function as templates for sets of tables that give you access to ERP data. You can use the standard Zero Copy Connector for ERP models as-is, or clone them to make changes.Manage models to map input and output data for reading and updating the ERP system using either table read operations or BAPIs \(business application programming interfaces\).
 
 For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
@@ -51,11 +51,11 @@ Access ERP systems using the Zero Copy Connector for ERP scripted API. For more 
 
 </td></tr><tr><td>
 
-Flows to query ERP data
+Flow action to query ERP data
 
 </td><td>
 
-Build a flow in Workflow Studio to specify details for querying the ERP system using the parameters specified in the model.
+Build a flow in Workflow Studio with the **Use ERP Data** flow action. Specify the details required to query the ERP system using the parameters defined in the model
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ ERP extraction tables
 
 </td><td>
 
-Extraction tables use an ETL process to extract large amounts of data from the ERP system at regular intervals and transform and save them to a Glide table.For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
 </td></tr></tbody>
 </table>

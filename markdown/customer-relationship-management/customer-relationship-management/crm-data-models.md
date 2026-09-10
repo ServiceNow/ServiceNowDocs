@@ -1,6 +1,6 @@
 ---
 title: Data models
-description: The CRM portfolio is built on a layered data architecture where each tier inherits from the one below it. This topic explains the four layers, Now Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
+description: The CRM portfolio is built on a layered data architecture where each tier inherits from the one following it. This topic explains the four layers, ServiceNow AI Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
 locale: en-US
 release: australia
 topic_type: concept
@@ -10,7 +10,7 @@ reading_time_minutes: 8
 
 # Data models
 
-The CRM portfolio is built on a layered data architecture where each tier inherits from the one below it. This topic explains the four layers, Now Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
+The CRM portfolio is built on a layered data architecture where each tier inherits from the one following it. This topic explains the four layers, ServiceNow AI Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
 
 ## CRM architecture
 
@@ -18,13 +18,13 @@ The CRM portfolio is organized into four tiers.
 
 \[Omitted image "crm-product-architecture-ai-platform.png"\] Alt text: Architecture that shows the Now platform as the bottom layer, with CRM foundation components, Customer Workflows, and Industry Workflows.
 
-At the base, the Now Platform provides the core tables, AI capabilities, and engines that every ServiceNow product inherits. Above that, the CRM Foundation defines the shared data objects \(Customer, Organization, Territory, Product, and Pricing\) along with shared engines and the transactional objects \(Opportunity, Quote, Order, Install Base, Contract, Case, Work Order\) that all CRM products use. The Customer Workflows tier delivers the three core CRM products at the same level: Sales CRM, Customer Service Management \(CSM\), and Field Service Management \(FSM\). At the top, Industry Workflows provide preconfigured solutions for verticals including Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing.
+At the base, the ServiceNow AI Platform provides the core tables, AI capabilities, and engines that every ServiceNow product inherits. Before that, the CRM Foundation defines the shared data objects \(Customer, Organization, Territory, Product, and Pricing\) along with shared engines. It also defines the transactional objects \(Opportunity, Quote, Order, Install Base, Contract, Case, Work Order\) that all CRM products use. The Customer Workflows tier delivers the three core CRM products at the same level: Sales CRM, Customer Service Management \(CSM\), and Field Service Management \(FSM\). At the top, Industry Workflows provide preconfigured solutions for verticals including Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing.
 
-Sales CRM, CSM, and FSM are not separate systems sharing data through integrations. They are three products built on the same CRM Foundation and platform data model. A company record, a person record, a product, a contract, each exists once in the CRM Foundation and is used by all three products and every industry solution above them.
+Sales CRM, CSM, and FSM aren't separate systems sharing data through integrations. They are three products built on the same CRM Foundation and platform data model. A company record, a person record, a product, a contract—each exists once in the CRM Foundation. All three products and every industry solution before them use these shared records.
 
-## Layer 1: Now Platform base
+## Layer 1: ServiceNow AI Platform base
 
-Every ServiceNow product is built on the same core tables. These base objects are not replicated per product; they are inherited. When a Case is created in CSM, it extends the same Task record that an ITSM Incident extends. When an Order is created in Sales CRM or a Work Order in FSM, both extend the same Task record. The same holds for person records, company records, and SLA logic. This layer also includes Predictive AI and GenAI capabilities.
+Every ServiceNow product is built on the same core tables. These base objects aren't replicated per product; they are inherited. When a Case is created in CSM, it extends the same Task record that an ITSM incident extends. When an Order is created in Sales CRM or a Work Order in FSM, both extend the same Task record. The same holds for person records, company records, and SLA logic. This layer also includes Predictive AI and GenAI capabilities.
 
 |Platform object|Table name|What it does|
 |---------------|----------|------------|
@@ -66,7 +66,7 @@ Product Configuration Engine
 
 </td><td>
 
-Manages product bundles, compatibility rules, and configuration options.Primary consumer is Sales CRM during quoting and ordering Also used by CSM during sold-product modification flows and by Industry workflows that extend Sales CRM with vertical-specific configuration logic.
+Manages product bundles, compatibility rules, and configuration options.Primary consumer is Sales CRM during quoting and ordering. Also used by CSM during sold-product modification flows and by Industry workflows that extend Sales CRM with vertical-specific configuration logic.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ The Customer Workflows tier contains the three core CRM products at the same lev
     |Lead|lead|Prospective customer. Converts to Opportunity + Account/Contact on qualification.|Prospect|
     |Opportunity|opportunity|Potential deal linked to an Account. Tracks sales stage; one-to-one with a Quote.|Qualify|
     |Product Offering|product\_offering|Extends Product Model with pricing rules, bundles, and compatibility rules.|Configure|
-    |Quote \(CPQ\)|quote|Priced proposal generated by the CPQ configurator. Applies pricing rules and bundles in real time|Price|
+    |Quote \(CPQ\)|quote|Priced proposal generated by the CPQ configurator. Applies pricing rules and bundles in real-time|Price|
     |Order|sn\_order\_mgmt\_order|Confirmed purchase. Extends platform Task and triggers downstream fulfillment workflows.|Order|
     |Fulfillment Task|sc\_task|Extends platform Task. Represents individual work steps executed during order fulfillment.|Fulfill|
 
@@ -130,9 +130,9 @@ The Customer Workflows tier contains the three core CRM products at the same lev
 
 ## Layer 4: Industry Workflows
 
-The top tier provides preconfigured solutions for Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing. Each industry solution extends the CRM data model with domain-specific entities, such as subscriber records for telecom, policy records for financial services, or patient records for healthcare, while inheriting every shared object and engine from the layers below.
+The top tier provides preconfigured solutions for Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing. Each industry solution extends the CRM data model with domain-specific entities, such as subscriber records for telecom, policy records for financial services, or patient records for healthcare. These solutions inherit every shared object and engine from the layers following.
 
-Industry Workflows build on top of the CRM Foundation and Customer Workflows; they do not replace them. A telecom agent still works with the same Case, Account, Contact, and Entitlement objects that any CSM agent uses, but the workspace, playbooks, and data model extensions are preconfigured for telecommunications workflows. Organizations can deploy an industry solution as a starting point and modify it as requirements evolve.
+Industry Workflows build on top of the CRM Foundation and Customer Workflows; they don't replace them. A telecom agent still works with the same Case, Account, Contact, and Entitlement objects that any CSM agent uses. The workspace, playbooks, and data model extensions are preconfigured for telecommunications workflows. Organizations can deploy an industry solution as a starting point and modify it as requirements evolve.
 
 ## How the layers connect
 

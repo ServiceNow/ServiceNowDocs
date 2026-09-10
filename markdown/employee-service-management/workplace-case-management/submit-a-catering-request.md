@@ -26,49 +26,13 @@ Use the **Catering** workplace service to request for food service for meetings 
 
 ## Procedure
 
-1.  Navigate to the portal from one of the following locations.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d460510e70">
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-Location
+3.  From the Workplace Services, select **Catering**.
 
-</th><th align="left" id="d460510e73">
-
-Navigation
-
-</th></tr></thead><tbody><tr><td id="d460510e79">
-
-**Workplace Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
-
-The portal homepage opens.
-
-2.  Open the Site safety category.
-
-    1.  Select **Catalog**.
-    2.  Select **Browse by Categories**.
-    3.  In the Workplace Services Catalog, select **General**.
-**Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Submit a maintenance request**.
-
-
-</td></tr><tr><td id="d460510e149">
-
-**Employee Center**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-2.  On the Employee Center landing homepage, select the **Workplace Services** &gt; **Maintenance**.
-3.  Select **Submit a maintenance request**
-
-
-</td></tr></tbody>
-</table>2.  On the Submit a **Catering** request form, fill in the fields.
+4.  On the Submit a **Catering** request form, fill in the fields.
 
 <table id="table_ld1_pnj_ybc"><thead><tr><th>
 
@@ -155,13 +119,13 @@ Delivery method
 Select **Delivery** method of the catering service.
 
 </td></tr></tbody>
-</table>3.  You can add service items to the reservation.
+</table>5.  You can add service items to the reservation.
 
     **Note:** This option appears only if there is atleast one service item available for the specific location.
 
     The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-workplace-service-items.md)
 
-4.  Click **Submit**.
+6.  Click **Submit**.
 
 
 ## Result

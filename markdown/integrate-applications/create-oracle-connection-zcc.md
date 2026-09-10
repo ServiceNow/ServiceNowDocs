@@ -95,15 +95,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d668183e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d680851e236">
 
 Option
 
-</th><th align="left" id="d668183e239">
+</th><th align="left" id="d680851e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d668183e245">
+</th></tr></thead><tbody><tr><td id="d680851e245">
 
 **Username / Password**
 
@@ -115,7 +115,7 @@ Option to use basic authentication.
 2.  Enter the database password associated with the username.
 
 
-</td></tr><tr><td id="d668183e266">
+</td></tr><tr><td id="d680851e266">
 
 **OAuth**
 
@@ -125,22 +125,22 @@ Option to use OAuth authentication.
 
  OAuth authentication requires an OAuth entity profile configured in the Application Registries \[oauth\_entity\] table with your Oracle or IdP credentials. Oracle supports only the Access Token credential type.
 
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see . When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+ This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
  Select the OAuth entity profile for your Oracle or IdP service principal.
 
 </td></tr></tbody>
 </table>5.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d668183e305">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d680851e306">
 
 Option
 
-</th><th align="left" id="d668183e308">
+</th><th align="left" id="d680851e309">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d668183e314">
+</th></tr></thead><tbody><tr><td id="d680851e315">
 
 **Default**
 
@@ -148,7 +148,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d668183e325">
+</td></tr><tr><td id="d680851e326">
 
 **mTLS**
 
@@ -159,15 +159,15 @@ Select this option if your data source requires two-way SSL and uses its own cer
 </td></tr></tbody>
 </table>6.  If you selected mTLS, select a keystore type and configure the required certificates.
 
-<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d668183e344">
+<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d680851e345">
 
 Option
 
-</th><th align="left" id="d668183e347">
+</th><th align="left" id="d680851e348">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d668183e353">
+</th></tr></thead><tbody><tr><td id="d680851e354">
 
 **Keystore - PEM \(secure\)**
 
@@ -202,7 +202,7 @@ and ending with:
 2.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d668183e393">
+</td></tr><tr><td id="d680851e394">
 
 **Keystore - JKS \(secure\)**
 

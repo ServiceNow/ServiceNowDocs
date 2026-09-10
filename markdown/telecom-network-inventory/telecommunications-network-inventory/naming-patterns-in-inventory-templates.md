@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -47,7 +47,7 @@ parent_slot_name.replace("Slot-","Slot/").replace("Slot/","Ge")+" (\" + (positio
 
 For an interface at position 1 whose parent slot is named `Slot-6/1`, this pattern resolves to `Ge6/1 (Tx)`.
 
-Variables that the pattern references are read from the related template's context. Variables that cannot be resolved at design time are substituted with `?` in the Inventory Template Overview tree. For example, a top-level slot has no `parent_slot_name`. The tree displays `?` so you can identify the gap before using the template to create CIs.
+Variables that the pattern references are read from the related template's context. Variables that can't be resolved at design time are substituted with `?` in the Inventory Template Overview tree. For example, a top-level slot has no `parent_slot_name`. The tree displays `?` so you can identify the gap before using the template to create CIs.
 
 ## When naming patterns are evaluated
 
@@ -62,7 +62,7 @@ The Inventory Template Overview tab enables you to verify naming end to end at d
 
 -   **[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)**  
 The equipment model establishes default naming patterns for CIs \(configuration items\). Inventory templates inherit those patterns and can override them per related template.
--   **[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)**  
+-   **[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)**  
 When you instantiate an inventory template, each related template in the hierarchy produces a CI \(configuration item\). The CI's name comes from one of two sources, depending on whether the related template defines a naming pattern.
 -   **[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)**  
 The Overview tab on an inventory template record shows the full template hierarchy as a tree. Use it to check resolved CI names and spot validation errors before deploying the template.
@@ -78,7 +78,7 @@ The custom name validation extension point validates resolved names in the **Inv
 
 [Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
 
-[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
 [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 

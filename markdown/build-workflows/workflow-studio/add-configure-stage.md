@@ -26,15 +26,15 @@ Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/Serv
 
 1.  Add a stage.
 
-<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39354e75">
+<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39353e75">
 
 View
 
-</th><th align="left" id="d39354e78">
+</th><th align="left" id="d39353e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39354e84">
+</th></tr></thead><tbody><tr><td id="d39353e84">
 
 **Diagram**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the mini-picker, select the dotted square icon. \[Omitted image "diagram-stage-icon.png"\] Alt text: Square dotted stage icon in Diagram view mini-picker.
 
 
-</td></tr><tr><td id="d39354e113">
+</td></tr><tr><td id="d39353e113">
 
 **Board**
 
@@ -98,7 +98,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39354e257">
+<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39353e257">
 
 **Display order**
 
@@ -106,7 +106,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
 When there are multiple stages running at the same time, define the order in which stages appear during a playbook run.**Note:** In Workflow Studio, this can also be helpful when viewing parallel activities in Diagram view.
 
-</td></tr><tr><td id="d39354e277">
+</td></tr><tr><td id="d39353e277">
 
 **Start with delay**
 
@@ -114,7 +114,7 @@ When there are multiple stages running at the same time, define the order in whi
 
 Specify a duration of time to wait before running an stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d39354e300">
+</td></tr><tr><td id="d39353e300">
 
 **Restart rules**
 

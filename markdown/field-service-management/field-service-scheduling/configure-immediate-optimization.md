@@ -22,11 +22,13 @@ To set the system properties for the prioritized event mode, see [Schedule Optim
 
 Role required: wm\_admin
 
+\[Omitted video\] Description: This video demonstrates how to configure optimization for prioritized events
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
 
-2.  In the **Prioritized** and **Active** fields, set the values to true for the event types you want to include in immediate optimization.
+2.  In the **Prioritized** field, set the value to true for the event types you want to include in immediate optimization.
 
     **Note:** Only three event types may be enabled for prioritized optimization at one time. Confirm that only the most critical events are enabled.
 

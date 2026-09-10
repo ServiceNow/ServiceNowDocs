@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, create an incident, alert, Express List, Now Assist]
-breadcrumb: [Promote alerts in Express List, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Promote alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an incident from an alert with ServiceNow Otto in Express List

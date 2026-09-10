@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -24,6 +24,8 @@ Create a Knowledge Base article that defines custom placement policies for your 
 Reserve rack unit space in a data center by creating a data center infrastructure allocation change request and running the allocation.
 -   **[Re-initiate rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/reinitiate-rack-allocation.md)**  
 Re-initiate the **Find Allocation** action on a change request to find new racks to reserve when your requirements change or when the initial allocation needs to be revised.
+-   **[Rack allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/rack-allocation-workflow.md)**  
+The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
 
 **Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

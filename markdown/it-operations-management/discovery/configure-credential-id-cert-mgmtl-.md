@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To enable external storage credential support for TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo, set up the credential identifier within the instance for the respective Certificate Management credential type.
+To enable external storage credential support for TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo, set up the credential identifier within the instance. Configure the identifier for the respective Certificate Management credential type.
 
 ## Procedure
 

@@ -1,6 +1,6 @@
 ---
 title: Conversation-first experience
-description: Employee Slate places a conversational AI assistant at the center of the employee experience. Employees ask questions, request services, and complete tasks in natural language from every page.
+description: EmployeeWorks Web App places a conversational AI assistant at the center of the employee experience. Employees ask questions, request services, and complete tasks in natural language from every page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-conversation-first.html
 release: australia
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-04-29"
 reading_time_minutes: 2
 keywords: [conversation-first, conversation-everywhere, interactive split view, full-page search, persistent side navigation, follow-up chat]
-breadcrumb: [Employee Slate introduction, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Conversation-first experience
 
-Employee Slate places a conversational AI assistant at the center of the employee experience. Employees ask questions, request services, and complete tasks in natural language from every page.
+EmployeeWorks Web App places a conversational AI assistant at the center of the employee experience. Employees ask questions, request services, and complete tasks in natural language from every page.
 
-Employee Slate replaces menu-driven navigation with a chat-first interface. Employees describe what they need in plain language. The AI assistant interprets the intent, runs the action, and surfaces the right content from any page in the portal.
+EmployeeWorks Web App replaces menu-driven navigation with a chat-first interface. Employees describe what they need in plain language. The AI assistant interprets the intent, runs the action, and surfaces the right content from any page in the portal.
 
 ## Conversation-first
 
@@ -25,7 +25,7 @@ The home page features a prominent AI-powered chat and search bar. Employees int
 
 ## Conversation-everywhere
 
-The chat assistant follows employees across every page in Employee Slate. Employees open the chat from the **Home**, the **Inbox**, the **Canvas**, the **Org Chart**, or any other page. The assistant retains the active conversation context across pages. Employees continue any task without restarting the chat.
+The chat assistant follows employees across every page in EmployeeWorks Web App. Employees open the chat from the **Home**, the **Inbox**, the **Canvas**, the **Org Chart**, or any other page. The assistant retains the active conversation context across pages. Employees continue any task without restarting the chat.
 
 ## Interactive split view
 
@@ -44,7 +44,7 @@ The full-page search expands the chat into a dedicated workspace. Employees see 
 
 ## Persistent side navigation
 
-The persistent side navigation menu provides quick access to core areas of Employee Slate from any page. The menu lists the **Home**, **Inbox**, **Canvas**, **Org Chart**, and other primary destinations. The menu stays visible during chat and split-view sessions. Employees switch context with one selection.
+The persistent side navigation menu provides quick access to core areas of EmployeeWorks Web App from any page. The menu lists the **Home**, **Inbox**, **Canvas**, **Org Chart**, and other primary destinations. The menu stays visible during chat and split-view sessions. Employees switch context with one selection.
 
 ## Follow-up chats
 

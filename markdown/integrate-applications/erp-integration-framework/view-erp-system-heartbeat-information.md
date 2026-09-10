@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, heartbeat, connection, error, status]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, heartbeat, connection, error, status, ping]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP system heartbeat information
@@ -33,7 +33,7 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
     \[Omitted image "erpc-system-rfc-heartbeat-ys2.png"\] Alt text: Zero Copy Connector for ERP system record with HTTP heartbeats tab displayed.
 
-    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
     By default, all heartbeat information is kept for one week, but users with the admin role can change that setting.
 

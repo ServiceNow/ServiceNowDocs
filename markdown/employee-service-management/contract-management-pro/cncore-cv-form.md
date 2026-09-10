@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -155,6 +155,10 @@ Enables the **Script** field where you can define clause conditions on fields an
 [Obligation form]()
 
 [Obligation Management notifications]()
+
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
 
 [Contract Management Pro glossary]()
 

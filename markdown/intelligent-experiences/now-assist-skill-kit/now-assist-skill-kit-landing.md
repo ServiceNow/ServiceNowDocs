@@ -1,6 +1,6 @@
 ---
 title: AI Skill Kit
-description: Use ServiceNow AI Skill Kit to create and publish custom prompts and skills for Otto. Creating custom skills and prompts enables you to have greater flexibility with Otto's generative AI capabilities.
+description: Use ServiceNow AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts enables you to have greater flexibility with ServiceNow Otto's generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Enable AI experiences]
 
 # AI Skill Kit
 
-Use ServiceNow® AI Skill Kit to create and publish custom prompts and skills for Otto. Creating custom skills and prompts enables you to have greater flexibility with Otto's generative AI capabilities.
+Use ServiceNow® AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts enables you to have greater flexibility with ServiceNow Otto's generative AI capabilities.
 
-\[Omitted video\] Description: Otto Skill Kit video that shows how to build a custom skill.
+\[Omitted video\] Description: AI Skill Kit video that shows how to build a custom skill.
 
 ## Get started
 
@@ -56,5 +56,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

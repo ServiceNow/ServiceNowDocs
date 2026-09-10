@@ -1,5 +1,5 @@
 ---
-title: Setting up the ServiceNow University spoke
+title: Set up the ServiceNow University spoke
 description: Connect ServiceNow University with Coaching with Learning to pull courses from ServiceNow University into your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-now-learning-spoke.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [ServiceNow University Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
-# Setting up the ServiceNow University spoke
+# Set up the ServiceNow University spoke
 
 Connect ServiceNow University with Coaching with Learning to pull courses from ServiceNow University into your ServiceNow instance.
 
@@ -29,21 +29,42 @@ Connect ServiceNow University with Coaching with Learning to pull courses from S
 
 -   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
 
+**Note:** If you are using an earlier version of the ServiceNow University spoke and want to upgrade to ServiceNow University spoke v1.1.1, you must delete the existing connection and credential records.
+
+To delete the existing connection and credential record:
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+2.  Search and open the default connection and credential record for the ServiceNow University spoke. For example, **ServiceNow University**.
+3.  Under the **Connections** tab, open the default HTTP\(s\) Connection record. For example, **ServiceNow University Connection**.
+4.  Click **Delete**. System prompts you confirm delete action.
+5.  Click **Delete**.
+6.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+7.  Search and open the default credential record for the Ansible spoke. For example, **ServiceNow University Credential**.
+8.  Click **Delete**. System prompts you confirm delete action.
+9.  Click **Delete**.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Connections&amp;Credentials** &gt; **Connections&amp;Credentials Aliases**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select **ServiceNow University**.
+2.  Click the **Integrations** tab.
 
-3.  Select the **Create New Connection&amp;Credential** related link.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-    The **Create Connection and Credential** form appears.
+4.  Locate the alias for **Now Learning** and click **View Details**.
 
-4.  Create the ServiceNow University connection.
+    -   To configure the default connection and credential alias record that is shipped along with the ServiceNow University spoke, click **View Details**.
 
-    1.  On the form, fill in the fields.
+        \[Omitted image "image.now-learning-conf-temp"\] Alt text:
 
-<table id="table_ld3_smc_fbc"><thead><tr><th>
+    -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "image.now-learning-conf-temp2"\] Alt text:
+
+5.  On the form, fill in these fields:
+
+<table id="table_hcp_4b1_lkc"><thead><tr><th>
 
 Field
 
@@ -61,7 +82,7 @@ Connection Name
 
 </td><td>
 
-A unique name for the connection; for example, ServiceNow University Connection.
+A unique name for the connection; for example, Now Learning.
 
 </td></tr><tr><td>
 
@@ -73,14 +94,6 @@ The ServiceNow server to retrieve the API information.**Default value**: [https:
 
 </td></tr><tr><td>
 
-API Version
-
-</td><td>
-
-Version of the connection URL to connect to the connection server.**Default value**: v1
-
-</td></tr><tr><td>
-
 Ocp-Apim-Subscription-Key
 
 </td><td>
@@ -89,7 +102,7 @@ Encryption key for the ServiceNow University subscription. Contact [nowlearninga
 
 </td></tr><tr><td colspan="2">
 
-**OAuth Credential Information**
+**Credential Information**
 
 </td></tr><tr><td>
 
@@ -101,11 +114,19 @@ A unique name for the credential; for example, ServiceNow University Credential.
 
 </td></tr><tr><td>
 
+Application Registry Name
+
+</td><td>
+
+A unique name for the application registry; for example, ServiceNow University OAuth.
+
+</td></tr><tr><td>
+
 Token URL
 
 </td><td>
 
-On your web browser, enter: [https://ssosignon.servicenow.com/oauth2/ausxfcnusg830r7kp0x7/v1/token](https://ssosignon.servicenow.com/oauth2/ausxfcnusg830r7kp0x7/v1/token)This is the link to the OAuth server token endpoint.
+OAuth server token endpoint in this format: `https://servicenowsignon.okta.com/oauth2/<id>/v1/token`. Replace `<id>` with the value of `authorizationServerId`.
 
 </td></tr><tr><td>
 
@@ -123,40 +144,9 @@ Client Secret
 
 The Client Secret of the application registered in the third-party OAuth server. Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your client secret.
 
-</td></tr><tr><td>
-
-Username
-
-</td><td>
-
-User name to access the credential. Contact[nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your user name.
-
-</td></tr><tr><td>
-
-Password
-
-</td><td>
-
-Password to access the credential. Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your password.
-
-</td></tr><tr><td>
-
-Scope
-
-</td><td>
-
-Validates the ServiceNow University application programming interface \(API\) based on the parameters set in the application scope.**Default value:** openid email offline\_access
-
 </td></tr></tbody>
-</table>    2.  Select **Create and Get OAuth Token**.
+</table>    \[Omitted image "image.now-learning-temp"\] Alt text:
 
+6.  Click **Save and Get OAuth Token**.
 
-## Result
-
-The connection alias you've created appears in the Connection and Credentials related list.
-
-**Important:**
-
--   You can only have one Connection in the Connections related list. If you are creating another connection, you must make the first one inactive.
--   The OAuth token also displays in the **ServiceNow University Spoke** &gt; **Credentials**. You can have only one active ServiceNow University credential. If you are creating another credential, you must make the first one inactive.
 

@@ -1,5 +1,5 @@
 ---
-title: Ingestion view in Service Graph Workspace
+title: SGC view in CMDB Workspace
 description: The Overview page in the Ingestion view in Service Graph Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.html
@@ -9,16 +9,16 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-04-29"
 reading_time_minutes: 10
-breadcrumb: [Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Ingestion view in Service Graph Workspace
+# SGC view in CMDB Workspace
 
 The Overview page in the Ingestion view in Service Graph Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 
 ## Access
 
-Navigate to **Workspaces** &gt; **Service Graph Workspace**, and then in the navigation panel, select the Ingestion icon.
+Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the navigation panel, select the Ingestion icon.
 
 Role required: sgc\_admin, cmdb\_inst\_admin, or admin
 
@@ -500,4 +500,5 @@ CMDB Integration Execution Audit \[sn\_cmdb\_int\_util\_cmdb\_integration\_execu
 Displays the breakdown of updated and inserted CIs for a class.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
+

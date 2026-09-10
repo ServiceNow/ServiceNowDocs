@@ -34,7 +34,7 @@ Role required: evt\_mgmt\_admin
 
     The **Configuration Item** attribute is automatically considered as an identifier and should not be added explicitly to the Feature Identifier Attributes section. The pattern is defined as a combination of the configuration item and your selected feature identifier attributes.
 
-4.  Selecting the Lock Feature Identifier Attributes icon \(\[Omitted image "image.em-lock-feature-identifier.png"\] Alt text: Lock Feature Identifier Attributes icon\).
+4.  Selecting the Lock Feature Identifier Attributes icon \(\[Omitted image "em-lock-feature-identifier.png"\] Alt text: Lock Feature Identifier Attributes icon\).
 
 5.  Select **Submit** for a new pattern identifier or **Update** for an existing pattern identifier.
 
@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_admin
 ## What to do next
 
 -   Ensure a corresponding event rule exists: Verify that there is an event rule set up to assign or populate the newly defined pattern identifier attributes to the incoming alerts. Event rules define how attributes are assigned to alerts based on certain conditions.
--   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job is used to retroactively populate the pattern identifier attributes for existing alerts that were created before the new attributes were defined. It ensures that even past alerts \(historical alerts\) have the necessary attributes filled in for grouping them properly.
+-   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts. It ensures that past alerts have the necessary attributes for proper grouping.
 

@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-07-29"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Using CMDB success advisor for Data Foundations, Data Foundations dashboard overview, principal class CI data quality, CI picker filtering by principal class, use]
 breadcrumb: [CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,4 +45,11 @@ The ServiceNow® CMDB success advisor is a scoped application that drives busine
 
     Monitor and optimize CMDB settings that support Data Foundations data quality.
 
+
+**Related topics**  
+
+
+[Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md)
+
+[Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
 

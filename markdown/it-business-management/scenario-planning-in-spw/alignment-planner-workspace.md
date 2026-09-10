@@ -572,6 +572,8 @@ The Capacity tab provides portfolio managers a comprehensive view of capacity, a
 Plan, re-forecast, track the financials, and create baselines for all of your planning items.
 -   **[Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/executing-work-from-apw-in-ppm-agile2-0-or-safe.md)**  
 Facilitate execution of the work planned in Strategic Planning in ServiceNow applications such as Project Portfolio Management \(PPM\), Agile Development 2.0, or Scaled Agile Framework.
+-   **[Portfolio plan RIDACs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plan-ridac-spw.md)**  
+Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
 -   **[ServiceNow Otto skills for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/ai-skills-spw.md)**  
 Use ServiceNow Otto skills to generate portfolio insights, generate goals insights, and targets for goals.
 -   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/better-together-with-other-apps-spw.md)**  

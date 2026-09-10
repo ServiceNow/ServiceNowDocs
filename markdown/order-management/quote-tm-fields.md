@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-field
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 4
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction fields
@@ -104,6 +104,17 @@ Transaction line-level system fields cover the following categories: pricing inf
 ## Custom fields
 
 Custom fields can be added to a blueprint through the ServiceNow Quote Experience administration interface. Fields created through the interface are automatically associated with the blueprint.
+
+-   **[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-field.md)**  
+Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
+-   **[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-header-level-system-fields.md)**  
+Reference for the system-provided fields at the transaction \(header\) level in Quote Experience, including variable names, descriptions, who can modify each field, and default values.
+-   **[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md)**  
+Reference for the system-provided fields at the transaction line level in CPQ ServiceNow Quote Experience, including variable names, descriptions, who can modify each field, and default values.
+-   **[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md)**  
+Reference for how date and time fields behave in CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

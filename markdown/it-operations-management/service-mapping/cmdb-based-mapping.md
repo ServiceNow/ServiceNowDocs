@@ -16,7 +16,7 @@ breadcrumb: [Choose the right method for discovering and mapping services, Explo
 
 Using data stored in the Configuration Management Database \(CMDB\), you can run top-down discovery and map your organization's application services without having to access a MID Server.
 
-Top-down discovery begins with an IP address and retrieves the associated host. It then tries to locate an available MID Server. If a MID Server isn’t available and CMDB-based mapping is active, it is initiated. This feature uses incoming traffic already registered in the CMDB to pinpoint the target process running on an identified IP address and searches for an application linked to it. The application is then mapped as a node on the service map.
+Top-down discovery begins with an IP address and retrieves the associated host. It then tries to locate an available MID Server. If a MID Server isn’t available and CMDB-based mapping is active, it is initiated. This feature uses incoming traffic already registered in the CMDB to pinpoint the target process running on an identified IP address. It then searches for an application linked to that process. The application is then mapped as a node on the service map.
 
 If an application isn’t identified, CMDB-based mapping uses Application Dependency Mapping \(ADM\) logic to classify and create an application linked to the target process within the CMDB.
 

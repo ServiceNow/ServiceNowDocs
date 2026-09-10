@@ -32,7 +32,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Gremlin spoke v1.0.3 is the latest version.
+Gremlin spoke v1.0.3 is the latest version. For version history of the spoke, see [Gremlin spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-gremlin.html).
 
 ## Supported versions
 

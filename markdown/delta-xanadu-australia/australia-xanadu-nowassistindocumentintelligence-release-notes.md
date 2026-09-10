@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistindocumentintelligence-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -96,103 +96,11 @@ Yokohama
 The document and visual insights AI agent can recognize and provide citations for multiple attachments.
 
 
--   **[LLM selection for use cases](https://www.servicenow.com/docs/access?context=set-up-use-case-for-now-assist-document-intelligence&family=yokohama&ft:locale=en-US)**
-
-Configure a different LLM to generate predictions for extraction and Q&amp;A use cases.
-
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
-
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-
-
--   **[Document and visual insights AI agent](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
-
-Use an AI agent to help process the tasks that analyze and extract data from documents and images.
-
--   **[Full automation for document data extraction](https://www.servicenow.com/docs/access?context=turn-on-full-automation-for-document-extraction-na&family=yokohama&ft:locale=en-US)**
-
-Automatically extract the document data and process the document task without agent review.
-
--   **[Data extraction from accounts payable \(AP\) invoices](https://www.servicenow.com/docs/access?context=exploring-now-assist-apo&family=yokohama&ft:locale=en-US)**
-
-Extract data from invoices with Now Assist for APO.
-
--   **[Document chat in Virtual Agent](https://www.servicenow.com/docs/access?context=upload-documents-na-va&family=yokohama&ft:locale=en-US)**
-
-Integrate Now Assist for Virtual Agent with Now Assist in Document Intelligence to enable the chat responses that are based on the document content.
-
--   **[Attachment summarization in ITSM](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-skill&family=yokohama&ft:locale=en-US)**
-
-View the summaries of attachments with the record summary in ITSM.
-
-
--   **[Document extraction](https://www.servicenow.com/docs/access?context=extract-document-data-with-now-assist-document-intelligence&family=yokohama&ft:locale=en-US)**
-
-Extract the data from documents by using LLMs to provide the recommended field values.
-
--   **[Document Q&amp;A](https://www.servicenow.com/docs/access?context=review-document-qnas-with-now-assist-document-intelligence&family=yokohama&ft:locale=en-US)**
-
-Use generative AI to find the answers to the predefined questions in a document.
-
--   **[Setting up use cases for Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=set-up-use-case-for-now-assist-document-intelligence&family=yokohama&ft:locale=en-US)**
-
-Set up Document Intelligence use cases to enable agents to use the document extraction and document Q&amp;A skills.
-
-
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
-
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=zurich&ft:locale=en-US)**
-
-The document and visual insights AI agent can recognize and provide citations for multiple attachments.
-
-
--   **[Open document in a new tab](https://www.servicenow.com/docs/access?context=set-up-use-case-for-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
-
-View a test document in a larger workspace on a separate browser tab during use case setup.
-
--   **[Image captioning in Knowledge Center](https://www.servicenow.com/docs/access?context=knowledge-center&family=zurich&ft:locale=en-US)**
-
-Extract information from images to support accessibility captioning in knowledge base articles.
-
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=zurich&ft:locale=en-US)**
-
-Leverage features that enable you to use the document and visual insights AI agent with selected LLMs to upload files, extract information without a predefined use case, and display results in a dedicated document view.
-
-    -   Select an LLM for the AI agent to use when processing documents and images.
-    -   Now LLM Service is not an available option for LLM selection.
-    -   Prompt the AI agent to upload a file to process.
-    -   View the results of the AI agent actions in a document view screen.
-
--   **[Document Intelligence for AI Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
-
-Use document and visual intelligence to leverage extraction, question answering, and summarization capabilities for a skill created with AI Skill Kit.
-
--   **[Language model selection](https://www.servicenow.com/docs/access?context=languages-supported-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
-
-Select the language for a use case to help the optical character recognition \(OCR\) model to detect text in the document and image files.
-
--   **[Image mode selection for use cases](https://www.servicenow.com/docs/access?context=set-up-use-case-for-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
-
-Turn on image mode to process images more efficiently for use cases that use a multimodal AI model.
-
--   **[Model provider flexibility at the use case level](https://www.servicenow.com/docs/access?context=llms-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
-
-Choose a model provider at the use case level, including a Now Assist default option that uses the instance-level model selected in AI Control Tower.
-
--   **[Information extraction for Operational Sustainability Risk Management](https://www.servicenow.com/docs/access?context=filter-citations-and-authority-documents-for-esg&family=zurich&ft:locale=en-US)**
-
-Extract ESG-related information from invoices to support Operational Sustainability Risk Management initiatives and regulatory compliance.
-
--   **[Improved security for the document and visual insights AI agent](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
-
-Enable access control lists \(ACLs\) to improve the security for the document and visual insights AI agent. ACLs provide you with the capability to run AI agents and agentic workflow executions either as a dynamic user or an AI user.
-
-The document and visual insights AI agent and its skills are classified as a worker or helper agent. A worker can act as an AI user with different privileges than the human user. A helper only has the privileges of a human user.
-
 
 -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
@@ -204,16 +112,6 @@ Google Gemini and AWS Claude are available for generative AI skills and AI agent
 Australia
 
 </td><td>
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
 
 -   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=australia&ft:locale=en-US)**
 
@@ -247,17 +145,6 @@ Yokohama
 
 </td><td>
 
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
-
-Tools used by the document and visual insights AI agent are consolidated to improve performance.
-
--   **[Now Assist in Document Intelligence skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading: Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
-
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
@@ -268,11 +155,9 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
 
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=yokohama&ft:locale=en-US)**
-
-Generate a summary of document and image attachments with the document and visual insights AI agent.
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 </td></tr><tr><td>
@@ -281,67 +166,16 @@ Zurich
 
 </td><td>
 
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=zurich&ft:locale=en-US)**
-
-Tools used by the document and visual insights AI agent are consolidated to improve performance.
-
--   **[Changes to limitations](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-limitations&family=zurich&ft:locale=en-US)**
-
-The file size limit for uploading a file using the attachment summarization feature is changed from 10MB to 20MB.
-
--   **[Document Intelligence for AI Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
-
-The document and visual intelligence capabilities used to leverage extraction, question answering, and summarization capabilities for skills created with AI Skill Kit are available to users with the appropriate role\(s\).
-
--   **[Now Assist in Document Intelligence skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading: Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
-
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
-
-
--   **[Changes to limitations](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-limitations&family=zurich&ft:locale=en-US)**
-
-The page count limit decreases to 20 pages per file for an extraction based on a use case with a table defined.
-
--   ****
-
--   **[Merged skills](https://www.servicenow.com/docs/access?context=now-assist-document-extraction&family=zurich&ft:locale=en-US)**
-
-Document data extraction and document Q&amp;A capabilities are available in a single Extract information from documents skill.
-
-    -   The Extract information from documents skill is available in the list of Platform skills in the AI Admin Hub console.
-    -   Data extraction and document Q&amp;A capabilities can be set up for the same use case.
-    -   Agents can review the AI predictions for the fields, tables, and questions in the same task.
--   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=zurich&ft:locale=en-US)**
-
-Leverage added tools that enable the AI agent to display the extracted data and to look up existing use cases or create use cases based on descriptions and document attachments.
-
--   **[Changes to limitations](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-limitations&family=zurich&ft:locale=en-US)**
-
-The limitations set for Now Assist in Document Intelligence properties are updated to support processing larger documents.
-
-    -   DOCX files are supported for information extraction.
-    -   The page count limit is 200 pages per file If image mode is turned off for the use case. If image mode is turned on, the page count limit is 10 pages per file.
-    -   The file size limit is 20 MB.
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Now Assist in Document Intelligence skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=australia&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading: Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
 -   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=australia&ft:locale=en-US)**
 
@@ -391,8 +225,7 @@ Zurich
 
 </td><td>
 
--   The Document extraction skill has been removed from the list of Platform skills in the AI Admin Hub console.
--   The Document Q&amp;A skill has been removed from the list of Platform skills in the AI Admin Hub console.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -437,7 +270,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   The Document Q&amp;A skill has been removed from the list of Platform skills in the AI Admin Hub console.
 
 </td></tr><tr><td>
 
@@ -474,10 +307,42 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of any Now Assist plugin from ServiceNow Store. The following plugins are available:
 
--   
- For more information, see [Configuring Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=yokohama&ft:locale=en-US).
+    -   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=yokohama&ft:locale=en-US)
+    -   [Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
+For more information, see [Configuring Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -485,10 +350,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of any Now Assist plugin from ServiceNow Store. The following plugins are available:
 
--   
- For more information, see [Configure](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=zurich&ft:locale=en-US).
+    -   For more information, see [Configure](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -496,10 +363,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
--   
- For more information, see [Configure](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=australia&ft:locale=en-US).
+    -   For more information, see [Configure](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -528,7 +397,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
+
 
 </td></tr><tr><td>
 
@@ -536,7 +408,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
+
 
 </td></tr><tr><td>
 
@@ -544,7 +419,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -626,7 +504,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -671,7 +553,8 @@ Zurich
 
 </td><td>
 
--   **[Support for files in multiple languages](https://www.servicenow.com/docs/access?context=languages-supported-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
+-   **Localization information**
+    -   **[Support for files in multiple languages](https://www.servicenow.com/docs/access?context=languages-supported-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
 
 Process files with text in multiple languages, including Simplified Chinese and Japanese.
 

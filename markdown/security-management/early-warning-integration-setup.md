@@ -43,7 +43,7 @@ Role required: Armis Intelligence Center console account and credentials
 
 ## What to do next
 
-[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t-configure_early_warning_integration.md)
+[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-early-warning-integration.md)
 
 **Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
 

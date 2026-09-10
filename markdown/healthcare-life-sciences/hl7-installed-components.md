@@ -97,7 +97,7 @@ Maps an HL7 field position within a parser segment to a dotted output path \(`fi
 </td></tr></tbody>
 </table>## UI actions installed
 
-The application installs two UI actions on the parser configuration form: **Parse Sample Payload**, which parses the configuration's sample payload and populates the parsed value on each field map; and **Clone**, which deep-copies a configuration and its segments and field maps to a new, inactive configuration.
+The application installs two UI actions on the parser configuration form. **Parse Sample Payload** parses the configuration's sample payload and populates the parsed value on each field map. **Clone** deep-copies a configuration and its segments and field maps to a new, inactive configuration.
 
 ## Demo parser configurations installed
 
@@ -109,12 +109,4 @@ The following parser configurations are installed only when you select **Load de
 |HL7 v2.8 ADT^A02 — Transfer|Demo parser configuration for ADT^A02 \(patient transfer\) messages. Covers the EVN, PID, and PV1 segments.|
 |HL7 v2.8 ADT^A03 — Discharge|Demo parser configuration for ADT^A03 \(patient discharge\) messages. Covers the EVN, PID, and PV1 segments.|
 |HL7 v2.8 ADT^A08 — Update|Demo parser configuration for ADT^A08 \(patient information update\) messages. Covers the EVN, PID, and PV1 segments.|
-
-## Scheduled jobs installed
-
-None.
-
-## System properties installed
-
-None.
 

@@ -31,7 +31,7 @@ The maximum number of CI connections added to application services during this o
 
 Attempting to process more CIs than the value specified in the sa.service.max\_ci\_service\_population property causes the operation to fail.
 
-Run the conversion process in small chunks of approximately 10 at a time, to make it easier to pinpoint the problematic service in the event of a conversion problem.
+Run the conversion process in small chunks of approximately 10 at a time. This makes it easier to pinpoint the problematic service if a conversion problem occurs.
 
 Application services do not support these CI types:
 

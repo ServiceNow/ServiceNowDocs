@@ -195,7 +195,7 @@ Populate the **Resource** and **Metric Name** fields. **Note:** If CI is also bo
     General alert functionality:
 
 
--   An alert is opened whenever an event is not ignored or its threshold is exceeded by an event rule, and de-duplication does not identify the event as belonging to an existing alert.
+-   An alert is opened when an event is not ignored or its threshold is exceeded by an event rule. De-duplication must not identify the event as belonging to an existing alert.
 -   An alert is closed when a closing event is sent on the same message key, or the alert is closed manually.
 -   An alert is reopened if an opening alert that has the same message key is sent within the timeframe defined in properties \(default is one hour\).
 -   If an alert is opened and closed at a high rate, as defined in properties, it becomes flapping. When this opening and closing rate stops, the alert goes out of flapping state.

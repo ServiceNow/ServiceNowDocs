@@ -20,10 +20,6 @@ Complete the answers to questions associated with a work order task and store th
 
 Agents can’t view each others completed questionnaire, even if the agent impersonates the other agent’s profile.
 
-## About this task
-
-The **Change Approval Policy** activity generates approvals from the associated change approval policy. Approval timing, due dates, and escalation are governed by the approval definitions in the policy and not by the activity. To set due dates and automatic resolution \(approve, reject, or cancel on due date\), use the Apply Change Approval policy flow action.For more information, see Change approval policy
-
 ## Before you begin
 
 You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-questionnaire.md).

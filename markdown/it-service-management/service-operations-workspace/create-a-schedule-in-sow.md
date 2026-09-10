@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -23,7 +23,7 @@ There are two ways to create and edit a shift:
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and click **schedules** tab.
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "show-schedules-icon.png"\] Alt text: Schedules menu.
 
-Get an overview of how to create and edit a shift in this video.
+**Note:** This procedure creates and edits a shift for one team at a time. To associate a shift template with multiple teams or groups in one go, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Role required: rota\_manager, rota\_admin
 
 1.  On **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
 
-    If you select **Create New**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
+    If you select **Create new**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
 
 <table id="table_d1x_z3z_21c"><thead><tr><th>
 
@@ -125,7 +125,7 @@ Repeats until
 Date and time to end repetition.
 
 </td></tr></tbody>
-</table>    For **Use shift template**, fill in the fields, as appropriate.
+</table>    For **Use template**, fill in the fields, as appropriate.
 
 <table id="table_zl1_djz_21c"><thead><tr><th>
 
@@ -145,11 +145,11 @@ Name for the shift.
 
 </td></tr><tr><td>
 
-Template/Schedule
+Schedule
 
 </td><td>
 
-Existing templates for shifts.Choices are:
+Existing schedule templates for shifts.Choices are:
 
 -   24 x 7
 -   Off hours \(workday 8:00 - 5:00\)

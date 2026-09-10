@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a pre-authorization request, Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Review and approve a pre-authorization request

@@ -57,7 +57,7 @@ The solution combines purpose-built applications for the telecom, media, and tec
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [Data Center and Network Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=data%20center%20and%20network%20asset%20management&spa=1)

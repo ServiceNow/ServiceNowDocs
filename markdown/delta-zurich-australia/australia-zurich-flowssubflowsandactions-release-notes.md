@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-flowssubflowsandactions-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,11 +46,12 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://www.servicenow.com/docs/access?context=restore-save-as-you-go-functionality&family=australia&ft:locale=en-US).
 
- The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
 
- The Australia release restricts the default flow reporting level available on production instances to the basic reporting level. While you can't set all flows to the full reporting level, you can still set individual flows to the full reporting level. For more information about setting a flow's reporting level, see [Activate flow reporting](https://www.servicenow.com/docs/access?context=enable-flow-reporting&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -71,7 +72,38 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Create and manage external event sources](https://www.servicenow.com/docs/access?context=manage-external-event-sources&family=zurich&ft:locale=en-US)**
+
+Create an external event source on your ServiceNow instance that listens to events occurring in an application or system outside of the ServiceNow AI Platform®. Based on the external event source, you can define one or more external trigger definitions in your instance and then associate the external trigger definitions with the external event source. When an event that you specified in the external trigger definition occurs, the external trigger definition executes one or more flows. You can update or remove external event sources that you create.
+
+-   **[Create a domain-separated saved external trigger](https://www.servicenow.com/docs/access?context=create-saved-external-trigger&family=zurich&ft:locale=en-US)**
+
+Create a domain-separated saved external trigger. Configurations that you make to the trigger are auto-saved. After the trigger is published, you can edit only the **Label** field values.
+
+-   **[Create a reusable scheduled trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger&family=zurich&ft:locale=en-US)**
+
+Create a scheduled trigger that starts your flow when you need. Use the trigger across your flows.
+
+-   **[Make a flow wait for an email reply](https://www.servicenow.com/docs/access?context=wait-for-email-reply-action&family=zurich&ft:locale=en-US)**
+
+Pause a flow until an email reply is received to an outbound email record
+
+-   **[Show subflow stages in a parent flow](https://www.servicenow.com/docs/access?context=show-subflow-stages-in-a-parent-flow&family=zurich&ft:locale=en-US)**
+
+Show subflow stages as part of the execution details of a parent flow.
+
+-   **[Save flows, subflows, and actions automatically](https://www.servicenow.com/docs/access?context=save-as-you-go-flows&family=zurich&ft:locale=en-US)**
+
+Save flows, subflows, and actions automatically as you work on them.
+
+-   **[View flow history](https://www.servicenow.com/docs/access?context=flow-history&family=zurich&ft:locale=en-US)**
+
+View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
+
+-   **[View subflow history](https://www.servicenow.com/docs/access?context=subflow-history&family=zurich&ft:locale=en-US)**
+
+View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
+
 
 </td></tr><tr><td>
 
@@ -123,7 +155,30 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Display flow recommendations in flow diagramming view](https://www.servicenow.com/docs/access?context=exploring-flow-recommendations&family=zurich&ft:locale=en-US)**
+
+Get a list of recommendations for the next item in your flow while in a flow diagramming view.
+
+-   **[Launch the flow debugger from an updated button](https://www.servicenow.com/docs/access?context=flow-debugger&family=zurich&ft:locale=en-US)**
+
+Start the flow debugger from an updated button.
+
+-   **[Open conversational subflow settings from an updated button](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=zurich&ft:locale=en-US)**
+
+The option to open subflow conversational settings has moved from the more action menu to the sidebar.
+
+-   **[Open conversational action settings from an updated button](https://www.servicenow.com/docs/access?context=configure-action-conversation-settings&family=zurich&ft:locale=en-US)**
+
+The option to open action conversational settings has moved from the more action menu to the sidebar.
+
+-   **[See event sources from a new menu](https://www.servicenow.com/docs/access?context=create-an-external-event-source&family=zurich&ft:locale=en-US)**
+
+Create, read, update, or delete external event sources with the Event sources menu. An Event sources menu has been added to a panel of the spokes page that appears after you select a spoke under the **Integrations** tab.
+
 
 </td></tr><tr><td>
 
@@ -160,7 +215,7 @@ Australia
 
 </td><td>
 
-The now.assist.creator role is no longer a required role to use generative AI features with Now Assist.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -189,7 +244,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+The now.assist.creator role is no longer a required role to use generative AI features with Now Assist.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -218,9 +273,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 
- Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

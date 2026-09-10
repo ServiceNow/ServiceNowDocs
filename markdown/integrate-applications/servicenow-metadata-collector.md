@@ -58,7 +58,7 @@ Table
 
 </td><td>
 
-Table Name, Is Extendable, sys\_updated\_on \(timestamp\), Source Table, Parent Table \(for table inheritance\)
+Table Name, Description, Is Extendable, sys\_updated\_on \(timestamp\), Source Table, Parent Table \(for table inheritance\)
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Field
 
 </td><td>
 
-Field Name, Column Label, Reference Table \(for reference fields\), Mandatory, Is Primary \(for Data Fabric fields\), SQL Type \(for Data Fabric fields\)Enhanced metadata: Field type, Field size, Max length, Nullable \(true/false\), Default value, Internal Type
+Field Name, Description, Column Label, Reference Table \(for reference fields\), Mandatory, Is Primary \(for Data Fabric fields\), SQL Type \(for Data Fabric fields\)Enhanced metadata: Field type, Field size, Max length, Nullable \(true/false\), Default value, Internal Type
 
 </td></tr><tr><td>
 

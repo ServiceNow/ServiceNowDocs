@@ -1,6 +1,6 @@
 ---
 title: Components installed with Sourcing and Procurement Operations
-description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.
+description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.Use these properties to configure various settings in the Sourcing and Procurement Operations application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
 release: australia
@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [Install SPO, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -1285,5 +1285,15 @@ This property is enabled by default. However, if this property is disabled, do t
 4.  If the **Value** field shows **OFF**, change it to **ON** to enable this property.
 5.  Select **Update**.
 
-**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
+**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
+
+## Properties installed with Finance Common Architecture
+
+Use these properties to configure various settings in the Sourcing and Procurement Operations application.
+
+|Property|Description|
+|--------|-----------|
+|default\_je\_sheet\_name|Default sheet name of a Microsoft Excel file used to import journal entries.|
+|number\_of\_future\_periods|Number of future periods that are available in the Period filter list on the Finance Workspace.|
+|number\_of\_prior\_periods|Number of prior periods that are available in the Period filter list on the Finance Workspace.|
 

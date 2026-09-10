@@ -30,8 +30,8 @@ Before snapshot import and export in ERP Semantic Mining, a check is performed a
 Find details on standard ERP \(Enterprise Resource Planning\) remote tables, extraction tables, and fields in ERP Semantic Mining.
 -   **[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)**  
 Some tables of field descriptions in ERP Semantic Mining are too large to maintain in task topics. Find information on those large tables in this section.
--   **[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)**  
-Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to Zero Copy Connector for ERP, ERP Semantic Mining, and ERP content packs.
+-   **[Zero Copy Connector for ERP glossary]()**  
+Learn about the terms and concepts used in Zero Copy Connector for ERP.
 
 **Parent Topic:**[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)
 

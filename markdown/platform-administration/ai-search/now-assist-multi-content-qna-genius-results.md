@@ -124,7 +124,7 @@ In global and workspace search, when a Virtual Agent topic is cited as a source 
 -   The panel must be activated.
 -   A search source derived from the Skill \(topics\) indexed source must be linked to the search profile used for global search or the workspace search.
 
-If these requirements are not met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
+If these requirements aren't met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
 
 ## Asking follow-up questions
 

@@ -30,7 +30,7 @@ To use the automatic multimodal caption generation feature, you must activate th
 
 **Note:** Multimodal captioning is only supported for Knowledge \[kb\_knowledge\] table records from the Knowledge Table indexed source and for content retrieved by external content connectors.
 
-The multimodal captioning feature has been validated and tested for English-language content. For content in other languages, it may function but has not been evaluated for caption quality or accuracy. Multimodal captioning for non-English content is not currently supported.
+The multimodal captioning feature has been validated and tested for English-language content. For content in other languages, it may function but hasn't been evaluated for caption quality or accuracy. Multimodal captioning for non-English content is not currently supported.
 
 ## Procedure
 

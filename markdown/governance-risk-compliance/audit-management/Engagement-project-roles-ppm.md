@@ -1,6 +1,6 @@
 ---
 title: Roles required for Engagement project planning for Project Portfolio Management
-description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
+description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and
 
 # Roles required for Engagement project planning for Project Portfolio Management
 
-The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
+The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 
 ## Engagement-project planning features and roles
 

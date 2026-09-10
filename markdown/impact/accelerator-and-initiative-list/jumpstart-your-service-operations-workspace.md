@@ -20,6 +20,8 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your *Service Operations Workspace* provides customers with a comprehensive overview of *Service Operations Workspace*, showcasing how to unify day-to-day *IT Service Management* \(*ITSM*\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This Accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
 
+In addition to core workspace capabilities, this offering highlights *ServiceNow Otto* for IT Service Management capabilities and demonstrates how AI-powered experiences can help improve agent productivity and streamline common workflows.
+
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
@@ -39,6 +41,7 @@ Jumpstart Your *Service Operations Workspace* provides customers with a comprehe
     -   Overview of Service Operations Workspace
     -   Demonstration of Service Operations Workspace
         -   Manage common ITSM processes such as incidents, problems, and changes easily within a unified navigation and interface.
+        -   Overview of *ServiceNow Otto* for IT Service Management capabilities that can be enabled to enhance the workspace experience
         -   Improve overall employee experience with personalized, configurable views
         -   Collaborate across teams to resolve issues faster
     -   Review of leading practices and implementation guidance

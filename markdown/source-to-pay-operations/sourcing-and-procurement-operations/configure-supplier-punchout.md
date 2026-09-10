@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -169,18 +169,28 @@ You can map the product categories and units of measure for third-party products
 -   **[Add third-party catalog data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-third-party-catalog-spo.md)**  
 You can download and add third-party catalog data in an Excel file template.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
 [Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Setting up primary data for ShoppingHub]()
 
 [Configuring work prioritization]()
 
 [Add a button in Shopping Hub]()
+
+[Add a footer link in Shopping Hub]()
 
 [Customize your top suppliers on Shopping Hub]()
 
@@ -194,9 +204,7 @@ You can download and add third-party catalog data in an Excel file template.
 
 [Install Universal Request for Sourcing and Procurement Operations]()
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
-
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 
 [Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

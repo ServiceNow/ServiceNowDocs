@@ -16,7 +16,7 @@ breadcrumb: [Accelerators and Initiatives, Using Impact, Impact]
 
 This is a complete catalog of Impact initiatives.
 
-Refer to  for additional information on initiative consumption.
+Refer to [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for additional information on initiative consumption.
 
 <table id="table_dcj_bbv_bdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -24,7 +24,7 @@ Refer to  for additional information on initiative consumption.
 
 </td><td>
 
-[Getting started with Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
+[Getting started with Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Know about the Developer Support offering and identification of named contacts for requesting Developer Support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
 
 </td><td>
 

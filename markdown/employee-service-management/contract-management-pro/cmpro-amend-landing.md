@@ -88,7 +88,7 @@ The contract amendment workflow might progress as follows:
 
 For amendment documents, ServiceNow Otto for Contract Management Pro features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling you to review and analyze amendments effectively.
 
-For more information, see [ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
+For more information, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 -   **[Approve contracts to allow amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-approve-draft-cntr.md)**  
 Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, you need to manually approve it before submitting an amendment request.

@@ -8,13 +8,23 @@ product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # List and Related List
 
 Validate the functionality and visibility of records and UI actions in lists and related lists.
+
+Test Agent can now generate ATF tests that use List and Related List test steps, extending test coverage beyond form interactions to include list view operations such as validating visibility and applying filters. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md) for more information.
+
+Consider the following while creating the tests:
+
+-   Related lists has three sources: default platform relationships \(Attachments, Approvals, Journal Entries\), reference fields on the table, and custom relationships defined in `sys_relationship`. Only test related lists that have custom logic \(client scripts, UI policies, or custom relationships\) affecting their behavior. Default platform related lists without custom logic don't require testing.
+-   Before deciding a related list has no custom behavior, search the target table for matching client scripts \(`sys_script_client`\), UI policies \(`sys_ui_policy`\), and custom relationships \(`sys_relationship`\) that reference related list operations.
+-   Related list parameters use the format `<child_table>.<field>` \(for example, `task.parent`\) or `REL:<sys_id>` for custom relationships. These values must be looked up for each table.
+-   When a related list is confirmed to have custom logic, test all applicable methods: `relatedListVisibility` for visibility, `applyFilterToList` for filtering, `recordPresentInList` for membership, `openRecordInList` for navigation, and `listUIActionVisibility` for UI Actions. `clickListUIAction` should be used only when the specific action behavior needs verification, not as a default check.
+-   ATF list steps are part of a 13-category ATF namespace. Select `atf.list` for list/related list interactions; use `atf.form` for form field interactions, and `atf.uiTestScript` for custom UI not reachable through standard form or list steps.
 
 ## Validate Related List Visibility
 

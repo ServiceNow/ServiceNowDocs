@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, view, edit, setting]
-breadcrumb: [Using remote tables, Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using remote tables, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and edit ERP remote table details with Zero Copy Connector for ERP
@@ -53,6 +53,4 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 
 8.  Select **Save**.
 
-
-**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

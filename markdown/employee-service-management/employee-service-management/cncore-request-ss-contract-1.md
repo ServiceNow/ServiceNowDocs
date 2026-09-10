@@ -73,7 +73,9 @@ Review and finalize a contract document according to the contract request.
 -   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
 Edit a contract request, regenerate the contract document, and send it for signature.
 -   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
-Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
+-   **[Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-signing-order.md)**  
+Modify the order in which signatories sign a contract document that has not yet been sent for signature.
 -   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
 When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 -   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  

@@ -18,7 +18,7 @@ View detailed metrics for a service, as well as metrics from related entities, s
 
 ## About this task
 
-The **Observability** tab on the Service details page displays metrics for related entities inferred from external observability instances, enabling you to view related metrics without having to leave the ServiceNow platform.
+The **Observability** tab on the Service details page displays metrics for related entities inferred from external observability instances. You can view related metrics without leaving the ServiceNow platform.
 
 The metrics are grouped by the following entity types:
 

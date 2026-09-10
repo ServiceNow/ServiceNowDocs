@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Verifi Spoke v1.0 is the latest version.
+Verifi Spoke v1.0 is the latest version. For version history of the spoke, see [Verifi Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-verifi-spoke.html).
 
 ## Supported versions
 

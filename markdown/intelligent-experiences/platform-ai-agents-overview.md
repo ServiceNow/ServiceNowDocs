@@ -6,14 +6,18 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platfor
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow AI Platform, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 14
+breadcrumb: [ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # ServiceNow AI Platform AI agents
 
 The following AI agents are available for ServiceNow AI Platform.
 
+-   **[AI Analytics Q and A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-ai-analytics-q-and-a-ai-agent.md)**  
+This AI agent answers natural language questions about AI Analytics. It covers KPI definitions, dashboard widgets, source tables, data flows, deflection log states and scenarios, the deflection and metric frameworks, and ServiceNow platform scripts.
+-   **[AICT security analyzer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**  
+This AI agent generates context for a detected AI security event by aggregating asset, prompt, cross-threat, and correlation data. It then computes a confidence score from detection strength, event risk, and authorization signals.
 -   **[Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md)**  
 This AI agent handles all queries related to approval records for the current user.
 -   **[Data and policy configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-data-and-policy-configuration-agent-ai-agent.md)**  
@@ -68,6 +72,10 @@ This AI agent can fetch, update, create a record, link a knowledge base \(KB\) a
 This AI agent answers inquiries about existing tickets that were created by or are currently opened by the logged-in user. It should be triggered only when the user explicitly references an existing ticket \(for example, by asking for ticket status, updates, comments, or history\).
 -   **[Search Q&amp;A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-va-search-qa-agent-ai-agent.md)**  
 This agent searches available resources to answer user queries, serving as the fallback agent when other agents cannot handle a request.
+-   **[SHA diagnostic AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-sha-diagnostic-agent-ai-agent.md)**  
+This AI agent runs configuration diagnostics on the instance and presents actionable results to the admin.
+-   **[SHA triage AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-sha-triage-agent-ai-agent.md)**  
+This AI agent assesses whether the admin's AI problem description contains enough information to produce a meaningful diagnosis, asking at most one clarification question per turn across a maximum of two turns. It then produces a finalized problem description.
 -   **[Skill configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-skill-configuration-ai-agent.md)**  
 This AI agent executes all configuration operations for generative AI skills.
 -   **[Skill discovery AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-skill-discovery-ai-agent.md)**  
@@ -92,6 +100,16 @@ This AI agent executes automated actions across any web page, enabling form fill
 This AI agent resolves issues by analyzing the problem and generating resolution steps using web search tools.
 -   **[Work allocator AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-work-allocator-ai-agent.md)**  
 This AI agent automatically fetches backlog tickets, evaluates agent workloads and performance metrics, and assigns tickets to agents in a way that optimizes distribution and operational efficiency.
+-   **[Content Understanding AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-content-understanding-ai-agents-overview.md)**  
+The following AI agents are available for Content Understanding.
+-   **[Knowledge Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-knowledge-management-ai-agents-overview.md)**  
+The following AI agents are available for Knowledge Management.
+-   **[MID Server AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-mid-server-ai-agents-overview.md)**  
+The following AI agents are available for MID Server.
+-   **[Notifications AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-notifications-ai-agents-overview.md)**  
+The following AI agents are available for Notifications.
+-   **[Setup Hub AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-setup-ai-agents-overview.md)**  
+The following AI agents are available for Setup Hub.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

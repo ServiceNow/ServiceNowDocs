@@ -1,6 +1,6 @@
 ---
 title: Observables source records
-description: The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds or manually created by the user.
+description: The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds, extracted from indicator patterns, or manually created by the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-observables-source-records.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Th
 
 # Observables source records
 
-The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds or manually created by the user.
+The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds, extracted from indicator patterns, or manually created by the user.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_sec\_tisc.analyst
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click **Threat Analyst Workbench** icon.
+2.  Select **Threat Analyst Workbench** icon.
 
 3.  Go to **Observables** &gt; **All Observables**.
 

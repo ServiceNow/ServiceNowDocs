@@ -41,5 +41,7 @@ Synchronize supplier data with any external third-party application to ensure th
 
 [Relish Integration for Supplier Lifecycle Operations]()
 
+[FedEx Dataworks Integration for Supplier Lifecycle Operations]()
+
 [Synchronize supplier data using external third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sync-supp-data-craft.md)
 

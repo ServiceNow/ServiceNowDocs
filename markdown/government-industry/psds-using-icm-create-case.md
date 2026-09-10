@@ -20,9 +20,9 @@ Role required: icm.investigator, admin
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **My active cases** &gt; **New**.
+1.  Navigate to the CRM Workspace and select **My active cases** &gt; **New**.
 
-    Alternatively, you can create a new case using the CSM Configurable Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** &gt; **New**.
+    Alternatively, you can create a new case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** &gt; **New**.
 
 2.  Select the case classification code from the dropdown menu to select the investigation type.
 

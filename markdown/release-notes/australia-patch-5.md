@@ -37,11 +37,6 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 ## Changes in Australia Patch 5
 
 -   **[Adoption Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/adoption-services-rn.md)**
-
-    genai\_admin role in Dynamic Guidance
-
-    The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
-
 -   **[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure.md)**
 
     When sn\_dyn\_guidance\_user role is assigned, it also includes the genai\_admin role.
@@ -49,30 +44,21 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
     **Note:** The genai\_admin role does not grant administrative privileges.
 
 -   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/integration-hub-rn.md)**
-
-    [OAUTHBEARER authentication for Stream Connect message replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md)
-
-    Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
-
 -   **[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-usage-dashboard.md)**
 
-    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see [Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md).
+    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see .
 
 -   **[Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md)**
 
     Updates to OAUTHBEARER, Token endpoint URL, Client ID, Client Secret, Scope, and OAUTH extensions.
 
--   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
+-   ****
 
     Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
 
 -   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)**
 
     The sys property ML Trainer - Glide communication KAA \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation when mTLS is enabled.
-
-    Sys property: [ML Trainer - Glide communication KAA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-properties.md)
-
-    A sys property \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation to the ML Trainer server. KAA validation occurs only if mTLS is enabled on the instance. If this property is enabled but mTLS isn't enabled, the KAA validation is skipped. Default value is true \(from the Australia release\).
 
 -   **[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-id-reconciliation.md)**
 
@@ -139,11 +125,6 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
     -   Learn more: 
     -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   **ServiceNow AI Platform core feature release notes**
-
-    [Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)
-
-    View data volumes returned in integration responses and monitor domain-level usage.
-
 -   **[ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-roles.md)**
 
     Learn and set up the roles necessary to use ServiceNow Vault.
@@ -152,7 +133,7 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 
     Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
 
--   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**
+-   ****
 
     View integration request counts, data egress volume, and domain-level usage.
 
@@ -4291,6 +4272,45 @@ Add the needed RCA as part of the getRefRecord\(\) scoping bypass directive chan
 </td><td>
 
  
+
+</td></tr><tr><td>
+
+List Administration
+
+ PRB2009991
+
+</td><td>
+
+'Workflow'-type fields are displaying as 'Pending - has not started' for all values
+
+</td><td>
+
+This requires a single-line change that adds a defensive .clone\(\) call to deep-copy the choice list before WorkflowIcons.process\(\) mutates it. This prevents the shared cache from being poisoned by in-place label overwrites.
+
+</td><td>
+
+1.  Navigate to the table schema for the 'Incident' table.
+2.  Create a custom field named 'Test column' with the field type set to 'Workflow'.
+3.  Configure 2-3 choice options for the newly created custom field.
+4.  Select 2-3 incident records and set values for the 'Test column' field using any of the available options.
+5.  Open UI Builder.
+6.  Create an experience and page by using the 'List Page' template.
+7.  Once the page is created, navigate to it on the instance.
+8.  From the sidebar navigation, navigate to **Incidents** &gt; **All**.
+9.  Select the Personalize fields button on the list page.
+10. Add the Test column custom field to the visible columns.
+
+Observe that the workflow stages for the custom workflow type field appear empty.
+
+11. Open any incident record that has a value set for this field \(can be opened in classic view as well\).
+12. If the field is not visible, add it to the 'Form' view.
+
+Observe that the field displays 'Pending - has not started'. Note that even when the field value is changed via background script, it continues to display 'Pending - has not started'.
+
+
+ Expected behavior: The display value should be as per available choices.
+
+ Actual behavior: It displays 'Pending - has not started' even after changing value. 'Pending - has not started' is not even available as a choice option for a field.
 
 </td></tr><tr><td>
 

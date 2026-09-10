@@ -21,11 +21,11 @@ The Workplace Central Case management workspace is an all-in-one workspace using
 As a case manager, monitor the large number of workplace cases incoming daily at any time using the workspace. Check the number of active workplace cases, the cases that have breached SLA and those that are critical. The workspace enables you to focus on priority cases by providing you a categorized display. The workspace enables you to perform the following:
 
 -   You can analyze the number of cases opened and closed on a weekly basis. You can know the monthly volume of cases based on the workplace services.
--   You can view the case details in an organized display where you can focus on the most important actions and details to help you resolve the case quickly. You can edit a case, update case details, view the details of the employee who has requested the case and also know the location specified in the case on a floor map.
+-   You can view the case details in an organized display where you can focus on the most important actions and details to help you resolve the case quickly. You can edit a case and update case details. You can view the details of the employee who requested the case. You can also view the location specified in the case on a floor map.
 -   As an admin or case admin, you can cancel a case if it’s no longer required. Similarly, as a move admin, you can cancel a move case and as a maintenance admin you can cancel a maintenance case.
 -   In case of a move cases, you can view the 'From location' and 'To location' on the map. You can know the date by when the move must be implemented.
 -   In case of a maintenance cases, you can view the details related to the asset specified and know the location of the asset specified on the map. You know the details such as the product model and asset-related details.
--   When there are hundreds of cases like regular workplace cases, move cases and, maintenance cases, you can sort and apply a filter on the cases to work on them based on priority.
+-   When there are hundreds of cases like regular workplace cases, move cases, and maintenance cases, you can sort and apply a filter on them. This helps you work on cases based on priority.
 -   You can export the list of cases if necessary.
 -   You can track the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.
 
@@ -34,7 +34,7 @@ The landing page of the workspace is categorized as follows:
 -   **Overview**: The **Overview** section displays the metrics of the cases. You can view the number of cases under various categories and also view a graph of the volume of cases.
 -   **All active cases**: The **All active cases** section displays a detailed list view of all the currently active cases including the normal workplace cases, move cases, and maintenance cases.
 
-\[Omitted image "wsd-case-mgmt.png"\] Alt text:
+\[Omitted image "wsd-case-mgmt.png"\] Alt text: Case Management Workspace showing breached SLAs, active and open critical cases.
 
 ## Case management - Metrics \(Overview\)
 
@@ -56,7 +56,7 @@ The workspace displays the metrics of all the workplace cases under the **Overvi
     -   Copy the URL to the clipboard.
     -   Filter the list based on various conditions and view the filtered conditions in a side panel. You can also get an advanced view of these filters using the **Advanced view** option.
     -   Export the workplace cases into the desired format using the **Export** option.
-    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). Instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
+    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). You can directly raise a request using the Case management workspace. This allows you to submit a workplace service request on behalf of an employee without using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md).
     -   Assign the case to a user using the **Assign** option.
     When you open the list view, the left panel displays a list view of the above metric cards. Additionally, the list view also enables you to view **All cases** and **All resolved cases**. You can also switch to the **My Lists** tab in the panel and create a custom list based on what other metrics you want to view using the **Add new list** option. For more information, refer to [Create your own list to view case metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.md).
 
@@ -87,7 +87,7 @@ On the list, you can perform the following actions:
 -   Apply filter conditions on the list and also change whenever needed.
 -   Assign a single or multiple cases to another user using the **Assign** option.
 -   Export the cases to the desired format using the **Export** option.
--   Create a workplace service case at any time using the **New** option. Instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
+-   Create a workplace service case at any time using the **New** option. You can directly raise a request using the Case management workspace instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee.
 
 ## Case details page
 
@@ -156,7 +156,7 @@ The case details are categorized in the following views:
 
     The details page displays a side panel on the right side that enables you to perform various actions and also view important details to help you resolve the case. The side panel consists of the following options:
 
-    -   **At a glance**: When you open the case, by default, the page displays the **Requested for** employee details if available in the **Employee details** panel. This panel appears when the At a Glance \(\[Omitted image "casemgmt-ataglanceicon.png"\] Alt text: At a glance icon.\) option is selected. The details include the name of the employee, the email address of the employee using which you can send an email directly to the employee and the contact details. If the employee details are unavailable, then the admin or the case manager details are displayed.
+    -   **At a glance**: When you open the case, by default, the page displays the **Requested for** employee details if available in the **Employee details** panel. This panel appears when the At a Glance \(\[Omitted image "casemgmt-ataglanceicon.png"\] Alt text: At a glance icon.\) option is selected. The details include the employee name, email address, and contact details. You can send an email directly to the employee using the email address. If the employee details are unavailable, then the admin or the case manager details are displayed.
     -   **Knowledge Articles**: Select the Knowledge Article icon \(\[Omitted image "casemgmt-knowledgeicon.png"\] Alt text: Knowledge Article icon.\) to view knowledge articles based on the case. You can **Flag** the article, view the article in a separate tab using the **Full view** option and mark the article as useful using the **Helpful** option.
     -   **Attachment**: Select Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Alt text: Attachment icon.\) to view the attachments in the case. You can also upload attachments if necessary.
     -   **Template**: Select the Template icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: Template icon.\) to view the templates associated with the case. If you selected your own template, you can view them in the **My Template** tab. You can also create a template using the Create template option \(\[Omitted image "casemgmt-createtempicon.png"\] Alt text: Create template icon.\).

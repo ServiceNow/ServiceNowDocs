@@ -9,7 +9,7 @@ classification: service-mapping
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 40
-breadcrumb: [Prerequisites for performing top-down discovery using Service Mapping, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping commands not requiring a privileged user

@@ -239,7 +239,7 @@ If the expression isn't valid, an error appears.
 
     | | |
     |---|---|
-    |Visible|If selected, the variable is visible in the item form before ordering the item, in the Variable editor after ordering the item, and in the cart view of the item.|
+    |Visible|If selected, the variable is visible in the item form before ordering, in the Variable editor after ordering, and in the cart view.|
     |Read-only|If selected, the variable is read-only in the Cloud User Portal and cannot be edited.|
 
 7.  Click **Update** once you have made all the changes to the variable.

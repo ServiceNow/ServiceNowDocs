@@ -22,7 +22,7 @@ The Service Exchange Knowledge Assistant agentic workflow helps users get answer
 
 To modify the Service Exchange Knowledge Assistant agentic workflow, you must duplicate the workflow and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
-You can initiate the workflow from the Now Assist panel by entering your question. For more information on the Now Assist panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+You can initiate the workflow from the ServiceNow Otto panel by entering your question. For more information on the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Access the Service Exchange Knowledge Assistant agentic workflow
 

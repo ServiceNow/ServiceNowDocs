@@ -1,6 +1,6 @@
 ---
 title: View Walk-up Experience inbox
-description: View a personal inbox of automatically assigned Walk-up Experience interactions using the CSM Configurable Workspace feature interface.
+description: View a personal inbox of automatically assigned Walk-up Experience interactions using the CRM Workspace feature interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-inbox.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer 
 
 # View Walk-up Experience inbox
 
-View a personal inbox of automatically assigned Walk-up Experience interactions using the CSM Configurable Workspace feature interface.
+View a personal inbox of automatically assigned Walk-up Experience interactions using the CRM Workspace feature interface.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 ## About this task
 
-There are two ways technicians can view the walk-up inbox. Technicians primarily access CSM Configurable Workspace for all Walk-up Experience related information, including the inbox. However technicians can also access CSM Walk-up Experience in the application navigator, or navigation bar, to link to and view the inbox in CSM Configurable Workspace.
+There are two ways technicians can view the walk-up inbox. Technicians primarily access CRM Workspace for all Walk-up Experience related information, including the inbox. However technicians can also access CSM Walk-up Experience in the application navigator, or navigation bar, to link to and view the inbox in CRM Workspace.
 
 ## Procedure
 
-1.  To view the walk-up inbox, open CSM Configurable Workspace.
+1.  To view the walk-up inbox, open CRM Workspace.
 
 2.  Select **Inbox** in the navigation bar of the interface.
 
@@ -32,6 +32,6 @@ There are two ways technicians can view the walk-up inbox. Technicians primarily
 
 3.  Alternatively, to view the walk-up inbox via the application navigator, navigate to **CSM Walk-up Experience** &gt; **Technician** &gt; **My Walk-up Inbox**.
 
-    You’re linked directly to your personal inbox in CSM Configurable Workspace. Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature.
+    You’re linked directly to your personal inbox in CRM Workspace. Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature.
 
 

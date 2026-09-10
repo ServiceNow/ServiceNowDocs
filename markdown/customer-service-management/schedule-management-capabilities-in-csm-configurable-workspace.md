@@ -27,11 +27,11 @@ Schedule Management schedule management provides the following capabilities:
 -   Review and approve shift swap requests between agents.
 -   Manage time off requests and reflect approved leave in the team calendar.
 -   Monitor schedule adherence and conformance using built-in visualizations.
--   Access scheduling functionality directly from the CSM Configurable Workspace or CSM Agent Workspace.
+-   Access scheduling functionality directly from the CRM Workspace or CSM Agent Workspace.
 
 ## Schedule management module
 
-The Schedule Management workspace is accessible from the navigation menu in the CSM Configurable Workspace. Select **Schedule** to open the workspace. The Team Calendar tab opens by default.
+The Schedule Management workspace is accessible from the navigation menu in the CRM Workspace. Select **Schedule** to open the workspace. The Team Calendar tab opens by default.
 
 The workspace contains the following tabs:
 

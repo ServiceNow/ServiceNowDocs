@@ -22,7 +22,7 @@ Role required: sales territory admin \(or a user with sales territory override r
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity you want to update the territory.
 

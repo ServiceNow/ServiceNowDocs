@@ -1,9 +1,9 @@
 ---
 title: Continuous Authorization and Monitoring release notes
-description: The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
+description: The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
 
-## Continuous Authorization and Monitoring highlights for the Australia release
+## About Continuous Authorization and Monitoring
 
 -   Import and export OSCAL data for Assessment Plan \(AP\) and Assessment Results \(AR\) formats to streamline compliance reporting.
 -   Skip the attestation stage for all controls in a package and move controls directly to the Monitor step to accelerate package progression.
@@ -21,9 +21,22 @@ The ServiceNow® Continuous Authorization and Monitoring application provides a 
 
 See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Support for exporting and importing the OSCAL Assessment Results \(AR\) model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
 
@@ -78,7 +91,7 @@ See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/
     -   Generate OSCAL AP
     -   Generate OSCAL AR
 
-## UI changes
+### What's changed
 
 -   **[Properties page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/cam-components-installed.md)**
 
@@ -86,10 +99,4 @@ See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/
 
     -   Use **Homepage Title** to customize the workspace homepage name.
     -   The **Days Before Next Authorization** property is now available on the UI page.
-
-## Activation information
-
-Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
 

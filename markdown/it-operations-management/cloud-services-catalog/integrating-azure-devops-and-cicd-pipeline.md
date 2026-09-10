@@ -1,5 +1,5 @@
 ---
-title: Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline
+title: Integrating Azure DevOps and the CI-CD pipeline
 description: You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process, including provisioning the resources, and deploying and monitoring the applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline
+# Integrating Azure DevOps and the CI-CD pipeline
 
 You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process, including provisioning the resources, and deploying and monitoring the applications.
 

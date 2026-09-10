@@ -1,5 +1,5 @@
 ---
-title: Configure ServiceNow Otto for Contract Management Pro
+title: Configure AI capabilities
 description: As an AI administrator, configure ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI capabilities while working on contract documents or search the contracts for information from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/confg-na-in-cmpro.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [activate now assist in contract management, activate now assist in contract management pro, now assist in contract management pro, now assist for contract management pro, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro, AI in contract management pro]
-breadcrumb: [ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure ServiceNow Otto for Contract Management Pro
+# Configure AI capabilities
 
 As an AI administrator, configure ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI capabilities while working on contract documents or search the contracts for information from the ServiceNow Otto panel.
 
@@ -90,5 +90,5 @@ Configure agentic workflows in ServiceNow Otto for Contract Management Pro so th
 -   **[Post-upgrade steps for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.md)**  
 If you are upgrading to ServiceNow Otto for Contract Management Pro from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
-**Parent Topic:**[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+**Parent Topic:**[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 

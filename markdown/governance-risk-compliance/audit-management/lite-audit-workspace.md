@@ -64,5 +64,5 @@ Audit activities involve collecting and documenting evidence to show that the or
 
 ## Evidence request
 
-Audit evidence refers to all information used by auditors to form their audit opinion. This includes data from accounting records, financial statements, and other relevant sources. Evidence is cumulative and may come from current audit procedures as well as prior audits. For more information, see [Request evidence for audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence.md).
+Audit evidence refers to all information used by auditors to form their audit opinion. This includes data from accounting records, financial statements, and other relevant sources. Evidence is cumulative and may come from current audit procedures as well as prior audits. For more information, see [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence.md).
 

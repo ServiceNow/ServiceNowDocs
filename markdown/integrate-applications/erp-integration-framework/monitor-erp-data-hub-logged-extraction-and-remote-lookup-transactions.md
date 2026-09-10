@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, monitor, transaction, log, error, progress, status]
-breadcrumb: [Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Monitor Zero Copy Connector for ERP transactions and logged errors

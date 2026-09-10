@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/exploring
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -113,5 +113,5 @@ To learn more about configuring and using the L1 Service Desk AI Specialist, see
 
 ## Related products
 
-For more information about ServiceNow Autonomous Workforce, which is made up of AI specialists, see [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-workforce.md), and review the [General guidelines for deploying an autonomous workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md).
+For more information about ServiceNow Autonomous Workforce, which is made up of AI specialists, see , and review the .
 

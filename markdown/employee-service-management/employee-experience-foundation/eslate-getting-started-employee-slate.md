@@ -1,6 +1,6 @@
 ---
-title: Get started with Employee Slate
-description: Set up Employee Slate by verifying prerequisites, installing plugins, configuring branding, connecting the conversational assistant, and publishing your first announcement.
+title: Get started with EmployeeWorks Web App
+description: Set up EmployeeWorks Web App by verifying prerequisites, installing plugins, configuring branding, connecting the conversational assistant, and publishing your first announcement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 4
 keywords: [employee communications, announcements, content library, employee slate, chat promotion, quick start, setup flow, home page configuration, organization chart, employee profile, notifications, conversational catalog, AI widget builder, role-based home page cards, analytics and reporting]
-breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Get started with Employee Slate
+# Get started with EmployeeWorks Web App
 
-Set up Employee Slate by verifying prerequisites, installing plugins, configuring branding, connecting the conversational assistant, and publishing your first announcement.
+Set up EmployeeWorks Web App by verifying prerequisites, installing plugins, configuring branding, connecting the conversational assistant, and publishing your first announcement.
 
 ## Before you begin
 
@@ -23,15 +23,15 @@ Role required: admin
 
 ## About this task
 
-Employee Slate supports two deployment paths — one with Moveworks and one with Now Assist. The deployment path determines which configuration tasks apply.
+EmployeeWorks supports two deployment paths — one with Moveworks and one with Now Assist. The deployment path determines which configuration tasks apply.
 
 ## Procedure
 
 1.  Install one of the following sets of plugins from store.
 
-    -   For Moveworks deployment path, install Employee Slate for Moveworks and Employee Slate Advanced.
-    -   For Now Assist deployment path, install Employee Slate for Now Assist and Employee Slate Advanced.
-    **Note:** Employee Slate Advanced is an add-on application and requires either Employee Slate for Moveworks or Employee Slate for Now Assist to be separately downloaded.
+    -   For Moveworks deployment path, install EmployeeWorks Web App for Moveworks and EmployeeWorks Web App Extended.
+    -   For Now Assist deployment path, install EmployeeWorks Web App for Now Assist and EmployeeWorks Web App Extended.
+    **Note:** EmployeeWorks Web App Extended is an add-on application and requires either EmployeeWorks Web App for Moveworks or EmployeeWorks Web App for Now Assist to be separately downloaded.
 
 2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
@@ -39,31 +39,31 @@ Employee Slate supports two deployment paths — one with Moveworks and one with
 
 3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
-4.  [Configure the home page for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-home-page.md) to set the default home page layout and [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md) to set the personalized canvas.
+4.  [Configure the home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-home-page.md) to set the default home page layout and [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md) to set the personalized canvas.
 
 5.  Configure the org chart and employee profile.
 
-    -   Set the eligible users and the card fields in [Configure the organization chart for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.md).
-    -   Set the field groups and the editable fields in [Configure the employee profile for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.md).
+    -   Set the eligible users and the card fields in [Configure the organization chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.md).
+    -   Set the field groups and the editable fields in [Configure the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.md).
 6.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
 
-7.  [Search sources for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
+7.  [Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
 
-8.  [Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
+8.  [Configure notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
 
 9.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
 10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-11. [Configure browse experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
+11. [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
 12. [Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
 
-13. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
+13. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
 
 14. [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for employees to stay engaged with relevant communications.
 
-15. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+15. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
 
 16. Roll out to employees and configure analytics.
 
@@ -72,7 +72,7 @@ Employee Slate supports two deployment paths — one with Moveworks and one with
 
 ## Result
 
-After you configure Employee Slate, your employees can go to the following URL.
+After you configure EmployeeWorks Web App, your employees can go to the following URL.
 
 ```
 https://<instance-name>.service-now.com/aiux/employeeslate/home
@@ -82,5 +82,5 @@ https://<instance-name>.service-now.com/aiux/employeeslate/home
 
 ## What to do next
 
-You can go to [Employee Slate home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
+You can go to [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
 

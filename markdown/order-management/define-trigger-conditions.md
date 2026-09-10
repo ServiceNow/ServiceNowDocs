@@ -16,7 +16,7 @@ Define trigger conditions that start a sequence by configuring simple triggers, 
 
 ## Before you begin
 
-**Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md).
+**Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md).
 
 Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
 

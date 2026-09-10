@@ -17,7 +17,7 @@ An asset record consolidates the state of a single AI asset and the actions you 
 
 ## Overview of working with AI asset records
 
-AI stewards typically open an asset record after a portfolio view, recommendation, or task points them to a specific AI asset. The record brings together everything happening with that asset, including its scores, lifecycle position, connected assets, and pending work. It also provides the actions to respond to what needs attention, without piecing data together from monitoring dashboards, task queues, and inventory lists.
+AI stewards typically open an asset record after a portfolio view, recommendation, or task points them to a specific AI asset. The record brings together information about that asset, including its scores, lifecycle position, connected assets, and pending work. It also provides the actions to respond to what needs attention, without piecing data together from monitoring dashboards, task queues, and inventory lists.
 
 -   [Reviewing AI asset status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-ai-asset-status.md)
 
@@ -37,7 +37,7 @@ AI stewards typically open an asset record after a portfolio view, recommendatio
 
 -   [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-governing-ai-assets.md)
 
-    Review an asset's regulatory risk classification, compliance score against frameworks like the EU AI Act and NIST AI RMF, residual and inherent risk posture, and the AI cases, controls, and policy exceptions associated with it.
+    Review an asset's regulatory risk classification, compliance score against controls for frameworks like the EU AI Act and NIST AI RMF, residual and inherent risk posture, and the AI cases, controls, and policy exceptions associated with it.
 
 -   [Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md)
 
@@ -53,7 +53,7 @@ AI stewards typically open an asset record after a portfolio view, recommendatio
 
 -   [Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-ai-asset.md)
 
-    Review your asset's security score, access issues, and security events, and see how it relates to other AI agents in the AI agent map.
+    Review your asset's security score, access issues, and possible security events, and see how it relates to other AI agents in the AI agent map.
 
 
 -   **[Reviewing AI asset status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-ai-asset-status.md)**  

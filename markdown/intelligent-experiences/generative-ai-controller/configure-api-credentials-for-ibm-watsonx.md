@@ -1,6 +1,6 @@
 ---
 title: Configure API credentials for IBM watsonx
-description: Configure your API credentials to use IBM watsonx Granite models in custom workflows and Virtual Agent Designer topics.
+description: Configure your API credentials to use IBM watsonx Granite models as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-ibm-watsonx.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configuring API credentials for generative AI capabilities, Configu
 
 # Configure API credentials for IBM watsonx
 
-Configure your API credentials to use IBM watsonx Granite models in custom workflows and Virtual Agent Designer topics.
+Configure your API credentials to use IBM watsonx Granite models as your LLM provider for Generative AI Controller capabilities.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-In order to use models with IBM watsonx as your LLM provider for Generative AI Controller capabilities, you must have an active connection configured.
+To use models with IBM watsonx as your LLM provider for Generative AI Controller capabilities, you must have an active connection configured.
 
 ## Procedure
 
@@ -45,11 +45,13 @@ In order to use models with IBM watsonx as your LLM provider for Generative AI C
 
 ## Result
 
-You can now use capabilities labeled with IBM watson in Flow Designer, Virtual Agent Designer, and scripts like background scripts and business rules to create custom experiences with generative AI.
+You can now use capabilities labeled with IBM watson as your LLM provider for Generative AI Controller capabilities.
 
 \[Omitted image "gai-created-connection-ibm.png"\] Alt text: Complete connection for IBM watsonx.
 
 ## What to do next
 
 If you want to use generative AI capabilities through your MID Server, open the new Connection record, select the **Use MID server** check box, and save the record.
+
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

@@ -37,7 +37,7 @@ CBS admin\[sn\_cbs.admin\]
 
 </td><td>
 
-Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.
+Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.**Note:** CBS admins require the sn\_ia\_config.ia\_admin role for the overall permission to configure and manage the application.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,9 @@ CBS requestersn\_cbs.requestor
 Has permission to submit requests for different services in CBS.
 
 </td></tr></tbody>
-</table>## Core Business Suite benefits
+</table>nbb
+
+## Core Business Suite benefits
 
 <table id="table_ocs_nps_3hc"><thead><tr><th>
 

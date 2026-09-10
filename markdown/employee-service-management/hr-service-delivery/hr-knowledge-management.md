@@ -39,7 +39,7 @@ You can also attach or link HR knowledge articles to an HR case or HR catalog it
 
 ## HR knowledge blocks
 
-You can use knowledge blocks with HR knowledge management to simplify knowledge authoring for writers and knowledge consumption for readers. Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles in a knowledge base. The user criteria controls which users can read or not read the block content in an article or search, enabling users to more easily view content that is relevant to them.
+Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles. User criteria controls who can read each block, helping users view content relevant to them while simplifying authoring and consumption.
 
 For more information, see [Knowledge blocks for HR knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/knowledge-blocks-for-hr-knowledge-management.md).
 

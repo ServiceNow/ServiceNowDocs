@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/configuring-io-alerts.ht
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
@@ -17,6 +17,12 @@ Follow these steps to configure Key Alerts on an instance where critical alerts 
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+ServiceNow offers configurable alerts that allow for custom alerts or pre-canned alerts based on ServiceNow recommendations around various metrics. These alerts can be sent through email to various members of the organization or to Instance Observer users.
+
+Many of these alerts have monitoring built around, and most of them have recommendations as to how you monitor alerts. The internal alerts have conditions that help you get an insight when deviations from normal patterns occur across an instance. Alerts aren't mostly an indication of a problem, just a deviation from the normal. However, with alerts you must be mindful of time.
 
 ## Procedure
 
@@ -36,7 +42,9 @@ Role required: admin
 
 4.  Select up to five alerts from the **Max alerts per day / per metric** drop-down to receive for each metric per day.
 
-    The maximum number of alerts selected pertains to each of the six available system metrics. If you choose a maximum of two alerts for each metric, then you receive 12 alerts, as the maximum alert count each day, for example \(2 alerts\) X \(6 metrics\) = 12 alerts. The alert count resets daily at 00:00 UTC.\[Omitted image "alert-max-threshold.png"\] Alt text: Shows the alert configuration drop-down selector.
+    The maximum number of alerts selected pertains to each of the six available system metrics. If you choose a maximum of two alerts for each metric, then you receive 12 alerts, as the maximum alert count each day, for example \(2 alerts\) X \(6 metrics\) = 12 alerts. The alert count resets daily at 00:00 UTC.
+
+    \[Omitted image "alert-max-threshold.png"\] Alt text: Shows the alert configuration drop-down selector.
 
 5.  Select **Set Notification**.
 

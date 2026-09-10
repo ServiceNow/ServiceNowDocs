@@ -1,5 +1,5 @@
 ---
-title: Working with technology portfolio audit details
+title: Technology portfolio audit details
 description: The  Technology portfolio audit tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Working with technology portfolio audit details
+# Technology portfolio audit details
 
 The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
 
@@ -32,7 +32,7 @@ Whether the script runs on demand or scheduled, you can view the results in the 
 
 If the software product full version is 9.2.1, it may be that the **End of Support** lifecycle version in the Software Asset Management content library was only full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. The table helps you to identify exact lifecycle version matches. It also identifies when no valid lifecycle version could be found against the software product or hardware model version used in your organization.
 
-**Parent Topic:**[Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
 
 **Related topics**  
 

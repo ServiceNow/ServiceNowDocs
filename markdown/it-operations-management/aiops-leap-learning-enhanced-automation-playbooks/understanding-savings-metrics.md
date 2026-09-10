@@ -1,30 +1,30 @@
 ---
-title: LEAP savings metrics
-description: LEAP displays two distinct types of savings metrics: projected savings and actual savings. The difference between these metrics helps you correctly interpret the values shown across the platform and make informed decisions about automation opportunities.
+title: Savings metrics
+description: LEAP tracks two types of savings metrics, projected and actual, across all automation outcome types including ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understanding-savings-metrics.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-04-11"
+last_updated: "2026-08-13"
 reading_time_minutes: 5
-keywords: [savings metrics, LEAP, automation]
+keywords: [savings metrics, LEAP, automation, Ansible savings, savings by outcome type]
 breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# LEAP savings metrics
+# Savings metrics
 
-LEAP displays two distinct types of savings metrics: projected savings and actual savings. The difference between these metrics helps you correctly interpret the values shown across the platform and make informed decisions about automation opportunities.
+LEAP tracks two types of savings metrics, projected and actual, across all automation outcome types including ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
 
 ## LEAP savings metrics overview
 
 When you use LEAP to identify and act on automation opportunities, the platform tracks savings at two stages of the workflow:
 
 -   Projected savings — displayed on the LEAP home page *before* you automate, based on historical incident data.
--   Actual savings — recorded in resolution reports *after* playbooks execute during completed incident resolutions.
+-   Actual savings — recorded after automation executes, across all active outcome types including ServiceNow playbooks and Ansible playbook executions.
 
-Both metrics are important. Projected savings help you prioritize which opportunities to pursue. Actual savings help you measure the real return on your automation investment.
+Both metrics are important. Projected savings help you prioritize which opportunities to pursue. Actual savings help you measure the real return on your automation investment across all outcome types.
 
 ## Projected savings
 
@@ -49,21 +49,21 @@ Projected savings update dynamically as new incidents are ingested and clustered
 
 ## Actual savings
 
-Actual savings represent the realized value recorded when playbooks are executed during completed incident resolutions. These figures reflect real, measured outcomes and accumulate over time.
+Actual savings represent the realized value recorded when automation executes and resolves incidents. These figures reflect real, measured outcomes and accumulate over time. LEAP tracks actual savings separately for each outcome type.
 
-LEAP calculates actual savings using the following inputs from playbook execution data:
+LEAP calculates actual savings per outcome type using the following inputs:
 
--   Number of incidents resolved by the playbook
+-   Number of incidents resolved by the playbook or automation
 -   Time saved per automated resolution \(manual time minus automated time\)
 -   Cost per hour of IT labor
 
 The formula is:
 
 ```
-Actual savings = Sum of (Time saved per automated resolution × Cost per hour) across all completed playbook executions
+Actual savings = Sum of (Time saved per automated resolution × Cost per hour) across all completed executions for an outcome type
 ```
 
-Actual savings are visible in your resolution reports and savings dashboards. They are recorded per resolution and accumulate as more incidents are handled by playbooks.
+Actual savings are visible in the LEAP value dashboard. The **Overview** tab shows total savings from playbook executions in the **Savings by playbooks** section. The **Ansible playbooks** tab shows cost savings and agent-hours saved specifically from Ansible-driven resolutions.
 
 ## Projected and actual savings comparison
 
@@ -71,11 +71,11 @@ The following table summarizes the key differences between the two savings metri
 
 | |Projected savings|Actual savings|
 |---|-----------------|--------------|
-|Definition|Estimated value based on historical incident data, displayed on the LEAP home page before playbooks are executed.|Realized value recorded when playbooks are executed during completed incident resolutions.|
-|Data source|Historical incident volume, MTTR, and manual effort estimates.|Playbook execution logs, time saved per automated resolution, and resolution outcomes.|
-|Where displayed|LEAP home page and automation opportunity cards.|Resolution reports and savings dashboards.|
-|When calculated|Continuously, as new incidents are ingested and clustered.|Per resolution, upon successful playbook execution.|
-|Formula|Incident volume × Avg. manual resolution time × Estimated automation rate × Cost per hour.|Sum of \(Time saved per automated resolution × Cost per hour\) across completed executions.|
+|Definition|Estimated value based on historical incident data, displayed on the LEAP home page before automation executes.|Realized value recorded when automation executes and resolves incidents, tracked separately per outcome type \(ServiceNow playbooks, Ansible playbooks\).|
+|Data source|Historical incident volume, MTTR, and manual effort estimates.|Playbook and Ansible execution logs, time saved per automated resolution, and resolution outcomes per outcome type.|
+|Where displayed|LEAP home page and automation opportunity cards.|**Savings by playbooks** section on the value dashboard **Overview** tab; **Cost savings via Ansible** and **Total agent-hours saved via Ansible** on the **Ansible playbooks** tab.|
+|When calculated|Continuously, as new incidents are ingested and clustered.|Per resolution, upon successful execution.|
+|Formula|Incident volume × Avg. manual resolution time × Estimated automation rate × Cost per hour.|Sum of \(Time saved per automated resolution × Cost per hour\) across completed executions for an outcome type.|
 
 ## Use case: Password reset automation
 

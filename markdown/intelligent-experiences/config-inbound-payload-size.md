@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Reference, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Increase maximum inbound content length for scripted REST APIs

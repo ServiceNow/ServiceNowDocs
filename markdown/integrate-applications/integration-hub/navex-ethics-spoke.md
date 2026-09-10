@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Navex EthicsPoint spoke v1.0.3 is the latest version.
+Navex EthicsPoint spoke v1.0.3 is the latest version. For version history of the spoke, see [Navex EthicsPoint spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-navex-ethicspoint.html).
 
 ## Spoke dependencies
 

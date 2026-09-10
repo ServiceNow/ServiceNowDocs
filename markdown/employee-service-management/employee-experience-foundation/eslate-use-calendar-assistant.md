@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [Calendar Management, specialized assistant, block time, reschedule meeting]
-breadcrumb: [Calendar and schedule management, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Calendar and schedule management, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Manage your calendar with the Calendar Management assistant

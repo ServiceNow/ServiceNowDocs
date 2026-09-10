@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [product non-conformance, product non-conformance case, view product non-conformance, quality issue management, PNC, unassigned cases]
-breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View a product non-conformance

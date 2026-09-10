@@ -1,18 +1,18 @@
 ---
-title: Generate summary and ask questions using Now Assist in Document Management
-description: Generate summary and ask questions to gain quick insights from your documents by using Now Assist in Document Management.
+title: Generate summary and ask questions using ServiceNow Otto in Document Management
+description: Generate summary and ask questions to gain quick insights from your documents by using ServiceNow Otto in Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/ask-questions-faqs-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Generate summary and ask questions using Now Assist in Document Management
+# Generate summary and ask questions using ServiceNow Otto in Document Management
 
-Generate summary and ask questions to gain quick insights from your documents by using Now Assist in Document Management.
+Generate summary and ask questions to gain quick insights from your documents by using ServiceNow Otto in Document Management.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     -   Maximum document size: 10 MB
     -   Maximum pages: 200
     -   Supported file types: pdf, docx, pptx, xlsx, doc, ppt, xls, jpeg, png
-4.  Ask questions and view common questions of the document by selecting **Ask Now Assist**.
+4.  Ask questions and view common questions of the document by selecting **Ask Otto**.
 
     The document insights is generated based on the question.
 

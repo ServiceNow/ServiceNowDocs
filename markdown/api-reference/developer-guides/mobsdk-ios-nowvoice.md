@@ -159,15 +159,19 @@ Role required: admin
             },
             onMessageReceived: { message in
                 // Receive real-time transcript messages during the session.
-                print("[\(message.role)]: \(message.text)")
+                print("[\(message.role)]: \(message.content)")
             },
-            onCallEnded: { conversationId, error in
+            onCallEnded: { conversationId, error, endedFromCallKitUI in
                 // Called when the voice session ends.
                 if let error {
                     print("Session ended with error: \(error)")
                 } else {
                     print("Session complete. Conversation ID: \(conversationId ?? "unknown")")
                 }
+            },
+            onCallMinimized: {
+                // Called when the voice UI is minimized.
+                print("Voice chat is minimized")
             }
         ),
         theme: NowVoiceDefaultTheme()
@@ -232,8 +236,12 @@ Role required: admin
             onMessageReceived: { message in
                 print("Transcript: \(message)")
             },
-            onCallEnded: { conversationId, error in
+            onCallEnded: { conversationId, error, endedFromCallKitUI in
                 // Called when the embedded voice session ends
+            },
+            onCallMinimized: {
+                // Called when the voice UI is minimized.
+                print("Voice chat is minimized")
             }
         )
     )
@@ -277,8 +285,12 @@ func startVoiceSession() async {
                 onMessageReceived: { [weak self] message in
                     self?.appendTranscript(message)
                 },
-                onCallEnded: { [weak self] _, error in
+                onCallEnded: { [weak self] _, error, endedFromCallKitUI in
                     self?.dismiss(animated: true)
+                },
+                onCallMinimized: {
+                    // Called when the voice UI is minimized.
+                    print("Voice chat is minimized")
                 }
             )
         )

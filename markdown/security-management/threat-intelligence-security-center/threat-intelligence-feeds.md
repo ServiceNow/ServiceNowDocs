@@ -196,6 +196,12 @@ Feeds configured with custom parsers.**Note:** Only URLs, domains, file names, h
 </td></tr></tbody>
 </table>For configuration steps, refer to the respective topic for your feed type.
 
+## Editing an enabled feed
+
+When you enable a feed, its configuration fields are set to read-only. This behavior prevents changes to a configuration that's actively ingesting data. To change the configuration, disable the feed, make your changes, and then enable it again.
+
+The same behavior applies to TAXII collections and to enrichment integrations.
+
 -   **[Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md)**  
 Configure a new threat intelligence feed.
 -   **[Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md)**  

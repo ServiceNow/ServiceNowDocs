@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [explore]
-breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # Advanced Approval Management
@@ -59,7 +59,7 @@ Approvers\(For example, members of Sales, Finance, and Legal teams\)
 
 </td><td>
 
-Reviews, approves or rejects, and delegates approval requests. Can act on requests using different notification channels, such as email, CSM Configurable Workspace, and approval centers.
+Reviews, approves or rejects, and delegates approval requests. Can act on requests using different notification channels, such as email, CRM Workspace, and approval centers.
 
 </td></tr><tr><td>
 

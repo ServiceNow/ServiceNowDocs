@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -19,6 +19,10 @@ Integrate the ServiceNow instance with the Equifax spoke to access important inf
 ## Integration Hub subscription
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## Spoke version
+
+Equifax Spoke v1.0.0 is the latest version. For version history of the spoke, see [Equifax Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-equifax.html).
 
 ## Supported versions
 

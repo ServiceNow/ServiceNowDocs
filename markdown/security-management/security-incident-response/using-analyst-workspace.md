@@ -260,6 +260,10 @@ View the chronological timeline of events for a security incident and filter by 
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Security Incident Playbook]()
 
 [Prerequisites for the Playbooks]()

@@ -33,7 +33,7 @@ There might be AI agents installed on your instance that are not used in agentic
 -   **[Automated purchase order exception creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)**  
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.
 -   **[Identify and execute mitigation strategies for PO exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)**  
-Use the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+Use the Define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
 **Parent Topic:**[ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)
 

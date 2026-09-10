@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, tab, field, inbound, outbound, communication]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -21,7 +21,7 @@ For process details, see [View Zero Copy Connector for ERP partner profile infor
 
 <table id="table_fdq_5sh_bhc"><thead><tr><th>
 
-Field
+Column
 
 </th><th>
 
@@ -54,5 +54,4 @@ Updated
 Date and time the partner profile was most recently saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

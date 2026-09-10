@@ -40,8 +40,6 @@ The Kanban view as part of Opportunity Management in Sales Customer Relationship
     -   To view the opportunities of different sales type, use the Filter by option on the page.
     -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity.md).
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

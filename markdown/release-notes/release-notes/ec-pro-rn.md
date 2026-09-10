@@ -1,30 +1,43 @@
 ---
 title: Employee Center Pro release notes
-description: The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
+description: The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 ---
 
 # Employee Center Pro release notes
 
 The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
 
-## Employee Center Pro highlights for the Australia release
+## About Employee Center Pro
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
 See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Employee Center Pro to Australia
+-   **Activation information**
 
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+    Install Employee Center Pro by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Australia release
+-   **Upgrade information**
+
+    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ex-fdback-ovrvw.md)**
 
@@ -38,23 +51,4 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 
-
-## Activation information
-
-Install Employee Center Pro by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)**
-
-    Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
-
-    Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
-
--   **[Now Assist for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/na-ec-pro-landing.md)**
-
-    Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and delivery across channels to meet modern employee productivity requirements.
-
-
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
 

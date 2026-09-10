@@ -137,6 +137,10 @@ Conditions under which the contract configuration is applied. For example, to ap
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
 [Contract Management Pro glossary]()
 
 [Contract Management solutions]()

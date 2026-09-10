@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforzerocopyconnector-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,12 +91,7 @@ Australia
 
 </td><td>
 
--   **[Now Assist for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&family=australia&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, support multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-
- -   **[Improved AI Agent for SAP OData services](https://www.servicenow.com/docs/access?context=now-assist-erp-ai-agent-odata-service-recommender&family=australia&ft:locale=en-US)**
+-   **[Improved AI Agent for SAP OData services](https://www.servicenow.com/docs/access?context=now-assist-erp-ai-agent-odata-service-recommender&family=australia&ft:locale=en-US)**
 
 Reduce missed integration opportunities and accelerate development by discovering relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This workflow finds standard SAP capabilities that align with your use cases.
 
@@ -173,7 +168,7 @@ Australia
 
 </td><td>
 
-The Ask AI button has been removed from the Model Manager.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -210,7 +205,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+The Ask AI button has been removed from the Model Manager.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -247,7 +242,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Zero Copy Connector by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

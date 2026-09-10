@@ -16,6 +16,8 @@ breadcrumb: [Setting up, Scheduling, Workforce Optimization for ITSM, IT Service
 
 Streamline the way that agents manage their calendar so that they can view their schedule in one location.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 As an admin, you can synchronize the agents' calendar in Workforce Optimization for ITSM with their Microsoft Outlook calendar.
 
 When the two calendars are integrated, agents with the Shift Planning Agent \(sn\_shift\_planning.agent\) role can also view the calendar information in their Microsoft Outlook calendar in real time. This information includes the agent's shifts, schedules, and events such as meetings, trainings, and time-off.

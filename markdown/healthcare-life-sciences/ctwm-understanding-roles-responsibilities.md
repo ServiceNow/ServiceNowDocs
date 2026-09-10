@@ -1,16 +1,16 @@
 ---
-title: Setting up roles and responsibilities in Care Team Work Management
+title: Roles and responsibilities in Care Team Work Management
 description: To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Setting up roles and responsibilities in Care Team Work Management
+# Roles and responsibilities in Care Team Work Management
 
 To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
@@ -67,6 +67,30 @@ Care Team Agent Manager or Operational LeaderInherits Location Manager Fulfiller
 </td><td>
 
 Use the Care Team Agent Manager responsibility to work on care team cases and care team tasks assigned to your healthcare organizations, and manage your healthcare organization members.
+
+</td></tr><tr><td>
+
+`sn_hco_orc.loc_support_agent`
+
+</td><td>
+
+Healthcare Orchestration AgentWraps the Location Support Agent responsibility from Service Model Foundation.
+
+</td><td>
+
+Add the Healthcare Orchestration Agent responsibility directly as a service organization member's type. Their location-level visibility and management permissions for orchestration functions resolve automatically, without requiring the Care Team Agent Manager role as a workaround.
+
+</td></tr><tr><td>
+
+`sn_hco_orc.loc_manager`
+
+</td><td>
+
+Healthcare Orchestration ManagerWraps the Location Manager Fulfiller responsibility from Service Model Foundation.
+
+</td><td>
+
+Add the Healthcare Orchestration Manager responsibility directly as a service organization member's type. Their hospital-level visibility and management permissions for orchestration functions resolve automatically, without requiring the Care Team Agent Manager role as a workaround.
 
 </td></tr></tbody>
 </table>

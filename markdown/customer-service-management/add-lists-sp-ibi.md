@@ -22,21 +22,21 @@ Role required: admin
 
 To see the contracts, contract line items, and entitlements associated with a sold product, or an Install base Item on the same page, you must add the respective related lists manually on the form.
 
-**Note:** You can only add the related lists on the platform interface. The same settings are implemented on the CSM Configurable Workspace.
+**Note:** You can only add the related lists on the platform interface. The same settings are implemented on the CRM Workspace.
 
 ## Procedure
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d116287e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d117681e65">
 
 Add to
 
-</th><th align="left" id="d116287e68">
+</th><th align="left" id="d117681e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d116287e74">
+</th></tr></thead><tbody><tr><td id="d117681e74">
 
 **Sold Product**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the sold product.
 
 
-</td></tr><tr><td id="d116287e107">
+</td></tr><tr><td id="d117681e107">
 
 **Install Base Item**
 

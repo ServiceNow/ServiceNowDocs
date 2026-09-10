@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/system-property-smart-documents.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 breadcrumb: [Activate the smart documents skill, Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Configure and set the system property to use Smart Documents skill.
 
 ## System Property for Smart Documents skill
 
-Role required: Admin
+Role required: admin
 
 **Note:** To view the System Properties table, enter `All Properties` in the navigation filter.
 

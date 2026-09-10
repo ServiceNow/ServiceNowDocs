@@ -24,7 +24,7 @@ Agents can do the following from the account hierarchy:
 
 ## Account hierarchy in the workspace view
 
-To view the account hierarchy in CSM Configurable Workspace, navigate to an account record and select the Open Hierarchy \(\[Omitted image "account-hierarchy-workspace-icon.png"\] Alt text: account hierarchy workspace\) icon on the **Account** field.
+To view the account hierarchy in CRM Workspace, navigate to an account record and select the Open Hierarchy \(\[Omitted image "account-hierarchy-workspace-icon.png"\] Alt text: account hierarchy workspace\) icon on the **Account** field.
 
 \[Omitted image "csm-account-hierarchy-workspace.png"\] Alt text: Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.
 

@@ -22,7 +22,7 @@ When you purchase subscriptions in a bundle, you receive an equal number of subs
 
 \[Omitted image "itom-license-summary-bundle-only.png"\] Alt text: Subscriptions window displaying subscriptions purchased by bundle.
 
-Bundle subscriptions are specific to certain applications. You cannot utilize bundle subscriptions for other applications, even if those applications are part of the same bundle. For instance, if you've purchased a bundle of 500 units covering ITOM Visibility and ITOM AIOps, and you've used all 500 ITOM Visibility subscription units, you cannot utilize the remaining ITOM AIOps subscription units for ITOM Visibility.
+Bundle subscriptions are specific to certain applications. You cannot use bundle subscriptions for other applications, even if those applications are part of the same bundle. For example, if you purchase a bundle of 500 units covering ITOM Visibility and ITOM AIOps, you receive 500 units for each application. If you use all 500 ITOM Visibility units, the remaining ITOM AIOps units can't be used for ITOM Visibility.
 
 The consumption level of the bundle is determined by the highest usage among the products included in the bundle.
 

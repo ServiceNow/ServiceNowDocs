@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable text content and met
 
 ## Before you begin
 
-A source system administrator must have already configured your Miro source system to allow access by the Miro external content connector. For details on configuring these settings in the source system, see [Configure Miro for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md).
+A source system administrator must have already configured your Miro source system to allow access by the Miro external content connector. For the required source system configuration steps, see [Configure Miro for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-miro-external-content-indexing.md).
 
 You need a Miro account with the Company Admin role for your organization. To learn about admin roles in Miro, see [https://help.miro.com/hc/en-us/articles/14766440626834-Understand-admin-roles-and-their-privileges](https://help.miro.com/hc/en-us/articles/14766440626834-Understand-admin-roles-and-their-privileges).
 

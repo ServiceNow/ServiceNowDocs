@@ -24,7 +24,7 @@ You can include a release in multiple release bundles, which can be useful for l
 
 ## State of a release bundle
 
-The **State** field shows the overall state of the release bundle, which is determined by the states of its releases, as mentioned below:
+The **State** field shows the overall state of the release bundle based on the states of its releases:
 
 -   Draft: When there are no releases in the bundle.
 -   Ready: When all releases are either in the Pending or Draft state.

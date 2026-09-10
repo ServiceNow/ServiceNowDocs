@@ -1,5 +1,5 @@
 ---
-title: CSM Configurable Workspace page templates
+title: CRM Workspace page templates
 description: A page template is a blueprint of a record page that you can use to create a new page or page variant in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-page-templates.html
@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace page templates
+# CRM Workspace page templates
 
 A page template is a blueprint of a record page that you can use to create a new page or page variant in UI Builder.
 
 A page template can include components, data resources, extension points, and a layout. When you create a page or a page variant from a page template, you start from a base structure that you can customize to meet your needs.
 
-You can select one of the CSM Configurable Workspace templates when creating a new page or a new page variant in UI Builder.
+You can select one of the CRM Workspace templates when creating a new page or a new page variant in UI Builder.
 
 <table id="table_qh2_43q_1bc"><thead><tr><th>
 

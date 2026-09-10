@@ -27,10 +27,6 @@ Role required:
 
 2.  Right click the **Source Object** and select **Group By Source Object** to view all the attack patterns associated with a threat group.
 
-    The following illustration shows the threat group admin@338 and the various attack patterns adopted by this threat group which are part of the enterprise attack source.
-
-    \[Omitted image "mitre-threat-group-technique.gif"\] Alt text: Illustration showing the threat group and technique mapping.
-
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 

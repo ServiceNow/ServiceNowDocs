@@ -56,7 +56,7 @@ A data steward might need to update the field mapping for a data fabric table in
         For details on creating a record ACL rule, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
     -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
-<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d659280e197">
+<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d671924e197">
 
 **Add a reference**
 
@@ -69,7 +69,7 @@ A data steward might need to update the field mapping for a data fabric table in
 5.  Select **Set reference**.
 
 
-</td></tr><tr><td id="d659280e233">
+</td></tr><tr><td id="d671924e233">
 
 **Remove a reference**
 

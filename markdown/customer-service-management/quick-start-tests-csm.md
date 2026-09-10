@@ -1164,6 +1164,6 @@ Rome
 </td></tr></tbody>
 </table>|Test|Description|Release version|
 |----|-----------|---------------|
-|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CSM Configurable Workspace.|Yokohama|
-|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CSM Configurable Workspace.|Yokohama|
+|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CRM Workspace.|Yokohama|
+|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CRM Workspace.|Yokohama|
 

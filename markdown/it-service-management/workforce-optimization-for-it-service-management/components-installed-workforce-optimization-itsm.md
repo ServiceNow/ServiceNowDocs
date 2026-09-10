@@ -8,13 +8,15 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Workforce Optimization for ITSM components
 
 The Workforce Optimization for ITSM application has tables to store user and application data or database views and a schedule job to collect data for indicators.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Roles
 

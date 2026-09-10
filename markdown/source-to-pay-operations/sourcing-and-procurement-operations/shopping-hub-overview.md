@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-04-23"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -72,10 +72,14 @@ Shoppers can view and select their local currency during shopping in Shopping Hu
 Line-level questions let procurement admins capture product-specific information during checkout, improving data accuracy and enabling flexible purchase requisition workflows.
 -   **[Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.md)**  
 Shoppers can purchase products and services on behalf of another user in Shopping Hub. When purchasing on behalf of another user, shoppers can also view the carts and purchases associated with that user. A shopper who is authorized to purchase on behalf of other users is referred to as a super shopper.
+-   **[Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md)**  
+Shoppers can purchase Level 1 \(L1\) and Level 2 \(L2\) punchout items on behalf of another user in Shopping Hub and Employee Center. The punchout supplier site uses that user's credentials and verifies punchout group membership for L1 suppliers.
 -   **[Decimal quantity support for service-based purchases in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/decimal-support-services.md)**  
 As a shopper, you can now specify decimal quantity values for service-based products when you create or edit a purchase requisition \(PR\) or purchase order \(PO\) in Shopping Hub.
+-   **[Managing saved delivery addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-overview.md)**  
+Shopping Hub enables end users to save multiple delivery addresses for convenient checkout and purchasing workflows. Over time, users may need to remove addresses they no longer use, such as former work locations, temporary addresses, or duplicate entries.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -84,11 +88,15 @@ As a shopper, you can now specify decimal quantity values for service-based prod
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

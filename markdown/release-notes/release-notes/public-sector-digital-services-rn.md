@@ -1,9 +1,9 @@
 ---
 title: Public Sector Digital Services release notes
-description: The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+description: The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.The ServiceNow Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 12
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 12
 
 The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
 
-## Public Sector Digital Services highlights for the Australia release
+## About Public Sector Digital Services
 
 -   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the **Create Work Order** button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace.
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Public Sector Digital Services \(PSDS\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
@@ -33,23 +33,86 @@ The ServiceNow® Public Sector Digital Services application enables government a
 
 See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Public Sector Digital Services is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Public Sector Digital Services to Australia
+-   **Activation information**
 
-After the upgrade, certain public sector menus and menu items in Customer Service Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+    Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+-   **Upgrade information**
 
-## New in the Australia release
+    After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
 
--   **[Enhancements to the grants management Workspace- Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+
+## August 2026
+
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## July 2026
+
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Establish the Grant Program Budget in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-budget.md)
+
+        Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
+
+        Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md)
+
+        Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
+
+
+## June 2026
+
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md)**
 
     Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
 
     The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can either approve the Funding Allocation Request or reject it, returning all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
 
     Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding award, decline, or ineligibility letter can be issued to that applicant independently—without waiting for program-wide completion.
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
+
+    Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
+
+
+## Australia General Availability
+
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+
+### What's changed
+
+
+## Australia
+
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)**
 
@@ -84,16 +147,12 @@ Customers who have not opted into new third-party LLM models may be silently rou
 
     Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
--   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
-
-    Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
-
 -   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
 
     Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs, decreasing the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 
-## UI changes
+### What's changed
 
 -   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**
 
@@ -117,29 +176,9 @@ Customers who have not opted into new third-party LLM models may be silently rou
     Applicants can select a specific document type from a pre-configured, category-scoped list during upload, stored on the document record and displayed read-only to internal agents in both portal and Workspace views.
 
 
-## Changed in this release
-
 -   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
--   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
-    -   [Grants Management Program Budget activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
-
-        Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
-
-    -   [Grants Management Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
-
-        Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
-
--   **[Enhancements to Grants Management: Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
-    -   [Grants Management Screen activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
-
-        Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -150,25 +189,4 @@ Customers who have not opted into new third-party LLM models may be silently rou
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
-
-## Activation information
-
-Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    The ServiceNow®Customer Service Management application enables customer service organizations and service operations to collaborate and resolve customer problems.
-
--   **[Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
-
-    The ServiceNow®Customer Service Workspace application provides government agents with the tools to research information, respond to questions from the public, and resolve cases.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    The ServiceNow®Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
-
-
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

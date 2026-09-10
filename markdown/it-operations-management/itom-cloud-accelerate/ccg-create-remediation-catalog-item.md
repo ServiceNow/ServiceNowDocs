@@ -128,7 +128,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-action.md).
+        For more information, see Test an action.
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 

@@ -28,15 +28,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 
 2.  Do one of the following.
 
-<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d125176e84">
+<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d131492e84">
 
 To
 
-</th><th align="left" id="d125176e87">
+</th><th align="left" id="d131492e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d125176e93">
+</th></tr></thead><tbody><tr><td id="d131492e93">
 
 **Create a supplier task from Quick actions**
 
@@ -48,7 +48,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier task**.
 
 
-</td></tr><tr><td id="d125176e130">
+</td></tr><tr><td id="d131492e130">
 
 **Create a supplier task from the List page**
 
@@ -63,7 +63,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
 3.  In the Create new task dialog box, in the **Task type** field, select **Supplier Task**.
 
 
-</td></tr><tr><td id="d125176e224">
+</td></tr><tr><td id="d131492e224">
 
 **Create a supplier task from the Case details page**
 
@@ -121,7 +121,7 @@ Create a task for an internal employee
 
 
 </td></tr></tbody>
-</table>    For more information about the form fields and descriptions on the Create a new task form, see [Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md).
+</table>    For more information about the form fields and descriptions on the Create a new task form, see [Fields in the Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md).
 
 4.  Select **Submit**.
 

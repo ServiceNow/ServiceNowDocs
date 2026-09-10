@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/order-manageme
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
@@ -35,34 +35,17 @@ Enable B2B customers to self-serve key processes such as order creation, order c
 
     By default, only users with the sn\_customerservice.customer role can view the product catalog on the Business Portal. After setting up your product catalog and pricing, use the CustomerPortalCatalogAccessUtil script include to extend catalog visibility to additional users.
 
-4.  [Install Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-sales-cart-plugin.md)
+4.  [Configuring Sales Cart for Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-sales-cart.md)
 
     Provide easy order creation and checkout processes to your customers through the Sales Cart application.
 
 5.  \(Optional\) [Install Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-rfq-plugin.md)
 
-    Enable B2B customers to request for quotes \(RFQ\) from the Business Portal. Installing this application also installs the Request for Quote module in the CSM Configurable Workspace, which enables sales agents to generate quotes from the RFQs.
+    Enable B2B customers to request for quotes \(RFQ\) from the Business Portal. Installing this application also installs the Request for Quote module in the CRM Workspace, which enables sales agents to generate quotes from the RFQs.
 
 6.  \(Optional\) [Install apps for self-service order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activating-self-service-order-case-management-business-portal.md)
 
     Install the applications or features that provide the self-service options that you want to offer customers for managing order and invoice cases on the Business Portal.
-
-
-## Additional configurations and customizations
-
-The following tasks help you further customize and configure the Business Portal to support self-service Sales Customer Relationship Management workflows for B2B customers:
-
--   [Add a logo to the sales cart PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-logo-sales-cart-pdf.md)
-
-    Customize and embed your company logo in sales cart summary PDFs to ensure consistent branding and alignment with corporate identity standards.
-
--   [Modifying the data retention and table cleanup policy for the Sales Cart application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/modify-data-retention-table-cleanup-sales-cart.md)
-
-    A default data retention and table cleanup policy automatically deletes records from the Sales Cart application based on predefined conditions that match your organization's policies.
-
--   [Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/modify-terms-conditions-sales-cart.md)
-
-    Add order checkout terms and conditions in the CartTermsAndCo document template block for your Business Portal.
 
 
 ## Enable AI-powered workflows on the Business Portal
@@ -79,7 +62,7 @@ The following tasks help you further customize and configure the Business Portal
 **Related topics**  
 
 
-[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 
 [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
 

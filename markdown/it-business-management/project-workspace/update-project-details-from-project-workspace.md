@@ -36,7 +36,7 @@ You can edit the Project, project dates, business case, financials, score, notes
 
     In the Project Workspace, you can add stakeholders, extend or confirm a resource plan, and add new resource allocations daily. You can also view the status report of the program and save the project as a template with the **Save as New Template** option.
 
-    From the Project Workspace, you can create an Agile phase or a Test phase. You can also create stories or add existing ones to the project, and add new epics.
+    From the Project Workspace, you can create an Agile phase or a Test phase. You can also create stories or add existing ones to the project, as well as add new epics.
 
     You can refine project description using the write planning item skill if you have Now assist for SPM application installed.
 

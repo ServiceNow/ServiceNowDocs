@@ -1,6 +1,6 @@
 ---
 title: Horizontal discovery process flow with probes and sensors
-description: The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine, and then sensors, which help Discovery determine what to do with that information.
+description: The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine. Sensors then help Discovery determine what to do with that information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoProcessFlows.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Discovery, Discovery, ITOM Visibility, IT Operations Mana
 
 # Horizontal discovery process flow with probes and sensors
 
-The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine, and then sensors, which help Discovery determine what to do with that information.
+The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine. Sensors then help Discovery determine what to do with that information.
 
 ## Kicking off Discovery
 

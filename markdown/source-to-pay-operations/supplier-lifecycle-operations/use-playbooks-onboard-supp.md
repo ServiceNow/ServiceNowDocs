@@ -20,7 +20,7 @@ Supplier owners and supplier managers can use the supplier onboarding playbook t
 
 Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
-A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see Interact with Playbook.
 
 When using a playbook, a supplier owner or supplier manager can:
 
@@ -203,14 +203,12 @@ Set the case status to On Hold.
 Sets the case status to On Hold.After this activity is completed, the playbook moves to the Qualification stage.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Note:** If **FedEx Dataworks** is integrated, the following additional step appears in the playbook:
 
+-   **Confirm supplier information for FedEx Dataworks matching**
 
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
+    Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved. For more information, see [Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
 
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
 
 ## Qualification stage
 
@@ -301,14 +299,12 @@ If you select **Reject**, the playbook opens the [Rejection stage](https://raw.g
 After this activity is completed, the playbook moves to the Activation stage.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Note:** If **FedEx Dataworks** is integrated, the following option appears in the playbook in the **Select risk assessments** step:
 
+-   **FedEx Dataworks Risk Assessment**
 
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
+    If selected, returns the risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match. For more information, see [Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md).
 
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
 
 ## Activation stage
 
@@ -409,16 +405,7 @@ Set onboarding case to complete.
 Updates the onboarding case to Closed completed.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-## Rejection stage
+</table>## Rejection stage
 
 The following table lists the activities in the Rejection stage of the Supplier onboarding playbook.
 
@@ -468,12 +455,4 @@ Set onboarding case to rejected
 Updates the onboarding case to Closed rejected.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
+</table>

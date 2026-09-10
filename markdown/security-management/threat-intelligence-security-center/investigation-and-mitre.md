@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -39,6 +39,10 @@ Role required: sn\_sec\_tisc.analyst
     \[Omitted image "tisc-investigation-canvas-mitre.png"\] Alt text: Investigation Canvas MITRE Framework.
 
     The MITRE ATT&amp;CK Framework shows different levels of tactics and techniques association.
+
+    **Note:**
+
+    Each matrix in the list includes the MITRE ATT&amp;CK collection version that it was ingested from, for example Enterprise ATT&amp;CK \(v18.0\). The framework excludes any association that comes from a tactic and technique pair that MITRE has stopped mapping. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
     1.  The top row displays all the tactics present in the selected MITRE ATT&amp;CK matrix.
 

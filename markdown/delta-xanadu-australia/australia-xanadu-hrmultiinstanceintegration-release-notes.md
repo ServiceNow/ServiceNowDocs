@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hrmultiinstanceintegration-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -298,7 +298,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 If you are an HR service consumer, install the HR Multi Instance Integration for Consumer \(sn\_hr\_mii\_provider\) application, and if you are an HR service provider, install the HR Multi Instance Integration for Provider \(sn\_hr\_mii\_provider\) application by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

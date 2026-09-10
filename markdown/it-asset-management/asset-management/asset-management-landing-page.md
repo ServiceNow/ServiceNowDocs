@@ -8,7 +8,7 @@ product: Asset Management
 classification: asset-management
 topic_type: reference
 last_updated: "2026-04-20"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Asset Management

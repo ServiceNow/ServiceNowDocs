@@ -197,7 +197,7 @@ Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-sta
 
 </td><td>
 
-[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 

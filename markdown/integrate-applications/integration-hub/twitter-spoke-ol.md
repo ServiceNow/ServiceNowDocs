@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-X spoke v2.4.0 is the latest version.
+X spoke v2.4.0 is the latest version. For version history of the spoke, see [X spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-twitter.html).
 
 ## Supported versions
 
@@ -66,7 +66,7 @@ Tweets a message or media. Messages and media are tweeted as per X limits.**Note
 
 Install Now Assist for Spokes and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
-The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 Available AI agents include:
 

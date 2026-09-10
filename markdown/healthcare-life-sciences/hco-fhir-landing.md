@@ -1,22 +1,22 @@
 ---
 title: EMR Provider Directory Sync
-description: The EMR Provider Directory Sync imports HL7 FHIR R4 Organization, Location, Practitioner, and PractitionerRole resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule, keeping organizations, business locations, practitioners, and care-team memberships in sync without manual maintenance.
+description: The EMR Provider Directory Sync imports HL7 FHIR R4 resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Healthcare Integrations, Healthcare and Life Sciences]
 ---
 
 # EMR Provider Directory Sync
 
-The EMR Provider Directory Sync imports HL7 FHIR R4 Organization, Location, Practitioner, and PractitionerRole resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule, keeping organizations, business locations, practitioners, and care-team memberships in sync without manual maintenance.
+The EMR Provider Directory Sync imports HL7 FHIR R4 resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule.
 
-The Healthcare Operations \(HCO\) data model depends on accurate organization, location, and practitioner records. This application ingests four FHIR R4 resources from a FHIR server on a configurable schedule and upserts them into the corresponding Healthcare Operations tables, identifying records across runs by the FHIR resource ID stored as an external identifier on each target.
+The Healthcare Operations \(HCO\) data model depends on accurate organization, location, and practitioner records. This application ingests four FHIR R4 resources from a FHIR server on a configurable schedule and upserts them into the corresponding Healthcare Operations tables. Records are identified across runs by the FHIR resource ID, stored as an external identifier on each target.
 
-The integration is one-way \(FHIR server to ServiceNow\), admin-operated, and scheduled. It builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown), which provides the read-only FHIR actions, and owns all FHIR-to-HCLS field mapping, upsert keys, and dependency ordering.
+The integration is one-way \(FHIR server to ServiceNow\), admin-operated, and scheduled. It builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md), which provides the read-only FHIR actions, and owns all FHIR-to-HCLS field mapping, upsert keys, and dependency ordering.
 
 ## Get started
 

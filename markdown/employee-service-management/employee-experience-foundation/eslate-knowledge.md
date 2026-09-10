@@ -1,6 +1,6 @@
 ---
-title: Knowledge for Employee Slate
-description: Review an overview of Knowledge Management, a sample article workflow, and the benefits it provides. Employee Slate surfaces these articles through the Knowledge widget and conversational search.
+title: Knowledge widget overview
+description: Knowledge articles provide self-service information to users through the Knowledge widget and conversational search. Use knowledge management to reduce support tickets and empower users to find answers independently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-knowledge.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 1
 keywords: [Knowledge Management, knowledge articles, Knowledge widget, conversational search, Employee Slate, knowledge base]
-breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Knowledge for Employee Slate
+# Knowledge widget overview
 
-Review an overview of Knowledge Management, a sample article workflow, and the benefits it provides. Employee Slate surfaces these articles through the Knowledge widget and conversational search.
+Knowledge articles provide self-service information to users through the Knowledge widget and conversational search. Use knowledge management to reduce support tickets and empower users to find answers independently.
 
 Employee Slate surfaces Knowledge Management articles through the **Knowledge** widget and through conversational search in the chat. Understand the underlying application before you configure knowledge sources or the widget for employees.
 
-## Knowledge overview
+## Knowledge widget
 
-Knowledge Management supports processes for creating, categorizing, reviewing, and approving articles. Users can search and browse articles, and users can provide feedback.
+Widget supports processes for creating, categorizing, reviewing, and approving articles. Users can search and browse articles, and users can provide feedback.
 
 To support multiple groups, individual managers can own knowledge bases. Separate workflows publish and retire articles, and separate access controls govern reading and contributing.
 
@@ -40,7 +40,7 @@ The conversational interface interprets employee questions and retrieves the mos
 
 [Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
 
-[Search sources for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md)
+[Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md)
 
 [Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.md)
 

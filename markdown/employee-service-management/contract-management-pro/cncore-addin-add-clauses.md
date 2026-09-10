@@ -1,5 +1,5 @@
 ---
-title: Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts
+title: Map clauses and clause variations
 description: As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-addin-add-clauses.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts
+# Map clauses and clause variations
 
 As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 
@@ -56,15 +56,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147022e247">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147156e241">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d147022e250">
+</th><th align="left" id="d147156e244">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147022e256">
+</th></tr></thead><tbody><tr><td id="d147156e250">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -72,7 +72,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d147022e276">
+</td></tr><tr><td id="d147156e270">
 
 **Create a clause and do not create any clause variation**
 
@@ -95,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d147022e349">
+</td></tr><tr><td id="d147156e343">
 
 **Create a clause variation for an existing clause**
 

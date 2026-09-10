@@ -42,7 +42,7 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
+[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 

@@ -30,13 +30,9 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 2.  Select the security incident that you want to enrich with the MITRE-ATT&amp;CK information.
 
-3.  Click **Show All Related Lists** and the **Associated Observables** tab.
+3.  Select **Show All Related Lists** and the **Associated Observables** tab.
 
 4.  Point to the observable that you want to associate, right-click, and select **Associate MITRE ATT&amp;CK Technique**.
-
-    In the following illustration, you can see how to navigate from the related list to **Associate MITRE ATT&amp;CK Technique**, review the source, and add a tactic and technique.
-
-    \[Omitted image "mitre-associate-observable.gif"\] Alt text: Associate MITRE ATT&amp;CK information with an observable.
 
 5.  In the source lists, review the **Source**.
 
@@ -51,10 +47,6 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 8.  Select the observable and then from the Actions menu, click **Roll up MITRE ATT&amp;CK Information to SI**.
 
     If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from observables to security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup,you need to do this manually.
-
-    The following illustration shows how to select an observable and roll up the MITRE-ATT&amp;CK information to a security incident.
-
-    \[Omitted image "mitre-manual-rollup.gif"\] Alt text: Manually roll up MITRE ATT&amp;CK information from observable to security incident.
 
 9.  To see an aggregated view of the techniques that are associated with the observables, select two or more observables from the list and then from the **Actions** menu on the selected rows list, click the **Show MITRE ATT&amp;CK Information**.
 

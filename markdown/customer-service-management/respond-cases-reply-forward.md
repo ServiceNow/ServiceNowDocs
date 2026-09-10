@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage email tasks, Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Send an email response from a case activity stream
@@ -24,7 +24,7 @@ You can read and respond to large emails easily in a full screen which opens up 
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Select and open the case from the activity stream for which you want to send or forward a response.
 

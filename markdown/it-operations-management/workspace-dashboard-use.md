@@ -46,7 +46,7 @@ Configure the metrics you want to be visible for Service Operations Workspace al
 -   **[View CI health in Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metric-explorer.md)**  
 View the health and performance of an alert's CI using Metric Explorer, to help troubleshoot problematic areas in the CI.
 -   **[View alert metric trends in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/customize-alert-metrics-itom.md)**  
-View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\), enabling more accurate analysis and timely decision-making.
+View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\).
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
 

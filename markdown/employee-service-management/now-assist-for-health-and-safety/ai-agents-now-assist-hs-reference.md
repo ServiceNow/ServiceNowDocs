@@ -1,5 +1,5 @@
 ---
-title: Health and safety Now Assist Reference
+title: ServiceNow Otto for Health and safety Reference
 description: Using the reference topics, learn about the components, such as the roles, tables, plugins, and store applications that are installed when you install the ServiceNow Otto for Health and Safety plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-reference.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Health and safety Now Assist Reference
+# ServiceNow Otto for Health and safety Reference
 
 Using the reference topics, learn about the components, such as the roles, tables, plugins, and store applications that are installed when you install the ServiceNow Otto for Health and Safety plugin.
 

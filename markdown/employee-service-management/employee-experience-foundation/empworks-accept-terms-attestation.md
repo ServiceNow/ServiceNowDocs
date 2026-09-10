@@ -1,6 +1,6 @@
 ---
 title: Accept AI terms and conditions
-description: Accept AI terms and conditions before accessing the Employee Slate conversational experience.
+description: Accept AI terms and conditions before accessing the EmployeeWorks Web App conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-accept-terms-attestation.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Employee Hub, attestation, terms and conditions, compliance configuration]
-breadcrumb: [Configure terms of use, Employee Slate home, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure terms of use, EmployeeWorks home, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Accept AI terms and conditions
 
-Accept AI terms and conditions before accessing the Employee Slate conversational experience.
+Accept AI terms and conditions before accessing the EmployeeWorks Web App conversational experience.
 
 ## Before you begin
 
@@ -25,11 +25,11 @@ Role required: Employee
 
 ## About this task
 
-When you access Employee Slate for the first time, you must accept the AI usage terms and conditions.
+When you access EmployeeWorks Web App for the first time, you must accept the AI usage terms and conditions.
 
 ## Procedure
 
-1.  Go to the Employee Slate application.
+1.  Go to the EmployeeWorks Web App application.
 
     The attestation pop-up appears with detailed terms and conditions.
 
@@ -42,5 +42,5 @@ When you access Employee Slate for the first time, you must accept the AI usage 
 
 ## Result
 
-When you accept the terms, you can start using the Employee Slate
+When you accept the terms, you can start using the EmployeeWorks Web App
 

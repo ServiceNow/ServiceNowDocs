@@ -16,7 +16,7 @@ Use the ServiceNow Otto context menu to deploy the custom skills created using S
 
 AI practitioners can use ServiceNow Otto skill kit to create a custom skill to provide custom solutions, with Now Assist's generative AI capabilities.
 
-ServiceNow Otto allows the administrators to choose the custom skills for deployment. Use ServiceNow Otto context menu as a preferred channel to deploy a custom skill, when you configure deployment setting in ServiceNow Otto skill kit. For more information, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+ServiceNow Otto allows the administrators to choose the custom skills for deployment. Use ServiceNow Otto context menu as a preferred channel to deploy a custom skill, when you configure deployment setting in ServiceNow Otto skill kit. For more information, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 You must also select ServiceNow Otto context menu as a display option when you activate the skill in AI Admin. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 

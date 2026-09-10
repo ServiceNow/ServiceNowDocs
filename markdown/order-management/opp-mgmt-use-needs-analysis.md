@@ -24,7 +24,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List view.
+1.  In the CRM Workspace, select the List view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity that you want to work on.
 
@@ -48,8 +48,6 @@ A needs template is a questionnaire that you complete to get product recommendat
 
     The selected product is added to the opportunity. The Needs tab displays the needs template that you selected. You can review the needs template and if needed, change your answers, which might result in different product recommendations.
 
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

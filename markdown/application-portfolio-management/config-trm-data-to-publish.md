@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -19,6 +19,8 @@ Define configuration for a Technology Reference Model \(TRM\) catalog that can b
 Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 ## About this task
+
+\[Omitted video\] Description: Create a new configuration to publish TRM data in Enterprise Architecture Workspace
 
 Publishing a TRM catalog involves creating a publishing configuration in the Publishing Center and executing it to generate knowledge base content.
 

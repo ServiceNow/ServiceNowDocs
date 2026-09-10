@@ -31,7 +31,7 @@ Review AI asset security metrics such as access issues, dormant and privileged A
 
 </td></tr><tr><td>
 
-[Monitor AI security tasks\[Omitted image "bus-discover.svg"\] Alt text:Triage and resolve security tasks to optimize AI asset security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-use-events.md)
+[Monitor AI security tasks\[Omitted image "bus-security.svg"\] Alt text:Triage and resolve security tasks to optimize AI asset security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-use-events.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 **Note:** We have controls in place to enable/disable the data collection and data processing. For more information, see [Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md).
 

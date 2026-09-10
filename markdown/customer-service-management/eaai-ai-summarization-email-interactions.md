@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-05-11"
 reading_time_minutes: 2
 keywords: [AI summarization, email interactions]
-breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # AI summarization of email interactions

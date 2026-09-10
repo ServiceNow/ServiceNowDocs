@@ -16,6 +16,8 @@ breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT 
 
 You can install the CCG Content Pack application \(sn\_itom\_ccg\_cp\) if you have the admin role.
 
+**Important:** Starting with the Brazil release, Cloud Configuration Governance Content Pack is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).

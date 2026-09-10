@@ -138,7 +138,7 @@ Enable universal request auto categorization
 
 </td><td>
 
-sn\_uni\_req.auto\_categorization
+sn\_uni\_req\_ml.auto\_categorization
 
 </td><td>
 

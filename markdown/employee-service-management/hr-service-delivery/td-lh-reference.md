@@ -16,6 +16,10 @@ breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Leader Hub.
 
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   **[Leader Hub Metric Configurations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-lhmetricsconfig-form.md)**  
 The form associated with a record in the Leader Hub Metric Configurations table enables you to configure metrics for employee engagement with certain applications in the Talent Development suite. The configurable options are applicable to the metrics that appear in the Growth engagement widget and the employee cards that appear on the Org talent page.
 -   **[Org Support Relationships table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-orgsupportrel-form.md)**  

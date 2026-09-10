@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -45,6 +45,8 @@ Migrate the existing goal relationship data from the Goal Relationship \[sn\_gf\
 Configure target sources for target automation so that the goal user can define a target source when setting a target for the goal. Defining a target source for a target updates the actual value of the target automatically.
 -   **[Defining a custom unit of measure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/defining-a-custom-unit-of-measure.md)**  
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
+-   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md)**  
+Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -52,7 +52,7 @@ Role required: sn\_skills\_int.admin
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace]()
+[Creating a role group through the Skills Workspace]()
 
 [Add more skills to a role group]()
 

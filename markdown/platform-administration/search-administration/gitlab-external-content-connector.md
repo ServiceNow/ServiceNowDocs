@@ -48,13 +48,13 @@ To use the GitLab external content connector, your GitLab plan must satisfy all 
 
 ## Limitations for the GitLab external content connector
 
-The GitLab external content connector does not retrieve searchable content from personal GitLab.com projects.
+The GitLab external content connector doesn't retrieve searchable content from personal GitLab.com projects.
 
-When retrieving security principals from your GitLab.com source system, the GitLab external content connector does not support any of these security features:
+When retrieving security principals from your GitLab.com source system, the GitLab external content connector doesn't support any of these security features:
 
 -   [Custom roles](https://docs.gitlab.com/user/custom_roles/)
 -   [Group access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/)
--   Users that are not [Enterprise users](https://docs.gitlab.com/user/enterprise_user/)
+-   Users that aren't [Enterprise users](https://docs.gitlab.com/user/enterprise_user/)
 -   Users with the [Minimal Access](https://docs.gitlab.com/user/permissions/#users-with-minimal-access) role
 
 -   **[Configure GitLab for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-gitlab-external-content-indexing.md)**  

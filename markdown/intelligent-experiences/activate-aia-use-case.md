@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activat
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
-reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Activate an agentic workflow template
@@ -44,7 +44,7 @@ These predefined agentic workflows can also be used as templates for your own cu
 
 9.  Toggle the display for the ServiceNow Otto panel and/or UI action so that it’s turned on.
 
-    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see Turn on the ServiceNow Otto panel.
+    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md), [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md), or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md) for premium chat.
 
 10. Select **Save and test**.
 

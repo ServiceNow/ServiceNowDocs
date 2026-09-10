@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI Agent Advisor in AI Admin Center, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Edit an AI agent from an automation opportunity
@@ -52,12 +52,5 @@ Role required: sn\_na\_center.nac\_admin
     For more details on the guided setup forms, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 
-**Parent Topic:**[Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
-
-**Related topics**  
-
-
-[View your automation opportunities]()
-
-[Implement an automation opportunity from AI Admin Center]()
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

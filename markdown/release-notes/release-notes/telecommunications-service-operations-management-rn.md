@@ -1,9 +1,9 @@
 ---
 title: Telecommunications Service Operations Management \(TSOM\) release notes
-description: The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
+description: The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
 
-## Telecommunications Service Operations Management highlights for the Australia release
+## About Telecommunications Service Operations Management \(TSOM\)
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -31,11 +31,22 @@ The ServiceNow® Telecommunications Service Operations Management application pr
 
 See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Telecommunications Service Operations Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+    Install Telecommunications Service Operations Management \(TSOM\) applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
+
+### What's new
 
 -   **[Granularity support for pull connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/pull-connector-granularity.md)**
 
@@ -54,7 +65,18 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Define custom KPI calculations on top of raw metrics using the `TSOMMetricAggregator` scripted extension point. Formulas can combine raw and transformed metrics, apply temporal aggregation operators \(`avg`, `max`, `min`, `p95`\) and spatial aggregation across matching resources, and attach user-defined labels to calculated KPIs.
 
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## June 2026
+
+The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
+
+### What's new
 
 -   **[Elastic connector for MPN alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/set-up-connector-instance-nokia-mpn.md)**
 
@@ -81,7 +103,11 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Use the Formula Engine to process raw KPI formulas into formatted expressions. The expressions are stored in the Formatted KPI Formula field and validated for balanced parentheses before the metric calculation engine references them.
 
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+## Australia General Availability
+
+The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
+
+### What's new
 
 -   **[Customize Fortinet license expiration date storage using scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configure-fortinet-allowlist.md)**
 
@@ -92,7 +118,11 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Limit polling to specific organizations or ADOMs through allowlists on connector instances for Cisco Meraki and Fortinet.
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+## April 2026
+
+The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -104,12 +134,11 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-## Changed in this release
+## Australia
 
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+The ServiceNow® Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
 
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
+### What's changed
 
 -   **[SD-WAN Discovery connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/sd-wan-data-model.md)**
 
@@ -121,13 +150,9 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Enhance discovery accuracy and data quality with SD-WAN-specific discrepancy audits that validate discovery results against the CMDB. Reconcile discrepancies manually or automatically using the remediation engine. When the audit detects a newly discovered CI not present in the CMDB, a single follow-on task is created at the equipment level for resolution.
 
 
-## Activation information
+### Plugin information
 
-Install Telecommunications Service Operations Management \(TSOM\) applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
-
--   **[New plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configuring-tsom.md)**
+-   **New plugins**
 
     The following plugins are new in Australia:
 
@@ -135,7 +160,7 @@ Install Telecommunications Service Operations Management \(TSOM\) applications a
 
     -   TSOM Event Management Core \(sn\_tsom\_em\_core\): TSOM Assurance Core features
 
--   **[Renamed or changed plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configuring-tsom.md)**
+-   **Renamed or changed plugins**
 
     The following plugins were renamed or changed in Australia:
 
@@ -145,13 +170,4 @@ Install Telecommunications Service Operations Management \(TSOM\) applications a
 
     Service Graph Connector for Meraki \(sn\_tsom\_meraki\_connector\):The application has been renamed to Service Graph Connector for Meraki Telco SD-WAN.
 
-
-## Related ServiceNow applications and features
-
--   **[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)**
-
-    The ServiceNow®ITOM AIOps application includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

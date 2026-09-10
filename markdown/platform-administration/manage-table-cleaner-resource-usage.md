@@ -30,7 +30,9 @@ You can mitigate the impact to system performance by starting a table cleaner ru
 
 2.  Select the DMTableCleaner job record.
 
-3.  Select **Update**.
+3.  Contact ServiceNow Support to change the number of producers or consumers devoted to creating or deleting chunks of records.
+
+4.  Select **Update**.
 
 
 ## Result

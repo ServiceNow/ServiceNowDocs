@@ -75,6 +75,8 @@ The application creates a case and assigns it to the supplier manager to take th
 
 [Update default supplier]()
 
+[Update tax information using the supplier catalog]()
+
 [Request something else using the supplier catalog]()
 
 [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)

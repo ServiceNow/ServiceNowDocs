@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-12-05"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Install AI voice agents

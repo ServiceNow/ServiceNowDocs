@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
-breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Analyze traces found in agentic evaluation run results

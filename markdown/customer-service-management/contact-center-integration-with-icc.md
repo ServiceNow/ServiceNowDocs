@@ -14,13 +14,13 @@ breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate,
 
 The ServiceNow® Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view, equipping them with the tools needed to enhance agent productivity and customer experience.
 
-## Overview of CSM Configurable Workspace with ICC integration
+## Overview of CRM Workspace with ICC integration
 
-ICC integration with CSM Configurable Workspace enables agents to manage voice calls directly within their interaction screen using call controls. This feature helps reduce the need to switch between the contact center applications and the Configurable Workspace.
+ICC integration with CRM Workspace enables agents to manage voice calls directly within their interaction screen using call controls. This feature helps reduce the need to switch between the contact center applications and the Configurable Workspace.
 
-The CSM Configurable Workspace provides a unified interface that integrates contact center platform with the Customer Service Management \(CSM\) service offering. This integration helps you manage inbound and outbound interactions within a single interface.
+The CRM Workspace provides a unified interface that integrates contact center platform with the Customer Service Management \(CSM\) service offering. This integration helps you manage inbound and outbound interactions within a single interface.
 
-See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).
+See [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).
 
 With this expanded framework, voice interactions from a contact center platform and native digital channels can be routed seamlessly. Skills, queues, agents, and presence statuses can be synced automatically to optimize the admin experience and help reduce operational costs.
 
@@ -32,7 +32,7 @@ The following CCaaS Store Apps offer voice channel integration:
 
 To enable this feature see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md).
 
-The following visual displays the voice workflow when CCaaS integrates with ICC within the CSM Configurable Workspace .
+The following visual displays the voice workflow when CCaaS integrates with ICC within the CRM Workspace .
 
 \[Omitted image "icc-integration-with-nvc-workflow-brand2-updated-MMASSET0020993.png"\] Alt text: Voice call flow using Interaction Controls Component \(ICC\)
 
@@ -54,7 +54,7 @@ The primary benefits of this integration are as follows:
 
 -   **Enhanced efficiency**
 
-    Streamlines workflows with direct access to consult and blind call transfer controls in the CSM Configurable Workspace.
+    Streamlines workflows with direct access to consult and blind call transfer controls in the CRM Workspace.
 
 
 See [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).

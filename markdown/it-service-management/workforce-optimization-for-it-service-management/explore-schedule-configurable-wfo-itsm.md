@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Learn how you can plan shifts with automatically staggered break times for your agents to manage their schedule effectively in Workforce Optimization for ITSM. Publish schedules for the next scheduling period to get a snapshot of which agent is lined up to solve issues for that time period.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Shift planning
 
 Manage the scheduling for your organization from a central location. Use On-Call Scheduling with Workforce Optimization for ITSM to have dedicated team members to resolve issues as they arise.

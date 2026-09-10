@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-continuousauthorizationandmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,48 +99,6 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key cam-workflow-configurator\]](https://www.servicenow.com/docs/access?context=cam-workflow-configurator&family=zurich&ft:locale=en-US)**
-
-Streamline governance, risk, and compliance processes with the CAM Workflow Configuration. This feature allows administrators to:
-
-    -   Create and manage multiple workflows within a package.
-    -   Define GRC State Models for custom workflows.
-    -   Configure and version workflows.
-    -   Evaluate workflow version impacts to retrieve baseline controls.
-    -   Set up workflow-specific approval configurations.
-    -   Perform risk assessments across CAM objects.
-    -   Migrate the NIST RMF flow to workflow configuration for improved standardization.
--   **[\[Placeholder link text to key add-child-boundary\]](https://www.servicenow.com/docs/access?context=add-child-boundary&family=zurich&ft:locale=en-US)**
-
-Introducing a new Child Boundaries list that enables a one-to-many boundary hierarchy, allowing you to create relationships between boundaries. This hierarchy is visualized in both the sidebar and diagram view, showing one parent boundary with multiple child boundaries. OSCAL export and import now include the parent boundary relationship if present.
-
--   **Dynamic Boundary Filters [Dynamic boundary filters](https://www.servicenow.com/docs/access?context=create-boundary-filter&family=zurich&ft:locale=en-US)**
-
-Select the **Dynamic Filter** option in boundary filters to update system elements according to filter conditions. When disabled, the system elements remain unchanged. This update enhances the flexibility of boundary filter management.
-
--   **[Boundary operational status automation](https://www.servicenow.com/docs/access?context=cam-form-authorization-boundary&family=zurich&ft:locale=en-US)**
-
-Linking boundary operational status to the package life cycle ensures seamless integration. Key changes include:
-
-    -   Automatic update of boundary status to Operational when a package moves to the Monitor state.
-    -   Transition of Boundary status to Reauthorize as the Package Authorization date approaches. This update maintains synchronization between package and boundary states, enhancing overall system coherence.
--   **[\[Placeholder link text to key export-oscal-files-from-authorization-package\]](https://www.servicenow.com/docs/access?context=export-oscal-files-from-authorization-package&family=zurich&ft:locale=en-US)**
-
-Generating and downloading OSCAL SSP and POA&amp;M files is supported directly from within a authorization package. The supported file types include:
-
-    -   Catalog
-    -   Overlay Catalog
-    -   Profile
-    -   SSP
-    -   POA&amp;M
--   **[OSCAL import enhancements](https://www.servicenow.com/docs/access?context=import-oscal&family=zurich&ft:locale=en-US)**
-
-Enhancing the OSCAL import experience, the OSCAL import playbook now allows you to:
-
-    -   Import individual POA&amp;M JSON files.
-    -   **User Mapping**: Automatically map users to existing ServiceNow users based on exact name matches, with the option to manually adjust mappings.
-    -   **Group Mapping**: Automatically map groups to existing ServiceNow groups based on exact name matches, with the option to manually adjust mappings.
-    -   **Roles and Responsibilities**: Populate relevant package fields with roles and responsibilities.
 -   **[Overlay enhancement](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
@@ -260,12 +218,17 @@ Zurich
 
 </td><td>
 
--   **[New Authorization Documents tab for ATO reports](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[New Authorization Documents tab for ATO reports](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Access all Authority to Operate \(ATO\) artifacts reports from the new **Authorization Documents** tab available in the Authorization Package.
 
 
--   **[New CAM System Properties page for administrators](https://www.servicenow.com/docs/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
+ -   **[New CAM System Properties page for administrators](https://www.servicenow.com/docs/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
 
 Access the new CAM **System Properties** page to enable administrators to configure various system properties.
 
@@ -284,7 +247,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Properties page enhancements](https://www.servicenow.com/docs/access?context=cam-system-properties&family=australia&ft:locale=en-US)**
+
+The Properties page includes new configuration options:
+
+    -   Use **Homepage Title** to customize the workspace homepage name.
+    -   The **Days Before Next Authorization** property is now available on the UI page.
 
 </td></tr></tbody>
 </table>## Removed
@@ -379,7 +347,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -387,7 +358,10 @@ Zurich
 
 </td><td>
 
-Install CAM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -395,7 +369,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

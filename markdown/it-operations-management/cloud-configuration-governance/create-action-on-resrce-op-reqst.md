@@ -1,5 +1,5 @@
 ---
-title: Create an action for an 'on Resource operation request start/end' policy
+title: Create action for 'on Resource operation request start/end' policy
 description: A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-reqst.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Create an action for an 'on Resource operation request start/end' policy
+# Create action for 'on Resource operation request start/end' policy
 
 A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 

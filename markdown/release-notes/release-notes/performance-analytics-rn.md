@@ -1,9 +1,9 @@
 ---
 title: Performance Analytics release notes
-description: The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
+description: The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
 
-## Performance Analytics highlights for the Australia release
+## About Performance Analytics
 
 **Note:** The highlights for this release all refer to the newer Data Snapshots indicator architecture, which requires RaptorDB Professional.
 
@@ -23,7 +23,33 @@ The ServiceNow®   Performance Analytics application is an in-platform process
 
 See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
+
+    The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
+
+
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+
+## June 2026
+
+The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
+
+### What's changed
+
+-   **[Data snapshots automatically installed on eligible instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/limitations-mlb.md)**
+
+    If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
+
+
+## Australia
+
+The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
+
+### What's new
 
 -   **[Create data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-ds-automated-indicator.md)**
 
@@ -34,7 +60,7 @@ See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercon
     Track process changes at a more granular level than daily, such as by work shift. Data snapshots indicator sources support business calendars with intraday periods, which can be as short as per minute.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Explore native data snapshots indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)**
 
@@ -60,32 +86,9 @@ See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercon
     -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
     -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
     -   Generic parsing errors have been rewritten into specific, categorized messages.
--   **[Data snapshots automatically installed on eligible instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/limitations-mlb.md)**
 
-    If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
-
-
-## Deprecated features
+### What's deprecated or removed
 
 -   The **Dashboard Visualization** tab in KPI Composer is no longer supported. Existing data visualization tabs remain.
 -   The Analytics Hub has been replaced by KPI Details. Attempts to open the Analytics Hub are redirected to KPI Details.
-
-## Activation information
-
-Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
-
-The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
-
-## Related ServiceNow applications and features
-
--   **[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)**
-
-    The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products, including Performance Analytics.
-
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)**
-
-    Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Use Process Mining with Platform Analytics insights to optimize your indicator data sources.
-
-
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

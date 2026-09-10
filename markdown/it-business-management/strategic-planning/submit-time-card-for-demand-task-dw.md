@@ -26,15 +26,15 @@ Role required: timecard\_user
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d298735e76">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d309085e76">
 
 Assignment type
 
-</th><th align="left" id="d298735e79">
+</th><th align="left" id="d309085e79">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d298735e85">
+</th></tr></thead><tbody><tr><td id="d309085e85">
 
 **Demand task assigned to you**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the **Add to Time Sheet** link.
 
 
-</td></tr><tr><td id="d298735e109">
+</td></tr><tr><td id="d309085e109">
 
 **Demand task assigned to you as an additional assignee**
 

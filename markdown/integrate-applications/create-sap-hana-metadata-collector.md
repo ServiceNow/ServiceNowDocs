@@ -1,0 +1,242 @@
+---
+title: Create an SAP HANA metadata collector
+description: Create a collector to import metadata from SAP HANA.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-sap-hana-metadata-collector.html
+release: australia
+topic_type: task
+last_updated: "2026-07-28"
+reading_time_minutes: 4
+breadcrumb: [SAP HANA metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
+---
+
+# Create an SAP HANA metadata collector
+
+Create a collector to import metadata from SAP HANA.
+
+## Before you begin
+
+Before you begin, verify the following:
+
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the SAP HANA collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-sap-hana-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   Role required: connection-admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
+
+2.  Select the Connect Hub \[Omitted image "wdf-connect-hub-icon.png"\] Alt text: Connect Hub icon icon in the left sidebar.
+
+3.  Select **Create** &gt; **Metadata collector**.
+
+4.  From the System list, select **SAP HANA**.
+
+5.  From the Connection type list, select one of the following:
+
+    1.  Select **New connection** to configure a new connection.
+
+    2.  Select **Existing connection** to reuse an existing connection and select an existing connection from the **Connections** list.
+
+        The configuration form is filled with details from the existing connection. The name is appended with the word Copy and sensitive details like password aren't copied.
+
+6.  Complete the form.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
+    |Short description|Purpose and details of the connection.|
+
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr><tr><td>
+
+Server
+
+</td><td>
+
+Hostname of the database server to connect to.
+
+</td></tr><tr><td>
+
+Server port
+
+</td><td>
+
+Port of the database server \(if not the default\).
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Username|Username to use to connect to the database.|
+    |Password|Password of the databsase user.|
+
+9.  Configure the connection information.
+
+<table id="table_mtg_br2_h3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Include database
+
+</td><td>
+
+Name of the database to connect to. Specify multiple databases by adding one value per line.
+
+</td></tr><tr><td>
+
+Excluded database
+
+</td><td>
+
+Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
+
+</td></tr></tbody>
+</table>10. Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+11. Configure the statistics and sampling options.
+
+<table id="table_ocr_gc4_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Enable column statistics collection
+
+</td><td>
+
+Enable harvesting of column statistics \(that is, data profiling\).**Note:** Enabling profiling can increase the collector’s runtime, as the collector must read table data to generate profiling metadata.
+
+</td></tr><tr><td>
+
+Target sample size for column statistics
+
+</td><td>
+
+Number of rows sampled for computation of column statistics and string-value histograms. For example, to sample 1000 rows, set the parameter as: 1000.Default: 100000
+
+</td></tr><tr><td>
+
+Disable Lineage collection
+
+</td><td>
+
+Skip harvesting of intra-database lineage metadata.
+
+</td></tr><tr><td>
+
+Disable Extended Metadata collection
+
+</td><td>
+
+Skip harvesting of extended metadata for data asset types such as database, schema, table, columns functions, stored procedures, user defined types, synonyms. Basic metadata for these data asset types will still be harvested.
+
+</td></tr><tr><td>
+
+Exclude system functions
+
+</td><td>
+
+Specify to exclude system functions.
+
+</td></tr></tbody>
+</table>12. Configure the connection and reliability options.
+
+<table id="table_yhb_plp_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Server environment
+
+</td><td>
+
+Friendly name for the environment in which your database server runs when the server name is localhost. Helps differentiate it from other environments.
+
+</td></tr><tr><td>
+
+Database ID
+
+</td><td>
+
+Unique identifier for this database. Used to generate the database ID when the database name is not sufficiently unique.
+
+</td></tr><tr><td>
+
+JDBC properties
+
+</td><td>
+
+JDBC driver properties to pass through to driver connection.
+
+</td></tr><tr><td>
+
+SQL parsing timeout
+
+</td><td>
+
+Timeout in seconds for SQL parsing during lineage collection. Default: 60
+
+</td></tr></tbody>
+</table>13. Select **Save**.
+
+
+## Result
+
+The metadata collector is created and appears on the Connectors page with a Configured status. It is now ready to connect to the source system and harvest metadata.
+
+## What to do next
+
+After creating the collector, you can perform any of the following tasks:
+
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md).
+
+**Parent Topic:**[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-hana-metadata-collector.md)
+

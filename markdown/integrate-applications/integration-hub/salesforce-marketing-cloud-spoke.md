@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce Marketing Cloud spoke v1.6.2 is the latest version.
+Salesforce Marketing Cloud spoke v1.6.2 is the latest version. For version history of the spoke, see [Salesforce Marketing Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-salesforce-marketing-cloud.html).
 
 ## Supported versions
 

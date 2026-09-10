@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careerconversations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -72,16 +72,7 @@ Zurich
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
-
--   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://www.servicenow.com/docs/access?context=employee-feedback-agent&family=zurich&ft:locale=en-US)**
-
-As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub.
-
-
-[Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
-
--   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=zurich&ft:locale=en-US)**
+ -   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=zurich&ft:locale=en-US)**
 
 As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
@@ -127,7 +118,20 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Edit series button](https://www.servicenow.com/docs/access?context=edit-conversations-series&family=zurich&ft:locale=en-US)**
+
+A new **Edit series** button has been added to edit conversations on the conversations screen.
+
+
+ -   **[Filters on the Conversations page](https://www.servicenow.com/docs/access?context=egd-create-growth-conversation&family=zurich&ft:locale=en-US)**
+
+The filter on the Conversations page now shows upcoming conversations by default and allows filtering based on conversation state.
+
 
 </td></tr><tr><td>
 
@@ -214,7 +218,10 @@ Zurich
 
 </td><td>
 
-Install Career Conversations by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Career Conversations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

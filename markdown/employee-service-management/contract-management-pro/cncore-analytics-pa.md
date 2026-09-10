@@ -37,5 +37,7 @@ With Contracts Dashboard, you can make data-driven decisions by analyzing the tr
 
 [Manage contract records]()
 
+[Manage AI skills]()
+
 [Modify assignment rule for contract requests]()
 

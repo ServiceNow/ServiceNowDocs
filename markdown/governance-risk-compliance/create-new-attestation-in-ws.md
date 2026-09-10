@@ -36,15 +36,15 @@ Role required: sn\_oper\_res.manager
 
     You can select the type of assessment as shown in the table.
 
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d235425e125">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d128912e125">
 
 Choice
 
-</th><th align="left" id="d235425e128">
+</th><th align="left" id="d128912e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d235425e134">
+</th></tr></thead><tbody><tr><td id="d128912e134">
 
 **Select __Smart assessment__.**
 
@@ -52,7 +52,7 @@ Description
 
 Select the Smart Assessment method for performing the self-attestation.
 
-</td></tr><tr><td id="d235425e152">
+</td></tr><tr><td id="d128912e152">
 
 **Select __Legacy assessment__.**
 

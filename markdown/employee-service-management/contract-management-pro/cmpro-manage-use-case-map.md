@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Update use case mappings, Modify use case mappings, Edit use case mappings, Delete use case mappings, Deactivate use case mappings]
-breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage use case mappings for ServiceNow Otto for Contract Management Pro
@@ -58,7 +58,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 AI uses the updated use case mapping for contract analysis or metadata extraction.
 
-**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 

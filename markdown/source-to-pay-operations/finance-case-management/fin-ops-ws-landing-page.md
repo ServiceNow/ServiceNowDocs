@@ -32,3 +32,14 @@ The landing page has the following components.\[Omitted image "fin-ops-ws.png"\]
 
 **Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
+**Related topics**  
+
+
+[Finance Operations Workspace list page]()
+
+[Finance Operations Workspace Case Details page]()
+
+[Interaction management in Finance Operations Workspace]()
+
+[Process Automation Designer flows for playbook]()
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforworkplaceservicedeliverywsd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -102,30 +102,32 @@ Use the Automate map updates AI agentic workflow to configure the map during bul
 The Map Admin Agent autonomously retrieves the sources for the CAD file and resumes the import task. If the correct source isn't found, the agent moves the task to the Waiting user input state.
 
 
+ -   **[Manage temporary space closures agentic workflow](https://www.servicenow.com/docs/access?context=maintenance-meeting-room-agent-ai&family=yokohama&ft:locale=en-US)**
+
+Use the Manage temporary space closures agentic workflow when an emergency maintenance request is created.
+
+    |Agentic workflows|Description|
+    |-----------------|-----------|
+    |Manage temporary space closures|AI agentic workflow blocks a room for emergency maintenance and moves any existing reservation from the blocked location to another.|
+
+-   **[Help manage workplace reservations agentic workflow](https://www.servicenow.com/docs/access?context=manage-workplace-reservations-agent-ai&family=yokohama&ft:locale=en-US)**
+
+Use the Help manage workplace reservations agentic workflow for updating a planned event reservation's time, date, or duration.
+
+    |Agentic workflows|Description|
+    |-----------------|-----------|
+    |Help manage workplace reservations|AI agentic workflow autonomously reschedules events happening in the workplace and update an existing reservations date, time, or duration.|
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
-
 -   **[Summarize a workplace case](https://www.servicenow.com/docs/access?context=summarize-workplace-case&family=zurich&ft:locale=en-US)**
 
 Use the case summarization skill to summarize the case context and take appropriate action.
-
-
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   **[Optimize cleaning activities agentic workflow](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&family=zurich&ft:locale=en-US)**
-
-Use the optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
-
--   **[Automate map updates agentic workflow](https://www.servicenow.com/docs/access?context=automate-map-updates-agent-ai&family=zurich&ft:locale=en-US)**
-
-Use the automate map updates agentic workflow to configure the map during bulk updates to Indoor Mapping.
-
-The map admin gent autonomously retrieves the sources for the CAD file and resumes the import task. If the correct source isn't found, the agent moves the task to the `Waiting user input` state.
 
 
 </td></tr><tr><td>
@@ -134,7 +136,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 </td></tr></tbody>
 </table>## Changes
@@ -173,18 +175,16 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
-
--   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
@@ -319,7 +319,10 @@ Yokohama
 
 </td><td>
 
-Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -327,7 +330,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -335,7 +341,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

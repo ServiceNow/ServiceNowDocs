@@ -1,9 +1,9 @@
 ---
 title: Security Center release notes
-description: The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
+description: The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
 
-## Security Center highlights for the release
+## About Security Center
 
 -   Use the granular roles to complete administrative configuration tasks for Security Center without requiring the full admin role.
 -   Admins can create Security Tasks directly from any Platform Security page using a simple and intuitive chatbot experience within the Now Assist panel.
@@ -20,9 +20,33 @@ The ServiceNow Security Center empowers admins to maintain the highest level of 
 
 See for more information.
 
+## Activation and other requirements
+
 **Important:** is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the release
+-   **Activation information**
+
+    Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia Early Availability
+
+The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **Version-based hardening settings**
+
+    Security Center now only shows hardening settings that apply to your instance’s family version. This change helps eliminate irrelevant recommendations and provides clearer guidance and a more accurate security experience.
+
+
+## Australia
+
+The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **Accept risk for hardening settings**
 
@@ -40,21 +64,11 @@ See for more information.
 
     Use the new Identity and Access Management \(IAM\) section in Security Center to access to critical IAM tools. The new section provides a comprehensive view of security metrics. This integration simplifies the administrative experience by bringing essential IAM functionality directly into Security Center, reducing the need to navigate multiple separate tools.
 
--   **Version-based hardening settings**
 
-    Security Center now only shows hardening settings that apply to your instance’s family version. This change helps eliminate irrelevant recommendations and provides clearer guidance and a more accurate security experience.
-
-
-## Changed in this release
+### What's changed
 
 -   **[Security Hardening tool Updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-hardening-settings.md)**
 
     The security Hardening tool has been updated to the latest Instance Security Hardening Settings V7.
 
-
-## Activation information
-
-Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

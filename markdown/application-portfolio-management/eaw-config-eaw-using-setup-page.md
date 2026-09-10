@@ -44,6 +44,8 @@ Configure certification policies to keep your business applications inventory up
 Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 -   **[Configure Technology Reference Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-tech-ref-model.md)**  
 Configure Technology Reference Model Enterprise Architecture Workspace. Configuring the Technology Reference Model offers a structured approach to managing technology standards across your organization.
+-   **[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-tech-debt.md)**  
+Control which server and reason criteria the scheduled job uses to create TRM technical debt records.
 
 **Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
 

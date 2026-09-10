@@ -8,7 +8,7 @@ product: System Import Sets
 classification: system-import-sets
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
 
@@ -132,9 +132,30 @@ true/false
 Valid values:
 
 -   true: Update the attribute. The newly assigned class is in a different branch in the class hierarchy and has a different set of attributes than the current class.
--   false: Update the attributes but don’tn’t permit a class switch.
+-   false: Update the attributes but don’t permit a class switch.
 
  Default: false
+
+</td></tr><tr><td>
+
+ire.skip\_sys\_object\_source\_matching
+
+</td><td>
+
+true/false
+
+</td><td>
+
+Determines whether IRE identification processes have the priority in being used to uniquely identify CIs in a payload, over the use of **sys\_object\_source** lookup.
+
+ When set to true, the system prioritizes sending any payload that contains a criterion attribute to be processed by IRE identification instead of using **sys\_object\_source** lookup. This can be useful in situation that can potentially generate duplicate CIs. For example, using sources in which identifying attributes are changing while the source native key isn't.
+
+ However, when **source\_native\_key** is the only identifiable attribute \(for example, if none of the identification rules can run because attributes and values for rule identifiers aren't present in the payload\), then **source\_native\_key** is used for identification even when the property is set to **true**.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: 
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr></tbody>
 </table>

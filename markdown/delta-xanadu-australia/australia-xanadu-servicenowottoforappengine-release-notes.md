@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforappengine-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -106,19 +106,6 @@ Zurich
 
 </td><td>
 
--   **[Record summarization skill](https://www.servicenow.com/docs/access?context=custom-app-record-summarization-na-for-app-engine&family=zurich&ft:locale=en-US)**
-
-Generate summaries for records in custom applications and tables with the custom app record summarization skill.
-
--   **[Configure the custom app record summarization skill](https://www.servicenow.com/docs/access?context=configure-custom-app-record-summarization-na-for-app-engine&family=zurich&ft:locale=en-US)**
-
-Configure the custom app record summarization skill so that it generates summaries for the tables and records that you specify. You can add context about the table or tables and describe the purpose of the table, so that Now Assist can use that information when generating summaries.
-
--   **[Summarize a record in-product](https://www.servicenow.com/docs/access?context=summarize-record-in-product-na-for-app-engine&family=zurich&ft:locale=en-US)**
-
-Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See [Summarize a record through chat](https://www.servicenow.com/docs/access?context=summarize-record-through-chat-na-for-app-engine&family=zurich&ft:locale=en-US) for more information.
-
-
 -   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
@@ -181,7 +168,10 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 
 </td></tr><tr><td>
 
@@ -200,14 +190,9 @@ Australia
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-
-
-
 -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 </td></tr></tbody>
@@ -327,7 +312,10 @@ Yokohama
 
 </td><td>
 
-Install ServiceNow Otto for App Engine by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -335,7 +323,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -343,7 +334,10 @@ Australia
 
 </td><td>
 
-Install ServiceNow Otto for App Engine by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -372,7 +366,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the ServiceNow Otto for App Engine application.
+
 
 </td></tr><tr><td>
 

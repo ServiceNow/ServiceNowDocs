@@ -1,18 +1,18 @@
 ---
 title: Knowledge Center release notes
-description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 ---
 
 # Knowledge Center release notes
 
 The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
 
-## Knowledge Center highlights for the Australia release
+## About Knowledge Center
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -38,11 +38,26 @@ The ServiceNow® Knowledge Center helps you manage knowledge articles from a sin
 
 See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center.md) for more information.
 
+## Activation and other requirements
+
 **Note:** Knowledge Center is available in the ServiceNow Store. For details, see the **Activation information** section of these release notes.
 
-## Knowledge Center features
+-   **Activation information**
 
-The following features are new in this release.
+    Knowledge Center is available by default to all roles in Knowledge Management.
+
+    To use auto-update, enable the **Article Optimization** skill and the `sn_km_center.ao_auto_update.enabled` system property. This property is enabled by default. Enable **AO auto publish enabled** on a Knowledge Base to automatically update articles in that Knowledge Base.
+
+    To use auto-merge, enable the **Identify duplicate articles** and **Merge Articles** skills, and the `sn_km_gen_ai.auto_merge.enable` system property. If this property is inactive, users see the existing potential duplicate article experience. Enable **Enable auto merge publish** on a Knowledge Base to automatically merge and publish potential duplicate articles in that Knowledge Base. Use the `sn_km_gen_ai.auto_merge.confidence_threshold` property to set the confidence threshold for automatic merge and publish. Use the `sn_km_gen_ai.auto_merge.revert_ttl_days` property to set the number of days after which an automatically merged article can no longer be reverted.
+
+
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+
+### What's new
 
 -   **[Auto-fix article optimization issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/auto-update-articles.md)**
 
@@ -52,6 +67,23 @@ The following features are new in this release.
 
     Merge potential duplicate articles in a Knowledge Base, where the duplicate article drill- down widget groups them by topic and Knowledge Base. Enable auto-merge and auto-publish for a Knowledge Base, and set the confidence threshold and revert window at the system level.
 
+
+### What's changed
+
+-   **[Auto-fix article optimization issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/auto-update-articles.md)**
+
+    The overview page shows automatic updates and manual review results for an automatically updated run, with progress indicators for bulk updates and reverts.
+
+-   **[Merge and publish potential duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/automerge-duplicate-articles.md)**
+
+    Merge potential duplicate articles in a Knowledge Base where, the duplicate article drill-down widget groups them by topic and Knowledge Base.
+
+
+## June 2026
+
+The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+
+### What's new
 
 -   **[Knowledge Health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-health-score.md)**
 
@@ -69,6 +101,12 @@ The following features are new in this release.
 
     The AI-based **Reading Ease** scan is integrated into the article optimization feature of the Knowledge Center, scans articles for readability. It provides actionable recommendations, and supports ongoing article improvement.
 
+
+## Australia Early Availability
+
+The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+
+### What's new
 
 -   **[Search knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/search-knowledge-article.md)**
 
@@ -99,74 +137,32 @@ The following features are new in this release.
     The article length scan is a script‑based, non‑AI scan that runs in the background while authors work on articles. This scan evaluates articles against two length‑based criteria, namely: minimum length for search engine optimization, and maximum length for AI search. Articles with fewer than 300 words are flagged for search engine optimization, and don't appear in search results. Articles exceeding 10,000 words are flagged for AI search indexation, and don't appear in AI‑powered search results.
 
 
-## UI changes
-
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
-
--   **[Auto-fix article optimization issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/auto-update-articles.md)**
-
-    The overview page shows automatic updates and manual review results for an automatically updated run, with progress indicators for bulk updates and reverts.
-
--   **[Merge and publish potential duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/automerge-duplicate-articles.md)**
-
-    Merge potential duplicate articles in a Knowledge Base where, the duplicate article drill-down widget groups them by topic and Knowledge Base.
-
-
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
-
--   **[Knowledge Center Home Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-home-page.md)**
-
-    The Knowledge Center home page includes article health score, knowledge health score, and adoption metrics to support process flow and user experience. It also includes dashboards and features such as article optimization, knowledge gap identification, and duplicate article management. The article editor is integrated with article optimization support.
-
+### What's changed
 
 -   **[Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)**
 
     The article editor displays a word count indicator next to the editor size controls. Authors can see the total number of words in an article as they write, helping them stay within recommended limits.
 
 
-## Activation information
+-   **[Knowledge Center Home Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-home-page.md)**
 
-Knowledge Center is available by default to all roles in Knowledge Management.
+    The Knowledge Center home page includes article health score, knowledge health score, and adoption metrics to support process flow and user experience. It also includes dashboards and features such as article optimization, knowledge gap identification, and duplicate article management. The article editor is integrated with article optimization support.
 
-To use auto-update, enable the **Article Optimization** skill and the `sn_km_center.ao_auto_update.enabled` system property. This property is enabled by default. Enable **AO auto publish enabled** on a Knowledge Base to automatically update articles in that Knowledge Base.
 
-To use auto-merge, enable the **Identify duplicate articles** and **Merge Articles** skills, and the `sn_km_gen_ai.auto_merge.enable` system property. If this property is inactive, users see the existing potential duplicate article experience. Enable **Enable auto merge publish** on a Knowledge Base to automatically merge and publish potential duplicate articles in that Knowledge Base. Use the `sn_km_gen_ai.auto_merge.confidence_threshold` property to set the confidence threshold for automatic merge and publish. Use the `sn_km_gen_ai.auto_merge.revert_ttl_days` property to set the number of days after which an automatically merged article can no longer be reverted.
+### Plugin information
 
-## Plugin information
-
--   **Knowledge Center plugin**
+-   **New plugins**
 
     The following plugin is new in Australia:
 
     Knowledge Center \(**com.snc.knowledge\_center**\): Knowledge Center helps you manage knowledge articles from a single interface equipped with dashboards, insights, and AI-powered features.
 
 
-## Related ServiceNow applications and features
+## Australia
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
+The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
 
-    The ServiceNow® Customer Service Workspace and ServiceNow® CSM Agent Workspace enable customer service agents to read Knowledge articles attached to their cases and gain additional information that helps them resolve cases more efficiently.
+### What's new
 
--   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
-
-    Enable field service agents to read Knowledge articles that are attached to their work order tasks while they're offline through the Now Mobile Agent app. For more information, see [Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/access-information-you-need-mobile.md).
-
--   **[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-knowledge-from-communities.md)**
-
-    Harvest Knowledge information from posts on a Community site. Create structured Knowledge articles from unstructured discussions around a question.
-
--   **[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_CreateKnowledge.md)**
-
-    Create structured Knowledge articles from information generated from a problem form that could be useful to solve similar issues.
-
--   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-a-knowledge-article.md)**
-
-    Resolve issues by searching for Knowledge articles from an incident. Flag issues with an article, edit articles from incidents, and report knowledge gaps while resolving an incident. Formalize tacit knowledge by creating articles from an incident using article templates.
-
--   **[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)**
-
-    Use Knowledge blocks with HR Knowledge Management to simplify HR Knowledge authoring for writers and Knowledge consumption for readers. Enable an HR agent to identify cases that have insufficient knowledge coverage and to report knowledge gaps using the Demand Insights for HR Cases dashboard. For more information, see [Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/demand-insights-hrcases-dashboard.md).
-
-
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+The following features are new in this release.
 

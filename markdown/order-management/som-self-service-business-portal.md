@@ -103,14 +103,14 @@ The ServiceNow Otto for Order Management includes the following applications tha
 
 ## Business Portal and sales agents
 
-Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CSM Configurable Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
+Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CRM Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
 
 ## What to explore next
 
 The following topics provide more information about configuring and using the Business Portal:
 
 -   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+-   [Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 -   Getting started with the Business Portal: [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-business-portal.md)
 -   [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
 -   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md)

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-le
 release: australia
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
@@ -44,11 +44,11 @@ Installing and configuring the following applications involve installing the app
 
     Install and configure the necessary plugins for enabling Activity Management features.
 
-8.  
+8.  [Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibility-based-access-crm-touchpoints.md)
 
     Learn how the responsibility framework grants users fine-grained, role-based access to leads, opportunities, accounts, contacts, and CRM Touchpoints based on the records they're responsible for.
 
-9.  
+9.  [Create a responsibility access configuration in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-responsibility-access-configuration-sales-automation.md)
 
     Configure access for an existing responsibility definition so users with the required roles get access to the leads, opportunities, and related records they're responsible for.
 

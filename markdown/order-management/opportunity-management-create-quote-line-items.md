@@ -33,8 +33,6 @@ Role required: sales\_agent
 
 To learn more about using the Quote Management workspace, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
 
-**Parent Topic:**[Create a quote from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote.md)
-
 **Related topics**  
 
 

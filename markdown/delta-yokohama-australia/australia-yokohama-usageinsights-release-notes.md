@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-usageinsights-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,10 +38,11 @@ Yokohama
 
 </td><td>
 
--   The Usage Insights module is moved under Platform Analytics.
--   Custom user properties must be reconfigured.
--   Default country and user consent policies are updated to No Consent Required.
--   The Usage Insights UI and navigation structure are reworked.
+-   **Upgrade information**
+    -   The Usage Insights module is moved under Platform Analytics.
+    -   Custom user properties must be reconfigured.
+    -   Default country and user consent policies are updated to No Consent Required.
+    -   The Usage Insights UI and navigation structure are reworked.
 
 </td></tr><tr><td>
 
@@ -120,6 +121,18 @@ Australia
 
 </td><td>
 
+-   **[Conversations](https://www.servicenow.com/docs/access?context=conversations&family=australia&ft:locale=en-US)**
+
+Explore the conversations view by ServiceNow Otto chat activity. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
+
+-   **[Create cross-application conversion funnels](https://www.servicenow.com/docs/access?context=create-conversion-funnel-for-cross-application&family=australia&ft:locale=en-US)**
+
+Create and use cross-application conversion funnels to target all applications or one specific application, so that consecutive steps can follow from one application into another.
+
+-   **[Page properties analytics](https://www.servicenow.com/docs/access?context=page-properties-analytics&family=australia&ft:locale=en-US)**
+
+Filter a page detail page by one or more page properties to analyse how usage differs across page attributes such as owner, category, or load time.
+
 -   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=australia&ft:locale=en-US)**
 
 Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
@@ -156,7 +169,23 @@ Yokohama
 
 </td><td>
 
--   **[New custom user property configuration](https://www.servicenow.com/docs/access?context=uxa-add-filters-uxa-pages&family=yokohama&ft:locale=en-US)**
+-   **[Primary Usage Insights navigation has moved under the __All__ menu.](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+    -   Usage Insights experience moved under **Platform Analytics** module.
+    -   Usage Insights administrative functions moved under the **Platform Analytics Administration** &gt; **UX Analytics settings** module.
+-   **[Updated navigation within Usage Insights](https://www.servicenow.com/docs/access?context=exploring-user-exp-analytics&family=yokohama&ft:locale=en-US)**
+
+Navigation to Analytics pages simplified to **Analytics** and **Data Foundation** sections for each application.
+
+-   **[New layout](https://www.servicenow.com/docs/access?context=exploring-user-exp-analytics&family=yokohama&ft:locale=en-US)**
+
+The previous navigation has been replaced with a more unified, cleaner look and feel which enables you to understand the usage, user experience, and user satisfaction with your application.
+
+-   **[Improved Funnels UI](https://www.servicenow.com/docs/access?context=funnel-reports-uxa&family=yokohama&ft:locale=en-US)**
+
+The UI has improved readability and navigation.
+
+
+ -   **[New custom user property configuration](https://www.servicenow.com/docs/access?context=uxa-add-filters-uxa-pages&family=yokohama&ft:locale=en-US)**
 
 An easy way to configure which user-related fields are available to use as filters and in user details. Configured user properties are available for all applications. Previously created custom user properties are no longer supported and must be recreated in the new UI.
 
@@ -183,7 +212,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -212,12 +244,7 @@ Yokohama
 
 </td><td>
 
--   Automatic actions in the mobile app, including tap and swap.
--   Filtering by crashed/offline sessions in mobile applications.
--   Option to tag/favorite for users/sessions.
--   Geographic map view of sessions.
--   Users flow
--   Insights
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -254,7 +281,14 @@ Yokohama
 
 </td><td>
 
--   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=yokohama&ft:locale=en-US)**
+-   Automatic actions in the mobile app, including tap and swap.
+-   Filtering by crashed/offline sessions in mobile applications.
+-   Option to tag/favorite for users/sessions.
+-   Geographic map view of sessions.
+-   Users flow
+-   Insights
+
+ -   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=yokohama&ft:locale=en-US)**
 
 Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
 
@@ -300,7 +334,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is activated by default.
+
 
 </td></tr><tr><td>
 
@@ -308,7 +345,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -316,7 +356,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -337,7 +380,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Customer must use ADC v3 to access the new Usage Insights experience. Customers on ADC v2 will have access to the Xanadu version of Usage Insights.
+
 
 </td></tr><tr><td>
 
@@ -411,11 +457,13 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Usage Insights supports the Web Content Accessibility Guidelines \(WCAG\) 2.1 AA accessibility standard except for these aspects:
 
--   Voiceover for navigation paths
--   Color patterns for time series and pie visualizations
--   Data table for time series and pie visualizations
+    -   Voiceover for navigation paths
+    -   Color patterns for time series and pie visualizations
+    -   Data table for time series and pie visualizations
 
 </td></tr><tr><td>
 

@@ -30,9 +30,9 @@ Use the CMDB Data Manager to create policies that represent your organizational 
 
 You can apply CMDB Data Manager policies only to classes that extend the Configuration Item \[cmdb\_ci\] table.
 
-## CMDB Data Manager experience in CMDB Workspace and in Service Graph Workspace
+## CMDB Data Manager experience in CMDB Workspace
 
-You can use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and its viewsor the Service Graph Workspace governance view to fully administer CMDB Data Manager, access high-level analytic and counts for its policies and tasks, and review your tasks. For more information, see [CMDB Data Manager experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
+You can use the CMDB Workspace landing page and its viewsor the Service Graph Workspace governance view to fully administer CMDB Data Manager, access high-level analytic and counts for its policies and tasks, and review your tasks. For more information, see [CMDB Data Manager experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
 
 ## Terms
 

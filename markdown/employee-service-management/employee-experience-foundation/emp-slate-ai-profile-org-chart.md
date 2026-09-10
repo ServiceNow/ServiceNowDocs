@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [AI assistant, conversational search, employee search, organizational questions]
-breadcrumb: [Employee org chart, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee org chart, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Work with org chart and profiles

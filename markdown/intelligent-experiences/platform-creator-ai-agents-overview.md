@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platfor
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Creator, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Otto for Creator, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # ServiceNow Otto for Creator AI agents
@@ -29,5 +29,5 @@ This ServiceNow Otto for Creator agent assists in creating and managing themes f
 -   **[UI builder AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-uig-ui-builder-agent-ai-agent.md)**  
 This agent helps users edit pages and answer questions within the ServiceNow UI Builder editor.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for Strategic Portfolio Management
-description: The ServiceNow Otto for Strategic Portfolio Management application provides AI-powered capabilities that summarize feedback, create demands, generate project insights, and generate stories from epics. Product, project, and demand managers can use Now Assist skills and agents to streamline their workflows.
+description: Use the ServiceNow Otto for Strategic Portfolio Management application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Strategic Portfolio Management]
 
 # ServiceNow Otto for Strategic Portfolio Management
 
-The ServiceNow Otto for Strategic Portfolio Management application provides AI-powered capabilities that summarize feedback, create demands, generate project insights, and generate stories from epics. Product, project, and demand managers can use Now Assist skills and agents to streamline their workflows.
+Use the ServiceNow Otto for Strategic Portfolio Management application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
 
 ## Get started with AI
 

@@ -31,7 +31,7 @@ You retire or archive service and resource specification versions in the same ma
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **List** &gt; **Specifications** &gt; **Product Specifications**.
 

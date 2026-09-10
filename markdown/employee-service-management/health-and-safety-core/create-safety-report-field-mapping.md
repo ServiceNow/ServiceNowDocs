@@ -7,8 +7,8 @@ release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-08-27"
+reading_time_minutes: 5
 breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
@@ -55,15 +55,15 @@ The report field mapping enables you to do the following:
 
     **Tip:** In the PDF preview, select a fillable field to highlight the corresponding field in the Field Mappings list. Alternatively, select a field in the Field Mappings list and it’s highlighted on the PDF preview.
 
-<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71585e211">
+<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71625e213">
 
 Option
 
-</th><th align="left" id="d71585e214">
+</th><th align="left" id="d71625e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71585e220">
+</th></tr></thead><tbody><tr><td id="d71625e222">
 
 **Using the Health and Safety field list**
 
@@ -73,7 +73,7 @@ In the list available with each field name, select a Health and Safety field to 
 
 However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
-</td></tr><tr><td id="d71585e246">
+</td></tr><tr><td id="d71625e248">
 
 **Using a custom script**
 
@@ -90,13 +90,24 @@ Each mapping can be scripted using the script capability on each field. It enabl
 
     To deactivate a field mapping, select the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\) beside the field mapping and then select **Deactivate**.
 
-9.  Select **Save**.
+9.  In the **Report field mapping configurations** tab, select **New** to add a configuration for each related list that you want to include in the generated report.
+
+    1.  For a configuration, select the related list and the columns to include.
+
+    2.  If needed, apply a condition to filter which related records appear in the report.
+
+        Each configuration adds the records from a related list to the generated report as a related list report.
+
+    **Note:** If you don't add any configurations, a related list report is not generated.
+
+10. Select **Save**.
 
 
 ## Result
 
 -   The fields in the imported reporting PDF template are mapped to the fields in the selected mapping table.
 -   The published report field mapping is available to select during a report generation in the mapped safety table records. For example, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
+-   If you added report field mapping configurations for any related lists, the related lists are included in the generated report as a separated report.
 
 **Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
@@ -110,8 +121,6 @@ Each mapping can be scripted using the script capability on each field. It enabl
 [Enable a Health and Safety table for configuring report field mapping]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

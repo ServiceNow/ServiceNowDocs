@@ -116,6 +116,8 @@ Descriptions of the tabs on the Invoice task form and the information each tab c
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

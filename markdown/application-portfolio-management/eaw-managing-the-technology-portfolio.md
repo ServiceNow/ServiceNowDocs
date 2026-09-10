@@ -1,5 +1,5 @@
 ---
-title: Manage the Technology Reference Model in Enterprise Architecture Workspace
+title: Exploring the Technology Reference Model in Enterprise Architecture Workspace
 description: You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-managing-the-technology-portfolio.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage the Technology Reference Model in Enterprise Architecture Workspace
+# Exploring the Technology Reference Model in Enterprise Architecture Workspace
 
 You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
 
@@ -49,11 +49,11 @@ You can also use the TRM with the Software Asset Management \(SAM\) plugin. This
 
 **Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
--   **[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
+-   **[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
 Manage the TRM technical debts that are created for the products that aren’t approved for the usage.
--   **[TRM Technical Debt calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-calc.md)**  
-A TRM technical debt indicates the unapproved usage of a software. The technical debts table \[sn\_apm\_trm\_standards\_technical\_debt\], displays the TRM products and associated business applications details, and the reason for the technical debt.
--   **[Work with TRM lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
+-   **[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-calc.md)**  
+Technical debt records identify products used in business applications that are not approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
+-   **[Technology Reference Model \(TRM\) lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
 Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 
 **Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-view.md)

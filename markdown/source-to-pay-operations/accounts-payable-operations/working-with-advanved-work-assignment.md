@@ -69,3 +69,5 @@ Interact with AP agents through live chat.
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

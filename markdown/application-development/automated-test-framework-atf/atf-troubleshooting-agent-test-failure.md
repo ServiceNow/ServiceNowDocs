@@ -63,6 +63,6 @@ Role required: atf\_triager + now\_assist\_panel\_user
 
     When a test fails, the agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The agent then recommends possible fixes. After you select a recommended option, the agent applies the fix, updates the test code, and reruns the test automatically. When the test passes, it provides a summary of the changes made to resolve the failure.
 
-    **Note:** See [Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md) if you want to execute a new application or a test.
+    **Note:** See [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md) if you want to execute a new application or a test.
 
 

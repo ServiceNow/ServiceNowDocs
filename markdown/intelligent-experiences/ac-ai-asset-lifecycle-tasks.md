@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-04-23"
 reading_time_minutes: 2
 keywords: [lifecycle task, lifecycle playbook, onboarding, maintain, offboarding, retire]
-breadcrumb: [Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # AI asset lifecycle tasks
 
 Advance managed AI assets through controlled stages of governance by completing the reviews, assessments, and approvals that AI asset lifecycle playbooks require.
 
-A lifecycle task is a unit of governance work that an AI asset lifecycle playbook generates and assigns to an AI steward, asset owner, or other reviewer. Each lifecycle task corresponds to a step in a playbook activity that requires human judgment, such as evaluating an asset's risk, confirming its regulatory conformity, or collecting the information a review requires. AI Control Tower uses lifecycle tasks to enforce consistent governance as a managed AI asset moves from onboarding through active use to retirement.
+A lifecycle task is a unit of governance work that an AI asset lifecycle playbook generates and assigns to an AI steward, asset owner, or other reviewer. Each lifecycle task corresponds to a step in a playbook activity that requires human judgment, such as evaluating an asset's risk, confirming its regulatory conformity, or collecting the information a review requires. AI Control Tower uses lifecycle tasks to help enforce consistent governance as a managed AI asset moves from onboarding through active use to retirement.
 
 ## How lifecycle tasks are generated
 

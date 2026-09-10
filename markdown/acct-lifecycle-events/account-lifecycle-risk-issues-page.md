@@ -47,8 +47,8 @@ The following options are available:
 
 This option identifies and executes success plays that address an unaddressed risk.
 
-1.  Select **Recommend Solution**. The Now Assist panel opens and automatically starts the agentic workflow for that specific risk signal.
-2.  The Now Assist panel displays up to three solution options, each containing one or more success plays. The solutions are arrived at using the following approaches:
+1.  Select **Recommend Solution**. The ServiceNow Ottopanel opens and automatically starts the agentic workflow for that specific risk signal.
+2.  The panel displays up to three solution options, each containing one or more success plays. The solutions are arrived at using the following approaches:
 3.  -   Machine learning similarity model: Identifies past risks similar to the current risk and recommends the success plays that resolved those risks. Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solution Definitions**. Select the **Risk similarity** solution definition that is available with the base system and do the following:
     -   Select the **Active** check box to enable this similarity solution.
     -   Select **Update &amp; Retrain**. The similarity definition uses the short description and description of all closed risk signals to build a similarity index. Once trained, it identifies risks similar to the current risk signal and recommends the success plays that were used to resolve past risks.

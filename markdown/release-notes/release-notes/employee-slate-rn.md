@@ -1,19 +1,19 @@
 ---
 title: Employee Slate release notes
-description: Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
+description: Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [Employee Slate, Moveworks, Now Assist, conversation-first]
+reading_time_minutes: 3
+keywords: [Employee Slate, Moveworks, Now Assist, conversation-first, Employee Slate, Moveworks, Now Assist, conversation-first, Employee Slate, Moveworks, Now Assist, conversation-first]
 ---
 
 # Employee Slate release notes
 
 Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
 
-## Employee Slate highlights for the Australia release
+## About Employee Slate
 
 -   Deploy a conversation-first employee experience with intelligent search and personalized interactions.
 -   Access all your work-related information from a personalized homepage from widgets such as To-dos, Employee Communications, Popular Content, Quick Links, Profile, Notifications, and Calendar.
@@ -26,15 +26,57 @@ Employee Slate is a new AI-first employee experience that boosts employee produc
 
 For more information, see  documentation.
 
+## Activation and other requirements
+
 **Important:** Employee Slate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
+
+    For more information, see [EmployeeWorks Web App setup flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-setup-flow.md).
+
+-   **Upgrade information**
+
+    Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks or Now Assist\).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
+
+
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+
+## June 2026
+
+Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
+
+### What's new
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+## Australia
+
+Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
+
+### What's new
 
 -   **[Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-conversation-first.md)**
 
     Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[Employee Slate home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **[EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-home-page.md)**
 
     Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
@@ -62,7 +104,7 @@ For more information, see  documentation.
 
     Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-notifications.md)**
+-   **[EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-notifications.md)**
 
     Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
@@ -82,7 +124,7 @@ For more information, see  documentation.
 
     Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **[Employee Slate \(built for Moveworks\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md)**
+-   **[EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md)**
 
     Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
@@ -90,48 +132,4 @@ For more information, see  documentation.
 
     Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
-
-    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
-## Activation information
-
-Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
-
-For more information, see [Employee Slate setup flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-slate-setup-flow.md).
-
-## Accessibility information
-
-The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
-
-## Related ServiceNow applications and features
-
--   **[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md)**
-
-    Previous generation employee portal that remains supported for customers requiring advanced experiences like journeys, intranet, and indoor mapping not yet available in Employee Slate.
-
--   **[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-pro-landing.md)**
-
-    Enhanced employee portal with AI capabilities that continues as an option for customers needing features not yet migrated to Employee Slate, with coexistence options available for organizations requiring both portals.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    ServiceNow AI assistant providing contextual, bi-directional chat capabilities, agentic catalog experiences, and platform-native notifications when embedded in Employee Slate. Requires migration to off-Glide AI orchestrator for optimal performance.
-
--   **[Moveworks overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks.md)**
-
-    AI assistant platform providing enterprise search across multiple systems, specialized assistance apps like World Knowledge, cross-platform notifications, and over 100 language support when embedded in Employee Slate.
-
--   **[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
-
-    Analytics platform that includes dedicated Employee Slate destination for tracking sessions, events, page visits, and communications effectiveness with custom funnel building capabilities and integrated communications analytics dashboard.
-
-
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
 

@@ -21,6 +21,8 @@ Submit a request in the Supplier Collaboration Portal to create a delivery plan 
 After an exception is flagged, you can access the exception details, which explains the issue and provides context about the purchase order line impacted. As the assigned Operational Buyer, you can collaborate with internal stakeholders and the supplier to help resolve the issue.
 -   **[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-po-exception-universal-req.md)**  
 Operational buyers can convert universal requests into purchase order exceptions during triage, cutting down on manual effort and ensuring that purchase order related issues are tracked and resolved more efficiently.
+-   **[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/managing-po-confirmations.md)**  
+Create and review purchase order confirmations in the Supplier Collaboration Portal.
 
 **Parent Topic:**[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md)
 

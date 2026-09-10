@@ -22,7 +22,9 @@ The NowWebTheme interface extends the NowUITheme interface and inherits the prop
 
 This property is used to reference color variables that NowWebTheme can use. For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - Android.
 
-<table id="id_mbs_ryc_pzb" class="parameters"><thead><tr><th>
+The default colors use the Coral theme.
+
+<table id="nowUItheme-properties-table" class="parameters"><thead><tr><th>
 
 Name
 
@@ -39,7 +41,7 @@ alertCritical0
 Use for: -   error messages
 -   snackbar background
 
-Default value: \#F8C8CD
+Default value: \#F9C8CE
 
 </td></tr><tr><td>
 
@@ -50,7 +52,7 @@ alertCritical3
 Use for: -   error messages
 -   snackbar border
 
-Default value: \#B61C2D
+Default value: \#E52239
 
 </td></tr><tr><td>
 
@@ -61,7 +63,7 @@ alertPositive0
 Use for: -   success messages
 -   snackbar background
 
-Default value: \#CADFC0
+Default value: \#C7DCB5
 
 </td></tr><tr><td>
 
@@ -72,7 +74,7 @@ alertPositive3
 Use for: -   success messages
 -   snackbar border
 
-Default value: \#266108
+Default value: \#3E8600
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ alertWarning0
 Use for: -   warning messages
 -   snackbar background
 
-Default value: \#FBF7BF
+Default value: \#ECE5BF
 
 </td></tr><tr><td>
 
@@ -94,7 +96,7 @@ alertWarning3
 Use for: -   warning messages
 -   snackbar border
 
-Default value: \#B6AA00
+Default value: \#B29800
 
 </td></tr><tr><td>
 
@@ -115,7 +117,7 @@ backgroundSecondary
 
 </td><td>
 
-Use for overflow menu background.Default value: \#F6F6F8
+Use for overflow menu background.Default value: \#F5F6F7
 
 </td></tr><tr><td>
 
@@ -123,7 +125,7 @@ backgroundTertiaryActionable
 
 </td><td>
 
-Use for the background color for the topic dialog search and edit text.Default value: \#454D5B
+Use for the background color for the topic dialog search and edit text.Default value: \#37444A
 
 </td></tr><tr><td>
 
@@ -131,7 +133,7 @@ brand
 
 </td><td>
 
-Use for the header background in the toolbar and tables.Default value: \#302F4B
+Use for the header background in the toolbar and tables.Default value: \#032D42
 
 </td></tr><tr><td>
 
@@ -139,7 +141,7 @@ notification
 
 </td><td>
 
-Use for new message indicator.Default value: \#B61C2D
+Use for new message indicator.Default value: \#E52239
 
 </td></tr><tr><td>
 
@@ -150,7 +152,7 @@ primary
 Use for:-   actionable text
 -   button backgrounds
 
-Default value: \#4F52BD
+Default value: \#00566E
 
 </td></tr><tr><td>
 
@@ -183,7 +185,7 @@ Use for: -   alert dialog messages
 -   picture title and description
 -   topic text
 
-Default value: \#151920
+Default value: \#10171A
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -42,7 +42,7 @@ Managing a stage-oriented release involves completing objectives and closing the
 -   **[Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-bundle.md)**  
 Release bundles help you to group multiple releases to track and manage them concurrently from a single place.
 -   **[Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-details.md)**  
-Review and modify the details of a release. You can also retarget the readiness date of the release as required.
+Review and update the details of a release after it has been created.
 -   **[Add a product to a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-add-product-release.md)**  
 Add a product to a multi-product release to expand the scope of the release as requirements evolve. The added product gets its own child release with phases, tasks, and policies aligned to the main release.
 -   **[Remove a product from a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-remove-product-release.md)**  
@@ -50,7 +50,7 @@ Remove an included product from a multi-product release when the product is no l
 -   **[Update the scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md)**  
 Review and update the scope of the release by adding or removing product enhancements, planning items, and related tasks like incidents and problems.
 -   **[Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-config-items.md)**  
-View and manage the configuration items \(CIs\) in a release phase. Use the associated CIs to manage change requests and tasks in the release.
+View and manage the configuration items \(CIs\) in a release. Use the associated CIs to manage change requests and tasks in the release.
 -   **[Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-change-request.md)**  
 View and manage change requests in a release. You can create and add new change requests to the release or add existing ones.
 -   **[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-generate-release-notes.md)**  
@@ -61,6 +61,8 @@ Add or remove artifacts from a release.
 Review a release task and approve or reject it.
 -   **[Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-readiness-target.md)**  
 Change the release readiness target to reschedule the release period.
+-   **[Put a release on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-hold-resume-release.md)**  
+Mark a release on hold when work must pause temporarily, and resume or cancel it later from the same menu.
 -   **[Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-complete-release.md)**  
 Complete a release after all tasks have been completed and all phases are in compliance with the mapped policies.
 

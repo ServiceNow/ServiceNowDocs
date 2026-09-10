@@ -31,7 +31,7 @@ Role required: discovery\_admin
 
 1.  Create an alias.
 
-    1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+    1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
     2.  Select **New**.
 

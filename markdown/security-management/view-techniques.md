@@ -1,6 +1,6 @@
 ---
 title: Manage techniques
-description: Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that are not relevant to your organization. In STIX, techniques are known as attack patterns.
+description: Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that aren't relevant to your organization. In STIX, techniques are known as attack patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-techniques.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overvie
 
 # Manage techniques
 
-Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that are not relevant to your organization. In STIX, techniques are known as attack patterns.
+Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that aren't relevant to your organization. In STIX, techniques are known as attack patterns.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required:
 
     The list of techniques and subtechniques are now listed.
 
-2.  To review and deactivate techniques that are not relevant to your organization, go to the list view for the selected technique, and under the Active column, update the setting to **false**, and save the setting.
+2.  To review and deactivate techniques that aren't relevant, go to the list view for the selected technique and under the Active column, update the setting to **false**, and save.
 
     Deactivate the techniques that aren't used by the other objects in the MITRE-ATT&amp;CK repository.
 
@@ -41,13 +41,9 @@ Role required:
 
 4.  Click a technique to view all the associated information with this technique.
 
-    In the following illustration, you can view the details for each Account Access Removal technique, its ID, source, and other related information.
-
-    \[Omitted image "mitre-technique-attack-pattern.jpg"\] Alt text: View the attack pattern technique and it's related information.
-
     **Note:** The Data Source: Data Component element introduced by MITRE replaces the previous Data Source field. Data component provides an extra sublayer of context to the data sources. If your MITRE-ATT&amp;CK repository contains the old TAXII collections, then you can view the Data Source field. Otherwise, you can view the data sources with the additional context of data components in the Data Source: Data Component field. You can view the new data component field only when the source is Enterprise ATT&amp;CK. For more information, see [data component mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-the-data-source-and-data-components.md).
 
-5.  To view how these objects are related, click **Show Relationships**.
+5.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next

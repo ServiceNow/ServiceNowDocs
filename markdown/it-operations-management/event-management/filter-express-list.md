@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up your workspace, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Filtering the alert display in the Express List pane

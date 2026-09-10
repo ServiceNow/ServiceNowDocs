@@ -17,7 +17,7 @@ Create an experience that extends an existing experience on the ServiceNow AI Pl
 
 Role required: none
 
-The ServiceNow® AI Experience Lab for VS Code extension requires the following:
+The ServiceNow Lux Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -97,15 +97,15 @@ ServiceNow instance
 
 1.  Navigate to Visual Studio Code.
 
-2.  Select the ServiceNow \[Omitted image "servicenow-youmoji-icon.png"\] icon in the side panel to open the ServiceNow® AI Experience Lab for VS Code extension.
+2.  Select the ServiceNow \[Omitted image "servicenow-youmoji-icon.png"\] icon in the side panel to open the ServiceNow Lux Lab for VS Code extension.
 
 3.  On the home page, select **+ New project**.
 
-    \[Omitted image "servicenow-ai-experience-new-project.png"\] Alt text: Select + New project to create an experience in ServiceNow® AI Experience Lab for VS Code.
+    \[Omitted image "servicenow-ai-experience-new-project.png"\] Alt text: Select + New project to create an experience in ServiceNow Lux Lab for VS Code.
 
 4.  Select the instance that you want to deploy changes to.
 
-    During ServiceNow® AI Experience Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow® AI Experience Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
+    During ServiceNow Lux Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
 
 5.  Select the location where you want your want your project to live on your local drive.
 
@@ -119,7 +119,7 @@ ServiceNow instance
 
 9.  Enter a name for your application scope and then select the Enter key.
 
-    ServiceNow® AI Experience Lab for VS Code extension scaffolds your experience. Once created, Visual Studio Code reloads with your experience files loaded.
+    ServiceNow Lux Lab for VS Code extension scaffolds your experience. Once created, Visual Studio Code reloads with your experience files loaded.
 
 
 ## Result

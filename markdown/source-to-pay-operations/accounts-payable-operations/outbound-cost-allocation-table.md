@@ -41,6 +41,8 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Distribution set form]()

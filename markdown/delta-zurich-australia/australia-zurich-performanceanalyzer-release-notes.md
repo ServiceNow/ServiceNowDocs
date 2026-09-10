@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalyzer-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Starting with the Zurich release, Performance Analyzer is available on your instance automatically. For access to Performance Analyzer on earlier instances, install Performance Analyzer from the ServiceNow® Store.
+
 
 </td></tr><tr><td>
 
@@ -46,7 +49,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 Starting with the Zurich release, Performance Analyzer is available on your instance automatically. For access to Performance Analyzer for earlier instances, install Performance Analyzer from the ServiceNow® Store.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -213,7 +219,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -221,7 +230,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

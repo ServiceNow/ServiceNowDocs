@@ -40,7 +40,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 5.  On the Add New Location form, fill in the fields.\[Omitted image "add-supplier-location-from-source-to-pay-workspace.png"\] Alt text: Completed form for adding a new location.
 
-    For more information about the form fields and descriptions, see [Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
+    For more information about the form fields and descriptions, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
 
 6.  Select **Save**.
 

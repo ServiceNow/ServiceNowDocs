@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
@@ -32,7 +32,7 @@ The Export Hierarchy feature downloads a selected inventory model or template wi
 
 3.  From the list, select the inventory model or template you want to export.
 
-4.  In the record header, select the context menu icon \(⋮\) next to Normalize.
+4.  In the record header, select the context menu icon \(⋮\).
 
 5.  Select **Export Hierarchy**.
 

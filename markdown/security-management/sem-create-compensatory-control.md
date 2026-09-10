@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -49,7 +49,7 @@ Some commonly used compensating controls are shipped with the base system. You c
 
 ## What to do next
 
-Starting from v21.0 of Vulnerability Response, you can associate compensating controls with CVEs or TPEs after adding a compensating controls to the library. For more information on how to associate compensating controls, see [Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/associate-controls-cve-risk-reduction.md).
+Starting from v21.0 of Vulnerability Response, you can associate compensating controls with CVEs or TPEs after adding a compensating controls to the library. For more information on how to associate compensating controls, see .
 
 -   **[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-associate-controls-cve-risk-reduction.md)**  
 As a Vulnerability Manager or Analyst, you can associate relevant compensating controls with a Common Vulnerability Entry \(CVE\) or Third-party Entry \(TPE\) in the Security Exposure Management Workspace, which can be used for reducing the risk posed by a vulnerability.
@@ -63,9 +63,9 @@ As a Vulnerability Manager and Analyst, you can disable or enable the risk reduc
 
 [Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
 
-[Disable or enable risk reduction for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
+[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
 
-[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/associate-controls-cve-risk-reduction.md)
+[associate-controls-cve-risk-reduction]
 
 [Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
 

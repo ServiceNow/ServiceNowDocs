@@ -45,5 +45,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information on implementing security for AI agents.
+See  for more information on implementing security for AI agents.
 

@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud Document Management, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Remove a linked cloud file from a record

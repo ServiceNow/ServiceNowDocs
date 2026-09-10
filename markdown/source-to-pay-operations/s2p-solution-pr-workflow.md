@@ -20,7 +20,7 @@ The purchasing workflow is triggered when an active contractual price is availab
 
 Install and activate the necessary plugins. For information on the respective product plugins and installation sequence, see:
 
--   SPO: [Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+-   SPO: [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 -   APO: [Application plugin installation sequence in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/application-plugin-installation-sequence-apo.md)
 
 ## Workflow of the purchasing process

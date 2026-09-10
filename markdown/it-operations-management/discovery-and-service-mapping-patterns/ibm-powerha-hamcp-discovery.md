@@ -1,6 +1,6 @@
 ---
 title: IBM PowerHA SystemMirror for AIX discovery
-description: The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # IBM PowerHA SystemMirror for AIX discovery
 
-The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery uses this pattern to run horizontal discovery.
 

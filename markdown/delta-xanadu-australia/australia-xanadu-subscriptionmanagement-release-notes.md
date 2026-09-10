@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-subscriptionmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see [Update an app or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -54,7 +57,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Subscription Management version 5.0 is active by default on all instances of the Zurich release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see [Update an app or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -62,7 +68,10 @@ Australia
 
 </td><td>
 
-Subscription Management version 6.1 is active by default on all instances of the Australia release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see [Update an app or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&family=australia&ft:locale=en-US).
+-   **Upgrade information**
+
+Subscription Management version 6.1 is active by default on instances of the Australia release. For more information about updating Subscription Management, see [Update an app or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -114,22 +123,6 @@ Yokohama
 
 </td><td>
 
--   **[Subscription allocation counts according to active users](https://www.servicenow.com/docs/access?context=subscription-details-v2&family=yokohama&ft:locale=en-US)**
-
-View the total number of active users in a product subscription. Only active users count toward the subscription allocation totals that appear throughout Subscription Management.
-
--   **[Allocate subscriptions to all recommended groups](https://www.servicenow.com/docs/access?context=allocate-subscriptions-v2&family=yokohama&ft:locale=en-US)**
-
-Select all recommended groups when allocating subscriptions.
-
--   **[Support for on-premises installation](https://www.servicenow.com/docs/access?context=configuring-subscription-management-v2&family=yokohama&ft:locale=en-US)**
-
-Manage subscription usage using Subscription Management on-premises.
-
--   **[Recommended subscription reasoning](https://www.servicenow.com/docs/access?context=addressing-issues-subscription-management-v2&family=yokohama&ft:locale=en-US)**
-
-Determine why Subscription Management displays a subscription recommendation when mapping custom tables or custom applications.
-
 -   **[Manage custom applications and table mapping through the platform](https://www.servicenow.com/docs/access?context=allocating-custom-tables-subscr-apps-v2&family=yokohama&ft:locale=en-US)**
 
 Map any missing custom applications and tables in Subscription Management to a subscription directly from the Custom Applications list or Custom Table Inventory list.
@@ -144,14 +137,6 @@ View and filter subscribers by domain for user-based subscriptions.
 Zurich
 
 </td><td>
-
--   **[Manage custom applications and table mapping through the platform](https://www.servicenow.com/docs/access?context=allocating-custom-tables-subscr-apps-v2&family=zurich&ft:locale=en-US)**
-
-Map any missing custom application and tables in Subscription Management to a subscription directly from the Custom Applications list or Custom Table Inventory list.
-
--   **[Support for domain separation](https://www.servicenow.com/docs/access?context=domain-separation-subscription-mgmt&family=zurich&ft:locale=en-US)**
-
-View and filter subscribers by domain for user-based subscriptionsand view Now Assist usage by domain.
 
 -   **[Monitor Workflow Data Fabric usage](https://www.servicenow.com/docs/access?context=monitoring-wdf-capability-use&family=zurich&ft:locale=en-US)**
 
@@ -203,21 +188,9 @@ Yokohama
 
 </td><td>
 
--   **[Allocation charts reflect only active users](https://www.servicenow.com/docs/access?context=subscription-details-v2&family=yokohama&ft:locale=en-US)**
-
-The Allocation summary and Allocation history charts on the subscription details page reflect only the subscriptions allocated to active users for each month following the upgrade.
-
--   **[Auditing App Engine V1 usage](https://www.servicenow.com/docs/access?context=allocating-custom-tables-subscr-apps-v2&family=yokohama&ft:locale=en-US)**
-
-The App Engine Usage dashboard has been restored. For details on auditing App Engine V1 usage, see the [Auditing App Engine v1 \[KB0999383\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383) article in the Now Support Knowledge Base.
-
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
 Now Assist usage measurement is evolving. If your instances are below Yokohama Patch 12, update Subscription Management to version 6.0.2 or later on all instances to avoid mixed measurement types. For more information, see [Now Assist Usage - Overview &amp; New Measurement Logic \[KB2704710\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **[Hidden user-based subscription allocations](https://www.servicenow.com/docs/access?context=subscriptions-overview-v2&family=yokohama&ft:locale=en-US)**
-
-To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
 
 
 </td></tr><tr><td>
@@ -229,18 +202,6 @@ Zurich
 -   **[Streamlined user-based subscription allocation starting in Zurich Path 11](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&family=zurich&ft:locale=en-US)**
 
 To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions has been removed for administrators who have never used it. Administrators who have manually allocated user-based subscriptions before can still make manual allocations.
-
--   **[Assist usage excludes demo data](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-Demonstration instances are excluded from the total Assist usage count to improve tracking of Assist consumption.
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-Now Assist usage measurement is evolving. If your instances are below Zurich Patch 6, update Subscription Management to version 6.0.2 or later on all instances to avoid mixed measurement states. For more information, see [Now Assist Usage - Overview &amp; New Measurement Logic \[KB2704710\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **[Hidden user-based subscription allocations](https://www.servicenow.com/docs/access?context=subscriptions-overview-v2&family=zurich&ft:locale=en-US)**
-
-To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
 
 
 </td></tr><tr><td>
@@ -293,7 +254,7 @@ Yokohama
 
 </td><td>
 
-The Custom tables chart has been removed from the subscription details page.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -338,7 +299,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The Custom tables chart has been removed from the subscription details page.
 
 </td></tr><tr><td>
 
@@ -383,7 +344,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=yokohama&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=yokohama&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=yokohama&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -391,7 +355,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Subscription Management is a ServiceNow AI Platform feature that is active by default.Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=zurich&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=zurich&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=zurich&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -399,7 +366,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -619,6 +589,8 @@ Yokohama
 -   View subscribers by domain for user-based subscriptions.
 
  See [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&family=yokohama&ft:locale=en-US) for more information.
+
+ **Important:** Subscription Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-update-record.html
 release: australia
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-keywords: [app, engine, erp, sap, rapid, deployment, pack, data, edit, update]
-breadcrumb: [Use, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [app, engine, sap, erp, rapid, deployment, pack, master data management, MDM, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Use, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Update a master data record
@@ -21,7 +21,7 @@ Submit an update request for an existing master data record.
 -   The record must already exist in the system, either approved from an earlier create request or preloaded from your ERP system.
 -   Only records that have been approved are available for update.
 
-Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -80,5 +80,5 @@ Role required: An MDM Orchestrator requestor role. \(For more information, see [
 
 The request flows through the enrichment, governance, and approval stages.
 
-**Parent Topic:**[Using App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
 

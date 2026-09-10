@@ -27,7 +27,7 @@ Role required:
 
 In the map view of a discovered application service, you can see that the severity of a child service is propagated to the parent service.
 
-An application service is affected by the severity of alerts that are directly associated with it and alerts on the CIs that are in the service. If the severity of a child service is higher than that of its parent service, on the map view the parent service shows the severity of the child service. In the map view, the **Impact Tree** list shows the CIs. The color of the CIs indicates the alert severity. The child service is also affected by application services that are under it.
+An application service is affected by the severity of alerts that are directly associated with it and alerts on the CIs that are in the service. When a child service has higher severity than its parent service, the parent service displays the child severity on the map view. In the map view, the **Impact Tree** list shows the CIs. The color of the CIs indicates the alert severity. The child service is also affected by application services that are under it.
 
 \[Omitted image "service-health-propagated.png"\] Alt text: Child service severity is propagated to parent service
 

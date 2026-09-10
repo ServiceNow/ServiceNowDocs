@@ -7,8 +7,8 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -33,7 +33,7 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** Hover-text or tool tips are not supported for HTML5 at this time.
+    **Note:** Hover-text or tool tips aren't supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
@@ -56,30 +56,27 @@ The **Rich Content Editor** supports the following types of video:
 
 4.  Use any of the following styling settings:
 
-    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, and additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
     Provider "Other"
 
+5.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
 
-## Procedure
+6.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
 
-1.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
+7.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
 
-2.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
+8.  Create [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md) and open the Rich Content Editor.
 
-3.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
+9.  Add a **video component** and set **Provider** to **Other**.
 
-4.  Create [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md) and open the Rich Content Editor.
+10. Paste your public video URL from an allowed domain.
 
-5.  Add a **video component** and set **Provider** to **Other**.
+11. Save video.
 
-6.  Paste your public video URL from an allowed domain.
+12. Confirm that the video renders in **Rich Content Editor**.
 
-7.  Save video.
-
-8.  Confirm that the video renders in **Rich Content Editor**.
-
-9.  Follow the additional setting options to configure video settings, as needed.
+13. Follow the additional setting options to configure video settings, as needed.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -167,10 +164,10 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player controls. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
-</table>10. Select **Save** or **Save and Finish**.
+</table>14. Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 

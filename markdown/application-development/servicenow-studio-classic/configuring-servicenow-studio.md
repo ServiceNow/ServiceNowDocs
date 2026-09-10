@@ -26,6 +26,10 @@ Manage access to ServiceNow Studio by assigning delegated development permission
 The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level.
 -   **[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)**  
 Collaborate with other developers on app development in ServiceNow Studio by inviting them to co-create and develop apps with you.
+-   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)**  
+Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
+-   **[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)**  
+Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
 
 **Parent Topic:**[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 

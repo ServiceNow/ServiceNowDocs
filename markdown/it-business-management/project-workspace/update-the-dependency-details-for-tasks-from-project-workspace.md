@@ -1,5 +1,5 @@
 ---
-title: Update task dependency details in Project Workspace
+title: Update the dependency details for tasks from Project Workspace
 description: Update the details of the dependency including its type and lag time from Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Add internal project task dependencies from Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Update task dependency details in Project Workspace
+# Update the dependency details for tasks from Project Workspace
 
 Update the details of the dependency including its type and lag time from Project Workspace.
 

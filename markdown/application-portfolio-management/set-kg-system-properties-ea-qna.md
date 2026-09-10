@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
-reading_time_minutes: 3
-breadcrumb: [Configure, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+reading_time_minutes: 2
+breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enable Knowledge Graph system properties for the Enterprise Architecture query agent
@@ -32,7 +32,7 @@ After enabling the properties, the Knowledge Graph runs scheduled jobs that read
 
 Until Knowledge Graph completes its initial data processing, responses from the Enterprise Architecture query agent that rely on CMDB relationship data may be incomplete or limited. Query results improve progressively as processing continues.
 
-If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a non-production instance where setup has already completed. For more information, see [Initial setup for Enterprise Graph schema in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
+If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a non-production instance where setup has already completed. For more information, see [Enterprise Graph initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
 
 \[Omitted image "ea-qna-kg-setup-banner.png"\] Alt text: Knowledge Graph Designer page showing a setup-in-progress notification banner indicating the Enterprise Graph is not yet available for queries.
 

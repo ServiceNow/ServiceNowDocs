@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-using-employee-slate.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
 
 # Employee experience in Employee Slate
@@ -27,7 +27,7 @@ From Employee Slate, an employee can perform the following actions:
 
 **Important:** The Employee Slate experience can be integrated with the following platforms and applications:
 
--   Moveworks. For information about AI-assisted help with this integration, see [Otto capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-moveworks-capabilities.md).
+-   Moveworks. For information about AI-assisted help with this integration, see [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-moveworks-capabilities.md).
 -   Now Assist
 
 \[Omitted image "ai-native-submit-incident-empslate.png"\] Alt text: Submit an incident in Employee Slate
@@ -37,5 +37,5 @@ Save time in searching for catalog items and submitting requests.
 -   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-submit-incident-employee-slate.md)**  
 Save time in submitting and resolving incidents.
 
-**Parent Topic:**[Employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
 

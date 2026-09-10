@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforcreator-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 21
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,9 +54,11 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 [Australia Early Availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
 
--   To upgrade the Build Agent application, upgrade the ServiceNow Otto for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
+    -   To upgrade the Build Agent application, upgrade the ServiceNow Otto for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
 
 </td></tr></tbody>
 </table>## New features
@@ -86,210 +88,15 @@ Build Agent, located in a chat panel within the ServiceNow IDE, functions as an 
 Create catalog items and record producers efficiently using the conversational interface within Catalog Builder. Communicate your requirements and specifications for your desired catalog items through guided conversation. Now Assist for catalog generation helps to simplify and streamline the catalog item creation process.
 
 
--   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=yokohama&ft:locale=en-US)**
-
-Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
-
-**Note:** Additional AI model providers are supported for the following ServiceNow Otto for Creator skills:
-
-    -   App generation
-    -   App summarization
-    -   Catalog item generation
-    -   Code generation
-    -   Flow generation
-    -   Flow summarization
-    -   Playbook generation
-    -   Process Mining
-    -   RPA bot generation
-    -   Spoke generation
-    -   Test generation
-
--   **[Add columns to existing tables with Now Assist for app generation](https://www.servicenow.com/docs/access?context=sns-app-gen-review-apps&family=yokohama&ft:locale=en-US)**
-
-Add columns to existing tables in Now Assist for app generation.
-
--   **[Add flows in Now Assist for app generation](https://www.servicenow.com/docs/access?context=sns-app-gen-add-flow&family=yokohama&ft:locale=en-US)**
-
-Create a flow when creating an application in Now Assist for app generation. Enhance an existing application by adding a flow.
-
--   **[Add workspaces in Now Assist for app generation](https://www.servicenow.com/docs/access?context=sns-app-gen-add-workspace&family=yokohama&ft:locale=en-US)**
-
-Create a workspace when creating an application in Now Assist for app generation. Enhance an existing application by adding a workspace.
-
--   **[Configure an event handler with Now Assist](https://www.servicenow.com/docs/access?context=configure-an-event-handler-with-now-assist&family=yokohama&ft:locale=en-US)**
-
-Use Now Assist in UI Builder to configure event handlers. At present, you can configure links to a destination, open or close modals, and view load requested event handlers using Now Assist in UI Builder.
-
--   **[Create a flow or subflow from an image](https://www.servicenow.com/docs/access?context=exploring-flow-generation-with-images&family=yokohama&ft:locale=en-US)**
-
-Create a flow or a subflow from an image by using Now Assist. Capture the detailed process in an image and attach the image to Workflow Studio. Now Assist generates a preview of the flow that you can modify and regenerate.
-
--   **[Enable Code Explain and Summarize](https://www.servicenow.com/docs/access?context=enable-code-explain-and-summarize&family=yokohama&ft:locale=en-US)**
-
-Support Code Explain and Code Summarize features with the Now LLM Service. Ensure compliance with any regional restrictions and help APAC users who may face limitations with US-based models.
-
--   **[Summarize client scripts](https://www.servicenow.com/docs/access?context=client-script-summarization-generation&family=yokohama&ft:locale=en-US)**
-
-Use client script summary generation to get both a high-level summary and a detailed explanation of the client scripts.
-
--   **[Summarize a flow or subflow](https://www.servicenow.com/docs/access?context=flow-summarization&family=yokohama&ft:locale=en-US)**
-
-Summarize what a flow or subflow does by using generative AI.
-
--   **[Support additional components in the RPA Bot generation skill](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1808191)**
-
-Support 97 additional components with ServiceNow Otto for RPA Hub.
-
--   **[Support Retrieval Augmented Generation \(RAG\) with playbook generation](https://www.servicenow.com/docs/access?context=playbook-assist&family=yokohama&ft:locale=en-US)**
-
-Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions that are available on your instance in your playbook generation requests.
-
--   **[Time out long running app summaries](https://www.servicenow.com/docs/access?context=sns-now-assist-app-summarize-landing&family=yokohama&ft:locale=en-US)**
-
-Time out app summary generation after two minutes.
-
--   **[Use the Now LLM Service with Now Assist for app generation](https://www.servicenow.com/docs/access?context=sns-exploring-now-assist-gen&family=yokohama&ft:locale=en-US)**
-
-Choose Now LLM Service or OpenAI GPT-4o to ensure compliance with any regional restrictions. This feature is helpful for APAC users who may face limitations with US-based models, such as GPT-4.0.
-
-
--   **[Create applications in ServiceNow Studio by using Now Assist with the guided app creator role](https://www.servicenow.com/docs/access?context=sns-app-gen-using-landing&family=yokohama&ft:locale=en-US)**
-
-Enable your users with the guided app creator role \(in addition to users with the admin role\) to create applications with the Now Assist for app generation skill.
-
--   **[Create and edit automations and activities and extend automation logic flow in RPA Desktop Design Studio by using Now Assist](https://www.servicenow.com/docs/access?context=rpa-now-assist-studio&family=yokohama&ft:locale=en-US)**
-
-Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options. This feature helps you to accelerate automation development because new and existing users can develop and build faster automations.
-
-Enhance the automation logic by using the **Build automation** option, starting from components or from an empty design surface that is based on text instructions.
-
--   **[Summarize an app in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sns-now-assist-app-summarize-landing&family=yokohama&ft:locale=en-US)**
-
-Use the new Now Assist for app summary generation skill to quickly generate a summary of an app. You can then copy the summary to the app description, and then use the summaries to find duplicate or redundant apps.
-
--   **[Generate and edit automated tests faster by using the Test generation skill](https://www.servicenow.com/docs/access?context=test-generation-intro&family=yokohama&ft:locale=en-US)**
-
-Use the new Test generation skill to generate automated tests faster by simply describing your test requirements. Review the generated test, make edits directly, or refine your original prompt to generate a revised version of the test.
-
-
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Upload brand guidelines to generate theme colors](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
-
-Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
-
--   **[Test Agent for Build Agent](https://www.servicenow.com/docs/access?context=build-agent-testing&family=zurich&ft:locale=en-US)**
-
-The Test Agent can now execute Automated Test Framework \(ATF\) tests right from the Build Agent chat panel for test artifacts created in the same session. When tests fail, the tests and test results generated by Test Agent after execution are saved in the standard ATF record tables and can be scheduled for continued regression testing for the app. If tests were edited by the test agent after troubleshooting, those edits are automatically saved to the test records.
-
--   **[Semantic search for instance artifact discovery](https://www.servicenow.com/docs/access?context=build-agent-tools&family=zurich&ft:locale=en-US)**
-
-Use semantic search in Build Agent to locate relevant instance artifacts, including tables, scripts, and business rules during build and edit tasks. Find files, applications, and knowledge on your instance based on meaning instead of requiring exact keywords.
-
--   **[UI validation tool](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Validate user interface output automatically during Build Agent app creation using the integrated UI validation, which runs Playwright-based UI checks on Cloud Runner and surfaces failures with diagnostic context directly in the Build Agent panel.
-
--   **[Create workflows, agents, and skills](https://www.servicenow.com/docs/access?context=create-custom-ai-agent&family=zurich&ft:locale=en-US)**
-
-Turn business requirements into fully configured agents, skills, and agentic workflows for your custom applications. Build Agent inspects your app's existing tables, roles, business rules, and metadata to create tailored in-app agents, complete with the tools needed to support your specific use case.
-
-
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=zurich&ft:locale=en-US)**
-
-Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
-
--   **[Improved LLM support](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Support for Opus 4.6 and Sonnet 4.5 is now available in Build Agent to provide better contextual conversations.
-
--   **[New metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=zurich&ft:locale=en-US)**
-
-Work with more metadata types, as Build Agent now supports working with the following:
-
-    -   Email integration
-    -   List controls
-    -   Service Catalog items
-    -   UI components
-    -   UI policies
-    -   UI views
-    -   Workspaces
-
--   **[Generate themes using the new theme generation workflow in Theme Builder](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
-
-Leverage the new theme generation workflow in Theme Builder to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling.
-
--   **[Edit already published catalog items using ServiceNow Otto](https://www.servicenow.com/docs/access?context=edit-already-published-catalog-items-using-now-assist&family=zurich&ft:locale=en-US)**
-
-Edit and refine published catalog items conversationally using Now Assist in Catalog Builder.
-
--   **[Generate UI policies in Catalog Builder](https://www.servicenow.com/docs/access?context=now-assist-ui-policy-functions&family=zurich&ft:locale=en-US)**
-
-Use Now Assist to create new UI policies, update existing ones, and deactivate them, all through simple, conversational prompts. Each UI policy can include multiple actions, and Now Assist can create that for you.
-
--   **[Assign catalog item location with Now Assist](https://www.servicenow.com/docs/access?context=setting-location-catalog-category-and-topic-with-now-assist&family=zurich&ft:locale=en-US)**
-
-When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, Now Assist automatically applies it to the item, helping to streamline the process and reduce manual data entry.
-
-
--   **[Configure AI model providers](https://www.servicenow.com/docs/access?context=configure-model-providers-for-now-assist-skills&family=zurich&ft:locale=en-US)**
-
-Choose a model provider for ServiceNow Otto for Code skills in the script editor. You can choose from the models that are enabled in the AI Control Tower.
-
--   **[Planning tool available with the Build Agent](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Build a detailed, step-by-step plan for your application development with the Build Agent planning tool. You can refine the plan iteratively by prompting for changes and providing feedback until you reach a final version.
-
--   **[Build Agent supports Azure OpenAI and Google Gemini](https://www.servicenow.com/docs/access?context=install-build-agent&family=zurich&ft:locale=en-US)**
-
-Use Build Agent with Azure OpenAI and Google Gemini in addition to Anthropic Claude on AWS.
-
--   **[Use images as prompts in Build Agent](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in the Build Agent.
-
--   **[Generate catalog items conversationally with Now Assist in Catalog Builder](https://www.servicenow.com/docs/access?context=create-catalog-item-using-now-assist&family=zurich&ft:locale=en-US)**
-
-Create catalog items and record producers efficiently using the conversational interface within Catalog Builder. Communicate your requirements and specifications for your desired catalog items through guided conversation. Now Assist for catalog generation helps to simplify and streamline the catalog item creation process.
-
--   **[Preview catalog items during the creation process](https://www.servicenow.com/docs/access?context=create-catalog-item-using-now-assist&family=zurich&ft:locale=en-US)**
-
-Preview catalog items during the creation process. Quick previews enable you to verify that catalog items appear and function as intended before publication.
-
--   **[Getting help with the Now Assist panel in UI Builder](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
-
-Create pages using natural language text prompts with Now Assist in UI Builder. Quickly add layouts, components, and content to your pages without manually configuring each element. You can also quickly analyze page structure and data flow by asking questions using natural language.
-
--   **[Key features](https://www.servicenow.com/docs/access?context=key-features-of-ui-builder-agent&family=zurich&ft:locale=en-US)**
-
-Ask your questions about using UI Builder to the UI Builder agent. The UI Builder agent provides an overview of page configuration, such as the structure and interconnections of page elements. You can also use the UI Builder agent to apply different layouts, configure components, and update styling.
-
--   **[ATF troubleshooting agent](https://www.servicenow.com/docs/access?context=atf-troubleshooting-agent-landing-page&family=zurich&ft:locale=en-US)**
-
-Accelerate troubleshooting and resolve test failures quickly by using ATF troubleshooting agent on covered metadata.
-
-
 -   **[MCP connections and Build Agent](https://www.servicenow.com/docs/access?context=accelerate-design-to-development-with-figma-mcp-server&family=zurich&ft:locale=en-US)**
 
 You can now connect the Build Agent to the Figma MCP server. The Figma MCP server enables the Build Agent to access the structured data within Figma files. This connection accelerates the transition from application design to development, helping to make the developer workflow more efficient.
-
-
--   **[New Build Agent \(Trial\) available](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-A trial version of the Build Agent is now available with Build Agent \(Trial\). With Build Agent \(Trial\), you can explore limited interactions with the Build Agent for free.
-
-
--   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=zurich&ft:locale=en-US)**
-
-Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
-
--   **[Build Agent, an autonomous AI agent for ServiceNow application development](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-The Build Agent, located in a chat panel within the ServiceNow IDE, functions as an autonomous AI agent capable of independently generating a complete ServiceNow application. It can handle various code-related tasks, such as rewriting tables, explaining code, validating and improving existing applications, fixing application errors, and more.
 
 
 </td></tr><tr><td>
@@ -301,37 +108,6 @@ Australia
 -   **[Upload brand guidelines to generate theme colors](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
 
 Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
-
-
--   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=exploring-release-lifecycle-documentation-agent&family=australia&ft:locale=en-US)**
-
-Improve transparency across your app development environment using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
-
--   **[Generate themes using the new theme generation workflow in Theme Builder](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=australia&ft:locale=en-US)**
-
-Use the new theme generation workflow in Theme Builder to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling.
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
-
--   **[Module generation](https://www.servicenow.com/docs/access?context=generate-ai-modules&family=australia&ft:locale=en-US)**
-
-Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
-
--   **[New agentic development documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
-
-Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 </td></tr></tbody>
@@ -363,24 +139,9 @@ The skills are automatically available to appropriate role users for the applica
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
 
--   **[More easily identify changes when previewing and updating applications](https://www.servicenow.com/docs/access?context=sns-app-gen-using-landing&family=yokohama&ft:locale=en-US)**
-
-When previewing an application, any requested changes made by the Now Assist for app generation skill are listed when the preview pane loads.
-
--   **[Edit applications without having to change the scope manually](https://www.servicenow.com/docs/access?context=sns-app-gen-review-apps&family=yokohama&ft:locale=en-US)**
-
-When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
-
--   **[More easily query Analytics Generation](https://www.servicenow.com/docs/access?context=analytics-assist-landing-page&family=yokohama&ft:locale=en-US)**
-
-Analytics Generation now uses a semantic filter instead of Natural Language Query \(NLQ\), resulting in less rigid requirements for queries.
-
-
--   **[Improved query engine for Analytics Generation](https://www.servicenow.com/docs/access?context=analytics-assist-landing-page&family=yokohama&ft:locale=en-US)**
-
-Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 </td></tr><tr><td>
@@ -394,33 +155,15 @@ Zurich
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install an AI product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-
-
-
 -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-
-
-
--   **[Use the app generation skill to generate apps](https://www.servicenow.com/docs/access?context=sns-app-gen-use-app-gen-skill&family=australia&ft:locale=en-US)**
-
-Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 </td></tr></tbody>
@@ -442,9 +185,7 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 12](https://www.servicenow.com/docs/access?context=yokohama-patch-12&family=yokohama&ft:locale=en-US)
-
--   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -452,13 +193,7 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 6](https://www.servicenow.com/docs/access?context=zurich-patch-6&family=zurich&ft:locale=en-US)
-
--   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
-
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
-
--   Starting with version 28.4.3 of ServiceNow Otto for Creator, the now.assist.creator role has been removed as a required role for using most ServiceNow Otto for Creator skills and agents. Some skills and agents might have additional role requirements. See the [ServiceNow Otto for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=zurich&ft:locale=en-US) product documentation for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -466,7 +201,7 @@ Australia
 
 </td><td>
 
-Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -487,7 +222,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
 </td></tr><tr><td>
 
@@ -495,7 +230,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Starting with version 28.4.3 of ServiceNow Otto for Creator, the now.assist.creator role has been removed as a required role for using most ServiceNow Otto for Creator skills and agents. Some skills and agents might have additional role requirements. See the [ServiceNow Otto for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=zurich&ft:locale=en-US) product documentation for more information.
 
 </td></tr><tr><td>
 
@@ -503,7 +238,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -524,7 +259,10 @@ Yokohama
 
 </td><td>
 
-Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -532,7 +270,10 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -540,7 +281,10 @@ Australia
 
 </td><td>
 
-Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

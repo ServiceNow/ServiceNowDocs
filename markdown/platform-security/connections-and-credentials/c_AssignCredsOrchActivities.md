@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---

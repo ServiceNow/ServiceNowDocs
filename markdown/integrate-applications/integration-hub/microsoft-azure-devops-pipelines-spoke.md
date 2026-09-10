@@ -30,7 +30,7 @@ This spoke was built for Azure DevOps Pipelines REST API version 7.0 and Azure D
 
 ## Spoke version
 
-Microsoft Azure DevOps Pipelines spoke v1.0.0 is the latest version.
+Microsoft Azure DevOps Pipelines spoke v1.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure DevOps Pipelines Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-azure-devops-pipelines-spoke.html).
 
 ## Spoke requirements
 

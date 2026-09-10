@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, output, parameter, read, update, model, operation, map]
-breadcrumb: [Manage model, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Choose output parameters for a model
@@ -41,7 +41,7 @@ If you're already in the process of managing a model and ready to specify output
 
 6.  Open an entity.
 
-    If you don't have an entity, add one to the operation. For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    If you don't have an entity, add one to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 7.  Select the **Choose outputs** tab.
 

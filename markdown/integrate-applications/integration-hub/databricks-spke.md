@@ -24,6 +24,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
+## Spoke version
+
+Databricks Spoke v1.0.1 is the latest version. For version history of the spoke, see [Databricks Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-databricks-spoke.html).
+
 ## Supported versions
 
 This spoke was built for these versions of Databricks, but may be compatible with later versions:

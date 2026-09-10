@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforvault-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -71,14 +71,6 @@ Zurich
 
 The generate custom data pattern skill now uses the Now LLM Service as the default provider. You can switch to another provider as needed.
 
-
--   **[Using Now Assist for Vault](https://www.servicenow.com/docs/access?context=using-now-assist-vault&family=zurich&ft:locale=en-US)**
-
-The ServiceNow Otto for Vault application generates custom data patterns from text descriptions to streamline your workload, checks role access for an encrypted column to monitor your instance’s encryption access posture, and schedules data discovery jobs to detect sensitive data. Enable these skills in AI Admin Hub console:
-
-    -   Generate custom data pattern
-    -   Check role access for encrypted column
-    -   Schedule Data Discovery job
 
 </td></tr><tr><td>
 
@@ -194,7 +186,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

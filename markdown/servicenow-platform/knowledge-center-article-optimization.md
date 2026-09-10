@@ -23,7 +23,7 @@ The Article Optimization tool performs the following operations:
 -   Scheduled jobs run various scans on articles, such as checking for proper heading tags, missing image alt attributes \(for accessibility\), and title relevance \(for search engine optimization\).
 -   Findings from these scans are presented as cards in the user interface, offering suggestions like adding alt text or updating titles.
 -   Both script-based and AI-powered scans are supported. AI scans include suggestions for improvement.
--   Authors can fix, ignore, or review findings directly from the UI. Some fixes \(changing heading tags, and so on\) can be batch-applied.
+-   Authors can fix, ignore, or review findings directly from the UI. Some fixes \(changing heading tags, and so on\) can be applied to multiple issues in an article with one click.
 -   Managers can see aggregated findings on the home page, such as number of flagged articles and types of issues. Authors can see findings at the individual article level.
 -   Use the article length scan, a script-based, non-AI scan, to evaluate articles against two length-based criteria: minimum length for search engine optimization, and maximum length for AI search. Articles with fewer than 300 words are flagged for search engine optimization and don't appear in search results. Articles exceeding 10,000 words are flagged for AI search indexation and don't appear in AI-powered search results.
 -   The Reading Ease scan flags readability issues in articles. Review and resolve the findings to improve articles that score below the threshold.

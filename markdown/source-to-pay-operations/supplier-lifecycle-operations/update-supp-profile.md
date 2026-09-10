@@ -36,7 +36,7 @@ Role required: sn\_slm.contact
     -   In the portal header, select **My Company**, and then select **Request Change** on the Company Profile page.
 4.  On the Update profile details form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md).
+    For more information about the form fields and descriptions, see [Fields in the Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md).
 
 5.  Select **Submit**.
 
@@ -69,6 +69,8 @@ After the Supplier Manager approves the case, the company profile details are up
 [Request elevated access]()
 
 [Update default supplier]()
+
+[Update tax information using the supplier catalog]()
 
 [Request something else using the supplier catalog]()
 

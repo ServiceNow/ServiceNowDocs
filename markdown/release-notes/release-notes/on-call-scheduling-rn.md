@@ -1,9 +1,9 @@
 ---
 title: On-Call Scheduling release notes
-description: The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+description: The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,14 +12,31 @@ reading_time_minutes: 1
 
 The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
 
-## On-Call Scheduling highlights for the Australia release
+## About On-Call Scheduling
 
 -   Configure on-call schedule features using granular roles.
 -   Configure a monthly roster rotation for an on-call schedule to simplify shift management.
 
 See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
+
+    -   FullCalendar library
+    -   DHTMLX scheduler
+    **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Monthly roster rotation for an on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-update-schedule-oncall.md)**
 
@@ -29,30 +46,4 @@ See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     Configure on-call schedule features using the granular and specific role, sn\_on\_call\_admin. It contains sn\_trigger\_table\_cfg\_read and sn\_trigger\_table\_cfg\_write roles.
 
-
-## Activation information
-
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
-
--   FullCalendar library
--   DHTMLX scheduler
-
-**Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
-
-## Related ServiceNow applications and features
-
--   **[Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md)**
-
-    In addition to email notifications, you can send on-call escalation notifications as SMS alerts and voice calls. Engage on-call escalation in ServiceNow® Notify conference calls.
-
--   **[ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent.md)**
-
-    Access the upcoming shifts and time-off requests of team members in the ServiceNow® ITSM Mobile Agent app. Send On-Call Scheduling escalation notifications as mobile push notifications.
-
--   **[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md)**
-
-    Identify available On-Call Scheduling members of a support group who can be contacted to resolve an issue in ServiceNow® Service Operations Workspace.
-
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
 

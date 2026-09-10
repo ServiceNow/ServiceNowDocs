@@ -43,7 +43,7 @@ You can set up AI Agents to automatically complete activities or provide recomme
     |**Autonomous**|The AI Agents update the record, complete the activity, and automatically move the playbook to the next activity.|
     |**No AI Agents**|AI Agents are turned off for the activity.|
 
-    **Note:** Test the playbook extensively to make sure that the AI Agents can complete the activities independently. Select **View progress** while testing the playbook to see the agent activities on the Now Assist panel.
+    **Note:** Test the playbook extensively to make sure that the AI Agents can complete the activities independently. Select **View progress** while testing the playbook to see the agent activities on the ServiceNow Otto® panel.
 
     For activities that can't be completed independently by the AI Agents, the system saves the data. The activity is completed if the data matches any Wait for condition in your playbook.
 

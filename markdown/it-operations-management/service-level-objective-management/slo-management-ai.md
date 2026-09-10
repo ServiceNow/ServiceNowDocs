@@ -37,11 +37,11 @@ Resources
 
 </th></tr></thead><tbody><tr><td>
 
-Automated SLO generation with the SLO creator agent
+SLO generation with the SLO creator agent
 
 </td><td>
 
-Analyzes CI data and automatically generates baseline SLOs for eligible configuration items \(CIs\). You can review, update, and manage the generated SLOs and adjust SLO creator agent settings.
+Analyzes CI data and automatically generates baseline SLOs for eligible configuration items \(CIs\). You can review, update, and manage the generated SLOs and adjust the agent settings.
 
 </td><td>
 
@@ -49,9 +49,28 @@ An operator needs baseline SLOs for new or existing CIs without manually definin
 
 </td><td>
 
--   [SLO creator agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md)
+-   [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md)
 -   [Manage SLO creator agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-manage-generated-slos.md)
--   [View AI-generated SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-view-slos.md)
+-   [View generated SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-view-slos.md)
+-   [SLO creator agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/slo-creator-agent-system-properties.md)
+
+</td></tr><tr><td>
+
+Conversational analysis and SLO creation with the ITOM MCP Server
+
+</td><td>
+
+Connects an MCP client application, such as Claude or Moveworks, to your ServiceNow ITOM environment. You can have natural language conversations about CI reliability, topology, and incident impact, and create SLOs through the MCP client.
+
+</td><td>
+
+An operator wants to investigate CI reliability and topology, assess incident impact, or create SLOs through an MCP client.
+
+</td><td>
+
+-   [Using the ITOM MCP Server Console to perform ITOM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-itom-mcp-server.md)
+-   [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/activate-itom-mcp-server.md)
+-   [Review CI reliability with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/review-ci-reliability-itom-mcp-server.md)
 
 </td></tr></tbody>
 </table>

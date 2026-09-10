@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -34,6 +34,8 @@ Remediating an issue marks an intention to fix the underlying issue causing the 
 
     -   Select **Suggested Remediation Tasks** and select **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
     -   Selecting **New** and manually creating the task.
+    **Important:** You can't assign a single remediation task or response to multiple issues at the same time. To remediate several related issues together, group them under a parent issue, then create the remediation task on the parent.
+
 3.  On the form, fill in the fields.
 
 <table id="table_ynl_yjz_dv"><thead><tr><th>

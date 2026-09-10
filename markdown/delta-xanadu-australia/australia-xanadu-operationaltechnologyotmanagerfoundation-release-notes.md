@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationaltechnologyotmanagerfoundation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,11 +106,6 @@ Zurich
 
 </td><td>
 
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
 -   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich&ft:locale=en-US)**
 
 Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
@@ -167,24 +162,25 @@ The skills are automatically available to appropriate role users for the applica
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 -   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=yokohama&ft:locale=en-US)**
 
+[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=yokohama&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&family=yokohama&ft:locale=en-US).
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Now Assist for OTM was renamed to OT Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US)**
+-   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
-Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
-
-
--   ****
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 -   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -311,7 +307,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -319,7 +318,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -454,7 +456,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -555,7 +561,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
 
 -   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
 

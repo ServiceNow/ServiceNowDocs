@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Agent Client Collector log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
 
 # Edit a log policy

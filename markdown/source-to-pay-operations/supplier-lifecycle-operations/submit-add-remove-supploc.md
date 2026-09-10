@@ -64,7 +64,7 @@ Role required: sn\_slm.contact
 
 9.  On the Supplier Location form, fill in the fields.
 
-    For a description of the field values, see [Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
+    For a description of the field values, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
 
 10. Select **Submit**.
 
@@ -97,6 +97,8 @@ After the supplier manager approves the case, the supplier record is updated acc
 [Request elevated access]()
 
 [Update default supplier]()
+
+[Update tax information using the supplier catalog]()
 
 [Request something else using the supplier catalog]()
 

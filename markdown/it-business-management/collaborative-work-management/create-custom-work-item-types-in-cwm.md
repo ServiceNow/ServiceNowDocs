@@ -22,10 +22,6 @@ Create custom item types for Boards in Collaborative Work Management, so that yo
 
 Role required: sn\_cwm.cwm\_user
 
-## About this task
-
-Watch this video for information about creating a work item type.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Collaborative Work Management**.

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Filter out or show matching alerts

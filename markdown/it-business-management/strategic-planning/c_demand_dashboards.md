@@ -1,5 +1,5 @@
 ---
-title: Demands Dashboard
+title: Monitoring and tracking demands using the Demands Dashboard
 description: The Demands Dashboard provides a visual summary of demand data directly in the Next Experience for Demand Management. The dashboard and demand list views are available from the same workspace, with filters that apply across all widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/c\_demand\_dashboards.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [demand dashboard, demand workspace, Demand Management]
-breadcrumb: [Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Demands Dashboard
+# Monitoring and tracking demands using the Demands Dashboard
 
 The Demands Dashboard provides a visual summary of demand data directly in the Next Experience for Demand Management. The dashboard and demand list views are available from the same workspace, with filters that apply across all widgets.
 

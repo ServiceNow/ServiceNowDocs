@@ -38,7 +38,7 @@ When a metric crosses or falls within the range of a configured threshold, the s
 
 4.  Apply a filter within the selected CI class.
 
-    For example, if you selected a CI class of **Linux Server**, you can apply a filter to indicate that the rule applies only to those servers with a host name that starts with a specified string.
+    For example, if you selected a CI class of **Linux Server**, you can apply a filter. The filter indicates that the rule applies only to servers with a host name that starts with a specified string.
 
 5.  Select **Next**.
 

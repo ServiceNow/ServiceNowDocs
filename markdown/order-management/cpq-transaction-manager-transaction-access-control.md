@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience: Access Control
@@ -68,4 +68,6 @@ When quote-managed access control is enabled on an instance that already contain
 ## API support
 
 You can grant or revoke quote-managed access through API calls. You can also use the API to retrieve the list of quotes a user can access and to return a history of users who were granted or revoked access. For a Postman collection of ServiceNow Quote Experience access control API calls, contact support.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

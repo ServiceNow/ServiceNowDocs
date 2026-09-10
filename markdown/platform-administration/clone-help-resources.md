@@ -15,5 +15,5 @@ breadcrumb: [Explore, Instance Clone, Configure core features, Administer the Se
 
 Help resources provide guidance and documentation to support users during clone operations and troubleshooting.
 
-Clone help resources include documentation, guides, and support materials that assist administrators and users in understanding, configuring, and troubleshooting clone operations. These resources help verify successful clone completion and resolve issues that may occur during the cloning process.
+Clone help resources include links to documentation, guides, and support materials that assist administrators and users in understanding, configuring, and troubleshooting clone operations. These resources help verify successful clone completion and resolve issues that may occur during the cloning process.
 

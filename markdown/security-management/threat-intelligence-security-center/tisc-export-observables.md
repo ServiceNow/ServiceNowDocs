@@ -67,5 +67,5 @@ Currently, the export functionality is limited to observables, indicators, and c
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

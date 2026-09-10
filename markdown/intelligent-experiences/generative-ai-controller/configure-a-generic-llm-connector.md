@@ -36,7 +36,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 3.  In the **Model** field, enter the name of the model.
 
-    If you are using Azure OpenAI, then the model name is the deployment name of your resource.
+    If you're using Azure OpenAI, then the model name is the deployment name of your resource.
 
 4.  In the **Provider** field, select **Custom LLM**.
 
@@ -52,11 +52,11 @@ Generative AI Controller offers several base system connections to popular AI se
 
 8.  Select **New**.
 
-9.  Select the list lookup icon \[Omitted image "icon-magnifying-glass-blue.png"\] next to the **Definition** field.
+9.  Select the list lookup icon \(\[Omitted image "na-list-lookup-icon.png"\] Alt text: List lookup icon with magnifying glass.\) next to the **Definition** field.
 
 10. In the Select the document modal, select a capability that you want to configure with the Custom LLM provider.
 
-    For example, if you're configuring a Summarize capability, select **Summarize \(Custom LLM\)**.
+    For example, if you're configuring a Summarize capability with a generic LLM provider, select **Summarize \(Custom LLM\)**.
 
 11. Select **OK** to save your selection and close the modal.
 
@@ -175,12 +175,7 @@ Your external LLM is connected to Generative AI Controller. You can use the AI s
 
 ## What to do next
 
-After you connect the LLM, you can set a provider for the generative AI capabilities of Generative AI Controller. The capabilities are Generic Prompt, Generate Content, Sentiment Analysis, and Summarize. For more information on choosing a provider, see [Set a provider for a generative AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md).
+After you connect the LLM, you can set a provider for the generative AI capabilities of Generative AI Controller. For more information, see [Set a provider for a generative AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md).
 
-**Related topics**  
-
-
-[Bring your own key for third-party AI provider integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.md)
-
-[Configure a custom resource path for BYOK models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.md)
+Build custom skills with this capability using AI Skill Kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 

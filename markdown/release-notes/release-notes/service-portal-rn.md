@@ -1,18 +1,18 @@
 ---
 title: Service Portal release notes
-description: The ServiceNow Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.
+description: The ServiceNow Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.The ServiceNow Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 ---
 
 # Service Portal release notes
 
 The ServiceNow® Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.
 
-## Service Portal highlights for the Australia release
+## About Service Portal
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto® onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
@@ -24,9 +24,34 @@ The ServiceNow® Service Portal application enables you to build mobile-friendly
 
 See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Service Portal is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Service Portal is a ServiceNow AI Platform feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-dark-theme.md)**
+
+        Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
+
+    -   ****
+
+        Add and edit more semantic tags within the Service Portal Designer to define key areas of a portal to support clearer navigation and descriptions for screen readers. This update helps users who are blind or have low vision by making it easier for assistive technology to identify and understand different sections of each page.
+
+
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md)**
 
@@ -41,47 +66,10 @@ See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Configure and apply different authentication configurations for each portal to enable different login experiences for each portal. For example, you can set an authentication method like Okta for an internal employee portal or use Microsoft Azure for an external portal.
 
 
-## UI changes
+### What's changed
 
 -   **[Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md)**
 
     Create theme variants for Service Portal themes to tailor the visual experience for your users, which can help you match your brand.
 
-
-## Activation information
-
-Service Portal is a ServiceNow AI Platform feature that is active by default.
-
-## Accessibility information
-
--   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-dark-theme.md)**
-
-    Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
-
-
--   ****
-
-    Add and edit more semantic tags within the Service Portal Designer to define key areas of a portal to support clearer navigation and descriptions for screen readers. This update helps users who are blind or have low vision by making it easier for assistive technology to identify and understand different sections of each page.
-
-
-## Related ServiceNow applications and features
-
--   **[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator.md)**
-
-    Define and automatically generate XML sitemaps to improve the search engine optimization \(SEO\) of your public portal pages.
-
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
-
-    AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
-
--   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)**
-
-    The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users.
-
--   **[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Authentication.md)**
-
-    Authentication in ServiceNow validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function.
-
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

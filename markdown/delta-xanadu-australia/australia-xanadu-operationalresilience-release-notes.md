@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationalresilience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Operational Resilience version 21.0.x, rerun the **Update CSDM and other dependencies** scheduled job to populate the additional metadata that was introduced in this release.
+
 
 </td></tr><tr><td>
 
@@ -62,12 +65,14 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 Beginning with Operational Resilience release 22.0.x, the following scheduled jobs are deactivated for new installations by default:
 
--   **Calculate red flags for CSDM and dependencies**
--   **Update CSDM and other dependencies**
-
+    -   **Calculate red flags for CSDM and dependencies**
+    -   **Update CSDM and other dependencies**
 For existing installations, these jobs retain their current active or inactive state.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -115,14 +120,6 @@ After generating the entities and setting up the main node configurations, you c
 
 Identify the primary origin of an operational vulnerability in its record. Once the primary origin is specified, its upstream dependencies are automatically included in the impacted areas, enabling you to view the operational vulnerability from all affected perspectives.
 
--   **[Using Digital resilience incident reporting](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
-
-Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
-
-The Digital resilience incident reporting module, accessible from the Operational Resilience Workspace, is integrated with Incident Management and Security Incident Response to generate and share reports in the format that is specified by the regulators.
-
-You can generate an initial report within 24 hours, an intermediate report within 72 hours, and a final report within 1 month. All of these reports are automatically triggered by the application from the time that the incident is classified as a major incident.
-
 
 </td></tr><tr><td>
 
@@ -156,30 +153,6 @@ Validate downloaded Register of Information \(RoI\) regulatory packages against 
 
 If validation warnings are detected, an automated report is attached, mapping issues to regulator fields like Template Code, Row Code, and Column Code. These reports include real-world field labels, rule expressions, and record identifiers. You can easily cross-reference validation errors using a downloadable Excel template that mirrors the CSV structure, simplifying issue location and resolution. Further enhancements include support for 'Not applicable' values, enforced file size limits, and clearer error messages for malformed data.
 
--   **[Improve resilience metrics with the enhanced CSDM model](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=zurich&ft:locale=en-US)**
-
-Leverage the enhanced fix scripts in the Common Service Data Model \(CSDM\) to enhance your Operational Resilience metrics. Each node in the hierarchy is now stored separately, with its class and parent nodes, to help you manage your data more efficiently.
-
-The **Update CSDM and other dependencies** scheduled job script has been optimized to process the main node configurations in parallel, triggering a separate event for each node. Any node can be at the top level. Additionally, you can store impacted objects, including all parents, in a single table, so that you can efficiently retrieve children nodes and improve your data retrieval.
-
-Configure the **sn\_oper\_res.top\_class\_name** property to designate any class as the top class. You can view the downstream data and various dashboards based on the selected top class, such as the number of application services that are under a business service.
-
--   **[Analyze importance and impact tolerance of a service using Smart Assessment](https://www.servicenow.com/docs/access?context=create-an-assessment-for-services-in-ws&family=zurich&ft:locale=en-US)**
-
-Analyze a service's importance and impact tolerance through flexible assessments by using one or multiple Smart Assessment templates. Role-based access controls and auto-assigned tasks help you to streamline the process. You can reopen and complete assessments as needed and send email notifications to relevant users.
-
--   **[Generate customized and flexible self-attestation reports using Smart Assessment](https://www.servicenow.com/docs/access?context=create-new-attestation-in-ws&family=zurich&ft:locale=en-US)**
-
-Generate customized and flexible self-attestation reports by using Smart Assessment. Start with the default template, add relevant scopes and users, and generate a PDF report on completion of the self-attestation process. By creating custom templates with various data types, you make the self-attestation process more efficient.
-
--   **[Leverage enhanced DORA capabilities for contracts, supply chains, and assessments](https://www.servicenow.com/docs/access?context=create-drtp-reg-contract&family=zurich&ft:locale=en-US)**
-
-Use the enhanced Digital Operational Resilience Act \(DORA\) data model in Operational Resilience. You can configure contracts based on their supply chains and assessments, upload the contract records, and generate a detailed report in Microsoft Excel that provides information on the entities, third parties, and specific contract details.
-
--   **[Track third-party risk assessments](https://www.servicenow.com/docs/access?context=opres-ws-homepage-overview&family=zurich&ft:locale=en-US)**
-
-Track third-party risk assessments as red flags in Operational Resilience reports and overview pages for business services, service offerings, and business processes. Operational Resilience users, managers, and administrators can review these assessments in Operational Resilience Workspace. The sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer role is now included in the sn\_oper\_res.user role, so that you can grant the necessary access to the assessments.
-
 
 </td></tr><tr><td>
 
@@ -187,23 +160,13 @@ Australia
 
 </td><td>
 
--   **[Export action task reports](https://www.servicenow.com/docs/access?context=work-on-action-tasks&family=australia&ft:locale=en-US)**
-
-Export DRIR assessment action task reports in Microsoft Word, Microsoft Excel, or JSON format from a drop-down menu. Generate Microsoft Word documents for narrative reports, Microsoft Excel spreadsheets with structured question-answer layouts, or JSON files for system integrations.
-
 -   **[Create Reporting configurations](https://www.servicenow.com/docs/access?context=create-reporting-configurations&family=australia&ft:locale=en-US)**
 
 Manage document outputs centrally with the Reporting Configurations module in Digital resilience incident reporting. Administrators can manage template configurations, content configurations, and data relationship configurations from one place.
 
--   **[Convert and aggregate contractual expenses to regulator-required currencies](https://www.servicenow.com/docs/access?context=currency-conversion-aggregation&family=australia&ft:locale=en-US)**
-
-Standardize annual expense values during Register of Information report generation by enabling optional currency conversion and third-party total expense aggregation. The application converts contract amounts to a base currency using 32 European Central Bank \(ECB\) exchange rates based on the reference date. Administrators upload monthly rates into the system. When eligibility criteria are met, expenses across multiple contracts are aggregated by third-party providers or engagements, generating consolidated reports that comply with DORA regulatory requirements.
-
 -   **[Validate Legal Entity Identifiers using GLEIF API](https://www.servicenow.com/docs/access?context=create-legal-entity&family=australia&ft:locale=en-US)**
 
-Validate Legal Entity Identifiers \(LEIs\) in real time against the GLEIF API across all four record form types — Legal Entity, Branch, Third Party, and Third Party Engagement. Name and country fields are auto-populated or cross-checked on create and update, with warnings shown on mismatch.
-
-During Microsoft Excel upload, a batch verification consolidates and validates all LEIs against GLEIF before processing, flagging warnings while allowing administrators to save flagged rows for later correction. During CSV package download, a dedicated LEI validation report is generated.
+Validate Legal Entity Identifiers \(LEIs\) in real time against the GLEIF API across all four record form types — Legal Entity, Branch, Third Party, and Third Party Engagement. Name and country fields are auto-populated or cross-checked on create and update, with warnings shown on mismatch.During Microsoft Excel upload, a batch verification consolidates and validates all LEIs against GLEIF before processing, flagging warnings while allowing administrators to save flagged rows for later correction. During CSV package download, a dedicated LEI validation report is generated.
 
 -   **[GLEIF API performance using system properties](https://www.servicenow.com/docs/access?context=properties-dora&family=australia&ft:locale=en-US)**
 
@@ -212,19 +175,13 @@ Configure GLEIF API behavior using the following system properties:
     -   **sn\_dora\_accel.gleif\_api\_batch\_size** — Controls how many LEIs are sent per request.
     -   **sn\_dora\_accel.gleif\_api\_timeout\_ms** — Sets the HTTP timeout per API call.
     -   **sn\_dora\_accel.lei\_save\_on\_gleif\_error** — Controls whether rows that fail GLEIF validation during Microsoft Excel upload are saved with warnings or rejected.
--   **[Monetary values for DORA reporting](https://www.servicenow.com/docs/access?context=properties-dora&family=australia&ft:locale=en-US)**
-
-Control monetary value precision in DORA reports using the **sn\_dora\_accel.decimals\_monetary** system property. Set it to 0 to round to whole units, or a negative value \(for example, -3\) to round to thousands, based on regulator requirements.
-
 -   **[Duplicate record detection and warnings in reporting](https://www.servicenow.com/docs/access?context=create-excel-upload-download-request&family=australia&ft:locale=en-US)**
 
 Detect and prevent duplicate DORA records across key workflows. A business rule blocks saving on the Contractual arrangement form when a duplicate record is detected. Warnings are displayed when duplicate rows are found during CSV downloads.
 
 -   **[Run advanced scenario analysis using simulation](https://www.servicenow.com/docs/access?context=scenario-analysis-playbook-experience&family=australia&ft:locale=en-US)**
 
-Plan and run advanced scenario analysis on a dedicated Scenario analysis record, capturing simulation method, dependencies, and assignee. Progress through the guided **Playbook** with stages for dependency scoping, scenario testing, result review, impact assessment, and final completion.
-
-Execute statistical model profiles to evaluate severe-but-plausible scenarios across services and dependencies. The record is locked once the treatment decision and reason are recorded.
+Plan and run advanced scenario analysis on a dedicated Scenario analysis record, capturing simulation method, dependencies, and assignee. Progress through the guided **Playbook** with stages for dependency scoping, scenario testing, result review, impact assessment, and final completion.Execute statistical model profiles to evaluate severe-but-plausible scenarios across services and dependencies. The record is locked once the treatment decision and reason are recorded.
 
 -   **[Template versions](https://www.servicenow.com/docs/access?context=set-up-sae-templates&family=australia&ft:locale=en-US)**
 
@@ -265,7 +222,22 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Business services dashboard](https://www.servicenow.com/docs/access?context=opres-ws-homepage-overview&family=yokohama&ft:locale=en-US)**
+
+The Business services dashboard has been added to display business services data.
+
+-   **[New modules for services and processes](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=yokohama&ft:locale=en-US)**
+
+The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
+
+-   **[Entity Types and Pillars modules](https://www.servicenow.com/docs/access?context=manage-entity-types-pillars-from-ws&family=yokohama&ft:locale=en-US)**
+
+The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
+
+-   **[Primary origin tab](https://www.servicenow.com/docs/access?context=add-impacted-area-to-vul&family=yokohama&ft:locale=en-US)**
+
+The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
+
 
 </td></tr><tr><td>
 
@@ -273,7 +245,38 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Main node configurations: A component of the Data Relationship Framework](https://www.servicenow.com/docs/access?context=main-node-relationship-fw&family=zurich&ft:locale=en-US)**
+
+The properties, related lists, and copy functionality in the Main node configurations form are updated.
+
+-   **[Configure the Nexus map configurations](https://www.servicenow.com/docs/access?context=configure-nexus-map-configurations&family=zurich&ft:locale=en-US)**
+
+The Nexus map configuration settings are added.
+
+-   **[Node configurations and Node status configurations](https://www.servicenow.com/docs/access?context=configure-node-configurations&family=zurich&ft:locale=en-US)**
+
+The Node configurations and Node status configurations related lists are added.
+
+-   **[Edge configurations and edge status configurations](https://www.servicenow.com/docs/access?context=configure-edge-configurations&family=zurich&ft:locale=en-US)**
+
+The Edge configurations and Edge status configurations related lists are added.
+
+-   **[Interacting with the Nexus map UI from the Workspace](https://www.servicenow.com/docs/access?context=interacting-with-nexus-map-ui-from-worksapce&family=zurich&ft:locale=en-US)**
+
+The **Resilience map** UI action is added to display the map view for a service record.
+
+-   **[Word reports](https://www.servicenow.com/docs/access?context=reporting-for-multiple-regulations&family=zurich&ft:locale=en-US)**
+
+The 'Template Configurations' module displays the document design template configuration details of DIR action tasks. The 'Word Templates' module provides the DIR Word templates used to generate Microsoft Word reports.
+
+-   **[Regulation mappings related list](https://www.servicenow.com/docs/access?context=workflow-confi-auto-trigger-inci-repo-cases&family=zurich&ft:locale=en-US)**
+
+The 'Digital Resilience Incident Case Type' module displays the ‘Digital Resilience Incident Case.’ The Regulation Mappings related list in the record shows the relationships between entities and their corresponding regulations.
+
+-   **[Download the Excel template](https://www.servicenow.com/docs/access?context=create-excel-upload-download-request&family=zurich&ft:locale=en-US)**
+
+The option to download the Third-party Information Register is renamed to Excel Master Template.
+
 
 </td></tr><tr><td>
 
@@ -281,17 +284,14 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Create Reporting configurations](https://www.servicenow.com/docs/access?context=create-reporting-configurations&family=australia&ft:locale=en-US)**
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+The Reporting Configurations module is provided in the Digital resilience incident reporting application to drive incident report generation.
 
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+-   **[Advanced scenario analysis](https://www.servicenow.com/docs/access?context=scenario-analysis-playbook-experience&family=australia&ft:locale=en-US)**
 
+The **Playbook** tab is provided in the Scenario analysis records.The **Statistical Modelling** and **Manual** options are available in the **Method** field on the **Details** tab.
 
-For more information, see
 
 </td></tr></tbody>
 </table>## Removed
@@ -410,7 +410,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -418,7 +421,10 @@ Zurich
 
 </td><td>
 
-Install Operational Resilience by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -426,7 +432,10 @@ Australia
 
 </td><td>
 
-Install Operational Resilience by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -505,12 +514,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -518,12 +529,14 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Operational Resilience requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -568,7 +581,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

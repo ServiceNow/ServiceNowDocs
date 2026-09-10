@@ -151,6 +151,18 @@ Suggests answers for survey questions.
 -   Survey response suggestion AI agent
 -   Survey filling data collection AI agent
 
+</td></tr><tr><td>
+
+Task closure
+
+</td><td>
+
+Triages tickets for closure eligibility and guides through reviewing, documenting, and closing them.
+
+</td><td>
+
+Task closure AI agent
+
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
 

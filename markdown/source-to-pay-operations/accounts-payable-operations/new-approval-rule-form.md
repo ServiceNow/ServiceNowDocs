@@ -115,6 +115,8 @@ Conditions based on the approving object that determine the conditions under whi
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -311,6 +311,16 @@ com.snc.samp.manage.published.products
 
 Enables you to publish software products in the phase-wise Software Asset Management implementation and also remove the published software products. The default value of this property is **false**. By setting the value of this property to **true**, you can view reports and dashboards only related to the software products that you manage in a phase-wise implementation of Software Asset Management in the following views of the Software Asset Workspace:-   [Software asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-landing.md)
 -   [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
+
+</td></tr><tr><td>
+
+samp.spend\_prediction\_service.max\_label\_attempts
+
+</td><td>
+
+Sets the maximum number of times the **SAM - Label Spend Transactions** scheduled job attempts to label a Pending spend transaction.
+
+ The default value is 3.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)

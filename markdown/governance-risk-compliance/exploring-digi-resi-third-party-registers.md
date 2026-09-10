@@ -95,6 +95,10 @@ Users with third-party registers and contractual details spread across various s
 The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
 -   **[Validation framework for Register of Information in Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-validate-roi.md)**  
 The validation framework helps to verify that RoI packages meet regulatory requirements defined by the DORA.
+-   **[Terminology definitions for ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/terminology-definitions.md)**  
+The Terminology definitions module lists standard row, column, group, and option label definitions used across DORA reporting sheets. Only the Description field is editable.
+-   **[Define terminology for ROI export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-roi-ter-def.md)**  
+Define your organization's terminology for closed-set indicator options in the Register of Information. This verifies the B\_99.01 export includes your definitions.
 
 **Parent Topic:**[Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-third-party-registers.md)
 

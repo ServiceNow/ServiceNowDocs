@@ -69,15 +69,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d67834e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d68867e214">
 
 Asset
 
-</th><th align="left" id="d67834e217">
+</th><th align="left" id="d68867e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67834e223">
+</th></tr></thead><tbody><tr><td id="d68867e223">
 
 **Hardware**
 
@@ -97,7 +97,7 @@ Action
     -   Any receive task associated with that asset is automatically closed.
  **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d67834e336">
+</td></tr><tr><td id="d68867e336">
 
 **Consumables**
 
@@ -185,6 +185,10 @@ Action
 [Manage asset put away using the Hardware Asset Workspace]()
 
 [Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
 
 [Update associated Decision tables for HAM flows]()
 

@@ -30,6 +30,8 @@ Automatically generate user resolution rules to ensure accurate mapping of incom
 Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 -   **[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/resolve-entitlement-import-error.md)**  
 Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using ServiceNow Otto for SAM AI skills.
+-   **[Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md)**  
+Classify imported spend transactions to identify software purchases and normalize the derived raw publisher and raw product by matching them to existing publisher and product records. This automation reduces manual effort and improves spend reporting accuracy.
 
 **Parent Topic:**[Using AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-ai-in-software-asset-workspace.md)
 

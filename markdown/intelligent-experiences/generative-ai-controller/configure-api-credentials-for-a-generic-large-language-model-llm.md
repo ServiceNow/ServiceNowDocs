@@ -1,6 +1,6 @@
 ---
 title: Configure API credentials for a generic large language model \(LLM\) connector
-description: Use a generic LLM connector to connect the ServiceNow AI Platform with an external AI provider to use generative AI capabilities in custom Virtual Agent topics, Flows, or scripts, like background and business rule scripts.
+description: Use a generic LLM connector to connect an external AI provider to Generative AI Controller to use generative AI capabilities in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Configuring API credentials for generative AI capabilities, Configu
 
 # Configure API credentials for a generic large language model \(LLM\) connector
 
-Use a generic LLM connector to connect the ServiceNow AI Platform with an external AI provider to use generative AI capabilities in custom Virtual Agent topics, Flows, or scripts, like background and business rule scripts.
+Use a generic LLM connector to connect an external AI provider to Generative AI Controller to use generative AI capabilities in your instance.
 
 ## Before you begin
 
-You must have access to the API of an external LLM in order to configure the credentials.
+You must have access to the API of an external LLM to configure the credentials.
 
 Role required: admin
 
@@ -62,7 +62,7 @@ You can connect an external LLM to the ServiceNow AI Platform by creating a conn
 
 13. In the **Credential** field, select the Credential record you created with the model's API key.
 
-    You can search the list of Credentials by typing the name of the Credential in the field. You can also select the lookup icon \[Omitted image "icon-magnifying-glass-blue.png"\] to open a modal with the full list.
+    You can search the list of Credentials by typing the name of the Credential in the field. You can also select the lookup icon \(\[Omitted image "na-list-lookup-icon.png"\] Alt text: Lookup icon.\) to open a modal with the full list.
 
 14. In the **Connection alias** field, select the alias record you created.
 
@@ -80,4 +80,8 @@ You have the connection and credential alias to use for connecting a generic LLM
 ## What to do next
 
 For more information on configuring a generic LLM, see [configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+
+To build custom skills with this LLM, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

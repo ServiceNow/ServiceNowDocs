@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-10-24"
 reading_time_minutes: 2
-breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Understand AI agents
@@ -34,11 +34,11 @@ The dynamic orchestrator helps map the right agents to the user's agentic workfl
 
 ## User impersonation in AI agents
 
-The agentic workflow executes tools as the logged-in user in the panel. Any operations that are performed within the tool in this flow are also executed as the logged-in user. After impersonation is enabled, testing an AI agent uses the instance-level impersonation.
+The agentic workflow executes tools as the logged-in user in the ServiceNow Otto panel. Any operations that are performed within the tool in this flow are also executed as the logged-in user. After impersonation is enabled, testing an AI agent uses the instance-level impersonation.
 
 Administrators can see logs with individual AI agent names as a record of who approved the agentic action in an agentic workflow. The logs help when determining a point of contact if there’s an issue with the approved agentic action by the AI agent.
 
-With impersonation, the fulfiller in the panel and the requester in Virtual Agent can see the transactions recorded in the name of the AI agent that performed the agentic workflow execution.
+With impersonation, the fulfiller in the ServiceNow Otto panel and the requester in Virtual Agent can see the transactions recorded in the name of the AI agent that performed the agentic workflow execution.
 
 **Note:** Virtual Agent can be turned on only for AI agents at the Define availability section in the AI agent guided setup. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 

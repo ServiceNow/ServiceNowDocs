@@ -21,21 +21,25 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
 2.  Create a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d334195e88">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d345832e102">
 
 Option
 
-</th><th align="left" id="d334195e91">
+</th><th align="left" id="d345832e105">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d334195e97">
+</th></tr></thead><tbody><tr><td id="d345832e111">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +50,7 @@ Procedure
 
 \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
-</td></tr><tr><td id="d334195e127">
+</td></tr><tr><td id="d345832e141">
 
 **Using finanicals record page**
 
@@ -58,6 +62,8 @@ Procedure
 
 </td></tr></tbody>
 </table>3.  On the Benefit Plan form, fill the fields.
+
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/benefit-plan-form-project-management.md).
 
 4.  Select **Save**.
 

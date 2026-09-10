@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, operation, create, update, read, crud]
-breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an operation to a model in Zero Copy Connector for ERP
@@ -69,7 +69,7 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\]\) on the operation's card to remove any operations you don't need, or to start over.
 

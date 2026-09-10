@@ -1,6 +1,6 @@
 ---
 title: Bring your own key for third-party AI provider integration
-description: The bring your own key \(BYOK\) feature enables you to use your own API credentials from supported cloud AI providers, such as Azure OpenAI, Amazon Bedrock, and Google Gemini, to run Now Assist skills and AI agents.
+description: The bring-your-own-key \(BYOK\) feature enables you to use your own API credentials from supported cloud AI providers, such as Azure OpenAI, Amazon Bedrock, and Google Gemini, to run generative AI skills and AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI 
 
 # Bring your own key for third-party AI provider integration
 
-The bring your own key \(BYOK\) feature enables you to use your own API credentials from supported cloud AI providers, such as Azure OpenAI, Amazon Bedrock, and Google Gemini, to run Now Assist skills and AI agents.
+The bring-your-own-key \(BYOK\) feature enables you to use your own API credentials from supported cloud AI providers, such as Azure OpenAI, Amazon Bedrock, and Google Gemini, to run generative AI skills and AI agents.
 
-When BYOK is enabled, Now Assist sends model requests through your cloud AI provider account instead of ServiceNow AI Platform infrastructure. This approach lets you maintain ownership of your AI configuration, security controls, and data processing environment while continuing to use Now Assist capabilities.
+When BYOK is enabled, AI model requests are sent through your cloud AI provider account instead of ServiceNow AI Platform infrastructure. This approach lets you maintain ownership of your AI configuration, security controls, and data processing environment while continuing to use ServiceNow AI Platform capabilities.
 
-BYOK supports the same AI models that the ServiceNow AI Platform supports. After you configure your API credentials, Now Assist uses your provider resources to process requests instead of using the default ServiceNow AI provider. BYOK keeps your keys under your control and AI workloads running within your cloud environment.
+BYOK supports the same AI models that the ServiceNow AI Platform supports. After you configure your API credentials, your provider resources are used to process requests instead of the default ServiceNow AI provider. BYOK keeps your keys under your control and AI workloads running within your cloud environment.
 
 **Note:** Using your organization’s cloud AI provider account might result in additional charges from that provider. Review the provider’s pricing and terms of service before enabling BYOK.
 
@@ -32,12 +32,15 @@ BYOK supports the following cloud AI providers:
 
 ## Configuring a BYOK connection with a cloud AI provider
 
-To use your cloud AI provider resources within your ServiceNow instance, configure a connection between ServiceNow and your provider. Configuration steps vary by provider, but follow a similar high-level configuration workflow as the following steps:
+To use your cloud AI provider resources within your ServiceNow instance, configure a connection between ServiceNow and your provider. Configuration steps vary by provider, but follow a similar high-level configuration workflow, such as the following:
 
 1.  Create connection and credentials for the provider, such as endpoint, API key, and region.
-2.  Enable BYOK for the provider in Now Assist Admin.
-3.  Map ServiceNow model aliases to provider model versions. For example, map `gemini_large` → 2.5 Pro.
-4.  Optionally, override variants in each skill in Version Management.
+2.  Enable BYOK for the provider in AI Admin Hub.
+3.  Map ServiceNow model aliases to provider model versions.
+
+    For example, map `gemini_large` → 2.5 Pro.
+
+4.  Override variants in each skill in Version Management.
 5.  Validate that requests are using your AI provider account by reviewing outbound HTTPS logs.
 
 For step-by-step instructions for each supported cloud AI provider, see [Configure Bring Your Own Key \(BYOK\) for Now Assist and AI Agents \[KB2666298\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2666298) article in the Now Support Knowledge Base.

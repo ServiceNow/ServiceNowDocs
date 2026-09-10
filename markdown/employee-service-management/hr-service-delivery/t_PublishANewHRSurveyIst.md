@@ -1,5 +1,5 @@
 ---
-title: Publish a new HR survey
+title: Publish a HR survey
 description: Publish a new survey so users can complete it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_PublishANewHRSurveyIst.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [HR surveys, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Publish a new HR survey
+# Publish a HR survey
 
 Publish a new survey so users can complete it.
 

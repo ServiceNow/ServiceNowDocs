@@ -16,6 +16,8 @@ breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT 
 
 Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 
 -   **[Assess the quality of your agent's completed tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/assess-skills-automatically-configurable-workspace.md)**  

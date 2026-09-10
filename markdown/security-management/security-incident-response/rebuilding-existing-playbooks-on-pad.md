@@ -30,6 +30,10 @@ For more information, refer to the following sections.
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Working with Security Incident Records]()
 
 [Security Incident Playbook]()

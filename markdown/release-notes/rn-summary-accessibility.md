@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-10"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -36,7 +36,7 @@ AI Agent Studio
 
 -   **[Voice Input for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the . This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the AI Admin Hub. This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 After enabled, the Enable voice input for the ServiceNow Otto panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
 
@@ -88,26 +88,6 @@ The CPQ runtime configuration experience includes the following keyboard and scr
 -   Shopping cart and bill of materials \(BOM\) column headers are announced as text with full, untruncated labels, and table cells reference their row and column headers for screen reader context.
 -   Field labels are read across transaction runtime fields, keyboard focus returns to the date input after a calendar selection, and the field edit page provides more descriptive context for related item tiles and tooltips.
 -   The CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
-
-The CPQ admin UI includes the following keyboard and screen reader accessibility improvements:
-
--   Skip links on list pages allow keyboard users to bypass navigation and go directly to main content or grid rows.
--   Grid column headers announce sort direction, and sort indicators appear as separate elements to reduce announcement clutter.
--   The New button announces the specific entity type to be created, field edit page tooltips are read aloud on focus, and related item tiles provide more descriptive context for assistive technology users.
-
-The CPQ runtime configuration and transaction experience includes the following keyboard and screen reader accessibility improvements:
-
--   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
--   Radio button groups and rectangular pushbutton groups retain their selection when navigating away using a screen reader.
--   The complete text of shopping cart or BOM column headers is announced; table cells reference their row and column headers for screen reader context.
--   Field labels are read across transaction runtime fields, and keyboard focus returns to the date input after a calendar selection.
--   Expandable section headers announce error indicators, field-level error messages are read aloud on input focus, and help popover content is reachable by screen readers.
-
-The CPQ AI runtime experience includes the following keyboard and screen reader accessibility improvements:
-
--   The Config AI view is reachable and navigable using a keyboard, so users aren't misdirected to fields in the main layout during configuration sessions.
--   Quote AI is accessible using keyboard navigation and screen readers.
--   Smart Predict runtime experience elements, including trigger icons, notification icons, and modal interactions, are accessible using keyboard navigation and screen readers.
 
 </td></tr><tr><td>
 
@@ -206,6 +186,15 @@ Identity
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
+
+</td></tr><tr><td>
+
+Live Connect
+
+</td><td>
+
+-   Live Connect is a backend connectivity layer with no direct user interface.
+-   Accessibility of query results depends on the third-party client tools used to connect to Live Connect.
 
 </td></tr><tr><td>
 

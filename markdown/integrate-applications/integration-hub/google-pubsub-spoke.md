@@ -30,7 +30,7 @@ This spoke was built for Google Cloud Pub Sub v1, but may be compatible with lat
 
 ## Spoke version
 
-Google Cloud Pub Sub spoke v1.0.4 is the latest version.
+Google Cloud Pub Sub spoke v1.0.4 is the latest version. For version history of the spoke, see [Google Cloud Pub Sub spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-cloud-pub-sub.html).
 
 ## Spoke requirements
 

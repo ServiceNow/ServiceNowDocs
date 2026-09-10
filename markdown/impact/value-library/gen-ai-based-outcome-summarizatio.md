@@ -28,15 +28,15 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner
 
 2.  Select one of the following to open the desired outcomes page.
 
-<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d38060e84">
+<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d37670e84">
 
 Option
 
-</th><th align="left" id="d38060e87">
+</th><th align="left" id="d37670e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d38060e93">
+</th></tr></thead><tbody><tr><td id="d37670e93">
 
 **Outcomes Insights**
 
@@ -47,7 +47,7 @@ Action
 3.  In the Quick links section, select the **Outcome details page** link.
 
 
-</td></tr><tr><td id="d38060e123">
+</td></tr><tr><td id="d37670e123">
 
 **Objectives and Outcomes**
 

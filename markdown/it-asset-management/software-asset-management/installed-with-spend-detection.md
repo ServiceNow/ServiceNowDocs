@@ -20,7 +20,8 @@ User roles and tables are installed with Software Spend Detection. Demo data is 
 
 |Role|Description|
 |----|-----------|
-|sam\_spend\_import|Role required to import financial transaction data into Software Spend Detection. Users with this role can view all modules in Software Spend Detection except **Content Service Setup**. Users with this role cannot view Software Asset Management.|
+|sam\_user|Role required to import financial transaction data into Software Spend Detection. Users with this role can view all modules in Software Spend Detection except **Content Service Setup**. Users with this role cannot view Software Asset Management.|
+|sam\_admin|Role required to opt in to Content Service Setup for the Software Asset Management application|
 
 ## Tables
 

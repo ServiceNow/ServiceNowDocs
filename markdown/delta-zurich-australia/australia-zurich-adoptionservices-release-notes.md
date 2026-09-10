@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-adoptionservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -69,9 +69,7 @@ Zurich
 
 -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=zurich&ft:locale=en-US)**
 
-Find the available Guided Tours that are now prominently listed in the Help Center.
-
-View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
+Find the available Guided Tours that are now prominently listed in the Help Center.View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
 
 
 </td></tr><tr><td>
@@ -176,7 +174,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -197,7 +195,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is active by default with the plugins. Do not activate this feature explicitly.
+
 
 </td></tr><tr><td>
 
@@ -205,7 +206,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -284,13 +288,14 @@ Zurich
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
 
 Guided Tours is enhanced with more accessibility features including:
 
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+        -   Descriptive page titles
+        -   Keyboard assistance for suggesting required fields through screen reader
+        -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
 
 </td></tr><tr><td>
 
@@ -298,13 +303,14 @@ Australia
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US)**
 
 Guided Tours is enhanced with more accessibility features including:
 
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
+        -   Descriptive page titles
+        -   Keyboard assistance for suggesting required fields through screen reader
+        -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
 
 </td></tr></tbody>
 </table>## Localization information

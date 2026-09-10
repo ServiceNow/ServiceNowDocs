@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-07-20"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Apigee Edge, API Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -36,7 +36,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 **Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
 
@@ -119,6 +119,8 @@ Select how the MID Server is chosen for the connection:-   **Auto-Select MID Ser
     4.  In the **Enter Credentials** dialog box, enter the **User name** and **Password** for your Apigee Edge account, as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-edge.md) section, and then select **Proceed**.
 
         **Note:** This connector uses the OAuth 2.0 password grant type, which requires these credentials to obtain an access token.
+
+        **Note:** Submitting these credentials also creates a second connection record with Basic Connection appended to your connection name. The connector uses this record internally for basic authentication, and no further action is required.
 
     5.  Once the connection test is complete, select **Continue**.
 

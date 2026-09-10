@@ -38,7 +38,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
     \[Omitted image "create-credit-card-case.png"\] Alt text: Credit card enablement case form
 
-    For more information about the form fields and descriptions, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  Select **Save**.
 

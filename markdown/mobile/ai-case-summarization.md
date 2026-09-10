@@ -17,7 +17,7 @@ Use ServiceNow Otto® on mobile devices to generate resolution notes that summar
 
 Agents can save time and improve their productivity by enabling Otto to generate resolution notes, rather than manually entering them in their work order records. Agents can edit the notes before they submit them and save them to the work order record.
 
-This feature is only available with select BU plugins and is currently available with [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md).
+This feature is only available with select BU plugins and is currently available with ServiceNow Otto for Field Service Management \(FSM\).
 
 This example shows a work order where Otto generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

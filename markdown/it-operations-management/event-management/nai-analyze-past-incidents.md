@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Accelerate alert resolution with past incident analysis, Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Accelerate alert resolution with past incident analysis, Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Generate a ServiceNow Otto summary of past related incidents

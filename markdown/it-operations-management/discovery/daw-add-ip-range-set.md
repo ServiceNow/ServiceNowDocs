@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,8 +20,8 @@ Use the IP inventory page in Discovery Admin Workspace to add IP ranges or netwo
 
 Confirm the following:
 
--   Discovery Admin Workspace v1.19.0 must be installed.
--   The ServiceNow AI Platform must be running the Australia release, or the Zurich release starting with Patch 8.
+-   Discovery Admin Workspace v1.19.0 is installed.
+-   The ServiceNow AI Platform is running on the Brazil, Australia, or Zurich release starting with Patch 8.
 
 Role required: discovery\_admin
 

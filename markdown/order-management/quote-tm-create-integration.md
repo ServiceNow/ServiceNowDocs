@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 4
-breadcrumb: [Integrations, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrations, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a ServiceNow Quote Experience integration
@@ -113,4 +113,6 @@ Assign the integration to an event or a stage to trigger it during the quote lif
 
 -   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md).
 -   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md).
+
+**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)
 

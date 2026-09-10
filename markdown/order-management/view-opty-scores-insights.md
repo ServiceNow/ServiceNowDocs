@@ -57,8 +57,6 @@ Role required: sales\_agent
     Score Reasons captures the plain-language rationale for each score computation. The system overwrites the previous rationale each time the model recalculates the score. This field is not shown on the opportunity form by default.
 
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

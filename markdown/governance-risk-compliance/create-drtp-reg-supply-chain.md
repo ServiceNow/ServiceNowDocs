@@ -52,6 +52,8 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
     Cascading delete and cascading update apply to all ranks \(Rank 1 and higher\) in the supply chain.
 
+    Changing the third-party service provider on the associated contract's specific information also triggers this update. The rank 1 supply chain record updates automatically to match the new provider.
+
 8.  To edit the supply chain record, select it from the list and select **Edit**.
 
 9.  To export the supply chain record, select **Export**.

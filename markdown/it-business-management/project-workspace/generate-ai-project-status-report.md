@@ -45,6 +45,8 @@ After submission, the same information appears in the report view, including rat
 
     You can create an AI status report from an existing template using **Generate from template**. To display AI-generated field data in the document, the template must include dynamic tokens. Without dynamic tokens, only the executive summary is displayed in the status report document.
 
+    If you don't select a template, the AI status report uses a default template. Admins configure this default using the **sn\_pw.ai\_project\_status\_report\_default\_templateId** property.
+
     The system invokes LLM to pre-populate the form with predicted fields and an executive summary.
 
 4.  Review the AI-generated fields:
@@ -64,10 +66,6 @@ After submission, the same information appears in the report view, including rat
 6.  Select **Submit**.
 
 7.  Verify the submitted report.
-
-8.  Select **Now Assist** to ask more questions on the generated status report or select **Summarize** to generate a short summary of generated report.
-
-    You can export and edit the AI‑generated status report. You can't duplicate an AI‑generated status report.
 
 
 ## Result

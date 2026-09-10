@@ -32,7 +32,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Redox Electronic Health Record Spoke v1.0.3 is the current version.
+Redox Electronic Health Record Spoke v1.0.3 is the current version. For version history of the spoke, see [Redox Electronic Health Record Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-redox-electronic-health-record-spoke.html).
 
 ## Key features
 

@@ -1,5 +1,5 @@
 ---
-title: CI name generation for inventory templates
+title: Inventory template name generation
 description: When you instantiate an inventory template, each related template in the hierarchy produces a CI \(configuration item\). The CI's name comes from one of two sources, depending on whether the related template defines a naming pattern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
 
-# CI name generation for inventory templates
+# Inventory template name generation
 
 When you instantiate an inventory template, each related template in the hierarchy produces a CI \(configuration item\). The CI's name comes from one of two sources, depending on whether the related template defines a naming pattern.
 

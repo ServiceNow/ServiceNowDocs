@@ -30,7 +30,7 @@ monday.com admin account.
 
 ## Spoke version
 
-monday.com v1.2.1 is the latest version.
+monday.com v1.2.1 is the latest version. For version history of the spoke, see [monday.com Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-monday-com.html).
 
 ## Spoke dependencies
 

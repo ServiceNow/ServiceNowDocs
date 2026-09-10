@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-word-doc-of-bia-bcp-event.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -46,10 +46,14 @@ You can control whether to retain or replace the existing report attachments by 
 
 6.  Navigate to the **Details** tab of the record and view the report listed in the Activity section.
 
-    The report is generated in Microsoft Word format and it’s displayed in the Activity section of the record.
+    The report is generated in Microsoft Word format and it is displayed in the Activity section of the record.
 
 7.  Download the report in your ServiceNow instance or in the cloud \(Microsoft Office 365\).
 
     You can save the generated reports of the BIAs, BCP, and events in your ServiceNow instances or in Microsoft Office 365 for future references.
+
+    Starting with BCM Core version 12.x.x and later, Word reports for events generated from the base version template include a **Collaboration threads** section in tabular form. This section appears after **Action items** and before **Similar tasks groups** in the report's table of contents. To customize this into a block with a nested action items table using Document designer, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
+
+    Starting with BCM Core version 12.x.x and later, issues related to plans and events appear in separate sections in the Word report. Group ownership details for BIA, plan, and event records also appear in separate sections.
 
 

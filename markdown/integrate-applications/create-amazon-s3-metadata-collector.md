@@ -17,8 +17,8 @@ Use a metadata collector to import Amazon S3 bucket and object metadata into the
 
 ## Before you begin
 
--   A MID Server must be set up for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All prerequisite tasks must be complete. For more information, see [Prepare to run the Amazon S3 collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-amazon-s3-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
 Role required: connection-admin.
 
@@ -49,11 +49,32 @@ Role required: connection-admin.
 
 7.  Configure the connection options.
 
-    |Field|Description|
-    |-----|-----------|
-    |AWS Region|The AWS region used to start the S3 client.|
+<table id="table_s3_collector_props"><thead><tr><th>
 
-8.  Configure the authentication options.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr><tr><td>
+
+AWS Region
+
+</td><td>
+
+The AWS region used to start the S3 client.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
 
     |Field|Description|
     |-----|-----------|

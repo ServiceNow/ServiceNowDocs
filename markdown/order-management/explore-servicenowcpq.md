@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [explore]
-breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # CPQ Configurator
 
 The ServiceNow CPQ Configurator interface streamlines the process of configuring and pricing customizable products that are added to Sales Customer Relationship Management transactions.
 
-## CPQ CPQ Configurator overview
+## CPQ Configurator overview
 
 The ServiceNow CPQ Configurator is an attribute-based interface embedded in Sales Customer Relationship Management workflows for opportunities, quotes, orders, and product configuration changes involving sold products and contracts. Product catalog admins use the Configurator to manage the product configuration experience, while agents and customers use the Configurator interface to configure customizable products.
 
@@ -36,7 +36,7 @@ The ServiceNow CPQ Configurator is an attribute-based interface embedded in Sale
 
 |User|Description|
 |----|-----------|
-|Product catalog admin|Create configurable product offerings and generate the associated blueprints that contain the attributes \(fields\), product characteristics, product and pricing rules, product relationships, and child products, that guide valid product configuration by agents and customers.|
+|Product catalog admin|Configurable product offerings and their associated blueprints define the attributes \(fields\), product characteristics, product and pricing rules, product relationships, and child products that make up a product. These blueprints guide agents and customers through valid product configuration.|
 |Sales and order agents|Add configurable products to opportunities, quotes, orders, and other transactions such as sold products and contracts that involve configurable products in Sales Customer Relationship Management.|
 |Customers|Add configurable products for self-service transactions in the Business Portal.|
 
@@ -50,7 +50,7 @@ The following workflow describes the tasks involved in configuring and using the
 2.  The product catalog admin creates and saves a configurable product offering in Product Catalog Management.
 3.  The product catalog admin generates the product offering blueprint.
 4.  The product catalog admin publishes the configurable product offering so that it’s available in the product catalog and also deployed as a blueprint.
-5.  The agent creates a transaction, such as a quote or order in the CSM Configurable Workspace. Or a customer uses the Business Portal for a self-service transaction, for example, placing an order.
+5.  The agent creates a transaction, such as a quote or order in the CRM Workspace. Or a customer uses the Business Portal for a self-service transaction, for example, placing an order.
 6.  The agent or customer selects a configurable product from the product catalog.
 7.  The agent or customer configures the product using the ServiceNow CPQ Configurator.
 8.  The agent or customer saves and closes the product offering configuration. The product offering is added as a line item for the transaction, such as a quote line or order line item.

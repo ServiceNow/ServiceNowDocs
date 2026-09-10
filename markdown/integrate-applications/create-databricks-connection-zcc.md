@@ -111,15 +111,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Databricks.
 
-<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d172044e257">
+<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d175901e257">
 
 Option
 
-</th><th align="left" id="d172044e260">
+</th><th align="left" id="d175901e260">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d172044e266">
+</th></tr></thead><tbody><tr><td id="d175901e266">
 
 **Databricks Service Principal**
 
@@ -133,7 +133,7 @@ Option to use Databricks as the OAuth provider.
 2.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d172044e290">
+</td></tr><tr><td id="d175901e290">
 
 **Azure Service Principal**
 
@@ -148,7 +148,7 @@ Option to use Azure Entra ID as the OAuth provider.
 3.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d172044e317">
+</td></tr><tr><td id="d175901e317">
 
 **Access Token**
 
@@ -158,9 +158,16 @@ Option to use a pre-configured OAuth entity profile.
 
  Select this option if you created a record in the Application Registries \[oauth\_entity\] table with a Databricks or IdP service principal for authentication.
 
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see . When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+ This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
  Select the OAuth entity profile for your Databricks or IdP service principal.
+
+ Select the OAuth integration type that you want to use:
+
+ -   **System**: Use the selected OAuth entity profile for all users of this connection. This is the default option.
+-   **Personal**: Require each user to authenticate individually with their own credentials before they can access Databricks data through this connection. Select **Get OAuth Token** to open the authentication flow in a new browser tab and sign in.
+
+**Note:** Each user can view, renew, or revoke their personal access token from the Personal Integrations Dashboard in the Zero Copy Connector Hub. If a user's token expires or is missing, an alert appears when that user tries to access data assets for this connection, with a link to sign in again.
 
 </td></tr></tbody>
 </table>5.  Select **Connect**.

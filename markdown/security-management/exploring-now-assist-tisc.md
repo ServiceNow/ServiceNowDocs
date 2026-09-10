@@ -16,7 +16,7 @@ Threat analysts and security operations teams can use ServiceNow generative AI s
 
 ## ServiceNow Otto for Threat Intelligence Security Center \(TISC\) overview
 
-With generative AI skills, your threat analysts and security operations teams can summarize threat cases and generate case reports quickly in a concise, easy-to-read format.
+With generative AI skills, your threat analysts and security operations teams can summarize threat cases, generate case reports quickly in a concise, easy-to-read format, and extract threat entities from unstructured documents.
 
 ## Benefits
 
@@ -24,6 +24,7 @@ ServiceNow Otto for Threat Intelligence Security Center \(TISC\) provides the fo
 
 -   **Improved case context** — Summarize threat case details so analysts can quickly understand the scope and status of the cases.
 -   **Accelerated reporting** — Generate threat intelligence reports directly from case data, reducing manual documentation time and ensuring consistent report structure.
+-   **Faster intelligence ingestion** — Extract threat observables and objects from the content of uploaded documents so that analysts don't transcribe indicators by hand.
 
 ## User roles
 

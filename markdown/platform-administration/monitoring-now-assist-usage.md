@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-now-assist-usage.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-21"
 reading_time_minutes: 3
 breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---

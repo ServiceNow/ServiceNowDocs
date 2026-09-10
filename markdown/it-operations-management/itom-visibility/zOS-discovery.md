@@ -1,6 +1,6 @@
 ---
 title: z/OS discovery
-description: Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/zOS-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 # z/OS discovery
 
-Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -150,17 +150,22 @@ Management IP address used for discovery connection.
 |Free space bytes \[free\_space\_bytes\]|Available free space in the file system in KB, as retrieved by the `df -Pkv` command.|
 |Computer \[computer\]|References the IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\] table.|
 
-## CI relationships
+## CI relationships and references
+
+The IBM zOS Server pattern creates the following relationships and references to support z/OS discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
 |IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|Owns::Owned by|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 |IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
 |IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|Contains::Contained by|File System \[cmdb\_ci\_file\_system\]|
-|IP Address \[cmdb\_ci\_ip\_address\]|References|Network Adapter \[cmdb\_ci\_network\_adapter\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|References|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
-|Serial Number \[cmdb\_serial\_number\]|References|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
-|File System \[cmdb\_ci\_file\_system\]|References|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Configuration Item \[cmdb\_ci\]|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
+|Serial Number \[cmdb\_serial\_number\]|Configuration item \[cmdb\_ci\]|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
+|File System \[cmdb\_ci\_file\_system\]|Computer \[computer\]|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
 
 **Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 

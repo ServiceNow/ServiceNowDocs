@@ -21,7 +21,7 @@ Use the Target Breakdown form to track and measure the progress of the target br
 |Breakdown period|Period of the target breakdown.|
 |Parent breakdown|Year of the target breakdown.|
 |Target|Parent target of the target breakdown.|
-|Status|Status of the target breakdown. The status indicates whether the target breakdown is likely to be completed by the planned end date.|
+|Status|Status of the target breakdown. The status can be **Red**, **Yellow**, **Green**, or **No status**.|
 |Breakdown|Breakdown interval specified in the parent target.|
 |Planned target|Target value for the target breakdown.|
 |Actual|Actual value for the target breakdown.|

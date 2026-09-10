@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 4
 breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -26,40 +26,21 @@ Generate execution details for an individual flow, subflow, or action every time
 
 Role required: flow\_operator or admin
 
-### About this task
-
 **Warning:** To avoid performance issues on your production instance, activate and configure reporting on the non-production instance that you use for testing.
-
-You can activate reporting for an individual flow, subflow, or action by creating a record on the Settings \[sys\_flow\_execution\_setting\] table. Each Settings record specifies the flow, subflow, or action to generate execution details for and the level of detail to use. You can create as many Settings records as you want. The system generates execution details each time the flow, subflow, or action is directly run. Actions or subflows that run from a parent flow use the Settings record of the parent flow.
-
-**Note:** You can call actions and subflows directly using the action API or script API.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Administration** &gt; **Settings**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-    The system displays the list of individual items for which flow reporting is activated.
+2.  Depending on whether you want to activate reporting for a flow, subflow, or an action, select Flows, Subfows, or Actions on the header.
 
-2.  In the **Flow/SubFlow/Action** field, select the lookup icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text:\) to select the type item for which you want to activate reporting.
+3.  Open the flow, subflow, or the action for which you want to activate reporting.
 
-    The system displays a dialog box to select the type and specific instance.
+4.  If you want to enable reporting for a flow or a subflow, select Edit flow or Edit subflow.
 
-3.  In the **Table name** field, select the matching table for the item.
+5.  From the More actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon, select the reporting settings.
 
-    |Option|Description|
-    |------|-----------|
-    |**Flow**|Table for flows and subflows|
-    |**Action Type**|Table used for actions|
-
-4.  In the **Document** field, select the lookup icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text:\).
-
-    The system displays a list of items of the matching type.
-
-5.  Select the individual flow, subflow, or action for which you want to activate reporting.
-
-6.  Select **OK** to close the dialog box.
-
-7.  In the **Reporting** field, select the level of runtime data to generate and display in flow execution details.
+6.  From the **Reporting Level** list, select the level of runtime data to generate and display in flow execution details.
 
     -   **Off**
 
@@ -75,7 +56,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
 
         The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action.
 
-        **Important:** This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option. Also, only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
+        **Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
 
     -   **Trace: All values \(for testing and Support only\)**
 
@@ -83,9 +64,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
 
         **Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration. Testing an action or flow generates execution details at the Trace level.
 
-8.  Select **Submit**.
-
-    For example, this setting enables the full reporting level and warning log level for the Acknowledge Alert flow. \[Omitted image "example-flow-reporting-setting.png"\] Alt text: Flow reporting setting for the Acknowledge Alert flow
+7.  Select **Update**.
 
 
 ### Result
@@ -126,7 +105,7 @@ By default, the system only generates execution details when you run a test. You
 
         The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action.
 
-        **Important:** This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option. Also, only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
+        **Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
 
     -   **Trace: All values \(for testing and Support only\)**
 

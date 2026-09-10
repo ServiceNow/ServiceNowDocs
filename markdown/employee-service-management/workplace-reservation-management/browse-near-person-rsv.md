@@ -7,8 +7,8 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-03"
+reading_time_minutes: 8
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -18,21 +18,23 @@ Make a workplace reservation and reserve a space near your team member or a coll
 
 ## Before you begin
 
+\[Omitted video\] Description: Reserve a space near your preferred colleague or team member.
+
 Role required: admin
 
 ## Procedure
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d743007e59">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d746214e76">
 
 Location
 
-</th><th align="left" id="d743007e62">
+</th><th align="left" id="d746214e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d743007e68">
+</th></tr></thead><tbody><tr><td id="d746214e85">
 
 **Application navigation filter**
 
@@ -40,7 +42,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d743007e92">
+</td></tr><tr><td id="d746214e109">
 
 **From Employee Center Portal**
 
@@ -56,6 +58,8 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 </td></tr></tbody>
 </table>    The Make a Reservation page opens in a new tab.
+
+    \[Omitted image "wsd-make-rsv.png"\] Alt text: Make a reservation page without the Search button. The search results after adding a location, date, and time are fetched automatically.
 
 2.  Select a Reservable Module configuration.
 
@@ -74,9 +78,9 @@ Make a reservation portal page opens for you to make workplace reservations.
 
     **Note:** When browsing near a person, if there are any private spaces, the private spaces aren’t displayed in the reservation search result.
 
-    If a cost center or department is enabled for a user profile's location, only those spaces or desks that have the same cost center or department as profile locations are displayed. Only spaces or desks that are assigned as flexible or none are displayed. The search results doesn't display permanent spaces or desks.
+    **Note:** Enable or update a cost center or department in the user profile location. Only spaces or desks with the same cost center or department are displayed in the user profile locations. Spaces or desks that are assigned as flexible or none are displayed. The search results doesn't display permanent spaces or desks.
 
-    All required fields must be filled in on the form when you’re creating a reservation and when the auto-search option is enabled by your administrator. The auto-search option doesn't work if the required field inputs are missing on the reservation page.
+    All required fields must be updated in the Make a reservation form when the auto-search option is enabled by your administrator. The auto-search option doesn't work if the required field inputs are missing in the reservation form.
 
     \[Omitted image "wsd-browse-near-a-person-rsv.png"\] Alt text: Browse near a person reservable path selected with inputs provided in the Browse near a person form fields.
 

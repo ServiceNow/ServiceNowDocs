@@ -39,15 +39,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d272934e163">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d272299e163">
 
 Action
 
-</th><th align="left" id="d272934e166">
+</th><th align="left" id="d272299e166">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272934e172">
+</th></tr></thead><tbody><tr><td id="d272299e172">
 
 **Manage policies**
 
@@ -55,7 +55,7 @@ Description
 
 Opens the Data Manager overview page where you can create or update life cycle policies \(archive, attestation, certification, delete, retire\) for your principal classes.
 
-</td></tr><tr><td id="d272934e181">
+</td></tr><tr><td id="d272299e181">
 
 **Create policy**
 
@@ -63,7 +63,7 @@ Opens the Data Manager overview page where you can create or update life cycle p
 
 Opens the New policy form to create a policy for a principal class. The **Create policy** action is available in the policy summary dialog box displayed after selecting the policy coverage count in the **Classes with active policies** column within the Review Data Manager policies section.
 
-</td></tr><tr><td id="d272934e198">
+</td></tr><tr><td id="d272299e198">
 
 **View attributes**
 
@@ -71,7 +71,7 @@ Opens the New policy form to create a policy for a principal class. The **Create
 
 Opens the CI class attributes list to review and manage custom attributes for your principal classes. Use this action to identify classes with more than 10 active custom attributes.
 
-</td></tr><tr><td id="d272934e207">
+</td></tr><tr><td id="d272299e207">
 
 **Configure property**
 
@@ -79,7 +79,7 @@ Opens the CI class attributes list to review and manage custom attributes for yo
 
 Opens the system property configuration page to enable or disable CI creation from assets using IRE for applicable principal classes.
 
-</td></tr><tr><td id="d272934e217">
+</td></tr><tr><td id="d272299e217">
 
 **CI Class Manager**
 

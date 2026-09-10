@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-financialservicesoperationsintegrationwithmastercard-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -111,18 +111,6 @@ An integration layer that provides predefined subflows and a supporting data mod
     -   Mastercom - Look up Case Documents Status
     -   Mastercom - Look up List of Claims
 
--   **[Additional Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
-
-New set of subflows to promote execution of Mastercom spoke actions for dispute management. This set includes the following subflows:
-
-    -   Mastercom - Look up Authorization Transaction Details
-    -   Mastercom - Look up Claim Details
-    -   Mastercom - Take Action on Existing Claim
-    -   Mastercom - Process Pending Queue
-    -   Mastercom - Look up Chargebacks Related Information
-    -   Mastercom - Look up Fraud Related Information
-    -   Mastercom - Reverse Chargeback
-
 </td></tr><tr><td>
 
 Australia
@@ -163,7 +151,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -178,7 +169,7 @@ The following subflows were updated to support integration with the Card data se
     -   Mastercom - Look up Case Documents
     -   Mastercom - Look up Chargeback Documents
 
--   **[Updated subflows for the Mastercard document attachment and validation enhancement](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=australia&ft:locale=en-US)**
+ -   **[Updated subflows for the Mastercard document attachment and validation enhancement](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=australia&ft:locale=en-US)**
 
 The following subflows were updated to support the document attachment and validation enhancement:
 
@@ -288,7 +279,10 @@ Zurich
 
 </td><td>
 
-Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -296,7 +290,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -399,7 +396,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

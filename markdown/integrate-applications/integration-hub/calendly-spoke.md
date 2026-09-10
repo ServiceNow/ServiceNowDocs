@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Calendly spoke v1.3.1 is the latest version.
+Calendly spoke v1.3.1 is the latest version. For version history of the spoke, see [Calendly spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-calendly.html).
 
 ## Spoke requirements
 

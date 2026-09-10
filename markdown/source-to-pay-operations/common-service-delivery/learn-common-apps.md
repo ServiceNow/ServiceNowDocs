@@ -8,7 +8,7 @@ product: Common Service Delivery
 classification: common-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Common applications, Finance and Supply Chain applications, Finance and Supply Chain]
 ---
 
@@ -34,6 +34,24 @@ Mandatory/Optional
 
 </th></tr></thead><tbody><tr><td>
 
+Common Service Delivery \[sn\_spend\_sdc\]
+
+</td><td>
+
+Contains Service Task and Service Request tables, as well as other infrastructure that forms the basis of Finance and Supply Chain workflows products.For more information about the components installed with this plugin, see [Components installed with Common Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-common-service-delivery.md).
+
+</td><td>
+
+-   Process Automation Designer Core \[com.glide.pad.core\]
+-   Process Automation Designer for App Engine \[com.glide.pad.license\]
+-   Playbook Experience \[com.playbook\_experience\]
+
+</td><td>
+
+Mandatory
+
+</td></tr><tr><td>
+
 Finance Common Architecture \[sn\_fin\]
 
 </td><td>
@@ -48,6 +66,23 @@ Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, leg
 -   Fiscal Calendar \[com.snc.fiscal\_calendar\]
 -   Scoped Application Restricted Caller Access \[com.glide.scope.access.restricted\_caller\]
 -   Insert Multiple Web Service \[com.glide.web\_service\_insert\_multiple\]
+
+</td><td>
+
+Mandatory
+
+</td></tr><tr><td>
+
+Source-to-Pay Common Architecture \[snc.sn\_shop\]
+
+</td><td>
+
+Provides an architecture to store purchase orders, requisitions, sourcing requests, and other objects that are commonly used across the source-to-pay business processes.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.md).
+
+</td><td>
+
+-   Finance Common Architecture \[com.sn\_fin\]
+-   Common Service Delivery \[com.sn\_spend\_sdc\]
 
 </td><td>
 
@@ -72,46 +107,11 @@ Mandatory
 
 </td></tr><tr><td>
 
-Common Service Delivery \[sn\_spend\_sdc\]
-
-</td><td>
-
-Contains Service Task and Service Request tables, as well as other infrastructure that forms the basis of Finance and Supply Chain workflows products.
-
-</td><td>
-
--   Process Automation Designer Core \[com.glide.pad.core\]
--   Process Automation Designer for App Engine \[com.glide.pad.license\]
--   Playbook Experience \[com.playbook\_experience\]
-
-</td><td>
-
-Mandatory
-
-</td></tr><tr><td>
-
-Source-to-Pay Common Architecture \[snc.sn\_shop\]
-
-</td><td>
-
-Provides an architecture to store purchase orders, requisitions, sourcing requests, and other objects that are commonly used across the source-to-pay business processes.
-
-</td><td>
-
--   Finance Common Architecture \[com.sn\_fin\]
--   Common Service Delivery \[com.sn\_spend\_sdc\]
-
-</td><td>
-
-Mandatory
-
-</td></tr><tr><td>
-
 Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 
 </td><td>
 
-Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system.
+Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-intg-framework.md).
 
 </td><td>
 

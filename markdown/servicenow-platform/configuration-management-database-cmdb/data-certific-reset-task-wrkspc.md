@@ -28,12 +28,8 @@ Role required: data\_manager\_user or a user that has access to the task. For in
 
 ## Procedure
 
-1.  Locate the task that you want to reset.
+1.  Locate the task that you want to reset. Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**.
 
-    Use either workspace:
-
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, then select **My Work** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab and then select a certification task.
 2.  Select **Reset** on the task page.
 
 3.  In the Confirm certification task reset dialog box select **Confirm**.

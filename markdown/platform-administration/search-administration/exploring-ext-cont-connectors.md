@@ -128,6 +128,8 @@ Source system administrators configure settings to allow external content connec
 Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
 -   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)**  
 Connector administrators can configure crawl settings for each external content connector, such as which source system locations it crawls and which types of content it sends to AI Search for indexing.
+-   **[Delta content crawls for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/delta-content-crawls-external-content-connectors.md)**  
+Delta content crawls improve content crawl performance by only retrieving newly added, changed, or deleted items from an external content connector's source system.
 -   **[Domain separation and External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-domain-separation.md)**  
 Domain separation is unsupported for External Content Connectors. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 

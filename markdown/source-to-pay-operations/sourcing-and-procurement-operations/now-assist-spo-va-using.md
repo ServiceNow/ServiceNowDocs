@@ -114,3 +114,7 @@ For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNo
 
 [Analyze sentiment in procurement cases]()
 
+[AI L1 SPO Service Desk Specialist]()
+
+[Generate a knowledge article]()
+

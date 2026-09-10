@@ -50,6 +50,8 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
     **Note:** If the Space you selected in Step 6 has just one Board, then you won't be asked to select a Board. The tasks are added to the Board directly.
 
+    \[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using ServiceNow Otto for CWM.
+
 
 **Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Refine content
-description: Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using ServiceNow Otto.
+description: Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-refine-content.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [AI Authoring for Catalog Builder reference, AI Authoring for Catalo
 
 # Refine content
 
-Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using ServiceNow Otto.
+Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using AI.
 
 The refine content skill helps users shorten, elaborate, rephrase, or generate content in the **Short description** and **Description** fields in the Details step while creating or editing a catalog item.
 
@@ -29,7 +29,7 @@ This skill is available in the following workflow and product.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Exploring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-now-assist-for-creator.md)|
 
 **Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

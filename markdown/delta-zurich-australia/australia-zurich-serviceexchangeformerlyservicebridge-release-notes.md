@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceexchangeformerlyservicebridge-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -46,21 +46,23 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 **Important:** Do not upgrade your ServiceNow® instance to the Australia release if you rely on Service Exchange. A known RPS issue prevents Service Exchange from functioning correctly. Proceed with the upgrade only after Australia Patch 1 becomes available.
 
--   Service Exchange version 2.x.x, which was first released with the Xanadu release, doesn’t support migration of Service Exchange \(Legacy\) versions.
+    -   Service Exchange version 2.x.x, which was first released with the Xanadu release, doesn’t support migration of Service Exchange \(Legacy\) versions.
 
 Service Exchange \(Legacy\) version: Before you upgrade to the Australia release, consult the [Service Exchange for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to find out how to migrate your configuration data.
 
--   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
--   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
--   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
--   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
--   If you're upgrading Service Exchange to version 2.3.x, migrate the OAuth grant type on all existing connections from authorization code to client credentials to avoid a "User Not Authenticated" error. Complete this migration on both the provider and consumer instances after the upgrade and before using the connection. For details, see [KB2944968](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944968).
--   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
-    -   Yokohama
-    -   Zurich
-    -   Australia
+    -   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
+    -   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
+    -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
+    -   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+    -   If you're upgrading Service Exchange to version 2.3.x, migrate the OAuth grant type on all existing connections from authorization code to client credentials to avoid a "User Not Authenticated" error. Complete this migration on both the provider and consumer instances after the upgrade and before using the connection. For details, see [KB2944968](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944968).
+    -   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
+        -   Yokohama
+        -   Zurich
+        -   Australia
 
 </td></tr></tbody>
 </table>## New features
@@ -81,7 +83,22 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Foundation data sync](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&family=zurich&ft:locale=en-US)**
+
+Reduce manual effort, and eliminate the need to share data externally by sharing selected foundational data types with your consumers on a scheduled cadence. This data transfer supports the service life cycle by providing foundational data context for operational workflows. The supported tables are CMDB \(CIs\), CMDB Relationship, Asset, User, Group, Location, Company, and Department.
+
+-   **[Journal field framework](https://www.servicenow.com/docs/access?context=service-bridge-v2-expolre-journal-field-framework&family=zurich&ft:locale=en-US)**
+    -   Write journal entries as a named user instead of using a generic company name to enhance authenticity and accountability.
+    -   Maintain a complete historical record across instances by synchronizing previous journal entries between provider and consumer instances.
+    -   Ensure that all critical operational updates remain current by mapping and synchronizing any journal-type field between provider and consumer instances.
+-   **[Flow action](https://www.servicenow.com/docs/access?context=service-bridge-v2-flow-action&family=zurich&ft:locale=en-US)**
+
+Ensure that Remote Tasks and Remote Record Producers continue to function correctly as you adopt newer revisions by maintaining flow compatibility across configuration revisions using four new Flow Actions that preserve mapped variable integrity.
+
+-   **[Magic links](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-magic-link&family=zurich&ft:locale=en-US)**
+
+Convert regular links sent from a provider instance into magic links that enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
+
 
 </td></tr><tr><td>
 
@@ -89,56 +106,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
-
 -   **[Service Exchange Knowledge Assistant](https://www.servicenow.com/docs/access?context=now-assist-tmt-service-exchange-assistant-se&family=australia&ft:locale=en-US)**
 
 Get answers to your Service Exchange questions directly in Now Assist, without leaving your current work. The Service Exchange Knowledge Assistant agentic workflow generates answers grounded in documentation that matches the Service Exchange version installed on your instance, and includes links to the source documentation used for every answer.
 
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   **[Connections tab in the Service Exchange Center](https://www.servicenow.com/docs/access?context=se-connections-tab&family=australia&ft:locale=en-US)**
-
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
-
--   **[Improved consumer registration and onboarding](https://www.servicenow.com/docs/access?context=se-provider-center-onboarding&family=australia&ft:locale=en-US)**
-
-Onboard consumers faster with a guided, step-by-step registration experience. Consumers are automatically redirected to the new registration experience when upgrading to receive clearer progress indicators during onboarding, and receive actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
-
--   **[Improved FDS capabilities](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&family=australia&ft:locale=en-US)**
-
-Improve your connection experience, by synchronizing Knowledge Base articles between provider and consumer instances.
-
-Reduce data inconsistencies by maintaining CMDB `sys_ids` when inserting net-new CIs through transform maps.
-
-Preserve CI functionality on the destination instance by automatically creating CI dependency relationships or managing them manually when the source sends relationship data.
-
-Get more referenced field data by including dot-walked fields in your outbound field configuration.
-
--   **[Journal Field Framework enhancements](https://www.servicenow.com/docs/access?context=service-bridge-v2-expolre-journal-field-framework&family=australia&ft:locale=en-US)**
-
-Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
-
-Preserved all journal entries during synchronization by supporting journal field type `journal_input`, in addition to the existing journal field type.
-
--   **[Simplified persona management](https://www.servicenow.com/docs/access?context=service-bridge-v2-customer-roles&family=australia&ft:locale=en-US)**
-
-Assign Service Exchange Remote Catalog personas to user groups or roles so that persona access is granted automatically based on group membership, reducing manual administration.
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
-Australia Early Availability
-
--   **[Consumer outbound FDS](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&family=australia&ft:locale=en-US)**
+ -   **[Consumer outbound FDS](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&family=australia&ft:locale=en-US)**
 
 Reduce manual effort and eliminate the need to share data externally by sharing selected foundational data types with your provider on a scheduled cadence. This data transfer supports the service life cycle by providing foundational data context for operational workflows.
 
@@ -170,7 +143,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -180,7 +156,7 @@ Australia
 
 -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 </td></tr></tbody>
@@ -268,7 +244,10 @@ Australia
 
 </td><td>
 
-Install Service Exchange by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Service Exchange by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -27,6 +27,8 @@ Role required: sn\_customerservice.customer
     The Business Portals opens.
 
 
+**Parent Topic:**[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+
 **Related topics**  
 
 

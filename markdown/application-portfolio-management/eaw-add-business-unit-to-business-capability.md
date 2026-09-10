@@ -17,7 +17,7 @@ You can add an existing business unit to a business capability in the Enterprise
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_user
+Role required: sn\_apm.apm\_user along with cost\_transparency\_admin or cost\_transparency\_analyst or business\_planner or user\_admin
 
 ## Procedure
 

@@ -124,5 +124,7 @@ If you select **None**, the field is considered optional.
 
 [New visit form]()
 
+[About visit-related tables]()
+
 [Differences between Workplace Visitor Management versions]()
 

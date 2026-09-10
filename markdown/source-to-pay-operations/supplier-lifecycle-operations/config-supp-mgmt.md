@@ -21,7 +21,7 @@ Plan and configure your implementation for Supplier Lifecycle Operations.
 -   **[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)**  
 Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 -   **[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)**  
-Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins
+Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins.
 -   **[Install Supplier Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supplier-ops.md)**  
 You can install the Supplier Operations application \(com.snc.sn\_so\) to access advanced case management capabilities to handle key supplier lifecycle events.
 -   **[Install Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-payment-opt.md)**  

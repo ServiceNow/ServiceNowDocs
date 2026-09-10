@@ -52,7 +52,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace]()
+[Creating a role group through the Skills Workspace]()
 
 [Edit skills and proficiencies in the Skills Matrix]()
 

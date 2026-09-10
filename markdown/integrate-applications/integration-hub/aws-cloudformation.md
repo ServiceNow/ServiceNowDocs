@@ -30,7 +30,7 @@ This spoke was built for AWS CloudFormation API version 2010-05-15, but may be c
 
 ## Spoke version
 
-AWS CloudFormation spoke v1.1.4 is the latest version.
+AWS CloudFormation spoke v1.1.4 is the latest version. For version history of the spoke, see [AWS CloudFormation spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-cloudformation.html).
 
 ## Spoke requirements
 

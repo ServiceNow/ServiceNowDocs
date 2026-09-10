@@ -21,6 +21,7 @@ ServiceNow Otto for Software Asset Management \(SAM\) generative AI skills help 
 -   Generate actionable recommendations to improve software license compliance and reduce licensing spend.
 -   Automate insights and summaries to eliminate manual analysis, and extract meta data from a uploaded document.
 -   Cut time spent on routine administrative and error-resolution tasks, resulting in faster decision-making without manual work on repetitive activities.
+-   Classify imported spend transactions to identify software purchases and match them to existing publisher and product records in Software Asset Management Content Library for accurate spend reporting.
 
 The following table describes the key generative AI skills available in Now Assist for SAM:
 
@@ -34,8 +35,10 @@ The following table describes the key generative AI skills available in Now Assi
 |[SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/automate-userresolution-saas-now-assist-sam.md)|Generates user resolution rules for accurate mapping of incoming SaaS subscription data to SAM users.|
 |[Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)|Creates entitlements by extracting information from software contracts where the contract model is a software license.|
 |[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/resolve-entitlement-import-error.md)|Streamline the entitlement import process by resolving import errors, for a faster import process and improved data accuracy.|
+|[Spend transaction software classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md)|Classifies imported spend transactions to identify software purchases, and derives the raw publisher and raw product from fields such as description, vendor name, and GL account.|
+|[Spend transaction software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md)|Normalizes the raw publisher and raw product from software transactions by matching them to existing publisher and product records in Software Asset Management Content Library.|
 
-The generative AI skills are available to the sam\_user role and the sam\_admin role only.
+The generative AI skills are available to the sam\_user and the sam\_admin roles.
 
 Custom role configurations for accessing generative AI skills are preserved. For example, if you added an alternative role such as the sam\_admin role instead of the default sam\_user role, the sam\_admin role retains access, while the sam\_user role loses access, based on the custom configuration.
 

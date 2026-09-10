@@ -369,9 +369,9 @@ SYS.DBA\_MINING\_MODELS
 
     Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
 
--   **For UNIX: You can use Oracle Wallet authentication instead of applicative credentials**
+-   **Use Oracle Wallet authentication instead of applicative credentials**
 
-    For more information, see [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md).
+    For more information, see [Oracle Wallet authentication for database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md).
 
 -   **For virtual machines: Verify virtual machine credentials**
 
@@ -398,7 +398,7 @@ SYS.DBA\_MINING\_MODELS
     4.  Repeat for each target virtual machine.
 -   **For large-scale or high-volume environments: You can enable Oracle GLAS V2 data collection**
 
-    To use V2 database data collection instead of the default V1 method, set the **sn\_itom\_pattern.enable\_large\_env\_glas\_data\_collection** system property to **true**. For more information about V2, see the "Oracle GLAS Data Collection V2" section. For instructions, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
+    To use V2 database data collection instead of the default V1 method, set the **sn\_itom\_oracleglas.enable\_large\_env\_glas\_data\_collection** system property to **true**. For more information about V2, see the "Oracle GLAS Data Collection V2" section. For instructions, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
 
 
 ## V1 database CI relationships

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-08"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigate sessions, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Investigate a low-scoring session

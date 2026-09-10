@@ -30,15 +30,15 @@ Role required: resource\_user, resource\_manager, it\_project\_manager
 
 4.  Enter the following details.
 
-<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d168879e95">
+<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d174468e95">
 
 Field
 
-</th><th align="left" id="d168879e98">
+</th><th align="left" id="d174468e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168879e104">
+</th></tr></thead><tbody><tr><td id="d174468e104">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Unique name for the filter card.Name the resource card inline with the purpose and filter condition to easily identify and access your view.
 
-</td></tr><tr><td id="d168879e115">
+</td></tr><tr><td id="d174468e115">
 
 **Filter by**
 
@@ -56,7 +56,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 -   Work type - filter and view resources working on a demand, project, or an epic and their respective details.
 
 
-</td></tr><tr><td id="d168879e133">
+</td></tr><tr><td id="d174468e133">
 
 **Start Date**
 
@@ -64,7 +64,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 
 Select the start date in the required date range to view resources.
 
-</td></tr><tr><td id="d168879e142">
+</td></tr><tr><td id="d174468e142">
 
 **End Date**
 
@@ -72,7 +72,7 @@ Select the start date in the required date range to view resources.
 
 Select the end date in the required date range to view resources.
 
-</td></tr><tr><td id="d168879e152">
+</td></tr><tr><td id="d174468e152">
 
 **Description**
 
@@ -86,6 +86,8 @@ Enter a description explaining your resource card view.
 5.  Select **Next**.
 
 6.  Create filter condition to view a custom set of resources.
+
+    Resource Card filters work differently than list views. When you apply a filter on a Resource Card \(for example, filtering by Work type\), the system identifies users who have resource assignments matching the filter criteria. The card then displays all resource assignments for those users, including Project, Demand, and Operational assignments — not just assignments of the filtered type. To display only specific assignment types \(for example, only Demand-related assignments\), apply an additional filter in the Resource Management Workspace by filtering explicitly by Type.
 
     The default condition is set to show all active users.
 

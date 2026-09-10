@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [REST API, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -69,15 +69,20 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
     The format of the URL is: `http://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/ap1/mid/hla/raw`, where `/aps/mid/hla/raw` is the endpoint. HLA has replaced `(MID_SERVER_IP)` and `(MID_WEB_SERVER_PORT)` with the values you configured on the **Provide details** form.
 
-9.  Do one of the following:
+9.  Do one of the following.
 
-    -   If you completed all the prerequisites before starting the configuration, select **Activate**.
+    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option.
 
-        When the integration is activated successfully, the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+        -   **Activate with AI** enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts.
+
+            When the integration is activated successfully, the **Overview** tab is displayed. ServiceNow Otto for ITOM collects and analyzes log data. An AI icon indicates that AI is active.
+
+        -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
+        On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
 
     -   If you didn't complete all the prior requirements, select **Save draft**.
 
-        The system saves the integration as a draft in the Integrations Launchpad. It appears in the **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the integration later. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
+        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. At a later time, complete the prerequisites and activate the installation. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
 
 
 ## What to do next
@@ -99,6 +104,8 @@ Instruct your API client to send log messages to the MID Server.
 
     A successful response indicates that the MID Server has received the payload. When the MID Server has processed the log messages, the data input streams them to your ServiceNow instance using the REST protocol.
 
+
+If you activated the integration with AI, verify that AI correctly auto-mapped log data to service instances and components. To do this, select **View mapping** under **Log context mapping**. You can override the AI mapping by selecting a different log field from each list. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
 

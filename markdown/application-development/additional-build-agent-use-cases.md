@@ -1,43 +1,56 @@
 ---
-title: Example Build Agent use cases
-description: Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance. Reference these scenarios to identify ways to apply Build Agent across your development workflow.
+title: Build Agent use cases
+description: Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/additional-build-agent-use-cases.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-27"
-reading_time_minutes: 4
+last_updated: "2026-08-20"
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Example Build Agent use cases
+# Build Agent use cases
 
-Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance. Reference these scenarios to identify ways to apply Build Agent across your development workflow.
+Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 
 ## Documentation creation
 
-Use Build Agent to create customized knowledge base articles and knowledge articles, so users can access information and learn the application more easily.
+Use Build Agent to create customized knowledge articles, so users can access information and learn the application more easily.
 
-Build Agent can automate the creation of readme files for source code repositories. Generated readme files provide clear, structured documentation that outlines installation procedures, usage guidelines, and example snippets, which streamlines the onboarding process for new developers.
+Build Agent can automate the creation of readme files for source code repositories. Generated readme files provide clear, structured documentation that outlines installation procedures, usage guidelines, and example snippets, which reduces onboarding time for new developers.
 
 ## Learning assistance
 
-Use Build Agent as a resource for learning ServiceNow application development practices. You can ask about a wide range of topics, including development techniques, available APIs, and the overall functionality of the ServiceNow AI Platform.
+Use Build Agent as a resource for learning ServiceNow application development practices. You can ask about many topics, including development techniques, available APIs, and the overall functionality of the ServiceNow AI Platform.
 
-Build Agent supports continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. All of this helps developers grasp and apply general guidelines in their work.
+Build Agent supports continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. These examples help developers apply general guidelines in their work.
+
+For guidance on structuring a complete development lifecycle with Build Agent, including source control, testing, and release management, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
 
 ## Brainstorming sessions
 
-Use Build Agent to refine application development ideas and capture structured requirements for later build steps during brainstorming sessions. Requirements are captured in detail during these sessions, supporting a structured process for developing application features. All ideas are documented so your team can reference previous discussions and integrate feedback during the development lifecycle.
+Use Build Agent to refine application development ideas and capture structured requirements for later build steps during brainstorming sessions. Requirements are captured during these sessions, supporting a structured process for developing application features. Ideas are documented so your team can revisit previous discussions and integrate feedback during the development lifecycle.
 
 ## Additional use cases
 
 Use the following scenarios to identify specific ways to apply Build Agent in your development workflow.
 
+-   **Playbook authoring**
+
+    Use Build Agent to author Playbook Designer artifacts through a conversation. As of Australia Patch 6, you can have Build Agent do the following for playbooks that it generates:
+
+    -   Generate runtime permissions at the playbook and stage levels
+    -   Define on-demand launcher configurations
+    -   Create optional activities scoped globally or to a specific stage
+    -   Configure Set Playbook Outputs activity definitions for nested playbooks
+    -   Set Agentic activity fields on form-based and record-based activities
+    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+
 -   **App gap analysis**
 
-    Summarize an existing app, identify gaps in coverage, and propose targeted enhancements. For example, Build Agent flags tables without ACLs, business rules with no test coverage, and manual steps that could be automated with flows.
+    Summarize an existing app, identify gaps in coverage, and propose targeted enhancements. For example, Build Agent identifies tables without ACLs, business rules with no test coverage, and manual steps that could be automated with flows.
 
 -   **Security posture review**
 
@@ -73,9 +86,9 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
 
 -   **Build from user stories**
 
-    Point Build Agent at a user story from the `rm_story` table or paste one from another tool. The acceptance criteria drive development, creating the tables, logic, and tests that satisfy each criterion.
+    Point Build Agent at a user story from the rm\_story \[rm\_story\] table or paste one from another tool. The acceptance criteria drive development, creating the tables, logic, and tests that satisfy each criterion.
 
-    **Note:** Querying `rm_story` directly requires the Agile Development 2.0 plugin.
+    **Note:** Querying the rm\_story \[rm\_story\] table directly requires the Agile Development 2.0 plugin.
 
 -   **SQL to table**
 

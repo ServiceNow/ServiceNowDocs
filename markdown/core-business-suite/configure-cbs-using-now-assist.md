@@ -14,7 +14,7 @@ breadcrumb: [Configure, Core Business Suite]
 
 Configure Core Business Suite using a conversational interface provided by Now Assist.
 
-For information on configuring the product modules in Now Assist, see .
+For information on configuring the product modules in Now Assist, see [Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md).
 
 -   **[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)**  
 ServiceNow Otto for Core Business Suite \(CBS\) supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Dun and Bradstreet DirectPlus spoke v1.1.0 is the latest version.
+Dun and Bradstreet DirectPlus spoke v1.1.0 is the latest version. For version history of the spoke, see [Dun and Bradstreet DirectPlus Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-dun-bradsheet-directplus-spoke.html).
 
 ## Supported versions
 

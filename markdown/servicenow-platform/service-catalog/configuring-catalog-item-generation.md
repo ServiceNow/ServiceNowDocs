@@ -1,6 +1,6 @@
 ---
-title: Configuring ServiceNow Otto in Catalog Builder
-description: Install and configure ServiceNow Otto in Catalog Builder.
+title: Configuring AI in Catalog Builder
+description: Install and configure AI in Catalog Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
 release: australia
@@ -13,13 +13,11 @@ keywords: [generative AI, AI Authoring for Catalog Builder]
 breadcrumb: [AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring ServiceNow Otto in Catalog Builder
+# Configuring AI in Catalog Builder
 
-Install and configure ServiceNow Otto in Catalog Builder.
+Install and configure AI in Catalog Builder.
 
-## Configuration overview
-
-Along with the installation of ServiceNow Otto in Catalog Builder application, you must activate the Catalog item generation skill.
+You must activate the Catalog item generation skill.
 
 **Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

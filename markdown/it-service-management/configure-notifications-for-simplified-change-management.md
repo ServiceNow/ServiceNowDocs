@@ -16,7 +16,9 @@ Add and manage notifications for Change Management to keep users informed about 
 
 ## Before you begin
 
-Role required: sn\_itsm\_chg\_admin.notification\_config
+Role required: sn\_itsm\_chg\_admin.notification\_config and sn\_ia\_config.ia\_user
+
+**Note:** The sn\_itsm\_chg\_admin.notification\_config role no longer automatically inherits the sn\_ia\_config.ia\_user role. Users who need to configure the console must now be assigned both the appropriate Change Management role \(for example, sn\_itsm\_chg\_admin.notification\_config\) and the sn\_ia\_config.ia\_user role explicitly. Existing roles aren't modified during upgrade, allowing you to maintain full control over assignment of elevated privileges. After upgrading, if you have previously relied on inherited access, you won't be able to configure the console until the sn\_ia\_config.ia\_user role is assigned explicitly.
 
 ## About this task
 
@@ -140,7 +142,7 @@ Create a script to perform certain actions, like sending a notification based on
 
     To revert changes made in the current session before saving, select **Undo**.
 
-    As an alternative to the form-based wizard, you can also complete this configuration through the **Configure with Now Assist** conversational flow, accessible from the banner at the top of the page.
+    As an alternative to the form-based wizard, you can also complete this configuration through the **Configure with AI** conversational flow, accessible from the banner at the top of the page.
 
     **Note:** To deactivate a low-value notification without deleting it, locate it in the **Notifications** list and set its **Active** field to **false**. Deactivated notifications remain in the list and can be reactivated at any time.
 

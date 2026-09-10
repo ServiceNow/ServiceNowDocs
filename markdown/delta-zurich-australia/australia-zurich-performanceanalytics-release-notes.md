@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,30 +114,6 @@ Australia
 
 </td><td>
 
--   **[Explore native data snapshots indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-targets&family=australia&ft:locale=en-US)**
-
-KPI Details supports data snapshots indicators that you create, not only those that are enabled from classic indicators. The following features have been created for or extended to native data snapshots indicators:
-
-    -   Subscriptions for alerts on targets and thresholds, which can be set from the targets and thresholds panels
-    -   Adjustable filtering by breakdown, calendar, or time series aggregation
-    -   Hierarchical breakdowns, with scores rolled up to parent elements
-    -   Customizable score formatting options, such as precision and abbreviation
--   **[View data trends in data snapshots as data accumulates](https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&family=australia&ft:locale=en-US)**
-
-When you select a field by which to trend a data snapshots automated indicator, you have the option to show the trend for incomplete collection periods. This feature shows the trend as it develops for live data without having to wait for the end of the collection period. You can set this behavior either on the automated data snapshot indicator record or in a time series data visualization for a data snapshot indicator.
-
--   **[Collect data snapshots scores with confidence](https://www.servicenow.com/docs/access?context=tables-unlimited-breakdowns&family=australia&ft:locale=en-US)**
-
-Data mining for data snapshots scores has the following improvements:
-
-    -   Collect scores for tables with any volume of records.
-    -   The system accurately and automatically handles data gaps when data mining is turned off.
-    -   You are warned of the implications before you manually disable data mining \(score collection\).
--   **[Activate data snapshots in more cases and with better information](https://www.servicenow.com/docs/access?context=activate-unlimited-breakdowns&family=australia&ft:locale=en-US)**
-    -   Activate indicators without active data collector jobs.
-    -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
-    -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
-    -   Generic parsing errors have been rewritten into specific, categorized messages.
 -   **[Data snapshots automatically installed on eligible instances](https://www.servicenow.com/docs/access?context=limitations-mlb&family=australia&ft:locale=en-US)**
 
 If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
@@ -199,7 +175,8 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   The **Dashboard Visualization** tab in KPI Composer is no longer supported. Existing data visualization tabs remain.
+-   The Analytics Hub has been replaced by KPI Details. Attempts to open the Analytics Hub are redirected to KPI Details.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -220,9 +197,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
- The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches  your subscription. For details, see Activate your Performance Analytics  subscription.
+The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches  your subscription. For details, see Activate your Performance Analytics  subscription.
+
 
 </td></tr><tr><td>
 
@@ -230,9 +210,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
- The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&family=australia&ft:locale=en-US).
+The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -253,7 +236,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 To use the new data snapshots feature, your instance must be on the RaptorDB Professional database.
+
 
 </td></tr><tr><td>
 

@@ -67,7 +67,7 @@ Number of days after which if one or more discovery sources stop reporting CIs, 
  -   Type: integer
 -   Default: 7
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Number of days since CIs were last discovered by a discovery source** in the Potential issues section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Maximum number of records that appear as list views when drilling down from the 
 -   Type: integer
 -   Default: 100,000
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Maximum number of records to process** in the Global section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 

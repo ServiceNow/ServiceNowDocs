@@ -301,8 +301,6 @@ Value representing upsell or downsell in comparison to the renewal amount for th
 
 Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md).
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

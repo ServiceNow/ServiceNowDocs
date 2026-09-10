@@ -176,5 +176,5 @@ Copy the execution ID in the result and navigate to the Executions tab in Flow D
 
 \[Omitted image "rest-trigger-execution.png"\] Alt text:
 
-To troubleshoot issues, you can debug the REST query or check the flow execution details. See Debug REST queries and [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+To troubleshoot issues, you can debug the REST query or check the flow execution details. See [Debug REST queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/debugging-rest-queries.md) and [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 

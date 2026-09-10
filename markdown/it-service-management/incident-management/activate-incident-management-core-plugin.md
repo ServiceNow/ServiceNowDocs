@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---

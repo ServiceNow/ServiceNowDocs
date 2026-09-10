@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -28,6 +28,12 @@ The Asset operations view includes the following list:
     -   Shipping carriers: Create and view the list of shipping carriers. For more information, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
     -   Carrier integration profiles: View the list of carrier integration profiles associated with the shipping carriers. For more information, see [View the carrier integration profile details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-integration-profiles.md).
 -   Procurement-Requests: View and track procurement requests. For more information, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md).
+-   Contracts
+
+    -   Obligations: View the details of obligation records to fulfill the responsibilities specified in the contract. For more information, see [Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md).
+    -   Obligation tasks: View the details of obligation tasks associated with obligation records. For more information, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+    **Note:** These options are available if you have HAM integration with the Contract Management Pro application. For more information, see [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md).
+
 -   Hardware asset normalization
     -   Custom products: View details of custom products that aren't represented in the Asset Management Content Service. For more information, see [Add a custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-custom-hardware-model.md).
     -   Custom models: View details of custom models. For more information, see [Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).

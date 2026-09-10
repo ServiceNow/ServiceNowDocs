@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedaisearchmanagementtools-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -69,11 +69,6 @@ Zurich
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
-The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
-
-
--   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
-
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
 
@@ -103,11 +98,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
-
-The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
-
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
@@ -170,7 +160,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **AI Search Profile dashboard**
+
+The **Searchable Documents** and **Documents by Search Source** visualizations have been removed. These visualizations depended on scheduled jobs and legacy dashboard tables which are no longer available.
+
 
 </td></tr><tr><td>
 
@@ -178,7 +171,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **AI Search Profile dashboard**
+
+The **Searchable Documents** and **Documents by Search Source** visualizations have been removed. These visualizations depended on scheduled jobs and legacy dashboard tables which are no longer available.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -199,7 +195,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -207,7 +206,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -228,7 +230,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+
 
 </td></tr><tr><td>
 
@@ -236,7 +241,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -344,15 +352,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
-
--   Review performance metrics and trends more easily with an updated and refreshed dashboard UI.
--   Analyze performance metrics and trends for search applications used in Recommended Actions.
-
- [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
--   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
+-   Analyze search trends from the preceding six months using the AI Search Analytics dashboard
+-   Review key performance metrics and reports for your AI Search usage.
+-   Apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
  See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=zurich&ft:locale=en-US) for more information.
 
@@ -362,7 +364,11 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Analyze search trends from the preceding six months using the AI Search Analytics dashboard
+-   Review key performance metrics and reports for your AI Search usage.
+-   Apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
+
+ See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

@@ -25,5 +25,5 @@ Understand the building blocks of a playbook and how to configure them when you 
 -   **[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)**  
 Learn how to create and configure a playbook in Workflow Studio.
 
-**Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+**Parent Topic:**[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

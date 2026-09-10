@@ -23,7 +23,7 @@ Several types of components are installed with the activation of the Skills Foun
 |Skills Foundation Job architecture editor|View and update the job architecture and required statuses.|sn\_skills\_int.job\_arch\_editor|
 |Skills Foundation Job architecture admin|View, create, update, remove, and configure the job architecture.|sn\_skills\_int.job\_arch\_admin|
 |Skills Foundation Business partner|Can access skills or career data for managed employees.|sn\_skills\_int.hrbp|
-|Skills FoundationWorkspace user|Can access skills workspace|sn\_skills\_int\_ws.workspace\_user|
+|Skills Foundation Workspace user|Can access skills workspace|sn\_skills\_int\_ws.workspace\_user|
 
 You can assign these roles to the appropriate roles, groups, or users in your application.
 
@@ -65,7 +65,7 @@ You can assign these roles to the appropriate roles, groups, or users in your ap
 |sn\_skills\_int\_dynamic\_skill|Stores the new skills requested from the dynamic sources \( currently only from Credly\).|
 |sn\_skills\_int\_dynamic\_skill\_requestor|Stores the requester information for the dynamic skills added.|
 |sn\_skills\_int\_skill\_import\_tracker|Stores overall skill import jobs details and status.|
-|sn\_skills\_int\_user\_skill\_import\_row|Stores user or empoyee skill imports|
+|sn\_skills\_int\_user\_skill\_import\_row|Stores user or employee skill imports|
 |sn\_skills\_int\_role\_level\_skill|Stores which skills belong to the role and level of the role.|
 
 **Parent Topic:**[Skills Foundation Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-reference.md)

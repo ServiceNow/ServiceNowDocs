@@ -20,7 +20,7 @@ Use the different features of Collaborative Work Management \(CWM\) to collabora
 -   **[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)**  
 Create collaborative Spaces for teams to work together on projects, goals, or assignments.
 -   **[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)**  
-Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
+Use Boards in Collaborative Work Management to define and organize tasks. With views such as Dashboard, List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 -   **[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)**  
 Boost team efficiency by automating monotonous actions such as sending notifications and emails, monitoring key dates, or reassigning tasks based on the conditions that suit the team's workflow.
 -   **[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)**  
@@ -33,6 +33,8 @@ Enhance visibility and streamline planning for your Agile teams by connecting En
 View and manage project tasks alongside CWM work without switching applications. Team members can see assigned project tasks, break down work, and manage connections while project managers track execution in Project Workspace.
 -   **[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md)**  
 Manage your work from all ServiceNow applications from a centralized view in the Collaborative Work Management workspace.
+-   **[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)**  
+Access predefined lists and your own custom lists of records from any table, without leaving Collaborative Work Management \(CWM\).
 -   **[Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md)**  
 Team members can view and update project tasks and demand tasks directly in Collaborative Work Management \(CWM\) using team member roles, without requiring access to Project Workspace or Next Experience for Demand Management.
 -   **[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)**  

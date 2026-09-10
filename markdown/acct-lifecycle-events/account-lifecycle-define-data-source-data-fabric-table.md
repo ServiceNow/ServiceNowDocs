@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-data-source-data-fabric-table.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---

@@ -26,9 +26,9 @@ The agentic workflow enables customer success agents to optimize meeting schedul
 
 The meeting AI plugin \(app-meeting-ai-ag\) installs automatically with the Customer Success AI agent.
 
-**Important:** In the Now Assist skills page, make sure to Activate the meeting proposal generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
+**Important:** In the ServiceNow Otto skills page, make sure to Activate the meeting proposal generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
 
-When the risk record's probability is very high or occurred, the customer success agent assigned to that risk receives a Now Assist panel notification. The agentic workflow automates the creation and scheduling of the meeting.
+When the risk record's probability is very high or occurred, the customer success agent assigned to that risk receives a ServiceNow Otto panel notification. The agentic workflow automates the creation and scheduling of the meeting.
 
 The Meeting AI plugin supports these tables:
 
@@ -42,7 +42,7 @@ The Meeting AI plugin supports these tables:
 
 To modify the Draft and schedule touchpoint meetings agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
-**Note:** You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+**Note:** You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all ServiceNow Otto skills and AI agents. Use the Configuration Controls in [AI Control tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Role masking
 

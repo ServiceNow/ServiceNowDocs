@@ -18,8 +18,8 @@ Create a collector to import metadata from Fivetran.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Fivetran collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-fivetran-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,21 +47,40 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the Fivetran authentication details.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Enter the authentication details.
 
     |Field|Description|
     |-----|-----------|
     |Fivetran API key|The Fivetran API key used to authenticate to the REST API.|
     |Fivetran API secret|The Fivetran secret used to authenticate to the REST API.|
 
-8.  Enter the Fivetran configuration details.
+9.  Enter the Fivetran configuration details.
 
     |Field|Description|
     |-----|-----------|
     |Exclude groups|Exclude the specified Fivetran group's contents from the catalog.|
-    |Include only groups|Include only the specified Fivetran group's contents in the catalog.|
+    |Include groups|Include only the specified Fivetran group's contents in the catalog.|
 
-9.  Configure the advanced options.
+10. Configure the advanced options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -88,7 +107,7 @@ Retry delay
 The number of seconds to wait between retry attempts for a failed API call.Default: 2 seconds
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>11. Select **Save**.
 
 
 ## Result

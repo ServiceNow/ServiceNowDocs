@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -23,11 +23,9 @@ Visit these resources about ServiceNow Otto for Virtual Agent.
 **Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
 
 -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)
--   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
 -   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
--   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
--   [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md)
+-   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
 -   **[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)**  
 The Create a reservation agent enables employees to find an available space and create workplace reservations quickly.

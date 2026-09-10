@@ -24,6 +24,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Import organizations, managed APIs, frontends and backends, product bundles, and consumer subscription data from an Apigee Edge application into a normalized data model for consistency across other technologies.
 
+The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Apigee Edge, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights.md).
+
 ## Supported ServiceNow versions
 
 -   Yokohama
@@ -104,6 +106,18 @@ Frontend Backends \[sn\_apigee\_edge\_frontend\_backends\]
 
 </td></tr><tr><td>
 
+Consumer
+
+</td><td>
+
+Consumer \[sn\_apigee\_edge\_consumer\]
+
+</td><td>
+
+[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-edge-tables.md)
+
+</td></tr><tr><td>
+
 API Product
 
 </td><td>
@@ -138,20 +152,12 @@ API Consumer Access \[sn\_apigee\_edge\_api\_consumer\_access\]
 
 [API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-edge-tables.md)[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-edge-tables.md)
 
-</td></tr><tr><td>
-
-Consumer
-
-</td><td>
-
-Consumer \[sn\_apigee\_edge\_consumer\]
-
-</td><td>
-
-[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-edge-tables.md)
-
 </td></tr></tbody>
 </table>For more information on where data is saved when pulling data from an Apigee Edge application, see [Target tables for storing API Service Graph Connector for Apigee Edge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-edge-tables.md).
 
 You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+
+## Record removal process
+
+The connector supports soft deletion for CMDB CI classes only, meaning records aren't permanently removed from the system. Instead, any CMDB CI records not discovered during the last scheduled job run are marked as **Non-Operational**. For Managed API \[cmdb\_ci\_managed\_api\] records, the connector also sets the **Life cycle stage** field to **End of Life** and the **Life cycle stage status** field to **Retired**.
 

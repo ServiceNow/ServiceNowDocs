@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-06-03"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -33,7 +33,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 ## Procedure
 
@@ -127,7 +127,19 @@ Dynatrace platform token \(see [Platform tokens](https://docs.dynatrace.com/docs
 
     3.  Select **Save**, then **Continue**.
 
-8.  Select **Confirm connection creation** to verify the connection.
+8.  Migrate from Service Graph Connector for Observability - Dynatrace to Service Graph Connector for Dynatrace SaaS.
+
+    1.  Deactivate the scheduled import jobs for the classic Dynatrace connection.
+
+    2.  Select the classic Dynatrace connection that the Dynatrace SaaS connection replaces.
+
+    3.  Configure the migration cleanup job.
+
+        For information on configuring the migration cleanup job, see [Migrate a classic Dynatrace connection to the Dynatrace SaaS connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.md).
+
+        **Note:** The migration cleanup job runs once with the next scheduled execution and is then deactivated.
+
+9.  Select **Confirm connection creation** to verify the connection.
 
 
 ## What to do next

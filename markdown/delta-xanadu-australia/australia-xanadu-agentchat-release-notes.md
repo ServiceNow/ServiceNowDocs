@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-agentchat-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -295,7 +295,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

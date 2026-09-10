@@ -41,15 +41,15 @@ To create financial baselines, you can also use:
 
 5.  Create or compare financial baselines.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d239835e123">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d248567e123">
 
 Option
 
-</th><th align="left" id="d239835e126">
+</th><th align="left" id="d248567e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d239835e132">
+</th></tr></thead><tbody><tr><td id="d248567e132">
 
 **Create a baseline**
 
@@ -65,7 +65,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 3.  Select **Save**.
  A baseline is created capturing the planned costs.
 
-</td></tr><tr><td id="d239835e170">
+</td></tr><tr><td id="d248567e170">
 
 **Compare baselines**
 

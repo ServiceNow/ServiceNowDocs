@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add a catalog item to an AI agent

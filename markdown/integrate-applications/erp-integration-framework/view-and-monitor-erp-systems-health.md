@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-26"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, health, monitor, connection, heartbeat, retrieve]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, health, monitor, connection, heartbeat, retrieve, test connection]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View a list of Zero Copy Connector for ERP systems

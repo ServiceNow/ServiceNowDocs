@@ -18,11 +18,11 @@ Specifies callbacks for voice session lifecycle and content events.
 
 **Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
-## NowVoiceCallbacks - init\(onMuteStateChanged: \(\(Bool\) -&gt; Void\)?, onMessageReceived: \(\(NowVoiceTranscriptMessage\) -&gt; Void\)?, onCallEnded: NowVoiceDismissHandler?\)
+## NowVoiceCallbacks - init\(onMuteStateChanged: \(\(Bool\) -&gt; Void\)?, onMessageReceived: \(\(NowVoiceTranscriptMessage\) -&gt; Void\)?, onCallEnded: NowVoiceDismissHandler?, onCallMinimized: \(\(\) -&gt; Void\)?\)
 
 Creates a NowVoiceCallbacks instance with the specified voice session event handlers.
 
-A `NowVoiceAgentError` is delivered as the second parameter of the **onCallEnded** callback.
+A `VoiceAgentError` is delivered as the second parameter of the **onCallEnded** callback.
 
 |Case|Description|
 |----|-----------|
@@ -77,9 +77,17 @@ NowVoiceDismissHandler?
 
 </td><td>
 
-Called when the voice UI is dismissed. Delivers the conversation identifier and an optional error.```
-public typealias NowVoiceDismissHandler = (String?, NowVoiceAgentError?) -> Void
+Called when the voice UI is dismissed.```
+public typealias NowVoiceDismissHandler = (
+    _ conversationId: String?,
+    _ error: VoiceAgentError?,
+    _ endedFromCallKitUI: Bool
+) -> Void
 ```
+
+-   **conversationId**: Conversation ID.
+-   **error**: Optional error containing the reason the call ended.
+-   **endedFromCallKitUI**: `true` when the call was ended by the user from the iOS CallKit UI \(lock screen or Dynamic Island\). `false` for all in-app dismissals.
 
 </td></tr><tr><td>
 
@@ -91,7 +99,7 @@ onCallMinimized
 
 </td><td>
 
-Called when the voice session UI is minimized by the user.
+Called when the voice session UI is minimized by the user \(the call remains active in the background\). Providing this callback is what surfaces the minimize button in the voice UI.
 
 </td></tr></tbody>
 </table>The following code example shows how to initialize a NowVoiceCallbacks. In each callback function, implement the desired functionality for handling the event.
@@ -104,9 +112,9 @@ let callbacks = NowVoiceCallbacks(
     },
     onMessageReceived: { message in
         // Receive real-time transcript messages during the session.
-        print("[\(message.role)]: \(message.text)")
+        print("[\(message.role)]: \(message.content)")
     },
-    onCallEnded: { conversationId, error in
+    onCallEnded: { conversationId, error, endedFromCallKitUI in
         // Called when the voice session ends.
         if let error {
             print("Session ended with error: \(error)")

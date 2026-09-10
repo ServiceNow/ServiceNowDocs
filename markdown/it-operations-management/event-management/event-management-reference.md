@@ -35,7 +35,7 @@ The form for creating or modifying a tag based alert clustering definition displ
 -   **[List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-definition-list.md)**  
 A list of the predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application.
 -   **[Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/installed-domain-properties.md)**  
-Use the domain properties installed with Event Management to provide the metadata that points to the appropriate table to identify the domain so that you know which domain to create the event in.
+Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain table for event creation.
 -   **[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connector-domain-metadata.md)**  
 Override push connector default domain metadata values installed with Event Management with the values in the event HTTP request, including the URL, headers, request body \(payload\), and connector parameters. Override pull connector domain metadata values with connector parameters only.
 -   **[Dynatrace connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/dynatrace-connector-instance-form.md)**  

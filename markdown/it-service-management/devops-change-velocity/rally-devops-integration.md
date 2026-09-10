@@ -41,6 +41,8 @@ Connect to your Rally instance using the DevOps Change Workspace playbook to con
 Create, connect, discover, and configure your Rally instance using the ServiceNow Service Catalog.
 -   **[Onboard Rally to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/rally-create-tool.md)**  
 With this integration, you can configure and expose data like projects, user stories, and defects from the Rally. You can then associate these planning objects to application for end-to-end traceability.
+-   **[Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md)**  
+Authenticate a Rally tool connection using OAuth 2.0 credentials.
 
 **Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

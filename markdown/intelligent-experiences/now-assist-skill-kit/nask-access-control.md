@@ -91,5 +91,5 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
 
 [Configure a skill prompt]()
 
-[Configure skill deployment settings]()
+[Configure deployment and skill settings]()
 

@@ -78,9 +78,7 @@ Description about the threat group range and definition.
 </td></tr></tbody>
 </table>    **Note:** Ensure that you do not overlap the threat group count ranges if you customize the threat group range \(min or max\).
 
-    The following illustration shows the threat group to technique heat map definitions list.\[Omitted image "mitre-threat-group-definition.png"\] Alt text: The following illustration shows the threat group to technique heat map definitions list.
-
-3.  To add an entry, click **New**, complete the entries, and click **Submit**.
+3.  To add an entry, select **New**, complete the entries, and select **Submit**.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)

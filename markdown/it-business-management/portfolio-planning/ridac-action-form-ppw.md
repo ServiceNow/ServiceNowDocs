@@ -30,7 +30,7 @@ Use the RIDAC Action form to create and track action items related to your deman
 |Assigned to|User or team responsible for completing the action.|
 |Due date|Target date by which the action should be completed.|
 |Planning Item|The planning item \(project or demand\) that this action is associated with. This field is auto-populated when an action is created from a planning item context.|
-|Parent|Parent action, if this action is dependent on another action or is part of a larger action group. Used for action hierarchy and dependency tracking.|
+|Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Work notes|Internal notes and updates about action progress, blockers, completion status, and any changes. Used to track work history and communication.|
 
 **Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)

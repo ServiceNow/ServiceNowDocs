@@ -53,5 +53,8 @@ Work with your administrator to ensure the required lens setup. See [Lens config
 
 Start creating portfolio plans to align work with strategy. See [Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md).
 
+-   **[Programs enhanced experience with portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/program-portfolio-plan-spw.md)**  
+Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, Kanban, and Financials views for focused program management without navigating portfolio-wide interfaces.
+
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

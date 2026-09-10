@@ -42,7 +42,7 @@ Strong universal process standards, data-driven process design, strict governanc
     -   [Day 1 setup guide for VMware on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
 -   [Cloud API \(CAPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-api.md) and [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md)
 
-    CAPI is not domain separated as, domain separation support in Cloud Provisioning and Governance. Since CAPI is set up at a global domain and shared across leaf domains, ensure that scripts do not contain hard-coded sensitive information such as account details, credentials, or names even in comments or annotations.
+    CAPI is not domain separated in Cloud Provisioning and Governance. CAPI is set up at a global domain and shared across leaf domains. Ensure that scripts do not contain hard-coded sensitive information such as account details, credentials, or names, even in comments or annotations.
 
     CAPI enables you to integrate Cloud Provisioning and Governance with cloud providers using REST APIs. Cloud scripts are simple java scripts that use platform features. In the Cloud Provisioning and Governance application, script execution is divided into cloud scripts and cloud script templates. Use scripts in templates, resource blocks, OS profiles, and use policy scripts to set request form attributes. Policy scripts cannot override user data. Cloud script templates are actual executables which are passed to target a virtual machine for execution. Create a cloud template first and then associate it with a cloud script.
 
@@ -50,7 +50,7 @@ Strong universal process standards, data-driven process design, strict governanc
 
     Service Providers \(SPs\) use domain separation to segregate data for each customer. Users in a given domain have visibility only to the data in their own domains or in child domains. SPs typically control the top-level domain, which gives them visibility to data associated with all domains. Though domain separation support for Discovery is considered Level 2, there is no delegated administration to the child domains in Cloud Provisioning and Governance. The SPs must retain administrative control. As a SP, always run discovery from a leaf domain by logging in as or impersonating a domain administrator to discover your cloud resources.
 
-    Cloud Discovery provides a wizard that allows you to create and run cloud schedules in a single interface. When you create a schedule with the Discovery Manager, you select the accounts to discover, the credentials for accessing these accounts, and the MID Servers to scan the resources. You can then view the results in the Discovery Home page and track any errors that might have occurred.
+    Cloud Discovery provides a wizard that allows you to create and run cloud schedules in a single interface. When you create a schedule with the Discovery Manager, you select the accounts to discover and the credentials for accessing these accounts. You also select the MID Servers to scan the resources. You can then view the results in the Discovery Home page and track any errors that might have occurred.
 
     For more information see,
 

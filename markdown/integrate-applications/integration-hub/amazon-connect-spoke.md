@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon Connect spoke v1.2.0 is the latest version.
+Amazon Connect spoke v1.2.0 is the latest version. For version history of the spoke, see [Amazon Connect spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-connect.html).
 
 ## Supported versions
 

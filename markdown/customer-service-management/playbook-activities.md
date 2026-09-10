@@ -37,7 +37,7 @@ A playbook is organized into stages, and each stage contains one or more activit
 
 A few things shape how an agent works with activities:
 
--   **Activity state**: Each activity shows its current state in the activity picker, so an agent can see what is done and what is left. For the list of states, see .
+-   **Activity state**: Each activity shows its current state in the activity picker, so an agent can see what is done and what is left. For the list of states, see [Page components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md).
 -   **How activities are displayed**: The page layout and activity view control how stages and activities appear, such as a focused or stacked view. For more information, see [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md).
 -   **Navigating activities**: An agent can move between stages and activities, including by using keyboard navigation, in the order that their role and the playbook configuration allow.
 -   **Filtering activities**: An agent can filter the activity list by state to focus on certain activities. For more information, see [Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md).
@@ -75,6 +75,6 @@ The following existing activities are available to customize and use in CSM play
 
 |Activity|Description|
 |--------|-----------|
-||Enables agents to add, edit, or delete related party records directly within a playbook. Set up by an admin in Workflow Studio. Returns JSON output for downstream use.|
-||Automation activity that saves related party records captured by the Add Related Parties activity to the database. Accepts JSON input and writes records to the specified target table.|
+|[Add Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-add-related-party-activity.md)|Enables agents to add, edit, or delete related party records directly within a playbook. Set up by an admin in Workflow Studio. Returns JSON output for downstream use.|
+|[Save Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-save-related-parties-activity.md)|Automation activity that saves related party records captured by the Add Related Parties activity to the database. Accepts JSON input and writes records to the specified target table.|
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, export, import, move, model, instance, update, set]
-breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Export and import custom models in Zero Copy Connector for ERP
@@ -64,7 +64,7 @@ Note the following rules when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following steps use update sets. For general information, see .
+    The following steps use update sets. For general information, see [Exploring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-system-update-sets.md).
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 

@@ -1,6 +1,6 @@
 ---
 title: Self-healing AI agent
-description: Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose and resolve common AI administration issues.
+description: Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose common AI administration issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-self-healing-agent.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the ServiceNow Otto panel conversational experience, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
 # Self-healing AI agent
 
-Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose and resolve common AI administration issues.
+Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose common AI administration issues.
 
 ## Self-healing AI agent overview
 
@@ -56,7 +56,7 @@ Assesses whether the admin's AI problem description contains enough information 
  Outputs a visible triage summary confirming the final problem description and readiness status so that behavior can be verified in both standalone and workflow testing.
 
 </td></tr></tbody>
-</table>For more information on viewing your AI agents, see [View your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
+</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
 
 ## AI agent access
 
@@ -72,7 +72,7 @@ Use the self-healing AI agent to help with issues such as:
 -   Integration connectivity or credential problems
 -   Role or permission misconfigurations affecting Now Assist access
 -   Feature flags or activation toggles in an unexpected state
--   Compatibility conflicts between Now Assist and other plugins or versions
+-   Compatibility conflicts between plugins or versions
 
 For more information, see the troubleshooting issues described in KB article [KB2330598](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2330598) on Now Support.
 
@@ -101,6 +101,4 @@ When used, the AI agent may attempt the following actions:
     -   Suggest settings or statuses to verify.
     -   Recommend escalation to support if the issue requires specialized help.
 6.  The AI agent retains your issue description, the diagnosis, and the confidence level throughout your session so you can ask follow-up questions without repeating context.
-
-**Parent Topic:**[Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 

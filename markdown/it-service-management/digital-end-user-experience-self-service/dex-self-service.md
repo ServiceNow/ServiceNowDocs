@@ -16,6 +16,10 @@ breadcrumb: [Digital End-User Experience, IT Service Management]
 
 Digital End-user Experience Self-service \(DEX Self-service\) enables you to monitor real-time performance of your devices and applications, and address detected issues by using suggested resolutions.
 
+\[Omitted video\] Description: Overview of DEX Self-service
+
+The video provides an overview of DEX Self-service, including how to access it and how employees can use it to resolve common device and application issues independently. It demonstrates this process with an example of using DEX Self-service from Desktop Assistant.
+
 ## Get started
 
 <table id="table_x3s_msr_y2c" class="nav-card presentation"><tbody><tr><td>

@@ -17,7 +17,7 @@ Use ServiceNow Otto® in Native Mobile Virtual Agent to deliver more direct, rel
 
 \[Omitted image "na-mobile-va.png"\] Alt text: Otto for mobile virtual agent example responses
 
-ServiceNow Otto in Virtual Agent uses large language models \(LLM\)s and generative AI to improve deflection rates and make it easier for users to find relevant information. To learn more about what ServiceNow Otto in Virtual Agent can do, see [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md).
+ServiceNow Otto in Virtual Agent uses large language models \(LLM\)s and generative AI to improve deflection rates and make it easier for users to find relevant information. To learn more about what ServiceNow Otto in Virtual Agent can do, see .
 
 To give feedback on the answers provided by Otto, you can long press on a generated response to copy the message text or to mark the response as either helpful or unhelpful.
 

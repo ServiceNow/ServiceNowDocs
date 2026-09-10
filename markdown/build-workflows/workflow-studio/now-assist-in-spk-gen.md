@@ -40,7 +40,7 @@ ServiceNow Otto for Spoke Generation v2.0.0 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [ServiceNow Otto for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) from the AI Admin Hub console.
+After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the ServiceNow Otto for Creator feature from the AI Admin Hub console.
 
 \[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 

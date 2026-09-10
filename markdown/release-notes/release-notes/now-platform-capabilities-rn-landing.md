@@ -26,6 +26,8 @@ The ServiceNow® Import and Export applications enable you to import and export 
 The ServiceNow® Instance Data Replication \(IDR\) application simplifies the data replication process between instances. Instance Data Replication was enhanced and updated in the Australia release.
 -   **[Knowledge Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/knowledge-center-rn.md)**  
 The ServiceNow® Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+-   **[Live Connect release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/live-connect-rn.md)**  
+Live Connect enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Professional.
 -   **[MID Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mid-server-rn.md)**  
 The ServiceNow® MID Server application enables communication and data transfers between a ServiceNow instance and external applications, data sources, and services. MID Server was enhanced and updated in the Australia release.
 -   **[Notify release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/notify-rn.md)**  

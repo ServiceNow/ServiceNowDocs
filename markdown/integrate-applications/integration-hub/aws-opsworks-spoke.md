@@ -49,7 +49,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-AWS OpsWorks spoke v1.0.2 is the latest version.
+AWS OpsWorks spoke v1.0.2 is the latest version. For version history of the spoke, see [AWS OpsWorks spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-opsworks-spoke.html).
 
 ## Spoke actions
 

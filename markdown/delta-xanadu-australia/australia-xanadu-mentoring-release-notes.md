@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-mentoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -143,7 +143,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Share mentor names and key dates with my manager check box](https://www.servicenow.com/docs/access?context=edit-mentee-preferences&family=yokohama&ft:locale=en-US)**
+
+A new **Share mentor names and key dates with my manager** check box is introduced in the mentee preferences form. Selecting this check box shares information with your manager and helps them validate your skill levels.
+
 
 </td></tr><tr><td>
 
@@ -286,7 +289,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -294,7 +300,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Mentoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

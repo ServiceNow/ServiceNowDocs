@@ -180,4 +180,6 @@ Role required: sn\_risk.manager or sn\_compliance.manager
 
     All the risks or controls related to the risk statement or policy statement are automatically associated with all the risk statement or policy indicators of the statement. Also, if the indicator has a breakdown that matches the risk or entity of the control \(for example a Business Service breakdown\), the **Breakdown** and **Element** fields for the relationship are automatically filled in.
 
+    **Note:** To use Performance Analytics indicators for risk statements and risks, the Advanced Risk application and Performance Analytics must be active, and the related indicators must be enabled. Otherwise, the related links don't appear on a risk record.
+
 

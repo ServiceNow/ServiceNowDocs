@@ -18,7 +18,7 @@ Knowledge Graph provides a connected representation of data that maps entities a
 
 ## Knowledge Graph overview
 
-ServiceNow Knowledge Graph application enhances the ServiceNow AI Platform® by creating a semantic layer that connects data, relationships, and context across the enterprise. It structures information as a graph of entities and connections, bringing context and meaning to the available raw data. By leveraging AI, it powers personalized and intelligent experiences across the Now Assist ecosystem including Now Assist Virtual Agent, AI Agents, and AI Search to deliver more relevant insights and automation.
+ServiceNow Knowledge Graph application enhances the ServiceNow AI Platform® by creating a semantic layer that connects data, relationships, and context across the enterprise. It structures information as a graph of entities and connections, bringing context and meaning to the available raw data. By leveraging AI, it powers personalized and intelligent experiences across the ServiceNow® platform including ServiceNow Otto for Virtual Agent, AI Agents, and AI Search to deliver more relevant insights and automation.
 
 By linking data and embedding semantic meaning, ServiceNow Knowledge Graph transforms raw data into actionable knowledge, fueling faster resolutions, richer insights, and more personalized AI-powered experiences.
 
@@ -70,13 +70,13 @@ In this release, the available prebuilt integrations are:
 |---------|----------------|-----------|
 |Knowledge Graph Admin \(kg\_admin\)|Knowledge Graph Designer|The Knowledge Graph Admin can create and manage Knowledge Graph schemas.|
 |Requester|Prebuilt integration with Virtual Agent and Agentic AI|Helps requesters with personalized answers, natural language queries, and fewer conversation turns with pre-filled slots for LLM topics and skills.|
-|Fulfiller|Prebuilt integration with Now Assist panel and Agentic AI|Helps fulfillers with personalized answers, natural language queries, and fewer conversation turns with pre-filled slots for LLM topics and skills.|
+|Fulfiller|Prebuilt integration with ServiceNow Otto panel and Agentic AI|Helps fulfillers with personalized answers, natural language queries, and fewer conversation turns with pre-filled slots for LLM topics and skills.|
 
 ## Knowledge Graph benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Enhance user experience \(with prebuilt integration for downstream products like Now Assist Virtual Agent and Agentic AI\)|Provides accurate data with minimal user effort.|Requester|
+|Enhance user experience \(with prebuilt integration for downstream products like Virtual Agent and Agentic AI\)|Provides accurate data with minimal user effort.|Requester|
 |Simple and easy to use|Creates a complex data model called Knowledge Graph schema with numerous entities and their relation within a few steps.|kg\_admin|
 |Easy to manage|Editing Knowledge Graph schemas to add new nodes or edges is simple.|kg\_admin|
 |Customizable Knowledge Graph schema|Provides an option to copy the ServiceNow Knowledge Graph schemas for customization.|kg\_admin|

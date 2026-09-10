@@ -36,10 +36,5 @@ ServiceNow Otto for Creator contains generative AI skills that empower you to bu
 |Test generation|Automated Test Framework|
 |UI generation|UI Builder|
 
--   **[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)**  
-Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
--   **[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations-landing.md)**  
-Get AI-generated placeholder activities based on an activity's name and description.
-
 **Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

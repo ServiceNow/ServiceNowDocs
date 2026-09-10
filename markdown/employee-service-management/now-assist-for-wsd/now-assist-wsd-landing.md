@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-03"
 reading_time_minutes: 4
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---

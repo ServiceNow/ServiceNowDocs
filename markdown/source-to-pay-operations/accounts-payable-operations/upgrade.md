@@ -27,7 +27,7 @@ Role required: admin
 
     X refers to the latest version.
 
-2.  [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
+2.  [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
 
 3.  [Configure the newly created DocIntel Extract Values Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.md).
 
@@ -42,7 +42,7 @@ Role required: admin
     3.  Under ACTIONS, do the following:
 
         -   Select **Process Attachment using DI** to expand it.
-        -   In the **SYS DI Task Definition \[Use Case\]** field, select the copy of the use case that was created using the **Duplicate use case** icon \(\[Omitted image "duplicate-di-usecase.png"\] Alt text: Duplicate icon\). For more information on copying use case, refer [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
+        -   In the **SYS DI Task Definition \[Use Case\]** field, select the copy of the use case that was created using the **Duplicate use case** icon \(\[Omitted image "duplicate-di-usecase.png"\] Alt text: Duplicate icon\). For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
     4.  Select **Save**.
 
     5.  Select **Activate**.
@@ -53,7 +53,7 @@ Role required: admin
 
     2.  Under **TRIGGER**, in the **Condition** field, ensure that you select the copy of the use case that was created in Global scope.
 
-        For more information on copying use case, refer [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
+        For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
 
     3.  Select **Save**.
 

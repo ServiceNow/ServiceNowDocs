@@ -1,9 +1,9 @@
 ---
 title: Legal Conflict of Interest release notes
-description: The ServiceNow Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
+description: The ServiceNow Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.The ServiceNow Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,15 +12,28 @@ reading_time_minutes: 2
 
 The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
 
-## Legal Conflict of Interest highlights for the Australia release
+## About Legal Conflict of Interest
 
 Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
 See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Legal Conflict of Interest is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
+
+## Australia
+
+The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-coi-config-risk-fac.md)**
 
@@ -35,11 +48,7 @@ See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/Se
     **Note:** The conversational intake functionality is available only once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
 
-## Activation information
-
-Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -47,17 +56,4 @@ Install Legal Conflict of Interest by requesting it from the ServiceNow Store. V
 
     Legal and Contracts Common Utilities \(sn\_lco\_cmn\): Common utilities plugin for Legal Service Delivery and Contract Management Pro.
 
-
-## Related ServiceNow applications and features
-
--   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-practice-app-landing.md)**
-
-    Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
-
--   **[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)**
-
-    Summarize a legal request or legal matter to understand its context, refresh its summary, and post the summary to work notes.
-
-
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
 

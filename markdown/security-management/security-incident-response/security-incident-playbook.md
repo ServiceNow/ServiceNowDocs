@@ -77,6 +77,10 @@ For a Playbook to be invoked manually, navigate to the Form UI action drop down 
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Working with Security Incident Records]()
 
 [Prerequisites for the Playbooks]()

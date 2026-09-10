@@ -1,0 +1,53 @@
+---
+title: Configure the Security incident quality assessment skill
+description: Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-quality-assessment-skill.html
+release: australia
+product: Security Incident Response
+classification: security-incident-response
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [Skill configuration, configure quality assessment skill]
+breadcrumb: [Configure a skill, Configure ServiceNow Otto for Security Incident Response \(SIR\), Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
+---
+
+# Configure the Security incident quality assessment skill
+
+Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
+
+## Before you begin
+
+Role required: sn\_si.admin
+
+## About this task
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+
+2.  In **Technology**, select **Security Operations**.
+
+3.  In the Security Incident Quality Assessment tile, select \[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon..
+
+4.  Select **Edit**.
+
+5.  Select **Assessment Rules** &gt; **Add New Rule**.
+
+6.  Enter a name for the rule you want to add, and select **Save**.
+
+7.  Update the following fields.
+
+8.  -   **Enter Rule Criteria**: List of quality assessment rules.
+-   **Add additional context**: Additional information or context.
+-   **Select KB Article**: Choose the KB articles to associate with the rule.
+9.  Select **Save and continue**.
+
+    The skill uses this rule set to generate a quality assessment for the security incident.
+
+
+**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
+

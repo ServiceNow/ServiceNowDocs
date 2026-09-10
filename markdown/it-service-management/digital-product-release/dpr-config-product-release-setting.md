@@ -7,9 +7,9 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-08-12"
 reading_time_minutes: 2
-keywords: [product-level settings, release settings, configure product]
+keywords: [product-level settings, release settings, configure product, restricted access product settings, product team release access]
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
 
@@ -83,6 +83,23 @@ CI classes
 
 Determines the CI selection available during release execution to the CI classes most relevant to the product.
 
+</td></tr><tr id="dpr-row-restrictedaccess"><td>
+
+Product team
+
+</td><td>
+
+Limits visibility of releases created for this product to members of the product team.To restrict access:
+
+1.  Select **Restrict access to product releases**,
+2.  Add users or groups in the **Users** and **Groups** fields respectively.
+
+**Note:** Only users or groups whose members have the sn\_dpr\_model.release\_user role are available for selection.
+
+When you create a release for this product, these users and group members from product team are added to the release team and have default access to the release.
+
+Users outside the release team can't view the release or its related records.
+
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
@@ -94,6 +111,7 @@ The release settings for the product are saved and are used in the following flo
 -   The release creation flows show only the configured templates and calendars by default.
 -   Change request creation shows only the configured change models and standard change templates.
 -   Configuration item selection shows only CIs of the configured classes.
+-   When restricted access is selected, releases created for this product are visible only to the product team \(selected users and groups\). The restricted access setting and product team are copied to each new release as the initial release team.
 
 **Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 
@@ -109,4 +127,6 @@ The release settings for the product are saved and are used in the following flo
 [Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-change-request.md)
 
 [Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-config-items.md)
+
+[Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md)
 

@@ -30,7 +30,7 @@ This spoke was built for Amazon CloudWatch version 2010-08-01, but may be compat
 
 ## Spoke version
 
-Amazon CloudWatch spoke v1.0.2 is the latest version.
+Amazon CloudWatch spoke v1.0.2 is the latest version. For version history of the spoke, see [Amazon CloudWatch spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-cloudwatch.html).
 
 ## Spoke requirements
 

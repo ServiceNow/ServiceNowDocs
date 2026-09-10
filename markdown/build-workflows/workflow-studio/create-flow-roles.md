@@ -27,7 +27,7 @@ Role required:
 
 Create a flow that runs with its own roles rather than just inheriting the roles of the user who starts the flow. For more information about assigning roles to a flow, go to [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md). For example, allow a flow to run with the itil role so that it can access data belonging to IT Service Management applications such as incidents and problems.
 
-For information about application administration and the special roles that it requires, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).
+For information about application administration and the special roles that it requires, see .
 
 ## Procedure
 

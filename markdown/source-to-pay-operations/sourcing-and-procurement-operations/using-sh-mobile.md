@@ -39,7 +39,7 @@ As a Shopping Hub Administrator, you can configure your mobile instance to displ
 -   **[View and revise your purchase from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-revise-purchase-mobile.md)**  
 View all the purchases you made from your shopping account, view their status, and revise your purchases from your mobile application.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -56,9 +56,13 @@ View all the purchases you made from your shopping account, view their status, a
 
 [Create a Universal Request]()
 
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
+
 [Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md)
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 
 [Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
 

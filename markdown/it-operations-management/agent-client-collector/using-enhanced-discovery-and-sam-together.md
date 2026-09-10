@@ -29,15 +29,12 @@ The software usage records are domain separated. The records are populated with 
 
 -   **SAM basic metering and SAM total usage metrics**
 
-    For SAM basic metering and SAM total usage metrics, the non-privileged servicenow user \(which the agent service logs on as\) must be configured with READ only access in the registry. This access allows for successful execution of the OSQuery against the UserAssist table to be successful. Go to regedit and allow the servicenow user to read UserAssist for a user account on the device \(for example: `HKEY_USERS\SID...\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserAssist` for every user in `HKEY_USERS`\).
-
-    **Note:** The **UserAssist** key does not inherit permissions from the **HKEY\_USERS\\SID...** parent key. Therefore, you must navigate to the **UserAssist** key and add permission directly on the key.
-
     To apply SAM basic metering or SAM total usage metrics, you need the following:
 
     -   SAM plugin \(com.snc.samp\) enabled
     -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
     -   Write permissions enabled for the log folder in the ACC install directory.
+    -   In a Windows environment: For maximum efficiency, run ACC with the Local System account \(on the agent, set **Log On As = Local System**\).
     For details on SAM metering setup with the Agent Client Collector, see the Knowledge Base article [KB1642676](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642676).
 
 -   **Software edition information**
@@ -47,20 +44,21 @@ The software usage records are domain separated. The records are populated with 
 
 ## SAM basic metering
 
-**Note:** There is a configuration in the Windows operating system level that does not allow the correct detection of the data. Update the configuration so that the data can successfully be collected by the ACC-VC agent and brought to the ServiceNow platform correctly. In the Registry Editor, create the following keys in the path:**HKEY\_CURRENT\_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced.**
+SAM basic metering tracks when installed software was last used on an endpoint. In a Windows environment, this is determined by observing which applications are running on the machine.
 
--   Name: Start\_TrackProgs
-    -   Base: Hexadecimal
-    -   Value:1
--   Name: Start\_TrackProgsBase
-    -   Base: Hexadecimal
-    -   Value:1
+-   **How SAM basic metering works \(on a Windows machine\)**
+    -   Every 8 minutes, the agent checks the running process table on the endpoint and records each observed application.
+    -   Running applications are considered used, and their last accessed time updates to the current time.
+    -   Once every 24 hours, the agent also reads the Windows Registry Run keys \(`HKLM...\Run`, `HKLM\Wow6432Node...\Run`, and `per-user HKU<SID>...\Run`\) to acknowledge auto-start applications that may have started and exited before being checked. These observations are sent to the instance as part of the existing 24-hour metering payload.
+    -   On an instance, each observed executable is matched to a product using an exact lookup in the Software Product Process \(**samp\_sw\_product\_process**\) table.
+    -   If a matching product is found, the last accessed time on the corresponding Software Installation \(**cmdb\_sam\_sw\_install**\) record is updated.
+    -   If no mapping exists in the Software Product Process \(**samp\_sw\_product\_process**\) table for an executable, no last accessed time is written for the software installation record. The unmapped executable is logged for the for review.
+-   **How SAM basic metering works \(on a macOS machine\)**
 
-For the list of software in the payload, query the Software Discovery Model \[cmdb\_sam\_sw\_discovery\_model\] table to fetch the corresponding product and publisher. Once the product is fetched, check if the reclamation rule is enabled for that product to persist the last usage information in the Software Usage \[samp\_sw\_usage\] table. See the flowchart for details.
+    The last accessed time \(**last\_used** value\) is collected using the native macOS metadata attribute.
 
-\[Omitted image "sam\_flow.png"\] Alt text: Describes the flow how SAM works with ACC-VC for basic metering
 
-**Note:** In the target, query the last accessed time from the UserAssist table via the OSQuery by taking the application or software name as the input to the Query.
+If reclamation rules are enabled for the product, the last accessed time is also stored in the Software Usage \(**samp\_sw\_usage**\) table.
 
 Use the **sn\_acc\_vis\_content.disable\_sam\_reclamation\_rules\_for\_licensable\_softwares** property to define reclamation rules for licensable software, as follows:
 
@@ -163,12 +161,14 @@ To perform non-osqueryd data collection:
     -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-sudoers-file.md).
 2.  On the System Properties page \(**All** &gt; **System properties** &gt; **All properties**\), set the **sn\_acc\_vis\_content.enable\_sam\_collection\_without\_osqueryd** property to **true**.
 
-    **Note:** Enable this property only when all agents are version 4.1.0 or later.
+    **Note:**
 
+    -   Enable this property only when all agents are version 4.1.0 or later.
+    -   SAM basic metering \(last accessed time\) works with both osqueryd and non-osqueryd configurations. The 8-minute process poll and 24-hour payload run regardless of the osqueryd deployment mode.
 
 ## Software edition information
 
-Starting in ACC-VC version 2.3.0, edition information is supported for Adobe Acrobat and MS SQL server. With this feature, SAM admins can get clear visibility into the editions of their installed software. Osquery commands are used to fetch the edition information which then shows in the Software Installation \[cmdb\_sam\_sw\_install\] table in the Edition Override column. For more details, see the support KB: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0721360](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0721360)
+Edition information is supported for Adobe Acrobat and MS SQL server. With this feature, SAM admins can get clear visibility into the editions of their installed software. Osquery commands are used to fetch the edition information which then shows in the Software Installation \[cmdb\_sam\_sw\_install\] table in the Edition Override column. For more details, see the support KB: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0721360](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0721360)
 
 **Related topics**  
 

@@ -74,5 +74,7 @@ The following Hardware Asset Management features have limited availability:
 **Related topics**  
 
 
+[Hardware Asset Management integration with Contract Management Pro]()
+
 [Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
 

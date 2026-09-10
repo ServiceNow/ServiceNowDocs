@@ -8,17 +8,13 @@ product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: concept
 last_updated: "2026-07-20"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Exploring ServiceNow Otto in Knowledge Management
 
 ServiceNow Otto in Knowledge Management enables agents to generate, edit, and publish knowledge articles from a case or incident using the ServiceNow Otto panel, classic environment, and configurable workspace.
-
-\[Omitted video\] Description: Generate a KB article from similar incidents by using ServiceNow Otto
-
-The video shows how an agent can generate a knowledge article with ServiceNow Otto from similar incidents in IT Service Management.
 
 ## ServiceNow Otto in Knowledge Management overview
 
@@ -54,7 +50,7 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 
 [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Configure custom prompts skills for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
 
 [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
 
@@ -64,7 +60,7 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 
 [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
-[Configure Now Assist skills for merging articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.md)
+[Configure AI skills for merging articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.md)
 
 [Enable multilingual service in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.md)
 

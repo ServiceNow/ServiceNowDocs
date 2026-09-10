@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-appenginemanagementcenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -83,10 +83,6 @@ Zurich
 
 </td><td>
 
--   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
-
-AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
-
 -   **[ReleaseOps integration](https://www.servicenow.com/docs/access?context=exploring-aemc&family=zurich&ft:locale=en-US)**
 
 Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
@@ -113,11 +109,6 @@ Configure a standalone environment for deployments in the platform version of AE
 -   **[AEMC guided setup now includes ReleaseOps](https://www.servicenow.com/docs/access?context=configuring-aemc&family=australia&ft:locale=en-US)**
 
 Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
-
-
--   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=exploring-release-lifecycle-documentation-agent&family=australia&ft:locale=en-US)**
-
-Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
 
 
 </td></tr></tbody>
@@ -147,7 +138,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Release management tab](https://www.servicenow.com/docs/access?context=aemc-user-interface&family=zurich&ft:locale=en-US)**
+
+Starting with version 28.2.1 of AEMC, you can manage your ReleaseOps deployments in the **Release management** tab of AEMC.
+
 
 </td></tr><tr><td>
 
@@ -155,7 +149,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Filter and search for requests](https://www.servicenow.com/docs/access?context=filter-search-aemc&family=australia&ft:locale=en-US)**
+
+Filter by key fields, such as status, owner, type, environment, and date, with the option to apply multiple filters simultaneously for the **Requests** tab. Filtered results update in realtime, and active filters are clearly indicated. Remove individual filters, reset the list to its default state, and save your commonly used filter combinations to reuse later.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -258,9 +255,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install AEMC by requesting it from the ServiceNow Store.
 
- Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -268,7 +268,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

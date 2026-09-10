@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -37,6 +37,10 @@ Managers with the `sn_grc_reg_change.manager` role can view and sort the action 
 Starting with version 19.0.x, you can initiate and complete the action tasks independently without requiring prior approval from users who are assigned with the `sn_grc_reg_change.manager` role. You can execute assigned responsibilities in a timely manner and reduce unnecessary approval bottlenecks. The access to action tasks remains governed by user permissions and role-based access controls to ensure proper accountability and oversight.
 
 Staring with version 21.0.x, you can reopen the action tasks for a regulatory task when it's rejected and transitions back to the Implementation state. You can review and rework the tasks to address the feedback or incorporate the updated requirements. You can also modify and resubmit the reopened action tasks so that the implementation aligns with regulatory expectations before you resubmit the change task.
+
+When you specify an impacted area on an action task, the corresponding compliance library record displays the action task in its **Regulatory action tasks** tab. You can navigate between the action task and the impacted area record in either direction. This provides end-to-end traceability between regulatory action tasks and the compliance library items they affect.
+
+**Note:** The **Regulatory action tasks** tab is visible on citations, control objectives, controls, and policies.
 
 ## Types of action tasks
 

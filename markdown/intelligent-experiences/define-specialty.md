@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 4
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Define the specialty of an AI agent

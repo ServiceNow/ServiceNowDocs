@@ -23,7 +23,7 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 ## Procedure
 
-1.  Navigate to the case or case form in the Core UI or in CSM Configurable Workspace.
+1.  Navigate to the case or case form in the Core UI or in CRM Workspace.
 
 2.  <table id="table_emg_jm5_w2c"><thead><tr><th>
 
@@ -54,7 +54,7 @@ The case form view appears.
 
 </td></tr><tr><td>
 
-Navigate in CSM Configurable Workspace
+Navigate in CRM Workspace
 
 </td><td>
 
@@ -62,17 +62,17 @@ Navigate in CSM Configurable Workspace
 2.  Select the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases.
 3.  Go to **Cases** &gt; **Open**
 
-The CSM Configurable Workspace list view appears.
+The CRM Workspace list view appears.
 
 4.  Select a case.
 
-The CSM Configurable Workspace form view appears.
+The CRM Workspace form view appears.
 
 5.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned to see the reasons for the sentiment.
 
 
 </td></tr></tbody>
-</table>3.  Navigate to the interaction or interaction form in Core UI or in CSM Configurable Workspace.
+</table>3.  Navigate to the interaction or interaction form in Core UI or in CRM Workspace.
 
 4.  <table id="table_vrd_hh1_s3c"><thead><tr><th>
 
@@ -128,7 +128,7 @@ The interaction form view appears.
 
 </td></tr><tr><td>
 
-Navigate in CSM Configurable Workspace
+Navigate in CRM Workspace
 
 </td><td>
 
@@ -136,11 +136,11 @@ Navigate in CSM Configurable Workspace
 2.  Select the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of interactions.
 3.  Go to **Interactions** &gt; **My interactions**
 
-The CSM Configurable Workspace list view for interactions appears.
+The CRM Workspace list view for interactions appears.
 
 4.  Select an interaction.
 
-The CSM Configurable Workspace form view appears.
+The CRM Workspace form view appears.
 
 5.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned to see the reasons for the sentiment.
 
@@ -158,15 +158,15 @@ The CSM Configurable Workspace form view appears.
 
 
 </td></tr></tbody>
-</table>5.  In Core UI or CSM Configurable Workspace list view, you can sort the cases and interactions based on the sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\) and the sentiment trend.
+</table>5.  In Core UI or CRM Workspace list view, you can sort the cases and interactions based on the sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\) and the sentiment trend.
 
 6.  Manually refresh a sentiment.
 
-    1.  In the Core UI or in CSM Configurable Workspace, enter a comment in the Additional Comments field.
+    1.  In the Core UI or in CRM Workspace, enter a comment in the Additional Comments field.
 
-    2.  Verify that a red dot appears on the information icon\[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned next to the sentiment.
+    2.  A red dot appears on the information icon\[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned next to the sentiment.
 
-        The red dot appears in the CSM Configurable Workspace interface.
+        The red dot appears in the CRM Workspace interface.
 
     3.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned.
 

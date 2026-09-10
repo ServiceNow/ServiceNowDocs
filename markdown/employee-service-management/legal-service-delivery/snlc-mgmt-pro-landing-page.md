@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -40,7 +40,7 @@ With the Legal Contract Management Pro for Legal Service Delivery, you can confi
 
 </td><td>
 
-[ServiceNow Otto for Contract Management Pro \[Omitted image "bus-ai-otto.svg"\] Alt text: Use ServiceNow Otto for Contract Management Pro to enhance user productivity using AI capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[ServiceNow Otto for Contract Management Pro \[Omitted image "bus-ai-otto.svg"\] Alt text: Use ServiceNow Otto for Contract Management Pro to enhance user productivity using AI capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

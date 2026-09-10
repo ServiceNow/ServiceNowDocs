@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -50,6 +50,10 @@ Use the ServiceNow Otto Virtual Agent topics in Employee Center to place request
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
+
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
@@ -64,7 +68,7 @@ Use the ServiceNow Otto Virtual Agent topics in Employee Center to place request
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
 [Generate activity responses for HR cases]()
+
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

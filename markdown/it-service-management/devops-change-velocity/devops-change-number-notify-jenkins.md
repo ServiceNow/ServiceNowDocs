@@ -24,7 +24,7 @@ When you trigger a scripted Jenkins pipeline and a change request is created as 
 
 \[Omitted image "change-number-scripted-jenkins.png"\] Alt text: Change request number in Jenkins logs for scripted pipelines
 
-Upon triggering a free-style Jenkins pipeline, the change request that is created as part of the ServiceNow DevOps pipeline execution stage waits for the approval action to be performed on the change. The change request number and details display against the relevant build in the Jenkins console's **Build History** section.
+On triggering a free-style Jenkins pipeline, the change request that is created as part of the ServiceNow DevOps pipeline execution stage waits for the approval action to be performed on the change. The change request number and details display against the relevant build in the Jenkins console's **Build History** section.
 
 \[Omitted image "devops-change-freestyle-jenkins.png"\] Alt text: Change request number in Jenkins Build History for free-style pipelines
 

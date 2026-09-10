@@ -29,6 +29,10 @@ This spoke requires one of the following subscriptions:
 
 See the [Google Cloud Translator Service Spoke](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6b0f258a73623300395108b24ff6a734/) in ServiceNow Store.
 
+## Spoke version
+
+Google Cloud Translator Service Spoke v3.2.8 is the latest version. For version history of the spoke, see [Google Cloud Translator Service spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-translator.html).
+
 ## Supported versions
 
 Google Translate API version v3.

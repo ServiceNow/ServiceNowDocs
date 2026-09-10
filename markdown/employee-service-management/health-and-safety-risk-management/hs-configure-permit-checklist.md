@@ -86,7 +86,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
     3.  Select **Duplicate action** for the existing **Create permit checklist record** action.
 
-        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
+        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
 
         For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 

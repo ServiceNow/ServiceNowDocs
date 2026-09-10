@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-ass
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
-reading_time_minutes: 21
+reading_time_minutes: 25
 breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
@@ -128,15 +128,18 @@ When referencing visual content, the assistant can identify specific image regio
 
 -   PDF
 -   JPEG
--   TXT
--   CSV
 -   PNG
+-   TXT
+-   PPTX
+-   Word
+-   Excel
+-   CSV
 
-You can upload a maximum of 5 files per conversation and a total upload limit of 30 MB. You can change the model provider at the instance level by navigating to **ServiceNow Otto Admin** &gt; **Skills** &gt; **Settings**. If the provider is set to anything other than Azure, the Add files &amp; images option will not be visible.
+You can upload a maximum of 10 files per conversation and a total upload limit of 50 MB. You can change the model provider at the instance level by navigating to **ServiceNow Otto Admin** &gt; **Skills** &gt; **Settings**. If the provider is set to anything other than Azure, the Add files &amp; images option will not be visible.
 
  Include Web
 
- If you select the Include Web option, the assistant's search is expanded to include internet results alongside internal knowledge base articles and catalog items. Your prior conversation context carries over when Include Web is enabled, though sensitive personal information such as your name, email address, and phone number is removed before being shared externally. To help answer location-aware or company-specific questions, publicly available information such as your location and company name may be included in the web search. Responses indicate which parts of the answer come from web sources, and citations for web results show the page title and web link. The Include Web setting is preserved if you return to a past conversation that had it enabled.
+ If you select the Include Web option, the assistant's search is expanded to include internet results alongside internal knowledge base articles and catalog items. Your prior conversation context carries over when Include Web is enabled. However, sensitive personal information such as your name, email address, and phone number is removed before being shared externally. To help answer location-aware or company-specific questions, publicly available information such as your location and company name may be included in the web search. Responses indicate which parts of the answer come from web sources, and citations for web results show the page title and web link. The Include Web setting is preserved if you return to a past conversation that had it enabled.
 
 </td></tr><tr><td>
 
@@ -266,6 +269,21 @@ Displays a menu with options to download the conversation as a PDF or DOC file.
 
 Opens a panel showing the sources used to generate the response, along with related content. From the panel you can select **View all results** to navigate to the global search page.
 
+</td></tr><tr><td>
+
+Interactive view \(\[Omitted image "nass-close-interactive-view-icon.png"\] Alt text: or \[Omitted image "nass-open-interactive-view-icon.png"\] Alt text:\)
+
+</td><td>
+
+**Note:** This icon only appears in the sub-header whenever the interactive view is available.
+
+ Open or close the interactive view. The interactive view appears to the right of the conversational chat area. The drop-down selector displays the names of all interactive views opened in the current conversation, including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.Interactive view is only available in the following scenarios:
+
+-   An organizational chart is available to view.
+-   A document was uploaded and you choose to preview the document.
+-   A source is available and you choose to select and view the source content.
+-   A file was generated and you choose to select the file name to view the file preview.
+
 </td></tr></tbody>
 </table>ServiceNow Otto panel is available on Next Experience and ServiceNow Studio. The following screenshots show the ServiceNow Otto panel in a workspace and on Core UI screens under Next Experience.
 
@@ -314,6 +332,34 @@ When an agentic workflow requires your input before it can continue, the process
 
 When you view search results in a workspace, you can continue exploring a topic by asking a follow-up question in the ServiceNow Otto panel. Select **Ask a follow-up** from the search result to open the ServiceNow Otto panel and then enter your follow-up question in the input bar.
 
+## Context switching
+
+The ServiceNow Otto panel maintains separate conversation contexts for different pages and records you're viewing. When you create a conversation while viewing a specific record, that conversation is tied to that record's context. This allows you to have focused conversations about different records without losing your work.
+
+How conversational context work:
+
+-   Record-specific conversations: When you open the panel while viewing a record \(such as an incident, case, or any ServiceNow form\), new conversations you create are automatically associated with that record. The conversation title includes the record number prefix—for example, INC0012345 — My laptop won't turn on.
+-   Page-specific context: Conversations maintain context based on the page type you're on \(record page, list view, workspace, etc.\). The Otto panel remembers your conversations and their context for each page.
+-   Conversation isolation: Conversations in one context do not appear in another. For example, conversations from a workspace view don't appear when you're viewing a specific incident record.
+
+Conversations can be local or global. Local conversations are tied to a specific record, workspace, or page you're viewing while global conversations are not. When you open the ServiceNow Otto panel on a record, local conversations associated with that record appear in the This record section of Chat History. Each record maintains its own set of local conversations and local conversations are identified by the record number prefix in the title. Global conversations are not tied to a specific record or page and can be accessed from any page in your ServiceNow instance. Global conversations appear in the Active section of Chat History and do not appear in the This record section. Use global conversations for questions or tasks that don't relate to a specific record.
+
+When you switch between records, the ServiceNow Otto panel displays the conversation type that was active in that context. If you were in a local conversation for Record A and navigate to Record B, the panel shows conversations tied to Record B and any active global conversations.
+
+When working in multiple LUX workspaces, the ServiceNow Otto panel maintains separate conversation contexts for each workspace and record combination. This allows you to work across different workspaces and pick up where you left off. When navigating between workspaces:
+
+-   When you switch to a different workspace or record within LUX, the Otto panel automatically updates to show conversations relevant to your current context.
+-   If you were in an active conversation in Workspace A and switch to Workspace B, the panel displays conversations tied to Workspace B \(or the specific record you're viewing in that workspace\).
+-   Your previous conversation in Workspace A remains saved and restores when you return to that workspace.
+
+The ServiceNow Otto panel uses context-aware logic to determine which conversation displays when you open it or navigate between pages. The restoration priority:
+
+-   Record-specific context: When you open the ServiceNow Otto panel while viewing a specific record, the panel displays the most recent conversation associated with that record \(shown in the "This record" section\). If no conversations exist for that record, the panel displays active global conversations.
+-   Workspace or page context: When you're in a workspace or list view, the panel displays recent active conversations \(global or workspace-level\). If you then navigate to a specific record within that view, the context automatically updates to show conversations for that record.
+-   Returning to previous contexts: If you navigate away from a record or workspace and return later, the panel restores the most recent conversation from that context. This helps you avoid repeating information or context.
+
+Context resets when you start a new conversation manually by selecting **New Chat**. Closing a conversation does not affect the context for that page; returning to that page will show other active conversations \(or no conversations if none exist\). When you switch between global and local conversations within the same page, both context types remain available in Chat History. Once you open a conversation, it remains tied to its original context even if you navigate away. Returning to that context displays the conversation automatically. Switching to a different record or workspace does not modify the conversation's context.
+
 ## Navigating from the ServiceNow Otto panel
 
 You can navigate from the ServiceNow Otto panel without leaving the current conversation by entering a navigation request in the **Ask ServiceNow Otto ...** field. If you enter "navigate me to active incidents," ServiceNow Otto displays a button that enables you to view the active incidents.
@@ -342,7 +388,7 @@ To generate resolution notes from the ServiceNow Otto panel, select **Generate r
 
 ## Streaming responses
 
-After you enter a question or request on the ServiceNow Otto panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after delivery. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded. Synthesized responses include inline citations that identify the sources used to generate the answer. Up to three inline citations appear within the response. Select a citation to open the source in a new browser tab. To view all sources and related results, select **Sources and more**. External links, such as those from web search results, open in a new browser tab. Your current tab and ServiceNow Otto conversation are not affected.
+After you enter a question or request on the panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after delivery. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded. Synthesized responses include inline citations that identify the sources used to generate the answer. Up to three inline citations appear within the response. Select a citation to open the source in a new browser tab. To view all sources and related results, select **Sources and more**. External links, such as those from web search results, open in a new browser tab. Your current tab and ServiceNow Otto conversation are not affected.
 
 ## Single search results
 

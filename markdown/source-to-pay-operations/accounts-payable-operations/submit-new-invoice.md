@@ -29,15 +29,15 @@ Role required: Supplier
 
 2.  On the **Submit new invoice** form, enter– the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d150664e103">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d158631e103">
 
 Question
 
-</th><th align="left" id="d150664e106">
+</th><th align="left" id="d158631e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d150664e112">
+</th></tr></thead><tbody><tr><td id="d158631e112">
 
 **What type of invoice are you submitting?**
 

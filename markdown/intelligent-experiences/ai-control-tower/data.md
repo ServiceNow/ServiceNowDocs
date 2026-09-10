@@ -31,7 +31,7 @@ For information on data sharing opt-out, see [Opt out of data sharing](https://r
 
 ## Data overflow processing
 
-By default, all Now Assist traffic is managed within ServiceNow datacenters. If there are traffic spikes, the system automatically redirects to Microsoft Azure datacenters to maintain performance. You can opt out of this feature to keep all Now Assist traffic exclusively within ServiceNow datacenters. By default, data overflow processing is inactive.
+By default, all ServiceNow Otto traffic is managed within ServiceNow datacenters. If there are traffic spikes, the system automatically redirects to Microsoft Azure datacenters to maintain performance. You can opt out of this feature to keep all Now Assist traffic exclusively within ServiceNow datacenters. By default, data overflow processing is inactive.
 
 **Note:** The Data sharing and Data overflow processing features are available for a sub-prod instance in read-only mode, when Multi-instance setup is configured and active.
 

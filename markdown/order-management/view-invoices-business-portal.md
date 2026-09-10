@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View invoices on the Business Portal
@@ -39,6 +39,8 @@ Role required: sn\_customerservice.customer
 
 3.  Select an invoice record number to view its details.
 
+
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

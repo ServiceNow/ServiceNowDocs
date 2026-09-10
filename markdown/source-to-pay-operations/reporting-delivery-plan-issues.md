@@ -36,6 +36,8 @@ Submit a delivery plan change request directly from a purchase order line in the
 
 [Create purchase order exception from Universal Request]()
 
+[Managing purchase order confirmations]()
+
 [Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
 
 [Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)

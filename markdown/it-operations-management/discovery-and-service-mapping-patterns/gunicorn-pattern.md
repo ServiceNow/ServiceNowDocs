@@ -1,6 +1,6 @@
 ---
 title: Gunicorn pattern-based discovery
-description: Discovery and Service Mapping Patterns finds Gunicorn WSGI HTTP server instances running on Linux servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds Gunicorn WSGI HTTP server instances running on Linux servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/gunicorn-pattern.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Gunicorn pattern-based discovery
 
-Discovery and Service Mapping Patterns finds Gunicorn WSGI HTTP server instances running on Linux servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds Gunicorn WSGI HTTP server instances running on Linux servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

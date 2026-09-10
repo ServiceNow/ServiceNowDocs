@@ -18,7 +18,7 @@ Use ServiceNow Otto for FSM to create shifts for Field Service Management techni
 
 ## Before you begin
 
-The FSM Scheduling AI Agent and the ServiceNow Otto for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md).
+The FSM Scheduling AI Agent and the ServiceNow Otto for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-now-assist-fsm.md).
 
 Role required: wm\_manager
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceobservability-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 If you have the snc\_sow\_svcobs.manager role, you must belong to a user groups with a type of `srm`.
+
 
 </td></tr><tr><td>
 
@@ -82,17 +85,9 @@ Integrate with more APM vendors to bring third-party data into Service Observabi
 
 Add data from problem records and business app records to your dashboards. The data displayed is scoped to the service being investigated.
 
--   **[Support for HLA data in Service Observability dashboards](https://www.servicenow.com/docs/access?context=display-hla-data-on-a-dashboard&family=zurich&ft:locale=en-US)**
-
-As of 1.10, add service-related log data to your dashboards.
-
 -   **[Support for full vendor queries](https://www.servicenow.com/docs/access?context=customize-service-observability-dashboard-templates&family=zurich&ft:locale=en-US)**
 
 Recreate any supported vendor time series chart in your Service Observability dashboard using full queries and template variables to represent entities and start and end times.As of 1.10, import selected charts from an existing AWS or Azure APM dashboard.
-
--   **[Use data mapping tags as variables in a chart's query](https://www.servicenow.com/docs/access?context=service-observability-template-variables&family=zurich&ft:locale=en-US)**
-
-As of 1.10, key/tags used in a data mapping can also be used as a template variable in a chart's query.
 
 -   **[Additional service types](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
 
@@ -101,10 +96,6 @@ Map all service offering types to APM data instead of just the types that have a
 -   **[Test your data mapping](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
 
 As of 1.10, you can test your data mapping before using it to create charts and dashboards.
-
--   **[Use any field on a service as a variable in your data mapping query](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
-
-As of 1.10, when creating a data mapping, if your key represents a service, for convenience a drop down shows fields from the corresponding CI for the service, including custom fields, that can be used as a variable.
 
 -   **[Improved data source connection flow](https://www.servicenow.com/docs/access?context=connect-an-observability-data-source&family=zurich&ft:locale=en-US)**
 
@@ -138,7 +129,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -225,7 +219,10 @@ Zurich
 
 </td><td>
 
-Install Service Observability by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -312,7 +309,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

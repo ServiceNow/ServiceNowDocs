@@ -68,7 +68,7 @@ Redirect URLs
 
 </td><td>
 
-Enter the redirect URL for a client. The authorization code is sent to this URL after authentication. To get the redirect URL, refer to the documentation for your AI application and client.To connect to the ServiceNow MCP client on another instance, use the following redirect URL: `https://<client-instance>.service-now.com/oauth_redirect.do`. For more information, see the [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md) documentation.
+Enter the redirect URL for a client. The authorization code is sent to this URL after authentication. To get the redirect URL, refer to the documentation for your AI application and client.To connect to the ServiceNow MCP client on another instance, use the following redirect URL: `https://<client-instance>.service-now.com/oauth_redirect.do`. For more information, see the [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md) documentation.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -80,7 +80,7 @@ Allow access only to APIs in selected scope
 
 </td><td>
 
-Clear the check box to make the OAuth integration broadly scoped.
+Clear the check box to make the OAuth integration broadly scoped.**Important:** You must leave this option cleared. If you select this option, clients are unable to fetch tools from the server.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -97,6 +97,8 @@ Select **JWT**.
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
+    **Note:** If you're prompted to assign an auth scope, select **Skip for now**.
+
     The OAuth inbound integration is created as broadly scoped with a client ID and client secret that you use when configuring the client to connect to servers on the instance.
 
     \[Omitted image "mcp-server-oauth-inbound-integration.png"\] Alt text: An OAuth inbound integration for Claude to connect to MCP servers as an MCP client.
@@ -104,7 +106,10 @@ Select **JWT**.
 
 ## What to do next
 
-Configure the client to use the client ID and client secret to authenticate with servers on the instance.
+Configure the client to use the client ID and client secret to authenticate with servers on the instance. For more information, see [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md).
+
+-   **[Create client authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-client-authorizations.md)**  
+Establish connections between your MCP clients and servers with client authorizations.
 
 **Parent Topic:**[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
 

@@ -38,15 +38,9 @@ Role required: author or agent
 
 4.  In the Use AI to draft this article? modal, select **Yes, draft with Otto**.
 
-    \[Omitted image "NowAssist\_CoreUI.png"\] Alt text: Draft the article using AI.
-
 5.  In the Select Options modal, select the **Knowledge base** and the **Article language** to use for the article.
 
-    \[Omitted image "NA-multi-language-2.png"\] Alt text: Select the Knowledge Base and the article language.
-
 6.  Select **Continue**.
-
-    \[Omitted image "NA-multi-language-3.png"\] Alt text: Knowledge article generated in the selected language.
 
     The Knowledge article is generated in the selected language.
 

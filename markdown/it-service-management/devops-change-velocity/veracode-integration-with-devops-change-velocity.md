@@ -29,11 +29,11 @@ For more information, see [Veracode documentation](https://docs.veracode.com/r/c
 
 You can configure Veracode scans on any stage of the pipeline and the scan details are retrieved from the corresponding stage to DevOps Change Velocity. If you’re using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always. If you’re using Jenkins, and your pipeline already has a Veracode security scan step, you don’t have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has waitForScan: true. This is required for the system to retrieve the scan information.
 
-If you want to configure Veracode for the GitLab tool, you can either use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+If you want to configure Veracode for the GitLab tool, you can use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
 
-For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
-You can view the security scan results either in the related list of a Change Request, or the Task Execution of the pipeline, or in the Pipeline UI in your ServiceNow instance. You can also use security results in defining change policies and conditions for change automation.
+You can view the security scan results in the related list of a Change Request, or the Task Execution of the pipeline, or in the Pipeline UI in your ServiceNow instance. You can also use security results in defining change policies and conditions for change automation.
 
 ## Get started
 

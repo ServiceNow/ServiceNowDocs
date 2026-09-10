@@ -20,7 +20,7 @@ The Australia release includes new products.
 
 -   **Employee Service Management**
 
-    [Now Assist for Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-employee-center-pro-rn.md)
+    [Now Assist for Employee Center Pro release notes]()
 
 -   **Healthcare and Life Sciences**
 
@@ -91,6 +91,8 @@ AI Experiences has new and updated features in the Australia release.
 ServiceNow® APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Australia release.
 -   **[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)**  
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
+-   **[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)**  
+Asset Management has new and updated features in the Australia release.
 -   **[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)**  
 Conversational Interfaces includes enhancements and changes in the Xanadu release.
 -   **[Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cbs-rn.md)**  
@@ -117,8 +119,6 @@ ServiceNow® Impact is built on the ServiceNow AI Platform and combines customiz
 Industrial Connected Workforce has new and updated application and features in the Australia release.
 -   **[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)**  
 Healthcare and Life Sciences has new and updated features in the Australia release.
--   **[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)**  
-IT Asset Management has new and updated features in the Australia release
 -   **[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)**  
 IT Operations Management has new and updated features in the Australia release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)**  

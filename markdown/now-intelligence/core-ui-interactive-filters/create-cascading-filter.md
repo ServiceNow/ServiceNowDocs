@@ -1,20 +1,20 @@
 ---
 title: Create a cascading filter
-description: Cascading filters allow you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.So that you do not have to clean up the filter panel, duplicate filters are removed automatically.
+description: Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.So that you do not have to clean up the filter panel, duplicate filters are removed automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/create-cascading-filter.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-19"
 reading_time_minutes: 5
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a cascading filter
 
-Cascading filters allow you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
+Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
 
 ## Before you begin
 
@@ -36,31 +36,33 @@ This procedure includes examples based on a cascading interactive filter using m
 
 1.  Navigate to **All** &gt; **Performance Analytics Administration** &gt; **Core UI Artifacts** &gt; **Interactive Filters**.
 
-2.  Click **New**.
+2.  Select **New**.
 
-3.  In the **Filter based on** list, select **Cascading Filters**.
+3.  In the **Filter based on** list, select **Cascading Filter**.
 
-4.  Right-click the form header and select **Save**.
+4.  Give the new filter a name.
 
-5.  Define the first level of the cascading filter.
+5.  Right-click the form header and select **Save**.
 
-    1.  In the **Cascading Filter** related list, click **New**.
+6.  Define the first level of the cascading filter.
+
+    1.  In the **Cascading Filter** related list, select **New**.
 
     2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the top-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
 
         To define the top level of a hierarchy based on managers and the groups they manage, select **Group \[sys\_user\_group\]** as the **Table** and **Manager** as the **Display field.**
 
-    3.  Use the **Filters** field to limit which choices are available to users.
+    3.  Use the **Filters** options to limit which choices are available to users.
 
         Filter conditions are especially useful when you create a cascading filter based on a self-referencing table, such as Location \[cmn\_location\]. Filter the data to ensure that each level of the cascading filter only has options appropriate for that level.
 
     4.  Right-click the form header and select **Save**.
 
-6.  Define the next level of the hierarchy.
+7.  Define the next level of the hierarchy.
 
     Cascading filters use a one-to-many relationship between higher-level filters and lower-level filters. One higher-level filter can affect the choices available in any number of lower-level filters.
 
-    1.  From the manager filter, in the **Cascading Filter** related list, click **New**.
+    1.  From the manager filter, in the **Cascading Filter** related list, select **New**.
 
     2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the second-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
 
@@ -74,11 +76,11 @@ This procedure includes examples based on a cascading interactive filter using m
 
     5.  Repeat these substeps for each additional filter you want to add.
 
-        To add another level to the filter hierarchy, add a new record in the **Cascading Filter** related list of the lowest-level filter. For example, add the Group filter instead of a top-level filter such as the Manager filter.
+        To add another level to the filter hierarchy, add a record in the **Cascading Filter** related list of the lowest-level filter. For example, add the Group filter instead of a top-level filter such as the Manager filter.
 
-7.  Define how each filter level applies the filter to reports on a dashboard.
+8.  Define how each filter level applies the filter to reports on a dashboard.
 
-    1.  In the **Target Tables** related list, click **New**.
+    1.  In the **Target Tables** related list, select **New**.
 
     2.  Select the **Target table** that contains the data you want to filter, such as **Incident**.
 
@@ -86,7 +88,7 @@ This procedure includes examples based on a cascading interactive filter using m
 
         The field must reference the table specified in the filter. For example when filtering incident data, the **Field** for the top-level manager filter is **Assignment group.Manager**. In this example, the **Field** for the second-level group filter is **Assignment group**.
 
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
     5.  Repeat these substeps to add targets for each level of the filter.
 

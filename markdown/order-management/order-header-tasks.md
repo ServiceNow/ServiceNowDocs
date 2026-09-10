@@ -42,7 +42,7 @@ For more information, see [Configure the customer order task policy using Decisi
 
 ## Manual task creation
 
-Order agents can create order header tasks manually from the CSM Configurable Workspace. When an agent creates a task from the Order Tasks tab, the order number is automatically populated and is read-only.
+Order agents can create order header tasks manually from the CRM Workspace. When an agent creates a task from the Order Tasks tab, the order number is automatically populated and is read-only.
 
 For more information, see [Create an order header task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-header-task.md).
 

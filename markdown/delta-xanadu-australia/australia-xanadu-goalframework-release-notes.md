@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-goalframework-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -167,7 +167,12 @@ Zurich
 
 </td><td>
 
--   **[Active goals](https://www.servicenow.com/docs/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Active goals](https://www.servicenow.com/docs/access?context=defining-goals-using-goal-framework&family=zurich&ft:locale=en-US)**
 
 By default, only active goals—those goals with the **Active** field set to **true**—are displayed in the **Goal** and **Parent goal** reference fields across all applicable tables.
 
@@ -178,7 +183,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Changes to Goal and Target forms](https://www.servicenow.com/docs/access?context=goal-form&family=australia&ft:locale=en-US)**
+
+The **Cancelled** option has been added to the **State** field in both the [Goal](https://www.servicenow.com/docs/access?context=goal-form&family=australia&ft:locale=en-US) and [Target](https://www.servicenow.com/docs/access?context=target-form&family=australia&ft:locale=en-US) forms, enabling you to set their status to **Cancelled** when needed.
+
+-   **[Changes to Strategic Priority form](https://www.servicenow.com/docs/access?context=strategic-priority-form&family=australia&ft:locale=en-US)**
+
+The **Status** field has been added to the Strategic Priority form, enabling you to set the status of a strategic priority as **None**, **Green**, **Yellow**, or **Red**.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -305,7 +317,10 @@ Zurich
 
 </td><td>
 
-Install Goal Framework by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -313,7 +328,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

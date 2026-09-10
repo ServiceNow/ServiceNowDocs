@@ -83,7 +83,7 @@ You can use the following audits to identify the discrepancies in the discovered
 -   Manual remediation can be initiated using a "Remediate" UI action button in the task form.
 -   Remediation steps are recorded in work notes for visibility and auditing.
 
-**Note:** For more information on how to build a subflow, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+**Note:** For more information on how to build a subflow, see .
 
 ## Follow-On Task types created for failed Audit Result Records
 

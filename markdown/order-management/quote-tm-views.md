@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-views
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 1
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction views
@@ -50,4 +50,9 @@ Views are created and modified using three files included in the `blueprints.zip
 
     Defines the view name, variable name, the variable names of any associated personas, and the locations of the field and event CSV files within the blueprint ZIP. If multiple views are defined, the information for each view is repeated in this file.
 
+
+-   **[Create a transaction view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-configure-view.md)**  
+Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in CPQ.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage GRC key risk and control indicators
@@ -23,7 +23,7 @@ Indicators collect data to monitor controls and risks, and collect audit evidenc
 Indicator templates allow the creation of multiple indicators for similar controls or risks.
 
 -   **[Engagement Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditEngagementOverview.md)**  
-The Engagement Overview is contained in the Audit Management application and provides an executive view into audit results, engagement breakdowns by task, and allows areas of concern to be identified quickly.
+The Engagement Overview provides an executive view into audit results and engagement breakdowns by task. You can identify areas of concern quickly.
 -   **[Create a GRC indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIndicator.md)**  
 Create an Indicator to monitor the controls and risks and collect evidence of performance.
 -   **[Create a GRC indicator template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateIndicatorTemplate.md)**  

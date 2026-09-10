@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -27,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Smartsheet spoke v2.7.0 is the latest version.
+Smartsheet spoke v2.8.0 is the latest version. For version history of the spoke, see [Smartsheet spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-smartsheet.html).
 
 ## Supported versions
 
@@ -453,7 +453,7 @@ Update Sheet
 
 Updates a sheet.
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td rowspan="10">
 
 User Management
 
@@ -472,6 +472,14 @@ Deactivate User
 </td><td>
 
 Deactivates the specified user account in Smartsheet.
+
+</td></tr><tr><td>
+
+Downgrade User
+
+</td><td>
+
+Downgrades the user associated with the specified Smartsheet plan.
 
 </td></tr><tr><td>
 
@@ -496,6 +504,14 @@ Look up User by ID
 </td><td>
 
 Retrieves the details of a user.
+
+</td></tr><tr><td>
+
+Look up User Subscription Stream
+
+</td><td>
+
+Retrieves information about all the users in Smartsheet.
 
 </td></tr><tr><td>
 
@@ -587,7 +603,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
 -   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 Available AI agents include:
 

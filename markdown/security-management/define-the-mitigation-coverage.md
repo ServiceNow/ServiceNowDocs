@@ -1,6 +1,6 @@
 ---
 title: Define the mitigation coverage
-description: Define the mitigation coverage for each mitigation that is associated with a technique so that you gain visibility into how well your organization can prevent the attacks that happen due to a particular technique.
+description: Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/define-the-mitigation-coverage.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overvie
 
 # Define the mitigation coverage
 
-Define the mitigation coverage for each mitigation that is associated with a technique so that you gain visibility into how well your organization can prevent the attacks that happen due to a particular technique.
+Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
 
 ## Before you begin
 
@@ -80,13 +80,9 @@ Description
 Overall mitigation detection coverage. See the base system definition in the [technique mitigation coverage definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/technique-mitigation-coverage-definitions.md).
 
 </td></tr></tbody>
-</table>    **Note:** Ensure that you do not overlap the coverage percentage ranges if you customize the percentage limits \(lower or higher\). For example, if a coverage record has the ranges 0 to 20, then the next consecutive record must have lower limit range of 21 or higher to avoid overlapping the coverage percentage range.
+</table>    **Note:** Ensure that you don't overlap the coverage percentage ranges if you customize the percentage limits \(lower or higher\). For example, if a coverage record has the ranges 0 to 20, then the next consecutive record must have lower limit range of 21 or higher to avoid overlapping the coverage percentage range.
 
-    The following illustration shows the mitigation coverage definition list.
-
-    \[Omitted image "mitre-mitigation-definitions.png"\] Alt text: The illustration shows the technique mitigation coverage definition list.
-
-3.  To add an entry, click **New**, complete the entries, and click **Submit**.
+3.  To add an entry, select **New**, complete the entries, and select **Submit**.
 
 
 -   **[Technique mitigation coverage definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/technique-mitigation-coverage-definitions.md)**  

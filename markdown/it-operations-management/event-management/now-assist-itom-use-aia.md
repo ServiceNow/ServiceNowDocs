@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Analyze alert impact agentic workflow, Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Analyze alert impact agentic workflow, Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Analyze alert impact in the ServiceNow Otto panel

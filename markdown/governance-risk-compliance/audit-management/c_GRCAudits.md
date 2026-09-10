@@ -18,7 +18,7 @@ The ServiceNow® Audit Management application involves a set of activities relat
 
 ## Audit Workspace
 
-As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for the audit supervisors and auditors to view the overall audit timeline and status, track budget and resources for engagement, and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
+As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for audit supervisors and auditors. It enables you to view the overall audit timeline and status, track budget and resources for engagement, and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
 
 ## Request apps on the Store
 

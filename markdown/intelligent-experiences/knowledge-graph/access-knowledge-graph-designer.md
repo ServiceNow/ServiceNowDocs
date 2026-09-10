@@ -28,7 +28,7 @@ Role required: kg\_admin
 
     ServiceNow some provides prebuilt schema that are non-editable. Currently, the following prebuilt schemas are available:
 
-    -   User graph schema: Used to provide logged in user's details to Virtual Agent for personalised response. The profile section is used by AI agents for additional user context.
+    -   User graph schema: Used to provide logged in user's details to Virtual Agent for personalized response. The profile section is used by AI agents for additional user context.
     -   Natural Language Query Scheme: Helps the requester with personalized responses on people queries and Natural Language queries. Also supports people citation card. By default the user NLQ graph is connected which is used for people queries but you also have sample graph schema for other employee queries. For more details on other prebuilt schema, see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
     ServiceNow® has also introduced Enterprise Graph, a pre-configured Knowledge Graph schema that maps all instance tables and their connections, enabling natural language queries from data across all tables. For more details, see [Using Enterprise graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/global-graph-schema.md).
 

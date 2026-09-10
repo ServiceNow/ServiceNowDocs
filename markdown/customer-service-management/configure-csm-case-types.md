@@ -18,7 +18,7 @@ Configure case types to handle different types of customer issues. A case type i
 
 Role required: csm\_guided\_setup\_user or admin
 
-To be compatible with CSM Configurable Workspace, Case Types must be version 4.0 or later.
+To be compatible with CRM Workspace, Case Types must be version 4.0 or later.
 
 ## About this task
 

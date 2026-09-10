@@ -1,6 +1,6 @@
 ---
 title: Create incident, problem, change, and request records from cases
-description: As customer service agents, create incident, problem, change, and request records from open cases in workspaces.As a customer service agent, create an incident record from a case or associate an existing incident with a case in CSM Configurable Workspace.As a customer service agent, create a problem record from a case or associate an existing problem with a case in CSM Configurable Workspace.As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CSM Configurable Workspace.As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CSM Configurable Workspace.As a customer service agent, create a request record from a case or associate an existing request with a case in CSM Configurable Workspace.
+description: As customer service agents, create incident, problem, change, and request records from open cases in workspaces.As a customer service agent, create an incident record from a case or associate an existing incident with a case in CRM Workspace.As a customer service agent, create a problem record from a case or associate an existing problem with a case in CRM Workspace.As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CRM Workspace.As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CRM Workspace.As a customer service agent, create a request record from a case or associate an existing request with a case in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-item-agent-tasks.html
 release: australia
@@ -16,7 +16,7 @@ As customer service agents, create incident, problem, change, and request record
 
 ## Create an incident record from a case
 
-As a customer service agent, create an incident record from a case or associate an existing incident with a case in CSM Configurable Workspace.
+As a customer service agent, create an incident record from a case or associate an existing incident with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -53,7 +53,7 @@ Information about the incident is added as follows:
 
 ## Create a problem record from a case
 
-As a customer service agent, create a problem record from a case or associate an existing problem with a case in CSM Configurable Workspace.
+As a customer service agent, create a problem record from a case or associate an existing problem with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -91,7 +91,7 @@ Information about the problem is added as follows:
 
 ## Create a normal change record from a case
 
-As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CSM Configurable Workspace.
+As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -199,7 +199,7 @@ Information about the change is added as follows:
 
 ## Create a standard change record from a case
 
-As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CSM Configurable Workspace.
+As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -216,7 +216,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## Create a request record from a case
 
-As a customer service agent, create a request record from a case or associate an existing request with a case in CSM Configurable Workspace.
+As a customer service agent, create a request record from a case or associate an existing request with a case in CRM Workspace.
 
 ### Before you begin
 

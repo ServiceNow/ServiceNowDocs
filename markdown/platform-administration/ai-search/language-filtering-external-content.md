@@ -22,7 +22,7 @@ When you have the External Content Connectors application installed, AI Search a
 -   The fallback language for the search user's ServiceNow AI Platform session language \(if configured\)
 -   The language for the global fallback locale \(if configured\)
 
-As an example, if the session language is Canadian French, with French configured as the fallback language and English configured as the global fallback locale language, searches only return external content results that contain Canadian French, French, and English content. External content search results which only contain content in other languages do not appear in the search results list.
+As an example, if the session language is Canadian French, with French configured as the fallback language and English configured as the global fallback locale language, searches only return external content results that contain Canadian French, French, and English content. External content search results which only contain content in other languages don't appear in the search results list.
 
 **Note:** AI Search can detect multiple languages when indexing content from external source system documents, so a single external content search result may be tagged with multiple languages. As an example, a document in Japanese that contains a section in English might be tagged as including both Japanese and English content. This document would appear in the search results from the previous example because it contains content in English. For more information on language detection at indexing time, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/international-language-support-ais.md).
 

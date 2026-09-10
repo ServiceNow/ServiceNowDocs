@@ -8,8 +8,8 @@ product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+reading_time_minutes: 2
+breadcrumb: [Matching rules for prioritized intraday optimization, Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Set up prioritized intraday optimization with matching rules
@@ -18,20 +18,26 @@ Configure prioritized intraday optimization to use matching rules that narrow jo
 
 ## Before you begin
 
-Matching rules for prioritized intraday optimization require [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
-
-Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+-   Complete the setup in [Create an intraday optimization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
+-   Matching rules for prioritized intraday optimization require [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
+-   Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
 Role required: wm\_admin
 
 ## About this task
 
-Create matching rules within a specific intraday optimization configuration to control which tasks and technicians are included in optimization runs.
+Matching rules combine one or more matching dimensions using AND logic within a rule. When you configure multiple matching rules, their results combine using OR logic. Matching rules execute in the order specified by the Execution Order field, with lower numbers processing first.
 
-The matching rules execute in the order specified by the **Execution Order** field, with lower numbers processing first. When the demo data is installed, two example matching rules are available:
+Example:
 
--   Filter technicians for prioritized events: Includes affected technician criteria
--   Filter tasks for prioritized events: Includes affected task criteria
+-   Rule 1 \(strict filter\): Technicians within 5 miles AND with printer skills
+-   Rule 2 \(broader filter\): Technicians within 10 miles AND with copier skills
+-   Result: The system optimizes with Rule 1 technicians OR Rule 2 technicians
+
+## About this task
+
+-   Filter technicians for prioritized events: Includes affected technician matching dimensions
+-   Filter tasks for prioritized events: Includes affected task matching dimensions
 
 You can use these example matching rules or create your own.
 
@@ -39,49 +45,23 @@ You can use these example matching rules or create your own.
 
 1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Configurations**.
 
-2.  Select or create the configuration where you want to add the matching rule.
+2.  Select an active intraday configuration where you want to add the matching rule.
 
-    -   To use an existing configuration: Open the configuration record and go to step 6:
-    -   To create a configuration: Select **New** and complete the following steps.
-3.  Complete the form.
+3.  In the **Matching Rules** tab, select **Edit**.
 
-    -   **Name**: Enter a descriptive name for the configuration.
-    -   **Default scheduling attribute configuration**: Select the appropriate configuration.
-    -   **Active**: Select the check box to enable this configuration.
-    -   Leave the **Default** check box clear. The default record applies system-wide settings and shouldn’t be modified for specific matching rules configurations.
-4.  Select **Submit**.
+4.  Move the desired matching rules from the **Collection** list to the **Matching Rules** list and select **Save**.
 
-5.  Reopen the configuration you created.
+    **Note:** To create custom matching rules instead, see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
 
-6.  In the **Qualifiers** tab, select **Edit**.
+5.  Set the **Enable matching rules** field to **True** for each qualifier that should use matching rules.
 
-7.  Move qualifiers from the **Collection** list to the **Qualifiers** list and select **Save**.
+6.  Enter a **Maximum search radius** value and set the **Distance unit** field to **Miles** or **Kilometers** for each qualifier.
 
-8.  In the **Qualifiers** tab, set the**Enable prioritized event optimization** field to **True** for each qualifier.
+7.  Select **Update**.
 
-9.  Set the **Enable matching rules** field to **True** for each qualifier that should use matching rules.
+8.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
 
-    When False, the optimization engine uses default filters, affected tasks and technicians.
-
-10. Enter a **Maximum search radius** value.
-
-11. Set the **Distance unit** field to **Miles** or **Kilometers** for each qualifier.
-
-12. Add matching rules to your configuration:
-
-    -   To enable existing matching rules, continue to step 10.
-    -   To create your own matching rules, select **Save**, then see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
-13. In the **Matching Rules** tab, select **Edit**.
-
-14. Move the desired matching rules from the **Collection** list to the **Matching Rules** list and select **Save**.
-
-15. Select **Update**.
-
-16. Choose which event types use matching rules.
-
-    1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
-
-    2.  For each event type you want to optimize with matching rules, set the **Prioritized** field to **True**.
+9.  For each event type you want to optimize with matching rules, set the **Prioritized** field to **True**.
 
 
 ## Result

@@ -16,6 +16,8 @@ breadcrumb: [Support for continuous delivery \(configuration management\), Cloud
 
 Use the ServiceNow® Cloud Services Catalog Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
 
+**Important:** Starting with the Brazil release, Cloud Services Catalog Terraform Connector is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>

@@ -57,15 +57,15 @@ View a list of all the data fabric tables that data stewards have created on the
     1.  Sensor data is fed to the data lake and analyzed by machine learning, generating a failure score.
     2.  When the failure score crosses a certain threshold, an alert is generated and sent to your instance.
     3.  The alert triggers a maintenance request flow, creating a case assigned to a service technician.
-    4.  The technician reviews the case details and accesses inventory data from the instance, along with maintenance records and real-time sensor data from the external data lake, all in one place using data fabric tables.
+    4.  The technician reviews the case details and accesses inventory data from the instance. They also access maintenance records and real-time sensor data from the external data lake. The technician does all these things in one place using data fabric tables.
     5.  The technician makes an informed decision and acts to address the issue before another outage occurs.
 -   **Retrieving real-time data in an application**
 
-    An application can include both a physical table and a data fabric version of the same table. This gives the instance admin flexibility when installing the application. The admin can choose whether to populate the physical table through data import or allow users to access real-time data from an external data source via the data fabric table.
+    An application can include both a physical table and a data fabric version of the same table. This duality gives the instance admin flexibility when installing the application. Via the data fabric table, the admin can populate the physical table through data import or allow users to access real-time data from an external data source.
 
 -   **Analyzing data and generating AI-guided insights using AI Data Explorer**
 
-    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see .
+    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
 
     **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
 
@@ -76,7 +76,7 @@ View a list of all the data fabric tables that data stewards have created on the
 
 ## Differences between data fabric tables and remote tables
 
-Data fabric tables are similar to remote tables on the ServiceNow AI Platform, but data fabric tables query external data sources and retrieve data using a zero copy connection instead of a script.
+Data fabric tables are similar to remote tables on the ServiceNow AI Platform. However, data fabric tables query external data sources and retrieve data using a zero copy connection instead of a script.
 
-A data fabric table enables you to view external data, but you can't insert, update, or delete data in an external data source like you can from a remote table.
+A data fabric table enables you to view external data. However, you can't insert, update, or delete data in an external data source like you can from a remote table.
 

@@ -19,6 +19,17 @@ LEAP groups similar incidents into automation opportunities and uses AI to gener
 
 An automation opportunity is a group of similar incidents that LEAP identifies through AI-driven analysis. For each group, LEAP generates resolution artifacts — such as resolution steps, knowledge base articles, problem records, and playbooks — that operators can use to resolve recurring incidents faster.
 
+## Automation opportunity lifecycle
+
+When the Group Action Framework \(GAF\) process re-runs, it can identify new patterns in incident data. If remapping is successful, LEAP archives automation opportunities that contain resolution steps and transfers their artifacts to newly identified opportunities. Archived automation opportunities are hidden by default in the user interface to help you focus on actionable opportunities.
+
+The automation opportunity details page displays banner messages that indicate the archiving and remapping status:
+
+-   Archived automation opportunities display a message indicating that artifacts were remapped to a new opportunity, with a link to the new opportunity
+-   New automation opportunities that received artifacts display a message indicating the source archived opportunity, with a link to the archived opportunity
+
+The Action Insights panel on the details page also shows the relationship between archived and new automation opportunities.
+
 ## Managing automation opportunities
 
 The automation opportunity details page provides tools to review and act on identified opportunities. From this page you can:

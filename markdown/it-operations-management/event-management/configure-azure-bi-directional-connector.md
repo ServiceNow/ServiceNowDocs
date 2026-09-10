@@ -85,8 +85,8 @@ Multiple alerts from the Azure Portal may be mapped to a single ServiceNow alert
         -   If the closed alert is re-opened in 7 days then it will reopen the corresponding closed alerts from the Azure Portal.
         -   If the closed alert is re-opened after 7 days then it will not reopen the corresponding closed alerts from the Azure Portal.
     -   If the alert is in an open state, then it will retain the data for 30 days. . This duration can be customized by the sn\_em\_connector.eventdata\_openevent\_interval.
-        -   If you want to close or acknowledge an open ServiceNow alert in 30 days, you will be able to close or acknowledge all corresponding Azure alerts on the Azure Portal.
-        -   If you want to close or acknowledge an open ServiceNow alert after 30 days, you will not be able to close or acknowledge all corresponding Azure alerts on the Azure Portal.
+        -   To close or acknowledge an open ServiceNow alert within 30 days, you can close or acknowledge all corresponding Azure alerts on the Azure Portal.
+        -   To close or acknowledge an open ServiceNow alert after 30 days, close or acknowledge the alert in ServiceNow. You cannot close or acknowledge the corresponding Azure alerts on the Azure Portal.
 
 **Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)
 

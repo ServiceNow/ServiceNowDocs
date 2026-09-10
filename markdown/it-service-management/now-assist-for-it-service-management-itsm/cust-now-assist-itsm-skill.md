@@ -320,7 +320,7 @@ Closed
             -   8-Canceled
             You can create a custom state and add a number for that state.
 
-        -   To create knowledge articles using Now Assist in any incident state, in the condition builder for the **KB generation** skill, select the **\[State\]\[is one of\]\[New, Resolved, In Progress, Closed, Canceled\]** filter condition.
+        -   To create knowledge articles using Otto in any incident state, in the condition builder for the **KB generation** skill, select the **\[State\]\[is one of\]\[New, Resolved, In Progress, Closed, Canceled\]** filter condition.
     2.  Select **Save and continue** to go to the next step.
 
 11. Select display.

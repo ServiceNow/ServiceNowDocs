@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Workspace dock
@@ -24,5 +24,5 @@ The dock can also include actions such as **Manage** and **Save**.
 
 **Note:** Depending on the record page configuration, action buttons can appear in the dock or at the top of the page in the action bar.
 
-The dock is a UI element that appears at the bottom of the workspace and is available on all of the CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+The dock is a UI element that appears at the bottom of the workspace and is available on all of the CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 

@@ -33,7 +33,7 @@ You can add or change a pricing plan step only when the configurable pricing pla
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Plans**.
 

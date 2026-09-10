@@ -1,11 +1,11 @@
 ---
 title: Create an application using Build Agent
-description: Build custom ServiceNow applications by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code automatically.
+description: Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/create-a-new-application-using-build-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-08-19"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -13,19 +13,15 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 # Create an application using Build Agent
 
-Build custom ServiceNow applications by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code automatically.
+Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
 
 ## Before you begin
 
-You can watch a short video on how to create an application in Build Agent.
-
-\[Omitted video\] Description: Create an application in Build Agent
-
 Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
 
-If you prefer to access in the ServiceNow IDE instead of ServiceNow Studio, you must first create a workspace. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
+If you prefer to access Build Agent in the ServiceNow IDE, you must first create a workspace. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
-**Note:** Build Agent requires ServiceNow SDK version 4.0 at a minimum. If you’re using an older version, Build Agent prompts you to upgrade to ServiceNow SDK 4.0.
+**Note:** Build Agent requires the ServiceNow SDK version 4.0 at a minimum. If you’re using an older version, Build Agent prompts you to upgrade to ServiceNow SDK 4.0.
 
 For some prompting guidelines and ideas, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-example-prompts.md).
 
@@ -41,31 +37,29 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+    ServiceNow Studio opens. Use the central chat area on the ServiceNow Studio home page to start a new Build Agent conversation. You can access an existing conversation by selecting the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
 
-    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
+    \[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d253489e235">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d252678e220">
 
 Scenario
 
-</th><th align="left" id="d253489e238">
+</th><th align="left" id="d252678e223">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d253489e244">
+</th></tr></thead><tbody><tr><td id="d252678e229">
 
 **Describe the app you want to create**
 
 </td><td>
 
-Describe the application that you want to create, and then select the Send icon\[Omitted image "ba-send-icon.png"\] Alt text:. For example:\[Omitted image "build-agent-describe-app.png"\] Alt text: Describe the application in a chat panel
+Describe the application that you want to create, and then select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:. For example, `Create a basic to-do task tracker app with a user interface. Name the application Planner.`You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
-
-</td></tr><tr><td id="d253489e265">
+</td></tr><tr><td id="d252678e247">
 
 **Select a predetermined prompt**
 
@@ -82,7 +76,7 @@ You can also attach images, such as architectural diagrams or UI wireframes, to 
 
     Or, if you're not satisfied with the plan, tell Build Agent what you change, and continue to prompt until you have a plan you like.
 
-    \[Omitted image "ba-create-app-2.png"\] Alt text: Implementation plan for Planner Tracker application
+    \[Omitted image "ba-sns-plan-approve-v2.png"\] Alt text: Build plan panel in Waiting for approval state, listing four steps for the Daily Planner Tracker app, with an Approve plan button.
 
     Build Agent can access ServiceNow knowledge sources and tools, which enable it to learn, analyze, and then create applications.
 
@@ -103,19 +97,11 @@ For information on deploying your application, see [Deploying what you built wit
 
 For information on troubleshooting issues, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-troubleshooting.md).
 
-After the application is built, Build Agent displays a success message. For example:
+Build Agent displays the details of your app in a new ServiceNow Studio tab.
 
-\[Omitted image "build-agent-success.png"\] Alt text: Build Agent success message
+\[Omitted image "ba-sns-app-created-v2.png"\] Alt text: Build Agent editor showing the completed Daily Planner Tracker app with generated files organized under Data, User Interface, and Other categories.
 
-Build Agent displays the details of your app in the chat panel.
-
-\[Omitted image "ba-create-app-3.png"\] Alt text: Planner Tracker application build summary
-
-You can prompt Build Agent for details on how to access your new app.
-
-\[Omitted image "ba-access-app.png"\] Alt text: Response with multiple methods to access the Planner Tracker app
-
-If you want to view source code, open the ServiceNow IDE and select the **File Explorer** view from the Activity bar. The ServiceNow Fluent application code and other source code in the `src` directory appears.
+If you want to view source code, open the ServiceNow IDE within ServiceNow Studio and select the **Explorer** view from the Navigator panel. The ServiceNow Fluent application code and other source code in the `src` directory appears.
 
 \[Omitted image "build-agent-file-explorer.png"\] Alt text: File Explorer showing project structure with folders and configuration files
 

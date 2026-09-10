@@ -1,18 +1,18 @@
 ---
 title: Data Privacy release notes
-description: The ServiceNow Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Australia release.
+description: The ServiceNow Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Australia release.The ServiceNow Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Data Privacy release notes
 
 The ServiceNow® Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Australia release.
 
-## Data Privacy highlights for the Australia release
+## About Data Privacy
 
 -   Discover and block sensitive data from user inputs to prevent it from entering the platform, alert users when sensitive data is entered to raise awareness, and leverage sensitive data logs to understand where and who is entering sensitive data.
 -   Scan and quarantine attachments that contain sensitive data to restrict their access and downloading.
@@ -20,9 +20,22 @@ The ServiceNow® Data Privacy application enables you to classify sensitive data
 
 See [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-activate-data-privacy.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Real-time alerting and blocking of sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/real-time-protection.md)**
 
@@ -53,12 +66,7 @@ See [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     Demonstrate defensible compliance to regulators, auditors and internal teams using the new anonymization dashboard to provide quantitative insights into anonymization and data protection operations.
 
 
-## UI changes
-
--   Use the [improved anonymization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-data-privacy-overview.md) to get more details about anonymization. For example, what data was anonymized and how \(real-time or through anonymization jobs\).
--   Use the new [real-time protection module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/real-time-protection.md) to configure real-time alerting and your blocking policies. You can also view real-time sensitive data logs.
-
-## Changed in this release
+### What's changed
 
 -   **New experience**
     -   [Optional condition filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-create-anonymization-job.md) when running anonymization jobs to fine tune the scope of data to be anonymized.
@@ -69,9 +77,6 @@ See [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
 
-## Activation information
-
-Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-activate-data-privacy.md).
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+-   Use the [improved anonymization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-data-privacy-overview.md) to get more details about anonymization. For example, what data was anonymized and how \(real-time or through anonymization jobs\).
+-   Use the new [real-time protection module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/real-time-protection.md) to configure real-time alerting and your blocking policies. You can also view real-time sensitive data logs.
 

@@ -32,6 +32,6 @@ Both chains are healthcare's take on the same Service Model Foundation \(SMF\) f
 Read the following topics in order to go from the data model to a configured hierarchy:
 
 1.  [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md)—the SMF extension hierarchy, case visibility fields, and importing location data.
-2.  —a worked example applying that hierarchy to a hospital system.
-3.  [Setting up healthcare locations and healthcare organizations]()—healthcare organization and healthcare location profiles, and how the two are associated.
+2.  [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md)—a worked example applying that hierarchy to a hospital system.
+3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md)—healthcare organization and healthcare location profiles, and how the two are associated.
 

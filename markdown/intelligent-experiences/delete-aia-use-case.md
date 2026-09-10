@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Delete an agentic workflow

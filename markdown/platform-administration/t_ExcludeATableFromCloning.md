@@ -26,7 +26,7 @@ For information on excluding a table from cloning, see [General guidelines for e
 
 1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Home**.
 
-2.  Select the **Definitions** tab.
+2.  Select the **Configuration** tab.
 
 3.  Select **Exclusions**.
 

@@ -20,7 +20,7 @@ Complete the pre-upgrade tasks for a successful upgrade experience on your produ
 
 **Note:** For each step, you will have the option to either skip the step or mark complete and only then move to the next guided upgrade step.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 

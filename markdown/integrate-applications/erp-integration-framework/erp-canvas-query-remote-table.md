@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, query, remote, table, model, glide]
-breadcrumb: [Using remote tables, Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using remote tables, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Query a remote table using Zero Copy Connector for ERP
@@ -43,6 +43,4 @@ You can query the ERP system to create an ERP model for your ERP processes. For 
 
     The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
-
-**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

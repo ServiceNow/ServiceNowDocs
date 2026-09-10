@@ -1,6 +1,6 @@
 ---
 title: Move a cloud API from one environment to the other
-description: Use update sets to move a cloud API from one environment to another. Update sets let you group a cloud API and its dependencies into a named set and then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
+description: Use update sets to move a cloud API from one environment to another. Update sets group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-capi.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Moving Cloud Provisioning and Governance content across environment
 
 # Move a cloud API from one environment to the other
 
-Use update sets to move a cloud API from one environment to another. Update sets let you group a cloud API and its dependencies into a named set and then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
+Use update sets to move a cloud API from one environment to another. Update sets group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
 
 ## Before you begin
 
@@ -73,7 +73,7 @@ Package the cloud API as an update set. Then export the update set from its curr
 
     4.  Open the other XML file \(in this example, the file is `API1 2018-05-03`\), and download that file onto your system.
 
-        Import all the exported files into another environment. For example, you may have created the export update set in a system that runs the development environment and want to import it into another system that runs the production environment.
+        Import all the exported files into another environment. For example, you may have created the export update set in a development system. You can then import it into a production system.
 
 4.  Import the cloud API.
 

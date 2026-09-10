@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-10-28"
 reading_time_minutes: 2
 keywords: [Obligation extraction use case mapping]
-breadcrumb: [Configure obligation extraction, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract obligation extraction

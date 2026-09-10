@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -20,29 +20,25 @@ Set up a schedule to regularly query for CMDB 360 data. Use scheduled queries to
 
 Ensure that you run the CMDB 360 query at least once.
 
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
-
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
-2.  -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
--   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
-3.  On the Saved queries tile, create or access a CMDB 360 query.
+2.  On the Saved queries tile, create or access a CMDB 360 query.
 
     If you created a new query, you must run the query at least once before you can select **Create Schedule** on the query results page.
 
-4.  Select **Schedule query** on the Results Layout page of the query.
+3.  Select **Schedule query** on the Results Layout page of the query.
 
     To create a schedule for the Compare attributes values query, select **Schedule query** on the Discovery Sources page.
 
-5.  Specify a **Run** frequency and time you want to schedule the query to run.
+4.  Specify a **Run** frequency and time you want to schedule the query to run.
 
     When you select Weekly or Monthly, you must also select a day of the week or calendar day, respectively.
 
-6.  Select **Save**.
+5.  Select **Save**.
 
 
 ## What to do next

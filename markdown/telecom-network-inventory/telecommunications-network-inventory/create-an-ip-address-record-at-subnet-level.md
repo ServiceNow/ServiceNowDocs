@@ -1,20 +1,20 @@
 ---
 title: Create an IP Address record at subnet level
-description: Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork's CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
+description: Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork'ss CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Create an IP Address record at subnet level
 
-Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork's CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
+Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork'ss CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
 
 ## Before you begin
 

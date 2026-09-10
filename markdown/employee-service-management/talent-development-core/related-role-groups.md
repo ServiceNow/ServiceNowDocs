@@ -18,7 +18,7 @@ Create a connection between two different role groups in the Skills Workspace to
 
 ## Before you begin
 
-Creating a related role group record creates a configuration for the progression from one job level to another job level across the role groups. This configuration is used by Talent Development to help employees choose their career progression. For example, Front-end engineering and Back-end engineering are two different role groups. By creating a bilateral relation between these two role groups, an Associate front-end Engineer \(IC1\) can move to an Associate back-end Engineer \(IC1\) role and vice-versa.
+Creating a related role group record creates a configuration for the progression from one job level to another job level across the role groups. This configuration is used by Talent Development to help employees choose their career progression. For example, Front-end engineering and Back-end engineering are two different role groups. By creating a bilateral relation between these two role groups, an Associate front-end Engineer \(IC1\) can move to an Associate back-end Engineer \(IC1\) role and vice versa.
 
 Role required: sn\_skills\_int.job\_arch\_admin
 
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 6.  Either create your related role group manually or by selecting from the recommendations.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d219797e118">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d220298e118">
 
 Method
 
-</th><th align="left" id="d219797e121">
+</th><th align="left" id="d220298e121">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d219797e127">
+</th></tr></thead><tbody><tr><td id="d220298e127">
 
 **Add from recommendations**
 
@@ -55,11 +55,11 @@ Actions
 
 The linked role group and the value in the **From role group** field will create a related role group.
 
-After linking, the role groups are not displayed in the recommendations list.
+After linking, the role groups aren't displayed in the recommendations list.
 
 **Note:** The recommendation panel is only displayed if data is available in the sn\_skills\_int\_role\_level\_m2m\_ind\_title table.
 
-</td></tr><tr><td id="d219797e163">
+</td></tr><tr><td id="d220298e163">
 
 **Manually**
 
@@ -89,7 +89,7 @@ A new relation between two role groups is created.
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace]()
+[Creating a role group through the Skills Workspace]()
 
 [Add more skills to a role group]()
 

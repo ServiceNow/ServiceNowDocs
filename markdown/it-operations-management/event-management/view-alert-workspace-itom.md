@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alerts in Service Operations Workspace

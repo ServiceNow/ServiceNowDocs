@@ -77,5 +77,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 [Check for invoice exceptions on a single invoice]()
 
+[Reopen a closed invoice case]()
+
 [Start processing a third-party invoice]()
 

@@ -1,6 +1,6 @@
 ---
 title: Modify signatories
-description: Modify signatories while a signature workflow is in progress.
+description: Pause an active signature workflow to add, modify, reorder, or remove signatories on a contract request that is in Awaiting signature state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-pause-signature.html
 release: australia
@@ -14,22 +14,22 @@ breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for 
 
 # Modify signatories
 
-Modify signatories while a signature workflow is in progress.
+Pause an active signature workflow to add, modify, reorder, or remove signatories on a contract request that is in Awaiting signature state.
 
 ## Before you begin
 
--   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is be paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
--   Modify signatories option is only available for wet signature workflow and Electronic signature workflow with Docusign electronic signature provider integration.
+-   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
+-   The Modify signatories option is available only for wet signature workflows and electronic signature workflows with Docusign electronic signature provider integration.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
 
-Use the **Modify signatories** option to pause the signature process when you want to add, modify, reorder or remove a signatory. If the signature process is not resumed within the configured time duration \(as defined by the system property **maximum\_signature\_pause\_duration**\), any changes made to the signatories are automatically reverted, and the signature process resumes from its previous state.
+Use the **Modify signatories** option to pause the signature process to add, modify, reorder, or remove a signatory. If the signature process is not resumed within the configured time duration \(as defined by the system property **maximum\_signature\_pause\_duration**\), any changes made to the signatories are automatically reverted, and the signature process resumes from its previous state.
 
 -   You can select the option to modify signatories only when the contract request is in Awaiting signature state.
 -   You can only remove, modify, or reorder signatories who have not yet signed the contract document.
--   When the signature process is paused, signatories with pending signature task will not be able to access the contract document from the already received signature request email.
+-   When the signature process is paused, signatories with a pending signature task cannot access the contract document from the signature request email they already received.
 -   For signature block based contract requests, you can perform add modify, remove and reorder actions.
 -   For participant based contract requests, you can only perform modify and reorder actions.
 
@@ -45,19 +45,19 @@ Use the **Modify signatories** option to pause the signature process when you wa
     -   The activity stream records the modify signatories action.
 4.  Select **Modify** on the confirmation screen.
 
-5.  Navigate to **Signatories** tab.
+5.  Select the **Signatories** tab.
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d548321e160">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d550443e162">
 
 Action
 
-</th><th align="left" id="d548321e163">
+</th><th align="left" id="d550443e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d548321e169">
+</th></tr></thead><tbody><tr><td id="d550443e171">
 
 **Add signatories**
 
@@ -69,42 +69,41 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d548321e211">
+</td></tr><tr><td id="d550443e213">
 
 **Edit signatory**
 
 </td><td>
 
-1.  Select a signatory from the list by clicking on the signatory order.
+1.  Select a signatory from the list by selecting the signatory order value.
 
-Signatory details page is displayed.
+The Signatory details page opens.
 
 2.  Modify the fields.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d548321e237">
+</td></tr><tr><td id="d550443e239">
 
 **Reorder signatories**
 
 </td><td>
 
-1.  Select **Reorder**.
+1.  In the **Signing Order** column, select the order value for a signatory.
+2.  Enter the signing order number.
 
-Reorder pop-up is displayed.
+To group two or more signatories to sign at the same time, assign them the same signing order.
 
-2.  For the signatory you want to reorder, select and hold the Reorder icon \(\[Omitted image "cmpro-reorder-icon.png"\] Alt text: Reorder icon\).
-3.  Drag the signatory to the required order.
-4.  Select **Reorder**.
+3.  Select outside the field, or select **Save**.
 
 
-</td></tr><tr><td id="d548321e275">
+</td></tr><tr><td id="d550443e268">
 
 **Remove signatories**
 
 </td><td>
 
-1.  Select the signatory by checking the corresponding checkbox.
+1.  Select the check box for the signatory.
 2.  Select **Remove**.
  **Note:** The **Remove** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
@@ -112,7 +111,7 @@ Reorder pop-up is displayed.
 </table>
 ## Result
 
-The signature process is paused and signatories modified.
+The signature process pauses and the signatories are updated.
 
 ## What to do next
 

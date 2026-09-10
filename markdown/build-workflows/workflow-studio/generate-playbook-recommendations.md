@@ -1,6 +1,6 @@
 ---
 title: Generate recommendations for placeholder activities
-description: Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity’s name and description.
+description: Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity's name and description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-playbook-recommendations.html
 release: australia
@@ -15,17 +15,15 @@ breadcrumb: [Playbook recommendations for placeholder activity, Creating and man
 
 # Generate recommendations for placeholder activities
 
-Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity’s name and description.
+Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity's name and description.
 
 ## Before you begin
 
--   Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook recommendations** skill is active.
+-   Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook recommendations** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
-    **Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
+    **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-    \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
-
-    For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+    For information about installing ServiceNow Otto for Creator, see 
 
 -   You can only generate recommendations for placeholder activities in a generated playbook outline. To learn how to generate a playbook outline, see [Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md).
 -   Role required:

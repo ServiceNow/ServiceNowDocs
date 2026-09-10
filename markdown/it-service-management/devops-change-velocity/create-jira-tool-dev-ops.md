@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Jira.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d373548e100">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d378513e100">
 
 Option
 
-</th><th align="left" id="d373548e103">
+</th><th align="left" id="d378513e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d373548e109">
+</th></tr></thead><tbody><tr><td id="d378513e109">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d373548e136">
+</td></tr><tr><td id="d378513e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d373548e188">
+</td></tr><tr><td id="d378513e188">
 
 **Tools module**
 
@@ -149,7 +149,7 @@ Jira Cloud
 https://api.atlassian.com/ex/jira/<Cloud-ID>
     ```
 
-For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-jira-spk-opt2.md).
+For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-confluence-cloud.md).
 
 2.  Select the credential type as **Basic Auth** or **OAuth 2.0 with 3LO**.
 
@@ -208,7 +208,7 @@ For more information about MID server, see [MID Server selection](https://raw.gi
     This action does the following:
 
     -   Registers a webhook between your Jira and ServiceNow instances, and enables real-time data transfer between the two.
-    -   If you have connected your Jira tool using OAuth 2.0 based authentication, the webhooks are created for the OAuth 2.0 integration app in Jira when you configure automatically, whereas if you have connected using basic authentication, the webhooks are created for all your projects in Jira. If you choose to configure the webhooks manually for a Jira tool created using OAuth 2.0 based authentication, a duplicate webhook may get created.
+    -   If you have connected your Jira tool using OAuth 2.0 based authentication, the webhooks are created for the OAuth 2.0 integration app in Jira when you configure automatically. And if you have connected using basic authentication, the webhooks are created for all your projects in Jira. If you choose to configure the webhooks manually for a Jira tool created using OAuth 2.0 based authentication, a duplicate webhook may get created.
     All the discovered Jira projects are listed as Plans.
 
     If you don’t choose to configure now, you can enable nightly polling later to fetch data for any tracked plans by setting the **Enable Polling** system property to **Yes**.

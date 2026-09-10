@@ -21,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CSM Configurable Workspace.
+1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 

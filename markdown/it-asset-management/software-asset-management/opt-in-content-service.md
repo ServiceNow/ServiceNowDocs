@@ -32,7 +32,7 @@ If you opt in after you've already imported data into Software Spend Detection, 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Administration** &gt; **Content Service Setup**.
+1.  Navigate to **All** &gt; **Software Asset** &gt; **Content Service Setup**.
 
 2.  Select the check the box to accept the opt-in agreement and then select **Opt-in**.
 

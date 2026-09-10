@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204086e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204575e151">
 
 Method
 
-</th><th align="left" id="d204086e154">
+</th><th align="left" id="d204575e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204086e160">
+</th></tr></thead><tbody><tr><td id="d204575e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d204086e211">
+</td></tr><tr><td id="d204575e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204086e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204575e268">
 
 Email message window
 
-</th><th align="left" id="d204086e271">
+</th><th align="left" id="d204575e271">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d204086e280">
+</th></tr></thead><tbody><tr><td id="d204575e280">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d204086e297">
+</td></tr><tr><td id="d204575e297">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d204086e306">
+</td></tr><tr><td id="d204575e306">
 
 **Use template**
 
@@ -137,6 +137,10 @@ Shows email template recommendations while composing an email.
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
+
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
@@ -153,7 +157,7 @@ Shows email template recommendations while composing an email.
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
 [Generate activity responses for HR cases]()
+
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

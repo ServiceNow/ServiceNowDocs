@@ -1,22 +1,24 @@
 ---
 title: Operational Technology Manager release notes
-description: The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+description: The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-05-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Operational Technology Manager release notes
 
 The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
 
-## Now Assist &gt; ServiceNow Otto announcement
+## About Operational Technology Manager
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-## Operational Technology Manager highlights for the Australia release
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
+-   The Now LLM Service is being prepared for future deprecation.
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
@@ -37,19 +39,55 @@ Australia Early Availability
 
 See for [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager.md) more information.
 
+## Activation and other requirements
+
 **Important:** Operational Technology Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
+
+## September 2026
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Now LLM Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md) deprecation**
+
+    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+## July 2026
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
+## June 2026
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Use Enhanced Access Control for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-enhanced-access-control.md)**
 
     Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 
+
+## April 2026
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -60,6 +98,24 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+
+### What's changed
+
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
+## Australia Early Availability
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so you can build foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/utilizing-ot-network-map.md)**
 
@@ -116,12 +172,7 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
         -   cmdb\_ci\_ups
     -   Admins can edit the protection policy for an OT View rule for all CMDB classes.
 
-## UI changes
-
--   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
-
-    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
-
+### What's changed
 
 -   **[Automated IT OT Bulk Conversion name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/automatically-convert-it-records-to-ot-devices.md)**
 
@@ -140,13 +191,6 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
     The VLAN related list was added to the OT device form view to show the VLANs associated with a device.
 
 
-## Changed in this release
-
--   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)**
-
-    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
-
-
 -   **[Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-cmdb-groups-it-ot-conversion.md)**
 
     When you use CMDB groups to add OT context to IT CIs, you can no longer create an Automated IT OT Bulk Contextualization record with more than one CMDB group.
@@ -160,9 +204,7 @@ See for [Operational Technology Manager](https://raw.githubusercontent.com/Servi
     Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
 
 
-## Removed in this release
-
-Australia Early Availability
+### What's deprecated or removed
 
 -   The **New** button was removed from the following related lists for users with read-only access to a site:
     -   Network Adapters
@@ -170,16 +212,8 @@ Australia Early Availability
     -   Software Installed
     -   IP Addresses
 
-## Activation information
-
-Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md)**
-
-    The CMDB CI Class Models store application enables Operational Technology Manager to import and classify device data in ServiceNow. The Operational Technology Manager application automatically installs the latest version of the OT extension classes, available in the CMDB CI Class Models application in the ServiceNow Store.
-
-
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
+-   Network Adapters
+-   Memory Modules
+-   Software Installed
+-   IP Addresses
 

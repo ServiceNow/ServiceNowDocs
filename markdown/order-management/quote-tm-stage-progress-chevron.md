@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Layouts, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Stage progress chevron
@@ -91,6 +91,8 @@ The stage progress chevron supports theming using CSS custom properties. The fol
 |`--lgk-ProgressStep-current-chevron-color`|Chevron icon color for the current step.|
 |`--lgk-ProgressStep-chevron-label-fontSize`|Font size for stage labels in the chevron.|
 |`--lgk-ProgressStep-chevron-label-fontWeight`|Font weight for stage labels in the chevron.|
+
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
 
 **Related topics**  
 

@@ -26,11 +26,11 @@ To use voice call capabilities available with Interaction Controls Component \(I
 
 Use the ICC call control features with the existing contact center core features to promote streamlined operations and an enhanced agent experience. The following features are available within call interactions, and are numbered alongside the image as follows.
 
-## Overview of ICC call interaction features within CSM Configurable Workspace
+## Overview of ICC call interaction features within CRM Workspace
 
 \[Omitted image "ccaas-icc-features.png"\] Alt text: Interaction Controls Component call interaction features within the CSM Configurable Workspace
 
-The following table outlines the key call control features available when integrated with ICC within CSM Configurable Workspace.
+The following table outlines the key call control features available when integrated with ICC within CRM Workspace.
 
 <table id="table_gq5_m4j_1gc"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Interaction record
 
 </td><td>
 
-View an interaction record within the global call component in the supported workspace, such as CSM Configurable Workspace.
+View an interaction record within the global call component in the supported workspace, such as CRM Workspace.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Global call component
 Enable agent movement between screens in the ServiceNow instance by displaying real-time call data in the component panel.
 
 </td></tr></tbody>
-</table>## Interaction record page features within the CSM Configurable Workspace
+</table>## Interaction record page features within the CRM Workspace
 
 An interaction record is automatically created for each call. Opening the interaction record expands any voice interaction to show additional call details, including call transcript, wrap-up options, and customer context. The agent can view and update this record during the call and in the wrap-up interaction.
 

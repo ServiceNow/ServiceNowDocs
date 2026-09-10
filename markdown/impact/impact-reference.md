@@ -27,14 +27,14 @@ The Impact store app stores data within your ServiceNow instance and contributes
 Following is a comprehensive overview of the dependent apps that are included with the installation of the Impact Store Application Each section delineates the features that activate event-based synchronization within the various product capabilities.
 -   **[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)**  
 Following is information on the data that is synchronized between the Impact Delivery Instance and the Impact Store Application.
--   **[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)**  
-The Scan Engine uses a large set of definitions to correct coding and workflow findings in real-time and perform scans across your entire instance to detect existing findings.
 -   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-domain-separation.md)**  
 Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/proactive-code-check.md)**  
 Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
 -   **[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)**  
 The Impact Delivery Instance is the service provider for the Impact Store Application.
+-   **[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md)**  
+Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
 
 **Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)
 

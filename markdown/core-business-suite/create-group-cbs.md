@@ -17,7 +17,7 @@ Create custom groups for specific Core Business Suite functions and assign roles
 
 ## Before you begin
 
-Role required: sn\_cbs.admin
+Role required: admin
 
 ## About this task
 

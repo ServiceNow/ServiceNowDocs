@@ -29,7 +29,7 @@ The Telecommunications Customer 360 \(com.sn\_telecom\_c360\) plugin activates t
 |Customer Service Problem Management|`com.sn_sprb_mgmt`|
 |Customer 360 data configuration|`com.sn_c360_dataconfig`|
 |Recommended Actions for Telecommunications|`com.snc.sn_telecom_ra`|
-|Now Assist for Telecommunications \(optional\)|com.sn\_telco\_gen\_ai|
+|ServiceNow Otto for Telecommunications \(optional\)|com.sn\_telco\_gen\_ai|
 
 **Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
 

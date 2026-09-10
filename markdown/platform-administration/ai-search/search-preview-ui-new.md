@@ -45,7 +45,7 @@ Description
 </td><td>
 
 Select the type of preview you want to view.-   **Full visual view**: preview search query results using the search profile and display settings defined for the search application configuration record selected in the **Search Application** list.
--   **Text view**: preview search query results using a search profile selected in the **Search Profile** list. When previewing in text view, features from search application configurations, such as auto-complete suggestions, are not available.
+-   **Text view**: preview search query results using a search profile selected in the **Search Profile** list. When previewing in text view, features from search application configurations, such as auto-complete suggestions, aren't available.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Select the search mode you want to use for your search query.-   **Keyword searc
     -   Catalog Item Table indexed source \[sc\_cat\_item table\]
     -   Skills indexed source \[sys\_gen\_ai\_skill table\]
     -   All External Content Connectors indexed sources \[connector-specific tables\]
-You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well.
+You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 
 </td></tr><tr><td>
@@ -95,7 +95,7 @@ Select how you want to display the results from your search query:-   **Result c
 
 Enter search query terms and operators in this field. To preview the query's results using settings from the selected search application configuration or search profile, press Enter or select the Submit search icon \[Omitted image "search-preview-new-icon-submit-search.png"\] Alt text:. To clear the search input field, select the Clear search term icon \[Omitted image "search-preview-new-icon-clear-search-term.png"\] Alt text:. For details on search query syntax and operators, see [AI Search query language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/query-language-ais.md).
 
-When you select full visual view as the preview type, this field displays auto-complete suggestions from your selected search application configuration. When you select text view as the preview type, this field does not display auto-complete suggestions.
+When you select full visual view as the preview type, this field displays auto-complete suggestions from your selected search application configuration. When you select text view as the preview type, this field doesn't display auto-complete suggestions.
 
 </td></tr><tr><td>
 

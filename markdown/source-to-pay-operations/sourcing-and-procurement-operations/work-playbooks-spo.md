@@ -39,7 +39,7 @@ As sourcing managers, you can use the sourcing intake and negotiation setup play
 -   **[Streamlining the supplier risk assessment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.md)**  
 As procurement specialists, track activity on the Third-Party Risk Management \(TPRM\) records, and update and make changes to the sourcing requests and purchase requests based on the final risk rating.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -55,4 +55,8 @@ As procurement specialists, track activity on the Third-Party Risk Management \(
 [Using Sourcing Pipeline Management]()
 
 [Create a Universal Request]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 

@@ -34,7 +34,7 @@ You can complete this configuration before or after configuring the skill in Ser
 
 2.  Navigate to the sys\_api\_access\_scope table.
 
-3.  Filter the records using the `2fe2655a37820310b1e86d7c24924b3e`.
+3.  Filter the records using the `2fe2655a37820310b1e86d7c24924b3e` Sys ID.
 
 4.  Select and open the matching record.
 

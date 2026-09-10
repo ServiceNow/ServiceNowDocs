@@ -30,7 +30,7 @@ Use to generate a concise summary of a case, including its key findings and reco
 Create case tasks to associate with case\(s\).
 -   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)**  
 The Investigation Canvas is a key significant feature, which provides more valuable information for the Threat Intelligence \(TI\) analysts. It provides a structured framework by mapping one to one or one to many relationships and visualizing information related to observables, indicators of compromise \(IOCs\), or entities.
--   **[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
+-   **[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 -   **[Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/run-enrichment-results.md)**  
 Use this section to understand how enrichments actions are performed on case\(s\).

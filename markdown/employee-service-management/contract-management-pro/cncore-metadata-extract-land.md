@@ -1,5 +1,5 @@
 ---
-title: Contract metadata extraction using ServiceNow Otto for Contract Management Pro
+title: Extract contract metadata
 description: As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-metadata-extract-land.html
@@ -8,11 +8,11 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract metadata extraction using ServiceNow Otto for Contract Management Pro
+# Extract contract metadata
 
 As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 
@@ -42,10 +42,5 @@ Review the metadata extracted from a contract and add it to the contract reposit
 -   **[Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md)**  
 The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository.
 
-**Parent Topic:**[Using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
-
-**Related topics**  
-
-
-[Contract analysis using ServiceNow Otto for Contract Management Pro]()
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Configure domain separation for push connector events
-description: Configure push connectors to personalize domain separation of events so you can use them to create events in different domains other than the user's currently logged-in or MID Server domain.
+description: Configure push connectors to personalize domain separation of events so you can create events in different domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Connector domain personalization, Event Management Integrations, Co
 
 # Configure domain separation for push connector events
 
-Configure push connectors to personalize domain separation of events so you can use them to create events in different domains other than the user's currently logged-in or MID Server domain.
+Configure push connectors to personalize domain separation of events so you can create events in different domains.
 
 ## Before you begin
 
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d274914e187">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d284428e184">
 
 Domain creation location
 
-</th><th align="left" id="d274914e190">
+</th><th align="left" id="d284428e187">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d274914e196">
+</th></tr></thead><tbody><tr><td id="d284428e193">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d274914e218">
+</td></tr><tr><td id="d284428e215">
 
 **The domain provided in the payload of each event**
 

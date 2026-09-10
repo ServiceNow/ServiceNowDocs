@@ -166,7 +166,7 @@ Offering type
 
 </td><td>
 
-Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CSM Configurable Workspace. Customers can add products to an order from the Business Portal.
+Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CRM Workspace. Customers can add products to an order from the Business Portal.
 -   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
 
 

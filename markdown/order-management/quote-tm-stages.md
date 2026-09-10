@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction stages
@@ -54,4 +54,9 @@ Note the following guidelines when configuring idle timeout behavior:
 ## Deleting a stage
 
 Deleting a stage is restricted because deleting a stage that is in use by transactions can cause data issues. Contact [ServiceNow Support](https://support.servicenow.com) if a stage deletion is required.
+
+-   **[Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md)**  
+Create a stage in the ServiceNow Quote Experience administration interface to define a phase in the quoting process, set entry criteria, and configure what happens when a user opens a transaction or remains inactive in that stage.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

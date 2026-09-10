@@ -28,7 +28,7 @@ The workflow reads your natural-language request, extracts the required paramete
 -   **Low:** The workflow creates the rule task and attaches the risk analysis.
 -   **Medium or High:** The workflow reports the risk level in the ServiceNow Otto panel and asks whether you want to continue. You can choose to proceed with all rules or select specific ones. If you confirm, the workflow creates the rule task and attaches the risk analysis. If you decline, the workflow skips task creation. The created task includes the AI assessment so the approver can evaluate the risk.
 
-**Note:** The agentic workflow provides conformance checking and risk analysis. Rule verification and creation on Panorama servers is handled through REST API calls as part of the Firewall Audits and Reporting application.
+**Note:** The agentic workflow provides conformance checking and risk analysis. Rule verification and creation on firewall vendor servers is handled through API calls as part of the Firewall Audits and Reporting application.
 
 ## Workflow process
 
@@ -44,7 +44,7 @@ Use the Firewall Management Task Creation agentic workflow to request one or mor
 
 -   Install and configure the Firewall Audits and Reporting application.
 -   Install the AI Agents for Discovery plugin. This plugin is part of the AI Agent Bundle and requires a separate subscription.
--   Discover the Panorama firewall managers and devices, and verify that Discovery has populated the Panorama Firewall Address Objects table.
+-   Discover the firewall managers and devices for your vendor, and verify that Discovery has populated the appropriate vendor-specific tables.
 
 Role required: firewall\_admin
 
@@ -52,7 +52,7 @@ Role required: firewall\_admin
 
 You can request multiple firewall rule configurations in a single conversation. The workflow creates one parent firewall task with individual configuration tasks for each rule. For information about how the workflow evaluates risk and determines whether to create a rule task, see [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md).
 
-**Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in the Panorama-specific table and display the task type as Panorama.
+**Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in vendor-specific tables and display the task type based on the selected vendor.
 
 \[Omitted image "firewall-rule-request-now-assist.png"\] Alt text: Servicenow Otto agentic workflow
 
@@ -76,7 +76,7 @@ You can request multiple firewall rule configurations in a single conversation. 
 
 6.  Verify the rule task by navigating to **Rule Requests** &gt; **Rule Requests Task**.
 
-    Your request appears in the list with the task type set to Panorama and the AI risk analysis attached as work notes. Open the parent task to view all individual rule configuration tasks.
+    Your request appears in the list with the task type set to the selected vendor and the AI risk analysis attached as work notes. Open the parent task to view all individual rule configuration tasks.
 
 
 ## Approve firewall rule requests

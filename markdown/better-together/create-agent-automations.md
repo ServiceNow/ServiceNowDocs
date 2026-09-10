@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/better-together/create-agent-au
 release: australia
 topic_type: task
 last_updated: "2026-06-17"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
 ---
@@ -33,7 +33,7 @@ After the agent is created, you must review the agent instructions and test each
 
 **Important:**
 
-Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 ## Procedure
 
@@ -104,9 +104,30 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
 AI agent and desktop actions are ready for execution.
 
+## Example: Creating the onboarding agent
+
+After reviewing the automation blocks, the technical user selects **Create agent** and:
+
+1.  The agent is pre-populated with:
+    -   **Name**: "Employee Onboarding Agent"
+    -   **Description**: "Automates the complete employee onboarding workflow including HR record creation, form entry, and distribution list provisioning"
+    -   **Desktop actions**: Three tools \(read Excel, fill HR form, update distribution list\)
+    -   **Instructions**: AI-generated steps for executing the onboarding workflow
+2.  The technical user reviews and adjusts:
+    -   Corrects the input parameter description \(specifies that the Excel file location should be provided by the invoking user\)
+    -   Verifies the sequence of steps \(read data → fill form → update list\)
+    -   Assigns the **now\_assist\_panel\_user** role so HR staff can invoke the agent
+3.  In AI Desktop Actions, the technical user:
+    -   Opens each on-screen task desktop action on their Windows machine
+    -   Tests the form-filling action to verify all fields are populated correctly
+    -   Fixes any anchor issues where the agent may have captured UI element references incorrectly
+    -   Verifies the distribution list update completes successfully
+
 ## What to do next
 
 When an authorized user types a request in the ServiceNow Otto panel that matches the agent's name or description, the system invokes the AI agent. The AI agent executes the desktop action in the AI Desktop Actions execution workspace on user's Windows machine.
+
+Example: The HR team is now ready to execute the employee onboarding agent. When a new hire is added to the system, an HR coordinator types the new employee's name and hire date into the ServiceNow Otto panel. The AI agent automatically executes the complete onboarding workflow, reducing manual data entry time from 30 minutes to seconds and eliminating errors caused by manual form filling.
 
 For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md).
 

@@ -1,9 +1,9 @@
 ---
 title: Industrial Process Manager release notes
-description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
+description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
 
-## Industrial Process Manager highlights for the Australia release
+## About Industrial Process Manager
 
 -   View both unmapped and all Operational Technology \(OT\) devices in separate tabs while mapping them to equipment model entities for an organized view of your OT devices.
 -   Visualize your OT network using the OT Network Map.
@@ -21,9 +21,22 @@ The ServiceNow® Industrial Process Manager application enables your teams to ma
 
 See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager-overview.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Industrial Process Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Discovered subnets supported by the AMAZING feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/automate-mappings-between-ot-assets-and-equipment-model-entity.md)**
 
@@ -42,7 +55,7 @@ See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/Se
     Visualize your OT network, subnets, and device-to-device connections with the OT Network Map in the Industrial Workspace.
 
 
-## UI changes
+### What's changed
 
 -   **[Additional fields in the OT Subnet Mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-a-new-ot-subnet-mapping-record.md)**
 
@@ -70,23 +83,8 @@ See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/Se
     The **Location Validation Map** tab was added to the Equipment Model Manager of the Industrial Workspace so you can view a node map that displays the location hierarchy and validation status of an equipment model entity.
 
 
-## Changed in this release
-
 -   **[Admin role dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)**
 
     Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
 
-
-## Activation information
-
-Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager.md)**
-
-    The ServiceNow Operational Technology Manager enables you to aggregate OT device data from multiple sources so that you can build the foundational data relationships used in the Industrial solution.
-
-
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
 

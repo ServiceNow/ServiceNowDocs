@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-14"
 reading_time_minutes: 2
 keywords: [PDR location configuration, jurisdictions privacy request]
-breadcrumb: [Configure external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Configure jurisdictions for the external-facing Personal Data Rights form
@@ -50,7 +50,7 @@ Each location configuration record holds the rules that apply when a requester s
 
 5.  Select **Submit**.
 
-    A new inactive jurisdiction record appears in the PDR external-facing form location configs related list.
+    A new but inactive jurisdiction record appears in the PDR external-facing form location configs related list.
 
 6.  Map at least one data subject type to the new jurisdiction record.
 

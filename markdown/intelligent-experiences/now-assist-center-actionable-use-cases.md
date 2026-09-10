@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-ass
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Activating actionable use cases from AI Admin Center
@@ -57,18 +57,5 @@ Install the plugins required to enable AI solutions on your instance before acti
 -   **[Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-solution-now-assist-center.md)**  
 Activate an AI solution from an actionable use case card on the AI Admin Center home page.
 
-**Parent Topic:**[Using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-center.md)
-
-**Related topics**  
-
-
-[Using the conversational experience in AI Admin Center]()
-
-[Using AI readiness assessments in AI Admin Center]()
-
-[Using AI Agent Advisor in AI Admin Center]()
-
-[Using the asset inventory in AI Admin Center]()
-
-[Using other AI applications and features from AI Admin Center]()
+**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

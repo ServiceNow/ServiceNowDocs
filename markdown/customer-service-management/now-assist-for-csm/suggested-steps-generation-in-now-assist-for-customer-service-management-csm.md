@@ -25,7 +25,7 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 The system uses data from the **Short description** field and the filter conditions set in the case input table to generate the suggested actions based on similar past resolved cases. These steps outline the next best actions that agents can take as part of resolving cases.
 
-If suggested steps are available for a case, ServiceNow Otto for CSM generates these steps. The steps display in a card at the top of the Recommended Actions tab in the contextual side panel.
+If suggested steps are available for a case, ServiceNow Otto for CSM generates them automatically. The steps display in a card at the top of the Recommended Actions tab in the contextual side panel.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates t
 
     The system displays the **Suggested steps by Now Assist** card at the top of the tab.
 
-4.  In the **Suggested steps by Now Assist** card, select **Generate**.
+4.  In the **Suggested steps by AI** card, select **Generate**.
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
 

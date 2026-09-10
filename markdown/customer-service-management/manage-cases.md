@@ -73,7 +73,7 @@ Create a work order for a customer service case as part of the case resolution p
 
 </td><td>
 
-Customer service agents can create requests on behalf of customers from CSM Configurable Workspace or from the platform interface.
+Customer service agents can create requests on behalf of customers from CRM Workspace or from the platform interface.
 
 </td></tr><tr><td>
 

@@ -39,7 +39,7 @@ The Ask Otto feature of ServiceNow Otto streamlines artifact creation. Select \[
 
     Create granular automation opportunities to get targeted resolutions for similar looking issues.
 
-3.  [Monitor automation opportunities using the LEAP value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.md)
+3.  [Monitor LEAP value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.md)
 
     View and understand how automation helps LEAP to achieve cost and time savings.
 

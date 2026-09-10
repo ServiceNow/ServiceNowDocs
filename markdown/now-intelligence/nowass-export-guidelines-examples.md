@@ -41,7 +41,7 @@ Here are some example requests with different levels of detail, to use in differ
     In this case, you export the open dashboard and apply any filters on the dashboard as a whole and on any tabs. If you export a dashboard tab with applied filters, you apply only the top-level dashboard filters and the filters on that tab. You can apply filters only when exporting to PowerPoint.
 
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

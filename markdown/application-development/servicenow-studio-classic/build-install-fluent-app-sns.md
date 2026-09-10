@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-08-03"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -18,7 +18,7 @@ Build an application to compile its source code and install application changes 
 
 ## Before you begin
 
-Create, convert, or clone an application and add it to your workspace. For more information, see [Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-app-in-source-code.md).
+Create, convert, or clone an application and add it to the Explorer. For more information, see [Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-app-in-source-code.md).
 
 Role required: admin
 
@@ -30,42 +30,28 @@ When you build an application, ServiceNow Fluent code is compiled into applicati
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open a workspace with an application.
-
-3.  Synchronize changes made to the application metadata from across the instance.
+2.  From the Status bar, select **Sync Changes** to synchronize changes made to the application metadata from across the instance.
 
     Synchronizing an application confirms you have the latest changes before making additional changes. Only the changes made since the last time the app was synched are downloaded and transformed. For more information, see [Synchronizing Fluent apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/synchronizing-fluent-apps.md).
 
-    1.  From the Activity Bar, select the Now SDK view \(\[Omitted image "servicenow-ide-sdk-icon.png"\] Alt text: Now SDK\).
-
-    2.  Select **Sync Changes**.
-
-        The active file that's open in the editor determines which application to synchronize. If no files are open, select the application to synchronize when prompted.
-
-        \[Omitted image "servicenow-ide-sync.png"\] Alt text: The Sync command in the Now SDK view.
-
-4.  From the Activity Bar, select the File Explorer view \(\[Omitted image "servicenow-ide-file-explorer-icon.png"\] Alt text: File Explorer\).
-
-5.  Modify your application in one of the following ways and save your changes:
+3.  Select the Explorer tab, and modify your application in one of the following ways.
 
     -   [Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.md)
     -   [Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
     -   [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
-6.  From the Status Bar, select **Build and Install**.
-
-    \[Omitted image "servicenow-ide-build-icon.png"\] Alt text: Build and deploy
+4.  From the Status bar, select **Build and Install**.
 
     The active file that's open in the editor determines which application to build. If no files are open, select the application to build when prompted.
 
     In the status bar, you can see a message that confirms whether the build was successful or failed. If the build fails, review the output logs and any problems in your code from the panel.
 
-7.  Review your changes as application metadata.
+5.  Review your changes as application metadata.
 
-    1.  From the Activity Bar, select the File Categories view or Apps view.
+    1.  From the Navigator panel, select the File Categories or Apps tabs.
 
     2.  Open the metadata files that you changed and review your changes from the embedded ServiceNow AI Platform user interfaces.
 
-        **Tip:** To see your changes in source code and metadata side by side, select the Split Editor icon \[Omitted image "servicenow-ide-split-icon.png"\] Alt text: or right-click a tab and select one of the **Split** options.
+        **Tip:** To see your changes in source code and metadata side by side, select the show XML icon \[Omitted image "sn-studio-show-xml-icon.png"\] Alt text:.
 
 
 ## Result

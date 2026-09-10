@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, table, join, condition]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -61,7 +61,7 @@ Order
 
 </td><td>
 
-Numerical value that indicates which part of the join occurs first.This number determines the order join condition position relative to other items, helping to establish the prioritization.
+Numerical value that indicates which part of the join occurs first.This number sets the position of the join condition relative to the other join conditions.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Operator
 
 </td><td>
 
-Operator that defines the conditions for your query. Operators determine how the values are evaluated and filtered in the query results. The following are supported operators:
+Operator that defines the conditions for your query. Operators determine how the values are evaluated and filtered in the query results. The following operators are supported:
 
 -   equals
 -   contains
@@ -85,8 +85,7 @@ Statement operator
 
 </td><td>
 
-Operator that defines the condition or comparison in your statement. The options are `AND` and `OR`.
+Operator that defines the condition or comparison in your statement. The options are **AND** and **OR**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

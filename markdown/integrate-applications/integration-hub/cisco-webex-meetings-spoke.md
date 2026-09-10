@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Cisco Webex Meetings spoke v2.3.3 is the latest version.
+Cisco Webex Meetings spoke v2.3.3 is the latest version. For version history of the spoke, see [Cisco Webex Meetings spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-cisco-webex.html).
 
 ## Supported versions
 

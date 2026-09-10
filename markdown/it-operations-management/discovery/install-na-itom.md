@@ -1,5 +1,5 @@
 ---
-title: Install ServiceNow Otto for IT Operations Management \(ITOM\)
+title: Install ServiceNow Otto for ITOM
 description: Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable generative AI and agentic AI on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/install-na-itom.html
@@ -13,7 +13,7 @@ keywords: [ITOM AIOps, plugin installation, Now Assist, IT Operations Management
 breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Install ServiceNow Otto for IT Operations Management \(ITOM\)
+# Install ServiceNow Otto for ITOM
 
 Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable generative AI and agentic AI on your instance.
 

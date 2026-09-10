@@ -20,7 +20,7 @@ Dispute agents use the Dispute Rules Content Pack for Visa's questionnaire to he
 
 When an agent disputes a transaction on behalf of a customer, a dispute service case begins and triggers the dispute card transactions flow. This flow includes various tasks specific to the case details, and each task is created when an agent closes the previous task.
 
-1.  [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)\\.
+1.  [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
     Initiate the dispute service process by entering the initial case information and creating a dispute case on behalf of a customer.
 

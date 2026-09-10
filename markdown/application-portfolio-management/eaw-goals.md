@@ -26,6 +26,8 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 -   Add demands to a goal
 -   Associate a goal with the business processes and business capabilities
 
+A goal is mapped to a business process, and to a business capability, using the relationship type **Realizes :: Realized by**.
+
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  

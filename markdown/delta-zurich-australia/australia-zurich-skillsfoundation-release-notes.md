@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-skillsfoundation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 You cannot download industry skills data as part of the guided setup.
+
 
 </td></tr><tr><td>
 
@@ -98,27 +101,15 @@ Zurich
 
 -   **[Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=zurich&ft:locale=en-US)**
 
-Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.
-
-Multilingual skill support is limited to the languages supported by AI Search, which is fewer than the previously supported 23 languages.
-
-Resume parsing is done using Now Assist.
-
-ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
+Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.Multilingual skill support is limited to the languages supported by AI Search, which is fewer than the previously supported 23 languages.Resume parsing is done using Now Assist.ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
 
 
--   **[Skills Intelligence Workspace](https://www.servicenow.com/docs/access?context=skills-intelligence-workspace&family=zurich&ft:locale=en-US)**
+ -   **[Skills Intelligence Workspace](https://www.servicenow.com/docs/access?context=skills-intelligence-workspace&family=zurich&ft:locale=en-US)**
 
-The application name Skills Intelligence Workspace has been changed to Skills Workspace.
-
-Role group skill recommendations will not be readily available unless you load your own ontology data to the industry plugin.
-
-In Skill Harmonization, duplicate skills identification relies on AI search instead of ML models, which will have some quality impact in identifying duplicates.
-
-In Skills Import, two new integration options are added for SAP SuccessFactors and skills and user skills imported go through harmonization pipeline.
+The application name Skills Intelligence Workspace has been changed to Skills Workspace.Role group skill recommendations will not be readily available unless you load your own ontology data to the industry plugin.In Skill Harmonization, duplicate skills identification relies on AI search instead of ML models, which will have some quality impact in identifying duplicates.In Skills Import, two new integration options are added for SAP SuccessFactors and skills and user skills imported go through harmonization pipeline.
 
 
--   **[Career tab in Employee Center](https://www.servicenow.com/docs/access?context=manage-skills-profile&family=zurich&ft:locale=en-US)**
+ -   **[Career tab in Employee Center](https://www.servicenow.com/docs/access?context=manage-skills-profile&family=zurich&ft:locale=en-US)**
 
 In the Career tab, the recommended skills source is now derived both from skills that are tagged to activities that employees has been pursuing and from similar user skills.
 
@@ -150,9 +141,7 @@ Zurich
 
 </td><td>
 
--   The LinkedIn Parsing capability is not supported because it is based on ML models.
--   The skills ontology, which contained skill structure with categories and definition, is no longer provided. Supply your own skills data and import it into the Skills Foundation application.
--   Legacy Data Science algorithms from Talent Development applications.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -181,7 +170,9 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   The LinkedIn Parsing capability is not supported because it is based on ML models.
+-   The skills ontology, which contained skill structure with categories and definition, is no longer provided. Supply your own skills data and import it into the Skills Foundation application.
+-   Legacy Data Science algorithms from Talent Development applications.
 
 </td></tr><tr><td>
 
@@ -210,7 +201,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -239,13 +233,14 @@ Zurich
 
 </td><td>
 
--   The Human Resources Scoped App \(sn\_hr\_core\) plugin on Australia family release must be installed for HR profile and Talent job profile synchronization.
+-   **Additional requirements**
+    -   The Human Resources Scoped App \(sn\_hr\_core\) plugin on Australia family release must be installed for HR profile and Talent job profile synchronization.
 
 **Note:** For earlier releases, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request. Approve the message and re-import the plugin manually.
 
--   The Skills foundation \(sn\_skills\_int\) v 10.0 for the skills foundation features.
--   The Skills Workspace plugin \(sn\_skills\_int\_ws\) v 6.1 must be installed to access the workspace experience.
--   HRSD integration for SAP SuccessFactors \(sn\_hr\_sf\) Plugin which depends on SuccessFactors \(sn\_successfactors\) spoke v 4.6.1-7 to fetch skills and user skills data.
+    -   The Skills foundation \(sn\_skills\_int\) v 10.0 for the skills foundation features.
+    -   The Skills Workspace plugin \(sn\_skills\_int\_ws\) v 6.1 must be installed to access the workspace experience.
+    -   HRSD integration for SAP SuccessFactors \(sn\_hr\_sf\) Plugin which depends on SuccessFactors \(sn\_successfactors\) spoke v 4.6.1-7 to fetch skills and user skills data.
 
 </td></tr><tr><td>
 

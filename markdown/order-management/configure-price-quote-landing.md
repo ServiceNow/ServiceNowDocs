@@ -1,5 +1,5 @@
 ---
-title: Configure, price, quote
+title: Configure, price, quote apps
 description: Explore tools that support the configuration, pricing, and quoting of sales offerings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-price-quote-landing.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
-# Configure, price, quote
+# Configure, price, quote apps
 
 Explore tools that support the configuration, pricing, and quoting of sales offerings.
 
@@ -23,7 +23,7 @@ Select a link from the following table to explore CPQ tools that simplify config
 |[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)|Browse and customize configurable products.|
 |[Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-configurator.md)|Configure complex products or services dynamically.|
 |[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md)|Manage price lists, discounts, and rules to support dynamic and region-specific pricing.|
-|[Quote Experience in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)|Manage quote creation, approval, and delivery.|
+|[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)|Manage quote creation, approval, and delivery.|
 |[Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md)|Define workflows for approving sales entities, such as customer quotes, in your sales organization.|
 |[Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/exploring-post-sales-support.md)|Standardize, organize, manage, and use contracts and entitlements.|
 |[Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt.md)|Create and track contractual sales commitments.|

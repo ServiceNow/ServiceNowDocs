@@ -1,6 +1,6 @@
 ---
-title: Configure the employee profile for Employee Slate
-description: Configure the employee profile page in Employee Slate. Set the fields that appear and the fields that an employee can edit.
+title: Configure the employee profile
+description: Configure the employee profile page in EmployeeWorks Web App. Set the fields that appear and the fields that an employee can edit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.html
 release: australia
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [employee profile, profile configuration, overview UI, editable fields, Employee Slate]
-breadcrumb: [Employee profile, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee profile, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure the employee profile for Employee Slate
+# Configure the employee profile
 
-Configure the employee profile page in Employee Slate. Set the fields that appear and the fields that an employee can edit.
+Configure the employee profile page in EmployeeWorks Web App. Set the fields that appear and the fields that an employee can edit.
 
 ## Before you begin
 
-Activate Employee Slate for Now Assist in the instance.
+Activate Employee Slate \(built for Now Assist\) in the instance.
 
 Configure the organization chart. For details, see the related task.
 

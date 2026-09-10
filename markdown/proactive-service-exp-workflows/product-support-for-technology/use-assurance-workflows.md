@@ -20,8 +20,8 @@ By using ServiceNow® Proactive Service Experience Workflows, you can help resol
 An incident record is created when an event management system generates an alert and the affected accounts can be viewed in the Service Operations Workspace.
 -   **[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)**  
 An escalation can be triggered when an incident is created with the appropriate category and sub category and the **Escalate UI** option is triggered within the Service Operations Workspace.
--   **[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)**  
-Learn how your Technical Support teams \(e,g. Cloud Ops, Server, or Network operations teams\) can use the Operations Account 360 view in the Proactive Service Experience Workflows application to get insight about your customer's or partner's accounts.
+-   **[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)**  
+Use the Technology Account 360 view to get insight about your customer's or partner's accounts.
 -   **[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)**  
 Cases are created from the incidents.
 -   **[Diagnose and resolve a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.md)**  

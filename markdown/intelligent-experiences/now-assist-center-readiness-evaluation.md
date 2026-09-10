@@ -26,6 +26,7 @@ The AI readiness assessment evaluates and assesses the following areas of your i
 -   AI agents and agentic workflows
     -   Agentic AI for IT Service Management \(ITSM\)
     -   Agentic AI for Customer Service Management \(CSM\)
+    -   Agentic AI for HR Service Delivery \(HRSD\)
 -   Generative AI capabilities
     -   Generative AI for AI Search
     -   Generative AI for Virtual Agent \(VA\)
@@ -50,7 +51,7 @@ AI readiness assessment appears in several places in AI Admin Center.
     The assessment details page shows the detailed results of a readiness assessment for a specific area of your instance. It shows readiness by category and lists the important issues to resolve to achieve AI implementation readiness.
 
 
-For more information on using AI readiness assessments in AI Admin Center, see [Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+For more information on using AI readiness assessments in AI Admin Center, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
 **Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
 
@@ -58,8 +59,6 @@ For more information on using AI readiness assessments in AI Admin Center, see [
 
 
 [AI Admin Center workspace]()
-
-[AI Agent Advisor in AI Admin Center]()
 
 [Supporting information for AI Admin Center]()
 

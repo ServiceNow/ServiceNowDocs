@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI Agent Advisor in AI Admin Center, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # View your automation opportunities
@@ -41,7 +41,9 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
 
         The Resolution Steps tab opens showing the opportunity details.
 
-        \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-3.png"\] Alt text: Resolution Steps tab showing the opportunity details.
+        AI Agent Advisor generates the resolution steps using the data from existing records on your instance.
+
+        \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-4.png"\] Alt text: Resolution Steps tab showing the opportunity details.
 
     2.  Select **View all** to view the complete list of automation opportunities.
 
@@ -49,7 +51,7 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
 
         Use the search field or the filter and sort controls adjust the list.
 
-        \[Omitted image "ai-agent-advisor-opportunities-list-3.png"\] Alt text: Automation opportunities tab showing a list of all automation opportunities.
+        \[Omitted image "ai-agent-advisor-opportunities-list-4.png"\] Alt text: Automation opportunities tab showing a list of all automation opportunities.
 
         The status of the opportunity displays in the **Status** column.
 
@@ -104,6 +106,7 @@ The status is empty for an opportunity that has at least one step requiring an A
 </td></tr></tbody>
 </table>    3.  Select a combination of sort, filter, and display options to refine the list.
 
+        -   Select a status filter option.
         -   Type in the search box and select the **Submit search** icon \(\[Omitted image "icon-now-assist-center-search.png"\] Alt text: Submit search icon.\) to filter by search criteria.
         -   Select the filter button \(\[Omitted image "icon-now-assist-center-filter.png"\] Alt text: Filter icon.\), choose one or more filters, and select **Apply**.
         -   Select an option from a sort menu.
@@ -113,12 +116,5 @@ The status is empty for an opportunity that has at least one step requiring an A
 
 Implement an automation opportunity. For more information, see [Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
 
-**Parent Topic:**[Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
-
-**Related topics**  
-
-
-[Implement an automation opportunity from AI Admin Center]()
-
-[Edit an AI agent from an automation opportunity]()
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

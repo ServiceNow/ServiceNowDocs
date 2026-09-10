@@ -303,5 +303,7 @@ Stores HTML-based signing templates used to capture visitor signatures during po
 
 [Additional requirement form]()
 
+[About visit-related tables]()
+
 [Differences between Workplace Visitor Management versions]()
 

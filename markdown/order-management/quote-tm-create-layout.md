@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 4
-breadcrumb: [Layouts, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a quote transaction layout
@@ -82,4 +82,6 @@ A layout's variable name determines which stage it is associated with. The varia
 ## What to do next
 
 Deploy the blueprint to apply the updated layout at runtime.
+
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
 

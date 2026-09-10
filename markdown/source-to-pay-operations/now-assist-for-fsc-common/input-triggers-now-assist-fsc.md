@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Customize generative AI skills for Common FSC features, Configure, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
@@ -64,6 +64,7 @@ Base input fields
 -   Cancellation reason
 -   Order paid
 -   ERP number
+-   Activity
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Customize a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)

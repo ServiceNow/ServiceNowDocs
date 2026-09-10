@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/location\_based\_transactions\_for\_opportunity.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -59,14 +59,7 @@ Copy existing line items to another location in the opportunity based on the eli
 Agent
 
 </td></tr></tbody>
-</table>-   **[Use location filter to add opportunity line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_location_filter_to_add_line_items.md)**  
-Use the **Service location** filter in the product catalog to add products \(line items\) to a location.
--   **[Copy opportunity line items to a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/copy_opportunity_line_items_to_a_location.md)**  
-Duplicate existing line items to another location using **Copy** on the Line items tab.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)

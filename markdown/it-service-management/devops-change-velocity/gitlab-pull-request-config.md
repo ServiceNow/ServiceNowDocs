@@ -33,7 +33,7 @@ When enabled, the pull \(merge\) request changes will be reflected in DevOps Cha
 
 For pull request and orchestration pipeline linking and to enable change approval tracking, the following are required:
 
--   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+-   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 -   From your GitLab project,
     1.  Navigate to
         -   For GitLab cloud: **Settings** &gt; **Merge requests**.

@@ -30,6 +30,8 @@ You can assign a buyer organization member from the following locations:
 
 All locations opens the same Assign Buyer Organization Member dialog and produce the same outcome.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal Organizations**.

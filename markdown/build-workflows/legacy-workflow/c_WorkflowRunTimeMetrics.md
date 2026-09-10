@@ -122,7 +122,7 @@ If a workflow has an outlying run time, it appears in any outlier workflow gauge
 
 When a workflow runs within the outlier range, its estimated run time is automatically updated.
 
-The estimated run time is updated with the cumulative moving average of the latest run time value in relation to previous run times. The computed value is rounded to the nearest second and stored as a [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
+The estimated run time is updated with the cumulative moving average of the latest run time value in relation to previous run times. The computed value is rounded to the nearest second and stored as a GlideDateTime.
 
 For example:
 

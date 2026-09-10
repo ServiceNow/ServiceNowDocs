@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content from your Tr
 
 ## Before you begin
 
-A source system administrator must have already configured your Trello source system to allow access by the Trello external content connector. For details on configuring these settings in the source system, see [Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md).
+A source system administrator must have already configured your Trello source system to allow access by the Trello external content connector. For the required source system configuration steps, see [Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [CRM Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Activate Customer Central for viewing profile information
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Customer Central displays all the touchpoints that a constituent, business, or agency has with a government center or agency, in the form of information cards. For more information on Customer Central and how it functions with CSM Configurable Workspace, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
+Customer Central displays all the touchpoints that a constituent, business, or agency has with a government center or agency, in the form of information cards. For more information on Customer Central and how it functions with CRM Workspace, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
 
 ## Procedure
 
@@ -38,5 +38,5 @@ Customer Central displays all the touchpoints that a constituent, business, or a
     You can perform other changes to this layout, as needed. For more information, see [Configure the Customer Information view using the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md).
 
 
-**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
 

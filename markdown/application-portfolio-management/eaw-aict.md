@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [AI governance, business applications, enterprise architecture, AI systems, portfolio management, AI steward, risk classification, lifecycle management, enterprise architecture workspace]
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -96,6 +96,10 @@ The tab displays the following information for each AI system:
 
 ## How associations are created
 
+Enterprise Architecture supports domain separation at the data level. If your instance uses domain separation, such as a managed service provider hosting multiple client tenants, the available business applications reflect the domain hierarchy. You can select business applications in the global domain and in the domain you're currently operating in. Viewing the association from a parent domain shows the AI systems and business application associations created in that domain and in all of its child domains. A child domain's view shows only its own associations.
+
+An organization has a business application in the global domain and two business applications, one each in the Domain A and Domain B child domains. A user operating in Domain A can associate an AI system with the global business application, the Domain A business application, or both. The user can't select the Domain B business application. A user at the parent domain can see the AI system associations created in both Domain A and Domain B. These associations are rolled up together wherever they involve the shared global business application.
+
 An AI system is associated with a business application in one of two ways:
 
 -   A user submits the **Request an AI Use Case** catalog item in the service portal and selects one or more business applications in the **Business Applications** field. This is the recommended intake path because it creates the AI system record in AI Control Tower and establishes the business application association in a single step.
@@ -116,7 +120,7 @@ Removing an AI system association from a business application record does not de
 
 The association between AI systems and business applications is bidirectional. To view linked business applications in AI Control Tower, navigate to **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**. This view is read-only in AI Control Tower; to add or remove associations, use the **Related assets** &gt; **Business applications** &gt; **AI systems** tab on the business application record in the Enterprise Architecture Workspace.
 
-For enterprise architects who work primarily in the Enterprise Architecture Workspace and AI stewards who work primarily in AI Control Tower, this bidirectionality means each team sees the same associations from their own workspace. Neither team needs to maintain a separate record.\[Omitted image "ai-system-aict-related-list.png"\] Alt text: Business applications related list displayed for an AI system in the AI Control Tower workspace.
+Enterprise architects work primarily in the Enterprise Architecture Workspace, while AI stewards work primarily in AI Control Tower. This bidirectionality means each team sees the same associations from their own workspace. Each team can view and work with the associations without maintaining a separate record.\[Omitted image "ai-system-aict-related-list.png"\] Alt text: Business applications related list displayed for an AI system in the AI Control Tower workspace.
 
 ## Required roles
 

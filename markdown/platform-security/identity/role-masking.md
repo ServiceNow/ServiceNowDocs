@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [role masking, AI agents, Agent Access Role Configuration, Agent Access Permission Set Configuration, least-access privileges, Allow all session roles]
 breadcrumb: [Identity]

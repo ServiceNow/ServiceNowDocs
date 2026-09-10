@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Promote alerts in Express List, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Promote alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an incident with ServiceNow Otto in Express List

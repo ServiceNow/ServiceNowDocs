@@ -200,7 +200,7 @@ Audit Manager\[sn\_audit.manager\]
 
 </td><td>
 
-In addition to the inherited permissions, the audit manager can create audit tasks \(such as control tests, activities, walkthroughs, and interviews\), engagements, test plans, test templates, issues, remediation tasks, and entities. If Advanced Core is installed, then the audit manager can also create evidence requests.
+In addition to the inherited permissions, the audit manager can create audit tasks \(such as control tests, activities, walkthroughs, and interviews\). The audit manager can also create engagements, test plans, test templates, issues, remediation tasks, and entities. If Advanced Core is installed, the audit manager can create evidence requests.
 
 </td><td>
 

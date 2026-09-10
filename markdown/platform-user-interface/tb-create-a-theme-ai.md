@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-create-a-theme-ai.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
+keywords: [theme builder, create theme, AI theme generation, brand image, brand guidelines, color palette, primary color, secondary color, brand logo, UI theme]
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 

@@ -7,7 +7,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
 breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
@@ -63,7 +63,7 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 
 |User|Description|
 |----|-----------|
-|Delegated developers|Delegated developers can request, allocate, or retire sandboxes.|
+|Delegated developers|Delegated developers can request sandboxes from an admin or sandbox manager.|
 |Admins|Admins can allocate or retire sandboxes.|
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
 |Sandbox users|Sandbox users can request and view Developer Sandboxes.|
@@ -76,7 +76,7 @@ Sandbox users use the same login credentials for their sandbox as the base insta
 
 The delegated developer or admin of a sandbox would procure a sandbox, make changes or experiment with development, test their changes, push their changes, and wait for an admin to clone the instance.
 
-1.  A Developer Sandboxes user \(either admin or dev\) allocates a sandbox to start story work.
+1.  A sandbox manager or admin allocates a sandbox to start story work.
 2.  The developer makes development changes and tests them out in their fully isolated sandbox.
 
     **Note:** The work done in one sandbox doesn't appear in other sandboxes or other instances.

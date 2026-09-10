@@ -18,6 +18,12 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-automation-center.md).
 
+## Building desktop automations
+
+Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
+
+For more information, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md).
+
 ## Initiate an automation request from the Task timeline analysis
 
 1.  As a Task Mining analyst, you create a Task Mining project with a Task timeline analysis as a Mining analysis goal. For more information, see [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/create-task-mining-projects.md). You group user actions as a task to provide data for the analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).

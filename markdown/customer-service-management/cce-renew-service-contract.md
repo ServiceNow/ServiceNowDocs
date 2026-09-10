@@ -1,6 +1,6 @@
 ---
 title: Renew a customer contract
-description: Renew a customer contract on the CSM Configurable Workspace before the customer contract expires.
+description: Renew a customer contract on the CRM Workspace before the customer contract expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-renew-service-contract.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and 
 
 # Renew a customer contract
 
-Renew a customer contract on the CSM Configurable Workspace before the customer contract expires.
+Renew a customer contract on the CRM Workspace before the customer contract expires.
 
 ## Before you begin
 

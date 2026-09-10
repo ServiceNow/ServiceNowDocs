@@ -32,7 +32,7 @@ Role required: itil, admin, or sn\_change\_write
 
 3.  Select one of the following options from the Actions list.
 
-<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d335227e89">
+<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d339868e89">
 
 **Add to existing Change Request**
 
@@ -40,7 +40,7 @@ Role required: itil, admin, or sn\_change\_write
 
 Select this option to associate the CIs with an existing change request.
 
-</td></tr><tr><td id="d335227e98">
+</td></tr><tr><td id="d339868e98">
 
 **Add to new Change Request**
 

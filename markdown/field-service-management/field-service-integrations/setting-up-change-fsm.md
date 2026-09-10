@@ -20,9 +20,9 @@ Integration with the Change Management application enables ITIL agents to create
 
 This integration provides the following benefits for ITIL agents:
 
--   Ability to create a work order from a change request either on the ServiceNow AI Platform or the CSM Configurable Workspace.
+-   Ability to create a work order from a change request either on the ServiceNow AI Platform or the CRM Workspace.
     -   For information on creating a work order from a change request in ServiceNow AI Platform, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md).
-    -   For information about creating a work order from a change request in CSM Configurable Workspace, see [Create a work order from a change request in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.md).
+    -   For information about creating a work order from a change request in CRM Workspace, see [Create a work order from a change request in the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.md).
 -   Enables the ITIL agent to track the progress of a work order directly from its parent change request.
 
 This integration automates your system to provide the following benefits:

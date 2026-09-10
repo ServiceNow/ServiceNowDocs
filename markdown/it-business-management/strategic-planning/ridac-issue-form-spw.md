@@ -28,9 +28,9 @@ Use the RIDAC Issue form to create and manage issues that affect your strategic 
 |Impact|Impact level if the issue is not resolved. The available options are **1 - High**, **2 - Medium**, **3 - Low**\). This indicates the severity of the issue on planning objectives.|
 |Due date|Target date by which the issue should be resolved.|
 |Assigned to|User or team responsible for resolving the issue.|
+|Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Planning Item|The planning item \(project, demand, epic, feature, or custom planning item\) that this issue is associated with. This field is auto-populated when an issue is created from a planning item context.|
 |Enterprise agile iteration|The EAP iteration associated with this issue. This field is auto-populated when an issue is created from an EAP iteration context.|
 |Goal|The goal \(portfolio plan goal or board goal\) that this issue is associated with. This field is auto-populated when an issue is created from a goal context.|
-|Parent|Parent issue, if this issue is a child of another issue. Used for issue hierarchy and rollup tracking.|
 |Work notes|Internal notes and updates about the progress of issue resolution. Used to track work history and communication.|
 

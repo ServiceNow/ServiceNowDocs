@@ -16,7 +16,10 @@ Only authorized customers can view the product catalog on the Business Portal by
 
 When customers access the Business Portal, the product catalog is visible by default to users who have the sn\_customerservice.customer role and are registered in the ServiceNow CRM software. This default visibility is controlled by the CustomerPortalCatalogAccessUtil script.
 
-To grant product catalog visibility to other users, use the CustomerPortalCatalogAccessUtil script to extend access to those users. Navigate to **All** &gt; **Activity Subscriptions** &gt; **Administration** &gt; **Script Includes**. In the **Name** column, search for CustomerPortalCatalogAccessUtil.
+To grant product catalog visibility to other users, use the CustomerPortalCatalogAccessUtil script to extend access to those users.
+
+1.  Navigate to **All** &gt; **Activity Subscriptions** &gt; **Administration** &gt; **Script Includes**.
+2.  In the **Name** column, search for CustomerPortalCatalogAccessUtil.
 
 You must also set up your product catalog and configure pricing to help ensure that the correct products and prices are available to customers on the portal. For more information, see [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md) and [Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-pricing.md).
 
@@ -25,5 +28,5 @@ You must also set up your product catalog and configure pricing to help ensure t
 
 [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
 
-[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

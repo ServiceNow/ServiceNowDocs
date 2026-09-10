@@ -1,6 +1,6 @@
 ---
 title: Create a Compare Attribute Values query
-description: Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace to help you find CIs with mismatched attribute values between discovery sources.
+description: Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.html
 release: australia
@@ -14,11 +14,9 @@ breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Managem
 
 # Create a Compare Attribute Values query
 
-Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspaceor in Service Graph Workspace to help you find CIs with mismatched attribute values between discovery sources.
+Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 
 ## Before you begin
-
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
@@ -30,21 +28,19 @@ The Compare Attribute Values query compares CIs from different discovery sources
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
-2.  -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
--   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
-3.  Select **Create Query**.
+2.  Select **Create Query**.
 
-4.  Select **I want to compare attribute values between discovery sources or against the CMDB**.
+3.  Select **I want to compare attribute values between discovery sources or against the CMDB**.
 
-5.  Select a CI class that you want to compare attribute values for.
+4.  Select a CI class that you want to compare attribute values for.
 
     You can select a selected class to open the condition builder. Use the condition builder to specify conditions that must be met for each class. Use **And** or **Or** to specify multiple conditions.
 
-6.  Select **Continue**.
+5.  Select **Continue**.
 
-7.  On the Attributes to compare form, select options:
+6.  On the Attributes to compare form, select options:
 
     |Option|Description|
     |------|-----------|
@@ -52,9 +48,9 @@ The Compare Attribute Values query compares CIs from different discovery sources
     |Every attribute doesn't match|Select if you want to retrieve CIs where there's a mismatch with every specified attribute value between the discovery sources.|
     |Select attributes to compare|Specify the attributes that you want to compare for mismatched values.|
 
-8.  Select **Continue**.
+7.  Select **Continue**.
 
-9.  Select the discovery sources that you want to compare attribute values for.
+8.  Select the discovery sources that you want to compare attribute values for.
 
     |Field|Description|
     |-----|-----------|
@@ -62,11 +58,11 @@ The Compare Attribute Values query compares CIs from different discovery sources
     |Select discovery sources|The discovery sources that you want to compare. Select at least two.|
     |Limit results to|Limits the query results to CIs that belong to a service or CMDB group. When you select **Application Services**, **Technical Services**, or **CMDB Groups**, a prompt appears. You can use the prompt to specify the service or group that you want the query to filter for.|
 
-10. Select **Continue**.
+9.  Select **Continue**.
 
-11. Enter a name and description for your query.
+10. Enter a name and description for your query.
 
-12. Select **Save** .
+11. Select **Save** .
 
 
 ## What to do next

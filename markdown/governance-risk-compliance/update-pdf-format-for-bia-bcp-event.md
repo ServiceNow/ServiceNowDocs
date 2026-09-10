@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -73,7 +73,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 5.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d412545e247">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d226907e247">
 
 **To add an existing document block to the template**
 
@@ -81,7 +81,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d412545e259">
+</td></tr><tr><td id="d226907e259">
 
 **To add a new document block to the template**
 
@@ -118,11 +118,13 @@ Select **Create New Block**.
 
     \[Omitted image "event-pdf-template.png"\] Alt text: Events template.
 
+    Starting with BCM Core version 12.x.x and later, the Events template includes a **Collaboration Threads** section, inserted after the event task details. The section repeats for each collaboration thread on the event and lists the thread's **Name**, **Description**, **Impacted Assets**, **Recovery Teams**, and **State**. The **Level** field is also added to the General Information section.
+
     1.  Select the desired UI action, update the template, and save the changes.
 
         You can save the PDF for future reference.
 
-12. To add a company logo to the PDF, use a PDF editor like Adobe Acrobat Pro, or insert it into the source document before exporting.
+12. To add a company logo to the PDF, use a PDF editor or insert it into the source document before exporting it as a PDF.
 
 13. To print the report, open the saved PDF or Microsoft Word copy and select **Print**.
 

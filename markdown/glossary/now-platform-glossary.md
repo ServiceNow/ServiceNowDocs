@@ -144,15 +144,15 @@ A suite of tools that provides agents, case managers, help desk professionals, a
 
 Agentic AI refers to artificial intelligence systems that possess autonomy, enabling them to function independently and make decisions without continuous human oversight. These systems can perceive their environment, reason, learn from experience, and execute tasks to achieve specific goals. In ServiceNow AI Platform, agentic AI is powered by AI agents, agentic workflows, and Voice/Web agents.
 
-### Agentic conversation
+### agentic conversation
 
 Agentic conversation refers to interactions between humans and AI systems where the AI exhibits autonomous behavior, making decisions and taking actions to achieve specific goals. In an agentic conversation, the AI agent can understand the context, reason, and respond accordingly, often without requiring explicit human direction. You can enable it in Virtual Agent, ServiceNow Otto panel, Voice/Web agents, and enhance it through Knowledge Graph, RAG, and Open Prompts.
 
-### Agentic system
+### agentic system
 
 An agentic system is a type of software or AI that perceives its environment, makes decisions that are based on that perception, and takes actions to achieve specific goals, often with minimal human intervention. An agentic system can learn, adapt, and operate independently to solve problems or perform tasks.
 
-### Agentic workflow
+### agentic workflow
 
 An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio by using triggers, tools, and evaluation plans, and deploy across ITSM, HR, and CSM use cases.
 
@@ -582,7 +582,7 @@ A case that is linked to and is a part of a parent case, inheriting its context 
 
 Cases that are associated with a major case, created one-to-one for each business account \(B2B\) or consumer \(B2C\) impacted by the major case issue. It contains customer-specific information for each customer affected by the major case issue.
 
-### Citation
+### citation
 
 Small, interactable number next to AI-generated content in the ServiceNow Otto panel that cites the source of the information.
 
@@ -829,7 +829,7 @@ An update set that has been selected using the Update Set Picker. User customiza
 
 Any scoped application a developer creates on the ServiceNow AI Platform.
 
-### Custom skill
+### custom skill
 
 A user-defined AI capability tailored to meet specific business needs. It is created and trained using relevant data and prompts.
 
@@ -1067,9 +1067,9 @@ A form for a catalog item can use dynamic behavior to automatically update based
 
 **Note:** Dynamic behaviors are also called Catalog UI Policies.
 
-### Dynamic translation
+### Dynamic Translation
 
-A feature in ServiceNow Otto that translates user input to English and then translates the AI-generated responses back to the user's preferred language.
+A feature on the ServiceNow AI Platform that translates user input to English and then translates the AI-generated responses back to the user's preferred language.
 
 ## E
 
@@ -1407,7 +1407,7 @@ Applications and solutions that incorporate Now Assist, a generative AI experien
 
 A tool to customize the generative AI experience on the ServiceNow AI Platform, including integrating third-party large language model \(LLM\) licenses.
 
-### Generative AI
+### generative AI
 
 A technology that uses large language model \(LLM\) to generate text, summaries, and other content.
 
@@ -1451,7 +1451,7 @@ A web query language optimized for client-side development to request the exact 
 
 A set of users who share a common purpose.
 
-### Guardrail
+### guardrail
 
 A mechanism that monitors and evaluates user input and AI-generated response to ensure it is safe and appropriate.
 
@@ -1645,7 +1645,7 @@ Repository of articles and information that helps agents and customers resolve i
 
 ### Knowledge Graph
 
-The Knowledge Graph organizes structured and unstructured enterprise data into a semantic network that AI agents can query. The ServiceNowKnowledge Graph application enhances the performance of ServiceNow Otto for Virtual Agent, AI agents, and generative AI skills by leveraging structured and unstructured data from various sources. It provides a customized user experience by creating and managing Knowledge Graph schemas through a user-friendly interface. The application integrates with AI agents and Virtual Agent, offering prebuilt integrations for seamless functionality.
+Knowledge Graph organizes structured and unstructured enterprise data into a semantic network that AI agents can query. The ServiceNowKnowledge Graph application enhances the performance of ServiceNow Otto for Virtual Agent, AI agents, and generative AI skills by leveraging structured and unstructured data from various sources. It provides a customized user experience by creating and managing Knowledge Graph schemas through a user-friendly interface. The application integrates with AI agents and Virtual Agent, offering prebuilt integrations for seamless functionality.
 
 ### KPI
 
@@ -1659,7 +1659,7 @@ Glossary terms are grouped alphabetically.
 
 Page that appears when an agent opens their workspace that provides an overview of new, assigned, and high priority cases in addition to the cases assigned to their groups.
 
-### Large language model \(LLM\)
+### large language model \(LLM\)
 
 A complex machine-learning model trained on large datasets to generate human-like responses to user input.
 
@@ -1839,15 +1839,15 @@ Any link in the Application Navigator \(UI16\) or All menu \(Next Experience\) t
 
 A ServiceNow Store listing filter for applications and integrations that have domain separation enabled. Managed Service Providers \(MSPs\) can procure and manage these applications on behalf of their customers.
 
-### Multi-turn catalog ordering
+### multi-turn catalog ordering
 
-A feature in ServiceNow Otto that allows users to order catalog items from the service catalog through a conversational interface.
+A feature in ServiceNow Otto for Virtual Agent that allows users to order catalog items from the service catalog through a conversational interface.
 
 ## N
 
 Glossary terms are grouped alphabetically.
 
-### Native translation
+### native translation
 
 A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Hub.
 
@@ -1887,13 +1887,13 @@ Message sent from a ServiceNow instance to inform a user that something happened
 
 A functionality that allows technical support agents to notify affected customers about network issues and updates.
 
-### AI Admin Hub console
+### AI Admin Hub
 
-A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered under ServiceNow Otto.
+A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered on the ServiceNow AI Platform.
 
 ### AI Analytics
 
-A dashboard that provides insights into the usage, value, and performance of ServiceNow Otto.
+A dashboard that provides insights into the usage, value, and performance of AI on a ServiceNow instance.
 
 ### ServiceNow Otto context menu
 
@@ -1907,13 +1907,13 @@ A feature that monitors and evaluates content created with generative AI to prot
 
 A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
-### ServiceNow Otto Panel
+### ServiceNow Otto panel
 
 A conversational interface to summarize chat, case, or incident or generate resolution notes so that you can get the context of the information more quickly.
 
-### ServiceNow Otto skill
+### generative AI skill
 
-A predefined capability within ServiceNow Otto that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on.
+A predefined capability on the ServiceNow AI Platform that uses generative AI to perform tasks such as generating summaries, resolution notes, and so forth.
 
 ### ServiceNow Otto for SPO
 
@@ -1967,7 +1967,7 @@ In Zero Copy Connector for ERP, create an OData connection to link to SAP via HT
 
 Cloud-based services and solutions that are made available to customers both outside and inside the ServiceNow ecosystem. To request an OEM solution from the ServiceNow Store, contact the partner on the OEM listing.
 
-### Offensive content detection
+### offensive content detection
 
 A guardrail in AI Guardian that logs and blocks offensive, harmful, or inappropriate content.
 
@@ -1993,9 +1993,9 @@ A message-bus agnostic framework that supports publishing notifications to any o
 
 A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see .
 
-### Orchestrator
+### orchestrator
 
-The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to Agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
+The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
 
 ### order guide
 
@@ -2205,7 +2205,7 @@ A collection of apps that coordinate to add features and capabilities to a Servi
 
 Structure that organizes component files.
 
-### Prompt injection detection
+### prompt injection detection
 
 A security feature in AI Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
 
@@ -2415,7 +2415,7 @@ The Restricted Caller Access \(RCA\) feature enables an administrator to define 
 
 ### Retrieval Augmented Generation
 
-Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised AI agent workflows.
+Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
 
 ### Return
 

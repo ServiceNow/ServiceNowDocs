@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, AI agents in CM Pro, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
-breadcrumb: [Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage contract repository agentic workflow, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Reviewing AI-extracted results in the playbook
@@ -26,4 +26,9 @@ In the playbook, you can do the following:
 -   Review the obligations extracted from signed contracts, and edit, approve, or reject them to create obligation records in the contract repository.
 
 \[Omitted image "cmpro-na-playbook.png"\] Alt text: Contract playbook displaying extracted obligations details.
+
+-   **[Review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.md)**  
+Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
+
+**Parent Topic:**[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
 

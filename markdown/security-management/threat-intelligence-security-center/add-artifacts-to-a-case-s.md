@@ -1,5 +1,5 @@
 ---
-title: Add artifacts to case\(s\) or case task\(s\)
+title: Add artifacts to cases or case tasks
 description: After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.html
@@ -7,12 +7,12 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-15"
 reading_time_minutes: 5
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Add artifacts to case\(s\) or case task\(s\)
+# Add artifacts to cases or case tasks
 
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 
@@ -40,7 +40,7 @@ Role required: admin
 
 6.  Link or Unlink the records from the case or case task.
 
-    **Note:** For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md)
+    For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
     Following table lists the artifacts related lists related to the case\(s\) or case task\(s\):
 
@@ -226,7 +226,7 @@ Vulnerabilities
 
 </td><td>
 
-If the observable is an IP address, this list shows any resources \(configuration items\) that have a matching IP address that are related to this cases or case tasks.
+If the observable is an IP address, this list shows resources \(configuration items\) that have a matching IP address related to this cases or case tasks.
 
 </td></tr><tr><td>
 
@@ -285,7 +285,11 @@ Vulnerability Entries
 List the vulnerability entries that are related to this cases or case tasks.
 
 </td></tr></tbody>
-</table>
+</table>7.  Select **New** to create a record and link it to the case or case task from within the flow.
+
+    For more information, see [Create a related record to link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-new-related-record.md).
+
+
 -   **[Roll up of MITRE Techniques from Artifacts to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/roll-up-mitre-case.md)**  
 When intelligence records are added to a case, all associated MITRE Techniques are automatically rolled up to the case level.
 -   **[Show MITRE ATT&amp;CK Framework for a Case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-show-mitre-fw.md)**  

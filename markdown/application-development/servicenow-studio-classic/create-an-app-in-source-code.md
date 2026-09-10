@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-07-28"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Create app in source code, ServiceNow Studio]
 breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -19,8 +19,6 @@ Create an application to develop in source code in ServiceNow Studio.
 
 ## Before you begin
 
-Create a workspace for your application. For more information, see [Create a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-a-workspace.md).
-
 **Note:** You can use Build Agent to help you create and edit applications in ServiceNow Studio. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 Role required: admin
@@ -29,38 +27,41 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open a workspace.
+2.  Select the Explorer tab, and select the add to workspace icon \[Omitted image "sn-studio-add-to-workspace-icon.png"\] Alt text:.
 
-3.  Use one of the following keyboard shortcuts to open the command palette:
+    A prompt box opens at the top of the screen.
 
-    -   Windows: Ctrl-Shift-P
-    -   Mac: Cmd-Shift-P
-4.  Enter `Fluent: Create Fluent App` and press Enter.
+3.  Select **Create an application**.
 
-5.  Select the type of application.
+4.  Select the type of application to create.
 
     -   Scoped: Create a scoped application that is protected by identifying and restricting access to application files and data.
     -   Global: Create an application in the global scope to allow it to be accessible to other global applications.
-6.  Enter a name for the application and press Enter.
+5.  Enter a name for the application and press Enter.
 
-7.  Enter a description for the application and press Enter.
+6.  Enter a description for the application and press Enter.
 
-8.  For scoped applications, enter a scope name and press Enter.
+7.  For scoped applications, enter a scope name and press Enter.
 
-    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_NamespaceIdentifier.md).
+    The scope name should fill automatically from the application name. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_NamespaceIdentifier.md).
 
-9.  Enter a package name for the application and press Enter.
+8.  Enter a package name for the application and press Enter.
 
-    The package name must adhere to Node Package Manager \(npm\) package naming standards.
+    The package name should fill automatically from the application name. The package name must adhere to Node Package Manager \(npm\) package naming standards.
 
-10. Select a template that defines the default application structure.
+9.  Select a template that defines the default application structure and press Enter.
 
+    -   Basic now-sdk boilerplate: An application with only the basic structure necessary for development in source code.
+    -   JavaScript now-sdk + basic: An application configured for development in ServiceNow Fluent and JavaScript.
+    -   JavaScript now-sdk + fullstack React: An application configured for development in ServiceNow Fluent, JavaScript, and React.
+    -   TypeScript now-sdk + basic: An application configured for development in ServiceNow Fluent and TypeScript. TypeScript source files in the `src/server` directory are transpiled into JavaScript modules.
+    -   TypeScript now-sdk + fullstack React: An application configured for development in ServiceNow Fluent, TypeScript, and React. TypeScript source files in the `src/server` directory are transpiled into JavaScript modules.
 
 ## Result
 
-An application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the Application Structure section of the [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md) topic.
+An application with the default application structure is added to the instance and open in the Explorer. For information about the application structure, see the Application Structure section of the [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md) topic.
 
-\[Omitted image "servicenow-ide-create-app.png"\] Alt text: An application open in the File Explorer view.
+\[Omitted image "sn-studio-app-open-explorer.png"\] Alt text: An application open in the Explorer tab.
 
 In the status bar, a message confirms whether the application was created. If the application creation fails, review the output logs in the panel.
 

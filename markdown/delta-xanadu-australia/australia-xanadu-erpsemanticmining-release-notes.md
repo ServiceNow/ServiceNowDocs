@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-erpsemanticmining-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -103,8 +103,6 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
-
 -   **[Reset AI/ML analysis to control the ML training](https://www.servicenow.com/docs/access?context=erpcm-check-data-connection&family=yokohama&ft:locale=en-US)**
 
 Use **Reset AI/ML analysis** option to clear the AI/ML analysis so the flow can run again.
@@ -153,8 +151,6 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 1](https://www.servicenow.com/docs/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
-
 -   **[Faster initialization](https://www.servicenow.com/docs/access?context=how-erp-clean-core-inputs-data&family=yokohama&ft:locale=en-US)**
 
 In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
@@ -166,7 +162,12 @@ Zurich
 
 </td><td>
 
--   **[ERP Customization Mining application name change](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[ERP Customization Mining application name change](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US)**
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
@@ -296,7 +297,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install ERP Semantic Mining by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -304,7 +308,10 @@ Zurich
 
 </td><td>
 
-Install ERP Semantic Mining by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ERP Semantic Mining by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -544,7 +551,9 @@ Zurich
 
 </td><td>
 
-The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
+**Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+
+ The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
  See [ERP Customization Mining overview](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&family=zurich&ft:locale=en-US) for more information.
 

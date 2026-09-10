@@ -141,15 +141,15 @@ For more information about these tasks, see [Use Task Intelligence for Customer 
 
 ## AI Prediction Banner Display Behavior
 
-AI prediction banner display in CSM Configurable Workspace: AI prediction banners in CSM Configurable Workspace are controlled by specific client-side and back end configurations that determine when and how prediction results are displayed to agents.
+AI prediction banner display in CRM Workspace: AI prediction banners in CRM Workspace are controlled by specific client-side and back end configurations that determine when and how prediction results are displayed to agents.
 
-Client-side control: The AI Banner Display Client controls the functionality of prediction banners in CSM Configurable Workspace. This is the current implementation that replaces the deprecated version.
+Client-side control: The AI Banner Display Client controls the functionality of prediction banners in CRM Workspace. This is the current implementation that replaces the deprecated version.
 
 Default display behavior: The displayBanner property is set to false by default in the back end logic. This means that AI prediction banners are not automatically displayed unless explicitly configured to do so.
 
 Default page requirement: AI prediction banners only work on the default page of the workspace. If you have customized workspace pages or are using non-default page layouts, the prediction banners will not display.
 
-Standard UI Form versus workspace display: There is a clear distinction between how prediction results are displayed in the Standard UI form \(back end\) and how they are displayed in CSM Configurable Workspace. Predictions may be available and processing correctly in the Standard UI form, but the CSM Configurable Workspace display requires proper client-side configuration through the AI Banner Display Client to surface these predictions to agents.
+Standard UI Form versus workspace display: There is a clear distinction between how prediction results are displayed in the Standard UI form \(back end\) and how they are displayed in CRM Workspace. Predictions may be available and processing correctly in the Standard UI form, but the CRM Workspace display requires proper client-side configuration through the AI Banner Display Client to surface these predictions to agents.
 
 **Tip:** When troubleshooting AI prediction banner visibility issues, verify both the back end prediction processing and the workspace client-side display configuration. Ensure you are using the default workspace page layout for banner functionality.
 

@@ -28,8 +28,8 @@ Domain separation is supported in Web Services. Domain separation enables you to
 REST and SOAP API analytics allow you to track and analyze web service API usage.
 -   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**  
 Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
--   **[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**  
-The SQL API \(formerly known as SQL API\) provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
+-   **[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**  
+Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 -   **[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md)**  
 Create a custom GraphQL API to query record data from a component or a third-party system.
 

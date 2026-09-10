@@ -18,7 +18,7 @@ Configure the target table and field mappings to create a department level ticke
 
 ## Before you begin
 
-Role required: ur\_admin
+Role required: sn\_uni\_req.ur\_admin
 
 ## Procedure
 

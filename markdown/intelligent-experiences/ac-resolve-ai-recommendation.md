@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-23"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Resolve recommendations, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Resolving AI recommendations, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Resolve an AI recommendation
@@ -33,15 +33,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 4.  Resolve the recommendation using AI automation, AI review, or resolve the issue yourself.
 
-<table><thead><tr><th align="left" id="d51309e111">
+<table><thead><tr><th align="left" id="d56749e111">
 
 Option
 
-</th><th align="left" id="d51309e114">
+</th><th align="left" id="d56749e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51309e120">
+</th></tr></thead><tbody><tr><td id="d56749e120">
 
 **Automate using AI**
 
@@ -49,10 +49,10 @@ Description
 
 1.  Select **Automate using AI**.
 2.  Confirm the action when prompted. AI Control Tower runs an unsupervised agent that executes the resolution workflow on your behalf.
-3.  Monitor progress in the side panel. The **Focused** view shows the steps the agent is taking and the estimated time to complete. The recommendation status moves to **In progress** while the agent runs and to **Complete** when the work is done.
+3.  Monitor progress in the side panel. The **Focused** view shows the steps the agent is taking and the estimated time to complete. The recommendation status moves to **In progress** while the agent runs and to **Complete** when the agent is finished.
 
 
-</td></tr><tr><td id="d51309e156">
+</td></tr><tr><td id="d56749e156">
 
 **Review with AI**
 
@@ -62,7 +62,7 @@ Description
 2.  Close the conversation when the agent reports that the recommendation is resolved. The recommendation status moves to **Complete**.
 
 
-</td></tr><tr><td id="d51309e177">
+</td></tr><tr><td id="d56749e177">
 
 **Open**
 

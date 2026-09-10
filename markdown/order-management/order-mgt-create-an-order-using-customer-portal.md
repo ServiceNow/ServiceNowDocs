@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Create orders from the Business Portal
@@ -88,6 +88,8 @@ The following illustration describes the process to create orders from the Busin
 ## Result
 
 The order is created and you're redirected to the Order details page. You can view your account details, order amount, order lines, and so on.
+
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-order-management.md)
 
 **Related topics**  
 

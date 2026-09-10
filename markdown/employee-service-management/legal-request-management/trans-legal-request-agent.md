@@ -1,0 +1,60 @@
+---
+title: Triage legal requests agentic workflow
+description: Use the Triage legal requests agentic workflow to predict the appropriate legal category and to initiate a transfer after a confirmation from the legal fulfiller or group manager.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/trans-legal-request-agent.html
+release: australia
+product: Legal Request Management
+classification: legal-request-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+keywords: [Now Assist, ServiceNow Otto, Transfer AI Agents]
+breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+---
+
+# Triage legal requests agentic workflow
+
+Use the Triage legal requests agentic workflow to predict the appropriate legal category and to initiate a transfer after a confirmation from the legal fulfiller or group manager.
+
+## Triage legal requests agentic workflow overview
+
+**Important:**
+
+-   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md).
+-   For your AI service provider, verify that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
+
+The agentic workflow is triggered under the following conditions:
+
+-   A general legal request is submitted and an assignment rule is configured for it.
+-   The **Assigned to** field is updated for a general legal request.
+
+The agentic workflow conversation can be seen in the ServiceNow Otto panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
+
+## Accessing the Triage legal requests agentic workflow from the AI Agent studio
+
+You can access the agentic workflow from AI Agent Studio when you have the sn\_aia.admin role.
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+2.  Select **Triage Legal Requests**.
+
+## AI agents used in the Triage legal requests agentic workflow
+
+|Name|Description|
+|----|-----------|
+|Record management AI agent|Obtains the request details from the provided description.|
+|Record field value prediction AI agent|Checks for similar records and predicts the legal category.|
+|Transfer legal request AI agent|Is the supervised agent. The AI agent predicts the appropriate legal category, and initiates a transfer after a confirmation from the legal fulfiller.|
+
+## Using Triage legal requests agentic workflow
+
+The agentic workflow conversation can be seen in the ServiceNow Otto panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
+
+1.  Open the ServiceNow Otto panel by selecting the ServiceNow Otto icon \[Omitted image "cmpro-otto-icon.png"\] Alt text: ServiceNow Otto icon
+2.  In the chat panel, select the legal request under the active chat.
+3.  See the agentic workflow conversation and the predicted legal category:
+    -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
+    -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
+
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submitting-legal-request.md)
+

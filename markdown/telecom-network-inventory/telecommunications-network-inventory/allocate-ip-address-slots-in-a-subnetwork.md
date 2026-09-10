@@ -1,20 +1,20 @@
 ---
 title: Allocate IP address slots in a subnetwork
-description: Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
+description: Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and can't be promoted to IP Address records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Allocate IP address slots in a subnetwork
 
-Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
+Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and can't be promoted to IP Address records.
 
 ## Before you begin
 
@@ -62,7 +62,7 @@ This task is the first step of the per-host allocation method. If you instead wa
     |-----|-----------|
     |Name|Address value.|
     |IP Address|Address value.|
-    |**Is Reserved**|Option to mark that an ddress cannot be promoted to IP Address records \(first and last for IPv4; first only for IPv6\).|
+    |**Is Reserved**|Option to prevent promotion of this address to IP Address records \(first and last for IPv4; first only for IPv6\).|
     |**Is Managed**|Cleared until an IP Address record is created from this slot. Not user-editable.|
     |Managed Network|Parent subnetwork.|
 

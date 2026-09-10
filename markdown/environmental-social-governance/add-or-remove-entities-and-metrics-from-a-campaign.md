@@ -40,15 +40,15 @@ Adding an entity to the campaign automatically adds metrics that match the campa
 
 6.  Add or remove records.
 
-<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40181e152">
+<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40197e152">
 
 Option
 
-</th><th align="left" id="d40181e155">
+</th><th align="left" id="d40197e155">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d40181e161">
+</th></tr></thead><tbody><tr><td id="d40197e161">
 
 **Add**
 
@@ -58,7 +58,7 @@ Select **Add**, select the records, and select **Add**.
 
  **Note:** An entity already in another campaign with the same group, frequency, and calendar is not available to select again.
 
-</td></tr><tr><td id="d40181e182">
+</td></tr><tr><td id="d40197e182">
 
 **Remove**
 

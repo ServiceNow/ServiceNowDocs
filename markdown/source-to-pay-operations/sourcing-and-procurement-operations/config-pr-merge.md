@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -116,12 +116,20 @@ Allows you to define conditions to manually merge PRs, based on any of the field
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
 [Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Setting up primary data for ShoppingHub]()
 
@@ -130,6 +138,8 @@ Allows you to define conditions to manually merge PRs, based on any of the field
 [Configuring work prioritization]()
 
 [Add a button in Shopping Hub]()
+
+[Add a footer link in Shopping Hub]()
 
 [Customize your top suppliers on Shopping Hub]()
 

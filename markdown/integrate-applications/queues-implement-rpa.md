@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/queues-i
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
@@ -40,10 +40,6 @@ The State transition of a work item guides you through the stages of its life cy
     This robot can also release this work item by partially processing it, so that other robots can pick it. This process is performed by the input in the **ReleaseMode** field, in the **UpdateWorkItem** component.
 
 6.  After the robot completes the processing, it updates the work item to complete using the **UpdateWorkItem** component and picks the next work item that is Step 2.
-
-The following diagram shows the lifecycle of work items \(WI\) in RPA Hub application.
-
-
 
 -   **[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md)**  
 Create a queue in RPA Hub to manage the work items that you want the robot to process.

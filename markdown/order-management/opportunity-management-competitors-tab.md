@@ -124,8 +124,6 @@ Internal-only notes for product, sales, or design follow-up.
     The competitor information is added to the main opportunity.
 
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

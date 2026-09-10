@@ -87,7 +87,7 @@ pipeline {
 
 ## Change requests in nested and parallel stages
 
-Change requests are created for all nested and parallel stages, once all upstream events \(prior to the change request\) are received. In previous releases, nested or parallel stages in Jenkins pipelines were not identified nor processed in ServiceNow DevOps. Only parent stages were identified and processed in a linear or sequential manner. If change requests existed as part of any nested and parallel stages, those change requests were ignored and a single change request was processed as part of the parent stage. When you run a new pipeline after upgrading, new steps and steps executions are created for nested stages.
+Change requests are created for all nested and parallel stages, once all upstream events \(before the change request\) are received. In previous releases, nested or parallel stages in Jenkins pipelines were not identified nor processed in ServiceNow DevOps. Only parent stages were identified and processed in a linear or sequential manner. If change requests existed as part of any nested and parallel stages, those change requests were ignored and a single change request was processed as part of the parent stage. When you run a new pipeline after upgrading, new steps and steps executions are created for nested stages.
 
 Nested and parallel stages were not processed previously, and approval groups were mapped only to the parent stage. Because nested and parallel stages are identified during processing, you must verify that relevant approval groups are mapped to the appropriate nested or parallel stage. If subsequent steps of the pipeline are dependent on the change request's being approved, the pipeline execution is paused, and resumed when the change request is approved.
 

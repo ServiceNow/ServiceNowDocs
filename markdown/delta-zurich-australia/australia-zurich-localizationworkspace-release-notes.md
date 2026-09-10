@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-localizationworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -98,14 +98,6 @@ Australia
 
 </td><td>
 
--   **[Guided tours in the Localization Workspace interface](https://www.servicenow.com/docs/access?context=lw-language-setup&family=australia&ft:locale=en-US)**
-
-Leverage new guided tours that assist users with setting up language providers and language groups.
-
--   **[Language Asset Management](https://www.servicenow.com/docs/access?context=lw-language-asset-management&family=australia&ft:locale=en-US)**
-
-Upload, store, and edit multiple glossaries in the new **Language Asset Management** tab of Localization Workspace. Each glossary can include terms translated into multiple languages. In the Australia release, Language Asset Management provides upload, storage, and editing functions only.
-
 -   **[Export a glossary from Language Asset Management](https://www.servicenow.com/docs/access?context=lw-lam-export-glossary&family=australia&ft:locale=en-US)**
 
 Download a glossary from Language Asset Management as a CSV or spreadsheet file. From version 3.1.0.
@@ -134,7 +126,12 @@ Zurich
 
 </td><td>
 
--   **[Dynamic artifact detection](https://www.servicenow.com/docs/access?context=lw-dynamic-artifact-detection&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Dynamic artifact detection](https://www.servicenow.com/docs/access?context=lw-dynamic-artifact-detection&family=zurich&ft:locale=en-US)**
 
 Dynamic artifact detection enables Localization Workspace to identify all translatable content, including your custom artifacts. From version 1.1.0.
 
@@ -239,7 +236,10 @@ Zurich
 
 </td><td>
 
-Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). 
+-   **Activation information**
+
+Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -247,7 +247,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -326,7 +329,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

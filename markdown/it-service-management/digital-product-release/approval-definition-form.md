@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-31"
+reading_time_minutes: 2
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
@@ -50,6 +50,7 @@ Approver source
 
 Source of the user or group who approves the tasks.-   **Approval Definition**: Selects a specific user or group.
 -   **Digital Product**: Selects the user or group determined dynamically through a user reference field from the Application Models \[cmdb\_application\_product\_model\] table.
+-   **Release Task**: Selects the user or group determined dynamically through a user reference field from the Release Task \[sn\_dpr\_model\_release\_task\] table or, by dot-walking, from the Release \[sn\_dpr\_model\_release\] table.
 -   **Service**: Selects the user or group determined dynamically through a user reference field from the Service Models \[cmdb\_service\_product\_model\] table.
 
 </td></tr><tr><td>

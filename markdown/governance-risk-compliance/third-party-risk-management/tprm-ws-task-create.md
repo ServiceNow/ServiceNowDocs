@@ -44,5 +44,7 @@ Monitor and manage the task as work progresses, including updating its state and
 
 [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)
 
+[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
+
 [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md)
 

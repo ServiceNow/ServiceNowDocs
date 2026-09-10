@@ -1,16 +1,16 @@
 ---
-title: Create Partnerships on the CSM Configurable Workspace
+title: Create Partnerships on the CRM Workspace
 description: With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-partnerships-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
-# Create Partnerships on the CSM Configurable Workspace
+# Create Partnerships on the CRM Workspace
 
 With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
 

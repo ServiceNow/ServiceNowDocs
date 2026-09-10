@@ -32,8 +32,6 @@ Role required: agent
 
     A Knowledge \(KB\) article is generated.
 
-
-
 4.  View the draft article by selecting the **View KB article** link in the chat window.
 
     The article appears in a new tab, with a unique ID number for the article.
@@ -42,13 +40,9 @@ Role required: agent
 
 6.  View, edit, and publish the article by using the respective buttons on the screen.
 
-7.  Provide feedback on whether the article is helpful or not by selecting the liked icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Liked icon.\) or the not liked icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not Liked icon.\).
-
-    \[Omitted image "KB-gen-article-feedback-NAP.png"\] Alt text: KB article feedback in the panel.
+7.  Provide feedback on whether the article is helpful or not by selecting the liked icon or the not liked icon .
 
 8.  To create an article without opening the case or incident, enter the task number directly in the panel and follow the same steps.
-
-    \[Omitted image "Gen-KB-article-from-NApanel.png"\] Alt text: Generate KB article from the ServiceNow Otto panel.
 
 
 **Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)

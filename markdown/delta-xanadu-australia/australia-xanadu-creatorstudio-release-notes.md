@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-creatorstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -137,18 +137,6 @@ Seamlessly change between development environments using the new experience swit
     -   Creator Studio to get a no-code experience
     -   ServiceNow Studio to get a platform coding experience
     -   ServiceNow IDE to get a pro-code ServiceNow experience
--   **[Test forms with the new Try it button](https://www.servicenow.com/docs/access?context=creator-studio-try-it&family=yokohama&ft:locale=en-US)**
-
-As of Creator Studio version 27.2.2,you can test using published forms through a **Try it** button. After you submit the form, any associated playbooks run and their results appear in the generated record that opens in a new tab within Creator Studio.
-
--   **[Change the table for an app](https://www.servicenow.com/docs/access?context=creator-studio-admin-app-table&family=yokohama&ft:locale=en-US)**
-
-As of Creator Studio version 27.2.2, admins can change the table where data from apps built in Creator Studio is saved.
-
--   **[Seamlessly open apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=view-apps-creator-studio-home-page&family=yokohama&ft:locale=en-US)**
-
-As of Creator Studio version 27.2.2, you can open an app in ServiceNow Studio to make additional, more complicated edits by selecting an **Open with ServiceNow Studio** link from the app's tile on the Creator Studio home page.
-
 
 </td></tr><tr><td>
 
@@ -217,17 +205,13 @@ Yokohama
 
 </td><td>
 
--   **[Playbooks use only published forms](https://www.servicenow.com/docs/access?context=creator-studio-add-automation&family=yokohama&ft:locale=en-US)**
+-   **[Search for apps on the home page](https://www.servicenow.com/docs/access?context=view-apps-creator-studio-home-page&family=yokohama&ft:locale=en-US)**
 
-As of Creator Studio version 27.2.2, forms must now be published \(marked as ready\) before you can use them to create an automated playbook.
+Quickly find the app that you're looking for using the new search bar on the Creator Studio home page.
 
--   **[Hide the App Engine Studio template with a new system property](https://www.servicenow.com/docs/access?context=creator-studio-components-installed&family=yokohama&ft:locale=en-US)**
+-   **[Save and quickly find apps with bookmarks](https://www.servicenow.com/docs/access?context=crs-work-with-bookmarked-apps&family=yokohama&ft:locale=en-US)**
 
-As of Creator Studio version 27.2.2, Creator Studio users who have both App Engine Studio \(AES\) and Creator Studio installed will no longer see the AES template when they create an app. Admins can choose to show the AES template using the new **com.glide.creator\_studio.template\_deny\_list** system property.
-
--   **[Form location removed from form creation](https://www.servicenow.com/docs/access?context=creator-studio-edit-form-settings&family=yokohama&ft:locale=en-US)**
-
-Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
+Bookmark apps to find them faster using the new **Bookmarks** pill on the home page.
 
 
 </td></tr><tr><td>
@@ -369,7 +353,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -377,7 +364,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -385,7 +375,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -414,7 +407,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have the App Engine Enterprise license to use Creator Studio.
+
 
 </td></tr><tr><td>
 
@@ -422,7 +418,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have the App Engine Enterprise license to use Creator Studio.
+
 
 </td></tr><tr><td>
 
@@ -430,7 +429,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to Creator Studio.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -517,12 +519,14 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
+For more information, see [Dark mode in Creator Studio](https://www.servicenow.com/docs/access?context=crs-enabling-dark-mode&family=zurich&ft:locale=en-US).
 
- For more information, see [Dark mode in Creator Studio](https://www.servicenow.com/docs/access?context=crs-enabling-dark-mode&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -530,12 +534,14 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 The following updates were made to support accessibility:
 
--   Form elements now have accurate interactive ARIA roles, enabling screen readers to identify and announce them accurately.
--   Rich text area and form elements are now accurately labeled so screen readers can announce them correctly when focused.
--   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
--   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
+    -   Form elements now have accurate interactive ARIA roles, enabling screen readers to identify and announce them accurately.
+    -   Rich text area and form elements are now accurately labeled so screen readers can announce them correctly when focused.
+    -   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
+    -   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
 
 </td></tr></tbody>
 </table>## Localization information

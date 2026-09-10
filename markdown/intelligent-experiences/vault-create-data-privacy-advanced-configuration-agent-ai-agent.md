@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Create Data Privacy advanced configuration AI agent
@@ -100,7 +100,7 @@ Fetch active data privacy policy configuration for data channel
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -108,7 +108,7 @@ data\_privacy\_admin, virtual\_agent\_data\_privacy\_admin, data\_kit\_data\_pri
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

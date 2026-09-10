@@ -92,6 +92,8 @@ The indicators on the Usage and adoption dashboard page provide the following in
 
     \[Omitted image "naa-feedback-details.png"\] Alt text: Feedback details indicator.
 
+    For more information on granular feedback data and the analytics data model, see [Granular Feedback and Analytics in Now Assist Virtual Agent](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3060968) on Now Support.
+
 -   **Error details**
 
     This area of the dashboard shows the number of AI actions and the number of AI actions resulting in errors.

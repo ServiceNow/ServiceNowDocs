@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/autonomous-supervised.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 breadcrumb: [Explore, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

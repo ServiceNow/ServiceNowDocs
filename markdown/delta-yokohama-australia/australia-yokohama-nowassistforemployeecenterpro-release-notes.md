@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforemployeecenterpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -54,7 +54,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -246,7 +249,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [\[Placeholder link text to key ecpro-plugins\]](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

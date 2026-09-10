@@ -1,17 +1,17 @@
 ---
-title: Create a journal entry
+title: Create a manual journal entry
 description: Create, validate, and submit journal entries for month-end account closing. The workflow verifies that debit and credit amounts balance before entries reach governance and approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-use-journal-entry.html
 release: australia
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-keywords: [app, engine, erp, sap, rapid, deployment, pack, approval, hub]
-breadcrumb: [Use, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [month-end close, month end close, month, end, close, app, engine, sap, erp, rapid, deployment, pack, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Use, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Create a journal entry
+# Create a manual journal entry
 
 Create, validate, and submit journal entries for month-end account closing. The workflow verifies that debit and credit amounts balance before entries reach governance and approval.
 
@@ -20,7 +20,7 @@ Create, validate, and submit journal entries for month-end account closing. The 
 -   You must have access to create journal entries.
 -   Prepare a general ledger \(GL\) entry file containing the journal lines. The file typically includes the account code, debit amount, credit amount, description, and optional reference fields.
 
-Role required: An MDM Orchestrator journal entry role. \(For more information, see [Roles used in App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator journal entry role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -45,5 +45,5 @@ Role required: An MDM Orchestrator journal entry role. \(For more information, s
 
 The approver reviews the request. For the approval steps, see [Approve or reject requests in Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approve-request.md). After approval, the journal entry is posted to the GL in the connected ERP system. If rejected, the task returns to the creator with a rejection reason for correction and resubmission.
 
-**Parent Topic:**[Using App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
 

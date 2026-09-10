@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 breadcrumb: [Generating project analysis, Use, Task Mining, Platform Analytics]
 ---

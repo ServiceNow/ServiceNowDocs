@@ -1,6 +1,6 @@
 ---
 title: Google Cloud Platform \(GCP\) Cloud Functions discovery using patterns
-description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Cloud Functions pattern to discover Cloud Functions in a Google Cloud Platform \(GCP\) deployment during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Cloud Functions pattern to discover Cloud Functions in a Google Cloud Platform \(GCP\) deployment during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-functions-patterns.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patter
 
 # Google Cloud Platform \(GCP\) Cloud Functions discovery using patterns
 
-Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Cloud Functions pattern to discover Cloud Functions in a Google Cloud Platform \(GCP\) deployment during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Cloud Functions pattern to discover Cloud Functions in a Google Cloud Platform \(GCP\) deployment during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 

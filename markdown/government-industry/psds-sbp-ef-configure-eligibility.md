@@ -1,6 +1,6 @@
 ---
 title: Configure Eligibility Rules Engine Policies in Social Benefits Playbook
-description: Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.Create an eligibility policy using Social Benefits Playbook Eligibility Rules Engine​.For a eligibility policy to be invoked correctly, it must be mapped to an existing benefit model. Map a published eligibility policy to one or more of the social benefit types that your agency offers.Update an eligibility policy in the Social Benefits Eligibility Framework Engine.Make changes to the policy logic in the Social Benefits Eligibility Framework Engine. The Policy Builder tab allows an admin to test new logic parameters through the test playground.You can edit the mapping settings that map a policy to a benefit model.Create eligibility policy templates for the Social Benefits Playbook policy forms that you use frequently.Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
+description: Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CRM Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.Create an eligibility policy using Social Benefits Playbook Eligibility Rules Engine​.For a eligibility policy to be invoked correctly, it must be mapped to an existing benefit model. Map a published eligibility policy to one or more of the social benefit types that your agency offers.Update an eligibility policy in the Social Benefits Eligibility Framework Engine.Make changes to the policy logic in the Social Benefits Eligibility Framework Engine. The Policy Builder tab allows an admin to test new logic parameters through the test playground.You can edit the mapping settings that map a policy to a benefit model.Create eligibility policy templates for the Social Benefits Playbook policy forms that you use frequently.Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-ef-configure-eligibility.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Configure Eligibility Rules Engine, Social Benefits Playbook, Playb
 
 # Configure Eligibility Rules Engine Policies in Social Benefits Playbook
 
-Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.
+Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CRM Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.
 
-You can define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CSM Configurable Workspace.
+You can define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CRM Workspace.
 
-\[Omitted image "psds\_sbp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CSM Configurable Workspace
+\[Omitted image "psds\_sbp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CRM Workspace
 
 Here, you can:
 
@@ -42,7 +42,7 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **All Policies** &gt; **New**.
 
@@ -236,7 +236,7 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **Mappings** &gt; **Static Mappings** &gt; **New**.
 
@@ -261,21 +261,21 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **All Policies**, and select the policy name.
 
 3.  Do one of the following, depending on what information you want to update.
 
-<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d47646e823">
+<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d47667e823">
 
 Select...
 
-</th><th align="left" id="d47646e826">
+</th><th align="left" id="d47667e826">
 
 To...
 
-</th></tr></thead><tbody><tr><td id="d47646e832">
+</th></tr></thead><tbody><tr><td id="d47667e832">
 
 **Select the Details tab.**
 
@@ -283,7 +283,7 @@ To...
 
 Edit details such as the policy name, category, date, and description.
 
-</td></tr><tr><td id="d47646e841">
+</td></tr><tr><td id="d47667e841">
 
 **Select the Policy Builder tab.**
 
@@ -291,7 +291,7 @@ Edit details such as the policy name, category, date, and description.
 
 Make changes to the policy logic, and switch between versions to take various actions at the version level. **Note:** Published versions of policies cannot be updated. To make changes to the logic of an existing policy, select **Create a copy** to create a new version of the existing policy that can be updated accordingly.
 
-</td></tr><tr><td id="d47646e855">
+</td></tr><tr><td id="d47667e855">
 
 **Select the Version Management tab.**
 
@@ -299,7 +299,7 @@ Make changes to the policy logic, and switch between versions to take various ac
 
 Manage different versions of a policy.
 
-</td></tr><tr><td id="d47646e864">
+</td></tr><tr><td id="d47667e864">
 
 **Select the Mappings tab.**
 
@@ -307,7 +307,7 @@ Manage different versions of a policy.
 
 Update or review the benefits to which the given policy is mapped.
 
-</td></tr><tr><td id="d47646e874">
+</td></tr><tr><td id="d47667e874">
 
 **Select the Executions tab.**
 
@@ -327,7 +327,7 @@ Role required: admin
 
 #### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
 
 2.  Select the policy name, and select the **Policy Builder** tab.
 
@@ -360,7 +360,7 @@ Role required: admin
 
 #### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
 
 2.  Select the policy name for the policy that you want to update, and select the **Mappings** tab.
 
@@ -381,7 +381,7 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Navigate to **Templates** &gt; **All Templates**.
 
@@ -498,7 +498,7 @@ Role required: admin
 
 #### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
 
 2.  Select **New**.
 

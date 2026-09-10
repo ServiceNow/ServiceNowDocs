@@ -1,9 +1,9 @@
 ---
 title: Legal Virtual Agent Conversations release notes
-description: The ServiceNow Legal Virtual Agent Conversations application uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.
+description: The ServiceNow Legal Virtual Agent Conversations application uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.The ServiceNow Legal Virtual Agent Conversations application uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,17 @@ reading_time_minutes: 1
 
 The ServiceNow® Legal Virtual Agent Conversations application uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.
 
-## Plugin information
+## About Legal Virtual Agent Conversations
+
+## Activation and other requirements
+
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
+
+## Australia
+
+The ServiceNow® Legal Virtual Agent Conversations application uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.
+
+### Plugin information
 
 -   **Deprecated plugins**
 
@@ -20,6 +30,4 @@ The ServiceNow® Legal Virtual Agent Conversations application uses machine-lear
 
     [Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
 
-
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
 

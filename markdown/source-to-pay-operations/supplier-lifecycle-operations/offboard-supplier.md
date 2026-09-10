@@ -31,7 +31,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 3.  On the Create New Supplier Case form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  From the **Case type** field, **Offboard a supplier**.\[Omitted image "supplier-offboard-source-to-pay-workspace.png"\] Alt text: Selected dropdown option for offboarding a supplier.
 

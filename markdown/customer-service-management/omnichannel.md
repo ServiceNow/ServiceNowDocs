@@ -57,5 +57,5 @@ The following omnichannel workflow example shows how Alex, a customer service ma
 **Related topics**  
 
 
-[Configure Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
+[Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
 

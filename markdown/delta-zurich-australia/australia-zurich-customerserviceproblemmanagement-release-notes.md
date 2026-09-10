@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customerserviceproblemmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Components](https://www.servicenow.com/docs/access?context=spm-components&family=zurich&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
-
-
 -   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
 
 Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
@@ -87,8 +82,6 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
-
 -   **[Service Problem case record page](https://www.servicenow.com/docs/access?context=service-problem-case-record-page&family=australia&ft:locale=en-US)**
 
 Access account context and diagnostics in one workspace without navigating away from the case View using Service Problem Case record view. You can also view the Customer 360 data with broader account context.
@@ -98,9 +91,7 @@ Access account context and diagnostics in one workspace without navigating away 
 Record the analysis of a dispute using the hierarchy of product, category, subcategory, and reason in the dispute analysis record. You can record the these details in the Resolution and dispute analysis stage of the CDM playbook. This gives you much clearer visibility into why disputes happen and where to focus process improvements.
 
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[Preliminary troubleshooter](https://www.servicenow.com/docs/access?context=now-assist-tmt-preliminary-troubleshooter-agentic-workflow&family=australia&ft:locale=en-US)**
+ -   **[Preliminary troubleshooter](https://www.servicenow.com/docs/access?context=now-assist-tmt-preliminary-troubleshooter-agentic-workflow&family=australia&ft:locale=en-US)**
 
 Processes task requests that require payment status, contextual information from similar cases and Knowledge Base articles.
 
@@ -109,9 +100,7 @@ Processes task requests that require payment status, contextual information from
 Runs the test groups that are mapped to a task and creates repair tasks for the failed test runs. This workflow also updates the consolidated summary in work notes and runs autonomously in the background without any user interaction.
 
 
-Australia Early Availability
-
--   **[Customer Dispute Management](https://www.servicenow.com/docs/access?context=alternative-dispute-resolution&family=australia&ft:locale=en-US)**
+ -   **[Customer Dispute Management](https://www.servicenow.com/docs/access?context=alternative-dispute-resolution&family=australia&ft:locale=en-US)**
 
 Use the CDM case type to capture complete case details and manage investigations and resolutions while enforcing Service Level Agreement \(SLA\) compliance. You can also maintain audit and Root Cause Analysis \(RCA\) history and generate deadlock letters for customer or partner communication.
 
@@ -151,7 +140,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -159,9 +151,14 @@ Australia
 
 </td><td>
 
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+-   **[Diagnose and resolve a service problem case](https://www.servicenow.com/docs/access?context=work-on-service-problem-case&family=australia&ft:locale=en-US)**
 
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+A refresh button is added to the Repair stage in the Service Problem Case.
+
+
+ -   **[Service Problem case record page](https://www.servicenow.com/docs/access?context=service-problem-case-record-page&family=australia&ft:locale=en-US)**
+
+New icons on the Service Problem case record for toggling between the playbook and record page views. Customer 360 tab is added to the Service Problem Case record page.
 
 
 </td></tr></tbody>
@@ -241,7 +238,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Service Problem Management and Service Test Management by requesting it from the ServiceNow® Store.
+
 
 </td></tr><tr><td>
 
@@ -249,7 +249,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Service Problem Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -278,7 +281,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -328,7 +334,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

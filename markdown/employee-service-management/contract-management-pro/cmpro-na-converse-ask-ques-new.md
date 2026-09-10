@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Conversational contract search and insights Workflow, Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use conversational contract search and insights, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Search in contracts document
@@ -18,11 +18,15 @@ Ask question in the ServiceNow Otto panel to search for information in the conte
 
 ## Before you begin
 
+The Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\) must be installed to use AI capabilities.
+
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 ## About this task
 
-Conversational search enables you to find information by searching within the contract documents. By default the search results display the following columns:
+Conversational search enables you to find information by searching within the contract documents. The system displays up to 20 document search results initially. If more results are available, select the **Show more** option to load additional batches of 20 results.
+
+By default the search results display the following columns:
 
 -   Document: Document name in which content is found
 -   Number: Contract number
@@ -37,7 +41,7 @@ Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_c
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
-For feature limitations, see [Explore ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
+For feature limitations, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 ## Procedure
 
@@ -49,7 +53,13 @@ For feature limitations, see [Explore ServiceNow Otto for Contract Management Pr
 
 3.  Select **Show** to view the search results.
 
-4.  Export the search results.
+    The system displays up to 20 document search results initially.
+
+4.  Load additional search results if available.
+
+    If more than 20 results are available, select **Show more** to load additional batches of 20 results. Each batch includes AI reasoning and clause attribution. Continue selecting **Show more** until all matching results are displayed.
+
+5.  Export the search results.
 
     The export includes all search results, not just the results currently displayed on screen.
 
@@ -61,13 +71,13 @@ For feature limitations, see [Explore ServiceNow Otto for Contract Management Pr
 
     4.  Select **Export**.
 
-5.  View contract details.
+6.  View contract details.
 
     1.  Select CNTR number to view the contract details.
 
     2.  Select **Open request** to open the contract record.
 
-6.  View contract document and search within it.
+7.  View contract document and search within it.
 
     The Document, Summary and Section details columns are available only when the search is performed within the contract document.
 
@@ -79,6 +89,8 @@ For feature limitations, see [Explore ServiceNow Otto for Contract Management Pr
 
         \[Omitted image "cmpro-na-converse-docview.png"\] Alt text: View and search in the document
 
-7.  Navigate to the Summary and Section columns to view the AI generated summary for the search and to view the specific section where the search result was found.
+8.  Navigate to the Summary and Section columns to view the AI generated summary for the search and to view the specific section where the search result was found.
 
+
+**Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
 

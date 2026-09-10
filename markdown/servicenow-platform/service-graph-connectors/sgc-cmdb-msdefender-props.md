@@ -36,7 +36,7 @@ sn\_defender\_integ.pagination\_record\_count
 
 </td><td>
 
-Enter the maximum number of rows fetched in the List machines API response from the machine resource type.-   Type: integer
+Set the maximum number of rows to be fetched in the List machines API response from the machine resource type.-   Type: integer
 -   Default value: `500`
 -   Location: System Property \[sys\_properties\] table
 

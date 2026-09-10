@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Quote Experience, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # Quote Management integration with Contract Management Pro

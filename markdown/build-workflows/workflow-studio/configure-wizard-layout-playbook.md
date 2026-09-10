@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 2
-breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure a Wizard layout playbook
@@ -38,7 +38,7 @@ Use a wizard layout when end users benefit from explicit guidance through a mult
 
 2.  Go to UI Builder, and create or open an Experience to host the playbook so end users can access it from the Playbook Experience, and create a page.
 
-    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md).
+    For more information, see .
 
 3.  Open the page that you created, and then in the panel select **Add content**.
 

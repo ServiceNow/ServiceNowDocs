@@ -1,6 +1,6 @@
 ---
 title: View the Event Management self-health application services map
-description: You can view Event Management application services maps to have a visualization of the data on configuration items \(CIs\) that comprise this service, and the relations and connections between these CIs.
+description: You can view Event Management application services maps to visualize configuration items \(CIs\) that comprise this service. The maps show the relations and connections between these CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-self-health-manual-service.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Self-health monitors for Event Management, Manage and monitor alert
 
 # View the Event Management self-health application services map
 
-You can view Event Management application services maps to have a visualization of the data on configuration items \(CIs\) that comprise this service, and the relations and connections between these CIs.
+You can view Event Management application services maps to visualize configuration items \(CIs\) that comprise this service. The maps show the relations and connections between these CIs.
 
 ## Before you begin
 

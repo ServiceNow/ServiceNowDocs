@@ -27,7 +27,7 @@ Use AI in FSO to do the following:
 
 For a full list of all AI skills, AI agents, and agentic workflows in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md).
 
-Other AI features and skills are also available in ServiceNow Otto and ServiceNow Otto for Customer Service Management. For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and .
+Other AI features and skills are also available in ServiceNow Otto and ServiceNow Otto for Customer Service Management. For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 

@@ -21,7 +21,7 @@ The following tables describe the application dependencies required for Operatio
 
 For a full view of your OT device data and its management, you need the applications and features in the following table.
 
-**Note:** OT licenses for Operational Technology Service Management \(OTSM\) apply to OTSM, not ITSM.
+**Note:** OT licenses for Operational Technology Service Management \(OTSM\) apply to OTSM, not ITSM. For more information, see the [OT Dependencies \[KB3146763\] article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146763) in the Now SupportKnowledge Base.
 
 <table><thead><tr><th>
 

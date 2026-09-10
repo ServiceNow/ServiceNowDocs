@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-syntheticmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 If you want to run monitors using a MID Server as a location, you must restart the MID Server after upgrading.
+
 
 </td></tr><tr><td>
 
@@ -118,18 +121,6 @@ Zurich
 
 </td><td>
 
--   **[MID Server support for running synthetic monitors](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
-
-Run synthetic monitors from your MID Server.
-
--   **[HTTP endpoint creation directly in synthetic monitoring](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
-
-Create HTTP endpoints for your monitors without leaving the SOW.
-
--   **[Support groups for synthetic monitor-based alerts](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
-
-Assign a support group to a monitor, and then any raised alerts follow the associated alert automation rules.
-
 -   **[View all monitors with open alerts](https://www.servicenow.com/docs/access?context=identifying-system-issues&family=zurich&ft:locale=en-US)**
 
 As of 1.4, view all monitors with open alerts.
@@ -182,7 +173,15 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Overview and detail pages in SOW](https://www.servicenow.com/docs/access?context=identifying-system-issues&family=yokohama&ft:locale=en-US).**
+
+Create view and manage your synthetic monitors on the overview and detail pages.
+
+As of version 1.2, the following UI enhancements are available:
+
+    -   Improved filtering for finding your endpoints.
+    -   Bulk editing of monitors.
+    -   Charts on the Overview page now display failures instead of successes.
 
 </td></tr><tr><td>
 
@@ -190,7 +189,28 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Configuration tab removed](https://www.servicenow.com/docs/access?context=view-test-details&family=zurich&ft:locale=en-US)**
+
+In version 1.4, the **Configuration** tab on the Monitor Details page has been removed. You can access this information from the **Details** tab.
+
+-   **[Landing page updates](https://www.servicenow.com/docs/access?context=view-aggregat-monitor-information&family=zurich&ft:locale=en-US)**
+
+In version 1.4, these changes were made to the landing page:
+
+    -   New open alerts filter
+    -   New Open alerts column in the Monitors table
+-   **[New Alerts tab on the Monitor Details page](https://www.servicenow.com/docs/access?context=view-alerts-for-a-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+In version 1.4, you can view all alerts for a monitor or filter by open alerts.
+
+-   **[New Alert column in the Monitor result history table on the Details tab](https://www.servicenow.com/docs/access?context=view-a-monitor-s-test-results&family=zurich&ft:locale=en-US)**
+
+In version 1.4, you can see open alerts for any tests the monitor has run.
+
+-   **[Tag field on the Create Monitor page](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+In version 1.4, you can add tags when configuring alerts for monitors.
+
 
 </td></tr><tr><td>
 
@@ -317,7 +337,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -325,7 +348,10 @@ Zurich
 
 </td><td>
 
-Install synthetic monitoring by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -362,14 +388,16 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
+    -   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 
--   Add CIs in the CMDB for the endpoints that you want to monitor.
--   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
+    -   Add CIs in the CMDB for the endpoints that you want to monitor.
+    -   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
 
 </td></tr><tr><td>
 
@@ -467,7 +495,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

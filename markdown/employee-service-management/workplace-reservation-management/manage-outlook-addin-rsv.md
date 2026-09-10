@@ -26,7 +26,10 @@ Workplace Reservation Management administrators can enable the Reservable module
 
 Employees can perform the following using Workplace Reservation Management 3.0.2.
 
-**Note:** Shift-based, Reservable Modules aren’t supported for Microsoft Outlook add-in reservations. Group and recurring reservations are also not supported.
+**Note:**
+
+-   Shift-based, Reservable Modules aren’t supported for Microsoft Outlook add-in reservations. Group and recurring reservations are also not supported.
+-   Microsoft Outlook add-in is not supported when Calendar Sync integration mode is set to Strict.
 
 -   Create reservations using a Reservable Module \(for example Meeting rooms\).
 -   Create reservations for multi-building and recurring reservations.

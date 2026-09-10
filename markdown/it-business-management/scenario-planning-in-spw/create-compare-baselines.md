@@ -1,6 +1,6 @@
 ---
 title: Create and compare financial baselines
-description: Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs against the actual expenses.
+description: Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs with the actual expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-compare-baselines.html
 release: australia
@@ -14,7 +14,11 @@ breadcrumb: [Manage financials for planning items, Portfolio Planning in Strateg
 
 # Create and compare financial baselines
 
-Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs against the actual expenses.
+Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs with the actual expenses.
+
+## About this task
+
+\[Omitted video\] Description: Create and compare financial baselines
 
 ## Before you begin
 
@@ -30,15 +34,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 4.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d287462e94">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d297716e119">
 
 Option
 
-</th><th align="left" id="d287462e97">
+</th><th align="left" id="d297716e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287462e103">
+</th></tr></thead><tbody><tr><td id="d297716e128">
 
 **Create a baseline**
 
@@ -55,7 +59,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d287462e153">
+</td></tr><tr><td id="d297716e178">
 
 **Compare baselines**
 

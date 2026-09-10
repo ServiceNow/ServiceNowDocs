@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-02-06"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Set up AI agents

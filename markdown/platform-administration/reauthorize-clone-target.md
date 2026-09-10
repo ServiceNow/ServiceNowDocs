@@ -1,18 +1,18 @@
 ---
 title: Reset OAuth for a clone target
-description: Reset OAuth to reauthorize the target instance if a clone request fails due to authentication issues.
+description: Reset OAuth authentication for a clone target if you receive an authentication error on the clone request form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/reauthorize-clone-target.html
 release: australia
 topic_type: task
 last_updated: "2026-06-10"
 reading_time_minutes: 1
-breadcrumb: [Register instance, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Reset OAuth for a clone target
 
-Reset OAuth to reauthorize the target instance if a clone request fails due to authentication issues.
+Reset OAuth authentication for a clone target if you receive an authentication error on the clone request form.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Roles required:
 
 ## About this task
 
-If a clone request fails due to any errors or authentication issues, the Clone Admin Console displays an Authenticate dialog with the option to reset OAuth. Resetting OAuth reauthorizes the target instance so you can retry the clone request.
+If you receive an authentication error on the clone request form, the Clone Admin Console displays an Authenticate dialog with the option to reset OAuth. Resetting OAuth reauthorizes the target instance.
 
 ## Procedure
 

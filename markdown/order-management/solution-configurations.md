@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-26"
 reading_time_minutes: 3
 keywords: [solution configuration, CPQ, blueprints, solution root]
-breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # Solution configurations

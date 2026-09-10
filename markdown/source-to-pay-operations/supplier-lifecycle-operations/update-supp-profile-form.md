@@ -1,5 +1,5 @@
 ---
-title: Update profile details form
+title: Fields in the Update profile details form
 description: Use the Update profile details form to update the details of the company profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Update profile details form
+# Fields in the Update profile details form
 
 Use the Update profile details form to update the details of the company profile.
 
@@ -147,17 +147,17 @@ Additional information about the company.
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

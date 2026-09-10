@@ -158,7 +158,7 @@ check-rabbitmq-queue-drain-time
 
 </td><td>
 
-Verifies the time it will take for each queue on the RabbitMQ server to drain, based on the current message exit rate.For example, if a queue has 1,000 messages in it but only 1 message exits per second, an alert generates because the default critical level of 360 seconds has been exceeded.
+Verifies the time it will take for each queue on the RabbitMQ server to drain, based on the current message exit rate.For example, if a queue has 1,000 messages in it but only 1 message exits per second, an alert generates. The default critical level of 360 seconds has been exceeded.
 
 </td><td>
 

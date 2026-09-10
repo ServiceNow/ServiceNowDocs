@@ -29,7 +29,7 @@ The following sections highlight how a conversation powered by generative AI mig
 
 The following figure shows an example of the beginning of a new conversation.
 
-\[Omitted image "single-turn-example1.png"\] Alt text: ServiceNow Otto greeting in the Virtual Agent chat widget. The user entered "new email."
+\[Omitted image "single-turn-example1-otto.png"\] Alt text: ServiceNow Otto greeting in the Virtual Agent chat widget. The user entered "new email."
 
 <table id="table_zk1_t2w_jzb"><thead><tr><th>
 
@@ -147,13 +147,9 @@ If external search sources are added to your information sources when [Configuri
 
 For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
-\[Omitted image "NAinVA-external-search-source-citation.png"\] Alt text: Response from external content with link to its source.
-
 ## People citations
 
 Information about people in your organization can be found if you have activated Knowledge Graph. Information about the person you're searching for appears in the synthesized response, along with an in-line numbered citation and people citation in the **Sources** section. If a direct match doesn't occur and multiple people are found, try providing more information to narrow down the people search results. Up to three people can appear in a synthesized response. You may be asked a clarifying question, such as `Are you asking about [user_1], the programmer, or [user_2], the faculty member?` to yield better results. Selecting the person's name in the **Sources** section redirects you to the portal's user profile landing page.
-
-\[Omitted image "NAVA-standard-chat-people-citation.png"\] Alt text: People citation appears as an in-line number and also within the Sources section.
 
 Selecting the person's inline numbered citation presents a popover. The information in the popover can include the following information:
 
@@ -168,8 +164,6 @@ Selecting the person's inline numbered citation presents a popover. The informat
 
     **Important:** Shared Microsoft SharePoint files between you and the person found appear only on the people popover. These shared files only appear after you have completed the prompt to **Log in**, signed in successfully, and have entered a new search query for that person. A new search query is necessary after you have signed in so that up to three shared Microsoft SharePoint files can appear. You’re automatically logged out of your Microsoft account every three months and must repeat the **Log in** prompt again to see shared files.
 
-
-\[Omitted image "NAVA-standard-chat-people-citation-card.png"\] Alt text: People popover card appears when selecting Alissa Mountjoy and presents information about Alissa.
 
 Although rare, when you receive a synthesized response that includes a person, you may also receive other citations associated with that person. For example, a Knowledge Base article that was authored by the person you searched for may also appear.
 

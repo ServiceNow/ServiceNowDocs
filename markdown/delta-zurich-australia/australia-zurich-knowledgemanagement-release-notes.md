@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-knowledgemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=zurich&ft:locale=en-US) Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[\[Placeholder link text to key knowledge-article-view-page-workspace\]](https://www.servicenow.com/docs/access?context=knowledge-article-view-page-workspace&family=zurich&ft:locale=en-US)**
+
+Enjoy a better reading experience with the enhanced Knowledge view page in the workspace featuring improved article displays, and effortless access to essential resources. The new responsive design enables smooth navigation and effortless viewing on any device. It automatically adapts to different screen sizes and orientations.
+
 
 </td></tr><tr><td>
 
@@ -186,7 +194,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Knowledge Management is a ServiceNow® feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -273,7 +284,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-retailstrategicportfoliomanagementsuite-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -111,7 +111,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Retail Strategic Portfolio Management Suite playbooks](https://www.servicenow.com/docs/access?context=use-playbooks-spm-retail&family=australia&ft:locale=en-US)**
+
+The **Playbooks** option is available in the L-2 navigation menu of the Project Workspace for retail projects created from a template.
+
+-   **[Project type fields](https://www.servicenow.com/docs/access?context=spmr-project-type-fields&family=australia&ft:locale=en-US)**
+
+New Project Type form fields to mark important dates based on the created project type.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -198,7 +205,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Retail Strategic Portfolio Management Suite by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -227,7 +237,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 The Project Workspace application must be installed before installing the Retail Strategic Portfolio Management Suite.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

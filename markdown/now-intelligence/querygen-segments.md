@@ -14,9 +14,9 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 
-[Segments]() provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance]() "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
+[Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
 
-When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM]() prompt so the model can reuse them to construct accurate queries.
+When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt so the model can reuse them to construct accurate queries.
 
 There are two types of segments:
 

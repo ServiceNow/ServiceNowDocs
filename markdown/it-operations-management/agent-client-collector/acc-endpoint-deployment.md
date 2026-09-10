@@ -31,7 +31,7 @@ Agent Client Collector File-Based Discovery \(FBD\) scans file systems on manage
 -   **[Perform Zscaler remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/zscaler-remediation-concept.md)**  
 If the Zscaler application installed on your Windows or macOS agent is not running efficiently, you can stop and start the app. This process is called **remediation**. Running remediation automatically creates an incident on the agent. You can also view Zscaler statuses on the Zscaler dashboard as a graph.
 -   **[Choose and configure metrics to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-metric-monitors.md)**  
-Metric Intelligence uses data sources that can be monitoring hundreds of metrics for all CIs. Choose for each data source type which details are important for which CIs, and then activate or deactivate the respective monitor type to control the amount of data that is being processed.
+Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI. Activate or deactivate the respective monitor type to control the amount of data that is processed.
 -   **[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md)**  
 Configuration settings affect how metric data is processed. Configuration settings rules override the default metric processing behavior to determine the system actions when an anomaly is detected.
 -   **[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)**  
@@ -42,6 +42,12 @@ Agent Client Collector for Visibility Content \(ACC-VC\) version 1.3.0 supports 
 Determine which edition of software is in use on Windows devices in your environment, to maintain an accurate software inventory. Software products commonly support multiple editions, making it difficult to identify which edition is in use.
 -   **[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
 Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.
+-   **[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)**  
+Agent Client Collector for Visibility \(ACC-VC\) browser extension discovery inventories browser extensions installed on the endpoints in your environment. When an admin-defined signature matches, ACC-VC classifies each extension into a category, such as AI Tools, Productivity, or Security.
+-   **[Software packages categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-software-categorization.md)**  
+Agent Client Collector for Visibility \(ACC-VC\) classifies discovered software packages in your environment into categories. This categorization removes the need to tag software records manually and provides an accurate software inventory.
+-   **[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accvc-package-discovery.md)**  
+Agent Client Collector for Visibility Content \(ACC-VC\) can discover software on Windows, Linux, and macOS endpoints that is not discoverable by traditional ACC-VC checks and policies. ACC-VC uses third-party package managers to track essential tools and development packages for software asset management \(SAM\) and IT asset management \(ITAM\).
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md)
 

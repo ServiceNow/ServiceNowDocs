@@ -1,6 +1,6 @@
 ---
 title: Cloud availability
-description: Check specific ServiceNow data center availability, service degradation, or for interruption.
+description: Check specific ServiceNow datacenter availability, service degradation, or for interruption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/cloud-availability.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [View instance-level availability, Monitor instance performance, Pla
 
 # Cloud availability
 
-Check specific ServiceNow data center availability, service degradation, or for interruption.
+Check specific ServiceNow datacenter availability, service degradation, or for interruption.
 
 The cloud availability is displayed in a world map view with colored status indicators representing the availability of each data center.
 

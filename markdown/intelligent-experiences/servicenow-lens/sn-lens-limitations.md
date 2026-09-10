@@ -38,7 +38,7 @@ Maximum character limit
 
 </td><td>
 
-In the instructions field for the analysis, you can enter up to 500 characters.**Note:** Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
+In the instructions field for the analysis, you can enter up to 500 characters.**Note:** Users with the admin role can increase this limit to up to 5000 characters by navigating to the **sn\_lens\_user\_prompt\_max\_length** system property.
 
 </td></tr><tr><td>
 

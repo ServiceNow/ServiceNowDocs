@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # MID Server AI agents
@@ -23,5 +23,5 @@ This AI agent helps administrators and support personnel diagnose and resolve MI
 -   **[MID upgrade AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-mid-mid-upgrade-ai-agent.md)**  
 This AI agent helps admins diagnose and resolve 'Upgrade Failed' issues on MID Servers by automating the identification, script deployment, error collection, and resolution workflow.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
 

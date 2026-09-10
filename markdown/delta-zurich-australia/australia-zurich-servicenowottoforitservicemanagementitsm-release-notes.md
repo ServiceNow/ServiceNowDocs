@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforitservicemanagementitsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 29
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,11 +38,14 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
 
- The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://www.servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US).
+The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://www.servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US).
 
- Starting with the [Australia Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+Starting with the [Australia Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+
 
 </td></tr><tr><td>
 
@@ -50,17 +53,19 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
 
-1.  Go to **Admin** &gt; **Now Assist admin**.
-2.  Select **Now Assist Skills**.
-3.  Select **Platform**.
-4.  Select **Knowledge**.
-5.  Make sure the knowledge content recommendation skill is active.
+    1.  Go to **Admin** &gt; **Now Assist admin**.
+    2.  Select **Now Assist Skills**.
+    3.  Select **Platform**.
+    4.  Select **Knowledge**.
+    5.  Make sure the knowledge content recommendation skill is active.
+The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
 
- The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
+Starting with the [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
- Starting with the [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 </td></tr></tbody>
 </table>## New features
@@ -80,180 +85,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[Automatically classifying user queries as an incident or a request item](https://www.servicenow.com/docs/access?context=now-assist-itsm-deflection-overview&family=zurich&ft:locale=en-US)**
-
-Receive a personalized catalog item recommendation, rather than generic troubleshooting steps, when your description asks for something new, such as a replacement laptop or new headphones. ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request and tailors the response to match.
-
--   **[Who is on call agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-on-call-usecase&family=zurich&ft:locale=en-US)**
-
-Use the Who is On Call agentic workflow to retrieve on-call roster information for specific shifts, groups, or time periods. The agent provides accurate information to conversationally understand who is on-call.
-
-
--   **[In-form deflection](https://www.servicenow.com/docs/access?context=now-assist-itsm-deflection-overview&family=zurich&ft:locale=en-US)**
-
-In-form deflection enables end users to find resolutions without creating an incident. When a user describes an issue in the **Short description** field, ServiceNow Otto for IT Service Management \(ITSM\) searches the knowledge base and returns relevant solutions tailored to that specific user's context.
-
--   **[Generate change risk assessment answers](https://www.servicenow.com/docs/access?context=generate-change-risk-assessment-answers-now-assist&family=zurich&ft:locale=en-US)**
-
-Generate answers and reasoning for each supported question in a change risk assessment, directly from a change request in Core UI or Service Operations Workspace \(SOW\). This Now Assist skill is turned on by default. When you select Generate Answers, Now Assist reviews the change request, related records, and knowledge articles, and then suggests an answer and a reasoning for each supported question. The Reasoning field explains why Now Assist selected each answer, so you can review and adjust the answers before you submit, or complete the assessment manually. The skill supports Likert-scale questions only. In SOW, this skill is available in version 9.2 or later.
-
--   **[Topics](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-topics&family=zurich&ft:locale=en-US)**
-
-Analyze topic-specific performance and user interaction patterns using the enhanced Topics analytics in the ITSM Virtual Agent dashboard. View detailed per-topic drill-downs showing key performance indicators. Track topic trends and failure rates with sortable columns, and identify areas for improvement.
-
-
--   **[Insights and Opportunities for Incident dashboard](https://www.servicenow.com/docs/access?context=insights-opportunities-incident-dashboard&family=zurich&ft:locale=en-US)**
-
-Automatically cluster incidents into trend categories and get AI-generated summaries of incident patterns, along with insights into SLA performance, sentiment, channel adoption, and geographic distribution using the Insights and Opportunities for Incident dashboard in Service Operations Workspace.
-
-
--   **[Resources](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&family=zurich&ft:locale=en-US)**
-
-Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
-
--   **[Password reset voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=zurich&ft:locale=en-US)**
-
-Use the Password reset with voice AI agent to reset your password by receiving instructions from a knowledge article via email, a reset link via SMS, or having the reset URL read out by voice.
-
-
--   **[Resources](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&family=zurich&ft:locale=en-US)**
-
-Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
-
--   **[Incident assist](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist-workflow&family=zurich&ft:locale=en-US)**
-
-Answer incident-related questions using context-aware agents. Handle queries about incident details and get information about related records.
-
--   **[Enhancements to the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US)**
-
-The features in the \[DEPRECATED\] Incident assist skill is available in the Incident assist agentic workflow. You may turn off this skill and use the agentic workflow that has enhanced capabilities.
-
--   **[Configure summaries for Request Management records](https://www.servicenow.com/docs/access?context=cust-now-assist-request-summarization-skill&family=zurich&ft:locale=en-US)**
-
-As an admin, you can configure the following Request Management skills:
-
-    -   Request summarization
-    -   Requested item summarization
-    -   Catalog task summarization
--   **[Summarize Request Management records](https://www.servicenow.com/docs/access?context=summarize-request-related-activity-response-generation&family=zurich&ft:locale=en-US)**
-
-View an aggregate of all relevant updates and progress indicators in a single, dynamic summary.
-
-
--   **[Creating a catalog item for unlocking accounts using the voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=zurich&ft:locale=en-US)**
-
-Use the demo Submit account unlock catalog with the voice AI agent to create a catalog item to unlock the specified account when a user calls the help desk.
-
--   **[Enhancements to Troubleshoot Outlook issue with voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=zurich&ft:locale=en-US)**
-
-Email relevant troubleshooting articles and instructions to users when you troubleshoot Outlook issues for them.
-
--   **[ITSM Conversational analytics dashboard](https://www.servicenow.com/docs/access?context=using-itsm-conversational-analytics-dashboard&family=zurich&ft:locale=en-US)**
-
-Get insights into virtual agent adoption, usage trends, and track metrics in Now Assist in Virtual Agent.
-
--   **[Generate a response to request activity](https://www.servicenow.com/docs/access?context=summarize-request-related-activity-response-generation&family=zurich&ft:locale=en-US)**
-
-Automatically generate a response in record activity streams using the activity response generation skills for requests and requested items.
-
--   **[Knowledge Article Advanced Editor page](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-SOW-itsm&family=zurich&ft:locale=en-US)**
-
-Use the new Knowledge Article Advanced Editor page to create or edit Knowledge articles using open prompts.
-
--   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
-
-Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
-
--   **[AI-powered root cause analysis for Zoom call quality issues](https://www.servicenow.com/docs/access?context=investigate-and-resolve-zoom-call-issues&family=zurich&ft:locale=en-US)**
-
-Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant Knowledge articles to help resolve the issue efficiently.
-
--   **[Get AI driven insights for boot time performance](https://www.servicenow.com/docs/access?context=investigate-and-resolve-boot-time-issues&family=zurich&ft:locale=en-US)**
-
-Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and Knowledge articles to resolve boot performance problems quickly.
-
-
--   **[Adding self-service and deflection to phone channels using Voice AI agents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=zurich&ft:locale=en-US)**
-
-Enhance employee productivity with Voice AI agents by adding self-service and deflection to their phone channel.
-
--   **[Getting password reset instructions using an AI agent](https://www.servicenow.com/docs/access?context=itsm-va-ai-agents&family=zurich&ft:locale=en-US)**
-
-The **DEMO Password reset agent** is a demo AI agent that provides requesters with password reset instructions for the account that they need help with.
-
--   **[Editing the incident summarization skill prompts and inputs using the Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-record-summ-skill&family=zurich&ft:locale=en-US)**
-
-You can edit the prompts and inputs for the incident summarization skill within the Now Assist Skill Kit \(NASK\) and test the updates you've made.
-
--   **[Expanding attachment summarization capabilities to include additional document formats and language](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-record-summ-skill&family=zurich&ft:locale=en-US)**
-
-You can now summarize, analyze, and extract data from attachments in additional formats and languages.
-
--   **[Creating a knowledge article in any incident state](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-skill&family=zurich&ft:locale=en-US)**
-
-Create knowledge articles from any incident state by configuring a system property for the required states.
-
--   **[Edit a knowledge article when one article is attached to an incident](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-SOW-itsm&family=zurich&ft:locale=en-US)**
-
-You can edit a knowledge article if your administrator has enabled the system property to display the **Edit knowledge** button and if you have only one article attached to the incident.
-
--   **[Enhancing the efficiency of the Investigate and resolve ITSM incidents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-incident-resolver-workflow&family=zurich&ft:locale=en-US)**
-
-For better efficiency, the ITSM incident resolution investigation AI agent and Find catalog item AI agent have been combined into one agent. This agent is called the ITSM incident resolution plan investigation AI agent.
-
--   **[Enhancing the efficiency of the Triage and categorize ITSM incidents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-catincidents-usecase&family=zurich&ft:locale=en-US)**
-
-For better efficiency, the Link major incident AI agent and the Link incident to problem AI agent have been combined into one agent. This agent is called the Link major incident or problem AI agent.
-
--   **[Enhancing the efficiency of the Generate change request plans agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-change-planner-usecase&family=zurich&ft:locale=en-US)**
-
-For better efficiency, the existing six agents in the change request plans agentic workflow have been combined into one agent. This agent is called the Change request plans AI agent.
-
--   **[Display the risk factors sources that contribute to the calculation of a change risk explanation](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-skill&family=zurich&ft:locale=en-US)**
-
-When a change risk is calculated, ServiceNow Otto for ITSM provides the list of the change requests that were used to identify the potential risks for the change risk explanation so that you can understand which risk factors contributed to the calculated risk.
-
--   **[Generating resolution notes using the Now Assist context menu](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-gen-resolution-notes-skill&family=zurich&ft:locale=en-US)**
-
-As an admin, you can view and configure the Now Assist context menu \(NACM\) to generate resolution notes using the **Resolution notes generation** skill.
-
--   **[Generating an activity response using the Now Assist context menu](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-activity-response-skill&family=zurich&ft:locale=en-US)**
-
-As an admin, you can view and configure the Now Assist context menu \(NACM\) for an activity response using the **Incident activity response generation** skill.
-
--   **[Selecting the desired knowledge base and template for creating knowledge articles using the new interface](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-SOW-itsm&family=zurich&ft:locale=en-US)**
-
-With this new interface, you can select the desired knowledge base and the template to create the article in Service Operations Workspace or Core UI.
-
--   **[Masking roles for controlled access to agentic workflows, AI agents, and skills](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-itsm&family=zurich&ft:locale=en-US)**
-
-Mask roles to restrict access to agentic workflows, AI Agents, and skills, ensuring that users receive only the necessary permissions.
-
--   **[Suggest configuration items for a change request agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request&family=zurich&ft:locale=en-US)**
-
-Find and link applicable configuration items \(CIs\) to a change request from the Now Assist panel in a conversational and intuitive way using the Suggest configuration items for a change request agentic workflow.
-
--   **[Create outages for a change request agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-outages-for-a-change-request&family=zurich&ft:locale=en-US)**
-
-Associate outages with a change request in a conversational and intuitive way from the Now Assist panel using the Create outages for a change request agentic workflow.
-
--   **[Create standard change request agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-change-request-workflow&family=zurich&ft:locale=en-US)**
-
-Create a standard, normal, or emergency change request in a conversational and intuitive way from the Now Assist panel using the Create standard change request agentic workflow.
-
--   **[Create standard change template proposal agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-standard-change-template-proposal&family=zurich&ft:locale=en-US)**
-
-Create a change template proposal record based on similar change requests in a conversational and intuitive way from the Now Assist panel using the Create standard change template proposal agentic workflow.
-
--   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
-
-Diagnose and resolve issues on DEX monitored devices through a structured process that includes diagnosis of the cause, a resolution plan with actionable steps, and documenting the resolution in the incident record.
-
--   **[Generate comprehensive release notes for a release in Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-generate-release-notes&family=zurich&ft:locale=en-US)**
-
-Automatically generate structured release notes for a release using the Generate Release Notes skill. This AI-driven capability compiles enhancements, features, incidents, and change records into structured notes with an executive summary and scope of work sections, reducing manual effort and ensuring consistency. You can edit the AI-generated draft as needed, then publish and share via link or PDF download.
-
 
 -   **[Classify service and CI AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-catincidents-usecase&family=zurich&ft:locale=en-US)**
 
@@ -305,33 +136,6 @@ Australia
 
 </td><td>
 
--   **[Automatically classifying user queries as an incident or a request item](https://www.servicenow.com/docs/access?context=now-assist-itsm-deflection-overview&family=australia&ft:locale=en-US)**
-
-Receive a personalized catalog item recommendation, rather than generic troubleshooting steps, when your description asks for something new, such as a replacement laptop or new headphones. ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request and tailors the response to match.
-
--   **[Who is on call agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-on-call-usecase&family=australia&ft:locale=en-US)**
-
-Use the Who is On Call agentic workflow to retrieve on-call roster information for specific shifts, groups, or time periods. The agent provides accurate information to conversationally understand who is on-call.
-
-
--   **[In-form deflection](https://www.servicenow.com/docs/access?context=now-assist-itsm-deflection-overview&family=australia&ft:locale=en-US)**
-
-In-form deflection enables end users to find resolutions without creating an incident. When a user describes an issue in the **Short description** field, ServiceNow Otto for IT Service Management \(ITSM\) searches the knowledge base and returns relevant solutions tailored to that specific user's context.
-
--   **[Generate change risk assessment answers](https://www.servicenow.com/docs/access?context=generate-change-risk-assessment-answers-now-assist&family=australia&ft:locale=en-US)**
-
-Generate answers and reasoning for each supported question in a change risk assessment, directly from a change request in Core UI or Service Operations Workspace \(SOW\). This Now Assist skill is turned on by default. When you select Generate Answers, Now Assist reviews the change request, related records, and knowledge articles, and then suggests an answer and a reasoning for each supported question. The Reasoning field explains why Now Assist selected each answer, so you can review and adjust the answers before you submit, or complete the assessment manually. The skill supports Likert-scale questions only. In SOW, this skill is available in version 9.2 or later.
-
--   **[Topics](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-topics&family=australia&ft:locale=en-US)**
-
-Analyze topic-specific performance and user interaction patterns using the enhanced Topics analytics in the ITSM Virtual Agent dashboard. View detailed per-topic drill-downs showing key performance indicators. Track topic trends and failure rates with sortable columns, and identify areas for improvement.
-
-
--   **[Insights and Opportunities for Incident dashboard](https://www.servicenow.com/docs/access?context=insights-opportunities-incident-dashboard&family=australia&ft:locale=en-US)**
-
-Automatically cluster incidents into trend categories and get AI-generated summaries of incident patterns, along with insights into SLA performance, sentiment, channel adoption, and geographic distribution using the Insights and Opportunities for Incident dashboard in Service Operations Workspace.
-
-
 -   **[Resources](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&family=australia&ft:locale=en-US)**
 
 Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
@@ -339,78 +143,6 @@ Identify which knowledge article or catalog item resources support successful de
 -   **[Password reset voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=australia&ft:locale=en-US)**
 
 Use the Password reset with voice AI agent to reset your password by receiving instructions from a knowledge article via email, a reset link via SMS, or having the reset URL read out by voice.
-
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
--   **[Resources](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&family=australia&ft:locale=en-US)**
-
-Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
-
--   **[Incident assist](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist-workflow&family=australia&ft:locale=en-US)**
-
-Answer incident-related questions using context-aware agents. Handle queries about incident details and get information about related records.
-
--   **[Enhancements to the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US)**
-
-The features in the \[DEPRECATED\] incident assist skill are available in the incident assist agentic workflow. You may turn off this skill and use the agentic workflow that has enhanced capabilities.
-
--   **[Creating a catalog item for unlocking accounts using the voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=australia&ft:locale=en-US)**
-
-Use the Submit account unlock catalog with the voice AI agent, which is a primer, to create a catalog item to unlock the specified account when a user calls the help desk.
-
--   **[Enhancements to Troubleshoot Outlook issue with voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=australia&ft:locale=en-US)**
-
-Email relevant troubleshooting articles and instructions to users when you troubleshoot Outlook issues for them.
-
--   **[Knowledge Article Advanced Editor page](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-SOW-itsm&family=australia&ft:locale=en-US)**
-
-Use the new Knowledge Article Advanced Editor page to create or edit Knowledge articles using open prompts.
-
--   **[ITSM Conversational analytics dashboard](https://www.servicenow.com/docs/access?context=using-itsm-conversational-analytics-dashboard&family=australia&ft:locale=en-US)**
-
-Get insights into virtual agent adoption, usage trends, and track metrics in Now Assist in Virtual Agent.
-
--   **[Getting summary of an incident in the Details tab](https://www.servicenow.com/docs/access?context=summarize-incident-now-assist&family=australia&ft:locale=en-US)**
-
-Resolve incidents faster by getting the incident summary in the **Details** tab of the incident.
-
--   **[Configure summaries and responses for Request Management records](https://www.servicenow.com/docs/access?context=cust-now-assist-request-summarization-skill&family=australia&ft:locale=en-US)**
-
-As an admin, you can configure the following Request Management skills:
-
-    -   Request summarization
-    -   Requested item summarization
-    -   Catalog task summarization
-    -   Request activity response generation
-    -   Requested item activity response generation
-    -   Catalog task activity response generation
--   **[Summarize Request Management records](https://www.servicenow.com/docs/access?context=summarize-request-related-skill&family=australia&ft:locale=en-US)**
-
-View an aggregate of all relevant updates and progress indicators in a single, dynamic summary.
-
--   **[Generate a response to request activity](https://www.servicenow.com/docs/access?context=summarize-request-related-activity-response-generation&family=australia&ft:locale=en-US)**
-
-Generate a response in record activity streams of requests, requested items, and catalog tasks.
-
--   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=australia&ft:locale=en-US)**
-
-Service desk agents can diagnose and resolve Zoom call quality issues using the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow, which integrates Zoom- specific diagnostics that correlate device, network, and application data.
-
--   **[AI-powered root cause analysis for Zoom call quality issues](https://www.servicenow.com/docs/access?context=investigate-and-resolve-zoom-call-issues&family=australia&ft:locale=en-US)**
-
-Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant Knowledge articles to help resolve the issue efficiently.
-
--   **[Get AI driven insights for boot time performance](https://www.servicenow.com/docs/access?context=investigate-and-resolve-boot-time-issues&family=australia&ft:locale=en-US)**
-
-Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and Knowledge articles to resolve boot performance problems quickly.
 
 
 </td></tr></tbody>
@@ -432,87 +164,14 @@ Zurich
 
 </td><td>
 
--   **Now Assist &gt; ServiceNow Otto announcement**
+-   **[Generate change risk assessment answers](https://www.servicenow.com/docs/access?context=generate-change-risk-assessment-answers-now-assist&family=zurich&ft:locale=en-US)**
 
-
-
-
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-
-
--   **[Customize the change risk assessment answer generator skill](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-assessment-skill&family=zurich&ft:locale=en-US)**
-
-Control the data that the change risk assessment answer generator skill uses to suggest answers. Create, modify, or deactivate **AI Risk Data Sources** to change which related records and knowledge articles the skill receives. Six data sources are available out of the box, including related affected CIs, impacted services, impacted business applications, service offerings, active change tasks, and outages. To change which change request fields the skill reads, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property.
+The skill now also reads all dynamic schema store type fields on the change request form. These fields are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses the retrieved values when it suggests answers.
 
 -   **[Assess quality of a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-assess-quality-change-request-workflow&family=zurich&ft:locale=en-US)**
-    -   Use the assess quality of a change request agentic workflow to rate a change request and get field improvement suggestions. The change quality assessor AI agent rates the request against an active change policy document, suggesting values only for fields the policy defines. If no policy applies, the agent rates the request against similar closed change requests.
-    -   The agent scores the short description, description, implementation plan, backout plan, test plan, risk and impact analysis, and justification. Results are recorded in the **AI Change Quality Scores** table.
-    -   Track change quality trends in Platform Analytics on the `ai_change_quality_score` table. A line chart shows the average score by month.
-    -   To change how the agent evaluates a field, or to assess a custom field, override the `POLICY_EXTRACTION_KEYS` entries in the `ChangeQualityUtil` script rather than the protected `ChangeQualityUtilSNC` script. This ensures your changes remain after you upgrade. Use the `u_custom_field` entry to assess a custom field, and use the `overall_chg_policy` entry to set policies for the whole change request.
 
--   **[Renaming the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US)**
+The new autonomous mode is introduced, where the AI agent automatically records the quality rating and the explanation as a work note on the change request. The agent also creates a record in the AI Change Quality Scores table. This record stores the change request, the explanation, the per-field score, the rating, and the numerical score. The agent does not update any fields on the change request.
 
-The Incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
-
--   **[Renaming demo voice AI agents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=zurich&ft:locale=en-US)**
-
-The voice AI demo agents have been renamed as primers.
-
--   **[Editing change request skills using Now Assist Skill Kit \(NASK\)](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-skill&family=zurich&ft:locale=en-US)**
-
-Easily edit the change request risk explanation and change request summarization skill prompts and inputs directly in the Now Assist Skill Kit \(NASK\).
-
--   **[Role masking for change risk explanation skill](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-itsm&family=zurich&ft:locale=en-US)**
-
-Enhance security for the change request risk explanation skill by enabling admins to limit roles that are inherited by the user.
-
-
--   **[Skills activated by default in Now Assist for ITSM](https://www.servicenow.com/docs/access?context=using-now-assist-for-itsm&family=zurich&ft:locale=en-US)**
-
-For new ServiceNow Otto for IT Service Management \(ITSM\) users, the following skills are activated by default:
-
-    -   Resolution notes generation
-    -   Knowledge generation
-    -   Chat reply recommendation
--   **[Virtual agent topics available as demo data](https://www.servicenow.com/docs/access?context=itsm-va-prebuilt-topics&family=zurich&ft:locale=en-US)**
-
-The Virtual Agent topics listed in this table have been renamed and are now available as demo data.
-
-    |Existing name|Updated name|
-    |-------------|------------|
-    |Add Comment To Incident|\(DEMO\) Add Comment To Incident-LLM|
-    |Approve Sysapproval Approver|\(DEMO\) Approve Sysapproval Approver-LLM|
-    |Change Password|\(DEMO\) Change Password \(Template\) - LLM|
-    |Check IT Ticket Status|\(DEMO\) Check IT Ticket Status \(Template\)|
-    |Close Incident|\(DEMO\) Close Incident-LLM|
-    |Explain change risk|\(DEMO\) Explain change risk|
-    |Mark Incident Unresolved|\(DEMO\) Mark Incident Unresolved-LLM|
-    |Open IT Ticket|\(DEMO\) Open IT Ticket \(Template\)-LLM|
-    |Reject Sysapproval Approver|\(DEMO\) Reject Sysapproval Approver-LLM|
-    |Reset Password|\(DEMO\) Reset Password \(Template\) - LLM|
-    |Resolve Incident|\(DEMO\) Resolve Incident-LLM|
-    |Unlock Account|\(DEMO\) Unlock Account \(Template\) - LLM|
-    |View And Add Comments|\(DEMO\) View And Add Comments-LLM|
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
-
--   **[Configuration item details for suggest configuration items for a change request workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request&family=zurich&ft:locale=en-US)**
-
-Provide details such as class, location, and environment to find configuration items \(CIs\) relevant to a change request while using the suggest configuration items for a change request agentic workflow from the Now Assist panel.
-
-
--   ****
--   ****
--   **[Skills activated by default in Now Assist for ITSM](https://www.servicenow.com/docs/access?context=using-now-assist-for-itsm&family=zurich&ft:locale=en-US)**
-
-For new ServiceNow Otto for IT Service Management \(ITSM\) users, the following skills are activated by default:
-
-    -   Incident summarization
-    -   Change request summarization
-    -   Chat summarization
 
 </td></tr><tr><td>
 
@@ -520,14 +179,9 @@ Australia
 
 </td><td>
 
--   **Now Assist &gt; ServiceNow Otto announcement**
-
-
-
-
 -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 -   **[Customize the change risk assessment answer generator skill](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-assessment-skill&family=australia&ft:locale=en-US)**
 
@@ -538,55 +192,6 @@ Control the data that the change risk assessment answer generator skill uses to 
     -   The agent scores the short description, description, implementation plan, backout plan, test plan, risk and impact analysis, and justification. Results are recorded in the **AI Change Quality Scores** table.
     -   Track change quality trends in Platform Analytics on the `ai_change_quality_score` table. A line chart shows the average score by month.
     -   To change how the agent evaluates a field, or to assess a custom field, override the `POLICY_EXTRACTION_KEYS` entries in the `ChangeQualityUtil` script rather than the protected `ChangeQualityUtilSNC` script. This ensures your changes remain after you upgrade. Use the `u_custom_field` entry to assess a custom field, and use the `overall_chg_policy` entry to set policies for the whole change request.
-
--   ****
--   **[Renaming the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US)**
-
-The incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
-
--   **[Renaming demo voice AI agents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&family=australia&ft:locale=en-US)**
-
-The voice AI demo agents have been renamed as primers.
-
--   **[Skills activated by default in Now Assist for ITSM](https://www.servicenow.com/docs/access?context=using-now-assist-for-itsm&family=australia&ft:locale=en-US)**
-
-For new ServiceNow Otto for IT Service Management \(ITSM\) users, the following skills are activated by default:
-
-    -   Resolution notes generation
-    -   Knowledge generation
-    -   Chat reply recommendation
--   **[Editing change request skills using Now Assist Skill Kit \(NASK\)](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-skill&family=australia&ft:locale=en-US)**
-
-Easily edit the change request risk explanation and change request summarization skill prompts and inputs directly in the Now Assist Skill Kit \(NASK\).
-
--   **[Configuration item details for suggest configuration items for a change request workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request&family=australia&ft:locale=en-US)**
-
-Provide details such as class, location, and environment to find configuration items \(CIs\) relevant to a change request while using the suggest configuration items for a change request agentic workflow from the Now Assist panel.
-
--   **[Role masking for change risk explanation skill](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-itsm&family=australia&ft:locale=en-US)**
-
-Enhance security for the change request risk explanation skill by enabling admins to limit roles that are inherited by the user.
-
--   **[Virtual agent topics available as demo data](https://www.servicenow.com/docs/access?context=itsm-va-prebuilt-topics&family=australia&ft:locale=en-US)**
-
-The Virtual Agent topics listed in this table have been renamed and are now available as demo data.
-
-    |Existing name|Updated name|
-    |-------------|------------|
-    |Add Comment To incident|\(DEMO\) Add Comment To incident-LLM|
-    |Approve Sysapproval Approver|\(DEMO\) Approve Sysapproval Approver-LLM|
-    |Change Password|\(DEMO\) Change Password \(Template\) - LLM|
-    |Check IT Ticket Status|\(DEMO\) Check IT Ticket Status \(Template\)|
-    |Close incident|\(DEMO\) Close incident-LLM|
-    |Explain change risk|\(DEMO\) Explain change risk|
-    |Mark incident Unresolved|\(DEMO\) Mark incident Unresolved-LLM|
-    |Open IT Ticket|\(DEMO\) Open IT Ticket \(Template\)-LLM|
-    |Reject Sysapproval Approver|\(DEMO\) Reject Sysapproval Approver-LLM|
-    |Reset Password|\(DEMO\) Reset Password \(Template\) - LLM|
-    |Resolve incident|\(DEMO\) Resolve incident-LLM|
-    |Unlock Account|\(DEMO\) Unlock Account \(Template\) - LLM|
-    |View And Add Comments|\(DEMO\) View And Add Comments-LLM|
-
 
 </td></tr></tbody>
 </table>## Removed
@@ -637,8 +242,6 @@ Zurich
 </td><td>
 
 -   Starting with the [Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://www.servicenow.com/docs/access?context=aiops-leap&family=zurich&ft:locale=en-US). To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see [Generate suggested steps](https://www.servicenow.com/docs/access?context=resolution-steps-generation-now-assist-itsm&family=zurich&ft:locale=en-US) and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
--   Starting with the [Zurich Patch 9](https://www.servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US) release, the [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US) is deprecated, moved to the **Archived** folder and is no longer available for use.
--   The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
 
 </td></tr><tr><td>
 
@@ -646,7 +249,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Starting with the [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US) release, the [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US) is deprecated, moved to the **Archived** folder and is no longer available for use.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -667,7 +270,10 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -675,7 +281,10 @@ Australia
 
 </td><td>
 
-Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

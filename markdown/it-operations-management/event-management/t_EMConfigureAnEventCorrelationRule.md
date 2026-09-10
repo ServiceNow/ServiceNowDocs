@@ -39,5 +39,5 @@ Grouping automation helps you manage alerts more effectively by collecting simil
 
 ## Result
 
-A rule-based alert group is created when a new alert is generated or when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
+A rule-based alert group is created when a new alert is generated. It is also created when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
 

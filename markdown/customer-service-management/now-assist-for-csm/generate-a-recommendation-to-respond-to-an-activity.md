@@ -24,7 +24,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 ## Procedure
 
-1.  Navigate to a case record in the CSM Configurable Workspace or Core UI where you want to generate work notes or comments using ServiceNow Otto.
+1.  Navigate to a case record in the CRM Workspace or Core UI where you want to generate work notes or comments using ServiceNow Otto.
 
 2.  Select **Compose**, then select **Compose Comments** or **Compose Work Notes** from the drop down in front line case page.
 

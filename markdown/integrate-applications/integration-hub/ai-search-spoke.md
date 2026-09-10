@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-AI Search spoke v2.0.3 is the latest version.
+AI Search spoke v2.0.3 is the latest version. For version history of the spoke, see [AI Search spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-search.html).
 
 ## Spoke dependencies
 

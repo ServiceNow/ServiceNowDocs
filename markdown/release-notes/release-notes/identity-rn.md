@@ -1,9 +1,9 @@
 ---
 title: Identity release notes
-description: The ServiceNow Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
+description: The ServiceNow Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.The ServiceNow Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
 
-## Identity highlights for the Australia release
+## About Identity
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -30,14 +30,35 @@ Australia
 
 See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity-landing.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Identity is a ServiceNow AI Platform product that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Coral theme**
+
+        Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)**
 
     The granular admin role enables developers and administrators to complete administrative configuration tasks for Identity without requiring the full admin role.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md)**
 
@@ -64,24 +85,4 @@ See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austr
 
     Manage user permissions for scripting on the ServiceNow AI Platform from the enhanced scripting governance tool.
 
-
-## Activation information
-
-Identity is a ServiceNow AI Platform product that is active by default.
-
-## Accessibility information
-
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
-
-## Related ServiceNow applications and features
-
--   **[Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md)**
-
-    Platform Security is built into all levels of the ServiceNow AI Platform. Implement the security features that are appropriate for your organization. Manage failed log in and encrypted password protection, access control rules, and audit logs.
-
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

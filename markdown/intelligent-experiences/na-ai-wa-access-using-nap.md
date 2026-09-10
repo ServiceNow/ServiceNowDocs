@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-w
 release: australia
 topic_type: task
 last_updated: "2025-09-06"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
@@ -27,6 +27,8 @@ Role required: now\_assist\_panel\_user for the user and sn\_naa.web\_agent\_run
 ## About this task
 
 AI agents using adaptive desktop actions perform tasks for you on a website or web application. The AI agent opens the website in a separate browser tab in the background, and reports its actions to you in the ServiceNow Otto panel. During the process, the website might require credentials for a login or acceptance of terms.
+
+How the AI agent handles this depends on whether or not the goal provided by you references stored credentials. For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/credential-storage.md).
 
 You can preserve the context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded, preserving context about earlier actions, failed approaches, and application state.
 
@@ -60,10 +62,18 @@ Here are tips for writing successful requests for the LLM:
 
     Examples of tasks you can request:
 
-    -   Can you find the best coffeemaker on amazon.com?
-    -   Can you find the latest invoice from invoiceninja.com?
-    -   Navigate to https://www.accuweather.com/. In the Search field, enter "zip code 95054" and search. In the search results, open the first page. Find the current temperature in degrees Fahrenheit and tell me the temperature.
-    -   Navigate to en.wikipedia.org. On the main page of wikipedia.org, in the Search field, search for "Santa Clara, California". In the search results, open the first page listed, and read its contents. Summarize the contents of the page in 2 or 3 sentences.
+    -   **Manual log in \(Without using stored credentials\)**
+        -   Can you find the best coffeemaker on amazon.com?
+        -   Can you find the latest invoice from invoiceninja.com?
+        -   Navigate to https://www.accuweather.com/. In the Search field, enter "zip code 95054" and search. In the search results, open the first page. Find the current temperature in degrees Fahrenheit and tell me the temperature.
+        -   Navigate to en.wikipedia.org. On the main page of wikipedia.org, in the Search field, search for "Santa Clara, California". In the search results, open the first page listed, and read its contents. Summarize the contents of the page in 2 or 3 sentences.
+    -   **Automatic log in \(Using stored credentials\)**
+        -   Go to https://www.example.com/ and authenticate using parameter 'user\_name' and parameter 'password'.
+        -   Open https://www.example.org/ and log in with stored 'user\_name' and stored 'password', then select Transactions.
+        -   Open https://www.example.net/ and log in using username from reference 'user\_name' and password from reference 'password'. Then navigate to 'Task List', remove any filters, choose Pending status, and select Save.
+
+            For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/credential-storage.md).
+
     In your conversations with AI agents, the actual wording of the questions and answers may be different from the given examples. For more information about ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 4.  Review the execution plan proposed by the AI agent and confirm your approval.
@@ -79,11 +89,24 @@ Here are tips for writing successful requests for the LLM:
     You can see the following:
 
     -   AI agent opens a concurrent browser tab to your target website, labeled "Opened for you".\[Omitted image "na-ai-wa-test-opened-for-youZ.png"\] Alt text: The browser tab opened by the AI agent, with the message "Opened for you."
+
+        **Note:** Each browser session starts on a blank page instead of a search engine homepage, and the same browser tab is reused for every action within a chat session instead of opening a new tab each time. If the previous tab no longer exists, or is no longer part of a tab group, a new tab opens.
+
     -   The **Web view** tab displays periodic screenshots of how AI agent navigates to the website and perform requested steps.
 
         You can switch to the Web view by selecting the **Web view** tab or by selecting the **Walkthrough of AI agents on the web** card in ServiceNow Otto panel.
 
         \[Omitted image "da-show-button.png"\] Alt text: The Show button is highlighted for Walkthrough of AI agents on the web.
+
+    **Note:**
+
+    If your goal references stored credentials that aren't defined for the website, or doesn't reference stored credentials at all, the agent prompts you to log in manually. Switch to the website's browser window, log in, and confirm in chat so the agent can continue.
+
+    If your goal references stored credentials \(dynamic parameters previously configured for that website\), the agent retrieves the corresponding values and enters them on the login page automatically. You don't have to provide anything in the chat.
+
+    Values marked as sensitive in the stored credentials are never displayed, in the chat or elsewhere. Non-sensitive values, such as a username, might appear as part of the agent's plan.
+
+    To use the stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-record-ad.md).
 
 6.  When the AI agent returns satisfactory results in the ServiceNow Otto panel chat, enter a closing such as `Thank you` to signal to the AI agent that the task is finished.
 

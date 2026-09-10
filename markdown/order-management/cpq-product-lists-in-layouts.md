@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-product-li
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -68,7 +68,13 @@ The product list and its properties can be edited by using the layout editor in 
 
 \[Omitted image "cpq-product-list-layout.png"\] Alt text: Product list layout
 
-You can edit this part of the layout by clicking the gear that appears in the top right of the product list layout element when you move your mouse into it. The product list has a settings screen that contains all the properties referenced earlier.
+You can edit **Product List** element by selecting the gear that appears in the top right of the product list layout element. The product list has a settings screen that contains all the properties referenced earlier.
+
+For advanced BOM, enable **Use resizable columns** option to allow re-sizable columns. Control column management features in the product list using these properties:
+
+-   `disableColumnFreeze`: Disable column freeze option
+-   `disableColumnReorder`: Disable column reorder option on product list or an individual column
+-   `disableHide`: Disable column hide option for an individual column
 
 \[Omitted image "cpq-product-list-setup.png"\] Alt text: Product list properties
 

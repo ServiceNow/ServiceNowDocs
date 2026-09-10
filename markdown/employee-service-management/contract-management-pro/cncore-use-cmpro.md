@@ -39,8 +39,8 @@ As a contract fulfiller, set up an email to stakeholders to request review of th
 As a contract fulfiller or reviewer, while authoring or negotiating a contract revision, add clauses from the clause library listed in the Microsoft Word add-in for ServiceNow Contracts.
 -   **[Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-rev.md)**  
 As a contract fulfiller, create a document revision to upload an updated version of the contract that contains the latest changes in the contract request, corrections, or suggestions from a third party.
--   **[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)**  
-Get your contract document reviewed by internal subject matter experts who have the expertise you need.
+-   **[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)**  
+Review contract documents using AI-powered analysis or manual review to identify non-compliant terms, remediate them using clause library and validate before execution.
 -   **[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md)**  
 Initiate an ad hoc approval for a contract document revision from a user or a user group.
 -   **[Compare contract revisions in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-compare-docs.md)**  
@@ -54,7 +54,13 @@ Cancel a contract request if it is no longer necessary.
 -   **[Preview and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-preview-contract.md)**  
 View and download a signed contract document.
 -   **[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)**  
-Obligation Management in Contract Management Pro enables you to track and fulfill the responsibilities specified in a contract.
+Obligation Management in Contract Management Pro enables you to track and fulfill contractual responsibilities by creating obligation records and managing associated tasks.
+-   **[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)**  
+As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+-   **[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)**  
+Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts and setting the contract reminder dates for contract renewal or termination.
+-   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)**  
+Search for contract information using natural language queries to quickly find relevant contracts, clauses, and insights.
 -   **[Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-in-doct.md)**  
 Search for keywords in contract templates easily.
 -   **[Search in Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-addin.md)**  

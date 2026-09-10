@@ -1,6 +1,6 @@
 ---
 title: Components related to CMDB Data Manager
-description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
+description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
 release: australia
@@ -14,15 +14,13 @@ breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), C
 
 # Components related to CMDB Data Manager
 
-The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspaceand Service Graph Workspace.
+The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
 
 ## System properties
 
 As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace or in Service Graph Workspace.
 
-1.  Open either workspace:
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Management** and then select the **Data Manager** quick link in Management tools, in the Manage section.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. In the Governance view, select the **Data Manager** management tool.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance** In the Governance view, select the **Data Manager** management tool.
 2.  Select **Settings** in the left navigation panel.
 
 <table id="table_w2w_tdx_npb"><thead><tr><th>

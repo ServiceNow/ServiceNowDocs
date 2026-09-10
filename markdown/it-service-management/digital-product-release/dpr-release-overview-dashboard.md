@@ -1,20 +1,20 @@
 ---
 title: Release Overview dashboard
-description: The Release Overview dashboard provides an overview of all the information about a release, which the product team can use to assess its readiness.
+description: The Release overview dashboard displays key metrics and status information for a product release, enabling product teams to assess readiness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-release-overview-dashboard.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 2
 breadcrumb: [Release dashboards, Explore, Digital Product Release, IT Service Management]
 ---
 
 # Release Overview dashboard
 
-The Release Overview dashboard provides an overview of all the information about a release, which the product team can use to assess its readiness.
+The Release overview dashboard displays key metrics and status information for a product release, enabling product teams to assess readiness.
 
 \[Omitted image "dpr-release-dashboard.png"\] Alt text: Release Overview dashboard provides high-level information about a release and its progress.
 
@@ -125,7 +125,9 @@ Related tasks
 Related tasks linked to the release, grouped by their type, and stacked by their state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
+</table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
+
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 

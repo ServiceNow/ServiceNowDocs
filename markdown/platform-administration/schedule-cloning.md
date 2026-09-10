@@ -38,7 +38,7 @@ Instead of manually cloning instances, you can schedule cloning that happens aut
 
 4.  Select the calendar icon \(\[Omitted image "clone-calendar.png"\]\).
 
-5.  Select a time slot for your instance to be cloned.\[Omitted image "clone-schedule-calendar.png"\] Alt text: The clone start time calendar.
+5.  Select a time slot for your instance to be cloned.
 
 6.  Select **Schedule**.
 

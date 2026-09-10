@@ -22,7 +22,7 @@ A typical credential contains a user name and a password for logging in to a dev
 
 As with host credentials, you assign applicative credentials to MID Servers.
 
-You create applicative credentials per CI type, for example, the CI type for ASCS is SAP ASCS Application \[cmdb\_ci\_appl\_sap\_ascs\]. The preconfigured pattern for discovering CIs belonging to this CI type contains commands that require a MID Server to use the applicative credential for this CI type. If there’s more than one credential configured for this CI type, the MID Server tries using these credentials in the order you define until it finds the credential that fits.
+You create applicative credentials per CI type, for example, the CI type for ASCS is SAP ASCS Application \[cmdb\_ci\_appl\_sap\_ascs\]. The preconfigured pattern for discovering CIs belonging to this CI type contains commands that require a MID Server to use the applicative credential for this CI type. If there’s more than one credential configured for this CI type, the MID Server tries each credential in the order you define until it finds a match.
 
 Check the Discovery requirements information in the ServiceNow documentation to determine if you need to configure applicative credentials for specific application CIs. There’s no need to configure applicative credentials, if Discovery prerequisites don’t mention it.
 

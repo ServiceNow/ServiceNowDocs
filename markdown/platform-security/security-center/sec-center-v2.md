@@ -8,7 +8,7 @@ product: Security Center
 classification: security-center
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Platform Security]
 ---
 
@@ -20,11 +20,7 @@ ServiceNow Security Center is an application that consists of a set of tools des
 
 Security Center is a free application that administrators can download from the ServiceNow Store. It’s installed by default starting with the Vancouver release. It’s also made available in the ServiceNow Store every quarter, between family releases, to facilitate faster adoption of new functionality.
 
-**Important:**
-
-Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for activation.
-
-Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center-to-security-center-migration.md).
+**Important:** Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for activation.
 
 ## Get started
 

@@ -1,9 +1,9 @@
 ---
 title: Business Continuity Management release notes
-description: The ServiceNow Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.
+description: The ServiceNow Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.The ServiceNow Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.The ServiceNow Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-18"
 reading_time_minutes: 5
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.
 
-## Business Continuity Management highlights for the Australia release
+## About Business Continuity Management
 
 -   Build reusable Task templates and groups with dependencies across plans, loss scenarios, and exercises.
 -   Auto-generate full plan hierarchies — scenarios, strategies, and tasks — from plan templates.
@@ -21,9 +21,22 @@ The ServiceNow® Business Continuity Management application enables your organiz
 
 See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+
+## June 2026
+
+The ServiceNow® Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Task template groups and Task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**
 
@@ -47,9 +60,7 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
 
 -   **[Gantt chart for recovery tasks in plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**
 
-    Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.
-
-    Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
+    Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
 
 -   **[Export and import event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)**
 
@@ -64,7 +75,7 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     Track the template version used at the time of assessment creation on Smart Assessment Engine \(SAE\) templates. Assessors and reviewers can clearly see which template version was in effect, making it easier to audit and compare assessments over time.
 
 
-## UI changes
+### What's changed
 
 -   **[Recovery strategy templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)**
 
@@ -98,13 +109,7 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     -   Plan templates
 -   **[Recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task.md)**
 
-    The recovery task list includes four additional columns: Plan loss scenario, Plan recovery strategy, Tag, and Task group. Use these columns to filter, group, and report on recovery tasks by scenario, strategy, or template group.
-
-    The recovery task list toolbar includes **Insert** \(with Select task template groups\), **Save as group** \(with Add to group and Save tasks sub-options\), and **Add groups** for bulk insertion of task template groups.
-
-    The Create a quick recovery task panel includes Phase, Plan recovery strategy, All assets from plan, and a Planned duration field accepting hours, minutes, and seconds. The All assets from plan field can be narrowed to a subset of assets when a task applies to only part of the plan.
-
-    A Gantt view is available on the **Recovery tasks** tab of a plan record.
+    The recovery task list includes four additional columns: Plan loss scenario, Plan recovery strategy, Tag, and Task group. Use these columns to filter, group, and report on recovery tasks by scenario, strategy, or template group.The recovery task list toolbar includes **Insert** \(with Select task template groups\), **Save as group** \(with Add to group and Save tasks sub-options\), and **Add groups** for bulk insertion of task template groups.The Create a quick recovery task panel includes Phase, Plan recovery strategy, All assets from plan, and a Planned duration field accepting hours, minutes, and seconds. The All assets from plan field can be narrowed to a subset of assets when a task applies to only part of the plan.A Gantt view is available on the **Recovery tasks** tab of a plan record.
 
 -   **[Event task list toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/export-import-event-tasks-using-excel.md)**
 
@@ -115,7 +120,11 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     Each loss scenario record includes a **Recovery tasks** tab that lists only the recovery tasks scoped to that scenario.
 
 
-## Changed in the Australia release
+## Australia
+
+The ServiceNow® Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -126,12 +135,4 @@ See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNo
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
-
-For more information, see [Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md).
-
-## Activation information
-
-Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-workforceoptimizationforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
+
+Empower managers with real-time insights and actionable metrics, organized in a unified view, to drive performance optimization and facilitate prompt action.
+
 
 </td></tr><tr><td>
 
@@ -99,7 +102,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
+
+Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
+
+    -   Independent Deployment: Channel Management can be deployed independently, allowing for greater flexibility and control.
+    -   Reduced Inter-Module Dependencies: The decoupling reduces dependencies between modules, enhancing system stability.
+    -   Enhanced Scalability and Maintainability: The new architecture improves scalability and maintainability, making it easier to manage and expand.
+    -   Streamlined Future Upgrades: Future upgrades for individual modules can be streamlined, ensuring smoother and more efficient updates.
 
 </td></tr><tr><td>
 
@@ -107,40 +117,6 @@ Australia
 
 </td><td>
 
--   **[Location Based Holiday Calendar Management](https://www.servicenow.com/docs/access?context=location-based-holiday-calendar-management&family=australia&ft:locale=en-US)**
-
-Enable location-based holiday calendars to
-
-    -   Manage location‑based holiday calendars that auto‑sync to schedules, providing real‑time visibility into regional holiday impacts and supporting accurate shift planning.
-    -   Improve workforce scheduling and compliance by mapping holidays to specific regions, reducing manual adjustments and ensuring agents see their location‑based holidays in My Calendar.
--   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
-
-Enhance the Manager Dashboard to view
-
-    -   New **AI Insights** tab on the Manager Dashboard in the Manager Workspace.
-    -   The AI powered widgets: Sentiment Analysis, Trending Topics, and Auto QA. These widgets provide deeper, real‑time visibility into customer sentiment signals, trending interaction themes, and quality evaluations.
--   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
-
-Decouple the existing Manager Dashboard to make it available as a standalone feature.
-
-    -   Install and configure the Manager Dashboard independently to provide a streamlined, modular experience, retaining only essential alerts and core widgets for performance, work management, and resource visibility while removing scheduling and coaching components.
-    -   Managers can view Help Request alerts and Operational Insights when Channel Management is used with the Manager Dashboard. These capabilities are not available when Channel Management is used without the Manager Dashboard.
-    -   The Manager Dashboard includes a tab-based layout with widgets for Customer Signals and Quality Management — Sentiment Analysis, Trending Topics, and Auto QA. Managers can access the Operations Insights tab with widgets such as Performance, Work Management, and Resource Management when additional capabilities are enabled.
--   **[Listen, Monitor or Barge in to an agent call](https://www.servicenow.com/docs/access?context=listen-agent-call-configurable-wfo-cs&family=australia&ft:locale=en-US)**
-
-Monitor, coach, or barge into voice calls to
-
-    -   Assist agents during live customer calls by opening the agent’s active phone interaction in Manager Workspace.
-    -   Enable supervisors to silently monitor calls, whisper‑coach agents, join conversations, view real‑time transcription when the conversation panel is enabled, and switch modes or end the session at any time using the NVC utility panel.
--   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
-
-Enable Manager dashboard to view the Help Request on the landing page.
-
-    -   View the **Help Request** tab on the Manager Workspace landing page and in Conversation Monitoring list view.
-    -   Segment Help Request interactions by different channel including Chat, Email, Messaging, Phone and Video.
--   **[Channel Management](https://www.servicenow.com/docs/access?context=explore-channels-configurable-wfo-cs&family=australia&ft:locale=en-US)**
-    -   View the **Help Request** tab on the Channel Management landing page.
-    -   Enable supervisors to open any active voice request to review context and take action by monitoring the live call, coaching the agent privately, or barging in to speak with both the agent and the customer.
 -   **[\[Placeholder link text to key schedule-management-capabilities-in-csm-configurable-workspace\]](https://www.servicenow.com/docs/access?context=schedule-management-capabilities-in-csm-configurable-workspace&family=australia&ft:locale=en-US)**
 
 Enable Schedule Management schedule management capabilities in CSM configurable workspace:
@@ -184,7 +160,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -192,7 +171,13 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
+
+The following UI components have been added on the Manger Dashboard:
+
+    -   The dashboard includes new AI‑powered widgets — Sentiment Analysis,Trending Topics, and Auto QA
+    -   **Help requested** can be viewed on the **Manager Workspace landing page** and in **Conversation Monitoring** list view.
+    -   The **Help requested** include different channels, such as **Chat**, **Email**, **Messaging**, **Phone** and **Video**.
 
 </td></tr></tbody>
 </table>## Removed
@@ -327,7 +312,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

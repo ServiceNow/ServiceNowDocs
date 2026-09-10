@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-resourcemanagementworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -72,18 +72,12 @@ Zurich
 Move any assigned resource assignment without actuals or an unassigned resource assignment to a different date to align the work with your project realignment, prioritization, or resource availability. You can move individual resource assignments based on your project or organizational priorities.
 
 
--   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=zurich&ft:locale=en-US)**
+ -   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=zurich&ft:locale=en-US)**
     -   View the type of operational work that is assigned to a resource using the resource board drill-down view.
     -   Filter your resource board using data grid filters to easily navigate and modify the resource assignments in the top tray.
     -   Sync the resource assignments to align them with change in planning item dates.
     -   Override resource rate for each assignment from the assigned work in the top tray.
     -   Apply filters using string-type and boolean field values across the resource card top tray to view the required dataset.
--   **[Assign resource assignments](https://www.servicenow.com/docs/access?context=allocate-resources-rmw&family=zurich&ft:locale=en-US)**
-
-Allocate effort from unassigned resource assignments using the following ways:
-
-    -   Auto-assign work among all the available resources.
-    -   Partially assign work among for selected resources.
 
 </td></tr><tr><td>
 
@@ -112,7 +106,18 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=zurich&ft:locale=en-US)**
+    -   Added the new **Move** option in the row context menu in the top and bottom tray of the resource board view.
+    -   Added sub-labels for the row context menu options in the resource board to better estimate the actions.
+    -   Updated **Assign modal** with options to auto-assign and manually assign the available resources
+    -   New **Preview** button in the Assign modal to see the real-time simulation of allocations for an assignment.
+    -   Added **Resource not synced** icon to identify and sync the resources assignments which are not aligned with the changes to planning item timelines.
+    -   New **Rate override** field to enable editing of resource rate using the inline editing feature.
+    -   New **Resource rate** field to edit resource rate from the workspace view for each resource.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -199,7 +204,10 @@ Zurich
 
 </td><td>
 
-Install Resource Management Workspace by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -286,7 +294,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

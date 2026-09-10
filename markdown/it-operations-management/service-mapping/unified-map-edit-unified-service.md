@@ -85,7 +85,7 @@ Business application
 
 Search for and select a business application. This field allows you to link your service instance to the business application it supports.
 
- Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\). The **Next** button is disabled until you select a valid option or clear the field.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Parent service
 
 Search for and select a parent application service. Use this field to establish hierarchical relationships and build logical context for your service instance.
 
- Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\). The **Next** button is disabled until you select a valid option or clear the field.
 
 </td></tr><tr><td>
 

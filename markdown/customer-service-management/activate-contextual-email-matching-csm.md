@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-contextual-email-matching-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [contextual email matching, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, case matching, generative AI]
-breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Activate contextual email matching for CSM

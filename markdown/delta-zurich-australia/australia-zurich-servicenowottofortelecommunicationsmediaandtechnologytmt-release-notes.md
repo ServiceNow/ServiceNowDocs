@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -76,100 +76,15 @@ Collect customer details about the voice quality issue, open a service ticket wi
 Generate summary details including the record and associated risk solutions and risk occurrences for risk signal and issues records.
 
 
--   **[Help remediate bill issues](https://www.servicenow.com/docs/access?context=billissue-remediation-usecase&family=zurich&ft:locale=en-US)**
-
-Handle billing inquiry case requests, analyze customer invoices, and recommend better plans based on customer usage patterns.
-
--   **[Analyze network incidents](https://www.servicenow.com/docs/access?context=network-incident-analysis-usecase&family=zurich&ft:locale=en-US)**
-
-Identify historic incidents and determine resolution plans. The AI agent also has the capabilities to identify field values, estimate resolution time, and create actionable tasks.
-
--   **[Support renewals and expansion](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&family=zurich&ft:locale=en-US)**
-
-Streamline customer success management by automatically assessing account health, value realization, and adoption trends. Deliver timely, data-driven insights that guide renewal planning and play recommendations.
-
--   **[Trigger risk mitigation touchpoint](https://www.servicenow.com/docs/access?context=now-assist-tmt-touchpoint-meeting-scheduler&family=zurich&ft:locale=en-US)**
-
-Enable customer success agents to optimize meeting schedules within the customer success workflow by creating and managing meetings. Create and manage meetings based on key details such as invitees, agenda, meeting type, and scheduling preferences.
-
--   **[Success summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-plays&family=zurich&ft:locale=en-US)**
-
-Generate summary details including overview, current status, and open tasks for success initiatives, internal plays, and customer plays. Enhance Zoom meeting summaries by updating key notes, and enabling sentiment tracking.
-
--   **[Analyze metric data trend](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-metric-trend&family=zurich&ft:locale=en-US)**
-
-Collect and analyze metric data for engagements, identify patterns, and generate a trend chart.
-
--   **[Service summary generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-knowledge-graph&family=zurich&ft:locale=en-US)**
-
-Generate a service summary for a product inventory.
-
--   **[Knowledge graph schema generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-create-knowledge-graph&family=zurich&ft:locale=en-US)**
-
-Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
-
--   **[Customize a summary card for service summary](https://www.servicenow.com/docs/access?context=customize-uib-builder-service-summary&family=zurich&ft:locale=en-US)**
-
-Customize the summary card of the service summary and UI actions according to your needs.
-
--   **[Register consumers using Agentic AI](https://www.servicenow.com/docs/access?context=now-assist-tmt-register-consumer-users-sb&family=zurich&ft:locale=en-US)**
-
-Initiate the consumer registration process using agentic AI to receive step-by-step guidance, including error checks during registration and support for resolving those errors.
-
--   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
-
-Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&family=australia&ft:locale=en-US)**
-
-Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations, helping to ensure faster and more effective collaboration across engagements.
-
--   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US)**
-
-Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.
-
--   **Risk signals and solution synchronization**
-
-Monitor solution records linked to risk signals and automatically sync updates back to the original risk signal record. Notify customer success managers with a summarized status, and prompt them to close resolved risks.
-
--   **Create product adoption roadmaps using Now Assist**
-
-Use generative AI to create product adoption roadmaps by analyzing customer characteristics, identifying similar products, and matching customer goals. Provide contract-level insights to support more effective renewal conversations and expansion opportunities.
-
--   **Support renewals and expansion**
-
-Analyze renewal readiness automatically by evaluating health scores, product usage, and value achievement metrics using the Renewal Insight Engine. After receiving assessment reports, create opportunities directly within the renewal playbook.
-
--   **Customer 360 AI insights**
-
-Analyze call, chat, billing, and interaction data with Knowledge Graph and Workflow Data Fabric. Provide service and network insights with recommendations on potential customer faults. Deliver task-based insights on recent cases, orders, A2A integration with RADCOM, voice agent interactions, and sentiment analysis related to customer health.
-
 -   **Auto-onboarding**
 
 Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to help ensure reliable, efficient integrations with minimal manual effort.
-
--   **[Analyze the sentiment of a service problem case](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-sentiment-spc-adr&family=australia&ft:locale=en-US)**
-
-Generates the customer's sentiment and the reasoning behind it on the complaint cases. Make informed decisions on complaint cases based on sentiment and link them to the Alternative Dispute Resolution \(ADR\) case record.
-
--   **[Summarize the linked records](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-linked-record&family=australia&ft:locale=en-US)**
-
-Generate a comprehensive summary of the service problem case records that you have linked on the ADR case.
-
--   **[Generate ADR resolution notes](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution-notes-ad&family=australia&ft:locale=en-US)**
-
-Enables you to generate resolution for the customer dispute in the ADR case record. You can propose this resolution to the customer and get the customer feedback.
-
--   **[Generate a deadlock letter](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-deadlock-letter&family=australia&ft:locale=en-US)**
-
-Generate details of a deadlock letter for an ADR case. If the customer doesn't agree with the ADR case resolution, then you can use this skill to generate the deadlock letter and share with the customer.
 
 
 </td></tr></tbody>
@@ -193,10 +108,8 @@ Zurich
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
-
-
--   ****
 
 </td></tr><tr><td>
 
@@ -283,7 +196,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -291,7 +207,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -460,7 +379,7 @@ Australia
 -   Generate customized product adoption roadmaps by analyzing customer characteristics, goals, and similar product adoption patterns.
 -   Analyze call, chat, billing, and interaction data with sentiment analysis for proactive service recommendations and faster issue resolution.
 
- See [https://www.servicenow.com/docs/access?context=now-assist-spmc&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=australia&ft:locale=en-US) for more information.
+ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

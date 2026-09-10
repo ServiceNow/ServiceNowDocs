@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ask-questions-qna.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [QnA, question and answer, Content Insights, document analysis]
 breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]

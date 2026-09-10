@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-t
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Tableau metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -18,8 +18,8 @@ Create a collector to import metadata from Tableau.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Tableau collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -49,11 +49,32 @@ Before you begin, verify the following:
 
 7.  Configure the API base URL and authentication options.
 
-    |Field|Description|
-    |-----|-----------|
-    |Tableau API base URL|Base URL for the Tableau API. For example: `https://8bank/api/3.10/.`|
+<table id="table_kmn_rtp_c3c"><thead><tr><th>
 
-8.  Configure the authentication options.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Tableau API base URL
+
+</td><td>
+
+Base URL for the Tableau API. For example: `https://8bank/api/3.10/.`
+
+</td></tr><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
 
 <table id="table_v3l_mj3_53c"><thead><tr><th>
 

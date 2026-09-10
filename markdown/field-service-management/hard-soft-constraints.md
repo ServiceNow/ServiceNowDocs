@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/hard-s
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
@@ -575,6 +575,20 @@ The estimated duration for completing a task is determined by considering the pr
 Shift "A" and Shift "B" are assigned to different technicians who complete task "X" in 45 and 90 minutes. Shift "C" is assigned to a technician who has no technician-dependent task duration. The planned duration of task "X" is 60 minutes.**Result:** When the constraint applies, task durations adjust based on the assigned technician. Task "X" takes 45 minutes when assigned to Shift "A" and 90 minutes when assigned to Shift "B." When assigned to Shift "C," task "X" takes 60 minutes \(the planned duration\) because there is no technician-dependent adjustment. When the constraint does not apply, all three shifts require 60 minutes to complete the task.
 
 **Note:** This constraint works with the **Maximize Efficient Assignments** objective to reward faster completions.
+
+</td></tr><tr><td>
+
+Enable demand channels
+
+</td><td>
+
+Tasks can only be assigned to technicians who support the demand channel associated with the tasks on the day of assignment.**Note:** Install Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin and enable system properties **Enable Shift Scheduling for FSM to Determine Availability** and **Enable/disable association of territory resources with demand channels** to use this feature.
+
+</td><td>
+
+Technicians Alex and Brain belong to territory "X". Alex is associated with demand channel "A" and Brian is associated with demand channel "B". Task "P" has demand channel "A" and task "Q" has demand channel "B".**Result:** Applying the constraint restricts assignment to only those technicians who support the demand channel for the territory they are working. Task "P" can be assigned to only Alex because Alex supports demand channel "A". Task "Q" can be assigned only to Brian because Brain supports demand channel "B". When the constraint is not enabled, all tasks can be assigned to any technician regardless of any defined demand channel association.
+
+If none of the technicians are available or support the task's demand channel, the task is not scheduled and is shown in the run summary for the optimization run. For more information, see [Viewing task assignments from Schedule Optimization runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-components.md)

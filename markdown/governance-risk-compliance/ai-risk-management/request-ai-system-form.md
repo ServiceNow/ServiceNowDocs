@@ -36,7 +36,7 @@ Name
 
 </td><td>
 
-Unique name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
+A name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
 
 </td></tr><tr><td>
 

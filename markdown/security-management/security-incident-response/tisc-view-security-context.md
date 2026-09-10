@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-27"
+last_updated: "2026-08-18"
 reading_time_minutes: 1
 keywords: [TISC context,security incident,vulnerability,threat intelligence]
 breadcrumb: [TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -44,7 +44,9 @@ Security incidents enable tracking and management of remediation efforts for vul
 
 6.  Select **View Related Info** to explore associated vulnerability data.
 
-    This displays a list of related threat objects associated with the vulnerability, including threat actors, attack patterns, campaigns, cases, vulnerability entries, and vulnerability assessments.
+    This displays a list of related threat objects associated with the vulnerability, including threat actors, attack patterns, campaigns, cases, vulnerability entries, vulnerability assessments, MITRE techniques, malware, observable priority, TISC cases, intrusion sets, threat reports, and courses of action.
+
+    The threat actor list view includes primary and secondary motivation columns. The malware list view includes malware capability columns.
 
 7.  Select any object to view the corresponding record in the TISC workspace.
 

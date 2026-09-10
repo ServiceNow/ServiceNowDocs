@@ -45,6 +45,8 @@ Universal Request enables suppliers and invoice owners to submit requests conver
 Playbooks provide a visual, step-by-step view of invoice processing workflows to track case status and determine next steps.
 -   **[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)**  
 The Supplier Collaboration Portal enables suppliers to interact with Accounts Payable specialists to submit invoices, create inquiry cases, and manage tasks.
+-   **[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)**  
+AI worker agent marks invoice cases as resolved and triggers supplier confirmation through Supplier Collaboration Portal.
 
 **Parent Topic:**[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 

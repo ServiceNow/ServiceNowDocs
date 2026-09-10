@@ -47,7 +47,7 @@ IO helps Instance administrators, Platform Owners, and DevOps teams accelerate v
 |[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)|View comparisons for performance of key metrics over time.|
 |[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md)|Point-in-time instance snapshot providing metadata to troubleshoot live issues|
 |[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md)|Quickly generate reports to download and share with your team business stakeholders.​|
-||Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
+|[Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-help.md)|Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
 
 ## Support matrix according to Impact package
 
@@ -187,7 +187,7 @@ Data retention
 </td></tr></tbody>
 </table>To access Instance Observer, navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
-**Note:** For more information on subscription support, see .
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md).
 
 ## Serviceability limitations
 
@@ -219,6 +219,8 @@ Reports in Instance Observer offer insights into the health of the instances, tr
 Instance Observer \(IO\) metrics are real-time and historical telemetry data points used to monitor, triage, and troubleshoot ServiceNow instance performance.
 -   **[IO roles installed with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-observer-roles.md)**  
 Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs that are used in Instance Observer.
+-   **[Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-help.md)**  
+Access release notes, how to videos, and more from the Instance Observer Help Center page.
 
 **Parent Topic:**[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)
 

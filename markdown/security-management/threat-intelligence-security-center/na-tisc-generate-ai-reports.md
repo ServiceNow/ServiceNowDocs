@@ -93,7 +93,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

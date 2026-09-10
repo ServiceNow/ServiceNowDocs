@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Retail Store Audit Operations, Explore, Retail]
 ---

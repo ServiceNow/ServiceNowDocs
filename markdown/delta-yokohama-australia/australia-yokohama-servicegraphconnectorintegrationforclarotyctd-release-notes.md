@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicegraphconnectorintegrationforclarotyctd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -74,22 +74,6 @@ Release notes
 Yokohama
 
 </td><td>
-
--   **[View the class mappings available for the Service Graph Connector](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
-
-Use the **Claroty CTD SGC Class Mappings** table to view the available class mappings and targeted CMDB classes.
-
--   **[Avoid importing empty rack slots](https://www.servicenow.com/docs/access?context=configuring-sgc-claroty-ctd-guided-setup&family=yokohama&ft:locale=en-US)**
-
-During import, empty rack slots are removed to avoid importing them into the CMDB.
-
--   **[Capture firmware version of devices](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
-
-Use the Firmware Installation \[cmdb\_firmware\_install\] table to capture the firmware version of your Service Graph Connector Integration for Claroty CTD devices.
-
--   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
-
-The ire\_criterion\_attribute acts as a criterion attribute for an OT entity-related entry and helps avoid entity update issues.
 
 -   **[Clean up serial number data](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
@@ -221,7 +205,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Service Graph Connector Integration for Claroty CTD**
+
+Starting with the Australia release, the Service Graph Connector Integration for Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -242,9 +229,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 **Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
+
 
 </td></tr><tr><td>
 
@@ -451,7 +441,11 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Import sites, devices, connections, and installed programs to the ServiceNow Configuration Management Database \(CMDB\).
+-   Complete the organized sequence of tasks to configure the integration on your instance using the available Guided Setup.
+-   Map and transform data from Claroty CTD into ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\).
+
+ See [Service Graph Connector Integration for Claroty CTD](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-claroty-ctd&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)

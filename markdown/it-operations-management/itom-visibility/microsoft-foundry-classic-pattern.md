@@ -380,7 +380,7 @@ On the Dependency Views map, you can view discovered Microsoft Foundry resources
 
 \[Omitted image "microsoft-foundry-dependency-view.png"\] Alt text: Microsoft Foundry CIs and connections on a Dependency Views map
 
-## CI relationships
+## CI relationships and references
 
 The Microsoft Foundry patterns create the following relationships and references to support Microsoft Foundry discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

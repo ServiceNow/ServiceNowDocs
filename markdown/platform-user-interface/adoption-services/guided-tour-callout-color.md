@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guided Tours reference, Guided Tours, Adoption services, Configure user experiences]
 ---

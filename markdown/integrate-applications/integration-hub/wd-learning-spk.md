@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday Learning spoke v1.1.4 is the latest version.
+Workday Learning spoke v1.1.4 is the latest version. For version history of the spoke, see [Workday Learning spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-learning-spoke.html).
 
 ## Supported versions
 

@@ -1,9 +1,9 @@
 ---
 title: Financial Services Operations Integration with Verifi release notes
-description: The ServiceNowFinancial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
+description: The ServiceNowFinancial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.The ServiceNowFinancial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-04-03"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow®Financial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
 
-## Financial Services Operations Integration with Verifi highlights for the Australia release
+## About Financial Services Operations Integration with Verifi
 
 -   A dispute agent proactively initiates dispute resolution without chargeback for the participating merchants.
 -   System runs automated merchant eligibility check.
@@ -21,16 +21,33 @@ The ServiceNow®Financial Services Operations Integration with Verifi applicatio
 
 See [Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Financial Services Operations Integration with Verifi is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Financial Services Operations Integration with Verifi features
+-   **Activation information**
+
+    Install  by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Additional requirements**
+
+    The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must be set to true, so that it will be shipped as false out of the box.
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+
+## Australia
+
+The ServiceNow®Financial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
+
+### What's new
 
 -   Avoids costly chargebacks: When a merchant accepts the dispute and offers a refund that is acceptable for the cardholder, the case is closed as resolved with no chargeback initiated.
 -   Automates merchant eligibility checks: The system automatically checks merchant eligibility through the Verifi CDRN API before creating a case. Non-eligible merchants are routed to the standard dispute lifecycle without agent intervention.
 -   Seamless closure of disputes: Merchants participating in CDRN can respond to dispute alerts directly through Verifi .
 -   Seamless API integration: The four-subflow API sequence — eligibility check, case creation, polling, and acknowledgment handshake — is fully automated and requires no manual API interaction from agents or supervisors.
 
-## UI changes
+### What's changed
 
 -   Playbook actions:
     -   Create alert case
@@ -39,35 +56,9 @@ See [Financial Services Operations Integration with Verifi](https://raw.githubus
     -   Pre-dispute settlement eligibility: Indicates if a merchant is eligible for a CDRN settlement.
     -   Customer decision: Indicates if a cardholder agrees or disagrees with the refund proposed by the merchant.
 
-## Activation information
+-   Create alert case
+-   Get case details
 
-Install  by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
-
--   New plugins added in the Australia release:
-    -   com.sn\_verifi\_spoke - Verifi Verifi Spoke helps streamline the card dispute resolution process by using the Verifi APIs. This integration facilitates early connections between issuers and merchants in the dispute lifecycle, which simplifies conflict resolutions at the pre-dispute stage and minimizes chargebacks.
-    -   com.sn\_bom\_credit\_card - This is an application specific to card operations focused on the different customer requests in the card service domain and is part of the overall \(FSO\) product.
-    -   sn\_fso\_intg\_verifi.cdrn\_bulk\_retrieval\_batch\_size - Defines the maximum number of CDRN case records that can be fetched in a single bulk retrieval call. The number is 100 by default.
-
-## Additional requirements
-
-The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must be set to true, so that it will be shipped as false out of the box.
-
-## Related ServiceNow applications and features
-
--   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/card-ops-landing-page.md)**
-
-    The ServiceNow® Financial Services Card Operations application digitizes and automates the card operations of your financial institution, enabling quick processing of credit card applications and card transaction disputes.
-
--   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md)**
-
-    Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
-
--   **[Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/spokes-list.md)**
-
-    Activate spokes to improve your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
-
-
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+-   Pre-dispute settlement eligibility: Indicates if a merchant is eligible for a CDRN settlement.
+-   Customer decision: Indicates if a cardholder agrees or disagrees with the refund proposed by the merchant.
 

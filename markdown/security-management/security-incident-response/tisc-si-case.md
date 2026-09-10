@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-18"
 reading_time_minutes: 1
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Use this section to add security incidents or observables to a TISC case.
 
 ## Before you begin
 
-Role required: sn\_si.analyst
+Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 ## Procedure
 
@@ -30,6 +30,10 @@ Role required: sn\_si.analyst
 
 3.  Select **TISC Context** tab.
 
+    **Note:**
+
+    The list of TISC cases is labeled **TISC Cases**. In earlier releases this list was labeled **Cases**.
+
 4.  Select **Add to TISC Case** button.
 
     Add to TISC Case dialog box displays and this only shows the TISC cases where the record is not already associated.
@@ -40,7 +44,7 @@ Role required: sn\_si.analyst
 
     \[Omitted image "tisc-sirw-add-to-tisc-case.png"\] Alt text: Add to TISC Case from SIR Workspace.
 
-    **Note:** You can also create a case by selecting on **Create new TISC Case**, in case if you don't have any existing cases.
+    **Note:** If you don't have an existing case, select **Create new TISC Case** to create one.
 
     The following confirmation messages are displayed:
 

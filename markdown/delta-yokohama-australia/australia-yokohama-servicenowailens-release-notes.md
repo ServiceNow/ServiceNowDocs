@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowailens-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -93,27 +93,6 @@ Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow
 
 View captured images that are automatically attached to the record that is auto-filled using ServiceNow AI Lens. You can view the images to understand the source of the auto-filled information.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
-
-Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
-
-
--   **[Capture data](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
-
-Get actionable insights from such visual data as images, handwritten notes and forms, emails, websites, and applications. For example, ServiceNow AI Lens can scan an email to gather data for auto-filling the fields on the Incident form.
-
--   **[Act on visual data](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
-
-Provide instructions to Now Assist on what to do with the captured data. For example, you can convert the extracted data into a JSON format.
-
--   **[Launch from ServiceNow forms](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
-
-Launch ServiceNow AI Lens from a form to fill the extracted data automatically into the form fields.
-
--   **[Use as a standalone application](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
-
-Use ServiceNow AI Lens as a standalone application for previewing extracted data when you're connected to a ServiceNow instance.
-
 
 </td></tr><tr><td>
 
@@ -121,27 +100,21 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow AI Lens UI enhancement](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=zurich&ft:locale=en-US)**
+-   **[Auto-map Excel sheet column headers with ServiceNow table columns](https://www.servicenow.com/docs/access?context=import-excel-sheet-data-to-custom-table&family=zurich&ft:locale=en-US)**
 
-Launch the ServiceNow AI Lens scanner window by using the context defined in the Lens actions or as a standalone application. You can preview the gathered insights or extracted data. You can also see the logged-in user and instance details.
+Use ServiceNow AI Lens directly from the browser without installing the desktop application. No need to request admin permissions. Capture the web page in a browser tab wholly or partly by cropping it and letting ServiceNow AI Lens analyze the data.
 
--   **[Use Lens actions to customize Lens behavior](https://www.servicenow.com/docs/access?context=servicenow-lens-actions&family=zurich&ft:locale=en-US)**
-    -   Define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. With Lens actions, you can customize how a classic form is auto-filled. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the ServiceNow AI Lens execution.
+-   **[Auto-map Excel sheet column headers with ServiceNow table columns](https://www.servicenow.com/docs/access?context=import-excel-sheet-data-to-custom-table&family=zurich&ft:locale=en-US)**
 
-For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a table. You can also define form fields that must be used as context.
+Auto-map the headers in a Microsoft Excel sheet to the columns in a ServiceNow® instance table with the Excel Mapping feature. You can change the mapping, if needed, before inserting the sheet data into the table.
 
-    -   As part of your integration logic, configure a Lens action as one of the steps to invoke a ServiceNow AI Lens service from any part of the ServiceNow AI Platform, such as a workspace form or portal.
--   **[Use ServiceNow AI Lens in Virtual Agent](https://www.servicenow.com/docs/access?context=enabling-lens-for-virtual-agent&family=zurich&ft:locale=en-US)**
+-   **[Assign roles to a Lens action](https://www.servicenow.com/docs/access?context=create-sn-lens-recipe&family=zurich&ft:locale=en-US)**
 
-Trigger ServiceNow AI Lens from a Virtual Agent conversation by using the ServiceNow AI Lens topic in Virtual Agent.
+Assign roles to a Lens action so that users with those roles can access the Lens action.
 
--   **[Auto-attach images to a record](https://www.servicenow.com/docs/access?context=create-sn-lens-recipe&family=zurich&ft:locale=en-US)**
+-   **[Autofill reference and glide list form field types](https://www.servicenow.com/docs/access?context=field-types-supported&family=zurich&ft:locale=en-US)**
 
-View captured images that are automatically attached to an auto-filled record using ServiceNow AI Lens. You can view the images to understand the source of the auto-filled information.
-
--   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+Auto-fill reference and glide list form field types with the data extracted from captured images or uploaded documents.
 
 
 </td></tr><tr><td>
@@ -149,36 +122,6 @@ Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceN
 Australia
 
 </td><td>
-
--   **[Set your default launch preference for AI Lens](https://www.servicenow.com/docs/access?context=download-sn-lens-msi&family=australia&ft:locale=en-US)**
-
-Choose how AI Lens opens when you start a session — from your browser or the desktop application. You can update this preference at any time.
-
-
--   **[Upload files from your browser to auto-fill form fields](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=australia&ft:locale=en-US)**
-
-Use AI Lens in your browser to upload files for it to analyze and auto-fill form fields — no installation required. Attach files by dragging or dropping or browsing and then upload the files for AI Lens to analyze and auto-fill form fields. File upload limits apply.
-
-
--   **[Map related Excel column headers and their values to a single ServiceNow table field](https://www.servicenow.com/docs/access?context=ai-lens-action-service-api&family=australia&ft:locale=en-US)**
-
-Use Lens as a Service to map the data from multiple related Excel column headers and values to a single ServiceNow table field. For example, if your Excel sheet has separate City, State, and Country columns, you can map all three values to a single Location field in your ServiceNow table. The service takes the values from each related column header and maps them as a combined data element to your target field, preserving the relationship between the data. Duplicate rows are automatically removed. This enhancement works with choice mapping and reference mapping.
-
-
--   **[Map Excel column headers and values to multiple ServiceNow table fields in a single operation](https://www.servicenow.com/docs/access?context=ai-lens-action-service-api&family=australia&ft:locale=en-US)**
-
-Use Lens as a Service to auto-map an Excel column header and its values from a single Excel sheet to multiple ServiceNow table fields simultaneously. For example, if your Excel sheet contains equipment-related data under headers such as Equipment Description, Manufacturer, and Model Name, AI Lens can auto-map these column headers and their values to multiple table fields at the same time. Some columns may map to one table while others map to different tables based on relevance. AI Lens, for example, can auto-map a single column header and its values to multiple table fields. The target tables are specified in your input JSON. Duplicate rows are automatically removed. This enhancement works with schema mapping.
-
-
--   **[Capture and analyze screens from your browser to auto-fill catalog item forms in Service Portal](https://www.servicenow.com/docs/access?context=create-record-in-the-service-portal&family=australia&ft:locale=en-US)**
-
-Capture and analyze the contents of your screen directly from your browser to auto-fill catalog item form fields in Service Portal — no installation required. To specify the area of the captured screen that you want AI Lens to analyze, crop the image before submitting it for analysis.
-
-
--   **[Excel mapping as a service](https://www.servicenow.com/docs/access?context=ailensactionservice-invokelens&family=australia&ft:locale=en-US)**
-
-Use Lens as a Service to support three auto-mapping services between Excel and ServiceNow tables. Auto-map Excel column headers to ServiceNow table fields. Auto-map Excel choice column values to ServiceNow choice field values. Auto-map Excel reference column values to ServiceNow reference field values.
-
 
 -   **[Capture and analyze screens from your browser to auto-fill forms](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=australia&ft:locale=en-US)**
 
@@ -208,7 +151,14 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes in the scanner window UI](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=yokohama&ft:locale=en-US)**
+
+The UI of the scanner window has been changed. See the following image.\[Omitted image "image.lens-scanner-new-ui"\] Alt text: Screenshot of the Lens scanner new UI.
+
+When you open the scanner window, the toolbar is displayed outside of it. However, when you maximize the window, the toolbar moves inside.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -225,9 +175,19 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Default app on launch setting on the ServiceNow AI Lens downloads and preferences page](https://www.servicenow.com/docs/access?context=download-sn-lens-msi&family=zurich&ft:locale=en-US)**
 
-Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+The ServiceNow AI Lens Downloads page has been renamed to ServiceNow AI Lens downloads and preferences, and a Default app on launch setting has been added to the page. The setting includes the following options:
+
+    -   **Browser \(no installation required\)**: Launches AI Lens from your browser when you start a session.
+    -   **Desktop app**: Launches AI Lens desktop application when you start a session.
+-   **[UI updated to reflect ServiceNow Otto branding](https://www.servicenow.com/docs/access?context=servicenow-lens-features&family=zurich&ft:locale=en-US)**
+
+The UI has been updated to reflect the ServiceNow Otto branding. Icons, and UI text have been updated throughout the interface to use Otto terminology and visual identity.
+
+-   **[New Upload button and Upload file dialog](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=zurich&ft:locale=en-US)**
+
+The ServiceNow AI Lens page, which opens in your browser when you select Create with Lens or Update with Lens button, now provides an Upload button. Selecting Upload opens the Upload file dialog, where you can add or drag files to attach the files. After attaching, you can optionally rename the files. To upload the files, select Next. After uploading, submit the files for ServiceNow AI Lens to analyze and auto-fill your form fields.
 
 
 </td></tr><tr><td>
@@ -236,7 +196,20 @@ Australia
 
 </td><td>
 
-No changes in this release.
+-   **[New screen with browser and desktop app access options](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=australia&ft:locale=en-US)**
+
+A new ServiceNow AI Lens screen opens when you select the **Create with Lens** button on a list view or **Update with Lens** button on a form. The screen provides the following options:
+
+    -   **Capture screen**: Captures a screen from your browser and lets ServiceNow AI Lens analyze its contents to auto-fill form fields.
+    -   **Open AI Lens desktop**: Opens the ServiceNow AI Lens desktop application for the full range of capabilities, including capturing multiple screens and uploading files.
+-   **[Preview screen](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=australia&ft:locale=en-US)**
+
+The new preview screen displays the screen that ServiceNow AI Lens captured before submitting for analysis. The screen provides the following options:
+
+    -   **Crop**: Select to crop the captured screen to specify the area that you want ServiceNow AI Lens to analyze, before submitting it for analysis.
+    -   **Additional instructions \(Optional\)**: Enter instructions to guide ServiceNow AI Lens in analyzing specific information from the captured screen.
+    -   **Re-capture**: Select to discard the current capture and repeat the screen capture process.
+    -   **Analyze**: Select to submit the captured screen for analysis and then auto-fill the form fields.
 
 </td></tr></tbody>
 </table>## Removed
@@ -331,7 +304,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure](https://www.servicenow.com/docs/access?context=install-sn-lens&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -339,7 +315,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure](https://www.servicenow.com/docs/access?context=install-sn-lens&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -347,7 +326,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure](https://www.servicenow.com/docs/access?context=install-sn-lens&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

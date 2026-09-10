@@ -60,7 +60,7 @@ Supplier for which the shopper places the order.For a non-catalog intake, if the
 -   Relationship status of the supplier
 -   Preferred status of the supplier
 
-The contact details provided by the shopper for the supplier is also displayed as a record in the **Vendor Contacts** related list. This record is created with the help of the vendor contact creation API from Supplier Lifecycle Operations. For more information, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+The contact details provided by the shopper for the supplier is also displayed as a record in the **Vendor Contacts** related list. This record is created with the help of the vendor contact creation API from Supplier Lifecycle Operations. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 </td></tr><tr><td>
 

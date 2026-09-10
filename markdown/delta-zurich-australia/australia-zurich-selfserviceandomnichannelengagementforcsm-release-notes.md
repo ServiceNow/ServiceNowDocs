@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 17
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,29 +67,12 @@ Zurich
 
 </td><td>
 
--   **[Amazon Connect for voice calls via ICC](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&family=zurich&ft:locale=en-US)**
-
-Manage Amazon Connect calls directly in the CSM Configurable Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
-
--   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
-
-Enable agents to designate a specific queue for their outbound calls directly from the keypad or the phone directory in the Global Call window to improve routing and reporting. This provides a streamlined search interface that enables agents to find and select a single queue that can be applied across all outbound dialing methods.
-
--   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=zurich&ft:locale=en-US)**
-
-Connect directly to WhatsApp Cloud API for more reliable, feature-rich customer support without third-party dependencies. The key capabilities include the following:
-
-    -   Send and receive text messages for direct customer communication.
-    -   Exchange images, videos, audio files, and documents for clearer, more contextual conversations.
-    -   Simplify customer input with list pickers and location sharing.
-    -   View typing indicators for more natural conversational flow.
-    -   Automatically capture and record customer opt-in and opt-out messages to ensure compliance with WhatsApp's messaging policies.
 -   **[Defining CCaaS callbacks](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-callback-integration-features&family=zurich&ft:locale=en-US)**
     -   Offer callers a callback option that lets them retain their position in the queue and receive a call when an agent is available. Alternatively, callers can choose a specific date and time for the callback, also known as scheduled callback.
     -   As an agent, view callback requests in the order that they're received.
 -   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
 
-As an agent, address callback requests from the CSM Configurable Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
+As an agent, address callback requests from the CRM Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
 
 On the Callback actions component, you can use the **Call number** option to initiate a call; alternatively, the call can be initiated automatically at the end of the preview timer when enabled. After the call has ended, the **Close callback** option closes the callback interaction and changes the status to Closed complete. Agents can also retry the callback as needed.
 
@@ -101,19 +84,11 @@ Switch between workspaces using the global call list. As a CSM agent, you can ac
 
 -   **[Phone directory](https://www.servicenow.com/docs/access?context=ccaas-phone-directory&family=zurich&ft:locale=en-US)**
 
-Access the embedded phone directory in your CSM Configurable Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
+Access the embedded phone directory in your CRM Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
 
 -   **[Call resiliency](https://www.servicenow.com/docs/access?context=ccaas-call-resiliency&family=zurich&ft:locale=en-US)**
 
-Route phone calls to the CSM Configurable Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
-
--   **[Voice Controls Simulator tool](https://www.servicenow.com/docs/access?context=voice-control-simulator-tool&family=zurich&ft:locale=en-US)**
-
-Test and validate voice call UI flows in the CSM Configurable Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
-
--   **[Monitoring calls](https://www.servicenow.com/docs/access?context=call-monitoring&family=zurich&ft:locale=en-US)**
-
-Enable supervisors to monitor, coach, and barge-in on calls in real time by integrating ServiceNow's native voice call feature within an active call interface.
+Route phone calls to the CRM Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
 
 
 </td></tr><tr><td>
@@ -139,11 +114,11 @@ You can configure and embed the following ServiceNow components on the third-par
     -   Object list: Display records from different tables with their related actions in a list format.
 -   **[Amazon Connect for voice calls via ICC](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&family=australia&ft:locale=en-US)**
 
-Manage Amazon Connect calls in the CSM Configurable Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
+Manage Amazon Connect calls in the CRM Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
 
 -   **[Supervisor call monitoring](https://www.servicenow.com/docs/access?context=supervisor-monitoring-for-voice&family=australia&ft:locale=en-US)**
 
-Monitor, coach, and join agent calls from the CSM Configurable Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
+Monitor, coach, and join agent calls from the CRM Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
 
 -   **[Agent help request for voice calls](https://www.servicenow.com/docs/access?context=agent-help-request-for-voice-calls&family=australia&ft:locale=en-US)**
 
@@ -190,31 +165,6 @@ The new capabilities for outbound interactions initiated by agents through email
 
 Transfer CCaaS or AWA-routed email interactions to another queue or agent. When transferring to a queue, corresponding routing rules apply automatically. When transferring to a specific agent, the interaction is directly assigned.
 
--   **[Email interaction feature: Email reply routing and summarization](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=australia&ft:locale=en-US)**
-
-The new capabilities for smart email routing and summarization are:
-
-    -   Receive customer email replies on the correct open case or interaction automatically, with ServiceNow Otto® selecting the best-matching case when multiple open cases exist.
-    -   Get AI summaries automatically on transfer and on demand, reducing the need to read the full email thread.
-    -   See summaries instantly on page refresh without re-running AI, and refresh with one click when new activity arrives on the interaction.
-**Note:** Check your entitlements to determine whether you have access to summarization and AI-based context matching.
-
--   **[Usage insights for ICC call events](https://www.servicenow.com/docs/access?context=usage-insight-for-icc-enabled-call-events&family=australia&ft:locale=en-US)**
-
-Monitor call events from ICC enabled agent sessions for the customer, in **Usage Insights** available under **Platform Analytics**. View, filter, and inspect event payloads for actions such as muting, recording, and coaching session initiation. To enable tracking, turn on the Analytics toggle in the agent's profile preferences and add the agent's **sys\_id** to the **sn\_openframe.logger.enabled.users** system property.
-
--   **[Amazon Connect SSO integration with ServiceNow](https://www.servicenow.com/docs/access?context=amazon-connect-sso-integration-with-servicenow&family=australia&ft:locale=en-US)**
-
-Configure Single Sign-On \(SSO\) between ServiceNow and Amazon Connect by adding the identity provider SSO URL to the Amazon Connect instance configuration. When a Security Assertion Markup Language \(SAML\) compatible identity provider is configured, agents signed in to ServiceNow can access Amazon Connect in the Contact Control Panel \(CCP\) without separate credentials.
-
--   **[Call Wrap-Up](https://www.servicenow.com/docs/access?context=initiate-agent-wrap-up-during-active-call&family=australia&ft:locale=en-US)**
-
-Initiate the wrap-up process before a call ends using the **Open Wrap-Up** button in the ICC enabled Active Call window. Agents can enter wrap-up codes and notes in real time, and minimize or expand the wrap-up modal as needed to maintain context during the call. Enable this feature for your CCaaS integration.
-
--   **[Implement the overflow menu for active calls](https://www.servicenow.com/docs/access?context=implement-overflow-menu-icc&family=australia&ft:locale=en-US)**
-
-Access primary call controls, such as Recording, Hold, Mute, Transfer, and Help Request, directly on the active call interface. When controls exceed five or the available display width, additional CCaaS-defined actions are available through an overflow menu.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -235,7 +185,39 @@ Zurich
 
 </td><td>
 
+-   **[Using the voice interaction page for callback requests](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
+
+The following UI components have been added on the voice interaction page to manage callback requests:
+
+    -   A Callback Actions component enables agents to initiate a call to the customers.
+    -   A Callback Context card enables agents to get quick context before initiating the call.
+    -   A Transfer button has been added in the Callback actions component to enable agents to transfer callback requests.
+    -   The scheduled start time option has been added in the callback context card to help agents access the date and time of the scheduled callback and enable smoother conversations.
+    -   The callback context card appears at the center of the voice interaction page to help agents stay informed and efficient during customer interactions.
+    -   The following options have been added to the Reason for the Call list to help agents better capture the reason for callbacks:
+        -   Customer Survey
+        -   Sales Discovery
+        -   Product Feedback
+        -   Customer Relationship Building
 -   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=zurich&ft:locale=en-US)**
+
+The following changes have been made to the Email Interaction page:
+
+    -   A New Activity marker has been added to help distinguish the most recent conversation.
+    -   A modeless dialog has been added to respond to emails without interrupting your workflow, enabling you to multitask and easily refer to record details.
+    -   A compact email header has been added to help you focus on key message details.
+    -   The activity stream shows only the latest reply in the email conversation for each response.
+-   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
+
+A **Leave Chat** button has been added to the record page so you can leave the chat without ending the session for other participating agents.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=zurich&ft:locale=en-US)**
 
 View annotations for the most recent activity along with a compact email header that includes the subject, sender, and receiver details in the activity stream. Focus on new or unread email messages rather than the entire email conversation.
 
@@ -257,36 +239,6 @@ Review and update queues imported from a contact center in a post-import page. T
 
 Notify agents when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system.
 
--   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
-
-Callback management has been improved to make handling requests easier for agents. The key changes include:
-
-    -   Equip agents to transfer the callback requests before dialing the call, enhancing flexibility in managing customer interactions.
-    -   Enable scheduled callbacks, which help customers to choose a preferred callback time in addition to the existing ASAP option.
-    -   Facilitate agents to view the list of queues and other agents for easier callback transfers and efficient customer management.
-    -   Capture callback reasons more effectively with the expanded Reason for Call field, which includes additional choice values.
--   **[Unified routing of email interactions via CCaaS](https://www.servicenow.com/docs/access?context=using-email-interaction-customer-service-management&family=zurich&ft:locale=en-US)**
-
-Email interaction handling has been enhanced to improve efficiency and responsiveness in managing customer communications. The key changes include:
-
-    -   Support external routing of email interactions.
-    -   Enable agents to put email interactions on hold while waiting for customer responses.
-    -   Notify CCaaS when an interaction is put on hold so that CCaaS can free up the agent's capacity for handling other interactions.
-    -   Send automatic email reminders to customers for interactions that are on hold for a configurable period.
-    -   Reroute email interactions to available agents when the originally assigned agent is unavailable.
-    -   Prevent creating outbound email interactions when emails are sent on top of cases.
--   **[Import queues](https://www.servicenow.com/docs/access?context=import-queues&family=zurich&ft:locale=en-US)**
-
-Use bulk action to assign service channels to multiple queues simultaneously during queue-import, simplifying queue management for CCaaS integrations.
-
--   **[Portal Data List widget](https://www.servicenow.com/docs/access?context=portal-data-list-widget&family=zurich&ft:locale=en-US)**
-
-The Data List widget now offers more configuration flexibility and supports dynamic, context‑aware view selection. Key enhancements include:
-
-    -   Role‑Based and Guest Views: Use the new role\_based\_views and guest\_view options to define different views for different user roles and for unauthenticated users removing the dependency on a single static view.
-    -   Automatic URL Parameter Passing: Pass URL parameters automatically into scripts invoked from Data List instance options enabling admins to build richer, multi‑parameter conditions without extra setup.
-    -   Script‑Based View Selection: Use the Data List Condition Script option to choose a view dynamically. Scripts can evaluate URL parameters and other context to determine the most appropriate view at runtime.
-    -   Configurable Default Sorting: Define initial sorting behavior using the new sort\_by and sort\_order options letting the users see a meaningful default order when the list loads.
 
 </td></tr><tr><td>
 
@@ -294,7 +246,36 @@ Australia
 
 </td><td>
 
--   **[Customer Service Portal Base](https://www.servicenow.com/docs/access?context=configure-csm-service-portals&family=australia&ft:locale=en-US)**
+-   **[ICC voice call features](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-call-interaction-features&family=australia&ft:locale=en-US)**
+
+The following UI components are available in the Active Call window, enabled via ICC in the CRM Workspace:
+
+    -   A **Help Request** button to seek supervisor assistance during an active call.
+    -   A **Cancel Help Request** or **End Help Request** button to cancel and end a submitted help request at any time during the active call.
+    -   An overflow menu icon \(ellipsis\) to access secondary call control buttons when the number of controls exceeds five or when the available display width is exceeded.
+-   **[Using the interaction and case page for callback request](https://www.servicenow.com/docs/access?context=csm-config-ws-pages-templates&family=australia&ft:locale=en-US)**
+
+The following UI components have been added on the interaction and case pages:
+
+    -   A **Schedule callback** button on interaction and case pages to enable agents to schedule callbacks on behalf of customers.
+    -   A **Reschedule** button on the callback task record page to enable agents to modify scheduled callback date and time on behalf of customers.
+    -   A **Cancel** button on the callback record page to enable agents to cancel callbacks created on behalf of customers.
+    -   A **Scheduled callbacks** tile in the contextual side panel to enable agents to view and manage upcoming callbacks while working on interactions or cases.
+Scheduled callbacks list view: A **Scheduled callbacks** list view has been added in Agent Workspace to enable agents to view all scheduled callbacks and open any callback to access its task record management.
+
+-   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=australia&ft:locale=en-US)**
+
+The following UI components have been added on the Email Interaction page:
+
+    -   A **Compose Email** UI option to contact and consumer records for initiating outbound email interactions from these records.
+    -   Clickable email addresses to contact and consumer records to open the email composer with the recipient address automatically inserted.
+    -   A **Transfer Email** option with list of available agents and queues has been added for AWA or CCaaS‑routed email interactions. Agents can transfer the interaction to the selected queues or agents.
+    -   A unified wrap‑up dialog has been added to provide a single closure experience for email interactions routed through AWA or CCaaS.
+    -   A **Summarize** button on the email interaction page to trigger an AI summary of the full conversation.
+    -   A Refresh Summary icon on the summary card to manually re-trigger summarization at any point.
+    -   Feedback icons and copy icon on the summary card to indicate whether the summary is helpful and to copy the summary text.
+
+ -   **[Customer Service Portal Base](https://www.servicenow.com/docs/access?context=configure-csm-service-portals&family=australia&ft:locale=en-US)**
 
 Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
@@ -305,24 +286,6 @@ Starting with the Australia release, the Subscriptions and Activity Feed Framewo
 -   **[Walk-Up for CSM](https://www.servicenow.com/docs/access?context=csm-walkup-experience&family=australia&ft:locale=en-US)**
 
 Starting with the Australia release, the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Walk-up for CSM store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
-
--   **[Walk-up Check-in](https://www.servicenow.com/docs/access?context=walkup-checkin-businessportal&family=australia&ft:locale=en-US)**
-
-Initiate a walk-up check-in directly from the Business Portal home page without navigating away from the landing experience.
-
--   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=australia&ft:locale=en-US)**
-
-WhatsApp direct integration gives agents richer conversational tools and gives customers more ways to reach for support. The key updates include:
-
-    -   Access synthesized responses generated from Now Assist Virtual Agent \(NAVA\) in WhatsApp direct conversations.
-    -   Play audio messages directly in the agent chat interface.
--   **[Portal Data List widget JSON parameters](https://www.servicenow.com/docs/access?context=portal-datalist-widget-data-json&family=australia&ft:locale=en-US)**
-
-Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table. The portal builds the URL with the relevant parameters to render the correct record view at runtime.
-
--   **[Portal Object widget instance options form](https://www.servicenow.com/docs/access?context=port-object-inst-options&family=australia&ft:locale=en-US)**
-
-Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters. The widget derives the card title, image field, summary view fields, and detail view from the view definition on the extended table. This eliminates the need for static configuration in the widget instance.
 
 
 </td></tr></tbody>
@@ -402,7 +365,10 @@ Zurich
 
 </td><td>
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -410,9 +376,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
- Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization](https://www.servicenow.com/docs/access?context=activate-email-summarization-csm&family=australia&ft:locale=en-US) and [Activate contextual email matching](https://www.servicenow.com/docs/access?context=activate-contextual-email-matching-csm&family=australia&ft:locale=en-US).
+Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization](https://www.servicenow.com/docs/access?context=activate-email-summarization-csm&family=australia&ft:locale=en-US) and [Activate contextual email matching](https://www.servicenow.com/docs/access?context=activate-contextual-email-matching-csm&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -462,7 +431,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -470,7 +442,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -491,7 +466,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -499,7 +478,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 CSM Engagement Messenger now supports reflow, allowing content to be zoomed up to 400% in a browser without loss of content or functionality. Page layouts automatically transform into a vertical, stacked view at 400% zoom. This update benefits users with low vision and those working across varied devices and environments.
+
 
 </td></tr></tbody>
 </table>## Localization information

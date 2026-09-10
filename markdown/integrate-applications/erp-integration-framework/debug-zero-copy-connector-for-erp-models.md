@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, model, log, payload, status]
-breadcrumb: [Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Debug Zero Copy Connector for ERP models
@@ -30,8 +30,8 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 -   Turn debugging on and off as needed.
 -   Debug logs persist for the current session only.
 -   The system clears debug logs automatically each day.
--   For probe executions outside of "Use ERP Data" flows, the system stores only transaction IDs, not flow context IDs.
--   For probe executions triggered through "Use ERP" flows, the system stores flow context IDs.
+-   For probe executions triggered through **Use ERP Data** flows, the system stores flow context IDs.
+-   For probe executions outside of **Use ERP Data** flows, the system stores only transaction IDs, not flow context IDs.
 
 ## Procedure
 

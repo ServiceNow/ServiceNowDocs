@@ -1651,7 +1651,7 @@ Users have bookmarked, saved, or edited links to the legacy health dashboard, me
 
  Expected behavior: When users navigate to the legacy dashboard, they should be able to see a message telling them to use the new health dashboard and that the legacy dashboard is no longer supported.
 
- Actual behavior: Observe that the legacy health dashboard has some broken widgets, no colors, etc. but there is no indication that this dashboard is retired or has been migrated.
+ Actual behavior: Observe that the legacy health dashboard has some broken widgets, no colors, etc. But there is no indication that this dashboard is retired or has been migrated.
 
 </td></tr><tr><td>
 

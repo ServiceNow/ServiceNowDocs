@@ -1,6 +1,6 @@
 ---
 title: Enable public access to the chat widget
-description: Enable public access to the Virtual Agent chat widget for portals.
+description: Enable public access to the standard chat Virtual Agent chat widget for portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/enable-public-access-web-client.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conve
 
 # Enable public access to the chat widget
 
-Enable public access to the Virtual Agent chat widget for portals.
+Enable public access to the standard chat Virtual Agent chat widget for portals.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Public access to the Virtual Agent chat widget defaults to off. Use the following steps to allow public access to the chat widget for only portals.
+Public access to the standard chat Virtual Agent chat widget defaults to off. Use the following steps to allow public access to the chat widget for only portals.
 
 ## Procedure
 

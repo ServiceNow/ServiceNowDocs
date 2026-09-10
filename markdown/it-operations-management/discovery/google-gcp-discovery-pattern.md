@@ -1,6 +1,6 @@
 ---
 title: Discovery for Google Cloud Platform
-description: Discovery finds Google Cloud Platform and its components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery finds Google Cloud Platform and its components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/google-gcp-discovery-pattern.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Ope
 
 # Discovery for Google Cloud Platform
 
-Discovery finds Google Cloud Platform and its components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery finds Google Cloud Platform and its components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

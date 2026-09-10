@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-03-22"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 breadcrumb: [Workplace Concierge agentic workflow, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_wsd\_core.workplace\_user and now\_assist\_panel\_user
 
 ## What to do next
 
-Visitors can reply to the invitation email to provide information for their pre-check tasks. The Email Visitor Intake agent processes email replies and updates the visitor records.
+Visitors can reply to the invitation email to provide information for their prerequisite tasks. The Email Visitor Intake agent processes email replies and updates the visitor records.
 
 If Workplace Concierge is included in any emails sent to visitors, the Email Visitor Intake agent scans the email threads. The agent extracts relevant data and updates the visitor records.
 

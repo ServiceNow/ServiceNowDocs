@@ -64,5 +64,3 @@ Opportunity summary tile provides a synthesized summary of emails, meetings, tou
 
 The Opportunity snapshot card displays a structured summary with up to four sections: opportunity overview, customer needs and pain points, recent and upcoming activity, and risks detected from activity. Sections without data are not displayed.
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-

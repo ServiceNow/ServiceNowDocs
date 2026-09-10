@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The Script Include API defines script includes \[sys\_script\_include\] that store JavaScript functions and classes for use by server-side scripts.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 For new scripts, use JavaScript modules instead of script includes when possible to support code reuse and using third-party libraries within an application scope. For more information about JavaScript module support and limitations, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
 

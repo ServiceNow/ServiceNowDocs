@@ -42,7 +42,7 @@ Role required: sn\_customerservice.consumer
 To configure the AI agent:
 
 1.  Navigate to **All** &gt; **Assistant Designer** &gt; **Assistants**.
-2.  In Now Assist Voice Deployment tile, select **Edit**.
+2.  In ServiceNow Otto Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
 To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).

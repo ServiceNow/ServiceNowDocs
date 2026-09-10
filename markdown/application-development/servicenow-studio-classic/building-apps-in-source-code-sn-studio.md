@@ -19,6 +19,12 @@ Developing and maintaining applications in source code enables you to create and
 
 To create apps in ServiceNow Studio, you use ServiceNow Fluent, a domain-specific programming language, to define the metadata that makes up applications. ServiceNow Fluent includes APIs for defining the different types of metadata. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md).
 
+## Workspaces
+
+The concept of workspaces is a bit different in ServiceNow Studio than in ServiceNow IDE. In the ServiceNow IDE, you can add any applications that you're working on to a workspace to navigate through them all from one place. You can create multiple workspaces to group different sets of applications. Workspaces are specific to a user, and applications can be added or removed from a workspace at any time.
+
+In ServiceNow Studio, the **Explorer** tab acts as a single, persistent workspace, where you can add any application that has been converted to Fluent. For that reason, workspaces don't need to be created in ServiceNow Studio to create or group applications.
+
 ## Application structure
 
 Fluent applications created or converted in ServiceNow Studio include source code files and metadata XML files. The `package.json` and `now.config.json` files define the application structure, which is similar to that of Node.js applications or Node Package Manager \(npm\) packages.
@@ -137,9 +143,7 @@ package.json
 File containing information about your application and custom or third-party module dependencies. The `package.json` file must be in the base directory for an application. On an instance, the `package.json` path is specified in the **Package JSON** field of the custom application record \[sys\_app\] in the format `<scope>/<package-name>/<version>/package.json`.
 
 </td></tr></tbody>
-</table>-   **[Create a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-a-workspace.md)**  
-Create a workspace to view and organize the applications you're working on in ServiceNow Studio.
--   **[Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-app-in-source-code.md)**  
+</table>-   **[Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-app-in-source-code.md)**  
 Create an application to develop in source code in ServiceNow Studio.
 -   **[Convert an application to Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/convert-app-to-fluent.md)**  
 Convert an existing application to support development in source code with ServiceNow Studio.

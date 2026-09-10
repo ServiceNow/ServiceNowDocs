@@ -1,19 +1,19 @@
 ---
 title: ServiceNow Otto for FSM release notes
-description: The ServiceNow ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Parts Manager, AI agent, work order, field service]
+keywords: [Parts Manager, AI agent, work order, field service, Parts Manager, AI agent, work order, field service]
 ---
 
 # ServiceNow Otto for FSM release notes
 
 The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 
-## ServiceNow Otto for FSM highlights for the Australia release
+## About ServiceNow Otto for FSM
 
 -   Track and validate parts usage during work order task closure with the Parts Manager AI agent.
 -   Create work orders from images by uploading photos of equipment issues through the Now Assist panel or ServiceNow Agent mobile app.
@@ -21,20 +21,28 @@ The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Fie
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Experience updated visual indicators with consistent AI gradients across platform, workspace, and mobile interfaces.
 
-See [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md) for more information.
+See  for more information.
+
+## Activation and other requirements
 
 **Important:** ServiceNow Otto for FSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+    Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+-   **Additional requirements**
 
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    The ServiceNow Otto for FSM application requires Field Service Management.
+
+
+**Parent Topic:**[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md)
+
+## Australia
+
+The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **AI agent: Parts Manager**
 
@@ -53,56 +61,23 @@ See [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubuse
     Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
-## UI changes
+### What's changed
 
--   **[Primary action button for Now Assist Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md)**
+-   **Primary action button for Now Assist Virtual Agent**
 
     Access Now Assist Virtual Agent from a primary action button in the ServiceNow Agent mobile app navigation bar. Administrators can configure this button to launch Now Assist Virtual Agent or another global function. When configured for Virtual Agent, tapping the button opens Now Assist without additional navigation steps.
 
--   **[AI visual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md)**
+-   **AI visual indicators**
 
     Consistent gradient styles indicate when AI is assisting or augmenting an experience. Gradients appear across AI-powered features in Workspace, UI16, and mobile interfaces. Gradients subtly animate during AI processing and return to a static state when complete.
 
--   **[Updated icons in Now Assist Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md)**
+-   **Updated icons in Now Assist Virtual Agent**
 
     The Now Assist Virtual Agent interface includes updated icons for web search, photo upload, and microphone functions.
 
-
-## Changed in this release
 
 -   **Create Work Order AI agent performance improvements**
 
     The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
 
-
-## Activation information
-
-Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-## Additional requirements
-
-The ServiceNow Otto for FSM application requires Field Service Management.
-
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    Use the AI Admin Hub console that provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use the Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including work order task summarization and Knowledge Base article generation.
-
--   **[AI agents for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-ai-agent-use-cases.md)**
-
-    Use AI agents to automate field service tasks such as parts management and work order creation.
-
-
-**Parent Topic:**[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

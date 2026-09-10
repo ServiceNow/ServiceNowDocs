@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-16"
 reading_time_minutes: 2
 keywords: [group action framework, gaf]
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Troubleshooting Group Action Framework

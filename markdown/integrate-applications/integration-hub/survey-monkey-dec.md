@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SurveyMonkey spoke v2.0.6 is the latest version.
+SurveyMonkey spoke v2.0.6 is the latest version. For version history of the spoke, see [SurveyMonkey spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-survey-monkey.html).
 
 ## Supported versions
 

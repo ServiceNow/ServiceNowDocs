@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -38,27 +38,27 @@ For information about version compatibility and troubleshooting, see the [Renewa
 
 5.  Select the **Parameter name** field.
 
-6.  Select **ext.vault.hashicorp.address**.
+6.  Select **ext.vault.hashicorp.address**
 
-7.  In the **Value** field, enter your external HashiCorp vault address.
+7.  In the **Value** field, enter your external Hashicorp vault address.
 
-    The default value is `http://127.0.0.1:8200`.
+    The default value is http://127.0.0.1:8200.
 
-8.  Select **Submit**.
+8.  Select **Submit**
 
-9.  Add the HashiCorp vault path parameter.
+9.  Add a new parameter.
 
     1.  Select **New**.
 
     2.  Select the **Parameter name** field.
 
-    3.  Select **ext.vault.hashicorp.path**.
+    3.  Select **ext.vault.hashicorp.path**
 
-    4.  In the **Value** field, enter your file path in the HashiCorp vault.
+    4.  In the **Value** field, enter your file path in the Hashicorp vault.
 
     5.  Select **Submit**.
 
-10. Add the HashiCorp vault token to your MID Server configuration file.
+10. Navigate to the location of your host name of the MID Server
 
     1.  Navigate to the IP address in the **IP address** field of your MID Server record.
 
@@ -66,13 +66,9 @@ For information about version compatibility and troubleshooting, see the [Renewa
 
     3.  Select the `agent/config.xml` file.
 
-    4.  Add the parameter **ext.vault.hashicorp.token** in your `config.xml` file.
+    4.  Add the parameter **ext.vault.hashicorp.token** in your cofig.xml file.
 
-    5.  Insert the following code:
-
-        ```
-        <parameter name="ext.vault.hashicorp.token" secure="true" value="<YOUR TOKEN VALUE>"/>
-        ```
+    5.  Insert the following code: `<parameter name="ext.valut.hashicorp.token" secure="true" value="<YOUR TOKEN VALUE>"/>`
 
     6.  Restart your MID Server.
 

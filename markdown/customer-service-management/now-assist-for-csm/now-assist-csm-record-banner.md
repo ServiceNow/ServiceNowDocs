@@ -37,12 +37,12 @@ When an agent selects a link in the message, that field is highlighted on the fo
 
 ## Setting default record pages
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. When the system displays information in CSM Configurable Workspace, such as case records and interactions, it uses the pages that have been set as the default record pages.
+A record page provides the base structure for how a record is displayed in CRM Workspace. When the system displays information in CRM Workspace, such as case records and interactions, it uses the pages that have been set as the default record pages.
 
 Set the following pages as the default record pages in UI Builder:
 
 -   **CSM default record page**: Includes specific features for case management.
 -   **CSM Interaction record page**: Includes CSM specific features for interaction management.
 
-These pages support the ServiceNow Otto for Customer Service Management \(CSM\) functionality in CSM Configurable Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+These pages support the ServiceNow Otto for Customer Service Management \(CSM\) functionality in CRM Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 

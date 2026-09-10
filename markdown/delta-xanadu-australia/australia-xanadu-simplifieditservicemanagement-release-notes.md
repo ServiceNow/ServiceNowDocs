@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-simplifieditservicemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,54 +107,15 @@ Australia
 
 </td><td>
 
--   **[Simplified employee experience through Employee Center portal](https://www.servicenow.com/docs/access?context=employee-experience-employee-center&family=australia&ft:locale=en-US)**
+-   **[Simplified request process using Employee Slate](https://www.servicenow.com/docs/access?context=employee-experience-using-employee-slate&family=australia&ft:locale=en-US)**
 
-Simplify employee experience by leveraging the automated self-service and browsing experience in the Employee Center portal. The following capabilities are available as part of the employee experience:
+A simplified request process is available:
 
-    -   A simplified Employee Center portal with a conversational experience that supports chat, catalog, and knowledge content.
-    -   Prebuilt catalog items for common IT issues and requests.
-    -   Requester surveys for incidents and requested items.
-    -   Multi-channel support through Employee Center, email, Microsoft Teams, and Slack.
-    -   Starting in version 3.2, a simplified request process in which a request is created for an order guide submission and requested item is created for a catalog item request.
--   **[Simplified employee experience through Employee Slate](https://www.servicenow.com/docs/access?context=employee-experience-using-employee-slate&family=australia&ft:locale=en-US)**
-
-Starting in version 3.0, simplify employee experience by leveraging the conversational experience in Employee Slate. The following capabilities are available as part of this experience for Employee Slate integration with both Now Assist and Moveworks:
-
-    -   A simplified portal with a conversational experience that enables employees to submit requests and incidents.
-    -   A canvas that can be customized for quick reference of employee tasks.
-    -   Chat history of active and closed conversations.
-    -   Notifications for employee tasks.
-    -   Starting in version 3.1, Employee Slate as primary engagement experience for incident and request notifications.
-    -   Starting in version 3.2, a simplified request process in which a request is created for an order guide submission and requested item is created for a catalog item request.
--   **[Simplified fulfiller experience](https://www.servicenow.com/docs/access?context=fulfiller-experience-ai-native-itsm&family=australia&ft:locale=en-US)**
-
-Provide an efficient IT support experience for incident and request management by leveraging AI recommendations for the following:
-
-    -   Resolution steps and knowledge base recommendations
-    -   Incident and chat summaries
-    -   Resolution notes and email response generation
-    -   Recommended actions such as linking similar incidents or ordering catalog items
-A role-based manager dashboard with key service desk metrics, date-range filtering, and agent-level filtering is available.
-
-Starting in version 3.0, the simplifled fulfiller experience includes these updates.
-
-    -   Catalog tasks are shown on the home page so they can be tracked alongside incidents and requests.
-    -   The incident details layout has been updated on the incident form, including the position of attachments and configuration items.
+    -   A request is created for an order guide submission.
+    -   A requested item is created for a catalog item request.
 -   **[Automated and guided administrator experience](https://www.servicenow.com/docs/access?context=configuring-ai-native-itsm&family=australia&ft:locale=en-US)**
-
-Set up multiple ITSM workflows \(incident management and request management\) by leveraging the guided and conversational setup process. The following capabilities are available for administrators:
-
-    -   Default configuration settings that are automatically applied to installed products or modules. You can review and modify these settings.
-    -   A guided configuration experience for ITSM workflows.
-        -   Starting in version 3.0, a guided experience is available for the following configurations:
-            -   Employee Slate
-            -   Configuration items
-            -   Core setup areas required to make Change Management operational.
-        -   Starting in version 3.0, redirection to Service Operations Workspace Admin Center is available to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
-        -   Starting in version 3.1, a guided experience is available for Gmail inbound email configuration.
-        -   Starting in version 3.2, you can configure Incident Management using the sn\_incident\_admin role and Request Management using the sn\_request\_admin role.
-        -   Starting in version 3.2, admins can configure change forms and lists in the Configuration Console. See [Configuring Simplified Change Management](https://www.servicenow.com/docs/access?context=configuring-change-management-experience-in-it-service-management&family=australia&ft:locale=en-US)
-    -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://www.servicenow.com/docs/access?context=agents-ai-native-it-service-desk&family=australia&ft:locale=en-US).
+    -   Configure Incident Management using the sn\_incident\_admin role and Request Management using the sn\_request\_admin role.
+    -   Configure change forms and lists in the Configuration Console.
 
 </td></tr></tbody>
 </table>## Changes
@@ -334,7 +295,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Request the entitlement for IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -559,22 +523,9 @@ Australia
 
 </td><td>
 
--   Configure your ITSM workflows with an AI-first, centralized, and guided administrator experience.
--   Take advantage of conversational AI agents to configure ITSM workflows.
--   Enable employees to find answers, order items, create incidents, and check status on the Employee Center portal through an AI-first, multi-channel experience.
--   Enable fulfillers to experience simplified incident and request management through an AI-first experience with IT support.
--   Starting in version 3.0, following capabilities are available:
-    -   Configure Change Management, Employee Slate, and configuration items through a guided experience.
-    -   Navigate to Service Operations Workspace Admin Center to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
-    -   Enable a conversation-first experience for employees with Employee Slate. It has a unified Activity Hub showing open incidents and requested items, fulfillment progress, and a simplified request experience.
--   Starting in version 3.1, following capabilities are available:
-    -   Enable the Employee Slate experience when redirected from incident and request notifications.
-    -   Configure the inbound email setup for Gmail alongside the ServiceNow account option.
--   Starting in version 3.2, following capabilities are available:
-    -   Configure Incident Management and Request Management in the product console using granular roles.
-    -   Simplified request process in Employee Slate and Employee Center.
-
- See [Simplified IT Service Management](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-landing-page&family=australia&ft:locale=en-US) for more information.
+-   AI-powered automation reduces setup time and complexity: Administrators benefit from the guided setup processes and conversational AI agents, which help them configure ITSM workflows faster.
+-   Simplified experience for employees and requesters: Employees and requesters can request help, submit tickets, check status, use the employee portal, browse the catalog, and access knowledge.
+-   Faster issue resolution with simplified workflows: Fulfillers or service desk agents can resolve incidents and requests through a simplified, AI-first workspace that supports guided actions and faster issue resolution.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

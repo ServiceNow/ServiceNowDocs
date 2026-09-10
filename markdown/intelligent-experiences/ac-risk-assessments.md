@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-17"
 reading_time_minutes: 1
 keywords: [risk assessment, inherent risk, residual risk]
-breadcrumb: [Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Risk assessments

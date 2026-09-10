@@ -16,7 +16,7 @@ Define tests, set measurable thresholds, and monitor real-time execution with ac
 
 ## Get started
 
-The Service Test Management product enables the you with the ability to precisely define, execute, and monitor service tests in real-time. This advanced system enables customers to create detailed test specifications, establish test measures, and set threshold rule violations. Agents can use these for instantaneous testing and diagnostics. Technology, media, and telecommunications \(TMT\) service providers can use this application where proactive and reactive service testing is critical.
+The Service Test Management product enables you with the ability to precisely define, execute, and monitor service tests in real-time. This advanced system enables customers to create detailed test specifications, establish test measures, and set threshold rule violations. Agents can use these for instantaneous testing and diagnostics. Technology, media, and telecommunications \(TMT\) service providers can use this application where proactive and reactive service testing is critical.
 
 ## Additional resources
 

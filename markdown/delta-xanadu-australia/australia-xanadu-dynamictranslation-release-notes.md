@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-dynamictranslation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -164,7 +164,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -201,7 +204,7 @@ Yokohama
 
 </td><td>
 
-The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -246,7 +249,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -299,7 +302,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Dynamic Translation is a ServiceNow AI Platform feature that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\). For details, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -434,7 +440,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

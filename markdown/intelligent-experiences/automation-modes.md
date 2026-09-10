@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/automation-modes.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
 ---
@@ -39,6 +39,8 @@ Predictions are accepted directly with no review.
  This mode eliminates the need for manual review by relying entirely on automated predictions.
 
  The document task is completed immediately and the integrated workflow continues.
+
+ **Note:** If any essential fields lack a prediction, you have an option to halt the extraction process. This functionality enables a Human-in-the-Loop \(HITL\) review to start when crucial predictions are absent, ensuring accuracy and reliability in the data extraction process.
 
 </td><td>
 

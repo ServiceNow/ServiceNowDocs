@@ -58,7 +58,11 @@ To store the data for a single running process for two days, the log file size o
 
 Once the Osqueryd schedule and Osqueryd logs are configured the Osqueryd service can start.
 
-The schedule runs the Osquery: Select name, pid, elapsed\_time, start\_time, user\_time, system\_time, username from processes p JOIN users u ON u.uid = p.uid where p.elapsed\_time != -1 AND u.type !='special';" runs every 5 minutes \(300 seconds\) on the target machine. This logs the results into the log file. The log file contains snapshot entries of all the queries configured to run by the Osqueryd . This query contains all the processes attributes.
+The schedule runs the following Osquery every 5 minutes \(300 seconds\) on the target machine:
+
+`Select name, pid, elapsed_time, start_time, user_time, system_time, username from processes p JOIN users u ON u.uid = p.uid where p.elapsed_time != -1 AND u.type !='special';`
+
+The results are logged to the log file. The log file contains snapshot entries of all queries configured to run by Osqueryd. This query contains all process attributes.
 
 **Note:**
 

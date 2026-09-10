@@ -63,7 +63,7 @@ A workflow for non-self-served contract request might progress as follows:
 -   **[Modify a non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-nss-contract.md)**  
 As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
 -   **[Work on a non-self-served contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-review-request.md)**  
-Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from the contract request.
+Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions. After they confirm the revisions, send the signature from the contract request.
 -   **[Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md)**  
 As a contract user or the person for whom the contract was requested, add single or multiple contracts and classify them.
 -   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  

@@ -1,5 +1,5 @@
 ---
-title: Employee Slate prompt library
+title: EmployeeWorks Web App prompt library
 description: Example natural-language prompts that you can use across Employee Slate features. Use these prompts in the home page chat bar, the full-page conversation view, or the contextual assistant on any page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2026-04-28"
 reading_time_minutes: 5
 keywords: [prompt library, example prompts, conversational AI, Now Assist Chat, Moveworks]
-breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate prompt library
+# EmployeeWorks Web App prompt library
 
 Example natural-language prompts that you can use across Employee Slate features. Use these prompts in the home page chat bar, the full-page conversation view, or the contextual assistant on any page.
 
@@ -21,13 +21,14 @@ Example natural-language prompts that you can use across Employee Slate features
 
 The prompt library groups example prompts by feature area. Use the prompts as written or adapt the phrasing to your context. The assistant retains conversation context across turns, so you can refine results with follow-up prompts in the same chat.
 
-For more information, see [Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
+For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
+
+**Note:** These prompts are for reference purpose. Tweak them to suit your requirements.
 
 ## Conversation-first experience
 
 |Category|Example prompts|
 |--------|---------------|
-|Open the chat|"Open the chat in full-page view." / "Continue my last conversation." / "Switch this conversation to the side panel."|
 |Conversational catalog|"Order a new laptop." / "Request access to MS Teams." / "Submit a software request for Adobe Acrobat."|
 |Conversational knowledge|"What's our travel policy in EMEA?" / "How many vacation days do I have left?" / "Summarize the security incident response procedure."|
 
@@ -35,7 +36,6 @@ For more information, see [Employee Slate for Now Assist](https://raw.githubuser
 
 |Category|Example prompts|
 |--------|---------------|
-|Navigation|"Take me to the home page." / "Open my personal canvas." / "Switch to the manager canvas."|
 |Personalize widgets|"Pin this widget to my canvas." / "Add the org chart widget." / "Remove the announcements widget from my canvas." / "Reset my canvas to default."|
 
 ## Tasks and requests
@@ -43,7 +43,7 @@ For more information, see [Employee Slate for Now Assist](https://raw.githubuser
 |Category|Example prompts|
 |--------|---------------|
 |Approval-focused|"Show my pending approvals." / "What needs my approval?" / "Pull up my approval queue." / "Show approvals waiting more than three days." / "List my overdue tasks" / "Show my critical items" /|
-|Task-focused|"List my overdue tasks." / "What tasks do I have due today?" / "Show completed tasks." / / "Sort tasks by priority." "Show my learning tasks" / "Show my IT requests" / "Show my HR requests"/ "What happened to my expense claim?" / "Show my closed requests" / What requests have I submitted?|
+|Task-focused|"List my overdue tasks." / "What tasks do I have due today?" / "Show completed tasks." / / "Sort tasks by priority." "Show my learning tasks". "Show my IT requests" / "Show my HR requests"/ "What happened to my expense claim?" / "Show my closed requests" / What requests have I submitted?|
 |Tasks and requests navigation|"Open Tasks and requests." / "Show only unread items." / "Filter Tasks and requests by Now Assist actions." / "Clear all notifications I've already seen."|
 
 ## Notifications
@@ -80,7 +80,7 @@ For more information, see [Employee Slate for Now Assist](https://raw.githubuser
 |Category|Example prompts|
 |--------|---------------|
 |Reasoning and answers|"Compare our company PTO policy with industry standards." / "Summarize the latest HR policy changes." / "Explain my benefits enrollment options."|
-|Calendar Management assistant|"Block my calendar tomorrow from 2 to 4 PM." / "Reschedule my 10 AM meeting to 3 PM." / "Find a 30-minute slot with Diego next week." / "Add a Zoom link to my 4 PM meeting."|
+|Calendar Management assistant|"Block my calendar tomorrow from 2 to 4 PM." / "Reschedule my 10 AM meeting to 3 PM.". "Find a 30-minute slot with Diego next week." / "Add a Zoom link to my 4 PM meeting."|
 |HR record updates|"Update my home address." / "Change my emergency contact to my spouse." / "Update my direct deposit account." / "Set my pronouns on my profile."|
 |Research and document generation|"Research Acme Corp's recent news." / "Generate an NDA for Acme Corp." / "Send the NDA to legal@acme.com for signature."|
 |Enterprise search with citations|"Search the company knowledge base for laptop refresh policy." / "Find documents tagged with FY26 roadmap." / "Filter results to PDFs from the last 30 days."|
@@ -90,7 +90,7 @@ For more information, see [Employee Slate for Now Assist](https://raw.githubuser
 
 |Category|Example prompts|
 |--------|---------------|
-|Generate|"Create a widget that shows the next three meetings." / "Build a one-time password entry widget with a 60-second countdown." / "Generate a widget that displays open IT tickets for the user."|
+|Generate|"Create a widget that shows the next three meetings." / "Build a one-time password entry widget with a 60-second countdown.". "Generate a widget that displays open IT tickets for the user."|
 |Refine|"Make the timer turn red when fewer than 30 seconds remain." / "Duplicate the announcements widget." / "Restrict this widget to the HR admin role." / "Undo the last change."|
 
 ## Admin console

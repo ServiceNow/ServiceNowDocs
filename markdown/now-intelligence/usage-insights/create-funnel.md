@@ -34,7 +34,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d95175e119">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d95782e115">
 
 **Event Trigger**
 
@@ -42,7 +42,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
 
-</td></tr><tr><td id="d95175e141">
+</td></tr><tr><td id="d95782e137">
 
 **Session Start \(1st\)**
 
@@ -50,7 +50,7 @@ Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d95175e150">
+</td></tr><tr><td id="d95782e146">
 
 **Session Start \(any\)**
 
@@ -65,12 +65,19 @@ Select to measure any user sessions.
 
     \[Omitted image "uxa-funnel-create.png"\] Alt text: Create funnel wizard
 
-9.  Select **Add** to finish the funnel.\[Omitted image "usage-insights-funnel.png"\] Alt text: View funnel
+9.  Select **Add** to finish the funnel.
+
+    \[Omitted image "usage-insights-funnel.png"\] Alt text: View funnel
 
 10. View the funnel in Platform Analytics.
 
-    You can view your funnel directly from Platform Analytics. When you create a new dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.\[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
+    You can view your funnel directly from Platform Analytics. When you create dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.
 
+    \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
+
+
+-   **[Create cross-application conversion funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/create-conversion-funnel-for-cross-application.md)**  
+Conversion funnels outline a sequence of steps to measure user progression, identify drop-off points, and track the time taken for each transition. The cross-application capability eliminates the requirement for every step to be in the same application.
 
 **Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

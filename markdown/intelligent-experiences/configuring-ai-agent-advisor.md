@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [AI Agent Advisor, Enable AI experiences]
+breadcrumb: [AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Configuring AI Agent Advisor
@@ -17,7 +17,7 @@ Configure settings for AI Agent Advisor.
 
 -   **[Confirm installation of AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-ai-agent-advisor.md)**  
 Confirm the installation of the AI Agent Advisor application.
--   **[Setting up automation opportunity discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-setting-up-opportunity-discovery.md)**  
+-   **[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)**  
 Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
 
 **Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md)

@@ -28,6 +28,8 @@ From the Portfolio page in Enterprise Architecture Workspace, you can perform th
 
 You can also view and add business capabilities and perform a host of other tasks relating to business capabilities, from the Business Portfolio page. For more information, see [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md).
 
+**Note:** Before Australia Patch 5, a business capability could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business capability with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  

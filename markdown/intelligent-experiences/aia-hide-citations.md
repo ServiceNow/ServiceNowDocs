@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Citations in AI agents, Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Citations in AI agents, Configure, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Disable citations in AI Agent Studio

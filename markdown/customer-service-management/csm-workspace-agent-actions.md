@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace form features
-description: Use features available on CSM Configurable Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
+title: CRM Workspace form features
+description: Use features available on CRM Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form features
+# CRM Workspace form features
 
-Use features available on CSM Configurable Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
+Use features available on CRM Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
 
 For more information about working with forms, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
 
@@ -21,7 +21,7 @@ For more information about working with forms, see the following topics in the [
 
 ## Visual field indicators for unsaved changes
 
-Use visual indicators in CSM Configurable Workspace such as icons and background colors to indicate form fields with unsaved changes. When this feature is enabled, customer service agents see the following indicators:
+Use visual indicators in CRM Workspace such as icons and background colors to indicate form fields with unsaved changes. When this feature is enabled, customer service agents see the following indicators:
 
 -   Dot icons appear next to the field labels for updated fields.
 -   Background colors change for updated fields.
@@ -29,7 +29,7 @@ Use visual indicators in CSM Configurable Workspace such as icons and background
 
 Field updates include manual changes made by the agent, by the application of a template, or automatic updates made by AI. These visual indicators are removed when the agent saves the form.
 
-This feature is available for the following CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
+This feature is available for the following CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
 
 -   Front-line case page
 -   CSM default record page
@@ -52,7 +52,7 @@ To set this property:
 
 Customer service agents can edit the short description \(primary field\) of a record directly from the record header field. To edit the text, simply click in the record header field and make the changes.
 
-This feature is available on the following CSM Configurable Workspace record pages:
+This feature is available on the following CRM Workspace record pages:
 
 -   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)
 -   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
@@ -87,7 +87,7 @@ The labels for form fields can appear either above the field or next to the fiel
 -   Stacked: Labels appear on top of the fields.
 -   Tabbed: Labels appear next to the fields.
 
-This property is available for the following CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
+This property is available for the following CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
 
 -   Front-line case page
 -   CSM default record page
@@ -125,7 +125,7 @@ For more information about configuring the special handling notes feature, see [
 
 Actions available to customer service agents appear in the form header as buttons or menu items.
 
-For CSM Configurable Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md).
+For CRM Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md).
 
 The **Create Knowledge** action requires the following setup:
 
@@ -135,7 +135,7 @@ The **Create Knowledge** action requires the following setup:
 
 ## Agent assist
 
-Agent assist is available on the Interaction form in CSM Configurable Workspace. Users with the customer service agent role \(sn\_customerservice\_agent\) can use Agent assist to search for information from an interaction. By default, the available search sources include Knowledge articles, Service Catalog, and ServiceNow Community blogs and posts.
+Agent assist is available on the Interaction form in CRM Workspace. Users with the customer service agent role \(sn\_customerservice\_agent\) can use Agent assist to search for information from an interaction. By default, the available search sources include Knowledge articles, Service Catalog, and ServiceNow Community blogs and posts.
 
 For more information on how to enable Recommended Actions - AI search and disable Agent Assist, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-ra-agent-assist.md).
 

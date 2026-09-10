@@ -1,5 +1,5 @@
 ---
-title: Add New Location form
+title: Fields in the Add New Location form
 description: Use the Add New Location form to provide details about the location of a supplier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Add New Location form
+# Fields in the Add New Location form
 
 Use the Add New Location form to provide details about the location of a supplier.
 
@@ -109,17 +109,17 @@ You can select multiple values from the choice list.
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

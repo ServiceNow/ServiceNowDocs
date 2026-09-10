@@ -148,8 +148,6 @@ Define relationships between SDOs and the observable object \(SCO\).
 Define relationships between the indicator object and other SDOs.
 -   **[Define indicator-indicator relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-indicator-indicator-relationships.md)**  
 Define relationships between the indicator object and other Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other..
--   **[Define indicator-observable relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-indicator-observable-relationships.md)**  
-Define relationships between the indicator object and other SDOs.
 
 **Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
@@ -170,7 +168,7 @@ Define relationships between the indicator object and other SDOs.
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Potential Relationships]()
 

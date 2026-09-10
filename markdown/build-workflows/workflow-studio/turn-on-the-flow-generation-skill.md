@@ -18,7 +18,7 @@ Turn on the flow generation skill to use generative AI to create and edit flows.
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: admin
 
 ## About this task

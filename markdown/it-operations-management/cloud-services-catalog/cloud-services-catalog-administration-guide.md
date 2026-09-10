@@ -18,7 +18,7 @@ After you set up the Cloud Services Catalog application, you must set up some ad
 
 ## Configuring governance
 
-You can use governance tools to restrict the provisioning of cloud resources, such as quotas and policies. For example, you can configure the approval workflow that is used after a user requests a cloud resource, whether an email is sent after a cloud resource is stopped, and which datacenter is automatically selected when a user selects a resource from a cloud provider. For more information about quotas, policies, and other governance types, see [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-governance.md).
+You can use governance tools to restrict the provisioning of cloud resources, such as quotas and policies. For example, you can configure the approval workflow that is used after a user requests a cloud resource. You can also configure whether an email is sent after a cloud resource is stopped. You can configure which datacenter is automatically selected when a user selects a resource from a cloud provider. For more information about quotas, policies, and other governance types, see [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-governance.md).
 
 ## Populating the Cloud Services Catalog
 

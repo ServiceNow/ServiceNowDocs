@@ -27,7 +27,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 
 ## Procedure
 
-1.  Navigate to your configured CSM Configurable Workspace and select the phone icon to launch the call keypad.
+1.  Navigate to your configured CRM Workspace and select the phone icon to launch the call keypad.
 
     The **Select outbound queue** field displays giving you the option to either search for a queue by name or select one from the list of available queues.
 

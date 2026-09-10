@@ -117,7 +117,7 @@ Review and adjust settings, as each tab has default settings that can be adjuste
 -   **[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)**  
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 -   **[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)**  
-You can toggle the Active status of a definition or modify an existing definition to further customize and refine its scanning criteria.
+You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
 
 **Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

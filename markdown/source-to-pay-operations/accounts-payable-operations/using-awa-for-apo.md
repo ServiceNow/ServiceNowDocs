@@ -54,3 +54,5 @@ Use AWA for the following benefits:
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

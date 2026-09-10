@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The useDeviceSettingsForDateTimeFormats mobile property is available in ServiceNow® mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see Mobile app version history for iOS and Android.
+The useDeviceSettingsForDateTimeFormats mobile property is available in ServiceNow® mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see [Mobile app version history for iOS and Android](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html).
 
 ## Procedure
 

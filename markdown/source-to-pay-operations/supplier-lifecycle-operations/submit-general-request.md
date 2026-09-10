@@ -81,5 +81,7 @@ After the supplier manager approves the case, the supplier record is updated acc
 
 [Update default supplier]()
 
+[Update tax information using the supplier catalog]()
+
 [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

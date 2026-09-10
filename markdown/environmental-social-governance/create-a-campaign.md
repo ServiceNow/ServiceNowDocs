@@ -50,7 +50,7 @@ The group, calendar, and frequency you select define the campaign's metric set. 
 
 ## What to do next
 
-Add entities to the campaign, and set a data owner, before publishing it. For more information, see .
+Add entities to the campaign, and set a data owner, before publishing it. For more information, see [Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md).
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

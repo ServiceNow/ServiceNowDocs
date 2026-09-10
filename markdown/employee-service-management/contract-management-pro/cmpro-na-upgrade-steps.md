@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [script to migrate data for Now Assist in Contract Management, post-upgrade steps for Now Assist in Contract Management, post upgrade steps for Now Assist in Contract Management, script to migrate data for ServiceNow Otto for Contract Management, post-upgrade steps for ServiceNow Otto for Contract Management, post upgrade steps for ServiceNow Otto for Contract Management]
-breadcrumb: [Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Post-upgrade steps for ServiceNow Otto for Contract Management Pro
@@ -38,7 +38,7 @@ Role required: admin
 
 Your customized use cases are migrated to the AI Admin Hub console.
 
-**Parent Topic:**[Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 

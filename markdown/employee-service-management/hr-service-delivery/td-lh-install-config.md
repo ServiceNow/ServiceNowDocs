@@ -16,6 +16,12 @@ breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 
 Install the Leader Hub application to give organizational leaders and their supporters access to resources that help them guide, influence, and motivate teams within their organization. Administrators can configure components of the application to meet the specifications of your organization.
 
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+## Installation and configuration overview
+
 -   **[Install the Leader Hub application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-install.md)**  
 Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools to cultivate growth, develop talent, and make critical decisions that guide their organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
 -   **[Configure metrics for employee engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-configure-metrics.md)**  

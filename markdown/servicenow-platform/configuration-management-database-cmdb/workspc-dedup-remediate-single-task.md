@@ -1,6 +1,6 @@
 ---
 title: Remediate a single de-duplication task
-description: Remediate a single de-duplilcation task using a de-duplication template in CMDB Workspace, in Service Graph Workspace, or manually, using the Duplicate CI Remediator.
+description: Remediate a single de-duplilcation task using a de-duplication template in CMDB Workspace, or manually, using the Duplicate CI Remediator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-remediate-single-task.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediat
 
 # Remediate a single de-duplication task
 
-Remediate a single de-duplilcation task using a de-duplication template in CMDB Workspace,in Service Graph Workspace, or manually, using the Duplicate CI Remediator.
+Remediate a single de-duplilcation task using a de-duplication template in CMDB Workspace, or manually, using the Duplicate CI Remediator.
 
 ## Before you begin
 
@@ -30,16 +30,13 @@ Remediate a single de-duplilcation task using a de-duplication template in CMDB 
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To access the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and then select the Governance icon in the navigation panel.
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
 3.  In the De-duplication templates section, select **View de-duplication tasks**.
@@ -50,15 +47,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d269589e250">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d268993e209">
 
 Choice
 
-</th><th align="left" id="d269589e253">
+</th><th align="left" id="d268993e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269589e259">
+</th></tr></thead><tbody><tr><td id="d268993e218">
 
 **Use the Duplicate CI Remediator**
 
@@ -68,7 +65,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d269589e281">
+</td></tr><tr><td id="d268993e240">
 
 **Use the Duplicate CI Remediator \(AI\)**
 
@@ -78,7 +75,7 @@ Use the De-duplication task resolution assistant skill to make suggestions for t
 
  The De-duplication task resolution assistant skill skips directly to the final dashboard of the Duplicate CI Remediator where you can review the selections made by the skill.
 
-</td></tr><tr><td id="d269589e299">
+</td></tr><tr><td id="d268993e258">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -88,7 +85,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d269589e331">
+</td></tr><tr><td id="d268993e290">
 
 **Remediate using a template**
 
@@ -107,5 +104,5 @@ On the task form:
 -   Track the progress and the details of remediation in the Activity stream until remediation is complete.
 -   Select the **Duplicate Audit Results** tab to see the results of the duplicate audit.
 
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
+**Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 20
-breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Front-line case page
@@ -21,11 +21,11 @@ The Front-line case page focuses on the essential functionality that front-line 
 -   View related information
 -   Search for knowledge articles
 
-The Front-line case page is included with the CSM Configurable Workspace application.
+The Front-line case page is included with the CRM Workspace application.
 
 ## Front-line case page variant
 
-The Front-line case page variant is included with the CSM Configurable Workspace application. This variant includes the following settings.
+The Front-line case page variant is included with the CRM Workspace application. This variant includes the following settings.
 
 <table id="table_zqv_lvv_q1c"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the other page variant settings determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the other page variant settings determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ For more information, see [Learn about audiences](https://raw.githubusercontent.
 
 ## Roles
 
-The CSM Configurable Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CSM Configurable Workspace.
+The CRM Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CRM Workspace.
 
 The Front-line case page variant includes the CSM - Front-line Agent audience, which includes the sn\_cwf\_wrkspc.frontline\_agent role.
 

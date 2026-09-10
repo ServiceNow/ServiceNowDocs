@@ -55,7 +55,7 @@ James submits a complete pre-authorization request for high-cost air conditionin
 **Related topics**  
 
 
-[Pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-pre-auth-request-use.md)
+[mco-pre-auth-request-use]
 
 [Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agents-pre-auth-requests.md)
 

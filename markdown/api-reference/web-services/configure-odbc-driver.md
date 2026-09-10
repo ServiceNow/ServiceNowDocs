@@ -1,68 +1,66 @@
 ---
-title: Configure ServiceNow SQL API ODBC driver on client machine
-description: Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
+title: Configure ServiceNow Live Connect ODBC driver on a client machine
+description: Configure the ODBC driver with your instance URL, BCFIPS JAR file paths, and authentication credentials to enable BI tools to access your ServiceNow data.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/configure-odbc-driver.html
 release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Configure ServiceNow SQL API ODBC driver on client machine
+# Configure ServiceNow Live Connect ODBC driver on a client machine
 
-Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
+Configure the ODBC driver with your instance URL, BCFIPS JAR file paths, and authentication credentials to enable BI tools to access your ServiceNow data.
 
 ## Before you begin
 
--   You have a valid ServiceNow credentials for a Service Account with the required roles assigned. See [Create a Service Account and assign Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md) for more information.
--   Your client machine's IP address is included in the SQL API IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md) for more information.
--   You have the necessary connection parameters including your ServiceNow instance URL and Service Account credentials.
+Confirm that you have the following:
 
-Role required: local administrator on client machine for installation
+-   A valid ServiceNow user account \(personal or service account\) with the required roles. See [Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md).
+-   The client machine IP address is included in the Live Connect IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md).
+-   Your ServiceNow instance URL and user account credentials \(personal or service account\).
 
-## About this task
-
-After installing the ServiceNow SQL API ODBC driver on your client machine, you must configure the connection settings to establish a secure connection to your ServiceNow instance. After configuration, you can test the connection to verify that your client machine can successfully communicate with the ServiceNow SQL API.
+Role required: administrator
 
 ## Procedure
 
-1.  Open the Start Menu.
+1.  From the Start menu, select and hold \(or right-click\) **ServiceNow Live Connect - ODBC Manager** &gt; **Management Console**, select **Run as administrator**, then navigate to **Services** &gt; **ServiceNow\_ODBC** &gt; **Service Settings** &gt; **IP Parameters**.
 
-2.  Select and hold \(or right-click\) on the **Management Console**.
+2.  Edit the **ServiceJVMClassPath** parameter.
 
-3.  Select **Run as Administrator**.
+    \[Omitted image "sql-api-odbcdriver-ip-parameters.png"\] Alt text: Management Console showing ServiceJVMClassPath parameter in IP Parameters section
 
-4.  Navigate to **ServiceNow SQL API - ODBC Manager** &gt; **Manager \(local configuration\)** &gt; **&lt;drive&gt;:\\Program Files\\ServiceNow\\ODBC\\cfg\\oadm.in** &gt; **Services** &gt; **ServiceNow\_ODBC** &gt; **Service Settings** &gt; **IP Parameters**.
+3.  Append the paths to the BCFIPS JAR files.
 
-5.  Open the `ServiceJVMClassPath` parameter.
+    Separate each path with a semicolon. The JAR files are in the dependencies folder from the driver download \(see [Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md)\).
 
-    \[Omitted image "sql-api-odbcdriver-ip-parameters.png"\] Alt text: UI screen of ODBC driver ServiceJVMClassPath.
+    Example paths:
 
-6.  Append the value, separated by semicolons, with the location where the `bc-fips-2.0.0.jar`, `bcutil-fips-2.0.3.jar`, and `bcpkix-fips-2.0.7.jar` files are extracted.
+    `<Windows-machine-local-path>\<folder-name>\bc-fips-2.0.0.jar;<Windows-machine-local-path>\<folder-name>\bcpkix-fips-2.0.7.jar;<Windows-machine-local-path>\<folder-name>\bcutil-fips-2.0.3.jar`
 
-    See [Download the SQL API drivers on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md) to locate the JAR files.
+    If you move the JAR files to a different location in the future, update the paths in the **ServiceJVMClassPath** parameter.
 
-    For example, the JAR file location follows this pattern:
+4.  Do this only if you want to authenticate using OAuth.
 
-    `<Windows-machine-local-path>\<folder-name>\bc-fips-2.0.0.jar;<Windows-machine-local-path>\<folder-name>\bcpkix-fips-2.0.7.jar;<Windows-machine-local-path>\<folder-name>\bcutil-fips-2.0.3.jar`.
+    1.  Open the **DataSourceIPCustomProperties** parameter.
 
-    If you change the location of the JAR files, you must update the path in the `ServiceJVMClassPath` parameter.
+    2.  Update the value to set OAuth to True and provide OAuth client ID, client secret, token URL, access token, refresh token.
 
-7.  Open the Start Menu.
+        OAuth properties are described in [OAuth connection properties for ODBC and JDBC drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/oauth-connection-properties-for-odbc-and-jdbc-drivers.md)
 
-8.  Select and hold \(or right-click\) on **ODBC Data Source Administrator \(32-bit or 64-bit\) based on the ODBC driver you installed**.
+        For example, you can enter the value in this pattern: `url=https://<instance>.service-now.com;UseOAuth=True;`
 
-9.  Select **Run as Administrator**.
+    **Warning:** If the OAuth client secret contains a semicolon, the ODBC driver can't parse the connection string correctly because semicolons are used as delimiters between key-value pairs. If your auto-generated client secret contains a semicolon, regenerate the client secret until you receive one without a semicolon, then use that secret in your ODBC configuration.
 
-10. Select the **System DSN** tab.
+5.  From the Start menu, select and hold \(or right-click\) **ODBC Data Source Administrator** \(32-bit or 64-bit, matching your installed driver\), then select **Run as administrator**.
 
-11. Create a DSN or configure an existing DSN \(32-bit or 64-bit\) based on the ODBC driver you installed.
+6.  In the **System DSN** tab, create a DSN or configure an existing DSN.
 
-12. In the SN ServiceNow Local ODBC Driver Setup dialog, configure the following connection settings:
+7.  Enter the following connection settings:
 
 <table id="table_uzk_qm1_n3c"><thead><tr><th>
 
@@ -70,69 +68,65 @@ Field
 
 </th><th>
 
-Value
+Description
 
 </th></tr></thead><tbody><tr><td>
 
-Data Source Name
+**Data Source Name**
 
 </td><td>
 
-Any descriptive name such as Instance1Use one name per connected instance.
+Unique identifier for this connection \(for example, Instance1\).
 
 </td></tr><tr><td>
 
-Description
+**Description**
 
 </td><td>
 
-This is optional.
+Optional description of the data source.
 
 </td></tr><tr><td>
 
-Service Name
+**Service Name**
 
 </td><td>
 
-ServiceNow\_ODBCThis field must match exactly as set in **ODBC Data Source** details.
+Name configured during installation \(for example, ServiceNow\_ODBC\).
 
 </td></tr><tr><td>
 
-Service Data Source
+**Service Data Source**
 
 </td><td>
 
-ServiceNowThis field must match exactly as set in **ODBC Data Source** details.
+Service name configured during installation.
 
 </td></tr><tr><td>
 
-Custom Properties
+**Custom Properties**
 
 </td><td>
 
-Enter connection properties as semicolon-separated key-value pairs. At minimum, include your instance URL: `url=https://<instance>.service-now.com`.
+`url=https://<instance>.service-now.com`, where &lt;instance&gt; is your instance name.Enter connection properties as semicolon-separated key-value pairs. At minimum, include your instance URL: url=https://
+
+&lt;instance&gt;.service-now.com. To connect using OAuth instead of a username and password add the OAuth properties described in [OAuth connection properties for ODBC and JDBC drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/oauth-connection-properties-for-odbc-and-jdbc-drivers.md).
 
 </td></tr></tbody>
-</table>    \[Omitted image "sql-api-odbcdriver-dns-setting.png"\] Alt text: UI screen of ODBC driver DNS settings.
+</table>8.  Select **Apply**.
 
-13. Select **Apply**.
+9.  To verify the connection, select **Test Connection** and enter your user account credentials based on your authentication method:
 
-14. Verify the connection by selecting **Test Connection** and entering the Service Account username and password.
+    -   Basic authentication: Enter the username and password.
+    -   OAuth: OAuth credentials are used automatically from your earlier configuration.
+    A confirmation message appears if the connection is successful.
 
-    If the test is successful, you will see a confirmation message indicating that the connection was established.
-
-15. Save the data source configuration by selecting **OK**.
-
-16. Close the ODBC Data Source Administrator by selecting **OK**.
+10. Select **OK** to save the configuration.
 
 
 ## Result
 
-The ServiceNow SQL API ODBC driver is configured on your client machine. You can connect your ODBC-compatible applications, such as Power BI, or Excel, to this data source to access your ServiceNow data.
+The ServiceNow Live Connect ODBC driver is configured. You can connect ODBC-compatible applications such as Power BI or Excel to this data source to access your ServiceNow data.
 
-## What to do next
-
-You can use Interactive SQL application to verify the connection and test SQL queries. See [Test SQL API ODBC driver connection using Interactive SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md).
-
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
 

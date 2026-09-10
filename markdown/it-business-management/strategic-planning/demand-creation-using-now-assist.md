@@ -1,5 +1,5 @@
 ---
-title: Create demands by using the conversational experience
+title: Create demands by using the conversational experience in Virtual Agent
 description: Use the conversational experience of ServiceNow Otto for Virtual Agent to create a demand from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-creation-using-now-assist.html
@@ -13,7 +13,7 @@ keywords: [Create a demand,]
 breadcrumb: [Create a demand, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create demands by using the conversational experience
+# Create demands by using the conversational experience in Virtual Agent
 
 Use the conversational experience of ServiceNow Otto for Virtual Agent to create a demand from any application that supports Virtual Agent.
 

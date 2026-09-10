@@ -36,6 +36,10 @@ Link a security incident to a major security incident as child security incident
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Working with Security Incident Records]()
 
 [Security Incident Playbook]()

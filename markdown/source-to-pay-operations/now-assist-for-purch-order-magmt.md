@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for Purchase Order Management \(POM\)
-description: Use ServiceNow Otto for Purchase Order Management \(POM\) to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and for a conversation-like experience to mitigate purchase order exceptions.
+description: Use ServiceNow Otto for Purchase Order Management \(POM\) to automatically create purchase order exceptions or confirmations, and for a conversation-like experience to mitigate purchase order exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-purch-order-magmt.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Su
 
 # ServiceNow Otto for Purchase Order Management \(POM\)
 
-Use ServiceNow Otto for Purchase Order Management \(POM\) to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and for a conversation-like experience to mitigate purchase order exceptions.
+Use ServiceNow Otto for Purchase Order Management \(POM\) to automatically create purchase order exceptions or confirmations, and for a conversation-like experience to mitigate purchase order exceptions.
 
 ## Get started
 

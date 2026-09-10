@@ -92,15 +92,15 @@ Value calculated after you select a residual likelihood and residual impact rati
 </td></tr></tbody>
 </table>5.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d207482e239">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d327204e239">
 
 Option
 
-</th><th align="left" id="d207482e242">
+</th><th align="left" id="d327204e242">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d207482e248">
+</th></tr></thead><tbody><tr><td id="d327204e248">
 
 **To view or add impacted controls to the policy exception**
 
@@ -111,7 +111,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d207482e275">
+</td></tr><tr><td id="d327204e275">
 
 **To view mitigating controls on the policy exception**
 
@@ -119,7 +119,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d207482e287">
+</td></tr><tr><td id="d327204e287">
 
 **To view or add risks to the policy exception**
 
@@ -129,7 +129,7 @@ Click the Risks tab.
 
  **Note:** This option is available when Governance, Risk, and Compliance is also activated.
 
-</td></tr><tr><td id="d207482e305">
+</td></tr><tr><td id="d327204e305">
 
 **To view or add approvers to the policy exception**
 
@@ -137,7 +137,7 @@ Click the Risks tab.
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d207482e321">
+</td></tr><tr><td id="d327204e321">
 
 **To view or add task service level agreements to the policy exception**
 

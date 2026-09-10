@@ -585,5 +585,9 @@ Contract Management Pro for Legal Service Delivery is a licensed application tha
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
 [Contract Management Pro glossary]()
 

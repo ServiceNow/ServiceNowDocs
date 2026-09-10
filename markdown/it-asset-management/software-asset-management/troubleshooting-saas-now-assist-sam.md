@@ -36,15 +36,15 @@ ServiceNow Otto for SAM generates the troubleshooting guidance for all SaaS and 
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d340259e136">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d348217e136">
 
 Integration
 
-</th><th align="left" id="d340259e139">
+</th><th align="left" id="d348217e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d340259e145">
+</th></tr></thead><tbody><tr><td id="d348217e145">
 
 **Existing**
 
@@ -58,7 +58,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The ServiceNow Otto for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d340259e173">
+</td></tr><tr><td id="d348217e173">
 
 **New**
 

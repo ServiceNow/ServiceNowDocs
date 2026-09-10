@@ -108,7 +108,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 12. On the MID Server host machine, run the following commands to install and manage the certificate and private key.
 
-    Run the script from the root of the agent directory because it requires the jar files in the class path. The security directory is then created in the agent root folder and is used by MID Server. For example: `bin/scripts/manage-certificates.bat -m.`
+    Run the script from the root of the agent directory because it requires the jar files in the class path. The security directory is then created in the agent root folder and is used by MID Server. For example: `bin\scripts\manage-certificates.bat -m.`
 
     The **manage-certificates** has the following functions and the scripts must be run from the agent folder.
 

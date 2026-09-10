@@ -1,6 +1,6 @@
 ---
 title: Configure the manage contract repository agentic workflow for Software Asset Management
-description: Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
+description: Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use manage contract repository agentic workflow, Use SAM Workspace,
 
 # Configure the manage contract repository agentic workflow for Software Asset Management
 
-Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
+Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
 
 ## Before you begin
 
@@ -22,19 +22,19 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## Procedure
 
-1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
+1.  Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\).
 
     For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-3.  Access the **Now Assist Skills** tab of the AI Admin Hub console.
+3.  Access the **AI Skills** tab of the AI Admin Hub console.
 
 4.  Navigate to **Employee** &gt; **CM Pro**.
 
 5.  Select the **Activate skill** on the skill that you want to activate.
 
-    \[Omitted image "sam-cmpro-now-assist-skills-activate.png"\] Alt text: Now Assist skills available for Contract Management Pro
+    \[Omitted image "sam-cmpro-now-assist-skills-activate.png"\] Alt text: AI skills available for Contract Management Pro
 
 6.  In the skill guided setup, configure the use cases and other mappings for the Contract obligation extraction and Contract metadata extraction skills.
 

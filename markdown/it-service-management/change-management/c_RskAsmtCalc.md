@@ -1,6 +1,6 @@
 ---
 title: Risk assessment
-description: There are two methods to calculate the risk of a change. The Best Practice - Change Risk Calculator is activated in the base system by default. Change Management - Risk Assessment is optional.
+description: There are two methods to calculate the risk of a change. The Change Management- Risk Calculator plugin is activated in the base system by default. Change Management - Risk Assessment is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/c\_RskAsmtCalc.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Analyze change request risk and impact, Reference, Change Managemen
 
 # Risk assessment
 
-There are two methods to calculate the risk of a change. The Best Practice - Change Risk Calculator is activated in the base system by default. Change Management - Risk Assessment is optional.
+There are two methods to calculate the risk of a change. The Change Management- Risk Calculator plugin is activated in the base system by default. Change Management - Risk Assessment is optional.
 
 -   Change Risk Calculator uses predefined properties and conditions to calculate a risk value.
 -   Change Management - Risk Assessment uses information provided by the end user to assess a risk value.
@@ -25,7 +25,7 @@ The two methods can be used individually or together, depending on your requirem
 
 **Note:** If both Risk Assessment and Risk Calculator are active but you want to use only one method, remove conditions for the method you do not want to use.
 
-If you activate Change Management - Risk Assessment, the administrator can add the **Task Assessment** &gt; **Task** related list to the change request form, if necessary. The related list displays risk assessments associated with the change request.
+If you activate Change Management - Risk Assessment, the administrator can add the **Task Assessment** &gt; **Task** related list to the change request form, if necessary. The related list displays risk assessments associated with the change request. [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AssessRisk.md)
 
 -   **[Define risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_DefineARiskAssessment.md)**  
 Change Management - Risk Assessment provides a flexible way to capture information from the end user to calculate the risk of the associated change request. You can define the risk assessment questions, thresholds, and conditions that calculate risk for any change request.

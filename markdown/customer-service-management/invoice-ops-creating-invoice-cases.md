@@ -1,6 +1,6 @@
 ---
 title: Creating an invoice case
-description: Agents can create invoice cases from the Invoice Cases list view in CSM Configurable Workspace or the Core UI.
+description: Agents can create invoice cases from the Invoice Cases list view in CRM Workspace or the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-ops-creating-invoice-cases.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Case Management for Invoice Operations, Case management, Organize a
 
 # Creating an invoice case
 
-Agents can create invoice cases from the Invoice Cases list view in CSM Configurable Workspace or the Core UI.
+Agents can create invoice cases from the Invoice Cases list view in CRM Workspace or the Core UI.
 
 Agents can create invoice cases by selecting **New** from the Invoice Cases list view. From the Invoice case record, agents can:
 

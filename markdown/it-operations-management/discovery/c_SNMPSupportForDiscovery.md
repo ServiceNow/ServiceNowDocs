@@ -167,7 +167,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can assign different credentials to each occurrence of the same activity type.
 
 </td></tr><tr><td>
 

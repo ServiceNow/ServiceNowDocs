@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/auto-cr
 release: australia
 topic_type: task
 last_updated: "2026-05-22"
-reading_time_minutes: 10
-breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
+reading_time_minutes: 9
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Automate repetitive tasks by auto-capturing steps in AI Desktop Actions
@@ -19,7 +19,7 @@ Create desktop actions by auto-capturing steps to automate repetitive tasks in A
 To access the AI Desktop Actions functionality, perform the following steps:
 
 -   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -297,7 +297,7 @@ Recognize text from images and return it in the standard text format.
 
 [Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md)
 
-[Add a defined desktop action tool to an AI agent for desktop and web-based task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-desktop-action-ai-agent.md)
+[add-desktop-action-ai-agent-1]
 
 [Examples of creating desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/examples-of-agentic-desktop-automation.md)
 

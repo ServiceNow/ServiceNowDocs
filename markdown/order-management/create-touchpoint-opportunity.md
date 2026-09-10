@@ -27,7 +27,7 @@ Touchpoints are interaction records that you associate with a specific opportuni
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record.
 
@@ -55,8 +55,6 @@ The touchpoint is created and linked to the opportunity. It appears in the **Tou
 ## What to do next
 
 To view all touchpoints for the opportunity, select the **Touchpoints** tab.
-
-**Parent Topic:**[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)
 
 **Related topics**  
 

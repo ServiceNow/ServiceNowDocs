@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-07-27"
+reading_time_minutes: 6
 breadcrumb: [Stage-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -70,14 +70,28 @@ All products or services
 
 </td><td>
 
-You can work on the following sections applicable to all releases:-   **Release timeline**: Work on the main release which involves [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md) to manage phases, tasks, policies, and approvals, and [restarting the release from a previously completed phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md). All of these actions apply to all releases.
+You can work on the following sections applicable to all releases:-   **Release timeline**: Work on the main release which involves [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md) to manage phases, tasks, policies, and approvals, and [restarting the release from a previously completed phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md).
+
+In the Summary form for a phase, you can enter **Planned start date** and **Planned end date** for each phase. The planned end date must be on or after the planned start date. The planned start date for the next phase is automatically set to the day after the planned end date of the current phase.
+
+The **Actual start date** and **Actual end date** fields are populated automatically when the phase starts and ends.
+
+All of these actions apply to all releases.
+
+Hover over a phase on the release timeline to display the phase details, including its state, planned start date, planned end date, and actual end date.
 
 Restarting a multi-product release phase resets all affected phases across the primary product release and every included product release. The affected phases, tasks, and policies are reset for every product in the release.
 
 -   **Release tasks**: Manage release tasks in a release phase. When you add a task to a phase, it is added to each product's release.
 -   **Release policies**: Manage mapping of policies to a release phase or run the existing ones for compliance checks.
 -   **Change requests**: View a list of all change requests across releases for all products or service.
+ **Note:**
 
+When you add a product to a multi-product release, the policy compliance status for the new product's phases is included in the primary release's aggregate phase status.
+
+The aggregate status reflects the lowest status across all products using the following precedence: In-progress, Not run, Non-compliant, Compliant with exception, Compliant.
+
+A phase shows as compliant only when every product in the release is compliant for that phase.
 
 </td></tr><tr><td>
 

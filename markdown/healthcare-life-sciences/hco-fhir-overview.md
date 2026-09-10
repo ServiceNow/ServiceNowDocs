@@ -1,6 +1,6 @@
 ---
 title: What the EMR Provider Directory Sync does
-description: The EMR Provider Directory Sync imports provider-directory data from a FHIR R4 server into the Healthcare Operations data model on a schedule, so that organizations, locations, practitioners, and care-team memberships stay current without manual maintenance.
+description: The EMR Provider Directory Sync imports provider-directory data from a FHIR R4 server into the Healthcare Operations data model on a schedule. Organizations, locations, practitioners, and care-team memberships stay current without manual maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-overview.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare an
 
 # What the EMR Provider Directory Sync does
 
-The EMR Provider Directory Sync imports provider-directory data from a FHIR R4 server into the Healthcare Operations data model on a schedule, so that organizations, locations, practitioners, and care-team memberships stay current without manual maintenance.
+The EMR Provider Directory Sync imports provider-directory data from a FHIR R4 server into the Healthcare Operations data model on a schedule. Organizations, locations, practitioners, and care-team memberships stay current without manual maintenance.
 
 Healthcare Operations workflows in ServiceNow depend on accurate organization hierarchy, facility, and practitioner data. When that data is maintained manually, it drifts from the customer's EMR, which is the operational source of truth. This application closes that gap by importing four FHIR R4 provider-directory resources on a schedule and upserting them into the Healthcare Operations data model.
 
@@ -28,7 +28,7 @@ The integration imports four FHIR R4 resources and writes them to the Healthcare
 
 ## Relationship to the HL7 FHIR Spoke
 
-This application builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown). The spoke provides the read-only FHIR actions and returns raw FHIR field values; this application owns the EMR-to-HCLS field mapping, the upsert key strategy \(the FHIR resource ID as the external identifier\), and the dependency ordering. This separation keeps the spoke reusable while concentrating all Healthcare Operations logic in one place.
+This application builds on the [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md). The spoke provides the read-only FHIR actions and returns raw FHIR field values. This application owns the EMR-to-HCLS field mapping, the upsert key strategy, and the dependency ordering. This separation keeps the spoke reusable while concentrating all Healthcare Operations logic in one place.
 
 ## What is out of scope
 

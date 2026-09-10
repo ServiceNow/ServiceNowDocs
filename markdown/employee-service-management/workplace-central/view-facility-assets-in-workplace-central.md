@@ -22,9 +22,9 @@ Role required: sn\_wsd\_case.manager
 
 ## About this task
 
-A new Facility Assets section has been added to the Lists area of , and Workplace Central, enabling case agents, case managers, and facilities managers to view asset details, associated workplace cases, maintenance cases, and maintenance plan records from within a single workspace without switching to the Enterprise Asset Management workspace.
+A new Facility Assets section has been added to the Lists area of Workplace Central, enabling case agents, case managers, and facilities managers to view asset details, associated workplace cases, maintenance cases, and maintenance plan records from within a single workspace without switching to the Enterprise Asset Management workspace.
 
-**Note:** The Workplace Maintenance Cases and Workplace Maintenance Plan Records tabs will appear only if the Workplace Maintenance Management \(sn\_wsd\_maintenance\) plugin is installed.
+**Note:** Install the Extended Model and Asset Classes \(sn\_ent\) plugin to view the Facility Assets and Facility Models in Workplace Central. The Workplace Maintenance Cases and Workplace Maintenance Plan Records tabs will appear only if the Workplace Maintenance Management \(sn\_wsd\_maintenance\) plugin is installed.
 
 ## Procedure
 

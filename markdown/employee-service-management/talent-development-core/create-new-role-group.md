@@ -1,5 +1,5 @@
 ---
-title: Creating a new role group through the Skills Workspace
+title: Creating a role group through the Skills Workspace
 description: Add a new role group in the Skills Workspace to create a category of roles in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-new-role-group.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Creating a new role group through the Skills Workspace
+# Creating a role group through the Skills Workspace
 
 Add a new role group in the Skills Workspace to create a category of roles in your organization.
 
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d406843e127">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d408330e127">
 
 Method
 
-</th><th align="left" id="d406843e130">
+</th><th align="left" id="d408330e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d406843e136">
+</th></tr></thead><tbody><tr><td id="d408330e136">
 
 **Manually**
 
@@ -55,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d406843e172">
+</td></tr><tr><td id="d408330e172">
 
 **Copy the data from an existing role group**
 

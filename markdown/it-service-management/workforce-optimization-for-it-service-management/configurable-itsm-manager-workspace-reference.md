@@ -16,6 +16,8 @@ breadcrumb: [Reference, Advanced configurations, Workforce Optimization for ITSM
 
 The configurable ITSM Manager Workspace has roles to administer the workspace, properties to configure default behavior, and indicators to analyze performance.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Roles
 
 <table id="table_klf_rxp_dlb"><thead><tr><th>

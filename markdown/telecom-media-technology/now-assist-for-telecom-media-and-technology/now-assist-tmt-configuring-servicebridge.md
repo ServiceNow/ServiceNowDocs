@@ -26,7 +26,7 @@ Role required: admin
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** and access the **Features** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** and access the **Features** tab of the console.
 
     If you’re already in the AI Admin Hub console, you can select the **AI Skills** tab on the screen.
 

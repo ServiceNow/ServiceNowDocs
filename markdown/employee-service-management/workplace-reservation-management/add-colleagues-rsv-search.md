@@ -168,7 +168,7 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
 
     \[Omitted image "rsv-add-invitees-plus-number.png"\] Alt text: Add multiple invitees to your meeting for collaboration. Remove attendees as required.
 
-    You can remove an attendee by selecting the remove option icon \(\[Omitted image "remove-invitee-icon.png"\] Alt text: Remove icon.\).
+    You can remove an attendee by selecting the remove option icon \(\[Omitted image "remove-invitee-icon.png"\] Alt text: Remove option icon.\).
 
     **Note:** Availability for selected attendees is shown for 24-hour duration only. If you select a duration beyond this, the application shows "Availability is checked for the first 24-hours only". Suggestions are shown only for 24-hour duration for attendees availability. Microsoft Exchange Online's **Find Meeting Times** spoke action doesn't return attendees' availability for more than 24-hours.
 

@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [HR service configuration, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -30,8 +30,12 @@ Role required: sn\_hr\_core.admin
 
 2.  Click **New** or open a record.
 
-    **Note:**
+    **Note:** The COEs available to you may differ depending on the HR package you have.
 
+    -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
+    -   If you are creating a new HR service and plan to make it available for employee self-service, see . Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see  to add the existing service as an HR catalog item in the HR service catalog.
+    -   The  for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic  .
 3.  Fill in the fields on the form, as appropriate.
 
 <table id="table_s3f_c43_lfb"><thead><tr><th>
@@ -120,7 +124,7 @@ Lifecycle Event
 
 </td><td>
 
-\( only\) A lifecycle event fulfills the HR service. In the **Lifecycle Event Type** field, select a lifecycle event to fulfill the HR service.**Note:** A lifecycle event is a collection of activities that comprise an employee experience such as new hire onboarding. See  for more information.
+\(Enterprise Onboarding and Transition only\) A lifecycle event fulfills the HR service. In the **Lifecycle Event Type** field, select a lifecycle event to fulfill the HR service.**Note:** A lifecycle event is a collection of activities that comprise an employee experience such as new hire onboarding. See  for more information.
 
 </td></tr><tr><td>
 
@@ -173,10 +177,10 @@ COE
 HR Center of Excellence \(COE\) that the HR service is categorized under.**Note:**
 
 -   The COEs are organized around functional disciplines and are extensions of the HR Case \[sn\_hr\_core\_case\] table. See  for more information.
--   \(  only\) An HR service for a lifecycle event can be associated with any COE.
+-   \( Enterprise Onboarding and Transition only\) An HR service for a lifecycle event can be associated with any COE.
 
 
-</td></tr><tr><td rowspan="3">
+</td></tr><tr><td>
 
 Automatically close case
 
@@ -185,6 +189,10 @@ Automatically close case
 Option to automatically close the HR case after all of the to-dos or all of the mandatory to-dos are complete. This field appears when **Service Activity** or **Lifecycle Event** is selected from **Fulfillment type**.
 
 </td></tr><tr><td>
+
+
+
+</td><td>
 
 Close when
 
@@ -195,6 +203,10 @@ Select one of the following:-   All to-dos are complete
 
 
 </td></tr><tr><td>
+
+
+
+</td><td>
 
 Close offset
 
@@ -232,7 +244,7 @@ Show case to subject person
 
 </td><td colspan="2">
 
-\(  only\) Option to show the HR case to the subject person when it is created, including:-   HR tasks assigned to the subject person
+\(Employee Service Center  only\) Option to show the HR case to the subject person when it is created, including:-   HR tasks assigned to the subject person
 -   Child HR cases where the subject person is also the opened for
 -   Child HR cases when the subject person has a task assigned
 -   Requests where the subject person is the requested for

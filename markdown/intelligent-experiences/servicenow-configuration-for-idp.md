@@ -19,7 +19,7 @@ This process involves setting up the necessary tables and mappings within your S
 
 Role required: admin
 
-**Important:** The minimum version required is Australia patch 3 or Zurich patch 10. Microsoft Entra is supported Australia patch 4 or Zurich patch 11 onwards.
+**Important:** The minimum version required is Australia patch 3 or Zurich patch 10. Microsoft Entra is supported in Australia patch 4 or Zurich patch 11 onwards.
 
 ## Procedure
 
@@ -58,7 +58,7 @@ Role required: admin
 
     For example, `MCP with Third Party IDP`.
 
-    After you create the server, ServiceNow automatically generates an entry in the **oauth\_protected\_resource** table and populates it with the list of APIs allowed for that server.
+    After you create the server, automatically generates an entry in the **oauth\_protected\_resource** table and populates it with the list of APIs allowed for that server.
 
 12. Map the protected resource to the IDP:
 
@@ -71,6 +71,10 @@ Role required: admin
     If your MCP server name is `sn_mcp_server_default`, the protected resource path is `/sncapps/mcp-server/mcp/sn_mcp_server_default`.
 
 15. In the **OIDC Provider** field, select the OIDC provider configuration you created earlier.
+
+    1.  For Microsoft Entra integrations only, configure the **Accepted Audiences** field in the `oauth_protected_resource_idp_mapping` table with the Entra Application ID URI \(for example, api://&lt;Application-ID&gt;.
+
+        This allows ServiceNow to accept Entra-issued access tokens whose audience claim matches the configured Application ID URI.
 
 16. Select **Submit**.
 

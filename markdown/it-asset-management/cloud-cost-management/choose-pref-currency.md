@@ -1,6 +1,6 @@
 ---
 title: Choose preferred currency for cost and usage data
-description: Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation/savings plan\), budgets, and billing data.
+description: Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, commitments\), budgets, and billing data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/choose-pref-currency.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Set up or update preferred currency options, Use, Cloud Cost Manage
 
 # Choose preferred currency for cost and usage data
 
-Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation/savings plan\), budgets, and billing data.
+Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, commitments\), budgets, and billing data.
 
 ## Before you begin
 

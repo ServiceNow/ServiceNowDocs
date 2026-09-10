@@ -14,7 +14,7 @@ breadcrumb: [Create a funnel visualization, Data visualization in ITOM, AIOps Da
 
 When you select an indicator data source for the funnel visualization, the following data configuration options are available.
 
-You can either select a single indicator and use the **Group by** field to calculate stage values, or select multiple indicators without a breakdown, where each indicator’s value represents a funnel stage.
+You can select a single indicator and use the **Group by** field to calculate stage values. Alternatively, select multiple indicators without a breakdown, where each indicator’s value represents a funnel stage.
 
 <table id="table_rpg_zw3_yfc"><thead><tr><th>
 

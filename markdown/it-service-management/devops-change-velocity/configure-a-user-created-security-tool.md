@@ -134,7 +134,9 @@ global
 
     -   SecOps source integration: Select the source integration that is created in the Third Party Integrations \(sn\_sec\_int\_integration\) table as described in the **Configuration page &gt; Steps to create a configuration** section in the [Configure DevOps with Application Vulnerability Response for better visibility into CI/CD pipeline \[KB1441741\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1441741) enablement guide.
     -   Integration handler name: sn\_devops\_vul\_ints.DevOpsSecurityToolIntegrationHandler
-10. Ensure that "Tool Integration name" DevOps Integration \(example: Veracode DevOps Integration\) is created in the Application Vulnerability Integration \(sn\_vul\_app\_integration\) table and mapped to the source integration that is created in the Third Party Integrations \(sn\_sec\_int\_integration\) table as described in the **Configuration page &gt; Steps to create a configuration** section in the [Configure DevOps with Application Vulnerability Response for better visibility into CI/CD pipeline \[KB1441741\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1441741) enablement guide.
+10. Verify that "Tool Integration name" DevOps Integration \(example: Veracode DevOps Integration\) is created in the Application Vulnerability Integration \(sn\_vul\_app\_integration\) table and mapped to the source integration that is created in the Third Party Integrations \(sn\_sec\_int\_integration\) table.
+
+    This is described in the **Configuration page &gt; Steps to create a configuration** section in the [Configure DevOps with Application Vulnerability Response for better visibility into CI/CD pipeline \[KB1441741\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1441741) enablement guide.
 
 
 ## What to do next

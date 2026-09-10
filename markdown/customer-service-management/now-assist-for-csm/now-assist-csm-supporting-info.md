@@ -40,7 +40,7 @@ Skill
 
 </th></tr></thead><tbody><tr><td>
 
-CSM Configurable Workspace
+CRM Workspace
 
 </td><td>
 

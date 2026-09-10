@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Creating pages and page variants
@@ -132,7 +132,7 @@ By creating a page variant, you can target an experience for a specific audience
 
 ## Determining which record page is used
 
-There are several settings that determine which record page the system uses to display information in CSM Configurable Workspace.
+There are several settings that determine which record page the system uses to display information in CRM Workspace.
 
 -   **Order value**: Each record page has an order value. The system uses this order value to determine which record page is used. The active page with the lowest order value is the default record page.
 -   **Conditions**: A record page can have one or more conditions that determine when it is used. For example, a record page can have a condition that specifies a table, such as the Interaction \[interaction\] table. This condition limits the use of the page to records from the Interaction table.

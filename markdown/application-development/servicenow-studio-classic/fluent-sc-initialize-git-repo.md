@@ -33,11 +33,17 @@ An application on an instance can be connected to only one repository at a time.
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open a workspace with an application that isn't connected to a Git repository.
+2.  Add an application that isn't connected to a Git repository to the Explorer tab.
 
-3.  Select the **Changes** tab in the Navigator panel.
+    1.  On the Apps tab, select the application you want to add.
 
-4.  Select **Initialize Repository** or use the `Git: Initialize Repository` command from the command palette.
+    2.  Select the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text:, and select **Add app to explorer**.
+
+3.  Use one of the following keyboard shortcuts to open the command palette:
+
+    -   Windows: Ctrl-Shift-P
+    -   Mac: Cmd-Shift-P
+4.  Enter `Git: Initialize Repository` and press Enter.
 
 5.  Select the application for which you want to initialize a Git repository and press Enter.
 

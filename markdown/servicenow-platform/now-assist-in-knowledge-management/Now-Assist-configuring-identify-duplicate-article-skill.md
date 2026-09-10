@@ -56,7 +56,7 @@ Fields
 
 </td><td>
 
-Specify the fields which will be used to identify duplicate articles. To run this job on OOB templates, select**Configure custom template**. After configuration, this becomes a read-only field.
+Specify the fields which will be used to identify duplicate articles. To run this job on OOB templates, select **Configure custom template**. After configuration, this becomes a read-only field.
 
 </td></tr><tr><td>
 

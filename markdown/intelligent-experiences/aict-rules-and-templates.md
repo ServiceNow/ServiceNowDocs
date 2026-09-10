@@ -25,15 +25,19 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Evaluation**
 
-    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md).
 
 -   **Templates**
 
     Manage the value templates that define the productivity gain formula for AI assets. Configure default template rules that determine which template is applied to a new AI asset, and review the AI system mappings that show which template each asset is currently using. For more information, see .
 
+-   **AI skills**
+
+    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/inventory-intelligence-agent.md)
+
 -   **Cost**
 
-    Configure the AI cost settings used to calculate net AI returns and the cost dimension of value templates. For more information, see [Configuring Cost in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/measure-ai-configuring-aict-value-cost.md).
+    Configure the AI cost settings used to calculate net AI returns and the cost dimension of value templates. For more information, see .
 
 -   **Security**
 

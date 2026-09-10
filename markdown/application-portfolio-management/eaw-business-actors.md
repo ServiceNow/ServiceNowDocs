@@ -24,7 +24,7 @@ Using Enterprise Architecture Workspace, you can perform the following:
 -   Associate a business actor with the business roles it fulfills
 -   Associate a business actor with the business process activities it performs
 
-When you model a business actor in a diagram, the default relationship between a business actor and a business role is Assigned to:Fulfilled by. The default relationship between a business actor and a business process activity is Performs:Performed by.
+When you model a business actor in a diagram, the default relationship between a business actor and a business role is Assigned to :: Fulfilled by. The default relationship between a business actor and a business process activity is Performs :: Performed by.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 

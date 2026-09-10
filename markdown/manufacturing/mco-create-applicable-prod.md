@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [applicable product, sales promotion, condition builder, sales promotion management]
-breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create an applicable product

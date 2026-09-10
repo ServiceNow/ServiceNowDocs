@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [stakeholder, Product Quality Investigation, PQI, quality investigation, Manufacturing Commercial Operations, MCO]
-breadcrumb: [Related list for quality issues, Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a stakeholder

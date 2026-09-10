@@ -24,7 +24,7 @@ Role required: sn\_skill\_builder.admin
 
 Publishing a skill is a two-part process. First, you must finalize at least one prompt. Finalizing a prompt marks it as ready for use, and is required before the skill can be published. Then you publish the skill, which changes its state from **Draft** to **Published** and makes it visible to a Otto admin for activation in AI Admin Hub.
 
-**Tip:** Make sure your deployment settings are configured before publishing. Once published, the skill appears in AI Admin Hub under the workflow category you selected. To learn more, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+**Tip:** Make sure your deployment settings are configured before publishing. Once published, the skill appears in AI Admin Hub under the workflow category you selected. To learn more, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 ## Procedure
 

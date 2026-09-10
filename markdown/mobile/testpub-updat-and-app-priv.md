@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-and-app-priv.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 2
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -21,6 +21,8 @@ Role required: admin
 ## Procedure
 
 1.  Download the APK file and upload it directly to a device.
+
+    If you provided a developer verification snippet with your build request, the snippet is embedded in this APK.
 
 2.  Send an email to the APK testers, asking them to open the app on their Android phones or to drag-and-drop the app onto an emulator.
 
@@ -45,8 +47,8 @@ Role required: admin
     -   If you are using the BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
     -   If you are using the Microsoft Intune MAM, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
     -   For information about ServiceNow® mobile apps version history and changes, see:
-        -   Now Mobile
-        -   ServiceNow Agent
+        -   [Now Mobile](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
+        -   [ServiceNow Agent](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
     -   Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
 
 **Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/update-branded-app.md)

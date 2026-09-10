@@ -43,15 +43,15 @@ If there are multiple control output ports for a component, the generated automa
 
 1.  In the RPA Desktop Design Studio, extend the automation logic with in-line prompting from the component level or from the design surface.
 
-<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d626213e201">
+<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d638507e201">
 
 Option
 
-</th><th align="left" id="d626213e204">
+</th><th align="left" id="d638507e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d626213e210">
+</th></tr></thead><tbody><tr><td id="d638507e210">
 
 **From component level**
 
@@ -66,7 +66,7 @@ You can also use the keyboard shortcut Ctrl+Enter to open the in-line prompting 
 
  If you access in-line prompting from the component level, the automation workflow is generated to the default control output port of the component.
 
-</td></tr><tr><td id="d626213e259">
+</td></tr><tr><td id="d638507e259">
 
 **From design surface**
 
@@ -95,15 +95,15 @@ If you access in-line prompting from the design surface, the generated automatio
 
 3.  In the Build with AI window, close the window, cancel the workflow generation, reject an automation, or accept the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d626213e364">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d638507e364">
 
 Option
 
-</th><th align="left" id="d626213e367">
+</th><th align="left" id="d638507e367">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d626213e373">
+</th></tr></thead><tbody><tr><td id="d638507e373">
 
 **Close**
 
@@ -111,7 +111,7 @@ Procedure
 
 If you want to close the Build with AI window, select the close icon \[Omitted image "close-now-assist-rpa-icon.png"\] Alt text:, and then select **Close AI** in the confirmation window.The generated automation workflow is discarded.
 
-</td></tr><tr><td id="d626213e392">
+</td></tr><tr><td id="d638507e392">
 
 **Stop generating**
 
@@ -119,7 +119,7 @@ If you want to close the Build with AI window, select the close icon \[Omitted i
 
 If you want to cancel the workflow generation or update the instruction, select **Stop generating**. You can update the AI instructions and select the enter icon \[Omitted image "enter-inline-prompt-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d626213e409">
+</td></tr><tr><td id="d638507e409">
 
 **Reject**
 
@@ -127,7 +127,7 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d626213e425">
+</td></tr><tr><td id="d638507e425">
 
 **Accept**
 

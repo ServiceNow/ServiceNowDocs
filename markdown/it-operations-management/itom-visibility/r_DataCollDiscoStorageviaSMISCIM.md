@@ -126,7 +126,7 @@ These probes are available but not currently used:
 -   SMI - Array - Volumes
 
 -   **[Discovery of storage area networks \(SAN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/storage-area-networks.md)**  
-Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
+Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. It creates specific references between the tables in the SAN schema.
 -   **[How CIM Discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 -   **[Configure SMI-S Provider for storage Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md)**  

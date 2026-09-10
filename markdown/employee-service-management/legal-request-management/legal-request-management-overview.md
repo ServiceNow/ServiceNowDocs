@@ -153,6 +153,8 @@ To learn more about configuring and using Legal Request Management, see:
 
 -   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/lsd-acp-landing.md)**  
 Attorney Client Privilege functionality enables legal fulfiller to designate legal requests as privileged and confidential. It restricts access to authorized stakeholders, marks communications with confidentiality banners, and maintains a document audit trail to help you protect sensitive legal communications.
+-   **[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)**  
+ServiceNow Otto for Legal Service Delivery \(LSD\) provides AI-powered summarization for legal requests and matters, and generates actionable answers from knowledge article search results in Employee Center, Legal Counsel Center, and global search.
 
 **Parent Topic:**[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 

@@ -90,7 +90,7 @@ Release notes
 
 </td><td>
 
-[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Release notes
 
 </td><td>
 
-[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)
 
 </td></tr><tr><td>
 

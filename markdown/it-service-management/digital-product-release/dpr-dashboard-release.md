@@ -17,13 +17,13 @@ breadcrumb: [Explore, Digital Product Release, IT Service Management]
 Release dashboards provide insights into your releases. You can see their progress, identify any potential risks, and track their software quality. This information can help you to make informed decisions about your releases and ensure their success.
 
 -   **[Release Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-overview-dashboard.md)**  
-The Release Overview dashboard provides an overview of all the information about a release, which the product team can use to assess its readiness.
+The Release overview dashboard displays key metrics and status information for a product release, enabling product teams to assess readiness.
 -   **[Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md)**  
 The Release Quality dashboard provides insights into the quality of a release based on the software quality scan summaries and test summaries.
 -   **[Release dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-dashboard-multi.md)**  
 The Release Overview dashboard for a multi-product release provides an overview of all the information about every product release, which the product team can use to assess the release readiness.
 -   **[Release Overview dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.md)**  
-The Release overview dashboard provides an overview of all the information about an individual product's release in a multi-product release, which the product team can use to assess its readiness.
+The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 
 **Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

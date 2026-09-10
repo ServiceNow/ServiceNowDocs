@@ -105,12 +105,12 @@ From the **Pipeline Execution** view of the relevant pipeline, click the **Pipel
 
 Job information from Azure is received in ServiceNow during the following times:
 
-1.  Upon the completion of a stage.
+1.  On the completion of a stage.
 2.  When the register-change step executes.
 
-Azure provides job information sequentially based on job queue time, despite jobs potentially running in parallel. Consequently, if the register-change step executes while a parallel job queued earlier remains unfinished, the system assumes the parallel job is an upstream task, causing the change creation process to wait for its completion. However, stage completion notifications are not received until all jobs, including the register-change job, have finished.
+Azure provides job information sequentially based on job queue time, despite jobs potentially running in parallel. Consequently, if the register-change step executes while a parallel job queued earlier remains unfinished, the system assumes the parallel job is an upstream task, causing the change creation process to wait for its completion. However, stage completion notifications aren't received until all jobs, including the register-change job, have finished.
 
-This creates a deadlock scenario where the change process in ServiceNow waits for the parallel job to complete, while the parallel job waits for the stage completion notification, which in turn waits for the register-change job to finish.
+This creates a deadlock scenario where the change process in ServiceNow waits for the parallel job to complete, while the parallel job waits for the stage completion notification. The stage completion in turn waits for the register-change job to finish.
 
 Due to this deadlock, by the time the change is created, the Azure pipeline job has already failed, leading to the 500 error in the event API. Rerunning the job resolves the issue as the previously queued parallel jobs are marked as completed.
 
@@ -122,7 +122,7 @@ Ensure that you review the following considerations before upgrading.
 
 -   The **Upstream execution** column in the Task Executions table is not displayed for fresh installations. Any customizations that you have made using the **Upstream execution** column prior to the upgrade are unaffected.
 -   If stages are running in parallel, a change request should not be the first job in any stage.
--   After upgrading, new release pipeline executions process parallel stages concurrently and display parallel stages and associated details in the pipeline UI. Azure DevOps release pipelines that are already executed and stored in ServiceNow DevOps prior to the upgrade remain unaffected and continue to display parallel stages \(that are already executed and persisted\) in ServiceNow DevOps serially.
+-   After upgrading, new release pipeline executions process parallel stages concurrently and display parallel stages and associated details in the pipeline UI. Azure DevOps release pipelines that are already executed and stored in ServiceNow DevOps before the upgrade remain unaffected and continue to display parallel stages \(that are already executed and persisted\) in ServiceNow DevOps serially.
 -   If the pre-deployment ServiceNow DevOps release gate is enabled in more than one start stage in a release pipeline with multiple start stages, it might result in multiple pipeline executions.
 
 **Note:** A package is created for each start stage but any one package is associated per pipeline execution.

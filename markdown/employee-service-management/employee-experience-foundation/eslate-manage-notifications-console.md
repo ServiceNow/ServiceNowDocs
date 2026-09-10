@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 2
 keywords: [email notifications, notification templates, admin console, Employee Slate]
-breadcrumb: [Notifications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Notifications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure email notifications from the admin console

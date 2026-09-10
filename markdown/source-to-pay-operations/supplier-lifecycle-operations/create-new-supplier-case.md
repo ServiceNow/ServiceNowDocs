@@ -31,15 +31,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 2.  Do one of the following.
 
-<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d37998e115">
+<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d39272e115">
 
 To
 
-</th><th align="left" id="d37998e118">
+</th><th align="left" id="d39272e118">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d37998e124">
+</th></tr></thead><tbody><tr><td id="d39272e124">
 
 **To create a case from Quick actions**
 
@@ -51,7 +51,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier case**.
 
 
-</td></tr><tr><td id="d37998e161">
+</td></tr><tr><td id="d39272e161">
 
 **To create a case from the List page**
 
@@ -67,22 +67,22 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
 </td></tr></tbody>
 </table>3.  On the Create New Supplier Case form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  Select **Save**.
 
     The case is created in Draft state.
 
-5.  Do the following steps only if you selected these case types: **Banking information change request**, **Supplier information change request**, **Supplier location change request**.
+5.  Do the following steps only if you selected these case types: **Banking information change request**, **Supplier information change request**, **Supplier location change request**, **Tax information change request**.
 
     1.  Select **Add more details**.
     2.  On the Add more details form, fill in the fields.
 
-        In the **Case type** field, if you selected **Banking information change request**, see [Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Banking information change request**, see [Fields in the Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) for more information about the form fields and descriptions.
 
-        In the **Case type** field, if you selected **Supplier information change request**, see [Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Supplier information change request**, see [Fields in the Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md) for more information about the form fields and descriptions.
 
-        In the **Case type** field, if you selected **Supplier location change request**, see [Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Supplier location change request**, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md) for more information about the form fields and descriptions.
 
     3.  Select **Submit**.
 6.  Select **Submit case**.

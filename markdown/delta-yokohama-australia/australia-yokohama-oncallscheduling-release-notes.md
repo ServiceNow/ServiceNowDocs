@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-oncallscheduling-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,9 +46,22 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Starting from the Zurich release, On-Call Scheduling uses subflows, not workflows. You must transition from workflows to subflows, because the workflows are considered as legacy workflows. For existing users in Zurich, your current workflows continue to be supported. However, for new users, the On-Call Scheduling plugin installations on Zurich and later instances only use subflows.
 
- Maintain, build, and modify your own custom on-call scheduling flows in Workflow Studio with subflows for new instances. The following subflows are available for configuration:
+Maintain, build, and modify your own custom on-call scheduling flows in Workflow Studio with subflows for new instances. The following subflows are available for configuration:
+
+    -   On-Call: Assign
+    -   On-Call: Assign and Notify
+    -   On-Call: Assign by Acknowledgment
+    -   On-Call: Assign by Acknowledgement per Rota
+    -   On-Call: Assign by Acknowledgement Voice
+    -   On-Call: Check Assignment Response
+    -   On-Call: Conference Call Escalation
+    -   On-Call: Escalations by Email
+    -   On-Call: Escalation By Email per Rota
+    -   On-Call: Time-off approval
 
 </td></tr><tr><td>
 
@@ -151,7 +164,12 @@ Zurich
 
 </td><td>
 
--   **[Performance improvements in subflows for on-call notifications](https://www.servicenow.com/docs/access?context=on-call-new-trigger-engine&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Performance improvements in subflows for on-call notifications](https://www.servicenow.com/docs/access?context=on-call-new-trigger-engine&family=zurich&ft:locale=en-US)**
 
 The following performance enhancements are available for on-call notifications when subflows are used:
 
@@ -264,12 +282,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=yokohama&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
--   FullCalendar library
--   DHTMLX scheduler
-
+    -   FullCalendar library
+    -   DHTMLX scheduler
 **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
+
 
 </td></tr><tr><td>
 
@@ -277,12 +297,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=zurich&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
--   FullCalendar library
--   DHTMLX scheduler
-
+    -   FullCalendar library
+    -   DHTMLX scheduler
 **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
+
 
 </td></tr><tr><td>
 
@@ -290,12 +312,14 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=australia&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
--   FullCalendar library
--   DHTMLX scheduler
-
+    -   FullCalendar library
+    -   DHTMLX scheduler
 **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -398,7 +422,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

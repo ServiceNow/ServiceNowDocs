@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Manage the work of all your teams from a central location. You can get visibility into your entire teams’ workload. You can assess the complexity level of your teams' tasks, their capacity to take on the work, and assign or reassign work—all from a calendar interface.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Here's an overview of Work scheduler.
 
 The image provides a high-level overview of Work scheduler.\[Omitted image "work-scheduler.png"\] Alt text: Work scheduler

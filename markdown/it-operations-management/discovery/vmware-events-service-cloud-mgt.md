@@ -41,7 +41,7 @@ To connect to a different MID Server or vCenter: Update the settings and then cl
 
 If you are on a domain separated instance, only those events that are updated to the CMDB and belong to your domain are visible. Events create configuration items \(CI\) in the same domain as the cloud service account they are mapped to. Events that are not associated to a service account are visible to all domains.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent the failed events visibility to all domains, you can set the **sn\_cmp.error\_events.default\_domain** property to sys\_id of the service-provider domain so that the failed events appears only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To restrict failed event visibility, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. Failed events then appear only to the service-provider domain administrator.
 
 ## Procedure
 

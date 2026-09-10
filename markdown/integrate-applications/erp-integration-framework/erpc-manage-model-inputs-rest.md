@@ -1,6 +1,6 @@
 ---
-title: Manage input parameters for a model operation with a REST entity
-description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the ERP system using REST.
+title: Manage input parameters for model operation with a REST entity
+description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values. This defines the inputs for an operation that reads, creates, or updates the ERP system using REST.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.html
 release: australia
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-04-26"
 reading_time_minutes: 3
-breadcrumb: [Connect to ERP with REST, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Manage input parameters for a model operation with a REST entity
+# Manage input parameters for model operation with a REST entity
 
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the ERP system using REST.
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values. This defines the inputs for an operation that reads, creates, or updates the ERP system using REST.
 
 ## Before you begin
 
@@ -40,43 +40,51 @@ Role required: sn\_erp\_integration.erp\_admin
 
 7.  Select **Specify inputs**.
 
-    There are two sections:
+    There are two tabs, which you complete in order:
 
-    -   In **Configuration**, set the validation rules and pagination.
-    -   In **Selection**, map fields and define the inputs for the operation.
+    -   In **Step 1: Configuration**, set the validation rules and pagination.
+    -   In **Step 2: Select fields**, map fields and define the inputs for the operation.
     \[Omitted image "erp-manage-inputs-rest1.jpg"\] Alt text: Manage model page, with specify input tab displayed and configuration/selection options highlighted.
 
-8.  Select **Configuration**.
-
-9.  Define whether operation inputs are required by expanding the **Validation rules** section and selecting an option in **Query validation rule**.
+8.  In **Step 1**, define whether operation inputs are required by expanding the **Validation rules** section and selecting an option in **Query validation rule**.
 
     -   **All required inputs are mandatory**
     -   **At least one required input is mandatory**
     -   **No validation on inputs**
-10. Expand the **Pagination** section and select an option to configure pagination parameters and control how data is retrieved in batches.
+9.  Expand the **Pagination** section and select an option to configure pagination parameters and control how data is retrieved in batches.
 
     -   Select **None \(no pagination\)** to not use any pagination.
     -   Select **Offset-based** to import data in batches based on time intervals.
     -   Select **Page-based** to specify the number of records \(limit\) that can be fetched at a time.
-11. Select **Selection**.
+10. Select **Save**.
 
-12. Select a listed REST service.
+11. In **Step 2**, select the entity.
 
-13. Select **Select mandatory fields**, add fields, and select **OK**.
+    \[Omitted image "erp-manage-inputs-rest4.jpg"\] Alt text: Entity highlighted in step 2 select fields.
 
-14. Select **Select fields** and add fields.
+12. Select **Select mandatory fields**.
 
-    \[Omitted image "erp-manage-inputs-rest2.jpg"\] Alt text: Available and selected columns.
+    \[Omitted image "erp-manage-inputs-rest5.jpg"\] Alt text: Specify inputs are with select mandatory fields button highlighted.
+
+13. Add fields.
+
+    \[Omitted image "erp-manage-inputs-rest2.jpg"\] Alt text: Available and selected inputs.
 
     After adding fields, you can rearrange their order in the **Selected columns** list by dragging the field card to a new location.
 
-15. Select **OK**.
+14. Select **OK**.
 
     Zero Copy Connector for ERP automatically suggests mappings between source fields and mapped fields. This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP AI semantic field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
 
     Mapped field names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
-16. If needed, add a field.
+15. Select **Select fields**.
+
+16. For the non-mandatory fields, repeat steps 13-14.
+
+17. Select **Save**.
+
+18. If needed, add a field.
 
     1.  Select **+ Add field**.
 
@@ -88,7 +96,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
         The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
-17. Select **Save**.
+19. Select **Save**.
 
 
 ## What to do next

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Cloud Virtual Network spoke v1.0.4 is the latest version.
+Google Cloud Virtual Network spoke v1.0.4 is the latest version. For version history of the spoke, see [Google Cloud Virtual Network spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-virtual-network.html).
 
 ## Spoke dependencies
 

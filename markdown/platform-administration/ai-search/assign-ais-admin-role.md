@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-11"
 reading_time_minutes: 2
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -62,10 +62,11 @@ Accesses High Security settings for AI Search, including the following:
 
 -   Bypasses all search filters from search sources and content security in the Search Preview UI, viewing all search query results available in the AI Search index
 -   Reads external content user mapping import history records
+-   Reads indexed content item records in the index inspector tool for External Content Connectors
 
  This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). To learn about elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
- The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see [User metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-user-metrics.md).
+ The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see .
 
 </td></tr><tr><td>
 

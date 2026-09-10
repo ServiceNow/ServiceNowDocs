@@ -282,6 +282,18 @@ Ad-hoc action items of task and assessment type, associated with the event and t
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
+Issues
+
+</td></tr><tr><td>
+
+Issues
+
+</td><td>
+
+GRC issues that can be created or added from an event.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
 Similar tasks groups
 
 </td></tr><tr><td>
@@ -291,6 +303,18 @@ Group of similar tasks associated with the event
 </td><td>
 
 Group of similar tasks, their names, and original tasks associated with the event.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Collaborations
+
+</td></tr><tr><td>
+
+Collaborations
+
+</td><td>
+
+Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Azure Traffic Manager spoke v2.0.0 is the latest version.
+Azure Traffic Manager spoke v2.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure Traffic Manager spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-traffic-manager.html).
 
 ## Supported versions
 

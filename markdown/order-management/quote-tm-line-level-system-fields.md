@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-line-
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 11
-breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 12
+breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Transaction line-level system fields
@@ -163,6 +163,12 @@ The following fields are installed when the Pricing tenant setting is enabled.
 |`txn.line.pricing.delta.rollupNetPrice`|Delta Cumulative Net Price. Calculated as Current Cumulative Net Price minus Original Cumulative Net Price.|Empty. Modifiable by: System|
 |`txn.line.pricing.delta.rollupPriceRecurring`|Delta Monthly Recurring Price. Calculated as Current Monthly Recurring Price minus Original Monthly Recurring Price.|Empty. Modifiable by: System|
 |`txn.line.delta.upsellDownsellAmount`|Upsell or Downsell Amount. Calculated as the Current Cumulative Net Price minus Original Cumulative Net Price.|Empty. Modifiable by: System|
+|`txn.line.pricing.state`|Pricing State. Indicates whether the line's pricing is current. Changing a pricing-affecting field marks the line as needing a reprice, and the state persists across rules-engine calls until a successful pricing call clears it. Drives the per-line stale-pricing indicator in the quote lines grid.|Empty. Modifiable by: System|
+|`txn.line.pricing.pricedAt`|Last Priced. Timestamp of the last successful pricing calculation for the line.|Empty. Modifiable by: System|
+|`txn.line.pricing.priceOverride`|Price Override. A user-supplied net price that replaces the calculated price for the line. Preserved as a rep-supplied override and not overwritten by the next pricing call.|Empty. Modifiable by: User|
+|`txn.line.pricing.adjustment.type`|Discount Adjustment Type. The type of manual adjustment applied to the line. Options: Markdown Amount, Markdown %, Price Override.|Empty. Modifiable by: User|
+|`txn.line.pricing.adjustment.value`|Discount Adjustment Value. The amount or percentage of the manual adjustment, interpreted according to the Discount Adjustment Type.|Empty. Modifiable by: User|
+|`txn.line.pricing.discountReason`|Discount Reason. The reason a manual discount or adjustment was applied to the line. Captured for auditing.|Empty. Modifiable by: User|
 
 ## Opportunity sync fields
 
@@ -171,6 +177,8 @@ The following field is seeded when the Opportunity Sync tenant setting is enable
 |Variable name|Description|Default value|
 |-------------|-----------|-------------|
 |`txn.line.opportunity.lineItem`|Reference to the opportunity line item this line is synced to.|Empty. Modifiable by: System|
+
+**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
 
 **Related topics**  
 

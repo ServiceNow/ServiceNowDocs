@@ -124,6 +124,8 @@ Maximum number of invoices that can be sent to the external tax engine in a sing
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

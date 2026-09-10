@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-t
 release: australia
 topic_type: task
 last_updated: "2026-06-18"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Teradata metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -16,8 +16,8 @@ Create a collector to import metadata from Teradata.
 
 ## Before you begin
 
--   A MID Server is set up for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All prerequisite tasks are complete. For more information, see [Prepare to run the Teradata Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-teradata-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
 Role required: connection-admin or admin.
 
@@ -48,12 +48,40 @@ Role required: connection-admin or admin.
 
 7.  Configure the connection properties.
 
-    |Field|Description|
-    |-----|-----------|
-    |Server|Hostname of the database server to connect to.|
-    |Server port|Port of the database server, if not the default.|
+<table id="table_rx2_2zm_rjc"><thead><tr><th>
 
-8.  Configure the authentication options.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Server
+
+</td><td>
+
+Hostname of the database server to connect to.
+
+</td></tr><tr><td>
+
+Server port
+
+</td><td>
+
+Port of the database server, if not the default.
+
+</td></tr><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
 
     | | |
     |---|---|

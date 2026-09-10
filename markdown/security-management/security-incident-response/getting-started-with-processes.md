@@ -33,6 +33,10 @@ Make sure that you have read the platform documentation on [Exploring Playbook](
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Working with Security Incident Records]()
 
 [Security Incident Playbook]()

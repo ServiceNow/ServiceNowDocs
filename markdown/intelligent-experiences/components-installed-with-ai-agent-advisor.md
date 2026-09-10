@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Components installed with AI Agent Advisor
@@ -46,6 +46,8 @@ The following tables are installed with AI Agent Advisor.
 
 **Related topics**  
 
+
+[Domain separation and AI Agent Advisor]()
 
 [AI Agent Advisor roles]()
 

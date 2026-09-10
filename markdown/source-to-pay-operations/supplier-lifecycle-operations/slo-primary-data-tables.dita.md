@@ -36,19 +36,19 @@ The Supplier Payment Information \[sn\_fin\_supplier\_payment\] table stores imp
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Domain separation and Supplier Lifecycle Operations]()
 

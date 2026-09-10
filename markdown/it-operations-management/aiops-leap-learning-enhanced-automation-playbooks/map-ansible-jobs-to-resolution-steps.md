@@ -37,9 +37,9 @@ Step-to-job mapping creates the relationship between specific resolution steps a
 
 2.  Locate the automation opportunity that you want to configure for Ansible integration.
 
-3.  Select **Map Ansible Jobs** to open the mapping modal.
+3.  Select **Review details** to open the mapping modal.
 
-    This button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates.
+    \[Omitted image "map\_ansible\_playbooks.png"\] Alt text: Map resolution steps to Ansible pllaybooksThis button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates.
 
     If the button does not appear, confirm that the Ansible discovery agent has completed analysis.
 

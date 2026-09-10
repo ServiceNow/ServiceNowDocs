@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-report-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---

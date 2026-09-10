@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-07-29"
 reading_time_minutes: 6
-breadcrumb: [Getting started, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Getting started, Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # General guidelines for AI voice agent evaluation grounding

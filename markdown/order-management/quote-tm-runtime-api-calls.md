@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience runtime API calls
@@ -165,4 +165,6 @@ The following Postman collection provides ready-to-use API requests for the Serv
   ]
 }
 ```
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

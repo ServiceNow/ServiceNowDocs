@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [View live CI data with Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [View live CI data with ACC, Agent Client Collector, IT Operations Management]
 ---
 
 # Assign a CI to an incident to view live CI data

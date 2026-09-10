@@ -40,11 +40,11 @@ Dispute Rules Content Pack for Visa application can help you do the following:
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-visa-reference.md)
 
 </td></tr></tbody>
-</table>## Request Financial Services Operations Integration with Visa on the store
+</table>## Request Dispute Rules Content Pack for Visa on the store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Before you can use AES, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
+Before you can use Dispute Rules Content Pack for Visa, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 
 ## Troubleshoot and get help
 

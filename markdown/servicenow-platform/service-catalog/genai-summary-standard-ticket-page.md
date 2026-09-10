@@ -18,7 +18,7 @@ On the standard ticket page, requesters can quickly access a generative AI summa
 
 The ticket page provides an on-demand summary. When the requester selects **Summarize**, a summary appears at the top, making key information quickly accessible and improving efficiency.
 
-The **Summarize** button appears when at least one field is configured. If no field values are configured, the button does not appear, regardless of whether the Standard Ticket Page Summarization skill is active.
+The **Summarize** button appears when at least one field is configured. If no field values are configured, the button does not appear, regardless of whether the ServiceNow Otto in Standard Ticket Page skill is active.
 
 Each summary uses a set structure for consistency, making information easy to understand and improving communication in the ticketing process.
 
@@ -26,6 +26,8 @@ Each summary uses a set structure for consistency, making information easy to un
 
 **Related topics**  
 
+
+[Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 
 [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-st-page.md)
 

@@ -26,7 +26,7 @@ You can create multiple cost books for a given currency, but the first cost book
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Prices** &gt; **Cost Books**.
 

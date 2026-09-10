@@ -7,7 +7,7 @@ release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 breadcrumb: [Industrial Standards, Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---

@@ -8,7 +8,7 @@ product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
 
@@ -36,11 +36,11 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/using-now-assist-for-security.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
 
 </td></tr></tbody>
 </table>**Important:**

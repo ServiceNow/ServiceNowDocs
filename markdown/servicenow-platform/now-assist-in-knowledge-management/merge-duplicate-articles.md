@@ -1,6 +1,6 @@
 ---
 title: Merge duplicate articles
-description: Merge multiple duplicate knowledge articles into a single, consolidated article using Now Assist in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
+description: Merge multiple duplicate knowledge articles into a single, consolidated article using ServiceNow Otto in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Kno
 
 # Merge duplicate articles
 
-Merge multiple duplicate knowledge articles into a single, consolidated article using Now Assist in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
+Merge multiple duplicate knowledge articles into a single, consolidated article using ServiceNow Otto in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
 
 ## Before you begin
 

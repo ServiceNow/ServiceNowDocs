@@ -16,6 +16,8 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 
 Domain separation is supported in Workforce Optimization for ITSM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Support level: Basic
 
 

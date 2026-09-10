@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
@@ -51,18 +51,18 @@ this record summarization skill in either Core UI or Source-to-Pay Workspace.
 
     -   **Overview**: Provides information about the record.
     -   **Actions completed**: Lists all the actions that have been taken so far.
-    -   **Next steps**: Lists the actions that the fulfillers need to take next.
+    -   **Next steps**: Lists the actions that the fulfillers need to take next. If the record has associated email records, this also factors in relevant email context, such as the sender, date, and key message.
 7.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d69720e212">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d72029e225">
 
 Option
 
-</th><th align="left" id="d69720e215">
+</th><th align="left" id="d72029e228">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d69720e221">
+</th></tr></thead><tbody><tr><td id="d72029e234">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d69720e248">
+</td></tr><tr><td id="d72029e261">
 
 **Expand or collapse the summary**
 
@@ -81,7 +81,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text:\) to show more or fewer summary details.
 
-</td></tr><tr><td id="d69720e267">
+</td></tr><tr><td id="d72029e280">
 
 **Provide feedback for the summary**
 
@@ -89,7 +89,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or
 
 If the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).This feedback improves the generative AI model and may improve future versions of this skill.
 
-</td></tr><tr><td id="d69720e288">
+</td></tr><tr><td id="d72029e301">
 
 **Copy the record summary**
 
@@ -97,7 +97,7 @@ If the summary was helpful, select the helpful icon \(\[Omitted image "icon-help
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\) to use the summary in another location, such as an email.
 
-</td></tr><tr><td id="d69720e303">
+</td></tr><tr><td id="d72029e316">
 
 **View the information about the record summary**
 
@@ -105,7 +105,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text:\).
 
-</td></tr><tr><td id="d69720e317">
+</td></tr><tr><td id="d72029e330">
 
 **Refresh the record summary**
 

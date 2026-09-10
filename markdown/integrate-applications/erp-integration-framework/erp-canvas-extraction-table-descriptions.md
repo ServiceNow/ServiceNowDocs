@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP extraction table field descriptions
-description: The Extraction table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit extraction tables in the ERP model.
+description: The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the enterprise resource planning \(ERP\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-extraction-table-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 # Zero Copy Connector for ERP extraction table field descriptions
 
-The Extraction table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit extraction tables in the ERP model.
+The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the enterprise resource planning \(ERP\) model.
 
 For process details, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
@@ -49,7 +49,7 @@ Target table link
 
 </td><td>
 
-A link to the table in which you want the transformed data to be added.
+Link to the table in which you want the transformed data to be added.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ ERP module
 
 ERP module in the ERP system, for example, sales orders or inventory. Select a module from the list. If the module you need isn't listed, contact [ServiceNow Technical Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0547260).
 
- ERP modules represent a distinct set of features and functionalities tailored to address business processes or activities.
+ Each ERP module represents a distinct set of features and functions tailored to address business processes or activities.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Page size
 
 </td><td>
 
-Amount of data to read from the ERP system at a time. The default is 1000. Increasing the size may impact MID Server memory space.
+Amount of data to read from the ERP system at a time. The default is 1000. Increasing the size might impact MID Server memory space.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Table transform map link
 
 </td><td>
 
-Link to the Glide table that the extracted ERP data is cached and stored in.After you save the extraction table, when you select the link, the ServiceNow AI Platform table opens in a new browser tab.
+Link to the Glide table that caches and stores the extracted ERP data.After you save the extraction table, when you select the link, the ServiceNow AI Platform table opens in a new browser tab.
 
 </td></tr><tr><td>
 
@@ -107,8 +107,7 @@ Long text
 
 </td><td>
 
-A longer description or information about the extraction table.
+Longer description or more information about the extraction table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

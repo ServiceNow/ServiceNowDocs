@@ -22,7 +22,7 @@ Use cases:
 
 -   If two or more certificates are found in formats like .cert or .pem, only the first certificate is considered. The other certificates aren't processed and no certificate chain relationships are maintained.
 -   If there is a .txt extension containing only one certificate, it is considered as a server certificate and no certificate relationship are maintained.
--   If there is a .txt extension, containing two certificates, the first certificate is considered as server certificate and the second certificate is considered as root certificate, with no intermediate certificates.
+-   If there is a .txt extension containing two certificates, the first certificate is considered as server certificate and the second certificate is considered as root certificate. There are no intermediate certificates.
 
 **Note:** The certificate chain relationship is dependent on the latest URL/IP Discovery run. Importing a file without certificate chain relations disrupts any existing chain relationships associated with the same certificate \(fingerprint\).
 

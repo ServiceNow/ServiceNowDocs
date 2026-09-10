@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialconnectedworkforcecore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,45 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Explore](https://www.servicenow.com/docs/access?context=exploring-ai-enhanced-ra-icw&family=australia&ft:locale=en-US)**
+
+Contextualize an external document to get an explanation of why the document is relevant to the selected deviation. For more information, see [Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-icw&family=australia&ft:locale=en-US).Create an action plan to help resolve your ICW deviation using relevant documentation. For more information, see [Generate an action plan to resolve an ICW deviation](https://www.servicenow.com/docs/access?context=generate-action-plan-ai-enhanced-ra-icw&family=australia&ft:locale=en-US).
+
+
+ -   **[Vertical navigation for Functional Location](https://www.servicenow.com/docs/access?context=functional-location-vertical-navigation&family=australia&ft:locale=en-US)**
+
+Browse the equipment hierarchy and switch between functional locations using a vertical navigation panel in the Digital Factory Workspace.Use the breadcrumb trail to track your place in the equipment model and open a different functional location without losing context.
+
+
+ -   **[Industrial Connected Workforce Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&family=australia&ft:locale=en-US)**
+
+Centralize all critical industrial entities like organizations, equipment, functional locations, calendars, and workers into a single authoritative data layer to eliminate data silos and drive consistency across your operations.ICW Core enables consistency across all ICW applications and eliminates data duplication. ICW Pro plugin \(app-icw-analytics\) uses this unified structure to provide advanced reporting and analytics across plants, production lines, and maintenance groups.
+
+-   **[Structural Enhancements](https://www.servicenow.com/docs/access?context=configuring-icw-core&family=australia&ft:locale=en-US)**
+
+Align your operational data and execution by using enhanced digital models for organizational units, asset hierarchies, shift calendars, and worker attributes.These models support the standards plugin \(app-icw-std\), guided tasks plugin \(app-icw-igt\), deviations, and actions and reduce configuration duplication across sites.
+
+-   **[Automation &amp; Archival](https://www.servicenow.com/docs/access?context=archive-rules-icw&family=australia&ft:locale=en-US)**
+
+Reduce data clutter and maintain compliance by automating the archival of Action, Deviation, and root cause analysis \(RCA\) records after inactivity.Default retention period of 24 months, configurable via system properties.Administrative controls to activate or deactivate archival rules.
+
+-   **[User Experience &amp; Usability](https://www.servicenow.com/docs/access?context=configure-contextual-sidebar&family=australia&ft:locale=en-US)**
+
+Access assistance, recommendations, related actions, and attachments through a configurable contextual sidebar to streamline your daily workflows.Administrator-controlled visibility options and personalized user preferences.
+
+-   **[Roles and Permission Framework](https://www.servicenow.com/docs/access?context=components-installed-with-icw&family=australia&ft:locale=en-US)**
+
+Simplify administration and improve governance by using the expanded ICW role structure, which includes domain‑specific expert and user roles for actions, deviations, RCAs, and knowledge.Permission inheritance is refined across operational workflows and content types to simplify administration and improve governance.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -191,7 +229,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 ICW Core is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

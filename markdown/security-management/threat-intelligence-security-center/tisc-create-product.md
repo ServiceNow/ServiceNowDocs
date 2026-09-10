@@ -48,17 +48,25 @@ Role required: sn\_sec\_tisc.analyst
     |Last Modified in Source|Date when the product record was last updated in the source system.|
     |Status|Current state of the product record, such as Active or Inactive.|
 
-4.  Click **Save**.
+4.  Select **Save**.
 
-5.  Go to the **Related Records** section.
+5.  Select **Related Records** to perform one of the following actions.
 
-6.  Scroll to the **Product Identifiers** related list and click **Add**.
+    1.  Select an option to view the associated records.
+
+    2.  Select **Link** and follow the modal to link a record.
+
+    3.  Select **New** to create a product and link it to a related product or vulnerability.
+
+    The **Link** and **New** buttons may not apply to all the record types.
+
+6.  Scroll to the **Product Identifiers** related list and select **Add**.
 
     Clicking **Add** opens the **Product Identifier** form in a new tab. The parent context \(product\) is automatically populated in the corresponding field. Enter the required form details.
 
     You can use the same process to add **Related Products**, **Product Vulnerabilities**, and **Product Vulnerability Remediations** records.
 
-7.  Click **Save**.
+7.  Select **Save**.
 
 
 ## Result
@@ -72,7 +80,7 @@ The product identifier record is created and appears in the **Product Identifier
 
 [Create a CWE record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-cwe-record.md)
 
-[Create a Vendor to a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-vendor-to-vul.md)
+[Create a Vendor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-vendor-to-vul.md)
 
 [Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)
 

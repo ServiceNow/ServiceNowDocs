@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Schedule a top-down discovery by Service Mapping, Application service completion, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -69,7 +69,7 @@ Service Mapping discovers all CIs belonging to services assigned to groups that 
 
 </td><td>
 
-In a distributed organization with offices in several geographic locations, you may want to create a custom discovery schedule to rediscover services in one of these locations. For example, one schedule can trigger rediscovery of all services relevant for the EMEA site at 7am GMT, while another schedule can start rediscovery of services for the US headquarters at 7am PT.
+In a distributed organization with offices in several geographic locations, you may want to create a custom discovery schedule to rediscover services in one of these locations. For example, one schedule can trigger rediscovery of all services relevant for the EMEA site at 7am GMT. Another schedule can start rediscovery of services for the US headquarters at 7am PT.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ For CI types
 
 </td><td>
 
-Service Mapping discovers all application CIs belonging to this application type. Some application CI types are prone to more frequent changes and updates than others, so you can manage the load by adjusting the discovery schedule to match the nature of each CI type. When you define discovery schedules based on application CI types, several schedules may apply to the same CI. To avoid discovering the same CIs more than once, the most specific schedule always has precedence. For example, if you create separate discovery schedules for a parent CI type and its child CI type, CIs belonging to the child CI type are discovered using its dedicated schedule. At the same time, if there is no schedule for a child CI type, the parent CI type schedule is used to discover the child CIs.
+Service Mapping discovers all application CIs belonging to this application type. Some application CI types are prone to more frequent changes and updates than others, so you can manage the load by adjusting the discovery schedule to match the nature of each CI type. When you define discovery schedules based on application CI types, several schedules may apply to the same CI. To avoid discovering the same CIs more than once, the most specific schedule takes precedence. If you create separate schedules for a parent CI type and its child CI type, CIs belonging to the child type use the child schedule. If no child schedule exists, the parent schedule applies.
 
  This schedule discovers only CIs belonging to application services in the **operational** state.
 
@@ -91,7 +91,7 @@ Specific CIs
 
 </td><td>
 
-Service Mapping discovers only one CI that you specified for this schedule.If you define a discovery schedule for a specific CI as well as a schedule for the CI type to which this CI belongs, Service Mapping uses the schedule for this specific CI, and not the generic schedule for its CI type.
+Service Mapping discovers only one CI that you specified for this schedule.If you define a discovery schedule for a specific CI and a schedule for its CI type, Service Mapping uses the CI-specific schedule. The generic CI type schedule does not apply.
 
  This schedule discovers only CIs belonging to application services in the **operational** state.
 

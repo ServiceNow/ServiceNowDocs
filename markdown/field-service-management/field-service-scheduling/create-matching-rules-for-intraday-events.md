@@ -9,7 +9,7 @@ classification: field-service-scheduling
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Matching rules for prioritized intraday optimization, Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create matching rules for intraday events
@@ -34,7 +34,7 @@ Create matching rules within a specific intraday optimization configuration. Mat
 
 3.  In the **Matching Rules** tab, select **New**.
 
-    A new window opens with the Matching Rule form.
+    A new window opens with the Matching Rules form.
 
 4.  Complete the form.
 
@@ -88,22 +88,24 @@ Matching
 
 </td><td>
 
-Indicates the option to match the rules. Select **Selection Criteria** to use the supported criteria for radius and skills. Other options require custom configuration.
+Indicates the option to match the rules. Select **Selection Criteria** to use the supported dimensions for radius and skills. Other options require custom configuration.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-6.  If you selected **Selection Criteria** in the **Matching** field, add one or more matching criteria in the **Matching Criteria** related list.
+6.  If you selected **Selection Criteria** in the **Matching** field, add one or more matching dimensions in the **Matching Criteria** related list.
 
-    Available matching criteria:
+    Available matching dimensions:
 
-    -   **Affected task\(s\)** — identifies tasks directly affected by the prioritized event
-    -   **Affected technician\(s\)** — identifies technicians directly affected by the prioritized event
-    -   **Retrieve task\(s\) based on skills** — identifies tasks whose required skills match the criteria
-    -   **Retrieve task\(s\) within radius** — identifies tasks located within the defined radius of the intraday event
-    -   **Retrieve technician\(s\) based on skills** — identifies technicians whose skills match those required by the intraday event
-    -   **Retrieve technician\(s\) within radius** — identifies technicians located within the defined radius of the intraday event
-7.  Choose which event types use matching rules.
+    -   **Affected task\(s\)**: identifies tasks directly affected by the prioritized event
+    -   **Affected technician\(s\)**: identifies technicians directly affected by the prioritized event
+    -   **Retrieve task\(s\) based on skills**: identifies tasks whose required skills match the criteria
+    -   **Retrieve task\(s\) within radius**: identifies tasks located within the defined radius of the intraday event
+    -   **Retrieve technician\(s\) based on skills**: identifies technicians whose skills match those required by the intraday event
+    -   **Retrieve technician\(s\) within radius**: identifies technicians located within the defined radius of the intraday event
+7.  **Note:** If you have custom event types and flows for intraday optimization, migrate them to the Intraday Event Type table. Update your flows to populate the event type field with table references instead of drop-down values.
+
+    Choose which event types use matching rules.
 
     1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
 

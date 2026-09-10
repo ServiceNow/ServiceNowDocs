@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-08-05"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [Workflow Data Fabric]
@@ -23,21 +23,22 @@ Legacy ERP systems, such as SAP, can have old, complex custom code and data. The
 
 The replatforming of legacy code enables innovation on top of the ERP system without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the ERP system and can work on other projects, such as migration.
 
-\[Omitted image "erpc-landing-page-infographic.png"\] Alt text: Infographic that visually shows querying SAP and identifying data models to simplify ERP.
+\[Omitted image "erpc-landing-page-infographic.png"\] Alt text: Querying SAP and identifying data models to simplify ERP.
 
 Use models as the foundation for ERP apps. These models include ERP system data in remote tables and extraction tables. The models enable you to perform read, update, and create operations on the ERP system. After you create models, you can use the extracted and transformed data to build apps that access the models. For example, use ServiceNow Studio or Creator Studio to build apps, or use the ERP data in flows within Workflow Studio.
 
-Zero Copy Connector for ERP content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Content packs accelerate the work so that building uses cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
+Zero Copy Connector for ERP content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Content packs accelerate the work so that building use cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
-The following ERP systems are supported:
+Zero Copy Connector for ERP supports the following ERP systems:
 
 -   SAP ECC
 -   SAP S/4HANA
 -   SAP S/4HANA Cloud
 -   SuccessFactors
 -   Workday
+-   Oracle E-Business Suite \(EBS\)
 
-**Note:** For information about new and updated features in the Australia release, see [Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md).
+**Note:** For information about new and updated features in the Australia release, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md).
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 
@@ -57,11 +58,11 @@ The following ERP systems are supported:
 
 </td></tr><tr><td>
 
-[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector for ERP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about Zero Copy Connector for ERP components, such tables, and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
+[Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about Zero Copy Connector for ERP components, such as tables, and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 
 </td></tr></tbody>
 </table>## Learning resources for Zero Copy Connector for ERP
@@ -76,7 +77,7 @@ ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-Zero Copy Connector for ERP has a several training and learning resources for you to get started. \(Some of these resources require logging in to the ServiceNow University site.\)
+Zero Copy Connector for ERP has several training and learning resources for you to get started. \(Some of these resources require logging in to the ServiceNow University site.\)
 
 </td><td>
 
@@ -84,16 +85,16 @@ Zero Copy Connector for ERP has a several training and learning resources for yo
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-3-person.svg"\] Alt text: [Introduction to Zero Copy Connector for ERP Content Packs and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev&course_id=72e3387d937bea56fb94b4886cba1095&s=1&ssa=3)
+\[Omitted image "bus-3-person.svg"\] Alt text: [Introduction to Zero Copy Connector for ERP Data Products and Process Extensions](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-zero-copy-connector-for-erp-data-products-and?id=learning_course_prev&course_id=872f7c394767ba5050593369126d4391&s=1&ssa=3)
 
 </td></tr><tr><td>
 
 \[Omitted image "bus-whitepaper.svg"\] Alt text:[ERP modernization: Working toward a clean core](https://www.servicenow.com/blogs/2022/erp-modernization-toward-clean-core.html)
 
 </td></tr></tbody>
-</table>## Request Zero Copy Connector for ERP on the store
+</table>## Requesting Zero Copy Connector for ERP on the store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Before you can use Zero Copy Connector for ERP, you must first download the application from the ServiceNow Store. If you don't see Zero Copy Connector for ERP on your instance after you've completed the download, clear your local cache.
+Before you can use Zero Copy Connector for ERP, you must first download the application from the ServiceNow Store. If you don't see Zero Copy Connector for ERP on your instance after you have completed the download, clear your local cache.
 

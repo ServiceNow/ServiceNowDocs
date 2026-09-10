@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Legal Tracker spoke v1.0.2 is the latest version.
+Legal Tracker spoke v1.0.2 is the latest version. For version history of the spoke, see [Legal Tracker Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-legal-tracker-spoke.html).
 
 ## Spoke dependencies
 

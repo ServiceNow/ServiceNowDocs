@@ -16,6 +16,8 @@ The Databricks connector provides read-only access to data and metadata from the
 
 A connection admin can set up a connection to Databricks in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Databricks. This allows users to access Databricks data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
+When you configure the connection with an access token, you can choose whether the connection authenticates using a shared, system-level OAuth entity profile or personal authentication. With personal authentication, each user signs in with their own credentials, and access to Databricks data is authenticated and audited individually rather than attributed to a shared account.
+
 The connector has been enhanced to improve the performance of the following Glide queries and list view operations. These improvements allow the majority of queries to be executed at the data source.
 
 -   Sort

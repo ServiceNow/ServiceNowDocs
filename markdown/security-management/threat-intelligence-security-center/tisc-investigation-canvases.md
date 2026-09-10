@@ -61,7 +61,7 @@ In the Investigation Canvas, you can view the MITRE ATT&amp;CK techniques and su
 
 [Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

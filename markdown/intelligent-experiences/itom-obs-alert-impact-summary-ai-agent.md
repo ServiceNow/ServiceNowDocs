@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 1
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Alert impact summary AI agent
@@ -64,7 +64,7 @@ Alert impact summary
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -72,7 +72,7 @@ evt\_mgmt\_operator
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, erp data, connect, clone, model]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -90,8 +90,7 @@ ERP software
 
 </td><td>
 
-Supportability of the model. This field is required because it determines which models can be used with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. The list contains major SAP versions and doesn't include patch versions. When a model is exported, the ERP software information specified in this field is included.
+Supportability of the model. The value determines which models you can use with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. For SAP, the list contains major SAP versions and doesn't include patch versions. When a model is exported, the ERP software information specified in this field is included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

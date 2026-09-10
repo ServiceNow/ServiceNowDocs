@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Guardian settings viewer AI agent
@@ -70,7 +70,7 @@ Get Guardrail Service Provider
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -78,7 +78,7 @@ sn\_na\_center.nac\_user
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

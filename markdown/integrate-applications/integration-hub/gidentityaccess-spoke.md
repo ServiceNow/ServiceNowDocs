@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Identity and Access spoke v1.1.1 is the latest version.
+Google Identity and Access spoke v1.1.1 is the latest version. For version history of the spoke, see [Google Identity And Access spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-identity-access.html).
 
 ## Supported Versions
 

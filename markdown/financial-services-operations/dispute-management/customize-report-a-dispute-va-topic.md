@@ -44,7 +44,7 @@ Review and modify the workflow for your business needs.
 **Related topics**  
 
 
-[bundle-convint.vad-reference]
+[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/vad-reference.md)
 
 [Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/learn-about-the-form-data-collector.md)
 

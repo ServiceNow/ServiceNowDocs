@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -53,7 +53,7 @@ Sourcing managers receive email notifications when a pipeline project is created
 -   **[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)**  
 The Pipeline management tab enables you to get insights into savings and pipeline projects, improving visibility, tracking, and collaboration across teams.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -64,11 +64,15 @@ The Pipeline management tab enables you to get insights into savings and pipelin
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

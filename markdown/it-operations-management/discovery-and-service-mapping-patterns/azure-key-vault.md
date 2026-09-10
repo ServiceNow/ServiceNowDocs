@@ -1,6 +1,6 @@
 ---
 title: Azure Key Vault pattern-based discovery
-description: Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-key-vault.html
 release: australia
@@ -15,13 +15,17 @@ breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Disc
 
 # Azure Key Vault pattern-based discovery
 
-Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 
 -   **Verify the Microsoft Azure discovery prerequisites**
 
     For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns]().
+
+-   **Remove resources from the Resource Inclusion List table**
+
+    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [Microsoft Azure resource inventory discovery]().
 
 -   **Enable the relevant pattern**
 

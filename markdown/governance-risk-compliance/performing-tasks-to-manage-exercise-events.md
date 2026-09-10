@@ -57,6 +57,8 @@ Create an exercise in BCM UIB Workspace. You can then test your business continu
 Update the event dependencies manually by selecting the **Update dependencies** UI action. You can update the dependencies in an active event.
 -   **[Track impacted assets and add associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.md)**  
 Track the impacted assets and add an associated plan to the exercise. You can then monitor the assets and plans for the exercise in BCM UIB Workspace.
+-   **[Create a collaboration thread in an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/comp-email-collab-thread-event.md)**  
+Create a collaboration thread from an exercise and send an email to its recovery teams to coordinate a response.
 -   **[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-events.md)**  
 Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime for open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 -   **[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)**  
@@ -65,6 +67,8 @@ In BCM, when the same plan is activated multiple times, it can result in multipl
 Import the business continuity plans and associated recovery tasks in the event. Using automated tasks during an exercise enhances efficiency and reduces response time for users.
 -   **[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-event-task-to-exercise-event.md)**  
 Monitor event task completion and create ad-hoc tasks as necessary in the exercise from the BCM Configurable Workspace. The tasks are then completed in a sequence.
+-   **[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)**  
+Add an existing issue or create a new issue to track problems identified during an exercise.
 -   **[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)**  
 Use Export to download event task records into a structured Microsoft Excel file — complete with dropdowns, instructions, and field protection. Edit records offline, then use Import to upload the updated file and apply bulk changes.
 -   **[Start an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-event.md)**  
@@ -76,7 +80,7 @@ View the recovery tasks that are assigned to you or the recovery task team to re
 -   **[View 360° relationships for exercises and crises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/relationship-view-exercise-crisis.md)**  
 Visualize the 360° relationships for an exercise or a crisis event and the associated entities in BCM UIB Workspace. You can access the 360° view at any time while creating an exercise and a crisis event.
 -   **[Generate event reports in PDF or Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-events.md)**  
-Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for future reference.
+Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
 
 **Parent Topic:**[Managing BCM workflow tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-bcm-with-uib-workspace.md)
 

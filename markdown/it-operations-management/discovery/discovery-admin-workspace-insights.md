@@ -25,7 +25,7 @@ You can access the following information through the Insights page:
 
 -   [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-operations-monitor.md)
 -   [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
--   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md)
+-   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-explorer-dash.md)
 -   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 -   [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerDashboard.md)
 -   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-health-dashboard.md)

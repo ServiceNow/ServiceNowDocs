@@ -1,24 +1,24 @@
 ---
-title: CSM Configurable Workspace form templates
-description: Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically populate fields on case and interaction records.
+title: CRM Workspace form templates
+description: Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate fields on case and interaction records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form templates
+# CRM Workspace form templates
 
-Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically populate fields on case and interaction records.
+Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate fields on case and interaction records.
 
-Form templates simplify the process of creating and submitting new records by populating fields with selected values. In CSM Configurable Workspace, form templates are available in the Templates tab in the contextual side panel.
+Form templates simplify the process of creating and submitting new records by populating fields with selected values. In CRM Workspace, form templates are available in the Templates tab in the contextual side panel.
 
 Form templates include advanced capabilities that let you control when and how they work. You can set conditions to show templates only for specific cases, choose which fields to populate based on the situation, insert variables that automatically fill in with customer information, and add pre-written emails. These capabilities help you create one flexible template instead of maintaining multiple similar templates.
 
-**Note:** Form templates are available in two versions: basic and advanced. The advanced version is enabled by default for case and interaction records in CSM Configurable Workspace. The basic version is used in the Core UI and for records other than cases and interactions.
+**Note:** Form templates are available in two versions: basic and advanced. The advanced version is enabled by default for case and interaction records in CRM Workspace. The basic version is used in the Core UI and for records other than cases and interactions.
 
 From the **Templates** tab, you can do the following:
 
@@ -75,7 +75,7 @@ The template form is available when creating a new template from a case or inter
 
 ## Advanced form template capabilities
 
-Form templates in CSM Configurable Workspace support advanced capabilities that give users more control over when and how templates work. Use these capabilities to create flexible templates that adapt to different situations.
+Form templates in CRM Workspace support advanced capabilities that give users more control over when and how templates work. Use these capabilities to create flexible templates that adapt to different situations.
 
 Advanced capabilities include:
 
@@ -84,7 +84,7 @@ Advanced capabilities include:
 -   Placeholder variables
 -   Email templates
 
-**Note:** When you add any advanced capability \(template-level conditions, field-level conditions, placeholder variables, or email templates\) to a template, that template will not work in Core UI. Advanced capabilities are only available in CSM Configurable Workspace.
+**Note:** When you add any advanced capability \(template-level conditions, field-level conditions, placeholder variables, or email templates\) to a template, that template will not work in Core UI. Advanced capabilities are only available in CRM Workspace.
 
 ## Template-level conditions
 

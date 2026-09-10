@@ -9,7 +9,7 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-04-25"
 reading_time_minutes: 3
-breadcrumb: [Connect to ERP with REST, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a REST service manually in Zero Copy Connector for ERP

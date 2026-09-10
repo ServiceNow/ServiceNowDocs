@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for HAM, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure ServiceNow Otto for HAM, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install ServiceNow Otto for Hardware Asset Management \(HAM\)

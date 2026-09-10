@@ -19,6 +19,8 @@ Create a use case to define the information to extract from a document for proce
 
 Several predefined use cases are available within their defined workflow areas. Check whether the available use cases meet your requirements before creating a new one. For more information, see [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-integrations.md).
 
+Activate the Information Extraction skill. For more information, see [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-info-extraction-skill.md).
+
 Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\]
 
 ## About this task

@@ -18,8 +18,8 @@ Create a collector to import metadata from dbt Cloud.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the dbt Cloud collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,19 +47,45 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the dbt Cloud configuration details.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+dbt Cloud host
+
+</td><td>
+
+The host for your organization's account on dbt cloud. If left unspecified, the default host is assumed as cloud.getdbt.com.
+
+</td></tr><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Enter the dbt Cloud configuration details.
 
     |Field|Description|
     |-----|-----------|
     |dbt Cloud API key|A dbt cloud-issued API key with permissions to access the specified account.|
-    |dbt Cloud host|The host for your organization's account on dbt cloud. If left unspecified, the default host is assumed as cloud.getdbt.com.|
-    |dbt cloud account ID|The dbt cloud account that owns the project from which to harvest dbt metadata artifacts.|
+    |dbt cloud account|The dbt cloud account that owns the project from which to harvest dbt metadata artifacts.|
     |dbt Cloud project|The name or numeric identifier of the project from which to harvest dbt metadata artifacts.|
     |dbt cloud run ID|The numeric identifier of the run that produced the artifacts to be harvested. If not specified, the most recent successful run that produced artifacts within the project is harvested.|
     |dbt Cloud environment|The dbt Cloud environment \(ID or name\) used to filter the job runs from which to harvest dbt metadata artifacts.|
     |dbt Cloud job|The dbt Cloud job \(ID or name\) used to filter the job runs from which to harvest dbt metadata artifacts.|
 
-8.  Enter the target database details.
+9.  Enter the target database details.
 
     **Note:** You must set the **Target database** to **Snowflake overrides** to harvest Snowflake lineage relationships between columns specified through views.
 
@@ -181,7 +207,7 @@ Snowflake warehouse
 Warehouse to use in connecting to the target Snowflake database. Use this option to override the dbt profile or cloud configuration. This field is case-insensitive
 
 </td></tr></tbody>
-</table>9.  Enter the advanced options.
+</table>10. Enter the advanced options.
 
 <table id="table_yhb_plp_33c"><thead><tr><th>
 
@@ -209,7 +235,7 @@ The number of seconds to wait between retry attempts for a failed API call.Defau
 
 </td></tr><tr><td>
 
-API HTTP header
+API HTTP headers
 
 </td><td>
 
@@ -228,7 +254,7 @@ JDBC driver properties to pass through to driver connection. Specify multiple JD
 
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>11. Select **Save**.
 
 
 ## Result

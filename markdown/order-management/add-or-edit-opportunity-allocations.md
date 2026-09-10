@@ -24,7 +24,7 @@ The configurator displays active allocation types in the left pane. Each type sh
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the Allocations tab.
 
@@ -63,8 +63,6 @@ The configurator displays active allocation types in the left pane. Each type sh
     -   Select **Delete allocation** to delete the allocation.
     The allocation rows are saved. The Allocations tab count updates to reflect the new total.
 
-
-**Parent Topic:**[Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
 
 **Related topics**  
 

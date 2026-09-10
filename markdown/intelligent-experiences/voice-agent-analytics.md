@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-08-13"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # AI voice agent analytics

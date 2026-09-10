@@ -1,5 +1,5 @@
 ---
-title: Create New Supplier Case form
+title: Fields in the Create New Supplier Case form
 description: Use the Create New Supplier Case form to enter supplier case details and provide resolution information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Create New Supplier Case form
+# Fields in the Create New Supplier Case form
 
 Use the Create New Supplier Case form to enter supplier case details and provide resolution information.
 
@@ -63,6 +63,7 @@ The type of case. The choices are:
 -   **Banking information change request**
 -   **Supplier information change request**
 -   **Supplier location change request**
+-   **Tax information change request**
 -   **Supplier issue**
 -   **Due diligence**
 -   **Offboard a supplier**
@@ -215,17 +216,17 @@ Duration to complete the case.
 **Related topics**  
 
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

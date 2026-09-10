@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-regulatorychangemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -67,10 +67,6 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm-rn&family=zurich&ft:locale=en-US)**
-
-You can review the ServiceNow Otto for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
-
 -   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
 
 Add multiple regulatory tasks to an alert. Each task can represent a distinct area of impact or required action. By organizing work into separate change tasks, your teams can assign responsibilities, track progress, and manage dependencies more effectively.
@@ -126,21 +122,16 @@ Zurich
 
 </td><td>
 
--   **Administrator role enhancements**
+-   **Coral theme**
 
-After upgrading to version 21.1.x, if you have a feature admin role you can now complete tasks that were initially reserved for users with the broader administrator role.
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **Read-only field enhancements**
+-   **[Default column list](https://www.servicenow.com/docs/access?context=action-tasks&family=zurich&ft:locale=en-US)**
 
-Starting with version 21.1.x, the following Regulatory Change Management plugins have security enhancements for read-only fields in this release:
+Starting with the Zurich release, the default column configuration for regulatory tasks and action tasks, linked to a regulatory alert, has been updated. This change enhances usability and ensures better visibility of the key information that is relevant to each task type.
 
-    -   GRC: Taxonomy management \[com.sn\_grc\_taxonomy\]
-    -   GRC: Regulatory Change Management integration with RSS Feeds \[com.sn\_grc\_rcm\_rssfeed\]
-    -   GRC: Regulatory Change Management \[com.sn\_grc\_reg\_change\]
-    -   GRC Case Management Core \[com.sn\_grc\_case\_mgmt\]
-    -   GRC integration with Thomson Reuters Regulatory Intelligence \[com.sn\_grc\_int\_tr\]
-    -   Regulatory Agency Library \[com.sn\_reg\_body\_mgmt\]
--   **[Tasks widget](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=zurich&ft:locale=en-US)**
+
+ -   **[Tasks widget](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=zurich&ft:locale=en-US)**
 
 The overview page of a regulatory alert includes a newly added Tasks widget that enables you to get more visibility into related activities. This widget displays the total number of associated action tasks and change tasks that are linked to the specific regulatory alert. By using this widget, you can assess the level of effort that is required for compliance.
 
@@ -190,17 +181,7 @@ After upgrading to version 22.4.0, the regulatory alert recommendation skills in
 
 -   **[Default AI model provider for agentic workflows](https://www.servicenow.com/docs/access?context=using-agentic-ai-workflows&family=australia&ft:locale=en-US)**
 
-After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
-
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows use AWS Claude as the default model provider.
 
 
 </td></tr></tbody>
@@ -280,7 +261,10 @@ Zurich
 
 </td><td>
 
-Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -288,7 +272,10 @@ Australia
 
 </td><td>
 
-Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -367,7 +354,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

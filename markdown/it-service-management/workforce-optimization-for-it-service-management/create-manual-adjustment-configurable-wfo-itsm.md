@@ -8,7 +8,7 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Setting up, Demand Forecast, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Setting up, Demand Forecast, Scheduling, Workforce Optimization for
 Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_agent\_forecast.admin and sn\_wfo\_cfg\_itsm.manager
 

@@ -33,13 +33,10 @@ At the portfolio level, you can get a snapshot view of the regulatory risk class
 
 Regulatory risk classification widget presents a donut chart which organizes AI assets into risk levels based on their regulatory risk assessment results. This section displays the risk classifications of AI systems, AI models, and Datasets using donut charts. The risks are qualitatively classified as **Low**, **Medium**, **High**, **Unacceptable**, **Critical**, and **To be determined**. The risk level displayed for each asset is the regulatory risk classification assigned when the asset's regulatory risk classification assessment completes. This dashboard widget enables your governance teams, compliance officers, and AI administrators to quickly assess risk exposure and identify assets requiring intervention.
 
-**Note:**
+How this is calculated:
 
--   All AI assets marked as managed are evaluated
--   Only assets with a completed regulatory risk classification assessment are categorized into a risk level
--   Assets labeled as "To be determined" are excluded from risk classification charts and reports until an assessment is completed
-
-How this is calculated: The risk level shown for an asset comes from the `risk_score` field on the asset's governance details record. This field is populated when the asset's regulatory risk classification assessment completes, and the widget reflects that value in real time on every page load. Assets without a completed assessment display as **To be determined** and are excluded from the risk classification counts until an assessment finishes.
+-   Managed assets: The risk level shown for an asset comes from the `risk_score` field on the asset's governance details record. This field is populated when the asset's regulatory risk classification assessment completes, and the widget reflects that value in real time on every page load.
+-   Unmanaged assets: The risk level shown for an unmanaged asset comes from the **Use &amp; purpose** field on the asset's governance details record.
 
 \[Omitted image "aict-govern-regulatory-risk-classification.png"\] Alt text:
 

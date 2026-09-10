@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Otto in Platform Analytics release notes
-description: Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+description: Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # ServiceNow Otto in Platform Analytics release notes
 
 Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 
-## Now Assist in Platform Analytics highlights for the Australia release
+## About ServiceNow Otto® in Platform Analytics
 
 The following highlights are specific to AI Data Explorer, which relies on Query Generation in the back end.
 
@@ -24,9 +24,42 @@ The following highlights are specific to AI Data Explorer, which relies on Query
 
 See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Now Assist in Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Changed in this release
+-   **Activation information**
+
+    Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+    -   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## September 2026
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Improved overview pages for skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md)**
+
+    When you select **View details** on the tile of an AI skill in AI Admin Hub, you now get more information:
+
+    -   A more detailed description of the skill
+    -   Key benefits of the skill
+    -   Required and recommended skills to go with the skill
+
+## August 2026
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Promote selected indicators in AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/indicator-scope-control.md)**
 
@@ -44,10 +77,22 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
     The Now Assist Admin Console is now AI Admin Hub and many other changes have been made. This renaming is a work in progress.
 
 
+## July 2026
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
+
 -   **[Query indicator data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-implementation-checklist.md)**
 
     Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
 
+
+## June 2026
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **Explorations not available from visualization or list for unsupported scope**
 
@@ -56,6 +101,12 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
 -   **[Improvements to generated segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)**
     -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
     -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
+
+## Australia General Availability
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Explore data from protected scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md)**
 
@@ -73,6 +124,12 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
 
     Query Generation now supports Glide List fields on tables.
 
+
+## April 2026
+
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Customize semantic metadata in configuration tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)**
 
@@ -94,24 +151,4 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
 
     Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments aren't supported for modules on domain-separated instances.
 
-
-## Activation information
-
-Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
--   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
--   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
-
-## Related ServiceNow applications and features
-
--   **[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)**
-
-    Details of the data visualizations, filters, and dashboards that Now Assist for Platform Analytics skills generate.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
-
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

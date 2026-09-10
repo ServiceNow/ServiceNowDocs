@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Pluralsight spoke v1.2.0 is the latest version.
+Pluralsight spoke v1.2.0 is the latest version. For version history of the spoke, see [Pluralsight spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pluralsight.html).
 
 ## Supported versions
 

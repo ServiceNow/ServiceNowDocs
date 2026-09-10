@@ -87,7 +87,7 @@ Shows all the supplier cases associated with the interaction record.
 
     |UI action|Description|
     |---------|-----------|
-    |Create Supplier Case|Creates a new supplier case. For more information, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).|
+    |Create Supplier Case|Creates a new supplier case. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).|
     |End Chat|Ends the current chat session.|
     |Save|Saves any updates you made to the chat information.|
     |More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\)|Select **Associate Record** to associate an interaction to a supplier case.|

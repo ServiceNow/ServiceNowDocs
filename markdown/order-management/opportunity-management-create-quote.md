@@ -33,11 +33,6 @@ Role required: sales\_agent
     If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see [Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integration-with-sales-and-order-management.md).
 
 
--   **[Create a quote from an opportunity line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote-line-items.md)**  
-Create a quote from the selected line items in an opportunity record.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

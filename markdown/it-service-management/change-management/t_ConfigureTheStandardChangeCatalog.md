@@ -18,6 +18,8 @@ Configure the standard change catalog through the standard change properties.
 
 ## Before you begin
 
+The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated. The **Administration** menu and the **Standard Change Properties** module appear only after the plugin is active. To activate the plugin, see [Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateStandardChangeCatalog.md).
+
 Role required: admin
 
 ## Procedure

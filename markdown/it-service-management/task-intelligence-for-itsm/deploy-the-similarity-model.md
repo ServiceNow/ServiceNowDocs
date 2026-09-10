@@ -7,8 +7,10 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
+keywords: [similarity model, deploy model, similar incidents, Task Intelligence for ITSM, incident prediction, model deployment, similar records, prediction behavior, model performance, recommendation]
+audience: administrator
 breadcrumb: [Set up, Create a similar records prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
 
@@ -36,6 +38,13 @@ Role required: sn\_ti\_admin.tia\_admin or admin 
 A pop-up appears confirming that your model was deployed.
 
 \[Omitted image "TI\_model\_deployed\_pop-up.png"\] Alt text: Model deployed confirmation pop-up.
+
+## What to do next
+
+After you deploy the model, view its predictions and performance in the following places:
+
+-   To monitor prediction accuracy and model performance over time, navigate to **All** &gt; **Task Intelligence for ITSM** &gt; **Monitoring**. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
+-   To surface similar records to agents, open an incident in Service Operations Workspace. Recommendations appear in the side panel when the configured recommendation uses the model.
 
 **Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

@@ -18,7 +18,7 @@ Source-to-Pay Workspace includes a playbook that you use for updating the suppli
 
 ## Review supplier primary data request playbook
 
-This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case.
 
 This playbook is used for updating the supplier primary data when:
 

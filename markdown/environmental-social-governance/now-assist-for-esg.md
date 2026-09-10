@@ -46,7 +46,7 @@ Use the ServiceNow Otto for Operational Sustainability application to empower yo
 
 </td><td>
 
-[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)Use Operational Sustainability Management AI agent collection\[Omitted image "bus-ai-otto.svg"\] Alt text:
+[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use Operational Sustainability Management AI agent collection
 
 </td><td>
 

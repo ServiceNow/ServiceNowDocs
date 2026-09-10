@@ -234,7 +234,7 @@ Limit accepted email sender domains
 
 Control which domains and users your instance can communicate with via email by using system address filters. These filters can be customized to your requirements.
 
- Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/designate-untrusted-trusted-email-domains.md).
+ Learn how to configure trusted domains at .
 
 </td></tr><tr><td>
 

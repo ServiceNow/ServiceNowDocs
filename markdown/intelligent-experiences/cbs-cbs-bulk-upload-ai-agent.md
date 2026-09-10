@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Core Business Suite AI agents, Core Business Suite, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [Core Business Suite AI agents, Core Business Suite, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # CBS Bulk Upload AI Agent
@@ -93,7 +93,7 @@ Upload Updated Template
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -101,7 +101,7 @@ sn\_ia\_config.ia\_user, import\_admin
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

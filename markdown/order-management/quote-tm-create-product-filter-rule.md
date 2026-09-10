@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Advanced filters, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Advanced filters, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product filter rule
@@ -60,4 +60,6 @@ Role required: admin
 
     The rule is active. Only products matching the filter logic are displayed when users open the catalog from within a quote.
 
+
+**Parent Topic:**[Advanced product filtering for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-advanced-product-filtering.md)
 

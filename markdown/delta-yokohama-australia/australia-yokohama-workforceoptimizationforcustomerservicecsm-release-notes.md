@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-workforceoptimizationforcustomerservicecsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,12 +75,7 @@ Yokohama
 
 </td><td>
 
--   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
-
-Empower managers with real-time insights and actionable metrics, organized in a unified view, to drive performance optimization and facilitate prompt action.
-
-
-**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -88,22 +83,7 @@ Zurich
 
 </td><td>
 
--   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
-
-Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
-
--   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
-
-Enable agents to view your upcoming shifts, time-off requests, and availability for the entire month in the month view of the Team Calendar in the CSM or FSM Configurable Workspace. This enables them to better plan their schedules, stay informed, and remain engaged with their work commitments.
-
--   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
-
-Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
-
-    -   Independent Deployment: Channel Management can be deployed independently, allowing for greater flexibility and control.
-    -   Reduced Inter-Module Dependencies: The decoupling reduces dependencies between modules, enhancing system stability.
-    -   Enhanced Scalability and Maintainability: The new architecture improves scalability and maintainability, making it easier to manage and expand.
-    -   Streamlined Future Upgrades: Future upgrades for individual modules can be streamlined, ensuring smoother and more efficient updates.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -243,7 +223,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -251,7 +234,10 @@ Zurich
 
 </td><td>
 
-Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -354,7 +340,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Screen reader support has been extended to ARIA labels for buttons in CSM Workforce Optimization for Customer Service. The support provides users who rely on assistive technology with an explanation of button actions, such as the toggle button.
+
 
 </td></tr><tr><td>
 
@@ -362,7 +351,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

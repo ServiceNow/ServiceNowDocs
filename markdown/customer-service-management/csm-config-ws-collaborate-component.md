@@ -1,18 +1,18 @@
 ---
 title: Collaborate component
-description: Use the Collaborate component in CSM Configurable Workspace to communicate with stakeholders and gather information for case resolution.
+description: Use the Collaborate component in CRM Workspace to communicate with stakeholders and gather information for case resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-collaborate-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Components, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Collaborate component
 
-Use the Collaborate component in CSM Configurable Workspace to communicate with stakeholders and gather information for case resolution.
+Use the Collaborate component in CRM Workspace to communicate with stakeholders and gather information for case resolution.
 
 \[Omitted image "csm-config-ws-collaboration-component.png"\] Alt text: The collaboration component displays the available configured services when an agent initiates a new conversation.
 
@@ -20,7 +20,7 @@ Customer service agents can use the Collaborate component to initiate chats and 
 
 The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. When no integrations have been configured, agents can use the Collaborate component to start Sidebar discussions.
 
-The Collaborate component is available as the last tab in the contextual side panel in CSM Configurable Workspace. The Collaborate component is available on all CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md) where the table is set to one of the following:
+The Collaborate component is available as the last tab in the contextual side panel in CRM Workspace. The Collaborate component is available on all CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md) where the table is set to one of the following:
 
 -   Interaction \[interaction\]
 -   A child of the Task \[task\] table, such as the Case table \[sn\_customerservice\_case\]

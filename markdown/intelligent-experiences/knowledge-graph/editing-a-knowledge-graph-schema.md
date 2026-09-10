@@ -24,9 +24,9 @@ Role required: kg\_admin
 
 1.  Navigate to **All** &gt; **Knowledge Graph** &gt; **Knowledge Graph Designer**.
 
-    The UI displays a list of all the Knowledge Graph schemas on the landing page.
+    The UI displays a list of all the Knowledge Graph schema on the landing page.
 
-2.  From the list of existing Knowledge Graph schemas, select a Knowledge Graph schema to edit.
+2.  From the list of existing Knowledge Graph schema, select a Knowledge Graph schema to edit.
 
     The Knowledge Graph schema​ opens in the Knowledge Graph canvas.
 

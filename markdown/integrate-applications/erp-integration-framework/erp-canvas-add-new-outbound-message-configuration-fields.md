@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, erp data, connect, outbound, message]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -75,7 +75,7 @@ Partner Profile
 
 </td><td>
 
-Identifies the partner. Automatically added based on the specified system.
+Identifier for the partner. Automatically added based on the specified system.
 
 </td></tr><tr><td>
 
@@ -86,5 +86,4 @@ Message type
 The IDoc message type, for example, ORDERS.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

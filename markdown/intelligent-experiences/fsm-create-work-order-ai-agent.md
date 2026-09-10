@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/fsm-cre
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 1
-breadcrumb: [Field Service Management AI agents, Field Service Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Field Service Management AI agents, Field Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Create work order AI agent
@@ -79,7 +79,7 @@ Create and update work order for image
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -87,7 +87,7 @@ wm\_agent
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

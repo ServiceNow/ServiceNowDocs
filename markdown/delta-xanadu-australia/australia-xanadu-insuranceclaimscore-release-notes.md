@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-insuranceclaimscore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -276,7 +276,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Insurance Claims Core is a ServiceNow AI Platform feature that is available with activation of Financial Services Operations Core. For details, see [Financial Services Operations Core release notes](https://www.servicenow.com/docs/access?context=financial-services-operations-core-rn&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

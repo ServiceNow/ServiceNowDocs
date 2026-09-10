@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-activation-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-10"
-reading_time_minutes: 56
+last_updated: "2026-09-10"
+reading_time_minutes: 57
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -34,11 +34,22 @@ AI Admin Center is available from the ServiceNow Store. For more information abo
 
 </td></tr><tr><td>
 
+AI Admin Hub
+
+</td><td>
+
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
+
+Now Assist features are available with activation of any Now Assist plugin from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+
+
+</td></tr><tr><td>
+
 AI Agent Advisor
 
 </td><td>
 
-AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md).
+AI Agent Advisor installs and runs automatically as part of the standard ServiceNow AI setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +73,7 @@ AI Desktop Actions
 
 </td><td>
 
-AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
 
 </td></tr><tr><td>
 
@@ -71,14 +82,6 @@ AI Risk and Compliance
 </td><td>
 
 Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
-AI Search
-
-</td><td>
-
-AI Search is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr><tr><td>
 
@@ -188,9 +191,9 @@ Agent experience for CSM
 
 </td><td>
 
-Customer Service Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Install Customer Service Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -264,7 +267,7 @@ Build Agent
 
 Build Agent is a ServiceNow AI Platform feature that is active by default.
 
-**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md).
+**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes]().
 
 </td></tr><tr><td>
 
@@ -364,7 +367,7 @@ Clone Admin Console is a ServiceNow AI Platform feature that is active by defaul
 
 </td></tr><tr><td>
 
-Cloud Cost Management 10.0
+Cloud Cost Management
 
 </td><td>
 
@@ -708,14 +711,6 @@ Event Management is available with activation of the Event Management plugin \(c
 
 </td></tr><tr><td>
 
-External Content Connectors
-
-</td><td>
-
-Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
 Field Service Management
 
 </td><td>
@@ -1028,6 +1023,16 @@ Install Legal Request Management by requesting it from the ServiceNow Store. Vis
 
 </td></tr><tr><td>
 
+Live Connect
+
+</td><td>
+
+Live Connect is a ServiceNow feature that is available with the activation of Live Connect plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the Live Connect server-side plugin.
+
+The Live Connect client drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the Live Connect client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see .
+
+</td></tr><tr><td>
+
 Localization Workspace
 
 </td><td>
@@ -1041,6 +1046,8 @@ MCP Server Console
 </td><td>
 
 MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+**Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -1215,6 +1222,14 @@ Install Order Management by requesting it from the ServiceNow Store. Visit the [
 
 </td></tr><tr><td>
 
+Partner Relationship Management
+
+</td><td>
+
+Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-partner-relationship-management.md).
+
+</td></tr><tr><td>
+
 Password Reset
 
 </td><td>
@@ -1255,7 +1270,7 @@ Playbook
 
 The Playbooks application comes with the Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like Process Automation Content and Process Automation Experience Demo. The Playbooks application can be downloaded for patch fixes.
 
-To use playbook generation features in Workflow Studio, download the [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) application. To use Agentic Playbooks, enable it through Now Assist.
+To use playbook generation features in Workflow Studio, download the  application. To use Agentic Playbooks, enable it through Now Assist.
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
@@ -1455,14 +1470,6 @@ Install Enterprise-Wide Deployment by requesting it from the ServiceNow Store. V
 
 </td></tr><tr><td>
 
-SQL API
-
-</td><td>
-
-Live Connect is a ServiceNow feature that is available with the activation of Live Connect plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the Live Connect server-side plugin. The Live Connect drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the Live Connect client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install Live Connect plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-sql-api-plugin.md).
-
-</td></tr><tr><td>
-
 Sales CRM for Telecommunications
 
 </td><td>
@@ -1509,7 +1516,7 @@ Self-service and omnichannel engagement for CSM
 
 Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-email-summarization-csm.md) and [Activate contextual email matching for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-contextual-email-matching-csm.md).
+Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -1577,17 +1584,6 @@ ServiceNow IDE is active by default and available for upgrade in the ServiceNow 
 
 </td></tr><tr><td>
 
-ServiceNow Otto
-
-</td><td>
-
--   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-Now Assist features are available with activation of any Now Assist plugin from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
-
-
-</td></tr><tr><td>
-
 ServiceNow Otto for App Engine
 
 </td><td>
@@ -1633,6 +1629,14 @@ ServiceNow Otto for Creator
 </td><td>
 
 Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1692,6 +1696,14 @@ Install ServiceNow Otto for Setup by requesting it from the ServiceNow Store. Vi
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Source-to-Pay Operations
 
 </td><td>
@@ -1736,7 +1748,7 @@ ServiceNow SDK
 
 </td><td>
 
-The ServiceNow SDK is available as a Node Package Manager \(npm\) package from the [public npm registry](https://www.npmjs.com/package/@servicenow/sdk) and installed locally. For information about installing the ServiceNow SDK, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-servicenow-sdk.md).
+The ServiceNow SDK is available as a Node Package Manager \(npm\) package from the [public npm registry](https://www.npmjs.com/package/@servicenow/sdk) and installed locally. For information about installing the ServiceNow SDK, see .
 
 </td></tr><tr><td>
 
@@ -1968,7 +1980,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 

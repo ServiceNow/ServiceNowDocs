@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-developersandboxes-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -194,27 +194,6 @@ Australia
 Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
 
--   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=australia&ft:locale=en-US)**
-
-After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
-
--   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=australia&ft:locale=en-US)**
-
-To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
-
--   **[SSO support for vanity URLs](https://www.servicenow.com/docs/access?context=dev-sbx-general-guidelines&family=australia&ft:locale=en-US)**
-
-Instances with vanity URLs can now support Single Sign-On \(SSO\).
-
--   **[Schema change for shared tables isolates the table](https://www.servicenow.com/docs/access?context=dsb-installed-with&family=australia&ft:locale=en-US)**
-
-To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
-
--   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
-
-Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
-
-
 </td></tr></tbody>
 </table>## Removed
 
@@ -295,7 +274,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
 
 </td></tr><tr><td>
 
@@ -303,7 +285,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -340,7 +325,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Contact your ServiceNow account manager to install Developer Sandboxes.
+
 
 </td></tr><tr><td>
 
@@ -348,7 +336,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Contact your ServiceNow account manager to install Developer Sandboxes.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

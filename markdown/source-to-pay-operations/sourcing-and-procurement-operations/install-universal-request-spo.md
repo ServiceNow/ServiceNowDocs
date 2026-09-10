@@ -37,12 +37,20 @@ Role required: admin
 
 A confirmation message appears when installation is complete. For information about the components installed with this plugin, see [Components installed with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/installed-with-ur.md).
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
 [Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Setting up primary data for ShoppingHub]()
 
@@ -51,6 +59,8 @@ A confirmation message appears when installation is complete. For information ab
 [Configuring work prioritization]()
 
 [Add a button in Shopping Hub]()
+
+[Add a footer link in Shopping Hub]()
 
 [Customize your top suppliers on Shopping Hub]()
 

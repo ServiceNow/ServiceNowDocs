@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Otto AI assistant capabilities
+title: Moveworks capabilities
 description: You can handle work tasks, find information, and get things done faster with the Moveworks AI assistant. Chat naturally to update records, search company content, get answers, and complete requests without switching between different systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.html
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 5
 keywords: [Otto, AI assistant, reasoning engine, specialized assistants, interactive split view, Enterprise Search, World Knowledge]
-breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# ServiceNow Otto AI assistant capabilities
+# Moveworks capabilities
 
 You can handle work tasks, find information, and get things done faster with the Moveworks AI assistant. Chat naturally to update records, search company content, get answers, and complete requests without switching between different systems.
 
-When your organization uses Moveworks with Employee Slate, you get AI-powered help for everyday work tasks. You can start any request from the same chat bar and complete everything in one place, without jumping between different tools or systems.
+When your organization uses Moveworks with EmployeeWorks Web App, you get AI-powered help for everyday work tasks. You can start any request from the same chat bar and complete everything in one place, without jumping between different tools or systems.
 
 ## AI assistant reasoning engine
 
@@ -134,10 +134,10 @@ You can request services and items from the catalog of your company in two ways:
     You can tell the AI assistant what you need in natural language. It asks for the required information through the conversation and submits your request when you've provided everything needed.
 
 
-For a full list of features, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
+For a full list of features, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
 
 **Related topics**  
 
 
-[Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md)
+[EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md)
 

@@ -1,27 +1,40 @@
 ---
 title: Information Extraction skill workflow
-description: Information Extraction is a skill that analyzes documents to provide values for defined fields, table columns, and questions in a use case. It populates ServiceNow records from documents without manual data entry.
+description: Information Extraction is a skill that analyzes documents to provide values for defined fields, table columns, and questions in a use case. It populates ServiceNow records with extracted data from documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/information-extraction-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [information extraction, document processing, skill workflow]
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
 ---
 
 # Information Extraction skill workflow
 
-Information Extraction is a skill that analyzes documents to provide values for defined fields, table columns, and questions in a use case. It populates ServiceNow records from documents without manual data entry.
+Information Extraction is a skill that analyzes documents to provide values for defined fields, table columns, and questions in a use case. It populates ServiceNow records with extracted data from documents.
 
 ## Processing stages
 
-When a document enters a workflow, the skill examines its content and retrieves the requested information according to the use case. These values may include specific field data, table entries, or responses to particular questions. The skill processes each document based on the use case set by the administrator. The use case defines what to extract from a document and where to write the results. At run time, the skill follows these stages:
+When a document enters a workflow, the Information Extraction skill examines its content and retrieves the requested information according to the use case. The use case defines what to extract from a document and where to write the results. After a use case is configured, the skill follows these stages at run time:
 
-1.  A trigger, such as a document upload, an inbound email, or an attachment added to a record, creates a document task.
-2.  The Information Extraction skill processes the document and returns a prediction for each field, table column, or question in the use case.
-3.  In full automation mode, the predictions populate the fields in the target table. In agent review mode, the document task goes to a fulfiller, who validates or corrects the predicted values.
-4.  After the document task is complete, the predictions populate the target fields, and the integrated workflow continues.
+-   **Stage 1: Document task creation**
+
+    A trigger — such as a document upload, an inbound email, or an attachment added to a record — creates a document task.
+
+-   **Stage 2: Prediction**
+
+    The Information Extraction skill processes the document and returns a prediction for each field, table column, or question in the use case.
+
+-   **Stage 3: Review or automation**
+
+    In full automation mode, the predictions populate the fields in the target table. In agent review mode, the document task goes to a fulfiller, who validates or corrects the predicted values.
+
+-   **Stage 4: Completion**
+
+    After the document task is complete, the predictions populate the target fields and the integrated workflow continues.
+
 
 **Related topics**  
 

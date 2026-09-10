@@ -76,7 +76,7 @@ Using Admin tab and Admin Home option
 
 |User|Description|
 |----|-----------|
-|System administrator \[admin\]|The system administrator user accesses all tables, tools and information within Upgrade Console on your instance.|
+|upgrade\_admin|The system administrator user accesses all tables, tools and information within Upgrade Console on your instance.|
 
 ## Upgrade Console benefits
 

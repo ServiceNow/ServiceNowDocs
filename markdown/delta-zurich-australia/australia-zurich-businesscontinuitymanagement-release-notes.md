@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-businesscontinuitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -67,47 +67,9 @@ Zurich
 
 </td><td>
 
--   **[Map recovery tasks and event tasks to the phases](https://www.servicenow.com/docs/access?context=mapping-recovery-tasks-to-phases&family=zurich&ft:locale=en-US)**
-
-Set up phases for plans and events using the administrative setup. The base version of the application includes a set of default active phases, provided as seed data.
-
-The logical grouping of tasks into phases enables clear progression tracking for exercises and crisis events, offering flexible execution and task completion requirements for phase transitions.
-
 -   **[Exclude non-recovery tasks from time calculation](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
 
 Exclude specific recovery or event tasks from time calculations by using the **Do not include in time calculation** field within recovery or event tasks.
-
--   **[View and generate PDFs of approved plans](https://www.servicenow.com/docs/access?context=mobile-bcm&family=zurich&ft:locale=en-US)**
-
-View the continuity and recovery plans directly from your mobile devices. BCM managers can generate PDFs of the approved plans, which BCM planners can then view and download, streamlining access to critical information on the go.
-
--   **[Verify asset recovery levels](https://www.servicenow.com/docs/access?context=create-new-impact-analysis-reference-form-bcm-uib-ws&family=zurich&ft:locale=en-US)**
-
-Track event assets and verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field. Completing specific tasks now automatically updates the corresponding event asset state. Assets are marked as **Partially Recovered** when they’re operational enough to support dependent assets, and **Recovered** when they’re fully functional. This change improves visibility into operational readiness and enables coordinators to identify when dependent assets can safely start their recovery process. Color-coded recovery levels of the assets offer visual cues for various recovery progress levels.
-
--   **[Use finalized RTO and RPO in BIAs, Plans, and Events](https://www.servicenow.com/docs/access?context=create-bia-in-uib-ws&family=zurich&ft:locale=en-US)**
-
-Use the **Finalized RTO** field to calculate an accurate Recovery Time Objective \(RTO\) for comparison, using values from the **Recovery time objective** and **Adjusted RTO** fields.
-
-Similarly, use the **Finalized RPO** field to calculate an accurate Recovery Point Objective \(RPO\) values for comparison, using values from the **Recovery point objective** and **Adjusted RPO** fields.
-
-A fix script now populates finalized RTO and RPO values in existing Business Impact Analyses \(BIAs\), ensuring consistency across all records.
-
--   **[Configure recovery tasks for exercises, events, or both](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
-
-Configure recovery tasks with event-specific scopes \(exercises, actual crises, or both\). When a recovery event is initiated, the system automatically filters tasks by event type: ensuring exercises include necessary setup and validation, and actual crises focus exclusively on actionable recovery work.
-
--   **[Auto-calculate the Planned end date on activated plans and event tasks](https://www.servicenow.com/docs/access?context=create-exercise-event-ref-form&family=zurich&ft:locale=en-US)**
-
-Enter the Planned start date for exercises and events. The system then calculates the Planned start and end dates for activated plans and event tasks automatically based on the **Planned duration** field and dependencies.
-
--   **[Use hierarchical structure in the associated plans](https://www.servicenow.com/docs/access?context=add-related-plans-recovery-teams-bcp-uib-ws&family=zurich&ft:locale=en-US)**
-
-Use the hierarchical structure in the associated plans, establishing clear upstream-downstream relationships. This hierarchy confirms that only relevant downstream plans are brought into scope. The system automatically handles cyclic dependency checks, confirming that tasks from downstream plans aren’t added as dependencies in the upstream plans.
-
--   **[Use Gantt chart in the Hierarchy view](https://www.servicenow.com/docs/access?context=managing-enhanced-hierarchical-view-in-event-tasks&family=zurich&ft:locale=en-US)**
-
-Use the Gantt chart in the Hierarchy view to visualize the planned and actual timelines of event tasks. Task dependencies can now be created directly on the Gantt chart, provided the dependency points to a task scheduled ahead in time. Plans are automatically sorted based on the planned start time of their earliest event task, verifying a clear chronological view.
 
 -   **[Generate reports in a Microsoft Word format using Document designer](https://www.servicenow.com/docs/access?context=integrating-document-designer-with-bcm&family=zurich&ft:locale=en-US)**
 
@@ -135,9 +97,7 @@ Revert an archived business impact analysis \(BIA\) or business continuity plan 
 
 -   **[Optimized Crisis map interface](https://www.servicenow.com/docs/access?context=manage-alerts-in-crisis-map-interface-uib-ws&family=zurich&ft:locale=en-US)**
 
-The Crisis map interface has been optimized to handle over 10,000 resources and more than 1,000 alerts without performance issues.
-
-Customize the display of impacted areas for alerts by using custom shapes or specifying a custom radius. To edit an impacted area, simply select its corresponding card and make the necessary adjustments to the shape. If needed, you can also revert the changes made to an impacted area directly within the map interface.
+The Crisis map interface has been optimized to handle over 10,000 resources and more than 1,000 alerts without performance issues.Customize the display of impacted areas for alerts by using custom shapes or specifying a custom radius. To edit an impacted area, simply select its corresponding card and make the necessary adjustments to the shape. If needed, you can also revert the changes made to an impacted area directly within the map interface.
 
 
 </td></tr><tr><td>
@@ -168,9 +128,7 @@ Create reusable recovery strategy templates with standard fields including name,
 
 -   **[Gantt chart for recovery tasks in plans](https://www.servicenow.com/docs/access?context=view-gantt-chart-for-reco-tasks&family=australia&ft:locale=en-US)**
 
-Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.
-
-Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
+Visualize recovery task sequences, durations, and dependencies on an interactive Gantt timeline within the plan record. Toggle between list and Gantt views from the **Recovery tasks** tab. Add or edit tasks using a right-select quick-insert panel, pre-filled with task type and sequencing context.Filters, sorting, and selections remain consistent when switching between list and Gantt views. The quick-add panel is also available on loss scenario and recovery strategy records. Access is role-controlled: Planners manage tasks in their own plans; Program Managers have full access across all plans.
 
 -   **[Export and import event tasks in Microsoft Excel](https://www.servicenow.com/docs/access?context=using-export-import-feature-event-tasks&family=australia&ft:locale=en-US)**
 
@@ -204,7 +162,26 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Predefined Word templates](https://www.servicenow.com/docs/access?context=edit-report-temp&family=zurich&ft:locale=en-US)**
+
+Predefined Microsoft Word templates are now provided in the instance.
+
+-   **[Similar tasks group tab](https://www.servicenow.com/docs/access?context=identifying-running-dup-tasks-once&family=zurich&ft:locale=en-US)**
+
+The **Similar tasks groups** tab is now included in the events and the **Create similar tasks group** UI action is available in the **Event tasks** tab.
+
+-   **[Action items tab in Exercises and Crises modules](https://www.servicenow.com/docs/access?context=create-action-items-based-on-smart-assessments&family=zurich&ft:locale=en-US)**
+
+The **Action items** tab is now available in both exercises and crises.
+
+-   **[Pagination for alerts](https://www.servicenow.com/docs/access?context=manage-alerts-in-crisis-map-interface-uib-ws&family=zurich&ft:locale=en-US)**
+
+Pagination has been added to alerts in Crisis map, to make them more readable on the map interface.Edit the impacted area of an alert by using custom shapes or a custom radius. Similarly, you can revert the changes made to an impacted area within the map interface.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -212,17 +189,48 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Recovery strategy templates](https://www.servicenow.com/docs/access?context=configure-recovery-strategy-template-uib-ws&family=australia&ft:locale=en-US)**
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+The Recovery strategy template form is used to create reusable templates that can be applied to recovery strategies across loss scenarios and business continuity plans.
 
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+-   **[Task template integration in plan templates](https://www.servicenow.com/docs/access?context=configure-a-bcp-template-uib-ws&family=australia&ft:locale=en-US)**
 
+Plan templates support two synchronization options: Plan scope asset synchronization and Loss scenario asset synchronization with recovery strategy assets.
 
-For more information, see [BCM and ServiceNow Store](https://www.servicenow.com/docs/access?context=bcm-and-store&family=australia&ft:locale=en-US).
+-   **[Related lists for Plan templates](https://www.servicenow.com/docs/access?context=plan-template-form&family=australia&ft:locale=en-US)**
+
+The Plan templates record has the following related lists:
+
+    -   Task template groups
+    -   Task templates
+-   **[Related lists for Loss scenarios](https://www.servicenow.com/docs/access?context=add-loss-scenario-recovery-task-bcp-uib-ws&family=australia&ft:locale=en-US)**
+
+The Loss scenarios record has the following related lists:
+
+    -   Task template groups
+    -   Task templates
+    -   Recovery strategies
+    -   Plan templates
+-   **[Related lists for Recovery strategies](https://www.servicenow.com/docs/access?context=create-new-recovery-strategy-for-loss-scenario-uib-ws&family=australia&ft:locale=en-US)**
+
+The Recovery strategies record has the following related lists:
+
+    -   Task template groups
+    -   Task templates
+    -   Loss scenarios
+    -   Plan templates
+-   **[Recovery tasks](https://www.servicenow.com/docs/access?context=create-quick-recovery-task&family=australia&ft:locale=en-US)**
+
+The recovery task list includes four additional columns: Plan loss scenario, Plan recovery strategy, Tag, and Task group. Use these columns to filter, group, and report on recovery tasks by scenario, strategy, or template group.The recovery task list toolbar includes **Insert** \(with Select task template groups\), **Save as group** \(with Add to group and Save tasks sub-options\), and **Add groups** for bulk insertion of task template groups.The Create a quick recovery task panel includes Phase, Plan recovery strategy, All assets from plan, and a Planned duration field accepting hours, minutes, and seconds. The All assets from plan field can be narrowed to a subset of assets when a task applies to only part of the plan.A Gantt view is available on the **Recovery tasks** tab of a plan record.
+
+-   **[Event task list toolbar](https://www.servicenow.com/docs/access?context=export-import-event-tasks-using-excel&family=australia&ft:locale=en-US)**
+
+The event task list toolbar adds **Export to Excel** and **Import from Excel** actions for managing tasks in bulk and switching between list and Gantt views.
+
+-   **[Loss scenario Recovery tasks tab](https://www.servicenow.com/docs/access?context=add-loss-scenario-recovery-task-bcp-uib-ws&family=australia&ft:locale=en-US)**
+
+Each loss scenario record includes a **Recovery tasks** tab that lists only the recovery tasks scoped to that scenario.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -301,7 +309,10 @@ Zurich
 
 </td><td>
 
-Install Business Continuity Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -309,7 +320,10 @@ Australia
 
 </td><td>
 
-Install Business Continuity Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -359,12 +373,14 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -393,7 +409,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

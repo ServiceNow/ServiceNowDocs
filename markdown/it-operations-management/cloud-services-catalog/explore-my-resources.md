@@ -22,7 +22,7 @@ The following example shows the **My Resources** tab.
 
 \[Omitted image "my-resources.png"\] Alt text: My Resources tab that appears under the More tab.
 
-The following example shows a list of the resource categories and filters that enable you to access the relevant resource and perform other functions, such as save and export.
+The following example shows resource categories and filters. You can access resources and perform functions such as save and export.
 
 \[Omitted image "all-resources-options.png"\] Alt text: Options from the All Resources tab that you can select including compute, load balancer, network, and storage.
 

@@ -92,34 +92,41 @@ Ensure you have set up an OAuth application on the Ansible Tower instance.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select Connections.
+2.  Click the **Integrations** tab.
 
-3.  Turn on the Outbound tab.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  In the Search all connections field, enter `AnsibleTowerAlias`.
+4.  Locate the alias for **AnsibleTowerAlias** and click **View Details**.
 
-5.  On the AnsibleTowerAlias card, select **View Details**.
+    -   To configure the default connection and credential alias record that is shipped along with the Ansible spoke, click **View Details**.
 
-6.  Select **Configure**.
+        \[Omitted image "ansible-conf-temp.png"\] Alt text:
 
-7.  Fill the form.
+    -   To manage more than one Ansible spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "ansible-configure.png"\] Alt text:
+
+5.  On the form, fill in these fields:
 
     |Field|Description|
     |-----|-----------|
-    |Connection Name|Name of the connection established with the Ansible Tower instance. The first connection's default name is automatically assigned to match the name specified in the Connections and Credentials form on the Connection &amp; Credential Aliases page. To provide your custom name, create a connection record by selecting **Add Connection**.|
+    |Connection Name|Name of the connection established with the Ansible Tower instance.|
     |Connection URL|The URL your ServiceNow instance uses to connect to the Ansible Tower instance.|
-    |Credential Name|Name of the credential record that you created for Ansible on your ServiceNow instance.|
-    |Application Registry Name|Name of the application registry record that you created for Ansible on your ServiceNow instance.|
+    |Credential Name|Name to identify the credential record.|
+    |Application Registry Name|Name to identify the application registry record.|
     |OAuth Client ID|The client ID that you had generated while you set up the OAuth application.|
     |OAuth Client Secret|The client secret that you had generated while you set up the OAuth application.|
-    |Oauth Entity Profile Name|Name of the OAuth application that you created on the Ansible Tower instance.|
+    |Oauth Entity Profile Name|Name to identify the OAuth application.|
     |Authorization URL|The URL that the client uses to request access to the Ansible Tower instance. The URL format is `https://<ansible-tower-instancename>.com/api/o/authorize`.|
     |Token URL|The URL that the client uses to request a token to access the Ansible Tower instance. The URL format is `https://<ansible-tower-instance-name>.com/api/o/token`.|
     |OAuth Redirect URL|The redirect URL that the OAuth application uses to redirect to your ServiceNow instance. The URL must be in the format `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.|
 
-8.  Select **Configure and Get OAuth Token**.
+    \[Omitted image "ansible-conf-temp-form.png"\] Alt text:
+
+6.  Click **Save and Get OAuth Token**.
 
     The OAuth application authenticates the connection request and provides a temporary token to access the Ansible Tower instance.
 

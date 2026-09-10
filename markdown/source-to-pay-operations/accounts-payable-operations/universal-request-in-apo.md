@@ -85,6 +85,8 @@ Validate incoming Universal Request items in the Source-to-Pay Workspace and cre
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+
 [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 
 [Create Universal Request from Supplier portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-ur-from-supplier-portal.md)

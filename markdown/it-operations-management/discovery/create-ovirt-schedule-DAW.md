@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d403727e316">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d416504e325">
 
 Option
 
-</th><th align="left" id="d403727e319">
+</th><th align="left" id="d416504e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d403727e325">
+</th></tr></thead><tbody><tr><td id="d416504e334">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Manager URL** fields auto-populate.
 
-</td></tr><tr><td id="d403727e340">
+</td></tr><tr><td id="d416504e349">
 
 **New cloud account**
 

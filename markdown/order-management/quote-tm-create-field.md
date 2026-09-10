@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 5
-breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction field
@@ -137,6 +137,8 @@ Fields created through the ServiceNow Quote Experience administration interface 
 ## What to do next
 
 Add the field to the quote layout to make it visible to users on the quote interface. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md).
+
+**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
 
 **Related topics**  
 

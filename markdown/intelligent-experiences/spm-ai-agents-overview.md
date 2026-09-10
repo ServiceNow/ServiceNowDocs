@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Strategic Portfolio Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [Strategic Portfolio Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Strategic Portfolio Management AI agents
@@ -21,5 +21,5 @@ This Strategic Portfolio Management agent assists project managers to get a summ
 -   **[Validate the work item and generate stories AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/spm-validate-the-work-item-and-generate-stories-ai-agent.md)**  
 This Strategic Portfolio Management agent transforms Enterprise Agile Planning work items \(epics and features\) into a set of well-formed, actionable user stories. It evaluates work items to verify that it contains sufficient information, and guides users through a structured validation process.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

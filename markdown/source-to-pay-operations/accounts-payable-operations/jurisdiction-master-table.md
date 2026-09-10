@@ -36,6 +36,8 @@ The reference \[sn\_fin\_jurisdiction\] table holds the set of taxing jurisdicti
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-08-12"
+reading_time_minutes: 10
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
 
@@ -124,6 +124,36 @@ For more information, see [Work on a timeline-oriented release for multiple prod
 
     For more information, see [Policy status aggregation in a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-policy-status-aggregation.md).
 
+
+## Restricted access for releases
+
+Product managers and release managers can limit who can view a release and its related records by enabling restricted access for a product.
+
+Restricted access is configured at two levels:
+
+-   **Product level**
+
+    A product owner configures whether restricted access is enabled for releases created under that product. The product settings also define a default product team, consisting of individual users and user groups. Only users with the sn\_dpr\_model.release\_user role can be added to the product team.
+
+-   **Release level**
+
+    When a release is created for a restricted-access product, the restricted access setting and the product team are copied to the release as the initial release team. The release owner or the product owner can modify the release team after creation. The **Restricted access for releases enabled** checkbox and the **Release team** field appear in the **Details** tab under the **Overview** section of the Release form.
+
+
+In a multi-product release, access control is inherited from the main release. All stakeholders listed in the main release's release team get read access to all individual releases and their associated records. Individual release fields for restricted access and release team are read-only. When you add a product to a multi-product release with restricted access, release team members from the new release are automatically added to the main release team.
+
+The following users can modify restricted access settings:
+
+-   On a product, in release settings: product owner only
+-   On a release, in release details: release owner or product owner
+-   System administrators can override both settings
+
+Product managers and release managers can read restricted access settings but cannot change the product team or release team members.
+
+For more information on setting up restricted access at product level, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+
+-   **[Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-states.md)**  
+A release moves through a defined set of states, from creation to closure. The On Hold state lets you pause a release temporarily without losing task, policy, or association data.
 
 **Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

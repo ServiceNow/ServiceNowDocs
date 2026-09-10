@@ -201,7 +201,7 @@ Scan Engine Admin
 
 </td><td>
 
-sn\_scan\_engine\_admin
+sn\_se.scan\_engine\_admin
 
 </td><td>
 
@@ -223,7 +223,7 @@ Scan Engine User
 
 </td><td>
 
-sn\_scan\_engine\_user
+sn\_se.scan\_engine\_user
 
 </td><td>
 

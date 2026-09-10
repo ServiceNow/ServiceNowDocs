@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/pa-dashboard-cache.html
 release: australia
 topic_type: concept
-last_updated: "2024-09-26"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Anal
 # Platform Analytics dashboard cache
 
 Changes to the layouts of Platform Analytics dashboards are stored in the par\_dashboard\_cache table. Whenever a dashboard is called, a new entry is made in this table. Delete entries in this table to regenerate the cache for troubleshooting.
+
+**Note:** On upgrade from any instance before Australia, this table is removed.
 
 In the context of troubleshooting a dashboard's layout, navigate to `par_dashboard_cache_list.do` to open the PAR Dashboard Metadata Caches table. Delete a dashboard's record on this table to regenerate the cache.
 

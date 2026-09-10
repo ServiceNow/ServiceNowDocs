@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message, details, information, troubleshoot]
-breadcrumb: [IDoc, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and troubleshoot IDoc messages
@@ -38,7 +38,7 @@ Role required: sn\_erp\_integration.erp\_admin
     For example:
 
     -   Check the **Status** field to see if the message was successful.
-    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see  for detailed information and examples using the API.
+    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md) for detailed information and examples using the API.
     -   The **IDoc number** can also be useful.
     For a detailed description of the field values, see [Outbound message transaction details tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.md).
 

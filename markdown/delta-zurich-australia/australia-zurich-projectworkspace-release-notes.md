@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-projectworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -79,19 +79,6 @@ Zurich
     -   The duplicated report automatically refreshes with the latest project updates \(for example, overall status, milestones, or metrics\).
     -   Any static or manually added data from the original report is retained in the duplicated version.
     -   When editing is disabled, all fields in the status report are read-only. When editing is enabled, only dynamic fields remain read-only. You can edit the status report in both the scenarios using the Edit Status Report action in the context menu.
--   **[Resource assignment updates](https://www.servicenow.com/docs/access?context=use-resource-mgmt-prj-wksp&family=zurich&ft:locale=en-US)**
-    -   Access and modify resource details directly from the Resource page without having to navigate to Resource Management Workspace.
-    -   End resource assignments when a project ends. View the resource assignments and synchronize the resource assignment dates with the project dates.
-    -   Move resource assignments to a new start and end date to align with task dependencies or resource availability.
--   **[Status report properties](https://www.servicenow.com/docs/access?context=create-a-status-report-in-project-workspace&family=zurich&ft:locale=en-US)**
-    -   Updates made on the status report form are reflected in the Status Report document when the `sn_pw.status_report_doc_read_only` property is set to `true`.
-    -   Updates made on the status report form are not reflected in the document content when the property is set to `false`.
--   **[Project financials](https://www.servicenow.com/docs/access?context=using-financials-prj-wrkspc&family=zurich&ft:locale=en-US)**
-    -   View only planned costs of your planning items to track the total cost of your projects.
-    -   Use **Display mode** to switch between focused views to better plan and track the financials of your projects.
-    -   Manage the planned and actual monetary benefit plans for your projects to identify the financial performance of your project using the Cost and benefits screen.
-    -   Use multicurrency to view and manage financial records of the project in Investment currency, which can be different from your functional currency. Manage multiple financial records such as planned and actual expenses, planned and actual benefits, and so on.
-    -   Generate labor cost for sub-projects based on the resource assignments of your sub-projects.
 
 </td></tr><tr><td>
 
@@ -99,131 +86,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
-
 -   **[CWM integration with Project Workspace](https://www.servicenow.com/docs/access?context=cwm-integration-pw&family=australia&ft:locale=en-US)**
 
 See how each project task breaks down and how its status rolls up, directly on the project's planning page, without manually tracking your team's status updates. Turn on the **Show connected tasks** setting to display the CWM tasks and stories that teams are executing as child tasks under each project task.
 
 Spot schedule risks earlier with a date-conflict indicator that flags when a connected item's planned dates fall outside its parent project task. You can review status without CWM access, while your teams continue to track progress in CWM.
 
-
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
-
--   **[Now assist for SPM enhancements](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US)**
-
-Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
-
--   **[RIDAC enhancements](https://www.servicenow.com/docs/access?context=manage-ridac-pw&family=australia&ft:locale=en-US)**
-    -   The RIDAC menu provides access to AI-Identified Risks, RIDAC by Type \(Risks, Issues, Decisions, Actions, Change Requests tabs\), and All RIDAC.
-    -   Access Risks, Issues, Decisions, Actions, and Change Requests \(RIDAC\) through tabs \(presentation list\) in the RIDAC by Type page.
-
-[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
-
--   **[Auto-sync resource assignments](https://www.servicenow.com/docs/access?context=realign-resource-assignment-to-task&family=australia&ft:locale=en-US)**
-
-Sync resources automatically with the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** property.
-
--   **[Project Answers Agent](https://www.servicenow.com/docs/access?context=ask-question-answers-chatbot-pw&family=australia&ft:locale=en-US)**
-
-Use the project answers AI agent to open the Now Assist panel and ask questions about project details. The project answers AI agent supports a broad set of questions across project dimensions and can answer follow-up questions.
-
--   **[Work notes in project insights](https://www.servicenow.com/docs/access?context=email-project-summary-pw&family=australia&ft:locale=en-US)**
-
-Use task-level work notes as additional context when generating project insights for detailed results. Review insights that reflect both standard task data and work notes content.
-
--   **[AI rationale enhancements](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-pw&family=australia&ft:locale=en-US)**
-
-View task IDs, resource IDs, and other references in the AI Rationale column of AI Project Risks as hyperlinks instead of plain text. Select a link to navigate directly to the related task, resource,or reference.
-
--   **[Export RIDAC data](https://www.servicenow.com/docs/access?context=export-ridac-pw&family=australia&ft:locale=en-US)**
-
-Export RIDAC data from Project Workspace in CSV, Microsoft Excel, or XML format using the Export RIDAC option in the more actions menu. Select a file type from the export modal to download the data currently visible in the RIDAC grid. Records not visible in the grid aren't included in the export.
-
--   **[Project types and project enhancements](https://www.servicenow.com/docs/access?context=project-types-in-pw&family=australia&ft:locale=en-US)**
-
-Configure project types with custom fields and tailored form views across different types of projects.
-
-    -   Use a dynamic category to define custom fields for a specific project type. Custom fields are scoped to that project type and don't appear on records of other types or affect default fields.
-    -   Use custom form views to configure a unique form layout for each project type. The form view is dynamically rendered based on the project type assigned to a record.
--   **[Inline comments and email notifications in Docs](https://www.servicenow.com/docs/access?context=collaborative-project-planning-with-docs&family=australia&ft:locale=en-US)**
-
-Streamline collaboration by enabling inline comments in Docs. Select text to add a comment, mention colleagues using @, and include hyperlinks by pasting URLs. You can comment on plain text, hyperlinks, dynamic data, and text inside table cells, and track discussions through threads, all without leaving the page or switching applications.
-
-Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
-
--   **[Project plan generation](https://www.servicenow.com/docs/access?context=generate-project-using-ai-pw&family=australia&ft:locale=en-US)**
-
-Use natural language, uploaded files, or both to automatically generate a project plan with tasks, dates, and business cases.
-
-
--   **[Task generation](https://www.servicenow.com/docs/access?context=generate-tasks-using-ai-pw&family=australia&ft:locale=en-US)**
-
-Use natural language, uploaded files, or both to automatically populate an empty project with tasks, hierarchy, and dates. Generate and preview AI-created tasks for any project without tasks, including demand-sourced projects, and make edits before tasks are added.
-
--   **[Risk generation](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-pw&family=australia&ft:locale=en-US)**
-
-Analyze project data using generative AI and view suggested potential risks in the AI identified risks page. Accept risks to move them to the RIDAC list. Reject risks to remove them from risk list. Regenerate risks to get suggestions based on current project data.
-
--   **[Assign a resource using AI resource finder](https://www.servicenow.com/docs/access?context=assign-resources-using-resource-finder-pw&family=australia&ft:locale=en-US)**
-
-Identify and assign the best-fit resources to unassigned task assignments using generative AI. The AI analyzes resource data and generates a fit score and rationale for each available resource based on skills and availability. Compare fit scores, AI rationale, and availability for each resource, then confirm the assignment when ready.
-
--   **[Expanded project insights topics](https://www.servicenow.com/docs/access?context=configure-project-insights-generation-skill&family=australia&ft:locale=en-US)**
-
-Use new AI insight topics within portfolio insights, project insights, and status reports:
-
-    -   Project delays: Identifies delay patterns across your project timeline and reports them in project insights.
-    -   Task dependency: Evaluates task relationships to highlight dependency risks and impacts.
-    -   Budget fluctuations: Monitors budget changes and highlights significant variances for review.
-    -   Scope creep: Detects insights of unplanned growth in a project by comparing the current project state against its first baseline.
--   **[AI status report enhancements](https://www.servicenow.com/docs/access?context=generate-ai-project-status-report&family=australia&ft:locale=en-US)**
-
-Create AI status reports from an existing template using the Generate from template. Add dynamic tokens to your template to display AI-generated field data in the report document.
-
-Track project health visually. Overall status and individual health sections display as color-coded bullet points with highlighted key values. Sections include scope, schedule, and other health areas.
-
-
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
--   **[AI-generated project status reporting](https://www.servicenow.com/docs/access?context=create-a-status-report-in-project-workspace&family=australia&ft:locale=en-US)**
-
-Generate AI-powered project status reports for quick visibility into project health and executive summaries.
-
--   **[AI insights for a project](https://www.servicenow.com/docs/access?context=use-projects-pw&family=australia&ft:locale=en-US)**
-    -   Use the **AI insights** page to view consolidated information about project tasks, milestones, resources, financials, and RIDACs.
-    -   Configure the insights to monitor critical project elements, such as financials and RIDACs, for a project.
-    -   Send AI‑generated project insights via email, including financials, RIDACs, milestones, resources, and project tasks.
-    -   Track key project indicators, such as budget overruns, cost variance, high‑risk items, issues, decisions, overdue actions, and change requests.
--   **[Additional admin configuration for project insights generation skill](https://www.servicenow.com/docs/access?context=configure-project-insights-generation-skill&family=australia&ft:locale=en-US)**
-
-Configure additional settings as an admin for the project insights generation skill. Choose inputs, display and review the changes.
-
--   **[Admin role enhancements](https://www.servicenow.com/docs/access?context=r_InstalledWithProjectManagement&family=australia&ft:locale=en-US)**
-
-Project properties can be edited only by users with the pps\_admin role.
-
--   **[Create an Asset Project Request from Project Workspace](https://www.servicenow.com/docs/access?context=create-asset-project-requests-pw&family=australia&ft:locale=en-US)**
-    -   Create and track the number of requests with project reference or requests which are created as part of an SPM project.
-    -   Provide portfolio and project managers with visibility into the status of associated hardware requests.
-    -   Enable project-based tracking of hardware requests, improving traceability across project plans.
-    -   Help portfolio or project managers quickly understand which asset requests are tied to the project and track their current status.
--   **[Manage resources directly in Project Workspace using interoperability](https://www.servicenow.com/docs/access?context=assign-approve-unassigned-work-pw&family=australia&ft:locale=en-US)**
-    -   View assigned and unassigned work from the embedded resource board.
-    -   Assign unassigned work using automatic or manual effort distribution.
-    -   Preview real-time effort allocations before assigning work.
-    -   Identify resource availability and over-utilization using visual indicators.
-    -   Approve, unapprove, or reprioritize assignments by updating the resource status directly from the resource board.
-    -   Extend or update assignments, including assignments for unassigned tasks, without leaving Project Workspace.
 
 </td></tr></tbody>
 </table>## Changes
@@ -244,7 +112,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Status report](https://www.servicenow.com/docs/access?context=duplicate-status-report-pw&family=zurich&ft:locale=en-US)**
+    -   A Status drop down is added in the Project Status Report with two options Draft and Published.
+    -   Renamed the **Copy** button to the **Duplicate status report** button.
+    -   Added the Playbooks page to define structured stages for projects.
+    -   Added the **Create from template** button on homepage.
+-   **[RIDAC UI changes](https://www.servicenow.com/docs/access?context=add-risk-project-project-workspace&family=zurich&ft:locale=en-US)**
+
+Filter, Personalize columns, Settings, and Item details icon are moved to panel.
+
 
 </td></tr><tr><td>
 
@@ -252,10 +128,13 @@ Australia
 
 </td><td>
 
--   **[AI skills in Project Workspace](https://www.servicenow.com/docs/access?context=ai-skills-project-workspace&family=australia&ft:locale=en-US)**
+-   **[RIDAC enhancements](https://www.servicenow.com/docs/access?context=manage-ridac-pw&family=australia&ft:locale=en-US)**
 
+New RIDAC menu is added on the L2 menu. These three pages are added under RIDAC menu:
 
-
+    -   AI-Identified Risks
+    -   RIDAC by Type
+    -   All RIDAC
 
 </td></tr></tbody>
 </table>## Removed
@@ -313,7 +192,9 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Starting with the Australia release, the Project Status Report \(com.sn\_store\_ppm.mobile\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Project Workspace supports status report capability.
+-   Starting with Australia release, the Project Management Office \(PMO\) dashboard is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Execution dashboard supports PMO dashboard capability.
+-   Starting with Australia release, the Investment Portal is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Portfolio Planning Workspace supports Investment Portal capability.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -334,7 +215,10 @@ Zurich
 
 </td><td>
 
-Install Project Workspace by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -342,9 +226,12 @@ Australia
 
 </td><td>
 
-Install Project Workspace by requesting it from the ServiceNow Store. 
+-   **Activation information**
 
- Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

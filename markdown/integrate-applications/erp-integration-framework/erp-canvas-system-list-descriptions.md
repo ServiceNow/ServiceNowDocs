@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP system list field descriptions
-description: The Create new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
+description: The systems list in Zero Copy Connector for ERP \(Enterprise Resource Planning\) shows the connection and metadata retrieval status of each ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-list-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, create, new, system, connection]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 # Zero Copy Connector for ERP system list field descriptions
 
-The Create new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
+The systems list in Zero Copy Connector for ERP \(Enterprise Resource Planning\) shows the connection and metadata retrieval status of each ERP system.
 
 For process details, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
@@ -49,10 +49,9 @@ Retrieval status
 
 </td><td>
 
-When the system is first set up and connects to the SAP system, metadata is retrieved.-   BAPI/RFC: For BAPI, a list of functions available to call on the system are collected. For RFC, a check is done to determine the tables available on the database.
+Status of the metadata retrieval that runs when the system first connects to the SAP system.-   BAPI/RFC: For BAPI, a list of the functions available to call on the system is collected. For RFC, the system checks which tables are available on the database.
 -   Table: The tables from the database are retrieved.
--   Odata: The models are retrieved.
+-   OData: The models are retrieved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

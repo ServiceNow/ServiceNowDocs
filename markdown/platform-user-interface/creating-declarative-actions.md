@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/creating-declarative-actions.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,6 +17,10 @@ Create a declarative action and add the button to a workspace.
 -   **[Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)**
 
     Create a form action and add the button to a workspace.
+
+-   **[Configure a form action layout item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-form-action-layout-item.md)**
+
+    Customize the appearance of a form action and control how it appears relative to other actions in a table layout.
 
 -   **[Create a list or related list action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-list-or-related-list-action.md)**
 

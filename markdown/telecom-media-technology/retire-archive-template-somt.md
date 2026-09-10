@@ -27,7 +27,7 @@ After you retire or archive a template, you can't do the following actions:
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **List** &gt; **Templates** &gt; **All**.
 

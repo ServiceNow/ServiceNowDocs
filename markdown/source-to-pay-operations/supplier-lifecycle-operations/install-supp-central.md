@@ -1,6 +1,6 @@
 ---
 title: Install Supplier Collaboration Portal
-description: Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow Store applications and plugins
+description: Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 # Install Supplier Collaboration Portal
 
-Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins
+Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 

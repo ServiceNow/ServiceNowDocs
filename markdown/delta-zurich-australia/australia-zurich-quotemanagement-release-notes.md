@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-quotemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,27 +67,12 @@ Zurich
 
 </td><td>
 
--   **[Add pricing adjustment to a line item](https://www.servicenow.com/docs/access?context=quote-management-add-pricing-adjustment&family=zurich&ft:locale=en-US)**
-
-Enables sales agents to quickly view, add, and edit manual price adjustments for quote line items directly from the list view, making it easier to manage both automatic and manual adjustments. The new experience streamlines the quoting process and allows adjustments to be applied to individual or multiple line items at once.
-
-
--   **[Price and quantity ramps on quote line items](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=zurich&ft:locale=en-US)**
-
-Create price and quantity ramps for product offerings in quotes to define incremental price and quantity changes over time. Product offerings eligible for ramps have the Ramps enabled option and Recurring price method selected. Agents can define ramps in two ways:
-
-    1.  Ramp the parent line item, which automatically applies ramps to all child line items.
-    2.  Leave the parent unramped, allowing child product offerings to have ramps defined individually.
-
-Agents can also make manual price adjustments per segment. When a quote with ramps is converted to an order, ramps become read-only.
-
-
 -   **[Quote header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
 
 Added a quote header discount feature that enables sales agents to apply a discount across multiple quote lines at once. This simplifies the quoting process and ensures consistent discount application, thereby improving overall sales efficiency and customer satisfaction.
 
 
--   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
+ -   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
 
 Provides sales agents better visibility of the entire quote cost and profit with the addition of Cost and Margin calculations to the following levels:
 
@@ -102,29 +87,6 @@ Australia
 
 </td><td>
 
--   **[Consolidate quotes](https://www.servicenow.com/docs/access?context=consolidate-quotes&family=australia&ft:locale=en-US)**
-
-Maintain traceability from orders to all originating contract lines when creating orders from consolidated quotes. Additional calculated fields on order lines provide visibility into uplift values derived from consolidation rules.
-
--   **[Add price ramps on a quote line item](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=australia&ft:locale=en-US)**
-
-Enable agents to create and manage custom ramp structures with flexible segment durations. Make ramp changes across the quote life cycle, including amendments and renewals, while maintaining pricing and quantity consistency across ramp segments.
-
--   **[Quote approvals](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&family=australia&ft:locale=en-US)**
-
-Use the Advanced Approval Management to create approval workflows for end-to-end visibility and control of quote approvals.
-
-    -   Track approval status, steps, sequencing, approvers, and comments in real time
-    -   Manage quote states and edit permissions automatically as quotes move through Draft, In Review, Approved, and Rejected states
-    -   Receive email notifications for approvers and requesters as approval actions are taken
-    -   Configure approval conditions and sequencing across quotes, quote lines, and related entities using serial, parallel, or hybrid flows driven by business and compliance rules
-    -   Preserve approval history across submissions and quote versions for a complete audit trail
-
--   **[Customer entities on Quote](https://www.servicenow.com/docs/access?context=quote-detail-form-fields&family=australia&ft:locale=en-US)**
-
-Capture the deal type \(Direct or Indirect deals\) and align it with different routes to market for consistency, compliance, and operational efficiency across systems and teams.
-
-
 -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)[Summarize a quote using quote summarization with Now Assist](https://www.servicenow.com/docs/access?context=summarize-quote&family=australia&ft:locale=en-US)**
 
 Generate a summary of a quote to:
@@ -135,24 +97,6 @@ Generate a summary of a quote to:
     -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
     -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
     -   Support internal handoffs by summarizing the quoted offer for internal teams.
-
--   **[Transaction Manager Quote AI Agent](https://www.servicenow.com/docs/access?context=now-assist-for-cpq-landing&family=australia&ft:locale=en-US)**
-
-Use a conversational AI agent to manage quote-level operations directly in Transaction Manager. The agent handles a broad range of quoting tasks through a single interface:
-
-    -   Search for products and match them to your request, then delegate configuration to Config AI for configurable products.
-    -   Update line items and header fields, apply discounts, and trigger events.
-    -   Generate a visible execution plan before acting on complex requests, so you can see what will happen and why.
-    -   Run independent operations in parallel, so multiple configurations can complete simultaneously without blocking other changes.
-
--   **[Derived pricing on quotes](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
-
-Improve pricing accuracy by letting the system automatically manage derived quote lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
-
-    -   Adds new system-generated lines when pricing rules require them.
-    -   Updates existing derived lines when pricing conditions change.
-    -   Removes derived lines that no longer apply.
-    -   Restricts editing on system-generated lines to preserve pricing integrity.
 
 </td></tr></tbody>
 </table>## Changes
@@ -181,7 +125,9 @@ Australia
 
 </td><td>
 
--   **[Enhancements to price ramps on quote lines](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=australia&ft:locale=en-US)**
+See [Advanced Approval Management release notes](https://www.servicenow.com/docs/access?context=advanced-approval-management-for-sales-rn&family=australia&ft:locale=en-US) for more information.
+
+ -   **[Enhancements to price ramps on quote lines](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=australia&ft:locale=en-US)**
 
 Modify active ramp segments on amendment quotes to better manage pricing changes over time.
 
@@ -197,8 +143,6 @@ Build on existing quote approval workflows with greater control and flexibility
     -   View the escalated approver on the approval step card when an approval step is escalated, so you can clearly identify who is responsible for the next action.
     -   Add ad-hoc approvers to an approval request outside the configured approval workflow when additional review is needed.
     -   Override an approval to advance a quote when permitted by your organization's approval configuration.
-
- See [Advanced Approval Management release notes](https://www.servicenow.com/docs/access?context=advanced-approval-management-for-sales-rn&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>## Removed
@@ -277,11 +221,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Quote Management by requesting it from the ServiceNow Store.
 
- To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
+To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -289,7 +236,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -368,7 +318,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

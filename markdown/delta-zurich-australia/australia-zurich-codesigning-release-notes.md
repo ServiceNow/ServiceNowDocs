@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-codesigning-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -130,7 +130,12 @@ Zurich
 
 </td><td>
 
--   **[Enhanced Code-Signing Verification for ACC Framework Table](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhanced Code-Signing Verification for ACC Framework Table](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
 
 You can now generate KMF signature files for tables that extend Agent Client Collector Configuration \(`sn_agent_configuration_file`\) and Agent Client Collector Plugin \(`sn_agent_asset`\). This enhancement allows attachments from the tables to successfully pass code-signing verification and be downloaded to the MID Server when code signing is enabled.
 
@@ -223,7 +228,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configure](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -231,7 +239,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\). For details, see [Configure](https://www.servicenow.com/docs/access?context=config-code-signing&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

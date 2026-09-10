@@ -17,6 +17,8 @@ breadcrumb: [Create action plan for KPIs, Using Supplier Relationship and Perfor
 
 Create supplier tasks for the affected KPIs in the action plan.
 
+\[Omitted video\] Description: Create action plan for KPIs.
+
 ## Before you begin
 
 Role required: sn\_kpi.admin

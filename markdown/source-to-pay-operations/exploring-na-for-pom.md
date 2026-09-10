@@ -1,5 +1,5 @@
 ---
-title: Explore ServiceNow Otto for Purchase Order Management \(POM\)
+title: Exploring ServiceNow Otto for Purchase Order Management \(POM\)
 description: With ServiceNow Otto for POM, you can use generative AI to support purchase order management tasks. You can convert unstructured supplier emails into a prioritized list of exceptions and use a conversation-like experience to mitigate purchase order exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/exploring-na-for-pom.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Explore ServiceNow Otto for Purchase Order Management \(POM\)
+# Exploring ServiceNow Otto for Purchase Order Management \(POM\)
 
 With ServiceNow Otto for POM, you can use generative AI to support purchase order management tasks. You can convert unstructured supplier emails into a prioritized list of exceptions and use a conversation-like experience to mitigate purchase order exceptions.
 

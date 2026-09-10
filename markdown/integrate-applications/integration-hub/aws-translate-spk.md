@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -23,6 +23,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Integration Hub subscription
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## Spoke version
+
+AWS Translate Spoke v1.0.3 is the latest version. For version history of the spoke, see [AWS Translate Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-translate-spoke.html).
 
 ## Supported version
 

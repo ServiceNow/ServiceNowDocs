@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -39,18 +39,28 @@ As a ShoppingHub or Procurement administrator, you can configure checkouts for s
 -   **[Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md)**  
 As a procurement administrator, you can create and modify purchase process steps, work items involved in the process steps, and link the process steps and work items.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
 [Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Configure punchout for third-party site purchases]()
 
 [Configuring work prioritization]()
 
 [Add a button in Shopping Hub]()
+
+[Add a footer link in Shopping Hub]()
 
 [Customize your top suppliers on Shopping Hub]()
 
@@ -64,9 +74,7 @@ As a procurement administrator, you can create and modify purchase process steps
 
 [Install Universal Request for Sourcing and Procurement Operations]()
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
-
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 
 [Service portal configuration for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.md)
 

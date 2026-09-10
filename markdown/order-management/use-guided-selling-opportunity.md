@@ -31,7 +31,7 @@ The sn\_opty\_mgmt\_core.opportunity\_admin role can move the stage of Opportuni
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Opportunity** &gt; **All** and select the opportunity to open.
+1.  In the CRM Workspace, navigate to **Opportunity** &gt; **All** and select the opportunity to open.
 
 2.  Select the **Overview** tab.
 
@@ -69,8 +69,6 @@ The sn\_opty\_mgmt\_core.opportunity\_admin role can move the stage of Opportuni
 ## Result
 
 The opportunity advances to the next stage. The Action Center refreshes to display the playbook activities for the new stage.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

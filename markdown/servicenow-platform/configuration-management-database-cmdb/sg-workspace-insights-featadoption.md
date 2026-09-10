@@ -1,6 +1,6 @@
 ---
-title: Feature adoption insights dashboard in Service Graph Workspace
-description: Use the Feature adoption insights page in Service Graph Workspace to see and increase the level of adoption of key CMDB features and service instances to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
+title: Feature adoption insights dashboard in CMDB Workspace
+description: Use the Feature adoption insights page in CMDB Workspace to see and increase the level of adoption of key CMDB features and service instances to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-featadoption.html
 release: australia
@@ -9,16 +9,16 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 12
-breadcrumb: [Insights view, Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Feature adoption insights dashboard in Service Graph Workspace
+# Feature adoption insights dashboard in CMDB Workspace
 
-Use the Feature adoption insights page in Service Graph Workspace to see and increase the level of adoption of key CMDB features and service instances to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
+Use the Feature adoption insights page in CMDB Workspace to see and increase the level of adoption of key CMDB features and service instances to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
 
 ## Access
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  In the navigation panel, select the Insights icon.
 3.  On the Insights page navigation pane, select **Feature adoption**.
 
@@ -205,4 +205,6 @@ Search &amp; analytics contains the following features and aggregations:
 
     This card appears only if the feature isn't in use, providing helpful resources for exploration and adoption. However, the feature is still included in calculating the search &amp; analytics overall level of adoption.
 
+
+**Parent Topic:**[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
 

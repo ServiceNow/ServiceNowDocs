@@ -15,7 +15,7 @@ breadcrumb: [Components installed with HL7 v2.x Integration, HL7 v2.x Integratio
 
 Field reference for the parser configuration, parser segment, and field map tables that define how the HL7 parser engine extracts message data.
 
-## Parser configuration \(`sn_hl7_v2_parser_config`\)
+## Parser configuration \(sn\_hl7\_v2\_parser\_config\)
 
 |Field|Type|Description|
 |-----|----|-----------|
@@ -29,7 +29,7 @@ Field reference for the parser configuration, parser segment, and field map tabl
 |`description`|String \(255\)|Optional administrator notes.|
 |`sample_payload`|String \(4000\)|A raw HL7 v2.x test message used by the **Parse Sample Payload** action to populate the parsed value on each field map.|
 
-## Parser segment \(`sn_hl7_v2_parser_segment`\)
+## Parser segment \(sn\_hl7\_v2\_parser\_segment\)
 
 |Field|Type|Description|
 |-----|----|-----------|
@@ -39,7 +39,7 @@ Field reference for the parser configuration, parser segment, and field map tabl
 |`active`|Boolean|Whether this segment is included in parser output. Default: true.|
 |`description`|MultiLine String|Optional notes.|
 
-## Field map \(`sn_hl7_v2_parser_field_map`\)
+## Field map \(sn\_hl7\_v2\_parser\_field\_map\)
 
 |Field|Type|Description|
 |-----|----|-----------|

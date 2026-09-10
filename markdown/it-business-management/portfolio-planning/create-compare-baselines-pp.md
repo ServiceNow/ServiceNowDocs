@@ -16,6 +16,10 @@ breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic
 
 Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs against the actual expenses.
 
+## About this task
+
+This video is recorded using Strategic Planning view. Navigation for Portfolio Planning Workspace might differ but the functionality remains the same.\[Omitted video\] Description: Create and compare financial baselines
+
 ## Before you begin
 
 Role required: sn\_align\_ws.spw\_financial\_user
@@ -28,15 +32,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d215699e88">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d223771e120">
 
 Option
 
-</th><th align="left" id="d215699e91">
+</th><th align="left" id="d223771e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d215699e97">
+</th></tr></thead><tbody><tr><td id="d223771e129">
 
 **Create a baseline**
 
@@ -53,7 +57,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d215699e147">
+</td></tr><tr><td id="d223771e179">
 
 **Compare baselines**
 

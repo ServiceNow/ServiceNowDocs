@@ -25,7 +25,7 @@ Role required: password\_reset\_admin
 The default email content is:
 
 -   Subject: Reminder: Enroll in the Password Reset program
--   Body: Click here to enroll in the Password Reset program.
+-   Body: Select here to enroll in the Password Reset program.
 
 ## Procedure
 
@@ -33,7 +33,11 @@ The default email content is:
 
     1.  Navigate to **System Policy** &gt; **Email** &gt; **Templates**.
 
-    2.  Open the **Password reset enrollment reminder** template.
+        **Important:** If the **System Policy** &gt; **Email** &gt; **Templates** path is not available in your instance, confirm the Email Client plugin \(`com.glide.email_client)` is activated.
+
+    2.  Search for and open the **Password reset enrollment reminder** template.
+
+        If this template does not appear, search the **Name** field for `enrollment` to locate the template for your instance configuration.
 
     3.  Update the **Subject** field as needed.
 

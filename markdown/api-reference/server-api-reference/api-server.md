@@ -8,7 +8,7 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 48
+reading_time_minutes: 49
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -530,6 +530,8 @@ The LinterCheckAstNode API provides methods for getting abstract syntax tree \(A
 The logger API provides inbound email actions that append messages to the email log.
 -   **[LSOFParser - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_LSOFParserAPI.md)**  
 The LSOFParser script include provides methods to parse the output of the `lsof` command: `lsof -i4TCP -n -P -F pcnfT`.
+-   **[MCPClient - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MCPClientAPI.md)**  
+The MCPClient script include is the entry point for interacting with approved Model Context Protocol \(MCP\) servers. It provides methods for discovering approved servers, listing and inspecting the tools they expose, and invoking those tools.
 -   **[Message - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_i18n.messageAPI.md)**  
 The Message Server API allows you to retrieve localized messages from the Message \[sys\_ui\_message\] table for an entry with code equal to the code parameter, key equal to the message parameter, and language equal to the language of the session \(or fallback language\).
 -   **[Messaging - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MessagingScopedAPI.md)**  

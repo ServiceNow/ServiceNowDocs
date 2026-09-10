@@ -97,9 +97,12 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 -   One or more releases are created depending on the number of products or services selected:
 
-    -   If you selected a single product or service, one release is created. The release is opened in the Release Overview page.
+    -   If you selected a single product or service, one release is created. The release is opened in the Release Overview page. If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team.
     -   If you selected a primary product or service and added included products, the releases are created based on the value set in the **sn\_dpr.multi\_product.create\_independent\_releases** system property:
         -   When the property is set to false, a main release is created for the primary product or service and individual releases for each included product are created and added to the main release as dependent releases. The release is opened in the Release Dashboard page.
+
+            If the primary product has restricted access enabled, the restricted access setting and the product team are copied to the main release as the initial release team. The same setting is mirrored onto every included product release \(regardless of each product's own setting\). Only members of the set release team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md)
+
         -   When the property is set to true, a release bundle is created which contains all the individual releases created for the primary product or service and each included product. The release bundle is opened in the Release bundle's Overview page.
     In either case, the releases are created in the Pending state.
 

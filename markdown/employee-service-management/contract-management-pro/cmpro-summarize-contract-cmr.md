@@ -80,7 +80,7 @@ Workspace used by your application
 
     \[Omitted image "cmpro-summary-nap.png"\] Alt text: ServiceNow Otto panel displaying options to summarize the document, generate FAQs, and ask questions.
 
-    For more information on using AI for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
+    For more information on using AI for generating summaries, see [Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
 
     You can also summarize supporting documents and signed contracts using Ask Otto in the document viewer.
 

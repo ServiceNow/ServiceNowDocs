@@ -48,7 +48,7 @@ Workplace Reservation Management enables employees to search, reserve, modify, a
 
 \[Omitted image "wsd-map-reservation-portal.png"\] Alt text: Make a reservation using map view..
 
-## Now Assist for Workplace service Delivery
+## ServiceNow Otto for Workplace Service Delivery \(WSD\)
 
 ServiceNow Otto for Workplace Service Delivery \(WSD\) elevates your Workplace Services experience with generative AI capabilities. Transform the employee experience by enabling interaction with physical workspaces through generative AI technology.
 

@@ -16,6 +16,8 @@ breadcrumb: [Work scheduler, Workforce Optimization for ITSM, IT Service Managem
 
 Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Gain insights into which agents have been recommended to work on a task based on the mandatory and optional skills they have.
 
 -   **[Assign work based on your teams' skills and capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/track-tasks-teams-wfo-itsm.md)**  

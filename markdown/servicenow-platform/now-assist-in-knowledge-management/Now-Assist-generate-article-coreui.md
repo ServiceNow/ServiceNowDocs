@@ -40,11 +40,7 @@ Role required: author or agent
 
 3.  In the Use AI to draft this article? modal, select **Yes, draft with Otto**.
 
-    \[Omitted image "now-assist-kb-dialog-box.png"\] Alt text: Enable the KB article generation skill in the workspace.
-
 4.  Select up to five additional relevant cases in the modal and select **Continue with selected tasks**.
-
-    \[Omitted image "now-assist-kb--multiple-similar-cases.png"\] Alt text: Select up to five additional relevant cases to generate the article.
 
     The article appears in a new tab with a unique ID.
 
@@ -89,7 +85,7 @@ Role required: author
     -   If no similar tasks exist, this modal doesn't appear and the article is created. The generated article is linked to both the parent task and all the relevant cases selected.
     -   You can modify the draft before saving. The article appears in a new tab with a unique ID and is attached to the parent record.
     -   After reviewing the generated article, select **Save** or **Publish**. The success message disappears, indicating the article is no longer AI-generated.
-    -   If Now LLM Service fails to generate a result, an error message appears.
+    -   If the LLM fails to generate a result, an error message appears.
     -   After the article generation process is triggered, it can't be stopped. Generation continues even if you close the modal.
 6.  Review the generated article and select **Save** or **Publish**.
 

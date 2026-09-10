@@ -84,6 +84,20 @@ Maximum setting recognized for the maxNumberOfGroups property of data visualizat
 -   Default value: 50
 -   Location: System Property \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_analytics\_list.pagination\_max\_value
+
+</td><td>
+
+Maximum number of records per page in a List visualization in Platform Analytics experience.**Danger**
+
+Raising this property above 100 might lead to memory issues.
+
+-   Type: integer
+-   Default value: 100
+-   Location: System Property \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
 

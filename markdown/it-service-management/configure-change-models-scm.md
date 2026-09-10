@@ -19,7 +19,9 @@ Configure the change models that control how Normal, Standard, Emergency, and Ch
 
 The groups, assignment groups, and notification recipients you plan to assign must already exist in the system.
 
-Role required: sn\_itsm\_chg\_admin.change\_models\_config, sn\_itsm\_chg\_admin.admin, or admin
+Role required: sn\_itsm\_chg\_admin.change\_models\_config, sn\_itsm\_chg\_admin.admin, or admin and sn\_ia\_config.ia\_user
+
+**Note:** The sn\_itsm\_chg\_admin.change\_models\_config role no longer automatically inherits the sn\_ia\_config.ia\_user role. Users who need to configure the console must now be assigned both the appropriate Change Management role \(for example, sn\_itsm\_chg\_admin.change\_models\_config\) and the sn\_ia\_config.ia\_user role explicitly. Existing roles aren't modified during upgrade, allowing you to maintain full control over assignment of elevated privileges. After upgrading, if you have previously relied on inherited access, you won't be able to configure the console until the sn\_ia\_config.ia\_user role is assigned explicitly.
 
 ## About this task
 

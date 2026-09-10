@@ -26,7 +26,7 @@ Accelerator outputs and formats have common standardized features, but may diffe
 -   \[Omitted image "blueplus.png"\] Alt text: Blue plus sign icon = Includes additional unique accelerator-specific features
 
 |Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
-|:----------|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
+|:---------:|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
 |[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
 

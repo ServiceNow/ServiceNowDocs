@@ -1,18 +1,18 @@
 ---
 title: Customer Service Problem Management release notes
-description: The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
+description: The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 ---
 
 # Customer Service Problem Management release notes
 
 The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
 
-## Customer Service Problem Management highlights for the Australia release
+## About Customer Service Problem Management
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -35,11 +35,37 @@ Australia Early Availability
 
 See [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+    Install Customer Service Problem Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Additional requirements**
+
+    You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## Australia
+
+The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Service Problem case record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-problem-case-record-page.md)**
 
@@ -50,8 +76,6 @@ See [Customer Service Problem Management](https://raw.githubusercontent.com/Serv
     Record the analysis of a dispute using the hierarchy of product, category, subcategory, and reason in the dispute analysis record. You can record the these details in the Resolution and dispute analysis stage of the CDM playbook. This gives you much clearer visibility into why disputes happen and where to focus process improvements.
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
-
 -   **[Preliminary troubleshooter agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-preliminary-troubleshooter-agentic-workflow.md)**
 
     Processes task requests that require payment status, contextual information from similar cases and Knowledge Base articles.
@@ -60,8 +84,6 @@ See [Customer Service Problem Management](https://raw.githubusercontent.com/Serv
 
     Runs the test groups that are mapped to a task and creates repair tasks for the failed test runs. This workflow also updates the consolidated summary in work notes and runs autonomously in the background without any user interaction.
 
-
-Australia Early Availability
 
 -   **[Customer Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/alternative-dispute-resolution.md)**
 
@@ -84,34 +106,19 @@ Australia Early Availability
     Generates a deadlock letter details for a customer dispute in the CDM case record. You can generate the deadlock letter when the customer rejects the complaint resolution and opt for legal procedures.
 
 
-## Changed in this release
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
-## UI changes
-
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
-
--   **[Service Problem case record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-problem-case-record-page.md)**
-
-    New icons on the Service Problem case record for toggling between the playbook and record page views. Customer 360 tab is added to the Service Problem Case record page.
-
-
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+### What's changed
 
 -   **[Diagnose and resolve a service problem case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/work-on-service-problem-case.md)**
 
     A refresh button is added to the Repair stage in the Service Problem Case.
 
 
-## Activation information
+-   **[Service Problem case record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-problem-case-record-page.md)**
 
-Install Customer Service Problem Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    New icons on the Service Problem case record for toggling between the playbook and record page views. Customer 360 tab is added to the Service Problem Case record page.
 
-## Plugin information
+
+### Plugin information
 
 -   **New plugins**
 
@@ -119,17 +126,4 @@ Install Customer Service Problem Management by requesting it from the ServiceNow
 
     Customer Dispute Management \(com.sn\_telco\_adr\_mgmt\): The CDM captures the case details of the issue or problem faced by the customer and manages investigations and expected resolution. It tracks all actions required to identify the root cause of the dispute and resolve it.
 
-
-## Additional requirements
-
-You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
-
-## Related ServiceNow applications and features
-
--   **[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)**
-
-    A case type represents the processes and the data that are needed to resolve a specific type of customer issue. Use the case types feature to create and configure the different types of customer service cases that your organization needs.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

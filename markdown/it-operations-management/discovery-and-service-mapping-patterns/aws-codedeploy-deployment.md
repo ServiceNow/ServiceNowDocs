@@ -1,6 +1,6 @@
 ---
 title: AWS CodeDeploy Deployment pattern-based discovery
-description: Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-codedeploy-deployment.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # AWS CodeDeploy Deployment pattern-based discovery
 
-Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 

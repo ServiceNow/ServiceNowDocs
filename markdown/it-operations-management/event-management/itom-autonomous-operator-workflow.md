@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage alerts autonomously agentic workflow

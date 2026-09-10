@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-dataprivacy-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Licensing changes enable you to install Data Discovery, Data Discovery APIs, Data Anonymization, and Data Privacy APIs without an entitlement, but you must have an entitlement to run a job.
+
 
 </td></tr><tr><td>
 
@@ -97,14 +100,6 @@ As a security admin, view whether the discovery field is encrypted or can be enc
 Yokohama
 
 </td><td>
-
--   **[AL/ML Based Data Discovery for Real Time Anonymization](https://www.servicenow.com/docs/access?context=now-assist-for-data-privacy-landing&family=yokohama&ft:locale=en-US)**
-
-Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discover sensitive data that does not follow a pattern like name, address, organizations, and more; and run real-time anonymization.
-
--   **[Configuring Data Privacy for Now Assist](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
-
-Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
 
 -   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
 
@@ -215,22 +210,9 @@ Zurich
 
 </td><td>
 
--   **[Full scan support added](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
-
-Data Discovery jobs support full type scans, which scan for sensitive data patterns in all the records. You can also use an incremental scan, which acts as a delta scan from the point of the last full scan.
-
--   **[XLS and CSV support added](https://www.servicenow.com/docs/access?context=data-discovery-attachment-scanning&family=zurich&ft:locale=en-US)**
-
-Data Discovery attachment scan type jobs now support XLS and CSV files. Attachment scans are incremental scans by default.
-
 -   **[Text to Regex from a LLM](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
 
 Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
-
-
--   **Key word matching**
-
-As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
 
 </td></tr><tr><td>
@@ -239,11 +221,14 @@ Australia
 
 </td><td>
 
--   **New experience**
+-   Use the [improved anonymization dashboard](https://www.servicenow.com/docs/access?context=dps-data-privacy-overview&family=australia&ft:locale=en-US) to get more details about anonymization. For example, what data was anonymized and how \(real-time or through anonymization jobs\).
+-   Use the new [real-time protection module](https://www.servicenow.com/docs/access?context=real-time-protection&family=australia&ft:locale=en-US) to configure real-time alerting and your blocking policies. You can also view real-time sensitive data logs.
+
+ -   **New experience**
     -   [Optional condition filter](https://www.servicenow.com/docs/access?context=dps-create-anonymization-job&family=australia&ft:locale=en-US) when running anonymization jobs to fine tune the scope of data to be anonymized.
     -   [Specific anonymization policy](https://www.servicenow.com/docs/access?context=dps-create-anonymization-policies&family=australia&ft:locale=en-US) for catalog variables to anonymize sensitive data in catalog requests.
 
--   **Key word matching**
+ -   **Key word matching**
 
 As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
@@ -365,7 +350,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -373,7 +361,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -381,7 +372,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

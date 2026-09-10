@@ -18,7 +18,7 @@ This reference describes the in-scope best practices that can be used for catalo
 
 ## Scope of best practices
 
-Best practices are honored only when they are within the scope of catalog generation capabilities. This means best practices apply only to what a user can create using the ServiceNow Otto conversational catalog item builder.
+Best practices are honored only when they are within the scope of catalog generation capabilities. This means best practices apply only to what a user can create using the AI conversational catalog item builder.
 
 The following are examples of best practices that are within the scope of catalog generation and are honored by ServiceNow Otto.
 
@@ -62,7 +62,7 @@ Best practices that require information not directly available to the LLM, or th
 -   Role-based or permission-based restrictions on catalog authors
 -   Runtime behavior or system configuration not defined on the catalog item itself
 
-The following are examples of best practices that are outside the scope of catalog generation and aren't honored by ServiceNow Otto.
+The following are examples of best practices that are outside the scope of catalog generation and aren't honored by AI.
 
 <table id="table_owq_3rd_vjc"><thead><tr><th>
 
@@ -91,7 +91,7 @@ If a lookup question has more than 1,000 choices, add a reference qualifier to f
 </td></tr></tbody>
 </table>## Rules for best practice application
 
-The following rules define how ServiceNow Otto applies best practices:
+The following rules define how AI applies best practices:
 
 -   Plain text requirement: ServiceNow Otto honors only best practices written in plain text in the article. Formatted text, images, and special markup are ignored.
 -   Deviation: If there is a deviation, a catalog item is created, and then the user is prompted about the deviation.

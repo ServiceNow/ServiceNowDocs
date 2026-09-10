@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin, itil\_admin or app\_service\_admin
 
 The dashboard queries for service instances by checking for those records in the \[cmdb\_ci\_service\_auto\] class in which the value of **Service classification** is **Application Service**. Reduce the number of incomplete service instances by [editing application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and populating any empty attributes. For example, if an application service isn't configured with a service population method, then configure a service population method for it.
 
-The Service instance dashboard is fully integrated into the [Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md)and the [Service instances insights dashboard in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md), and refreshes on a 24-hour cycle during night hours.
+The Service instance dashboard is fully integrated into the and the [Service instances insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md), and refreshes on a 24-hour cycle during night hours.
 
 ## Procedure
 

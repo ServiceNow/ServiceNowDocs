@@ -1,18 +1,18 @@
 ---
 title: Update deal registration record
-description: Create a deal registration record or perform actions on an existing record in the CSM Configurable Workspace, including submitting for approval and managing post-approval actions.
+description: Create a deal registration record or perform actions on an existing record in the CRM Workspace, including submitting for approval and managing post-approval actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/update-deal-registration-record.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Update deal registration record
 
-Create a deal registration record or perform actions on an existing record in the CSM Configurable Workspace, including submitting for approval and managing post-approval actions.
+Create a deal registration record or perform actions on an existing record in the CRM Workspace, including submitting for approval and managing post-approval actions.
 
 ## Before you begin
 

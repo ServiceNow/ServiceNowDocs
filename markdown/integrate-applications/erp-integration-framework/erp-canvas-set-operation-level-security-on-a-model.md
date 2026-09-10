@@ -7,27 +7,27 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, model, security, operation, model security, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [ERP model operations, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Operation-level security for models
 
 Control access to model operations with user roles and groups.
 
-## Secure model operations
+## Model operation security
 
 You must have the sn\_erp\_integration.erp\_admin role to create and edit models.
 
-In Zero Copy Connector for ERP \(Enterprise Resource Planning\), new permission rules for model operations require you to have a specified role or be part of a specified user group to execute model operations. Each model operation must have at least one user role or one user group specified. You can add multiple user roles and groups as needed.
+In Zero Copy Connector for ERP, new permission rules for model operations require you to have a specified role or be part of a specified user group to execute model operations. Each model operation must have at least one user role or one user group specified. You can add multiple user roles and groups as needed.
 
-On a single model, different operations can have different permissions. For example, a financial data model can have some users with only read access to review data, but they can't update or create a financial record. For that same model, other users or groups can be given access to update and create financial records.
+On a single model, different operations can have different permissions. For example, a financial data model can have some users with only read access to review data, but they can't update or create a financial record. For that same model, you can give other users or groups access to update and create financial records.
 
 \[Omitted image "erp-operation-security1.png"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
 
-## Edit security of existing operations
+## Security of existing operations
 
 To help prevent disruptions, all existing model operations have been assigned the admin role and the erp\_user role by default.
 

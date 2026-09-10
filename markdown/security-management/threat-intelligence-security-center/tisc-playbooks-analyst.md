@@ -61,7 +61,7 @@ The Threat Hunting playbook is a guided workflow for a TISC Case record that hel
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

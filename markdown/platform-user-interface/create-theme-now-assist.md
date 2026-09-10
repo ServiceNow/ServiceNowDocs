@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -36,8 +36,6 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 2.  In the chat window, enter `Create a theme`.
 
     The AI-enabled Theme Builder workflow starts.
-
-    \[Omitted image "tb-nap-chat-window.png"\] Alt text: ServiceNow Otto panel with Create a theme entered into the chat window.
 
 3.  Select **Yes** when prompted to proceed.
 

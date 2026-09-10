@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-talentdevelopmentcore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -108,29 +108,11 @@ Yokohama
 
 </td><td>
 
--   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=yokohama&ft:locale=en-US)**
 
-As an employee, Credly integration now empowers you to display your digital credentials better demonstrating your skills in a tangible way.
+As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
-
--   **[View user credentials](https://www.servicenow.com/docs/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
-
-As an administrator, Achievements and Credentials now enables you to view user credentials and use achievement credential templates to sync credentials from third-party credential providers, for example: Credly
-
-Import latest badges and related skills with the **Refresh credentials** option.
-
-Credential badges are displayed in the skill activity insights.
-
-Skills related to Credentials \(badge template\) are synced to the user profile. New skills identified are added to the harmonisation queue. Once imported, dynamic skills are associated with the respective user profile.
-
-**Note:** Credential Core has a soft dependency on Skills Foundation \(8.0\).
-
-
--   **[Create a growth plan with the help of Now Assist](https://www.servicenow.com/docs/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
-
-As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
-
-**Note:** This feature is available when you have both Talent Development Core and ServiceNow Otto for HRSD installed.
+**Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
 
 
 </td></tr><tr><td>
@@ -179,7 +161,19 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Credly Badges](https://www.servicenow.com/docs/access?context=achievements-lxp&family=yokohama&ft:locale=en-US)**
+
+As an employee, view your achievement badges on your employee profile. \(Available across multiple applications within Talent Development Core\).
+
+-   **[Create a growth plan with the help of Now Assist](https://www.servicenow.com/docs/access?context=egd-create-growth-plan-with-nowassist&family=yokohama&ft:locale=en-US)**
+
+You can create growth plans with the help of Now Assist. Employees can select the **Build with Now Assist** button to access help from Now Assist.
+
+
+ -   **[Review skills](https://www.servicenow.com/docs/access?context=egd-activities-landing-page&family=yokohama&ft:locale=en-US)**
+
+A new **Review skills** button has been added in Career Conversations that employees can use to rate their proficiency for each skill they've added.
+
 
 </td></tr><tr><td>
 
@@ -314,7 +308,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

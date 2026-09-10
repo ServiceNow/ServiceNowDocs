@@ -35,7 +35,9 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
     The Selected fields list includes the fields that currently display as columns in the **Log viewer** table. By default, the table includes the following columns: Application service, Component, Host, Level, Message, Raw message, and Time. The Available fields include all remaining fields that the system has extracted from the log.
 
-    In the Service Operations Workspace Log Analytics application, Version 21.2.7 - November 2022 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), the Log message column is added and the Raw message column no longer displays by default. You can add the Raw message column to the table by selecting it from the **Filters** pane.
+    In the Service Operations Workspace Log Analytics application, Version 21.2.7 - November 2022 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), the Log message column is added. The Raw message column no longer displays by default.
+
+    You can add the Raw message column to the table by selecting it from the **Filters** pane.
 
 3.  Add or remove columns in the **Log viewer** table.
 

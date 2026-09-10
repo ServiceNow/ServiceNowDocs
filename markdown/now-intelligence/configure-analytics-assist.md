@@ -1,6 +1,6 @@
 ---
 title: Activate the data visualization generation skill
-description: Give users generative AI capabilities for creating data visualizations from the Now Assist panel by activating the data visualization generation skill.
+description: Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the data visualization generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-analytics-assist.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure, Platform Analytics in the ServiceNow Otto panel, Service
 
 # Activate the data visualization generation skill
 
-Give users generative AI capabilities for creating data visualizations from the Now Assist panel by activating the data visualization generation skill.
+Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the data visualization generation skill.
 
 ## Before you begin
 
@@ -32,7 +32,16 @@ Role required: admin
 
     \[Omitted image "nowass-data-viz-gen-skill.png"\] Alt text: AI Skills tab of AI Admin Hub, showing the Data visualization generation skill under Data and Analytics.
 
-4.  In the **User access - Access Control List \(ACL\)** page, you can add roles who can use this skill.
+4.  To see information about the skill, select **View details**.
+
+    The information includes the following details:
+
+    -   A description of the skill
+    -   Key benefits
+    -   Dependencies and other recommended skills, if applicable
+5.  Select **Turn on**.
+
+6.  In the **User access - Access Control List \(ACL\)** page, you can add roles who can use this skill.
 
     By default, the now.assist.creator.analytics and now\_assist\_analytics\_generation roles have these rights. Think carefully before making any changes.
 
@@ -40,12 +49,10 @@ Role required: admin
 
     After installation, you can return to the AI Admin Hub and change role access for the skill. Select **Edit Configuration** on the tile for an activated skill to reopen the **User access - Access Control List \(ACL\)** page.
 
-5.  Select **Turn on**.
-
 
 ## Result
 
 If the skill was successfully activated, the system notifies you.
 
-**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
 

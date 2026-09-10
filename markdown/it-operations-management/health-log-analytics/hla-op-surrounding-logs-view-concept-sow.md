@@ -21,11 +21,11 @@ While viewing a Log Analytics alert, the **Surrounding logs** tab lists the log 
 
 Logs generated immediately before the anomaly might point to warning signs or conditions that led to the issue. By reviewing these logs, you can trace the sequence of events that led to the anomaly, helping you understand what went wrong. Logs created right after the anomaly can help you evaluate the impact of the event by analyzing how the system responded and whether other components were affected. The timeline of the logs around the anomaly can help clarify what might have caused the issue, for example a configuration change or a software update.
 
-You can modify the time range of the displayed log lines, for example to investigate logs from more than one minute before the anomaly, or more than a second afterward.
+You can modify the time range of the displayed log lines. For example, investigate logs from more than one minute before the anomaly or more than a second afterward.
 
 **Note:** Logs that surround the anomaly are retained and available for 30 days after the creation of the alert. The system does not delete these logs when the global retention period of logs expires. When the retention period expires, the surrounding logs are available only on the **Surrounding logs** tab and not in the Log viewer.
 
-Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert and lists the associated log lines. It automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md).
+Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert. It lists the associated log lines and automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md).
 
 **Related topics**  
 

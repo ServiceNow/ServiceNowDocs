@@ -18,6 +18,8 @@ Use relationships to provide internal and external users with additional access 
 
 Role required: admin
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## About this task
 
 With the Service Model Foundation feature, you can create relationships between the following users:
@@ -108,7 +110,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d115874e262">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d117262e275">
 
 **Account Team Members**
 
@@ -116,7 +118,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d115874e271">
+</td></tr><tr><td id="d117262e284">
 
 **Consumer Team Members**
 
@@ -124,7 +126,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d115874e280">
+</td></tr><tr><td id="d117262e293">
 
 **Household Team Members**
 
@@ -132,7 +134,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d115874e289">
+</td></tr><tr><td id="d117262e302">
 
 **Consumer Relationships**
 
@@ -140,7 +142,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d115874e298">
+</td></tr><tr><td id="d117262e311">
 
 **Household Relationships**
 

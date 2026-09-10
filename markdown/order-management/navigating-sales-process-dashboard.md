@@ -29,7 +29,7 @@ The hierarchical node map visually represents the relationships of sales entitie
 |Delink|Delete child record and its hierarchy. To delink a record, select a link connecting a parent node and its child nodes you no longer want to monitor, and select **Delink**.|
 |Hard link|Enables you to convert soft links to hard links and vice versa. To convert a link, select it and select the **Hard link** toggle switch.|
 
-By default, only three levels are displayed on the node map when you open a sales process record in the CSM Configurable Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-node-map-levels.md).
+By default, only three levels are displayed on the node map when you open a sales process record in the CRM Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-node-map-levels.md).
 
 Only 250 nodes can be displayed on the node map at a time. If you have more than 250 nodes, collapse some nodes and then expand and view the other nodes.
 

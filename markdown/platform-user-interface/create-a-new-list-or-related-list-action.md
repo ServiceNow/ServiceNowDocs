@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -30,24 +30,72 @@ Role required: admin
 
     -   **Action label**
 
-        Enter a label for the action.
+        The label for the action.
 
     -   **Action name**
 
-        This field will populate automatically with the action label in all lowercase and with spaces replaced with underscores.
+        Action label populates automatically in all lowercase and with spaces replaced with underscores.
 
     -   **Implemented as**
-        -   Select **Server Script** to apply the action to the server or database as JavaScript.
-        -   Select **UXF Client Action** to apply the action as a UI Builder page event.
-        -   Select **Client Script** to apply the action to the web browser as JavaScript.
-        -   Select **UI interaction** to apply the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+        -   **Server Script** applies the action to the server or database as JavaScript.
+        -   **UXF Client Action** applies the action as a UI Builder page event.
+        -   **Client Script** applies the action to the web browser as JavaScript.
+        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+    -   **Icon**
+
+        The icon for the action.
+
+        **Note:** Select **ai-sparkle-fill** to add the ServiceNow Otto icon. For hover animation, select the Animate icon check box.
+
+    -   **Button type**
+
+        The color variant of the action button.
+
+        **Note:** **AI Primary**, **AI Secondary**, and **AI Tertiary** are AI gradient variants that visually indicate when users are interacting with AI-powered experiences.
+
+    -   **Record Selection Required**
+
+        When selected, the action requires one or more records to be selected.
+
+    -   **Application**
+
+        The scope that the action exists within.
+
     -   **Table**
 
-        Select a table for the action button to appear on.
+        Table for the action button to appear on.
 
     -   **View**
 
-        Select a UI view for the action button to appear on.
+        UI view for the action button to appear on.
+
+    -   **Experience Restricted**
+
+        When selected, the action is limited to an experience instead of being available across all experiences.
+
+    -   **Active**
+
+        When selected, the action is active.
+
+    -   **Order**
+
+        Order in which the action appears relative to other actions.
+
+    -   **Group By**
+
+        When selected, the action appears under a selected group.
+
+    -   **Group**
+
+        The group that the action appears under. Applicable when the Group By check box is selected.
+
+    -   **Tooltip**
+
+        Tooltip text that appears for the action.
+
+    -   **Description**
+
+        Description of the action for internal reference.
 
 4.  Select **Submit**.
 

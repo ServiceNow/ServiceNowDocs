@@ -1,18 +1,18 @@
 ---
 title: SPM Enterprise-Wide Deployment reference
-description: Reference information to provide additional details about Enterprise-Wide Deployment such as the fields, user roles, tables, scheduled jobs, and system properties information.
+description: Reference information to provide additional details about Enterprise-Wide Deployment and Extended Security for Enterprise-Wide Deployment such as the fields, user roles, tables, scheduled jobs, and system properties information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ewd-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
 
 # SPM Enterprise-Wide Deployment reference
 
-Reference information to provide additional details about Enterprise-Wide Deployment such as the fields, user roles, tables, scheduled jobs, and system properties information.
+Reference information to provide additional details about Enterprise-Wide Deployment and Extended Security for Enterprise-Wide Deployment such as the fields, user roles, tables, scheduled jobs, and system properties information.
 
 -   **[Components installed with Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/components-installed-with-ewd.md)**  
 Several types of components are installed with installation of the Enterprise-Wide Deployment application, such as user roles, tables, and scheduled jobs.

@@ -17,7 +17,7 @@ Edit default groups to add or remove members in Core Business Suite.
 
 ## Before you begin
 
-Role required: sn\_cbs.admin
+Role required: admin
 
 ## About this task
 

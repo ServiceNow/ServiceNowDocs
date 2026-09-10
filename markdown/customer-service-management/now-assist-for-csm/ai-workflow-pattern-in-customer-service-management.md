@@ -55,7 +55,7 @@ This allows admin to control whether the **Triage Cases** button appears in the 
 
 \[Omitted image "ai-workflow-triage-cases.png"\] Alt text: Add triggers page showing Triage Cases UI actions with display toggles and configuration options.
 
-The **AI Workflow** tab is visible on following pages in CSM Configurable Workspace:
+The **AI Workflow** tab is visible on following pages in CRM Workspace:
 
 -   CSM default record page
 -   CSM frontline case page

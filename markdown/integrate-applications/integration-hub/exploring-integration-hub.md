@@ -80,7 +80,7 @@ Integration Hub provides process owners and developers these benefits.
 
 ## Development process
 
-When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see Build applications.
+When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see [Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
 
 When developing spokes, flow and action designers typically perform these application development tasks.
 

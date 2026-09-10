@@ -37,7 +37,7 @@ When negotiations are complete for a sourcing event, you can award one or multip
 -   **[Create a knowledge base article about procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-kb-article.md)**  
 Create a knowledge base article about procurement so that you can share procurement information and policies with your employees and procurement team.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -54,11 +54,13 @@ Create a knowledge base article about procurement so that you can share procurem
 
 [Create a Universal Request]()
 
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
+
 [Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 
 [Procurement Case Management Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-service-delivery-dashboard.md)
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
-
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 

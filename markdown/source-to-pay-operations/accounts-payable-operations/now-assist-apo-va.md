@@ -39,7 +39,7 @@ For example, enter `Track status of Invoice` in the chat to view the status of t
 
 \[Omitted image "now-assist-apo-track-request.png"\] Alt text: Summary of the invoice case.
 
-\[Omitted image "now-assist-track-req.png"\] Alt text:
+\[Omitted image "now-assist-track-req.png"\] Alt text: Track status
 
 ## Using a predefined topic to connect to a live agent
 

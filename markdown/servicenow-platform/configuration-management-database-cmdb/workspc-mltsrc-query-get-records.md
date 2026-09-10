@@ -1,6 +1,6 @@
 ---
 title: Create a Get Records query
-description: Create a Get Records query from the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace to help you explore CMDB 360 data.
+description: Create a Get Records query from the CMDB 360 dashboard in CMDB Workspace to help you explore CMDB 360 data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.html
 release: australia
@@ -8,47 +8,43 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a Get Records query
 
-Create a Get Records query from the CMDB 360 dashboard in CMDB Workspaceor in Service Graph Workspace to help you explore CMDB 360 data.
+Create a Get Records query from the CMDB 360 dashboard in CMDB Workspace to help you explore CMDB 360 data.
 
 ## Before you begin
-
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
-2.  -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
--   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
-3.  On the Saved Queries tile, select **Create Query.**
+2.  On the Saved Queries tile, select **Create Query.**
 
-4.  Select **I want to get CMDB 360 data**.
+3.  Select **I want to get CMDB 360 data**.
 
-5.  Select the CI classes to include in the query.
+4.  Select the CI classes to include in the query.
 
     You can select a class to open the condition builder. Use the condition builder to specify conditions that must be met for each class. Use **And** or **Or** to specify multiple conditions.
 
     Select **All Classes** if you want to include all CI classes without conditions.
 
-6.  Select **Continue**.
+5.  Select **Continue**.
 
-7.  Select discovery sources to query on.
+6.  Select discovery sources to query on.
 
     The query retrieves CMDB 360 data that originates from the discovery sources you specify.
 
     You can leave the Select discovery sources prompt empty to retrieve data for all discovery sources.
 
-8.  Select **Continue**.
+7.  Select **Continue**.
 
-9.  On the form, select the options:
+8.  On the form, select the options:
 
     |Field|Description|
     |-----|-----------|
@@ -56,11 +52,11 @@ Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor
     |Show CI records by discovery source|Select if you want to see records for each CI and discovery source pair.|
     |Limit results to|Limits the query results to CIs that belong to a service or CMDB group. When you select **Application Services**, **Technical Services**, or **CMDB Groups**, a prompt appears. You can use the prompt to specify the service or group that you want the query to filter for.|
 
-10. Select **Continue**.
+9.  Select **Continue**.
 
-11. Enter a name and description for your query.
+10. Enter a name and description for your query.
 
-12. Select **Save**.
+11. Select **Save**.
 
 
 ## What to do next

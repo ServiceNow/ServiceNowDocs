@@ -40,7 +40,7 @@ Bulk delete operations are available for all M2M relationship records from the r
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

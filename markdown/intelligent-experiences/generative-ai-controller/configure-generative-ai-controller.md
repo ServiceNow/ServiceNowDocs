@@ -27,6 +27,8 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   IBM watsonx
 -   Amazon Bedrock
 
+After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see .
+
 -   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
 
     Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
@@ -38,10 +40,6 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   **[Configure an AI service provider for a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md)**
 
     Set your preferred AI service provider for each capability and tailor generative AI content to suit your business needs.
-
--   **Enable generative AI capabilities in Virtual Agent Designer**
-
-    Enable generative AI capabilities in Virtual Agent Designer to build custom topics and topic blocks with content created by AI.
 
 -   **[Enable recursive summarization for large inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.md)**
 

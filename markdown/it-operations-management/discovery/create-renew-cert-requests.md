@@ -46,5 +46,7 @@ The Certificate task is generated and submitted for approval. The approval field
 
 **Note:** The notification process for certificate renewal exclusively supports manual flow and does not involve automated certificate management. For CSR information, you must use automated certificate management.
 
-When monitoring the status of a certificate order, if there's a configuration-related issue, the task may get stuck in "work in progress." The PKI Admin is responsible for resolving such issues. For example, if the MID Server is down during the scheduled job tracking the certificate order status, the system waits for the next scheduled job instead of logging an error. If the MID Server is brought back up before the subsequent job, the certificate retrieval proceeds accordingly.
+When monitoring the status of a certificate order, the task may get stuck in "work in progress" if there's a configuration-related issue. The PKI Admin must resolve such issues.
+
+For example, if the MID Server is down during the scheduled job tracking the certificate order status, the system waits for the next scheduled job. It does not log an error. If the MID Server is brought back up before the subsequent job, the certificate retrieval proceeds accordingly.
 

@@ -22,7 +22,7 @@ The Service Problem case record page provides the following features for agents:
 
 \[Omitted image "spc-record-page.png"\] Alt text: C360 tab vies of an service problem case record page.
 
-To view the record page, select the form icon \(\[Omitted image "icon-form.png"\] Alt text: Form Icon.\) in the Service Problem case record. You can switch to playbook view by selecting playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook Icon.\).
+To view the record page, select the form icon \(\[Omitted image "icon-form.png"\] Alt text:\) in the Service Problem case record. You can switch to playbook view by selecting playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text:\).
 
 **Note:** The Service Problem case record page is not available in the Customer Service Portal.
 

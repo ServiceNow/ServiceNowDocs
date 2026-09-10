@@ -1,9 +1,9 @@
 ---
 title: Enterprise Asset Management release notes
-description: The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
+description: The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
 
-## Enterprise Asset Management highlights for the Australia release
+## About Enterprise Asset Management
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -30,6 +30,8 @@ Early Availability
 
 See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md) for more information.
 
+## Activation and other requirements
+
 **Important:** The following applications are available in the ServiceNow Store:
 
 -   Enterprise Asset Management
@@ -42,7 +44,38 @@ See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/S
 
 For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install the following applications by requesting them from the ServiceNow Store:
+
+    -   Enterprise Asset Management
+    -   Enterprise Asset Management for Healthcare
+    -   Enterprise Asset Management for Facilities
+    -   OT Asset Management
+    -   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
+    -   Enterprise Asset Management for Providers
+    -   Expanded Model and Asset Classes
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now Assist to ServiceNow Otto® name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## April 2026
+
+The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Automate enterprise asset sourcing by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)**
 
@@ -61,6 +94,12 @@ For details, see the "Activation information" section of these release notes.
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+
+## Australia Early Availability
+
+The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/manage-work-order-plans.md)**
 
@@ -92,7 +131,7 @@ For details, see the "Activation information" section of these release notes.
     Audit personal stockroom assets as an FSM field agent using the ServiceNow Agent mobile application. Access is controlled through new granular audit roles.
 
 
-## UI changes
+### What's changed
 
 -   **[Work order plan reports in the Work management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/work-management-overview-eam.md)**
 
@@ -107,13 +146,6 @@ For details, see the "Activation information" section of these release notes.
 -   **[Affected assets tab in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/work-management-overview-eam.md)**
 
     The **Affected assets** tab provides a comprehensive view of all assets associated with a work order. When a work order includes an asset group, the tab lists every asset belonging to that group.
-
-
-## Changed in this release
-
--   **[Now Assist to ServiceNow Otto® name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 -   **[Multiple assets and asset groups in a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-eam-work-order-task.md)**
@@ -132,35 +164,4 @@ For details, see the "Activation information" section of these release notes.
 
     When an asset condition work order is created for multiple assets or an asset group, the system generates a separate condition line for each asset in the Affected assets list. All condition lines must be evaluated before the work order can be completed.
 
-
-## Activation information
-
-Install the following applications by requesting them from the ServiceNow Store:
-
--   Enterprise Asset Management
--   Enterprise Asset Management for Healthcare
--   Enterprise Asset Management for Facilities
--   OT Asset Management
--   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
--   Enterprise Asset Management for Providers
--   Expanded Model and Asset Classes
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
-
-    The ServiceNow® Field Service Management application enables your organization to manage location-based work more efficiently and safely.
-
--   **[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ContractManagement.md)**
-
-    The ServiceNow® Contract Management application enables you to track and manage your contracts.
-
--   **[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_Procurement.md)**
-
-    The ServiceNow® Procurement application helps you create purchase orders and obtain items for fulfilling service catalog requests.
-
-
-**Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)
 

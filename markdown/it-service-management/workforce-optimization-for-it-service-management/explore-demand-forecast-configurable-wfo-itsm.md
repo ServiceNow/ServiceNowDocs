@@ -8,13 +8,15 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Demand Forecast in Workforce Optimization for ITSM
 
 Learn how you can use Demand Forecast to predict resources based on historical data.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The video below shows an overview of the Demand Forecast application.
 

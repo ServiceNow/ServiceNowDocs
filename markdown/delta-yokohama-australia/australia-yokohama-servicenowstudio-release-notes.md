@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr><tr><td>
 
@@ -46,7 +49,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr><tr><td>
 
@@ -54,7 +60,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -91,18 +100,6 @@ Change settings or see related links for an app from the app details page. Refre
 
 In the November 2024 release, only admins could create apps in ServiceNow Studio. Now, users with Guided Application Creator \(GAC\) roles can also create applications.
 
--   **[File Navigator performance has been improved for large applications](https://www.servicenow.com/docs/access?context=configuring-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
-
--   **[Create an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
-
--   **[Viewing app origination information in ServiceNow Studio](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
-
 
 </td></tr><tr><td>
 
@@ -130,34 +127,6 @@ Improve efficiency as you work in ServiceNow Studio by focusing the Navigator pa
 
 Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
 
--   **[Create an application](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, you can use Now Assist or Creator Studio to begin creating your applications. You can also view the App Gallery for more inspiration.
-
--   **[Elevate your role](https://www.servicenow.com/docs/access?context=elevate-your-role-in-servicenow-studio&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, you can elevate your role to security\_admin without having to leave ServiceNow Studio. Users with the security\_admin role can make changes to other roles and to access control lists \(ACLs\).
-
--   **[Personas and roles](https://www.servicenow.com/docs/access?context=sn-studio-personas-roles&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role in ServiceNow Studio.
-
--   **[Opening files in your preferred editor](https://www.servicenow.com/docs/access?context=opening-files-in-your-preferred-editor&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
-
--   **[Bookmark lists](https://www.servicenow.com/docs/access?context=bookmark-lists-in-sns&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, access your favorite lists by bookmarking them.
-
--   **[AppSee support in ServiceNow Studio](https://www.servicenow.com/docs/access?context=exploring-servicenow-studio&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, AppSee is supported in ServiceNow Studio.
-
--   **[Create an app file](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=zurich&ft:locale=en-US)**
-
-As of version 28.2.1, you can create files directly from an app open in the Navigator panel.
-
 
 </td></tr><tr><td>
 
@@ -165,40 +134,13 @@ Australia
 
 </td><td>
 
--   **[Building apps in source code in ServiceNow Studio](https://www.servicenow.com/docs/access?context=building-apps-in-source-code-sn-studio&family=australia&ft:locale=en-US)**
-
-Use ServiceNow IDE capabilities within ServiceNow Studio to create apps in source code. Use the new Explorer tab to open Fluent files and see underlying Fluent source code.
-
--   **[Metadata source control in ServiceNow Studio](https://www.servicenow.com/docs/access?context=source-control-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Upgrade to the new version of source control in ServiceNow Studio to access more features, such as additional Git commands.
-
-
- -   **[Create a collection of files](https://www.servicenow.com/docs/access?context=qs-create-a-collection&family=australia&ft:locale=en-US)**
+-   **[Create a collection of files](https://www.servicenow.com/docs/access?context=qs-create-a-collection&family=australia&ft:locale=en-US)**
 
 Create collections of your most frequently used apps, files, and lists for easy access. Collections extend current bookmark capabilities and can contain apps and files from different scopes.
 
 -   **[App deployment in ServiceNow Studio](https://www.servicenow.com/docs/access?context=app-deployment-servicenow-studio&family=australia&ft:locale=en-US)**
 
 View deployment requests directly within ServiceNow Studio. Attach update sets to a request to group related changes for deployment.
-
-
- -   **[Create an application in ServiceNow Studio with Build Agent](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Begin a chat with Build Agent directly from the app creation workflow. This setting can be configured in user preferences.
-
-
- -   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
-
--   **[Add UI Builder files to your apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-file-navigator-taxonomy&family=australia&ft:locale=en-US)**
-
-Add UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
-
--   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
-
-Explore agentic development, which is a natural language approach to application development in ServiceNow. Learn how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 </td></tr></tbody>
@@ -224,10 +166,6 @@ Yokohama
 
 The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
--   **[Create an application in ServiceNow Studio](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
-
 
 </td></tr><tr><td>
 
@@ -235,7 +173,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Open in Creator Studio link](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=zurich&ft:locale=en-US)**
+
+The link to open an app in Creator Studio was previously available on the App details page in the app metadata section. The link is now in the More actions menu.
+
 
 </td></tr><tr><td>
 
@@ -243,28 +184,9 @@ Australia
 
 </td><td>
 
--   **[AI tools and files](https://www.servicenow.com/docs/access?context=working-with-now-assist-tools-sn-studio&family=australia&ft:locale=en-US)**
-
-ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
-
-
 -   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
 
 Developers who prompt Build Agent to create an app from the [ServiceNow Developer site](https://developer.servicenow.com/dev.do) are redirected to ServiceNow Studio instead of ServiceNow IDE to continue building their app.
-
-
--   **[Preview an app file](https://www.servicenow.com/docs/access?context=preview-app-file&family=australia&ft:locale=en-US)**
-
-Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
-
-
--   **[Integrated tab groupings](https://www.servicenow.com/docs/access?context=qs-open-apps-files-across-scopes&family=australia&ft:locale=en-US)**
-
-Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
-
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Build Agent is the default setting for AI-assisted app generation in ServiceNow Studio. You can change this setting in the ServiceNow Studio user preferences menu.
 
 
 </td></tr></tbody>
@@ -360,7 +282,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -368,7 +293,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -376,7 +304,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -508,7 +439,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
+
 
 </td></tr><tr><td>
 

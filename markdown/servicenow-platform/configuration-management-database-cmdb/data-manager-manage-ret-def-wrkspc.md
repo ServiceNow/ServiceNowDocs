@@ -1,6 +1,6 @@
 ---
 title: Manage retirement definitions for CMDB Data Manager
-description: Use CMDB Workspace or Service Graph Workspace to create, delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace or in Service Graph Workspace.
+description: Use CMDB Workspace to create, delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration M
 
 # Manage retirement definitions for CMDB Data Manager
 
-Use CMDB Workspaceor Service Graph Workspace to create,delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.
+Use CMDB Workspace to create,delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.
 
 ## Before you begin
 
@@ -37,10 +37,8 @@ When a CMDB Data manager retires a CI, ensure that any of its dependent CIs are 
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
 2.  In the Get started area on the Data Manager overview page, select **Manage retirement definitions**.
 
 3.  On the Data Manager settings page, review the Retirement definitions list view.
@@ -91,7 +89,7 @@ Condition that reflects on what retirement means in the organization.Target CIs 
 </table>
 ## Delete a CMDB Data Manager retirement definition
 
-Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspaceor in Service Graph Workspace.
+Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace.
 
 ### Before you begin
 
@@ -106,10 +104,8 @@ Role required: sn\_cmdb\_admin, data\_manager\_admin
 
 ### Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
 2.  In the Get started area on the Data Manager overview page, select **Manage retirement definitions**.
 
 3.  On the Data Manager settings page, in the Retirement definitions tile select the retirement definition that you want to delete.

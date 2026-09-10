@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-operations-management/dynatr
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 ---
 
@@ -32,6 +32,23 @@ Root URL or endpoint used to connect to the Dynatrace Metrics API. All API reque
 
 </td></tr><tr><td>
 
+connectionAliasSysID
+
+</td><td>
+
+Sys ID of the connection alias record associated with the Dynatrace connection.
+
+</td></tr><tr><td>
+
+debug
+
+</td><td>
+
+-   Debug: Provides detailed logs for troubleshooting.
+-   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
+
+</td></tr><tr><td>
+
 Initial sync in mins
 
 </td><td>
@@ -39,6 +56,24 @@ Initial sync in mins
 Time, in minutes, that the system takes to complete the first synchronization of data with the Dynatrace Metrics API.For example, if the value is 15, the connector fetches metrics from the past 15 minutes.
 
 Default: 15
+
+</td></tr><tr><td>
+
+isGrailApiEnabled
+
+</td><td>
+
+Enables Grail-based metric collection for the Dynatrace connection. When enabled, this allows Grail API calls to fetch metrics data and populates the Connector Instance Metrics \[sn\_em\_connector\_instance\_metrics\] table with Grail-related metric IDs. When disabled, the table is populated with classic metric IDs.
+
+Default: false.
+
+</td></tr><tr><td>
+
+logPayload
+
+</td><td>
+
+Enables logging of the request and response payloads for the Dynatrace connection, useful for debugging.
 
 </td></tr><tr><td>
 
@@ -91,15 +126,6 @@ Protocol
 </td><td>
 
 Communication protocol used for retrieving events from Dynatrace server.Default: https
-
-</td></tr><tr><td>
-
-Debugging
-
-</td><td>
-
--   Debug: Provides detailed logs for troubleshooting.
--   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
 
 </td></tr></tbody>
 </table>To return to the procedure, see [Configure Dynatrace metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-dynatrace-metric-pull-connector.md).

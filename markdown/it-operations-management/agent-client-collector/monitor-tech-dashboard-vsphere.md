@@ -1,6 +1,6 @@
 ---
 title: Monitoring Technology Dashboard for VMware vSphere
-description: With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+description: With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/monitor-tech-dashboard-vsphere.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment -
 
 # Monitoring Technology Dashboard for VMware vSphere
 
-With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 
 ## Overview of the dashboard
 

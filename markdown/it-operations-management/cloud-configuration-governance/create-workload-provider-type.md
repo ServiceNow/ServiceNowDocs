@@ -74,7 +74,13 @@ Server Type
 
 </td><td>
 
-Type of server for the provider like Opensourced, Enterprise.
+Ansible server type used by the provider. The available options are:
+
+-   Ansible Community
+-   Ansible Tower \(Legacy\)
+-   AWX
+-   Ansible Automation Platform
+
 
 </td></tr><tr><td>
 

@@ -22,13 +22,13 @@ Role required: sn\_cmdb\_editor or itil to view, and sn\_cmdb\_admin, itil\_admi
 
 ## About this task
 
-Alternatively, you can use de-duplication capabilities in CMDB Workspaceor in Service Graph Workspace. Use the De-duplication dashboard and the De-duplication Template Library to:
+Alternatively, you can use de-duplication capabilities in CMDB Workspace. Use the De-duplication dashboard and the De-duplication Template Library to:
 
 -   Review de-duplication tasks
 -   Process de-duplication tasks in bulk by using de-duplication templates
 -   Gain insights into de-duplication counts and status in your organization
 
-For more information, see [CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
+For more information, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 If a duplicate CI is a dependent CI, then you can view the details of the dependent relationship, the Depend on CI, and any relation qualifier chain. If the dependent CI has a lookup table, then you can see the details of the respective lookup table.
 

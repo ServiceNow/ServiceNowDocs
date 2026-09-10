@@ -123,6 +123,57 @@ A summary of the steps the automation performs. This field is used as the basis 
     **Important:** Each prompt starts fresh and doesn't carry forward the previous changes. To keep earlier changes, include all your requirements in one prompt.
 
 
+## Example: Generating onboarding automation blocks
+
+When the HR analyst's automation request arrives in Automation Center, the following automation blocks are created.
+
+<table id="table_qth_wv1_hkc"><thead><tr><th>
+
+Task type
+
+</th><th>
+
+Automation blocks
+
+</th></tr></thead><tbody><tr><td>
+
+On-screen tasks
+
+</td><td>
+
+-   **Fill HR form**
+
+Fill HR system form with new hire data.
+
+Requires screenshots and UI interaction metadata.
+
+-   **Add employee to Outlook**
+
+Add employee to Outlook distribution list.
+
+Requires browser navigation and form interaction.
+
+
+</td></tr><tr><td>
+
+Background tasks
+
+</td><td>
+
+-   **Read data from Excel**
+
+Read new hire information from Excel file.
+
+Operates silently based on instructions.
+
+
+</td></tr></tbody>
+</table>The technical user reviews the generated blocks:
+
+-   Verifies that the on-screen form-filling task captured all required fields
+-   Confirms the distribution list task navigates to the correct team list
+-   Reviews the background task instructions for reading Excel data correctly
+
 ## What to do next
 
 You can now create an AI agent and desktop actions from the generated automation blocks. For more information, see [Create an AI agent and desktop actions from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-agent-automations.md).

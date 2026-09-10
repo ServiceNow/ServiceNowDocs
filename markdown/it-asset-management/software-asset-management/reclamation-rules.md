@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -594,7 +594,7 @@ Removes access to the application. For example, you might want to reclaim the ac
 
 </td><td>
 
-User's last activityFor the list of activities, see [Event Reporting Reference](https://smartsheet-platform.github.io/event-reporting-docs/).
+User loginIf event reporting add-on is available on the user's account, the integration tracks user's last activity. For the list of activities, see [Event Reporting Reference](https://smartsheet-platform.github.io/event-reporting-docs/).
 
 </td><td>
 
@@ -602,7 +602,12 @@ Yes
 
 </td><td>
 
-Removes the user from your organization account, downgrading them to a free collaborator with read-only access to the reports, sheets, sights, workspaces, and shared templates that haven't been transferred to other users.
+Based on the Smartsheet licensing model in use:-   Legacy model: Removes the user from your organization account.
+-   User-based subscription model \(USM\): Downgrades the user from a paid Member seat to a free seat type:
+    -   Users whose domain matches your organization's domain are downgraded to contributor.
+    -   Users whose domain doesn't match your organization's domain are downgraded to guest.
+
+Downgrading a user preserves their data and sheet access on the Smartsheet portal. If a downgraded user does not own any sheets and has no sheets shared with them, Smartsheet automatically deactivates that user.
 
 </td></tr><tr><td>
 

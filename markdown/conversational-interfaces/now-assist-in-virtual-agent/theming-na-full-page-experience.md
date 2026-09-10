@@ -1,30 +1,30 @@
 ---
-title: Theming for Now Assist in Virtual Agent enhanced chat
-description: You can customize the look and feel of the Now Assist in Virtual Agent enhanced chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
+title: Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat
+description: You can customize the look and feel of the ServiceNow Otto for Virtual Agent enhanced and premium chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-08-31"
 reading_time_minutes: 3
 breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
-# Theming for Now Assist in Virtual Agent enhanced chat
+# Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat
 
-You can customize the look and feel of the Now Assist in Virtual Agent enhanced chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
+You can customize the look and feel of the ServiceNow® Otto for Virtual Agent enhanced and premium chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 
-As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md). Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
+As a Virtual Agent admin or admin, you can customize the default enhanced and premium chat theming variables. Information on how to customize theming can be found in [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md). Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
 
 **Note:**
 
 The chat header logo is shared between standard and enhanced chat, and it’s determined by the selected standard chat branding profile. You can’t configure a separate chat header logo for each experience. Updating the chat header logo in one experience updates it for the other. To view the branding profile, navigate to **Assistant Designer** &gt; **Assistants** &gt; **Branding**.
 
-For the variables, `nass` refers to enhanced chat.
+For the variables, `nass` refers to enhanced or premium chat.
 
-For more information about enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
+For more information about enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
 <table id="table_ok3_wwm_bdc"><thead><tr><th>
 
@@ -152,7 +152,7 @@ $now-sp-nass-modeless-dialog-header-bg-color
 
 </td><td>
 
-Background color for primary Now Assist header bar.
+Background color for primary ServiceNow Otto header bar.
 
 </td><td>
 
@@ -164,7 +164,7 @@ $now-sp-nass-modeless-dialog-header-text-color
 
 </td><td>
 
-Text color for primary Now Assist header.
+Text color for primary ServiceNow Otto header.
 
 </td><td>
 
@@ -566,101 +566,15 @@ Highlighted info value in the mid-topic card.
 
 $state-info-bg
 
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-icon
-
-</td><td>
-
-Icon imagery that appears on the floating action button.
-
-</td><td>
-
-ai-sparkle-icon
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-color-1
-
-</td><td>
-
-First color of background gradient for chat floating action button icon.
-
-</td><td>
-
-$brand-primary-lighter
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-color-2
-
-</td><td>
-
-Second color of background gradient for chat floating action button icon.
-
-</td><td>
-
-$brand-info
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-hover-color-1
-
-</td><td>
-
-First color of background gradient for chat floating action button icon in hover state.
-
-</td><td>
-
-$brand-primary-darker
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-hover-color-2
-
-</td><td>
-
-Second color of background gradient for chat floating action button icon in hover state.
-
-</td><td>
-
-darken \($brand-info, 10%\)
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-active-color-1
-
-</td><td>
-
-First color of background gradient for chat floating action button icon in active state.
-
-</td><td>
-
-$brand-primary
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-gradient-active-color-2
-
-</td><td>
-
-Second color of background gradient for chat floating action button icon in active state.
-
-</td><td>
-
-$brand-info
-
-</td></tr><tr><td>
-
-$now-sp-nass-FAB-icon-size-factor
-
-</td><td>
-
-Handles size of Image within the chat icon.
-
-</td><td>
-
-1
-
 </td></tr></tbody>
-</table>
+</table>|Variable|Description|Default Values|
+|--------|-----------|--------------|
+|$now-sp-nass-FAB-icon|Icon imagery that appears on the floating action button.|ai-sparkle-icon|
+|$now-sp-nass-FAB-gradient-color-1|First color of background gradient for chat floating action button icon.|$now-actionable--primary-ai--background-color-gradient--start which is RGB \(134, 246, 115\)|
+|$now-sp-nass-FAB-gradient-color-2|Second color of background gradient for chat floating action button icon.|$now-actionable--primary-ai--background-color-gradient--end which is RGB \(113, 213, 254\)|
+|$now-sp-nass-FAB-hover-bg-color|Solid background color for chat floating action button icon in hover state.|$now-actionable--primary-ai--background-color-gradient--start which is RGB \(134, 246, 115\)|
+|$now-sp-nass-FAB-active-bg-color|Solid background color for chat floating action button icon in active state.|$now-actionable--primary-ai--background-color-active which is RGB \(125, 229, 107\)|
+|$now-sp-nass-FAB-icon-color|Color of icon imagery that appears on the floating action button.|$now-actionable\_icon--primary-ai--color which is RGB \(0, 79, 101\)|
+|$now-sp-nass-FAB-focus-ring-color|Focus ring color around the chat floating action button in focus state.|$now-color\_focus-ring which is RGB \(36, 138, 19\)|
+|$now-sp-nass-FAB-icon-size-factor|Handles size of Image within the chat icon.|1|
+

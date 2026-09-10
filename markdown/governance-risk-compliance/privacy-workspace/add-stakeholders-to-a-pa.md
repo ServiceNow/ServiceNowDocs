@@ -54,12 +54,40 @@ You can add key stakeholders only when the processing activity is either in the 
 
     3.  In the **Processing activity privileges** field, set the stakeholder processing activity privilege.
 
-        The available options are:
+<table id="table_l3x_4m3_ljc"><thead><tr><th>
 
-        -   Respond to privacy assessments - Default privilege for stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role.
-        -   Edit processing activity and respond to privacy assessments - Stakeholders must have the sn\_privacy-business\_role to be assigned this privilege by a privacy analyst or manager.
-        -   No privilege to respond to assessments - Default privilege for stakeholders with no privacy roles.
-        **Note:**
+Privilege
+
+</th><th>
+
+Result
+
+</th></tr></thead><tbody><tr><td>
+
+**Respond to privacy assessments**
+
+</td><td>
+
+Default privilege for stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role.
+
+</td></tr><tr><td>
+
+**Edit processing activity and respond to privacy assessments**
+
+</td><td>
+
+Privilege set manually by a privacy analyst or privacy manager. The stakeholder must have the sn\_privacy.business\_user role to be assigned this privilege.
+
+</td></tr><tr><td>
+
+**No privilege to respond to assessments**
+
+</td><td>
+
+Default privilege for stakeholders with no privacy roles.**Note:** To modify this privilege, the user must first be granted the sn\_privacy.business\_user role. Then, a privacy analyst must manually update their privilege to **Respond to privacy assessments** or **Edit processing activity and respond to privacy assessments**.
+
+</td></tr></tbody>
+</table>        **Note:**
 
         If you select an option that requires a role the stakeholder doesn't have, the application displays a validation message. Contact your system administrator to grant the necessary role, and then set the privilege again.
 

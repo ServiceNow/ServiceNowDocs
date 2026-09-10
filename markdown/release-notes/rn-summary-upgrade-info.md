@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-upgrade-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 31
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -26,6 +26,20 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Admin Hub
+
+</td><td>
+
+If you customized actions on the user interface or other items that are associated with ServiceNow Otto skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
+
+If you run into issues when you're upgrading a ServiceNow Otto product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
+
+The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
+
+The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -38,7 +52,7 @@ AI Desktop Actions
 
 </td><td>
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +132,7 @@ If you have the feature administrator role you can now complete tasks that were 
 
 </td></tr><tr><td>
 
-Cloud Cost Management 10.0
+Cloud Cost Management
 
 </td><td>
 
@@ -226,15 +240,21 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks or Now Assist\).
+
+</td></tr><tr><td>
+
 Flows, subflows, and actions
 
 </td><td>
 
-An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/restore-save-as-you-go-functionality.md).
+An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see .
 
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
-
-The Australia release restricts the default flow reporting level available on production instances to the basic reporting level. While you can't set all flows to the full reporting level, you can still set individual flows to the full reporting level. For more information about setting a flow's reporting level, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/enable-flow-reporting.md).
 
 </td></tr><tr><td>
 
@@ -309,6 +329,14 @@ Key Management
     -   New Australia instances can’t use GlideEncrypter. All base system scripts have been changed to use alternative encryption processes.
     -   if you’re upgrading your Australia instances, you can still GlideEncrypter, which has been updated to use AES256-GCM encryption via the Key Management Framework.
     -   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
+
+</td></tr><tr><td>
+
+Live Connect
+
+</td><td>
+
+ServiceNow provided customers with a free SOAP-based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST-based Live Connect client by completing the required configuration on both the server and client sides. For more information, see .
 
 </td></tr><tr><td>
 
@@ -411,7 +439,7 @@ Public Sector Digital Services
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in Customer Service Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
 
 </td></tr><tr><td>
 
@@ -445,14 +473,6 @@ ReleaseOps
 </td><td>
 
 If you have customized the ReleaseOps sample playbooks, the runbook task playbook activity will not automatically populate when you upgrade to Australia.
-
-</td></tr><tr><td>
-
-SQL API
-
-</td><td>
-
-ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST‑based Live Connect client by completing the required configuration on both the server and client sides. For more information, see [Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md).
 
 </td></tr><tr><td>
 
@@ -492,21 +512,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE version 3.2.3 is active by default on instances on the Australia release. Update to ServiceNow IDE version 4.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-servicenow-ide.md).
-
-</td></tr><tr><td>
-
-ServiceNow Otto
-
-</td><td>
-
-If you customized actions on the user interface or other items that are associated with ServiceNow Otto skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
-
-If you run into issues when you're upgrading a ServiceNow Otto product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
-
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
-
-The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+ServiceNow IDE version 3.2.3 is active by default on instances on the Australia release. Update to ServiceNow IDE version 4.0 or later to use the latest features. For information about updating ServiceNow IDE, see .
 
 </td></tr><tr><td>
 
@@ -546,15 +552,23 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+TBD.
+
+</td></tr><tr><td>
+
 ServiceNow SDK
 
 </td><td>
 
-To upgrade to the latest version of the ServiceNow SDK globally or within an application, see [Upgrade the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/upgrade-servicenow-sdk.md).
+To upgrade to the latest version of the ServiceNow SDK globally or within an application, see .
 
 ServiceNow SDK version 4.4 supports integration with ServiceNow instances beginning with the Washington DC release.
 
-On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/authenticate-instance-now-sdk.md).
+On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see .
 
 **Important:** For minor releases of the ServiceNow SDK, see the [ServiceNow SDK release notes](https://github.com/ServiceNow/sdk/releases) on GitHub.
 
@@ -596,7 +610,7 @@ Subscription Management
 
 </td><td>
 
-Subscription Management version 6.1 is active by default on all instances of the Australia release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-application-app-mgr.md).
+Subscription Management version 6.1 is active by default on instances of the Australia release. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -610,7 +624,7 @@ After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(
 
 **Warning:** Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so can result in unexpected issues.
 
-For more information on upgrading from VRM to TPRM and the differences between the Smart and Classic Assessment engines, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-tprm-upgrade-info.md).
+For more information on upgrading from VRM to TPRM and the differences between the Smart and Classic Assessment engines, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-tprm-rn.md).
 
 For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content. Update any customizations that reference the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
 
@@ -661,6 +675,8 @@ ServiceNow Otto® is the new AI experience brand. This change is reflected in th
 If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
 
 For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base
+
+Starting with the Australia release, the Patch update and Collection fields on patch deployment records for the Microsoft SCCM and HCL BigFix Patch Orchestration integrations are deprecated in favor of new multi-value Patch updates and Collections fields, which support deploying more than one patch to more than one collection or computer group in a single deployment. Existing values in the deprecated fields are automatically migrated to the new fields during the upgrade. The deprecated fields remain on the form but are no longer used to create new deployments.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

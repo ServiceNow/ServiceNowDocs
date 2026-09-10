@@ -16,7 +16,7 @@ Monitor the progress of an approval request as it moves through the steps in an 
 
 ## Approval workflow interface
 
-After an approval request is submitted, approval users can view the approval steps in the CSM Configurable Workspace. For example, in a quote approval workflow, requesters, approvers, and users with view access can navigate to the quote. They access the approval workflow interface from the quote Approvals tab.
+After an approval request is submitted, approval users can view the approval steps in the CRM Workspace. For example, in a quote approval workflow, requesters, approvers, and users with view access can navigate to the quote. They access the approval workflow interface from the quote Approvals tab.
 
 The approval workflow interface provides an audit trail of approval steps and steps approval chains. Approval cards identify the:
 

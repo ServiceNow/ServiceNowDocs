@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoformanufacturingcommercialoperationsmco-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -239,7 +239,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of ServiceNow Otto for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -428,11 +431,11 @@ Zurich
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US) 
 
 -   Enable the Recall manager to create corrective actions and charges for the recall campaign using the create recall corrective actions AI agent.
 
- See [Now Assist for MCO](https://www.servicenow.com/docs/access?context=now-assist-for-MCO&family=zurich&ft:locale=en-US) for more information.
+ See [ServiceNow Otto for MCO](https://www.servicenow.com/docs/access?context=now-assist-for-MCO&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

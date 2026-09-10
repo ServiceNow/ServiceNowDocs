@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [AWS EC2 Windows items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Amazon Web Services EC2 Windows Out Of Box permissions

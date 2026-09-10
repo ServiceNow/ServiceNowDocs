@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Financial Cloud spoke v1.6.0 is the latest version.
+Oracle Financial Cloud spoke v1.7.1 is the latest version. For version history of the spoke, see [Oracle Financial Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-financial-cloud.html).
 
 ## Supported versions
 
@@ -108,6 +108,7 @@ The Oracle Financial Cloud spoke provides actions to automate Oracle Financial C
 |General Ledger|Get Code Combinations Details|Retrieves information about the code combinations.|
 |Get Subledger Balances|Retrieves information about the subledger balances.|
 |Import Journals|Imports details about the journals.|
+|Look up Chart of Accounts|Retrieves the chart of accounts structure, including segment definitions and value set details, for the specified ledger.[Create chart of accounts data model in Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-coa-data-model-oracle-fin-cloud.md),before using this action.|
 |Look up Ledger Balance|Retrieves information about the ledger balances.|
 |Invoice Management|Look up Invoice Payments Status|Retrieves the status of invoice payment for the specified invoice ID from Oracle Financial Cloud.|
 |Update Invoice Payment Status|Updates the status of an existing invoice payment in Oracle Financial Cloud.|

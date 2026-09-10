@@ -21,9 +21,9 @@ Learn more about the Legal Conflict of Interest application through a sample wor
 
 The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center. The Requests are evaluated against predefined risk factors to calculate an overall risk score. Based on this score, requests are routed to the appropriate approval workflow for faster resolution.
 
-**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
+**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-exploring.md).
 
-For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.md)
 
 ## Risk assessment
 
@@ -100,7 +100,7 @@ Submit COI request using natural language from the conversational interface of S
 
 </td><td>
 
-[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.md)
 
 </td><td>
 

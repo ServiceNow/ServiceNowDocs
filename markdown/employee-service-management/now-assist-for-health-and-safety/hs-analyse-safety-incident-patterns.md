@@ -35,7 +35,7 @@ The tab is designed to help the safety teams quickly understand where risks are 
 
 Navigate to **Workspaces** &gt; **Health and safety Workspaces** and select the **Incident pattern** tab on the Health and Safety dashboard.
 
-\[Omitted image "na-hs-incident-pattern-dashboard.png"\] Alt text:
+\[Omitted image "na-hs-incident-pattern-dashboard.png"\] Alt text: Health and Safety Dashboard with Incident patterns tab opened. For details, refer to the surrounding text.
 
 ## Metrics on the incident pattern tab
 

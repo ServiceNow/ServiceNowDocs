@@ -1,23 +1,21 @@
 ---
 title: AI Control Tower playbooks
-description: AI Control Tower ships with three active playbooks that drive the lifecycle and approval workflows for AI assets.
+description: Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-playbooks-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-28"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Control Tower playbooks
 
-AI Control Tower ships with three active playbooks that drive the lifecycle and approval workflows for AI assets.
+Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
 
-Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks listed here are active by default and can't be edited from within AI Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the external link icon on the playbook record.
-
-View and manage playbooks at **All** &gt; **AI Control Tower** &gt; **Settings** &gt; **Playbooks**.
+Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks are active by default and can't be edited from within AI Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the playbook.
 
 ## Playbooks
 

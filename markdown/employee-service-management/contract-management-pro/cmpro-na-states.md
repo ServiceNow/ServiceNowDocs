@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract analysis, Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract analysis states
@@ -41,5 +41,5 @@ The following table describes the status of the documents in the Analyze contrac
 |Analysis in progress|Analysis is in progress.|
 |Error|Error occurred while evaluating the details for the contract analysis.|
 
-**Parent Topic:**[Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

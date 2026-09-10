@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-approvals-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -74,7 +74,7 @@ Three main personas are involved in the approval workflow based on the Advanced 
 
 -   Unlike other roles, the approver role must be manually assigned by the admin to each user who approves deals. This is critical—without this role, approvers can't access approval requests.
 -   Demo approval configuration is not included in this release. You must configure your own approval rules and trigger conditions.
--   Deal approval is available in CSM Configurable Workspace Partner Workspace, not on the Partner portal.
+-   Deal approval is available in CRM Workspace Partner Workspace, not on the Partner portal.
 
 ## Deal states during approval
 

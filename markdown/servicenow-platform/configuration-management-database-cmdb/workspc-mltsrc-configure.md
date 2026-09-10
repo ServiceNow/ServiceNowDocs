@@ -1,6 +1,6 @@
 ---
-title: Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace
-description: Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards in the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace.
+title: Configure the CMDB 360 dashboard in CMDB Workspace
+description: Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards in the CMDB 360 dashboard in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.html
 release: australia
@@ -8,33 +8,29 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure the CMDB 360 dashboard in CMDB Workspaceor in Service Graph Workspace
+# Configure the CMDB 360 dashboard in CMDB Workspace
 
-Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards in the CMDB 360 dashboard in CMDB Workspaceor in Service Graph Workspace.
+Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards in the CMDB 360 dashboard in CMDB Workspace.
 
 ## About this task
 
-For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) or [Components installed with Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-sg-workspace.md).
+For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) .
 
 ## Before you begin
-
-To access the CMDB 360 dashboard in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: cmdb\_ms\_admin
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
-2.  -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
--   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
-3.  Select **Settings**.
+2.  Select **Settings**.
 
-4.  Configure Global settings.
+3.  Configure Global settings.
 
     The **Maximum number of records in a list view** setting determines the maximum number of records that can show when you drill down on the cards in the CMDB 360 dashboard \(drill-down set\). If the total number of returned records is greater than the specified setting value, the dashboard trims the list view output according to this setting and the settings of individual cards.
 
@@ -46,7 +42,7 @@ Role required: cmdb\_ms\_admin
     -   Coverage: CIs by number of discovery sources
     The CMDB 360 dashboard defaults this value to 100,000.
 
-5.  Configure Potential issues settings.
+4.  Configure Potential issues settings.
 
     These settings affect the calculations for cards on the CMDB 360 view/Potential Issues tile and the list of CIs that appear when you drill down on those cards.
 
@@ -121,7 +117,7 @@ Select an attribute
 Specify the attributes that you want to check for mismatches.
 
 </td></tr></tbody>
-</table>6.  Configure Coverage settings.
+</table>5.  Configure Coverage settings.
 
     These settings affect the calculations related to the coverage cards \(‘Coverage: CIs with a single discovery source’ and ‘Coverage: CIs by number of discovery sources’\) in the Discovery Sources tile on the CMDB 360 view. These settings determine the mixture of classes in the drill-down set of records.
 
@@ -168,6 +164,6 @@ Prioritized classes for which you are most interested in seeing CMDB 360 data in
 </td></tr></tbody>
 </table>    Using the Coverage settings, the system calculates an allowance of records per class, in the drill-down set of records. If the number of actual records per added class, is less than the computed allowance for that class, then the system adds records of random classes, up to the computed allowance for the class.
 
-7.  Select **Save**.
+6.  Select **Save**.
 
 

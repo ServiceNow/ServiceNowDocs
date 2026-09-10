@@ -18,8 +18,8 @@ Search for Operational Technology \(OT\) configuration items \(CIs\) and OT devi
 
 ## Before you begin
 
--   The ServiceNowOtto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   You must be assigned the now\_assist\_panel\_user role to have access to the ServiceNowOtto panel.
+-   The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   You must be assigned the now\_assist\_panel\_user role to have access to the ServiceNow Otto panel.
 -   You must be assigned appropriate roles to search the relevant OT CMDB tables, such as cmdb\_ot\_viewer or cmdb\_ot\_isa\_viewer.
 
 Role required: now\_assist\_panel\_user and cmdb\_ot\_viewer

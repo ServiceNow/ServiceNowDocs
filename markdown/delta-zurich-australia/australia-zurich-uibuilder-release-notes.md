@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-uibuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 Saving section for later.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -67,18 +70,6 @@ Zurich
 
 </td><td>
 
--   **[Build and customize components](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
-
-Build custom components and configure them to be used across pages and experiences.
-
--   **[Utilize AI on pages you are building](https://www.servicenow.com/docs/access?context=add-skill&family=zurich&ft:locale=en-US)**
-
-Easily add generative AI capabilities to any page, component, or controller
-
--   **[Get conversational help with the Now Assist panel](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
-
-Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
-
 -   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://www.servicenow.com/docs/access?context=using-ui-builder-agent&family=zurich&ft:locale=en-US)**
 
 As of UI Builder Version 28.2, use Now Assist to add components, bind data, adjust layouts, and get page insights such as number of components, data resource information, and access permissions.
@@ -94,14 +85,6 @@ Australia
 
 </td><td>
 
--   **[Create event-driven UI interactions](https://www.servicenow.com/docs/access?context=uib-ui-interactions&family=australia&ft:locale=en-US)**
-
-Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic with the following benefits:
-
-    -   Define an interaction once and apply it across multiple events and pages so UI components such as modals don't have to be associated directly with the page anymore.
-    -   Connect events to interactions without additional scripting.
-    -   Centralize logic for consistent updates and fewer errors.
-    -   Previously, Declarative Actions using UXF Client Actions required manual wiring on each page leading to complexity and upgrade risks. UI Interactions replace this with reusable, declarative event mapping.
 -   **[Update an existing UI interaction flow](https://www.servicenow.com/docs/access?context=edit-ui-interaction&family=australia&ft:locale=en-US)**
 
 As of UI Builder version 29.2, the UI interaction diagram editor now supports in-place editing, giving you more flexibility when modifying existing interactions without rebuilding downstream flows.
@@ -129,18 +112,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[Add events to track components with unsaved changes](https://www.servicenow.com/docs/access?context=dirty-state-event&family=zurich&ft:locale=en-US)**
-
-Use an event to quickly identify modified components.
-
--   **[Configure alerts to auto-dismiss](https://www.servicenow.com/docs/access?context=uib-configure-alerts&family=zurich&ft:locale=en-US)**
-
-Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
-
--   **[Use pages across experiences](https://www.servicenow.com/docs/access?context=use-across-pages&family=zurich&ft:locale=en-US)**
-
-Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 
 -   **[Use the floating Now Assist panel to streamline your workflow](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
 
@@ -247,7 +218,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 UI Builder is active by default. You can update to the latest version of UI Builder by downloading it from the ServiceNow Store.
+
 
 </td></tr><tr><td>
 
@@ -255,7 +229,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 UI Builder is active by default. You can update to the latest version of UI Builder by downloading it from the
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -305,7 +282,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported for UI Builder.
+
 
 </td></tr><tr><td>
 
@@ -313,7 +293,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported for UI Builder
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -334,7 +317,10 @@ Zurich
 
 </td><td>
 
+-   **Accessibility information**
+
 The expanded drop-down menus for column properties can be read by screen readers.
+
 
 </td></tr><tr><td>
 
@@ -342,7 +328,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 The expanded drop-down menus for column properties are compatible with screen readers, making interface navigation easier for screen reader users.
+
 
 </td></tr></tbody>
 </table>## Localization information

@@ -111,10 +111,10 @@ The following table describes interactions between Knowledge base articles Geniu
 
 |Feature|Interaction with Knowledge base articles Genius Results|
 |-------|-------------------------------------------------------|
-|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Knowledge base articles Genius Results for a search query, AI Search ignores blocked search results.|
-|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search ignores stop words in the query.|
-|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search expands synonyms in the query.|
-|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search corrects terms in the query.|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Q&amp;A Genius Results for a search query, AI Search ignores blocked search results.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search ignores stop words in the query.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.|
 
 -   **[Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md)**  
 Factoid extraction uses the machine reading comprehension \(MRC\) model to find the exact span of text within a longer extracted snippet that represents the answer to your question.

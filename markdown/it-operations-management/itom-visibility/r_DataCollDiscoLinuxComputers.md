@@ -1,6 +1,6 @@
 ---
 title: Linux discovery
-description: Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoLinuxComputers.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 # Linux discovery
 
-Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Supportability details
 
@@ -125,6 +125,10 @@ Before running a discovery, you must verify that all the required configurations
     -   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md)
     SSH private key credentials are preferable over SSH password credentials for security reasons.
 
+-   **Configure PermitTTY for SSH sessions**
+
+    Set `PermitTTY yes` in `/etc/ssh/sshd_config` on the target Linux server. This setting is required for privileged commands such as `dmidecode` to run successfully.
+
 -   **Verify the MID Server configuration**
 
     For detailed information, see:
@@ -135,7 +139,7 @@ Before running a discovery, you must verify that all the required configurations
 
     For information on creating a discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
-    Defining IP ranges ensures that only the specified network adapters and their primary IP addresses are used during Linux discovery. You can configure **Quick Ranges** by entering comma-separated IPv4 address ranges or single IPv6 address.
+    Define IP ranges so that only the specified network adapters and their primary IP addresses are used during Linux discovery. You can configure **Quick Ranges** by entering comma-separated IPv4 address ranges or single IPv6 address.
 
     Alternatively, you can use the **network\_adapter\_exclusion\_list** property to limit Linux discovery to specific network adapters and their primary IP addresses. For more information, see [Omit network adapter secondary IP addresses in Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/omit-adapter-secondary-ip-linux.md).
 
@@ -146,6 +150,10 @@ Before running a discovery, you must verify that all the required configurations
 -   **Set the preferred IP address version for network adapter discovery**
 
     Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+
+-   **Configure the serial number type**
+
+    Starting with Visibility Content version 6.35.0, you can populate a specific serial number type instead of the first available one. For more information, see [Configure the serial number type for Linux Server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-linux-serial-number-type.md).
 
 
 ## Data collected

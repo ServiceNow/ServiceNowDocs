@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-touchpoints.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -24,4 +24,8 @@ Touchpoints support conversations between providers and enterprise customers thr
 |Success Customer|Can create and update touchpoints, meeting records, and schedule meetings.|
 
 See [Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md) for more details.
+
+## Meetings on the touchpoint page
+
+When a touchpoint has a related meeting record, a **Meeting Record** link is displayed on the touchpoint page. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to open the meeting record and access the meeting page.
 

@@ -36,7 +36,7 @@ Populate TPM Technology Lifecycle Risks
 
 </td><td>
 
-Populates the TLM technology life-cycle risks data in the TPM Technology Life-cycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+Populates the TPM technology life-cycle risks data in the TPM Technology Life-cycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 
 </td></tr><tr><td>
 
@@ -44,9 +44,7 @@ Populate TPM Discovered Technologies and Lifecycles
 
 </td><td>
 
-Discovers technologies from CMDB and Service Mapping relationships and populates lifecycle milestone data for your software products and hardware models. The job creates records in the TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table and then populates the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table with end of support, end of extended support, and end of life dates. Lifecycle records are created as part of this job and not by standalone business rules. The job also displays a percentage complete indicator to help you track progress: technologies discovery accounts for 80%, removing invalid technologies for 10%, and populating lifecycle records for 20%. Lifecycle data for software products is available only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is activated.
-
-**Important:** If you upgraded to the Australia release and the TPM Technology Lifecycle table is empty or not updating, run this scheduled job. In prior releases, lifecycle records were created by standalone asynchronous business rules. As of the Australia release, those business rules have been removed and lifecycle record creation is handled entirely by this scheduled job.
+Populates the technology life-cycle data in the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.**Note:** The data for software products is displayed only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin.
 
 </td></tr><tr><td>
 
@@ -54,7 +52,15 @@ Populate TRM technical debts in the EA Workspace
 
 </td><td>
 
-Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
+Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table. Existing records persist across runs and move between Active, Resolved, and Archived states instead of being deleted and re-created.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
+
+</td></tr><tr><td>
+
+Delete Archived Tech Debts
+
+</td><td>
+
+Runs automatically on the first day of every month and deletes Archived technical debt records whose **Updated** value is older than the retention period set in the system property **sn\_apm\_tpm.monthsToDeleteArchivedTechDebt**. The default retention period is 12 months. You don't need to run this job manually, though you can if you want to apply a retention period change immediately.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
@@ -62,9 +68,11 @@ Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table wi
 **Related topics**  
 
 
-[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
+[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
 [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
 
 [Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
 

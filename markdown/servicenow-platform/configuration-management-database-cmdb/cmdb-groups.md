@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -36,10 +36,10 @@ You can configure a CMDB group with one of the following group types:
 
     Custom class group which is used as follows:
 
-    -   Appears in the [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
-    -   Used in the Explore and Search view in the [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). When the Service Graph Workspace - Content store app isn't installed, then CMDB group definitions in which type is **CMDB Workspace**, are used to structure the navigation panel in the Explore tab.
+    -   Appears in the Management view in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+    -   Used in the Explore and Search view in the . When the Service Graph Workspace - Content store app isn't installed, then CMDB group definitions in which type is **CMDB Workspace**, are used to structure the navigation panel in the Explore tab.
 
-        For more information, see [Explore and Search view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md).
+        For more information, see [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md).
 
     Can be populated only by encoded queries.
 

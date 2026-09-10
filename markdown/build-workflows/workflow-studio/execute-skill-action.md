@@ -37,19 +37,19 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Choice**
 
-    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Product**
 
     Data type: **Dynamic Choice**
 
-    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Feature**
 
     Data type: **Dynamic Choice**
 
-    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-skill-settings.md).
 
 -   **Skill Config**
 

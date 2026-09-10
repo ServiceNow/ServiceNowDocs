@@ -34,7 +34,7 @@ Checklist
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -47,7 +47,7 @@ A user with the sn\_risk.admin role, can -   define and modify the risk criteria
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -55,7 +55,7 @@ A user with the sn\_risk.admin role, can also assign roles. For details, see [Ro
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -63,7 +63,7 @@ A risk manager, with the sn\_risk.manager role, needs to manage numerous risk st
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -71,7 +71,7 @@ A risk manager, with the sn\_risk.manager role, must create a risk statement to 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -79,7 +79,7 @@ A risk administrator or a risk manager can create a risk assessments using the R
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -87,7 +87,7 @@ Risk administrators and risk managers can create risk indicators. Risk indicator
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -95,7 +95,7 @@ Risk administrators and risk managers can create entities manually, rather than 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 

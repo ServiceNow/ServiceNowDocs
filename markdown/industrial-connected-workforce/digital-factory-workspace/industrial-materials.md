@@ -41,7 +41,7 @@ The Industrial Materials feature has the following benefits.
 
 When you create a task in the Digital Factory Workspace, the available materials are scoped based on compatibility. Compatibility is determined by the operational equipment, asses, or ISA-95 functional location associated with the task. This is based on interoperability mappings that relate materials to specific product models. According to the interoperability mappings configured by an admin, the material list for a task reflects only the materials relevant to that piece of equipment or location. It doesn't include every material defined in your instance.
 
-An admin configures these interoperability mappings outside of the Digital Factory Workspace. For more information, see [Create interoperability mappings between assets and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-interoperability-mappings-assets-models.md).
+An admin configures these interoperability mappings outside of the Digital Factory Workspace. For more information, see Create interoperability mappings between assets and models.
 
 **Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

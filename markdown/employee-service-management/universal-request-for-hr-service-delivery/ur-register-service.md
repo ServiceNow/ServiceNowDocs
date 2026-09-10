@@ -18,7 +18,7 @@ Register your service name for your service specific table and associate it with
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_uni\_req.ur\_admin
 
 ## About this task
 

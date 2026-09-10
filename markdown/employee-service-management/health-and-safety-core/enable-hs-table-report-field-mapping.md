@@ -56,8 +56,6 @@ To generate a report for this table's records, you must configure its report fie
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Add a Health and Safety visitor]()

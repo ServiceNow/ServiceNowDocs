@@ -24,15 +24,15 @@ Role required: sn\_sow\_synthetics.synthetics\_editor
 
 2.  Follow these instructions to edit a monitor.
 
-<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d306149e87">
+<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d316280e87">
 
 Option
 
-</th><th align="left" id="d306149e90">
+</th><th align="left" id="d316280e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d306149e96">
+</th></tr></thead><tbody><tr><td id="d316280e96">
 
 **Edit multiple monitor configurations**
 
@@ -42,7 +42,7 @@ From the synthetic monitoring landing page, select one or more monitors and sele
 
 If you want to edit properties other than credentials, location, or alert settings, you must edit a single monitor at a time from the **Details** tab.
 
-</td></tr><tr><td id="d306149e125">
+</td></tr><tr><td id="d316280e125">
 
 **Edit a single monitor configuration**
 
@@ -50,7 +50,7 @@ If you want to edit properties other than credentials, location, or alert settin
 
 From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md) for more information.
 
-</td></tr><tr><td id="d306149e147">
+</td></tr><tr><td id="d316280e147">
 
 **Delete monitors**
 

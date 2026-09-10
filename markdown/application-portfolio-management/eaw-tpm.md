@@ -1,6 +1,6 @@
 ---
-title: Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
-description: Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+title: Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+description: Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 10
 breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+# Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 
-Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 
 **Important:**
 
@@ -130,7 +130,7 @@ In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applica
 
 -   **[Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-risk-calc.md)**  
 Assess the technology risks of your business applications by calculating their risks. Technology risks are calculated at the hardware model and software product levels to determine the risk at the business application level.
--   **[Working with technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
+-   **[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
 The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
 
 **Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-view.md)

@@ -30,8 +30,8 @@ A Vulnerability is a weakness or defect in a software or hardware component that
 A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
 -   **[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)**  
 The Reports module in the Threat Intelligence Library section enables you to create, manage, and publish reports that use any intelligence available in the Threat Intelligence Library.
--   **[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)**  
-The MITRE-ATT&amp;CK repository is available under the Intelligence Library where the data from the MITRE sources are ingested.
+-   **[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)**  
+The MITRE-ATT&amp;CK repository stores MITRE data separately from **Threat Intel Library** data in the **Intelligence Library**.
 -   **[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)**  
 Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other.
 -   **[Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/potential-relationships.md)**  
@@ -56,5 +56,5 @@ Use many-to-many \(M2M\) relationship records to map connections between vulnera
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add a web search to an AI agent

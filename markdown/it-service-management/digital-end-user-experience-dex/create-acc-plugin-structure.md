@@ -15,7 +15,7 @@ breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Config
 
 # Create an ACC plugin package
 
-Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the  platform.
+Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the platform.
 
 ## Before you begin
 

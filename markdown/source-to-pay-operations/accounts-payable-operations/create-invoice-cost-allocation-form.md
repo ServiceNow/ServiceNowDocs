@@ -114,6 +114,8 @@ Ledger account that incurs the cost of the allocated transaction amount.
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Outbound cost allocation staging table]()
 
 [Distribution set form]()

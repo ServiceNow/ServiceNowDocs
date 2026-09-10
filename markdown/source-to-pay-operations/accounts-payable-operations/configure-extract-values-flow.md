@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, DocIntel, Document Intelligence, AP case]
-breadcrumb: [Create a copy of the default invoice processing use case, Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Create a copy of the default Invoice Processing use case, Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure the newly created DocIntel Extract Values Flow

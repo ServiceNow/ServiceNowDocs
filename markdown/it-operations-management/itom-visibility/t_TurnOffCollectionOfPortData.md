@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If the network devices contain an extremely large number of ports and each individual port's information is not critical to the overall management of the devices, you may not want to collect the port data for SNMP network devices. This would affect records from being created in the Switchports table \(dscy\_switchport\). This process only impacts probe discovery.
+Network devices can contain an extremely large number of ports. If individual port information is not critical to overall device management, you may not want to collect port data for SNMP network devices. This would affect records from being created in the Switchports table \(dscy\_switchport\). This process only impacts probe discovery.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customerengagementsequences-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -66,26 +69,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[Multi-trigger sequences with decision branches for stages](https://www.servicenow.com/docs/access?context=define-trigger-conditions&family=zurich&ft:locale=en-US)**
-
-Configure the sequences playbook to start based on multiple conditions across entities, eliminating the need for separate sequences for similar workflows. Add a decision node between stages to determine which stage to run next, based on the outcome of the previous stage.
-
--   **[Schedule call activity for telesales workflows](https://www.servicenow.com/docs/access?context=add-schedule-call-activity&family=zurich&ft:locale=en-US)**
-
-Design sequences with the new Scheduled call activity to automate structured call attempts, including delays and outcome-based branching, directly from the playbook interface. This helps agents follow a repeatable, optimized process for engaging prospects or customers in telesales workflows.
-
--   **[Runtime permissions and fine-grained access control](https://www.servicenow.com/docs/access?context=configure-runtime-permission-sequence-playbooks&family=zurich&ft:locale=en-US)**
-
-Enforce runtime permissions to control access to sequence records such as sequence tasks and steps.
-
--   **[Granular role framework](https://www.servicenow.com/docs/access?context=components-installed-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
-
-Assign role-based access for sequence admins, writers, executors, and readers. Sequence admins have full control, writers manage their own sequences, executors \(formerly viewers\) have read-only access to sequences and sequence task records, and readers view sequence records. For more information, see [Compatibility information](https://www.servicenow.com/docs/access?context=compatibility-matrix-upgrade-info&family=zurich&ft:locale=en-US).
-
--   **[Review sequences](https://www.servicenow.com/docs/access?context=view-sequence-design-time&family=zurich&ft:locale=en-US)View sequences**
-
-Enable the sales operations teams to optimize and share the high-performing sequences across territories to promote best practices across the organization.
 
 -   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
 
@@ -127,7 +110,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -214,7 +200,10 @@ Zurich
 
 </td><td>
 
-Install Customer Engagement Sequences by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -222,7 +211,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -301,7 +293,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

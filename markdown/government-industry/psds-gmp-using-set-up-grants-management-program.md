@@ -25,7 +25,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **CRM Workspace**.
 
 2.  Navigate to **Lists** &gt; **Grant Programs** &gt; **All** and select **New**.
 

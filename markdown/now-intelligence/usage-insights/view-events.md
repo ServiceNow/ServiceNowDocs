@@ -32,7 +32,7 @@ Usage Insights automatically detects all screens, gestures, and user actions in 
 
 2.  Select the application for which you want to analyze events.
 
-3.  Select the search icon \[Omitted image "IconSearch.png"\] Alt text: Search icon. to open the Search field and type the name of the event to filter in the Events list, or scroll to search the Events list.
+3.  Select the search icon \[Omitted image "IconSearch.png"\] Alt text: Search icon. and type the name of the event to filter in the Events list, or scroll to search the Events list.
 
     To view events across all applications, select **All Applications** from the applications list and then select **Events**.
 

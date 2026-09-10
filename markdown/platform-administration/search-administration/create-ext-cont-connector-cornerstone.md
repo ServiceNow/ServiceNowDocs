@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content from your Co
 
 ## Before you begin
 
-A source system administrator must have already configured your Cornerstone Learning Management System \(LMS\) instance to allow access by the Cornerstone external content connector. For details on configuring these settings in the source system, see [Configure Cornerstone for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
+A source system administrator must have already configured your Cornerstone Learning Management System \(LMS\) instance to allow access by the Cornerstone external content connector. For the required source system configuration steps, see [Configure Cornerstone for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

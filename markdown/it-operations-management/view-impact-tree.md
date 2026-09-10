@@ -55,7 +55,7 @@ You can also investigate a wider view of the service topology on the service map
 
     **Note:**
 
-    Depending on the size of the service, the unified map either shows the full map \(if it contains up to 60 CIs\) or an Impact Path leading to the most critical alert \(for maps with over 60 CIs\). For large maps, you can reveal more CIs by clearing the existing selecting and navigating to the **Showing more nodes** optimization option.
+    The unified map displays differently based on service size. For services with up to 60 CIs, the full map appears. For services with over 60 CIs, an Impact Path leading to the most critical alert appears. You can reveal more CIs by clearing the existing selection and navigating to the **Showing more nodes** optimization option.
 
     **Impact Path** shows alerts on the selected CI and all CIs within its impact subtree.
 

@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Use the View menu icon in Leader Hub
@@ -34,15 +34,15 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
 
 4.  Select the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) to perform one of the following steps.
 
-<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d792326e119">
+<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d795712e119">
 
 Action
 
-</th><th align="left" id="d792326e122">
+</th><th align="left" id="d795712e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d792326e128">
+</th></tr></thead><tbody><tr><td id="d795712e128">
 
 **View career profile**
 
@@ -50,7 +50,7 @@ Description
 
 View a comprehensive career profile of an employee.
 
-</td></tr><tr><td id="d792326e137">
+</td></tr><tr><td id="d795712e137">
 
 **Create a conversation**
 
@@ -58,7 +58,7 @@ View a comprehensive career profile of an employee.
 
 Create a conversation with an employee.This option is only visible if the Microsoft Outlook integration isn’t enabled for Leader hub. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-conversation-lh.md).
 
-</td></tr><tr><td id="d792326e164">
+</td></tr><tr><td id="d795712e164">
 
 **Schedule conversation**
 
@@ -66,7 +66,7 @@ Create a conversation with an employee.This option is only visible if the Micros
 
 Schedule a conversation with an employee.This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/schedule-conversation-lh.md).
 
-</td></tr><tr><td id="d792326e191">
+</td></tr><tr><td id="d795712e191">
 
 **Send email**
 

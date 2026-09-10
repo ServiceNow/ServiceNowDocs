@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 11
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -35,7 +35,7 @@ Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_a
 Important notes:
 
 -   Duplicate CI Remediator provides a remediation option that is based on the AI engine of the De-duplication task resolution assistant skill. This skill fills out the remediation options, based on the AI analysis of CMDB data. Use this ServiceNow Otto option to bypass all the tabs in the Duplicate CI Remediator where you typically manually enter those selections, and go directly to the final review to initiate the remediation.
--   Instead of using Duplicate CI Remediator \(built on Core UI\) to resolve a single de-duplication task, you can use the De-duplication Dashboard, and de-duplication templates and libraries, available in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and in [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). Using de-duplication capabilities in CMDB Workspace or in Service Graph Workspace is especially useful for bulk remediation of de-duplication tasks. These capabilities let you preconfigure a de-duplication template with remediation settings, which can then be applied in a consistent manner to multiple de-duplication tasks. For more information, see [CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
+-   Instead of using Duplicate CI Remediator \(built on Core UI\) to resolve a single de-duplication task, you can use the De-duplication Dashboard, and de-duplication templates and libraries, available in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and in Service Graph Workspace. Using de-duplication capabilities in CMDB Workspace or in Service Graph Workspace is especially useful for bulk remediation of de-duplication tasks. These capabilities let you preconfigure a de-duplication template with remediation settings, which can then be applied in a consistent manner to multiple de-duplication tasks. For more information, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 As you progress through the tabs of the Duplicate CI Remediator, CIs aren't updated. All updates are applied only in the final step, after you select **Remediate**.
 

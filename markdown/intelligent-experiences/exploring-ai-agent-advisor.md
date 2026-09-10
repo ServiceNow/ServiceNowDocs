@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [AI Agent Advisor, Enable AI experiences]
+breadcrumb: [AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Exploring AI Agent Advisor
@@ -105,7 +105,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+Automation discovery with AI Agent Advisor
 
 </td><td>
 

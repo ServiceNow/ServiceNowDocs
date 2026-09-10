@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/csm-ai-
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 3
-breadcrumb: [Customer Service Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 6
+breadcrumb: [Customer Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Customer Service Management AI agents
@@ -53,5 +53,5 @@ The triage cases wrap up AI agent finalizes the case triage process by synthesiz
 -   **[Troubleshooting steps identification AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/csm-troubleshooting-steps-identification-ai-agent.md)**  
 An AI agent responsible for gathering required context, identifying troubleshooting steps by comparing with KBs, similar cases and standard operating manuals, and proposing additional troubleshooting steps.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

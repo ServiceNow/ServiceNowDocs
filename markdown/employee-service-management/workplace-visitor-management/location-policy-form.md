@@ -51,5 +51,7 @@ In Workplace Visitor Management version 2.0.0 or later, you must create a visit 
 
 [Additional requirement form]()
 
+[About visit-related tables]()
+
 [Differences between Workplace Visitor Management versions]()
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-recruitmentworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,19 +99,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
--   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=manage-interviews-recruiter&family=zurich&ft:locale=en-US)**
-
-Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
-
--   **[List view in Recruitment workspace](https://www.servicenow.com/docs/access?context=list-view-recruit-workspace&family=zurich&ft:locale=en-US)**
-
-Monitor interview health from the Needs attention list view in Recruitment workspace.
-
-
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
 -   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
 
 Create a job requisition for a vacancy that you want to fill in your organization.
@@ -159,8 +146,6 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
 -   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=manage-interviews-recruiter&family=australia&ft:locale=en-US)**
 
 Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
@@ -205,8 +190,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
 -   **[Get overview of workload](https://www.servicenow.com/docs/access?context=recruitment-workspace-oveview&family=zurich&ft:locale=en-US)**
 
 View all the job requisitions where you're listed as an additional recruiter or recruitment coordinator, on the home page cards and list view in Recruitment workspace. Previously, only the primary recruiter saw these requisitions in Recruitment workspace.
@@ -217,8 +200,6 @@ View all the job requisitions where you're listed as an additional recruiter or 
 Australia
 
 </td><td>
-
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Get overview of workload](https://www.servicenow.com/docs/access?context=recruitment-workspace-oveview&family=australia&ft:locale=en-US)**
 
@@ -350,7 +331,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -358,7 +342,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Recruitment workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -395,7 +382,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. The Hiring Core application must be activated.
+
 
 </td></tr><tr><td>
 
@@ -403,7 +393,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. The application must be activated.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

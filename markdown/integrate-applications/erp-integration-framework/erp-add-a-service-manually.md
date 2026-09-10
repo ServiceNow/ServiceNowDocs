@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, service, manually, metadata, url, file, xml]
-breadcrumb: [OData, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData service manually in Zero Copy Connector for ERP
@@ -21,7 +21,7 @@ When adding an entity to a model using OData, if the service you need isn't list
 
 Role required: sn\_erp\_integration.erp\_admin
 
-You can connect to an ERP system based on a metadata URL or an uploaded metadata file \(xml\). The file option enables you to, for example, access data from SuccessFactors. For more information, see [Obtain data from SAP SuccessFactors using OData v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md).
+You can connect to an ERP system based on a metadata URL or an uploaded metadata file \(xml\). The file option enables you to, for example, access data from SuccessFactors. For more information, see [Obtaining data from SAP SuccessFactors using OData V2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md).
 
 Before you can add a service manually, you must do the following:
 

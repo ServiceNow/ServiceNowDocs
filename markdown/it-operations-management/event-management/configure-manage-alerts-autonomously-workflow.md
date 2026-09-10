@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Configure, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 3
+breadcrumb: [Configure, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the manage alerts autonomously agentic workflow
@@ -74,8 +74,6 @@ To learn more about generating AI insights with the manage alerts autonomously a
 
 -   **[Configure the Dynatrace analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-config-dynatrace.md)**  
 Configure the Dynatrace analysis AI agent for the analyze alert impact agentic workflow. This configuration also supports the Dynatrace observability skill in the manage alerts autonomously agentic workflow.After you configure the agent, the workflows can surface information from Dynatrace to help you investigate alerts.
--   **[Configure the Google Gemini Cloud Assist agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-config-google-cloud.md)**  
-Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant observability skill in the manage alerts autonomously agentic workflow. Once configured, the skill gathers information to help you investigate alerts.
 
 **Parent Topic:**[Configure ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-configure.md)
 

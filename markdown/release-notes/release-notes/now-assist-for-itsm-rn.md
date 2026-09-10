@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Otto for IT Service Management \(ITSM\) release notes
-description: The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-06-06"
-reading_time_minutes: 13
+reading_time_minutes: 15
 ---
 
 # ServiceNow Otto for IT Service Management \(ITSM\) release notes
 
 The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
 
-## ServiceNow Otto for IT Service Management \(ITSM\) highlights for the Australia release
+## About ServiceNow Otto for IT Service Management \(ITSM\)
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -47,32 +47,98 @@ The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application 
 
 See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for IT Service Management \(ITSM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading ServiceNow Otto for IT Service Management \(ITSM\) to Australia
+-   **Activation information**
 
-To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
+    Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-1.  Go to **Admin** &gt; **Now Assist admin**.
-2.  Select **Now Assist Skills**.
-3.  Select **Platform**.
-4.  Select **Knowledge**.
-5.  Make sure the knowledge content recommendation skill is active.
+-   **Upgrade information**
 
-The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md).
+    To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
 
-Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+    1.  Go to **Admin** &gt; **Now Assist admin**.
+    2.  Select **Now Assist Skills**.
+    3.  Select **Platform**.
+    4.  Select **Knowledge**.
+    5.  Make sure the knowledge content recommendation skill is active.
+    The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md).
 
-## New in the Australia release
+    Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+
+## September 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
+
+-   ****
+
+    This AI agent creates structured change requests from conversational input by autonomously selecting the appropriate change model and template.
+
+-   ****
+
+    This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change requestwithout requiring multiple user interactions.
+
+-   ****
+
+    This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
+
+-   ****
+
+    This AI agent identifies the most relevant change template and model for new change requests by analyzing request details and comparing them against available templates and historical data.
+
+
+### What's changed
+
+-   **[Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/generate-change-risk-assessment-answers-now-assist.md)**
+
+    The skill now also reads all dynamic schema store type fields on the change request form. These fields are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses the retrieved values when it suggests answers.
+
+-   **[IT Service Management AI agent collection assess quality of a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)**
+
+    The new autonomous mode is introduced, where the AI agent automatically records the quality rating and the explanation as a work note on the change request. The agent also creates a record in the AI Change Quality Scores table. This record stores the change request, the explanation, the per-field score, the rating, and the numerical score. The agent does not update any fields on change request.
+
+
+### What's deprecated or removed
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+## August 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Automatically classifying user queries as an incident or a request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-deflection-overview.md)**
 
     Receive a personalized catalog item recommendation, rather than generic troubleshooting steps, when your description asks for something new, such as a replacement laptop or new headphones. ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request and tailors the response to match.
 
--   **Who is on call agentic workflow**
+-   **[Who is on call agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-on-call-usecase.md)**
 
     Use the Who is On Call agentic workflow to retrieve on-call roster information for specific shifts, groups, or time periods. The agent provides accurate information to conversationally understand who is on-call.
 
+
+### What's changed
+
+-   **Now Assist &gt; ServiceNow Otto announcement**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## July 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[In-form deflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-deflection-overview.md)**
 
@@ -87,10 +153,42 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
     Analyze topic-specific performance and user interaction patterns using the enhanced Topics analytics in the ITSM Virtual Agent dashboard. View detailed per-topic drill-downs showing key performance indicators. Track topic trends and failure rates with sortable columns, and identify areas for improvement.
 
 
+### What's changed
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-change-risk-assessment-skill.md)**
+
+    Control the data that the change risk assessment answer generator skill uses to suggest answers. Create, modify, or deactivate **AI Risk Data Sources** to change which related records and knowledge articles the skill receives. Six data sources are available out of the box, including related affected CIs, impacted services, impacted business applications, service offerings, active change tasks, and outages. To change which change request fields the skill reads, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property.
+
+-   **[IT Service Management AI agent collection assess quality of a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)**
+    -   Use the assess quality of a change request agentic workflow to rate a change request and get field improvement suggestions. The change quality assessor AI agent rates the request against an active change policy document, suggesting values only for fields the policy defines. If no policy applies, the agent rates the request against similar closed change requests.
+    -   The agent scores the short description, description, implementation plan, backout plan, test plan, risk and impact analysis, and justification. Results are recorded in the **AI Change Quality Scores** table.
+    -   Track change quality trends in Platform Analytics on the `ai_change_quality_score` table. A line chart shows the average score by month.
+    -   To change how the agent evaluates a field, or to assess a custom field, override the `POLICY_EXTRACTION_KEYS` entries in the `ChangeQualityUtil` script rather than the protected `ChangeQualityUtilSNC` script. This ensures your changes remain after you upgrade. Use the `u_custom_field` entry to assess a custom field, and use the `overall_chg_policy` entry to set policies for the whole change request.
+
+## June 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Insights and Opportunities for Incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/insights-opportunities-incident-dashboard.md)**
 
     Automatically cluster incidents into trend categories and get AI-generated summaries of incident patterns, along with insights into SLA performance, sentiment, channel adoption, and geographic distribution using the Insights and Opportunities for Incident dashboard in Service Operations Workspace.
 
+
+### What's deprecated or removed
+
+-   Starting with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see [Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md) and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+
+## Australia General Availability
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ITSM Virtual Agent resources analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-conversational-dashboard-resources.md)**
 
@@ -100,6 +198,20 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
 
     Use the Password reset with voice AI agent to reset your password by receiving instructions from a knowledge article via email, a reset link via SMS, or having the reset URL read out by voice.
 
+
+## April 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[AI-powered root cause analysis for Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)**
+
+    Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant Knowledge articles to help resolve the issue efficiently.
+
+-   **[Get AI driven insights for boot time performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)**
+
+    Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and Knowledge articles to resolve boot performance problems quickly.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -164,35 +276,27 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
 
     Service desk agents can diagnose and resolve Zoom call quality issues using the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow, which integrates Zoom- specific diagnostics that correlate device, network, and application data.
 
--   **[AI-powered root cause analysis for Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)**
 
-    Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant Knowledge articles to help resolve the issue efficiently.
+### What's changed
 
--   **[Get AI driven insights for boot time performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)**
+-   **[Editing change request skills using Now Assist Skill Kit \(NASK\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-change-risk-skill.md)**
 
-    Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and Knowledge articles to resolve boot performance problems quickly.
+    Easily edit the change request risk explanation and change request summarization skill prompts and inputs directly in the Now Assist Skill Kit \(NASK\).
+
+-   **[Configuration item details for suggest configuration items for a change request workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)**
+
+    Provide details such as class, location, and environment to find configuration items \(CIs\) relevant to a change request while using the suggest configuration items for a change request agentic workflow from the Now Assist panel.
+
+-   **[Role masking for change risk explanation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/supporting-information-now-assist-itsm.md)**
+
+    Enhance security for the change request risk explanation skill by enabling admins to limit roles that are inherited by the user.
 
 
-## Changed in this release
+## Australia
 
--   **Now Assist &gt; ServiceNow Otto announcement**
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
--   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
--   **[Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-change-risk-assessment-skill.md)**
-
-    Control the data that the change risk assessment answer generator skill uses to suggest answers. Create, modify, or deactivate **AI Risk Data Sources** to change which related records and knowledge articles the skill receives. Six data sources are available out of the box, including related affected CIs, impacted services, impacted business applications, service offerings, active change tasks, and outages. To change which change request fields the skill reads, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property.
-
--   **[IT Service Management AI agent collection assess quality of a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)**
-    -   Use the assess quality of a change request agentic workflow to rate a change request and get field improvement suggestions. The change quality assessor AI agent rates the request against an active change policy document, suggesting values only for fields the policy defines. If no policy applies, the agent rates the request against similar closed change requests.
-    -   The agent scores the short description, description, implementation plan, backout plan, test plan, risk and impact analysis, and justification. Results are recorded in the **AI Change Quality Scores** table.
-    -   Track change quality trends in Platform Analytics on the `ai_change_quality_score` table. A line chart shows the average score by month.
-    -   To change how the agent evaluates a field, or to assess a custom field, override the `POLICY_EXTRACTION_KEYS` entries in the `ChangeQualityUtil` script rather than the protected `ChangeQualityUtilSNC` script. This ensures your changes remain after you upgrade. Use the `u_custom_field` entry to assess a custom field, and use the `overall_chg_policy` entry to set policies for the whole change request.
+### What's changed
 
 -   **[Some generative AI skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
@@ -215,18 +319,6 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
     -   Resolution notes generation
     -   Knowledge generation
     -   Chat reply recommendation
--   **[Editing change request skills using Now Assist Skill Kit \(NASK\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-change-risk-skill.md)**
-
-    Easily edit the change request risk explanation and change request summarization skill prompts and inputs directly in the Now Assist Skill Kit \(NASK\).
-
--   **[Configuration item details for suggest configuration items for a change request workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)**
-
-    Provide details such as class, location, and environment to find configuration items \(CIs\) relevant to a change request while using the suggest configuration items for a change request agentic workflow from the Now Assist panel.
-
--   **[Role masking for change risk explanation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/supporting-information-now-assist-itsm.md)**
-
-    Enhance security for the change request risk explanation skill by enabling admins to limit roles that are inherited by the user.
-
 -   **[Virtual agent topics available as demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-va-prebuilt-topics.md)**
 
     The Virtual Agent topics listed in this table have been renamed and are now available as demo data.
@@ -248,35 +340,7 @@ Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceN
     |View And Add Comments|\(DEMO\) View And Add Comments-LLM|
 
 
-## Deprecated features
+### What's deprecated or removed
 
--   Starting with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see [Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md) and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 -   Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md) release, the [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md) is deprecated, moved to the **Archived** folder and is no longer available for use.
-
-## Activation information
-
-Install ServiceNow Otto for IT Service Management \(ITSM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    Use the AI Admin Hub console for quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface in ServiceNow® Service Operations Workspace to summarize a chat, an incident, or resolution notes so that you can get the context of this information more quickly.
-
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use the ServiceNow® Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

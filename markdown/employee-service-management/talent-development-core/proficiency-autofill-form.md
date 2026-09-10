@@ -38,7 +38,7 @@ Role group
 
 </td><td>
 
-The applicable role group for the configuration.**Note:** The configuration is applied only to the selected role group. To indicate a global configuration that is applied to all role groups, leave the field blank.
+The applicable role group for the configuration.**Note:** The configuration is applied only to the selected role group. To indicate a global configuration that is applied to all role groups, leave the field empty.
 
 </td></tr><tr><td>
 

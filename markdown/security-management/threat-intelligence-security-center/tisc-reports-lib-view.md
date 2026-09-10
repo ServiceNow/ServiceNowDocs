@@ -166,7 +166,7 @@ View the reports that you created.
 
 [View RSS Feeds]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

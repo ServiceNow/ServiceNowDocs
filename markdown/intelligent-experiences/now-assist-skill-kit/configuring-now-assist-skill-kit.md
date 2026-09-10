@@ -24,8 +24,8 @@ After you install the plugin, there are two parts to configuring a skill in AI S
 
 -   **[Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md)**  
 Configure your skill prompt to set the model that is used and the randomness and creativity of the response.
--   **[Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)**  
-Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
+-   **[Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)**  
+Configure where a skill appears in AI Admin Hub, review general information, set security controls, choose a provider, and add evaluation metrics.
 -   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md)**  
 You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
 

@@ -19,7 +19,7 @@ AI web search is a OneExtend capability that enables end users to perform web se
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+When web search is turned on, Google Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in AI Admin Hub can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -37,7 +37,7 @@ OpenAI
 
 </td><td>
 
-Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in AI Admin Hub and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
+Gemini**Note:** Google Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Google Gemini as the LLM provider in AI Admin Hub and you want to use Google Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
 
 </td></tr><tr><td>
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d44420e196">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d48846e206">
 
 Scenario
 
-</th><th align="left" id="d44420e199">
+</th><th align="left" id="d48846e209">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d44420e205">
+</th></tr></thead><tbody><tr><td id="d48846e215">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d44420e214">
+</td></tr><tr><td id="d48846e224">
 
 **Connection isn’t available and must be created**
 

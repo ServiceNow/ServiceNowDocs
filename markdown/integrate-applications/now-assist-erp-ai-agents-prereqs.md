@@ -20,15 +20,15 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 ## Check status of assistants
 
-Otto in Virtual Agent and the ServiceNow Otto panel must be on. For information about how to check the status of assistants, see .
+ServiceNow Otto for Virtual Agent and the ServiceNow Otto panel must be on. For information about how to check the status of assistants, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-llm-va.md).
 
 ## Activate conversational skills
 
-In Otto in Virtual Agent, check that **Otto Q&amp;A**, **Otto Topics**, and **AI agents** are activated.
+In ServiceNow Otto for Virtual Agent, check that **Otto Q&amp;A**, **Otto Topics**, and **AI agents** are activated.
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 2.  Select **Manage assistants**.
-3.  Select **Now Assist** **in** **Virtual Agent**.
+3.  Select **ServiceNow Otto for Virtual Agent**.
 4.  Select **Otto skills** in the left side menu.
 5.  Confirm that **Otto Q&amp;A**, **Otto Topics**, and **AI agents** are activated. Activate if necessary.
 

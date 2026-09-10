@@ -94,5 +94,7 @@ The status of the invoice changes to Confirmed duplicate and the state of the in
 
 [Check for invoice exceptions on a single invoice]()
 
+[Reopen a closed invoice case]()
+
 [Start processing a third-party invoice]()
 

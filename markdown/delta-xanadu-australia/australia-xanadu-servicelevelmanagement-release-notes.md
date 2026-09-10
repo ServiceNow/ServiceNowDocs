@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicelevelmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -147,7 +147,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -184,7 +187,7 @@ Yokohama
 
 </td><td>
 
-Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -229,7 +232,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -274,7 +277,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Level Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -282,7 +288,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Service Level Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -417,7 +426,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

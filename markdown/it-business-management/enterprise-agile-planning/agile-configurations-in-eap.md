@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-25"
+reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -25,6 +25,11 @@ A configuration includes the team level structure and work item types. The follo
 -   Large Solution Configuration
 -   Portfolio Configuration
 -   Kanban Configuration
+-   Scrum Configuration
+
+The **Scrum Configuration** supports teams that run Sprints without a Planning Interval above them. It defines a single team level of Agile Team and allows the Epic and Story work item types. Story is set as the default work item type for that level and is mapped to the **Scrum Sprint** planning calendar. The **Epic methodology** field is set to **Scrum**.
+
+Like the other default configurations, the **Scrum Configuration** is inactive until you activate it. The **Sync with Agile Development** and **Allow unique cadence for each team** options are cleared, so select them if your teams need them.
 
 \[Omitted image "eap-configurations.png"\] Alt text: Default EAP configurations in the Strategic Planning Workspace.
 

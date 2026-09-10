@@ -47,6 +47,7 @@ The extraction rules for threat lookups or observable enrichment are processed w
 -   Whenever an RSS feed record is created or updated, the MITRE ATT&amp;CK technique extraction rules are processed.
 -   The rules are applicable for any fields within the RSS feed record \(except date, number fields, and Attack phases\).
 -   The extracted MITRE techniques are associated to the corresponding RSS feed record and you can view these records in the **MITRE techniques** related records list in the **Related Records** section.
+-   The extracted techniques are stored as entity-level MITRE technique associations rather than source-level associations. When you upgrade, the technique associations that already exist on your RSS feed records are moved to the entity-level records.
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Threat Intel Library** &gt; **RSS Feeds** &gt; **All RSS Feeds**
 2.  Select any RSS feed record.
@@ -59,4 +60,8 @@ The extraction rules for threat lookups or observable enrichment are processed w
 
 -   If there is no tactic ID present in the extracted entity \(observable or object\) source or threat lookup result for any MITRE ATT&amp;CK technique, then the technique associations are created for all the tactics that are associated to the corresponding technique in the MITRE repository.
 -   If there is any tactic ID present in the extracted entity \(observable or object\) source or threat lookup result for any MITRE ATT&amp;CK technique, then the technique associations is specifically created only for all that extracted tactic\(s\) that are associated to the corresponding technique in the MITRE repository.
+
+**Note:**
+
+Technique associations are created only for the tactic and technique pairs that MITRE currently maps. A pair that MITRE has stopped mapping is excluded from the extraction results and from the counts on the MITRE ATT&amp;CK framework. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 

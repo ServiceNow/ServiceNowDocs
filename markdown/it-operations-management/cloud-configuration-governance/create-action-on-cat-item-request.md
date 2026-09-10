@@ -1,5 +1,5 @@
 ---
-title: Create an action for an 'on Catalog item request start/end' policy
+title: Create action for 'on Catalog item request start/end'
 description: The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-cat-item-request.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Create an action for an 'on Catalog item request start/end' policy
+# Create action for 'on Catalog item request start/end'
 
 The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 

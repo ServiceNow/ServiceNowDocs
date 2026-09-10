@@ -36,7 +36,7 @@ For more detailed information about working with surveys, trigger conditions, an
 You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.
 -   **[Add or modify HR survey categories and questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyHRSurveyQuestionsIst.md)**  
 When an HR survey definition is created, a survey category is automatically added. You can create questions that are associated with this category or define another category for questions.
--   **[Publish a new HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_PublishANewHRSurveyIst.md)**  
+-   **[Publish a HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_PublishANewHRSurveyIst.md)**  
 Publish a new survey so users can complete it.
 -   **[Add a trigger condition for an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateTriggerConditionForHRSurveyIst.md)**  
 When you create an HR survey, you can add a trigger condition to specify when the survey is sent and to whom.

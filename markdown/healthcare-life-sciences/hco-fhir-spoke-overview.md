@@ -27,5 +27,5 @@ You must install and activate the HL7 FHIR Spoke before you can use the EMR Prov
 
 ## Full spoke documentation
 
-For activation instructions, connection setup, and a complete action reference, see [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) in the Integration Hub Spokes documentation.
+For activation instructions, connection setup, and a complete action reference, see [HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-landing.md) in the Integration Hub Spokes documentation.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-04-07"
 reading_time_minutes: 7
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Review scores, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Monitoring overview
@@ -30,7 +30,7 @@ The monitoring overview is the starting point for assessing how your AI systems 
 
 ## Required roles
 
-The AI Asset Owner or AI Steward role is required to view the monitoring overview.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to view the monitoring Overview tab.
 
 ## Accessing the monitoring overview
 
@@ -97,8 +97,10 @@ View a scoring breakdown by selecting the side panel icon.
 Selecting a quality or safety score card opens a side panel with a detailed breakdown of how the composite score is calculated. The panel includes tabs for **ServiceNow AI systems** and **External AI systems** so you can view the scoring breakdown for each type.
 
 -   See how the score has changed over time by reviewing the average score and the percentage change from the prior period with a trend chart.
--   Identify which metrics are contributing to the score by reviewing the data sources table, which shows each metric's name, weight, and current score.
+-   Identify which metrics are contributing to the score by reviewing the data sources table, which shows each metric's name, weight, and current score, and evaluation count.
 -   Expand the scoring formula section to see a visualization of how each metric contributes to the composite, along with explanatory notes about how the score is calculated.
+
+**Note:** If one or more metrics have a noticeably lower evaluation count than the others, a bias indicator appears next to the scoring formula section. A metric with fewer evaluations still counts at its full configured weight, so metrics that evaluate more consistently can carry more real influence on the score than their configured weight alone suggests.
 
 Analyze which metrics are pulling a composite score up or down, and by how much. For details on how scores are calculated, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
 

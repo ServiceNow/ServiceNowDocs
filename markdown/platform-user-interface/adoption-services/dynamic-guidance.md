@@ -7,9 +7,9 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-08-21"
 reading_time_minutes: 1
-keywords: [Help in ServiceNow, Dynamic Guidance, Voice guidance, Add external content to search profile, Now assist panel voice based help, Help center voice based help]
+keywords: [Help in ServiceNow, Dynamic Guidance, Voice guidance, Add external content to search profile, Help center voice based help]
 breadcrumb: [Adoption services, Configure user experiences]
 ---
 

@@ -122,6 +122,10 @@ As an asset manager or inventory administrator, complete the open remediation ta
 
 [Manage asset put away using the Hardware Asset Workspace]()
 
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
+
 [Acknowledge receipt of assets on the Employee Center portal]()
 
 [Update associated Decision tables for HAM flows]()

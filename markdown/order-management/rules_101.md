@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # Rules
@@ -16,7 +16,7 @@ Learn how to create and manage rules to deliver dynamic configuration experience
 
 As the end user navigates through the configuration experience and populates information, rules provide its dynamic elements: hiding and showing content, calculating values, delivering recommendations and messages, and building the bill of materials \(BOM\).
 
-With a focus on administering rules in the administration user interface, this article discusses the two components of rules, conditions and actions, and the six action types available in CPQ. Much like other elements in the application, the UI is a good place to add or edit small numbers of rules. When many rules need manipulation, we recommend using the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md).
+Rules have two components: conditions and actions. CPQ supports six action types. The administration UI is a good place to add or edit a small number of rules. To update many rules at once, use the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md).
 
 In the administration UI, rules are accessible in two ways:
 
@@ -59,6 +59,8 @@ Message actions provide contextual information as the end user works through the
 |Warning|\[Omitted image "cpq-rules-message-type-example-warning.png"\] Alt text: warning message|No effect on configuration experience beyond message|
 |Error|\[Omitted image "cpq-rules-message-type-example-error.png"\] Alt text: error message|Disables the Quote button so the user cannot move forward until the error state is alleviated.|
 |Custom|Look is determined by user|The user can control whether this has no effect on configuration experience beyond message of if it disables the Quote button so the user cannot move forward until the error state is alleviated.|
+
+You can customize the messages that are displayed. For more information, see [Change how messages are displayed to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/can_i_change_how_messages_are_displayed_to_the_end_user.md).
 
 ## Inclusion/exclusion actions
 

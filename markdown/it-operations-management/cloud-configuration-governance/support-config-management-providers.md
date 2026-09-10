@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 # Support for continuous delivery \(configuration management\)
 
 The Cloud Provisioning and Governance application supports integration with continuous delivery solutions \(also known as configuration management\). Ansible is supported as the default config management provider.
+
+**Important:** Starting with the Brazil release, Cloud Config Management is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The Cloud Provisioning and Governance application supports configuration management providers in two ways:
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Mastercard Spoke v3.0.1 is the latest version.
+Mastercard Spoke v3.0.1 is the latest version. For version history of the spoke, see [Mastercard Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-mastercard-spoke.html).
 
 ## Supported version
 

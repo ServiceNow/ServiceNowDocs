@@ -1,5 +1,5 @@
 ---
-title: Configure browse experience in Employee Slate
+title: Configure browse experience
 description: Configure the browse experience by associating a taxonomy with your Employee Slate experience to enable topic-based navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.html
@@ -9,11 +9,11 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 1
-keywords: [Employee Slate, browse experience, taxonomy configuration, topic navigation]
-breadcrumb: [Browse and topic experience, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [Employee Slate, EmployeeWorks, browse experience, taxonomy configuration, topic navigation]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure browse experience in Employee Slate
+# Configure browse experience
 
 Configure the browse experience by associating a taxonomy with your Employee Slate experience to enable topic-based navigation.
 

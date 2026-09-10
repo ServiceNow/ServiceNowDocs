@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datacenterandnetworkassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -294,7 +294,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Data Center and Network Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -519,9 +522,11 @@ Australia
 
 </td><td>
 
-Provides end-to-end lifecycle management of data center assets to improve visibility, reduce downtime, extend asset life, and minimize risk.
+Australia Early Availability
 
-See [Data Center and Network Asset Management](https://www.servicenow.com/docs/access?context=exploring-dcnam&family=australia&ft:locale=en-US) for more information.
+ Provides end-to-end lifecycle management of data center assets to improve visibility, reduce downtime, extend asset life, and minimize risk.
+
+ See [Data Center and Network Asset Management](https://www.servicenow.com/docs/access?context=exploring-dcnam&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

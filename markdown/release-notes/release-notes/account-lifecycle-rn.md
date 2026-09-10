@@ -1,9 +1,9 @@
 ---
 title: Customer Success Management release notes
-description: The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
+description: The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
 
-## Customer Success Management highlights for the Australia release
+## About Customer Success Management
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -36,32 +36,62 @@ The ServiceNow® Customer Success Management application helps you to streamline
 
 See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Customer Success Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+    Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Product adoption roadmap versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-versioning.md)**
 
     Track the history of published roadmap states and restore an earlier version as needed. Publishing a roadmap creates a version record with a complete snapshot of the lanes and items. You can revert to any previous version without losing the roadmap.
 
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+## July 2026
+
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md)**
 
     Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records. This gives customer success managers immediate insight into customer objectives and success criteria.
 
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## June 2026
+
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-adaptive-desktop-actions.md)**
 
     Use adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+## Australia Early Availability
+
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -72,8 +102,6 @@ See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/S
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
-
-Australia Early Availability
 
 -   **[Squad resource identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-squad-resource-identifier.md)**
 
@@ -100,25 +128,18 @@ Australia Early Availability
     Enable customer success managers to create structured roadmaps that can guide customers through adoption of purchased products based on business value and current adoption scores. The planner supports two planning levels—Product \(strategic\) and Capabilities \(tactical\)—with sequencing to establish clear adoption pathways.
 
 
-## Changed in this release
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
-**Australia Early Availability**
+### What's changed
 
 -   **[Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md)**
 
     Internal touchpoints ensure that the internal teams are aligned on the objectives and outcomes of the engagement.
 
 
-## Activation information
+## Australia
 
-Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.
 
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -126,23 +147,4 @@ Install Customer Success Management by requesting it from the ServiceNow Store. 
 
     -   Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for customer success
     -   Customer Discovery Hub\(`sn_cust_disc_hb`\): Captures customer business context during the sales process and makes that context available to customer success teams at the post-sale handoff.
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    The Customer Service Management application enables you to automate your onboarding and case monitoring processes and provides service agents with visibility into the customer systems and tools that you need to deliver proactive services to your customers.
-
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
-
--   **[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)**
-
-    ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that enables efficient collaboration and request processing while giving users the convenience of working in their own ServiceNow instance.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

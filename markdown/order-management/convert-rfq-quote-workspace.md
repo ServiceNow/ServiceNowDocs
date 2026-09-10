@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Create quotes from request for quotes \(RFQs\)
@@ -60,6 +60,8 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 ## What to do next
 
 View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
 
 **Related topics**  
 

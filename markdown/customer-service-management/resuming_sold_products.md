@@ -1,18 +1,18 @@
 ---
 title: Resuming sold products
-description: Resume sold products to create a resume order on the CSM Configurable Workspace.Create an order to resume a sold product and its hierarchy on the CSM Configurable Workspace. By resuming a sold product, you can restart a product or service.Create an order to resume multiple sold products and their hierarchy on the CSM Configurable Workspace.
+description: Resume sold products to create a resume order on the CRM Workspace.Create an order to resume a sold product and its hierarchy on the CRM Workspace. By resuming a sold product, you can restart a product or service.Create an order to resume multiple sold products and their hierarchy on the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resuming\_sold\_products.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Resuming sold products
 
-Resume sold products to create a resume order on the CSM Configurable Workspace.
+Resume sold products to create a resume order on the CRM Workspace.
 
 Resume single or multiple root sold products and create combined orders for suspension and resumption of products and servies at the same time, to improve agent efficiency.
 
@@ -23,7 +23,7 @@ Resume single or multiple root sold products and create combined orders for susp
 
 ## Resume a single sold product
 
-Create an order to resume a sold product and its hierarchy on the CSM Configurable Workspace. By resuming a sold product, you can restart a product or service.
+Create an order to resume a sold product and its hierarchy on the CRM Workspace. By resuming a sold product, you can restart a product or service.
 
 ### About this task
 
@@ -60,7 +60,7 @@ An order for resuming the sold product is created.
 
 ## Resume multiple sold products
 
-Create an order to resume multiple sold products and their hierarchy on the CSM Configurable Workspace.
+Create an order to resume multiple sold products and their hierarchy on the CRM Workspace.
 
 ### About this task
 

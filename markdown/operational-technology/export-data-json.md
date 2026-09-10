@@ -26,7 +26,7 @@ Role required: admin
 
     \[Omitted image "settings-export-connections.png"\] Alt text: Export connections
 
-    **Note:** For information, see .
+    **Note:** For more information, see .
 
 3.  Select and export data into JSON files.
 

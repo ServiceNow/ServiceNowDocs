@@ -113,9 +113,9 @@ Selecting **Submit** on the Order case record moves the order case and the order
 
 Order Operations Case Management \(com.sn\_order\_case\) is a case management application for handling support requests on orders or order lines. This application enables customers to process order-related services such as inflight order changes, order inquiries, and order dispute requests. It provides an order case type that includes order line items that need changes, workflows, and agent and customer experiences.
 
-The Order Operations Case Management application includes list views for CSM Configurable Workspace and Core UI.
+The Order Operations Case Management application includes list views for CRM Workspace and Core UI.
 
--   In CSM Configurable Workspace, expand the **Order Cases** list category in the Lists tab.
+-   In CRM Workspace, expand the **Order Cases** list category in the Lists tab.
 -   In Core UI, navigate to **All** &gt; **Customer Order Management** &gt; **Order Cases**.
 
 The Order Operations Case Management application also includes tables, roles, service definitions and other components. For more information, see [Components installed with Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-order-ops-install-comp.md).

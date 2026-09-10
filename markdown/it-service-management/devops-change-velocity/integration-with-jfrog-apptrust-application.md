@@ -75,7 +75,7 @@ Once the change request is reviewed and approved in ServiceNow, the approval is 
 
 You can add change approval policies to the model you created for JFrog change requests. For information on creating change approval policies, see [Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md).
 
-In the change policy, to retrieve the evidence associated with a JFrog change request, you can use the JFrog Fetch evidences flow action. This flow action collects the relevant evidence data such as artifact promotion details from JFrog and attaches it to the corresponding change request. You can incorporate this flow action into your change policy's approval workflow to ensure that the required evidence is available before the change request is approved or moved forward.
+In the change policy, to retrieve the evidence associated with a JFrog change request, you can use the JFrog Fetch evidences flow action. This flow action collects the relevant evidence data such as artifact promotion details from JFrog and attaches it to the corresponding change request. You can incorporate this flow action into your change policy's approval workflow. This ensures that the required evidence is available before the change request is approved or moved forward.
 
 ## Digital signature verification
 

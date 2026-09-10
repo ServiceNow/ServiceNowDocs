@@ -21,6 +21,8 @@ Reference information for lists, forms, fields, and values used in Accounts Paya
 Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management.
 -   **[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)**  
 Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping.
+-   **[Case exclusion reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-exclusion-reference-fields.md)**  
+The Case Exclusion Rule table stores the rules that determine when Invoice Case Management ignores an inbound email instead of creating an invoice inquiry case. This reference describes the table, its fields, and who can manage it.
 -   **[Create invoice cost allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.md)**  
 Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
 -   **[Outbound cost allocation staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.md)**  

@@ -36,15 +36,15 @@ The coordinator of the regulatory event alert identifies the steps to comply wit
 
 4.  Review the impact assessment and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d36609e110">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d229711e110">
 
 Field
 
-</th><th align="left" id="d36609e113">
+</th><th align="left" id="d229711e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36609e119">
+</th></tr></thead><tbody><tr><td id="d229711e119">
 
 **Applicable**
 
@@ -52,7 +52,7 @@ Description
 
 Mark the alert as applicable. After marking the regulatory event alert as **Applicable**, a new regulatory change task is automatically created in the Regulatory Tasks related list in the regulatory alert UI page.
 
-</td></tr><tr><td id="d36609e131">
+</td></tr><tr><td id="d229711e131">
 
 **Not applicable**
 
@@ -67,7 +67,7 @@ Mark the alert as not applicable.
 -   Other
 As a result of this action, the stepper component displays the alert stage as **Completed**.
 
-</td></tr><tr><td id="d36609e167">
+</td></tr><tr><td id="d229711e167">
 
 **Cancel regulatory alert**
 
@@ -75,7 +75,7 @@ As a result of this action, the stepper component displays the alert stage as **
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d36609e176">
+</td></tr><tr><td id="d229711e176">
 
 **Defer**
 
@@ -255,7 +255,7 @@ Attachments related to the task.
 
 9.  Add an action task if necessary.
 
-    See [Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating an action task.
+    See [Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating an action task.
 
 10. Add issues if necessary.
 
@@ -272,5 +272,5 @@ Verify that the regulatory change task is updated with the **Responded** state a
 
 ## What to do next
 
-[Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md)
+[Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md)
 

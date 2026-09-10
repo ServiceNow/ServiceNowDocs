@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ewd-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Strategic Portfolio Management]
 # SPM Enterprise-Wide Deployment
 
 SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units.
+
+For additional security, you can install the Extended Security for Enterprise-Wide Deployment \(Extended Security for EWD\) application. It expands partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables.
 
 ## Get started
 
@@ -30,11 +32,11 @@ SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities f
 
 </td></tr><tr><td>
 
-[Supported tables \[Omitted image "bus-learn.svg"\] Alt text: See the list of tables and related entities that are supported for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/supported-tables-for-partition-ewd.md)
+[Enable additional security \[Omitted image "bus-sdlc.svg"\] Alt text: Enable additional security for partitioned tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)
 
 </td><td>
 
-[Update partition details \[Omitted image "bus-learn.svg"\] Alt text: Populate existing records with partition details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md)
+[Supported tables \[Omitted image "bus-learn.svg"\] Alt text: See the list of tables and related entities that are supported for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/supported-tables-for-partition-ewd.md)
 
 </td><td>
 

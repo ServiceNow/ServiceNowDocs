@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-interviewmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,8 +83,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
 -   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=substitute-interviewer-self&family=zurich&ft:locale=en-US)**
 
 Substitute yourself in interviews when you cannot attend it, to eliminate the time and effort of offline coordination. Initiate the substitution directly from the calendar invite or the application record page in Employee Center.
@@ -94,60 +92,11 @@ Substitute yourself in interviews when you cannot attend it, to eliminate the ti
 Proactively monitor interview health, identify issues, and prioritize resolutions. A configurable, extensible framework is used to define scenarios that help identify items that needs recruiters' attention on an interview record.
 
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   **[Define your interview setup](https://www.servicenow.com/docs/access?context=add-interview-phase&family=zurich&ft:locale=en-US)**
-
-Configure interview phases with custom names, durations, and other key parameters, and then use them to efficiently schedule interviews, enhancing transparency and saving time.
-
--   **[Get scheduling preferences from applicants](https://www.servicenow.com/docs/access?context=request-applicant-availability&family=zurich&ft:locale=en-US)**
-
-Request applicants on a job requisition to share their scheduling preferences to plan a seamless interview process.
-
--   **[Get scheduling preferences from interviewer](https://www.servicenow.com/docs/access?context=request-interviewer-availability&family=zurich&ft:locale=en-US)**
-
-Request interviewers on a job requisition to share their scheduling preferences to plan a seamless interview process.
-
--   **[Share scheduling preferences](https://www.servicenow.com/docs/access?context=share-availability-interviewer&family=zurich&ft:locale=en-US)**
-
-As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
-
--   **[View applicant's scheduling preferences](https://www.servicenow.com/docs/access?context=view-applicant-availability&family=zurich&ft:locale=en-US)**
-
-View the scheduling preferences shared by applicants to schedule interviews accordingly.
-
--   **[View interviewer's scheduling preferences](https://www.servicenow.com/docs/access?context=view-interviewer-availability&family=zurich&ft:locale=en-US)**
-
-View the scheduling preferences shared by interviewers and schedule interviews accordingly.
-
--   **[Schedule an interview](https://www.servicenow.com/docs/access?context=schedule-interview&family=zurich&ft:locale=en-US)**
-
-Schedule interview with applicants on a job requisition to get started with the interview journey.
-
--   **[Manage interviews as a recruiter](https://www.servicenow.com/docs/access?context=manage-interviews-recruiter&family=zurich&ft:locale=en-US)**
-
-As a recruiter or recruitment coordinator, manage interviews for a job requisition as needed. You can update the interview status, view feedback, send reminders, complete or cancel interviews, and more.
-
--   **[Manage interviews as an interviewer](https://www.servicenow.com/docs/access?context=manage-interviews-interviewer&family=zurich&ft:locale=en-US)**
-
-As an interviewer, view the details of all the interviews that you’re a part of and manage them as required.
-
--   **[Provide interview feedback as a recruiter](https://www.servicenow.com/docs/access?context=provide-interview-feedback-recruiter&family=zurich&ft:locale=en-US)**
-
-As a recruiter or recruitment coordinator, provide feedback for interviews that you're a part of.
-
--   **[Provide interview feedback as an interviewer or hiring manager](https://www.servicenow.com/docs/access?context=provide-interview-feedback-hm-interviewer&family=zurich&ft:locale=en-US)**
-
-As an interviewer or hiring manager, provide timely and constructive feedback on the interviews in which you participate, to support application comparison and well-informed hiring decisions.
-
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=substitute-interviewer-self&family=australia&ft:locale=en-US)**
 
@@ -185,8 +134,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
 -   **[Schedule an interview](https://www.servicenow.com/docs/access?context=schedule-interview&family=zurich&ft:locale=en-US)**
 
 Schedule interviews more efficiently with auto-populated template variables that reduce manual email editing.
@@ -201,8 +148,6 @@ Track applicants' responses to interview invites on interviews records directly.
 Australia
 
 </td><td>
-
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Schedule an interview](https://www.servicenow.com/docs/access?context=schedule-interview&family=australia&ft:locale=en-US)**
 
@@ -314,7 +259,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Interview management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -322,7 +270,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Interview management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -351,7 +302,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. The Hiring Core application must be activated.
+
 
 </td></tr><tr><td>
 
@@ -359,7 +313,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences, and must be activated.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

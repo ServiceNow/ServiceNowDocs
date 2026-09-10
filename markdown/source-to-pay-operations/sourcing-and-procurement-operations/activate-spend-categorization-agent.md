@@ -53,3 +53,5 @@ Enable the Spend categorization agent in AI Agent Studio so users can run it fro
 
 [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 
+[Application plugins for AI capabilities in SPO]()
+

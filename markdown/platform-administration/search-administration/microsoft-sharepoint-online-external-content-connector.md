@@ -33,6 +33,19 @@ For each page retrieved, the Microsoft SharePoint Online connector queries the S
 
 To learn how to view the portion of a page's content that can be retrieved using the Microsoft SharePoint Online connector, see [View retrievable page content using the Microsoft SharePoint Online REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.md).
 
+## Microsoft SharePoint Online flags
+
+Microsoft SharePoint Online uses several flags to define how sites, lists, and documents behave.
+
+The Microsoft SharePoint Online external content connector automatically ignores any sites, lists, or documents that have any of the following flags set to true:
+
+-   **IsCatalog** \(denotes a list used for storing assets or configuration\)
+-   **IsPrivate** \(denotes a list intended for restricted or internal use\)
+-   **Hidden** \(denotes a list that supports system features and isn't meant for user browsing\)
+-   **NoCrawl** \(denotes content that shouldn't be indexed for search\)
+
+These flags denote content that isn't relevant or user-facing and should be excluded from search results.
+
 -   **[Estimate document volume for Microsoft SharePoint Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/estimate-doc-volume-mspo.md)**  
 Estimate the total number of documents included in your Microsoft SharePoint Online source system and the document counts for individual sites. Use this information to determine crawl scope settings needed for your Microsoft SharePoint Online external content connector.
 -   **[Create a public/private key pair for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/gen-cert-spo-ext-cont-connector.md)**  

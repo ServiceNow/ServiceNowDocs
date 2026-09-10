@@ -173,7 +173,7 @@ Use a guided walk-through playbook to achieve audit readiness and regulatory com
 -   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 -   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
-Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the Now Assist in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
+Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

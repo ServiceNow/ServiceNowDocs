@@ -1,6 +1,6 @@
 ---
-title: Enable Now Assist to generate wrap up code and notes summary
-description: Configure Now Assist in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
+title: Enable ServiceNow Otto to generate wrap up code and notes summary
+description: Configure ServiceNow Otto in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.html
 release: australia
@@ -10,37 +10,37 @@ reading_time_minutes: 3
 breadcrumb: [Import wrap-up codes, CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
-# Enable Now Assist to generate wrap up code and notes summary
+# Enable ServiceNow Otto to generate wrap up code and notes summary
 
-Configure Now Assist in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
+Configure ServiceNow Otto® in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
 
 ## Before you begin
 
-After an Interaction ends or is transferred to a new agent, the interaction may enter a wrap up state. During this state, agents must select a wrap up code and enter notes to document the interaction. Now Assist can analyze the interaction transcript and recommend an appropriate wrap up code based on the conversation and available wrap up code options. The skill also generates a summary of the interaction to populate the notes field. You can configure the system to automatically generate these recommendations when wrap up begins, or you can enable manual generation where agents click a button to invoke the skill when needed. Manual generation gives customers control over token usage by calling the LLM only when requested.
+After an Interaction ends or is transferred to a new agent, the interaction may enter a wrap up state. During this state, agents must select a wrap up code and enter notes to document the interaction. ServiceNow Otto® can analyze the interaction transcript and recommend an appropriate wrap up code based on the conversation and available wrap up code options. The skill also generates a summary of the interaction to populate the notes field. You can configure the system to automatically generate these recommendations when wrap up begins. Alternatively, you can enable manual generation where agents click a button to invoke the skill when needed. Manual generation gives customers control over token usage by calling the LLM only when requested.
 
 See [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md) and [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md).
 
 Role required: admin
 
-Review the following dependencies to ensure access to configuration:
+Review the following dependencies to verify access to configuration:
 
--   Now Assist for Customer Service Management plugins are installed and activated
--   The Now Assist for Wrap Up skill is activated in your instance
+-   ServiceNow Otto for Customer Service Management \(CSM\) plugins are installed and activated
+-   The ServiceNow Otto® for Wrap Up skill is activated in your instance
 -   Wrap up codes are present in the Interaction Wrap Up Codes table with detailed description
 
 ## Procedure
 
-1.  Verify the Now Assist for **Wrap Up** skill is activated:
+1.  Verify the ServiceNow Otto® for **Wrap Up** skill is activated:
 
-    \[Omitted image "int-wrap-up-completion-skill.jpg"\] Alt text: Activate the Wrap Up Completion skill
+    \[Omitted image "int-wrap-up-completion-skill-updated.png"\] Alt text: Activate the Wrap Up Completion skill
 
-    1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**
+    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**
 
-    2.  In the left panel, navigate to **Customer** &gt; **CSM** to view available Now Assist skills.
+    2.  In the left panel, navigate to **Customer** &gt; **CSM** to view available ServiceNow Otto® skills.
 
     3.  Locate the **Wrap Up Completion** skill and verify it is activated.
 
-        If the skill is not activated, click the **Activate** button on the skill card.
+        If the skill is not activated, select the **Activate** button on the skill card.
 
 2.  Create wrap up codes with detailed description:
 
@@ -76,7 +76,7 @@ Review the following dependencies to ensure access to configuration:
 
     3.  Select Use AI code as default to automatically submit the AI-recommended wrap up code if the wrap up timer expires.
 
-    4.  Click **Update** to save the configuration.
+    4.  Select **Update** to save the configuration.
 
 5.  Configure steps to enable the AI-generated method for automatic or manual recommendations:
 
@@ -84,9 +84,9 @@ Review the following dependencies to ensure access to configuration:
 
     2.  Set the value as required.
 
-        Setting the value to true automatically generates AI recommendations when wrap up begins. Setting the value to false displays a **Run Now Assist** button that agents click to generate recommendations.
+        Setting the value to true automatically generates AI recommendations when wrap up begins. Setting the value to false displays a **Run ServiceNow Otto** button that agents select to generate recommendations.
 
-    3.  Click **Update**.
+    3.  Select **Update**.
 
     Setting the property to false allows agents to manage when the skill is invoked and helps manage token usage.
 

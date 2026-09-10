@@ -26,6 +26,8 @@ Create shifts through the Security Incident Response Workspace to use when confi
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

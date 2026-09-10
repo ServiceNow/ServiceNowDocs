@@ -36,7 +36,7 @@ To provide CAM services, you implement the seven steps defined by the NIST Risk 
 
     After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 
-6.  [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
+6.  [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 
     NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
 

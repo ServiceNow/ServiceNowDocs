@@ -1,19 +1,19 @@
 ---
 title: Service Operations Workspace for ITSM release notes
-description: The ServiceNow Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
+description: The ServiceNow Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.The ServiceNow Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.The ServiceNow Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-keywords: [Service Operations Workspace, ITSM, Australia release]
+reading_time_minutes: 4
+keywords: [Service Operations Workspace, ITSM, Australia release, Service Operations Workspace, ITSM, Australia release, Service Operations Workspace, ITSM, Australia release]
 ---
 
 # Service Operations Workspace for ITSM release notes
 
 The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
 
-## ServiceNow® highlights for the Australia release
+## About Service Operations Workspace for ITSM
 
 -   Redirect UI16 module navigation links to the equivalent SOW experience.
 -   Access SOW configuration and property pages of various SOW applications using granular admin roles.
@@ -26,9 +26,44 @@ The ServiceNow® Service Operations Workspace \(SOW\) application is a configura
 
 See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Service Operations Workspace for ITSM is active by default and its default version is `9.0` in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM `9.0` is automatically installed.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+
+## June 2026
+
+The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Review AI incident summary and suggestions in the incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-update-inc-overview-tab.md)**
+
+    Investigate and resolve incidents efficiently by reviewing the AI-generated incident summary and suggested resolution plan in the AI summary and suggestions card on the **Overview** tab of an incident record. If the **Overview** tab is hidden for L1 service desk agents, the card appears on the **Details** tab.
+
+
+### What's changed
+
+-   **[Generate, update and publish PIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/review-update-pir-mim-sow.md)**
+
+    Perform the following actions on the PIR if you have the incident\_write role and added as co-contributor to the PIR:
+
+    -   Update the state or publish the PIR.
+    -   Refresh the Incident Summary data on the PIR.
+    -   Create PIR custom event.
+    -   Search, add, edit and save co-contributors \(Users\) for PIR.
+
+## Australia
+
+The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[UI16 links to SOW redirection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-admin-console-sow-itsm.md)**
 
@@ -44,12 +79,8 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
     Use the Hide contextual side panel for specific table and tab combination option from the SOW Properties section in the SOW Admin Center to configure the hide **ContextualSidebar** UX page property. This property enables you to define the table with tab combination for which the default primary contextual side panel must be hidden, prioritizing the embedded contextual side panel within the tab instead.
 
--   **[Review AI incident summary and suggestions in the incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-update-inc-overview-tab.md)**
 
-    Investigate and resolve incidents efficiently by reviewing the AI-generated incident summary and suggested resolution plan in the AI summary and suggestions card on the **Overview** tab of an incident record. If the **Overview** tab is hidden for L1 service desk agents, the card appears on the **Details** tab.
-
-
-## Changed in this release
+### What's changed
 
 -   **[Configure reference field auto-load behavior from SOW Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/admin-center-sow.md)**
 
@@ -59,73 +90,4 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
     Select the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
 
--   **[Generate, update and publish PIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/review-update-pir-mim-sow.md)**
-
-    Perform the following actions on the PIR if you have the incident\_write role and added as co-contributor to the PIR:
-
-    -   Update the state or publish the PIR.
-    -   Refresh the Incident Summary data on the PIR.
-    -   Create PIR custom event.
-    -   Search, add, edit and save co-contributors \(Users\) for PIR.
-
-## Activation information
-
-Service Operations Workspace for ITSM is active by default and its default version is `9.0` in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM `9.0` is automatically installed.
-
-## Related ServiceNow applications and Features
-
--   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)**
-
-    Control the life cycle of a change and implement the change with minimum disruption to IT services.
-
--   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md)**
-
-    Enable users to identify IT issues and log incidents through the Incident Management system. Efficiently track, classify, and prioritize incidents to work effectively toward their resolution.
-
--   **[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management.md)**
-
-    Respond to an incoming chat, phone, walk-up, or messaging interaction quickly by using an interaction that provides a centralized location for all communication channels.
-
--   **[Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md)**
-
-    Provide support for SMS and voice channels on the platform to communicate with your team and customers.
-
--   **[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md)**
-
-    Identify available on-call members of a support group who can be contacted to resolve an issue.
-
--   **[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md)**
-
-    The ServiceNow® Password Reset application helps users create strong, secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
-
--   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)**
-
-    Use machine-learning algorithms to provide dynamic and contextual recommendations for resolving an incident.
-
--   **[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ProblemManagement.md)**
-
-    Identify the root cause of recurring incidents or a major incident to help prevent them from happening again.
-
--   **[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/recommended-actions-for-itsm-in-service-operations-workspace.md)**
-
-    Get field recommendations and guidance in the side panel for the incident form in Service Operations Workspace.
-
--   **[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_RequestManagement.md)**
-
-    Initiate a catalog request flow from a different IT Service Management flow, such as an incident flow, by using catalog requests.
-
--   **[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-mgmt-landing-page.md)**
-
-    Access incident service level agreement \(SLA\) information on the Service Operations Workspace for ITSM landing page and incident record page.
-
--   **[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md)**
-
-    Configure your operator experience through a unified interface for multiple ServiceNow® IT Operations Management workflows.
-
--   **[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-experience-landing-page.md)**
-
-    Manage walk-up interactions and queues effortlessly by using Service Operations Workspace for ITSM.
-
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-ap
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 ---
 
 # Field Service Management
@@ -43,7 +43,7 @@ The ServiceNow® Field Service Management application enables you to manage work
 
 </td><td>
 
-[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for FSM to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+Automate\[Omitted image "bus-ai-otto.svg"\] Alt text:Use AI powered tools to enhance user productivity and efficiency through proactive experiences.
 
 </td><td>
 
@@ -52,7 +52,7 @@ The ServiceNow® Field Service Management application enables you to manage work
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed in this release at [Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md).
+-   Learn more about what's new and changed in this release at [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md).
 -   Log in to your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Best Practices Library](https://learning.servicenow.com/nowcreate).
 -   Connect with other Field Service Management users in the [FSM community forum](https://www.servicenow.com/community/fsm/ct-p/field-service-management).
 -   Work with an implementation specialist to streamline your Field Service Management setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).

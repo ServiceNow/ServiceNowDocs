@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-employeeslate-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks or Now Assist\).
+
 
 </td></tr><tr><td>
 
@@ -62,7 +65,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks or Now Assist\).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -103,11 +109,11 @@ Zurich
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **[EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **Interactive split view [EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
@@ -127,7 +133,7 @@ Displays organizational hierarchies with employee details and supports contextua
 
 Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **Visual content authoring [Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **Visual content authoring [EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
@@ -165,66 +171,6 @@ Provides time-aware information through calendar management with My Calendar wid
 Australia
 
 </td><td>
-
--   **[Conversation-first experience](https://www.servicenow.com/docs/access?context=eslate-conversation-first&family=australia&ft:locale=en-US)**
-
-Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
-
--   **[Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
-
-Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
-
--   **[Interactive split view](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
-
-Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
-
--   **[Personalized canvas](https://www.servicenow.com/docs/access?context=eslate-personalized-canvas&family=australia&ft:locale=en-US)**
-
-Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
-
--   **[Tasks and requests](https://www.servicenow.com/docs/access?context=emp-slate-inbox&family=australia&ft:locale=en-US)**
-
-Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
-
--   **[Employee org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&family=australia&ft:locale=en-US)**
-
-Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
-
--   **[Employee communications](https://www.servicenow.com/docs/access?context=eslate-employee-comms&family=australia&ft:locale=en-US)**
-
-Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
-
--   **[Visual content authoring](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
-
-Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
-
--   **[Notifications](https://www.servicenow.com/docs/access?context=emp-slate-notifications&family=australia&ft:locale=en-US)**
-
-Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
-
--   **[Configure admin console](https://www.servicenow.com/docs/access?context=eslate-config-admin-console&family=australia&ft:locale=en-US)**
-
-Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
-
--   **[AI-powered widget builder](https://www.servicenow.com/docs/access?context=eslate-ai-widget-builder&family=australia&ft:locale=en-US)**
-
-Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
-
--   **[Analytics and reporting](https://www.servicenow.com/docs/access?context=eslate-analytics-reporting&family=australia&ft:locale=en-US)**
-
-Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
-
--   **[Search and chat](https://www.servicenow.com/docs/access?context=eslate-conversational-catalog&family=australia&ft:locale=en-US)**
-
-Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
-
--   **[Employee Slate for Moveworks](https://www.servicenow.com/docs/access?context=employee-slate-moveworks&family=australia&ft:locale=en-US)**
-
-Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
-
--   **[Calendar and schedule management](https://www.servicenow.com/docs/access?context=eslate-calendar-schedule&family=australia&ft:locale=en-US)**
-
-Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -406,7 +352,15 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks or Now Assist\). Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
+
+    -   Set up data sources and search configurations
+    -   Configure assistant-specific settings in Moveworks or Now Assist setup
+    -   Content author or content manager role required for authoring experience access
+For more information, see [\[Placeholder link text to key emp-slate-setup-flow\]](https://www.servicenow.com/docs/access?context=emp-slate-setup-flow&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -414,9 +368,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
 
-For more information, see
+For more information, see [Configuration flow](https://www.servicenow.com/docs/access?context=emp-slate-setup-flow&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -543,7 +500,10 @@ Zurich
 
 </td><td>
 
+-   **Accessibility information**
+
 Employee Slate includes built-in accessibility compliance through the AI-native widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
+
 
 </td></tr><tr><td>
 
@@ -551,7 +511,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
+
 
 </td></tr></tbody>
 </table>## Localization information

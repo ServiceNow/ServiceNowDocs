@@ -78,6 +78,7 @@ The following workflow illustration shows how a sales representative captures an
 |Capture new prospects immediately from inbound inquiries with auto-populated sender information and associate emails in a single action.|[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)|Sales representative|
 |Promote emails from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.|[Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)|CRM administrator|
 |View associated emails from the CRM entity records.|[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)|Sales representative|
+|Grant fine-grained access to CRM data by using the responsibility framework.|[Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibility-based-access-crm-touchpoints.md)|Admin|
 
 ## What to explore next
 

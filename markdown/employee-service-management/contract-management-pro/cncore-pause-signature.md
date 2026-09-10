@@ -49,15 +49,15 @@ Use the **Modify signatories** option to pause the signature process when you wa
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d181111e160">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d181553e160">
 
 Action
 
-</th><th align="left" id="d181111e163">
+</th><th align="left" id="d181553e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d181111e169">
+</th></tr></thead><tbody><tr><td id="d181553e169">
 
 **Add signatories**
 
@@ -69,7 +69,7 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d181111e211">
+</td></tr><tr><td id="d181553e211">
 
 **Edit signatory**
 
@@ -83,28 +83,27 @@ Signatory details page is displayed.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d181111e237">
+</td></tr><tr><td id="d181553e237">
 
 **Reorder signatories**
 
 </td><td>
 
-1.  Select **Reorder**.
+1.  In the **Signing Order** column, select the order value for a signatory.
+2.  Enter the signing order number.
 
-Reorder pop-up is displayed.
+To group two or more signatories to sign at the same time, assign them the same signing order.
 
-2.  For the signatory you want to reorder, select and hold the Reorder icon \(\[Omitted image "cmpro-reorder-icon.png"\] Alt text: Reorder icon\).
-3.  Drag the signatory to the required order.
-4.  Select **Reorder**.
+3.  Select outside the field, or select **Save**.
 
 
-</td></tr><tr><td id="d181111e275">
+</td></tr><tr><td id="d181553e266">
 
 **Remove signatories**
 
 </td><td>
 
-1.  Select the signatory by checking the corresponding checkbox.
+1.  Select the signatory by checking the corresponding check box.
 2.  Select **Remove**.
  **Note:** The **Remove** option is not available for self-served contract requests using contract templates with participant-based signatories.
 

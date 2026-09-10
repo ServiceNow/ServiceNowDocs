@@ -186,7 +186,7 @@ The following table lists the metrics that are gathered as output from vSphere c
 |disk.totalWriteLatency.average|disk|millisecond|Average amount of time taken to process a SCSI write command issued by the guest OS to the virtual machine.|
 |disk.unshared.latest|disk|KiB|Amount of space associated exclusively with a virtual machine.|
 |disk.usage.average \(featured metric\)|disk|KiB|Aggregated disk I/O rate.|
-|disk.used.latest|disk|KiB|Amount of space actually used by the virtual machine or the datastore. May be less than the amount provisioned at any given time, depending on whether the virtual machine is powered-off, whether snapshots have been created or not, and other such factors.|
+|disk.used.latest|disk|KiB|Amount of space actually used by the virtual machine or the datastore. May be less than the amount provisioned at any given time. Factors include whether the virtual machine is powered off and whether snapshots have been created.|
 |disk.write.average|disk|KiB|Average number of kilobytes written to the disk each second.|
 
 |Metric type|Resource \(name of specific database, where relevant\)|Units|Metric type description|

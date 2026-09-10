@@ -26,8 +26,6 @@ Enable a Health and Safety table for report field mapping. You can then configur
 Create a safety report field mapping to map fields in your reporting PDF template to the corresponding fields in the Health and Safety records.
 -   **[Configure groups for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.md)**  
 Configure user groups for Health and Safety for assignment of safety records. You can assign roles to groups to provide access to all group members or assign roles to individual users.
--   **[Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/configure-job-generate-frequency-rates.md)**  
-Configure the scheduled job to load the safety frequency rates and ensure that the safety metrics on the Health and Safety Workspace landing page are up to date.
 -   **[Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/assign-hs-profile-user.md)**  
 Assign the Health and Safety profile to all users in your organization, including employees, visitors, and contractors.
 -   **[Add a Health and Safety visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-add-health-safety-visitor.md)**  

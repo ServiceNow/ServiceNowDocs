@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-itomoptimization-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -113,6 +113,14 @@ Yokohama
 </td><td>
 
 -   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
+
+The following UI changes are applicable for workflow migration:
+
+    -   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Invoke Workflow** option has been removed from the Operation Type field.
+    -   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
+    -   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
+
+ -   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
     -   Migration of legacy workflows to Workflow Studio flows or subflows.
     -   Policy Rule Actions now supports Workflow Studio subflows instead of legacy workflows.
 
@@ -151,9 +159,7 @@ Yokohama
 
 </td><td>
 
--   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Invoke Workflow** option has been removed from the Operation Type field.
--   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
--   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -190,15 +196,13 @@ Yokohama
 
 </td><td>
 
-These workflows have been deprecated:
+-   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Invoke Workflow** option has been removed from the Operation Type field.
+-   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
+-   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
 
--   Retrieve cloud billing data
+ -   Retrieve cloud billing data
 -   Retrieve cloud billing month
 -   Cloud operation step workflow launcher
-
-**Note:** See [\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US) to learn more about the workflow migration.
-
-For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 

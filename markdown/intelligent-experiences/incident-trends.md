@@ -1,6 +1,6 @@
 ---
 title: Platform Analyze task trends agentic workflow
-description: Use the Platform Analyze task trends agentic workflow to detect recurring task patterns of closed tickets so that you can understand the root cause and get recommendations to prevent them from happening in future.
+description: Use the Platform Analyze task trends agentic workflow to detect recurring task patterns so that you can understand the root cause and get recommendations to prevent them from happening in future.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/incident-trends.html
 release: australia
@@ -12,11 +12,13 @@ breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI
 
 # Platform Analyze task trends agentic workflow
 
-Use the Platform Analyze task trends agentic workflow to detect recurring task patterns of closed tickets so that you can understand the root cause and get recommendations to prevent them from happening in future.
+Use the Platform Analyze task trends agentic workflow to detect recurring task patterns so that you can understand the root cause and get recommendations to prevent them from happening in future.
 
 ## Analyze task trends overview
 
-The Analyze task trends agentic workflow enhances task management by detecting recurring patterns, predicting disruptions, and suggesting proactive resolution to reduce downtime and improve reliability. Tasks are grouped and analyzed by AI to analyze common recurring issues and root causes. The LLM then generates resolution recommendations based on the analysis and displays it to you. After the analysis is generated, you can continue the conversation to do the following:
+The Analyze task trends agentic workflow enhances task management by detecting recurring patterns, predicting disruptions, and suggesting proactive resolution to reduce downtime and improve reliability. Tasks are grouped and analyzed by AI to analyze common recurring issues and root causes, and there are citations for representative records for each group. The LLM then generates resolution recommendations based on the analysis and displays it to you.
+
+After the analysis is generated, you can continue the conversation to do the following:
 
 -   Get a summary of each group analysis. You have to specify which group you would like to get a summary of.
 -   Download the analysis as a PDF or Word document.
@@ -36,7 +38,7 @@ The default input fields considered for analysis are the following:
 
 You can con figure additional input fields using a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. See the Additional configuration section for more information.
 
-The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
+The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -48,7 +50,7 @@ For this agentic workflow to behave as expected, you should have at least 500 re
 
 You must also configure Group Action Framework \(GAF\). See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF records, but you can configure GAF for other task tables.
 
-GAF is set up for certain applications for you. If you want the agentic workflow to have its own system of categorization different from the main application, you can clone an existing action strategy skill and use the clone in the var set described in the Additional configuration section. This enables you to train the groupings differently for different agentic resources.
+GAF is set up for certain applications for you. If you want the agentic workflow to have its own system of categorization different from the main application, you can clone an existing action strategy skill and use the clone in the var set described in the **Additional configuration** section. This enables you to train the groupings differently for different agentic resources.
 
 **Note:** If you create a clone of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
 

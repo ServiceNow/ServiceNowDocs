@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -46,7 +46,14 @@ Sprint \[rm\_sprint\]
         If the dates of the Sprint in EAP overlap with a record in the rm\_sprint table, then a new Sprint isn’t created for Agile Development 2.0. You can either choose to create sprints for non-overlapping dates or delete the existing sprint from the rm\_sprint table.
 
     -   Fields of planned start and end dates for Sprints in Agile Development 2.0 become read-only, and are derived from the business calendar spans mapped to the iterations in EAP.
+
+        If an iteration doesn't follow a calendar entry, the dates are derived from the start date and the end date on the iteration itself.
+
+    -   Sprints that an Agile Team creates on a configuration with a single level of iterations sync to Agile Development 2.0 even though they don't follow a planning calendar entry. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
     -   Updating Sprint details in EAP updates the corresponding Sprint details in Agile Development 2.0.
+
+        Changing the start date or the end date of an iteration updates the dates on the corresponding Sprint.
+
     -   Deleting Sprints from EAP deletes the corresponding record from the Sprint \[rm\_sprint\] table.
     -   On the Sprint \[rm\_sprint\] table, reference fields are created for parent of the EAP iteration and the EAP team this iteration belongs to.
 -   **Story creation and updates**

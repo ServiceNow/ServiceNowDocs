@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, installation]
-breadcrumb: [AI in IT Operations Management, IT Operations Management]
+breadcrumb: [AI in ITOM, IT Operations Management]
 ---
 
 # Install the ServiceNow Otto for IT Operations Management \(ITOM\) application

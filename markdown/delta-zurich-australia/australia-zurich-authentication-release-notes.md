@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-authentication-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -80,7 +80,7 @@ Use the new MFA Dashboard to understand insights such as MFA user enrollment, pr
 Use the new MFA Guided setup to configure multi-factor Authentication \(MFA\) for users who currently log in to ServiceNow with only a user name and password. This update enhances security by guiding administrators through the MFA setup process and verifying that all users are protected with an additional layer of authentication.
 
 
--   **[Attributes for OIDC](https://www.servicenow.com/docs/access?context=idp-attributes-oidc&family=zurich&ft:locale=en-US)**
+ -   **[Attributes for OIDC](https://www.servicenow.com/docs/access?context=idp-attributes-oidc&family=zurich&ft:locale=en-US)**
 
 Use the Identity Provider \(IDP\) Attributes received from the OIDC response from the Identity Provider as a filter criteria for authentication.
 
@@ -123,7 +123,12 @@ Zurich
 
 </td><td>
 
--   **[Enhanced SSO login and logout experience](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhanced SSO login and logout experience](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&family=zurich&ft:locale=en-US)**
 
 Use the enhanced SSO login and logout experience. Enhancement includes:
 
@@ -208,8 +213,6 @@ Zurich
 
 </td><td>
 
-Due to the launch of new simplified inbound integration configuration in Machine Identity Console, the following inbound integrations configurations in the Application registry page are deprecated:
-
 -   OAuth API endpoint for external clients
 -   OAuth JWT API endpoint for external clients
 -   OIDC provider to verify ID tokens
@@ -220,7 +223,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Due to the launch of new simplified inbound integration configuration in Machine Identity Console, the following inbound integrations configurations in the Application registry page are deprecated:
+    -   OAuth API endpoint for external clients
+    -   OAuth JWT API endpoint for external clients
+    -   OIDC provider to verify ID tokens
+-   The \(`glide.login.no_blank_password`\) property is deprecated, since the property is no longer used and changing this property value doesn't effect login behavior.
+
+ -   OAuth API endpoint for external clients
+-   OAuth JWT API endpoint for external clients
+-   OIDC provider to verify ID tokens
 
 </td></tr></tbody>
 </table>## Activation information
@@ -241,7 +252,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Authentication is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -249,7 +263,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Authentication is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -336,7 +353,8 @@ Australia
 
 </td><td>
 
--   **Coral theme**
+-   **Accessibility information**
+    -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -445,7 +463,14 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   **[Human-assisted SMS OTP](https://www.servicenow.com/docs/access?context=human-assisted-sms-otp&family=australia&ft:locale=en-US)**
+
+Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
+
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Authentication factors enhancement for AI voice service](https://www.servicenow.com/docs/access?context=explore-authentication-factors&family=australia&ft:locale=en-US)**
 
@@ -453,7 +478,7 @@ Following are the authentication factors enhancements:
 
     -   Email OTP as an authentication factor for AI voice service: Use Email OTP as a standalone factor, a primary factor, or a secondary factor in AI voice agent authentication flows. When a caller reaches the voice agent, a one-time password is sent to their registered email address. The caller provides the password to complete authentication.
     -   KBA for AI voice service: Use the KBA setup to configure Knowledge-Based Authentication \(KBA\) for the voice channel. Choose from base system questions at both the identification level and the authentication level. AI voice service mappings are populated automatically from your Assistant Designer selection, so manually mapping voice services is no longer a mandatory step in the KBA setup.
-    -   Authenticate callers at the start of every call: Prompt callers for authentication or identification details at the start of every call, before the voice-only assistant responds to any request, using the Authenticate at the start of the call option on the Assistant Designer's Caller verification page.
+    -   Authenticate callers at the start of every call: Prompt callers for authentication or identification details at the start of every call, before the voice-only assistant responds to any request. Use the Authenticate at the start of the call option on the Assistant Designer's Caller verification page.
 
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 

@@ -22,9 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Sometimes, when an alert \(or event\) comes into the system, it needs to be connected — or "bound" — to a Configuration Item \(CI\) in the CMDB. By default, the system binds alerts to host specified in the **Node** field of the event. Imagine a situation where you have a Windows server running multiple processes, like MSFT SQL Instances and SQL Server Analysis Services. The challenge is to bind an event to the specific process instance rather than just the host server, as multiple processes could have the same generic name, such as MSSQLSERVER, leading to ambiguity.
+Sometimes, when an alert \(or event\) comes into the system, it needs to be connected — or "bound" — to a Configuration Item \(CI\) in the CMDB. By default, the system binds alerts to host specified in the **Node** field of the event. Imagine a situation where you have a Windows server running multiple processes, like MSFT SQL Instances and SQL Server Analysis Services. The challenge is to bind an event to the specific process instance rather than just the host server. Multiple processes could have the same generic name, such as MSSQLSERVER, leading to ambiguity.
 
-The following example procedure uses a Windows server as the host, MSFT SQL Instances as the CI class of the process, and MSSQLSERVER as the process name. The following steps are based on the assumption that the event **Node** field of the event provides the host name, and the **Additional Information** field contains specific process details required for binding.
+The following example procedure uses a Windows server as the host, MSFT SQL Instances as the CI class of the process, and MSSQLSERVER as the process name. The following steps assume that the event **Node** field provides the host name. The **Additional Information** field contains specific process details required for binding.
 
 <table id="table_jpt_lts_2fc"><thead><tr><th>
 

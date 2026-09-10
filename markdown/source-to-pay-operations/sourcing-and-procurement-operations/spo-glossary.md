@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 17
+reading_time_minutes: 18
 keywords: [glossary terms, approval rule, sourcing and procurement operations, assignment rule, sourcing and procurement operations, glossary terms, glossary terms, capitalization policy, sourcing and procurement operations, category manager, sourcing and procurement operations, category taxonomy, sourcing and procurement operations, confidence score, sourcing and procurement operations, glossary terms, glossary terms, ERP source, sourcing and procurement operations, glossary terms, fixed asset, sourcing and procurement operations, glossary terms, general ledger account, GL account, sourcing and procurement operations, glossary terms, glossary terms, interaction, sourcing and procurement operations, invoice line, sourcing and procurement operations, glossary terms, ledger assignment rule, sourcing and procurement operations, legal entity, sourcing and procurement operations, glossary terms, milestone, sourcing and procurement operations, glossary terms, glossary terms, off-catalog request, sourcing and procurement operations, glossary terms, pipeline project, sourcing and procurement operations, procurement administrator, sourcing and procurement operations, procurement specialist, sourcing and procurement operations, purchase line, sourcing and procurement operations, purchase order line, POL, sourcing and procurement operations, purchase request, sourcing and procurement operations, purchase revision, sourcing and procurement operations, purchasing assignment rule, sourcing and procurement operations, glossary terms, glossary terms, routing agent, sourcing and procurement operations, glossary terms, savings lever, sourcing and procurement operations, savings opportunity, sourcing and procurement operations, Source-to-Pay Workspace, S2P Workspace, sourcing and procurement operations, spend category, sourcing and procurement operations, supplier qualification, sourcing and procurement operations, glossary terms, glossary terms, Universal Request, UR, sourcing and procurement operations, glossary terms, glossary terms, work item queue, sourcing and procurement operations, work prioritization, sourcing and procurement operations]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -36,11 +36,17 @@ Glossary terms are grouped alphabetically.
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and Asset Management data model mappings]()
 
 [Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
+
+[Address deletion permissions]()
 
 ## A
 

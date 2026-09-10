@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable order creation from a quote
@@ -23,33 +23,40 @@ Activate the following plugins:
 -   Quote Experience plugin \(App ID: sn\_quote\_mgmt\_adv\).
 -   Order Management plugins
 
+Configure the following dependencies:
+
+-   Enable the `transaction.oneQuoting.orders.enabled` tenant setting.
+-   Configure the **serviceNowJwtConnection** connection in **CPQ Administration** &gt; **Utilities** &gt; **Connection**.
+
 ## About this task
 
 The integration and event that create an order from a quote are seeded in your blueprints. To make the capability available to users, add the seeded **Create Order** event to the layout, set its access, and then deploy the blueprint.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CPQ Administration** &gt; **Transaction** and open the blueprint.
+1.  Navigate to **All** &gt; **CPQ Administration** &gt; **Transaction**.
 
-2.  Add the **Create Order** event to the layout.
+2.  Navigate to **Events**, select the **Create Order** event, set **Event Access** to **Active**, and save the event.
 
-3.  Set **Event Access** to **Active** in the event properties.
+3.  Add the **Create Order** event to the layout.
 
-4.  Add a button to the layout to trigger the event.
+    1.  Add a button to the layout.
 
-5.  Enable the event button.
+    2.  Open the button properties.
 
-6.  From the **Event** picklist, select the **Create Order** event.
+    3.  Toggle the **Event Button** property to **Active**.
 
-7.  In **Views**, adjust the access to the event for each stage.
+    4.  From the **Event** picklist, select the **Create Order** event.
 
-8.  Select **Save**.
+    5.  Save the button properties.
 
-    The layout is saved.
+    6.  Save the layout.
 
-9.  Select **Deploy** on the blueprint.
+4.  In **Views**, adjust the access to the **Create Order** event for each stage.
 
-    The **Create Order** button appears on the Quote user interface.
+5.  Select **Deploy** on the blueprint.
+
+    **Create Order** is enabled on the quote, and the **Create Order** button appears on the Quote user interface.
 
 
 ## Result
@@ -59,6 +66,8 @@ The **Create Order** button is available on the quote layout for the stages you 
 ## What to do next
 
 After you deploy the blueprint, configure the quote-to-order field mapping to define how quote data maps to the resulting order.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

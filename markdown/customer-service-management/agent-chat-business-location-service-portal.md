@@ -18,6 +18,8 @@ Provide the information needed about a case and its resolution by completing a p
 
 Role required: Service Organization Contributor \(sn\_customerservice.service\_organization\_contributor\) or Location Manager \(sn\_customerservice.svc\_location\_manager\_core\)
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
 1.  In the Business Organization Support Portal \(formerly Business Location Service Portal\), select the Chat icon \(\[Omitted image "chat-icon.png"\] Alt text: chat symbol\) to start a conversation.

@@ -24,21 +24,21 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select **Integrations**.
 
 3.  Select **Custom**.
 
-    The following table list out of the box Custom feed.
+    The following table lists the default Custom feeds.
 
     |ThreatFeed|Description|URL|
     |----------|-----------|---|
     |CrowdStrike Feed|Source for getting CrowdStrike Actor, Observable and Reports data.|[https://api.crowdstrike.com](https://api.crowdstrike.com)|
 
-4.  Click **Edit** to edit the feed.
+4.  Select **Edit** to edit the feed.
 
 
--   **[View Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)**  
-The CrowdStrike feed enables users to ingest indicators, actors, reports, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
+-   **[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)**  
+The CrowdStrike feed enables users to ingest indicators, actors, reports, malware, vulnerabilities, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
 -   **[Configure custom MISP API feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-premium-misp.md)**  
 The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 

@@ -43,15 +43,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d140512e191">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d145004e191">
 
 Option
 
-</th><th align="left" id="d140512e194">
+</th><th align="left" id="d145004e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140512e200">
+</th></tr></thead><tbody><tr><td id="d145004e200">
 
 **Add an existing billing account**
 
@@ -59,7 +59,7 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d140512e209">
+</td></tr><tr><td id="d145004e209">
 
 **Create and add a new single account**
 
@@ -72,7 +72,7 @@ Select an existing account from the drop-down list.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d140512e254">
+</td></tr><tr><td id="d145004e254">
 
 **Create and add new bulk accounts**
 
@@ -91,17 +91,17 @@ Select an existing account from the drop-down list.
 </td></tr></tbody>
 </table>6.  If you are provisioning an Azure account, determine whether to use an existing enrollment account or create and add a new enrollment account.
 
-    An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\) that is used to organize and control Azure subscriptions and resources.
+    An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\). It organizes and controls Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d140512e344">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d145004e344">
 
 Option
 
-</th><th align="left" id="d140512e347">
+</th><th align="left" id="d145004e347">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140512e353">
+</th></tr></thead><tbody><tr><td id="d145004e353">
 
 **Enrollment account**
 
@@ -109,7 +109,7 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d140512e362">
+</td></tr><tr><td id="d145004e362">
 
 **Create and add a new single account**
 
@@ -123,7 +123,7 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d140512e411">
+</td></tr><tr><td id="d145004e411">
 
 **Create and add new bulk accounts**
 
@@ -154,6 +154,6 @@ Select an existing account.
 ## Result
 
 -   Based on the defined context, Cloud Account Management creates a subscription account within the specified cloud organization and AWS organization unit or Azure management group
--   To provide a more user-friendly alternative to a subscription ID, when an Azure subscription is requested through Cloud Account Management, an alias consisting of an 8-character randomly generated suffix is appended to the request name. For example: `CWSAREQ0000001-businessapp1-UEFwnlF8`.
+-   To provide a more user-friendly alternative to a subscription ID, an alias is appended to the request name when an Azure subscription is requested through Cloud Account Management. The alias consists of an 8-character randomly generated suffix. For example: `CWSAREQ0000001-businessapp1-UEFwnlF8`.
 
 

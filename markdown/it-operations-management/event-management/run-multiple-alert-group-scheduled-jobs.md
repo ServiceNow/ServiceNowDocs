@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,11 +32,11 @@ You can efficiently manage and run multiple scheduled jobs in parallel to group 
 
 -   **sa\_analytics.agg.group\_alert\_with\_same\_assignment\_group\_only**: Groups alerts that share the same assignment group. By default, the value is set to false. If you want to set this property to true, create a property with the same name and set the value to true.
 -   **sa\_analytics.agg.group\_alert\_with\_same\_domain\_only**: Groups alerts that belong to the same domain. By default, the value is set to true.
--   **sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**: “Group by” property, with comma-separated list of field names that need to have matching values across alerts to allow alerts to be grouped together. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), alert additional info field names \(such as additional\_info.state\) or alert tags \(such as t\_data\_center\). When the specified field values match each other between alerts, those alerts can be grouped together.
+-   **sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**: “Group by” property, with comma-separated list of field names that need to have matching values across alerts to allow alerts to be grouped together. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), or alert additional info field names \(such as additional\_info.state\). It can also contain alert tags \(such as t\_data\_center\). Alerts can be grouped when the specified field values match.
 
 **Note:** To ensure efficient scale-out, at least one of these properties must be defined to establish some form of separation or grouping logic. This is necessary to ensure that all alerts belonging to the same group are processed correctly by specific jobs, creating a logical division of alerts.
 
-Without setting at least one of these properties to true, the alerts will not be properly segregated. For instance, if you do not define any grouping logic \(set any property to true\) and both the assignment group and domain separation are set to false, the scale-out will not work, and all alerts will be processed by a single scheduled job.
+Without setting at least one of these properties to true, the alerts will not be properly segregated. If you do not define any grouping logic, the scale-out will not work. All alerts will be processed by a single scheduled job.
 
 ## Procedure
 
@@ -52,11 +52,13 @@ Without setting at least one of these properties to true, the alerts will not be
 
 5.  Clone the scheduled job definition from the Scheduled jobs \[sys\_auto\] table to the desired number of multiple scheduled jobs for alert grouping.
 
-6.  In the new jobs, in the Run this script section, call the new JS function queryS0 \(instead of old query\(\) function\) and transfer to it the job number as input parameter.
+6.  In the new jobs, call the queryS0 function in the Run this script section and pass the job number as a parameter.
 
     **Note:** Job numbers must start at 0 and follow consecutively: 0, 1, 2, 3, 4...
 
-7.  Fix hashes in the \[sa\_analytics\_status\] and \[sa\_hash\] table by selecting the earliest hash with the same prefix, cloning it, and adding the hash name suffix, for example, “\_groupingX”, where X is the job number.
+7.  Fix hashes in the \[sa\_analytics\_status\] and \[sa\_hash\] table by selecting the earliest hash with the same prefix and cloning it.
+
+    Add the hash name suffix “\_groupingX”, where X is the job number.
 
     In the case of scaling out from no scale-out \(single job\) to 2 jobs, and for the hash name `last_alert_process_time`, clone it to maintain the same value as in `last_alert_process_time`:
 

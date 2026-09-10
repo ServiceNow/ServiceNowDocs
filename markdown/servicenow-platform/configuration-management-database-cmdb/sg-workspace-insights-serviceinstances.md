@@ -1,6 +1,6 @@
 ---
-title: Service instances insights dashboard in Service Graph Workspace
-description: Use the Service instances page in Service Graph Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
+title: Service instances insights dashboard in CMDB Workspace
+description: Use the Service instances page in CMDB Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.html
 release: australia
@@ -9,16 +9,16 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Insights view, Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service instances insights dashboard in Service Graph Workspace
+# Service instances insights dashboard in CMDB Workspace
 
-Use the Service instances page in Service Graph Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
+Use the Service instances page in CMDB Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
 
 ## Access
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  In the navigation panel, select the Insights icon.
 3.  On the Insights page navigation pane, select **Service instances**.
 
@@ -29,4 +29,6 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 Shows a count of [Service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) in your organization, based on records in the Service Instance \[cmdb\_ci\_service\_auto\] table. The chart shows the trend of total number of Service instances per day, for the past seven days.
 
 Select the tile to access the Service instance dashboard where you can monitor the adoption level and health of Service instances. For more details, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+
+**Parent Topic:**[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
 

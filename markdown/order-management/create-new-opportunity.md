@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, select **New**.
 
@@ -28,15 +28,15 @@ Role required: sales\_agent
 
 3.  Use the following table to fill in the information.
 
-<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d60884e88">
+<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d61127e88">
 
 Fields
 
-</th><th align="left" id="d60884e91">
+</th><th align="left" id="d61127e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60884e97">
+</th></tr></thead><tbody><tr><td id="d61127e97">
 
 **Short Description**
 
@@ -44,7 +44,7 @@ Description
 
 Fill in a short description for the opportunity.
 
-</td></tr><tr><td id="d60884e106">
+</td></tr><tr><td id="d61127e106">
 
 **Estimated Deal Size**
 
@@ -52,7 +52,7 @@ Fill in a short description for the opportunity.
 
 Amount of potential opportunity.
 
-</td></tr><tr><td id="d60884e115">
+</td></tr><tr><td id="d61127e115">
 
 **Account**
 
@@ -60,7 +60,7 @@ Amount of potential opportunity.
 
 Provide account information.
 
-</td></tr><tr><td id="d60884e124">
+</td></tr><tr><td id="d61127e124">
 
 **Consumer**
 
@@ -68,7 +68,7 @@ Provide account information.
 
 Select a consumer.
 
-</td></tr><tr><td id="d60884e134">
+</td></tr><tr><td id="d61127e134">
 
 **Deal type**
 
@@ -78,7 +78,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
 
 
-</td></tr><tr><td id="d60884e151">
+</td></tr><tr><td id="d61127e151">
 
 **Stage**
 
@@ -86,7 +86,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 
 Enter a stage of the opportunity. For example: Qualify, Develop, Propose, Negotiate, Closed- Won, or Closed- Lost.
 
-</td></tr><tr><td id="d60884e160">
+</td></tr><tr><td id="d61127e160">
 
 **Route to market**
 
@@ -98,7 +98,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 -   Distributor
 
 
-</td></tr><tr><td id="d60884e183">
+</td></tr><tr><td id="d61127e183">
 
 **Sales Cycle Type**
 
@@ -106,7 +106,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 
 Enter the type of sales cycle during the creation of the opportunity. For example: NEWCUST, RENEW, or UPSELL.
 
-</td></tr><tr><td id="d60884e192">
+</td></tr><tr><td id="d61127e192">
 
 **Contact**
 
@@ -114,7 +114,7 @@ Enter the type of sales cycle during the creation of the opportunity. For exampl
 
 Fill in the primary contact information associated with the opportunity.
 
-</td></tr><tr><td id="d60884e201">
+</td></tr><tr><td id="d61127e201">
 
 **Channel partner**
 
@@ -131,8 +131,6 @@ An external organization involved in selling, influencing, or supporting an oppo
 ## What to do next
 
 Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md).
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

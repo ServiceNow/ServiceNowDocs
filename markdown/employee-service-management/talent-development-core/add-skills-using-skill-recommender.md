@@ -36,7 +36,7 @@ By adding skills to your profile, you can track all these details in one place.
 
     Search results are sorted alphabetically, with the top results displaying first.
 
-    \[Omitted image "skills-recommender.png"\] Alt text: Skill search results
+    \[Omitted image "skills-recommender.png"\] Alt text: Search field showing "Jav" with dropdown displaying six matching skills including JavaScript, Java J2SE J2EE, and other Java-related technologies
 
     **Note:** If you don't see the skill recommendations, it indicates that the AI Search setup is broken. Clear your instance cache by entering `server_url/cache.do` in your browser. If the problem persists, then contact your system admin.
 

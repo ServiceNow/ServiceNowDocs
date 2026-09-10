@@ -1,9 +1,9 @@
 ---
 title: Project Workspace release notes
-description: The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+description: The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.The ServiceNow Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 11
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 11
 
 The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
 
-## Project Workspace highlights for the Australia release
+## About Project Workspace
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
@@ -31,11 +31,24 @@ The ServiceNow® Project Workspace application provides an intuitive user experi
 
 See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Project Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+    Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-integration-pw.md)**
 
@@ -44,7 +57,11 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Spot schedule risks earlier with a date-conflict indicator that flags when a connected item's planned dates fall outside its parent project task. You can review status without CWM access, while your teams continue to track progress in CWM.
 
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+## July 2026
+
+The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Now assist for SPM enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md)**
 
@@ -54,7 +71,21 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     -   The RIDAC menu provides access to AI-Identified Risks, RIDAC by Type \(Risks, Issues, Decisions, Actions, Change Requests tabs\), and All RIDAC.
     -   Access Risks, Issues, Decisions, Actions, and Change Requests \(RIDAC\) through tabs \(presentation list\) in the RIDAC by Type page.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+### What's changed
+
+-   **[RIDAC enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-ridac-pw.md)**
+
+    New RIDAC menu is added on the L2 menu. These three pages are added under RIDAC menu:
+
+    -   AI-Identified Risks
+    -   RIDAC by Type
+    -   All RIDAC
+
+## June 2026
+
+The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Auto-sync resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/realign-resource-assignment-to-task.md)**
 
@@ -88,6 +119,40 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
 
+
+### What's changed
+
+-   **[Inline comments changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-project-planning-with-docs.md)**
+    -   The Add comments icon appears in the inline toolbar.
+    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
+    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
+    -   Users can turn comment highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
+
+## Australia Early Availability
+
+The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-asset-project-requests-pw.md)**
+    -   Create and track the number of requests with project reference or requests which are created as part of an SPM project.
+    -   Provide portfolio and project managers with visibility into the status of associated hardware requests.
+    -   Enable project-based tracking of hardware requests, improving traceability across project plans.
+    -   Help portfolio or project managers quickly understand which asset requests are tied to the project and track their current status.
+-   **[Manage resources directly in Project Workspace using interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-approve-unassigned-work-pw.md)**
+    -   View assigned and unassigned work from the embedded resource board.
+    -   Assign unassigned work using automatic or manual effort distribution.
+    -   Preview real-time effort allocations before assigning work.
+    -   Identify resource availability and over-utilization using visual indicators.
+    -   Approve, unapprove, or reprioritize assignments by updating the resource status directly from the resource board.
+    -   Extend or update assignments, including assignments for unassigned tasks, without leaving Project Workspace.
+
+## Australia
+
+The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Project plan generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-project-using-ai-pw.md)**
 
     Use natural language, uploaded files, or both to automatically generate a project plan with tasks, dates, and business cases.
@@ -120,8 +185,6 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Track project health visually. Overall status and individual health sections display as color-coded bullet points with highlighted key values. Sections include scope, schedule, and other health areas.
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
-
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
@@ -148,35 +211,8 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Project properties can be edited only by users with the pps\_admin role.
 
--   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-asset-project-requests-pw.md)**
-    -   Create and track the number of requests with project reference or requests which are created as part of an SPM project.
-    -   Provide portfolio and project managers with visibility into the status of associated hardware requests.
-    -   Enable project-based tracking of hardware requests, improving traceability across project plans.
-    -   Help portfolio or project managers quickly understand which asset requests are tied to the project and track their current status.
--   **[Manage resources directly in Project Workspace using interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-approve-unassigned-work-pw.md)**
-    -   View assigned and unassigned work from the embedded resource board.
-    -   Assign unassigned work using automatic or manual effort distribution.
-    -   Preview real-time effort allocations before assigning work.
-    -   Identify resource availability and over-utilization using visual indicators.
-    -   Approve, unapprove, or reprioritize assignments by updating the resource status directly from the resource board.
-    -   Extend or update assignments, including assignments for unassigned tasks, without leaving Project Workspace.
 
-## UI changes
-
--   **[RIDAC enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-ridac-pw.md)**
-
-    New RIDAC menu is added on the L2 menu. These three pages are added under RIDAC menu:
-
-    -   AI-Identified Risks
-    -   RIDAC by Type
-    -   All RIDAC
--   **[Inline comments changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-project-planning-with-docs.md)**
-    -   The Add comments icon appears in the inline toolbar.
-    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
-    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
-    -   Users can turn comment highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
-
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+### What's changed
 
 -   **[AI-generated status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-a-status-report-in-project-workspace.md)**
 
@@ -208,47 +244,14 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     -   Added an Asset Requests related list on the Project form that enables project managers to view, track, and monitor all associated hardware requests directly from a project.
     -   The **Resources** tab in Project Workspace now opens the resource board within the same page instead of launching a new browser tab.
 
-## Changed in this release
-
 -   **[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ai-skills-project-workspace.md)**
 
     Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
-## Deprecated features
+### What's deprecated or removed
 
 -   Starting with the Australia release, the Project Status Report \(com.sn\_store\_ppm.mobile\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Project Workspace supports status report capability.
 -   Starting with Australia release, the Project Management Office \(PMO\) dashboard is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Execution dashboard supports PMO dashboard capability.
 -   Starting with Australia release, the Investment Portal is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, Portfolio Planning Workspace supports Investment Portal capability.
-
-## Activation information
-
-Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-## Related ServiceNow applications and features
-
--   **[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_PortfolioManagement.md)**
-
-    Use a simplified, team-oriented approach to Project Management and IT development by combining several individual applications.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    ServiceNow Otto uses generative AI to improve productivity and efficiency, deliver better self-service, recommend actions, and provide answers.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use the ServiceNow Otto panel conversational interface in the Enterprise Agile Planning workspace to get story recommendations and split or combine stories. You can also create stories for your epics with the help of generative AI.
-
--   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    ServiceNow Otto products provide generative AI skills tailored to different workflows. These include feedback summarization, content summarization in Docs, demand creation, and epic to story generation.
-
--   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    The AI Admin Hub console provides you with quick and easy access to the important information that to set up, configure, and monitor Now Assist applications and features.
-
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
 

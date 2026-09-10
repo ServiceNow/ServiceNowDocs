@@ -1,9 +1,9 @@
 ---
 title: Event Management release notes
-description: The ServiceNow Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.
+description: The ServiceNow Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.The ServiceNow Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.
 
-## Event Management highlights for the Australia release
+## About Event Management
 
 -   Streamline Event Management setup with the new AI-guided Implementation Planner, helping admins configure ITOM AIOps faster and more accurately.
 -   Enable smarter alert grouping based on CMDB service relationships, with thresholds and seed prerequisites to reduce noise and improve operational efficiency.
@@ -31,9 +31,22 @@ The ServiceNow® Event Management application helps you to identify health issue
 
 See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md) or [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMActivatePlugin.md).
+
+
+**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Unified alert grouping across Event Management and HLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/group-alert-sow-itom.md)**
 
@@ -44,7 +57,7 @@ See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     Increase binding accuracy and reliability and improve alert-to-CI binding with explicit node-based control, configurable node-field usage, enhanced mapping logic, and backward-compatible updates.
 
 
-## UI changes
+### What's changed
 
 -   **Coral theme**
 
@@ -56,21 +69,8 @@ See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     -   New AI gradient styles and subtle animations to highlight intelligent features.
     -   Smarter focus behavior that reduces visual clutter for mouse users.
 
-## Deprecations
+### What's deprecated or removed
 
 -   Alert Clustering Definitions \(ACD\) have been deprecated and fully replaced by Alert Automation in Service Operations Workspace. All existing configurations remain supported with full feature parity.
 -   Service Management Dashboard is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
-
-## Activation information
-
-Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMActivatePlugin.md).
-
-## Related ServiceNow applications and features
-
--   **[Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-workspace-ops-intelligence.md)**
-
-    ServiceNow® Agent Workspace for [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/operational-metrics.md) provides a central interface that enables you to view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds and aggregations for single score charts.
-
-
-**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)
 

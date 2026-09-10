@@ -68,3 +68,5 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

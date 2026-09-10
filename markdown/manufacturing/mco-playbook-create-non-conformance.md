@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a product non-conformance case using playbook

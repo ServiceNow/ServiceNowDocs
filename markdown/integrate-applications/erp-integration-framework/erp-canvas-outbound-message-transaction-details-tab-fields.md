@@ -1,25 +1,25 @@
 ---
 title: Outbound message transaction details tab fields
-description: The outbound message transaction details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the transaction including ID numbers, transaction time, and the source.
+description: The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction, including ID numbers, transaction time, and source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-08-06"
+reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, transaction, detail]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message transaction details tab fields
 
-The outbound message transaction details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the transaction including ID numbers, transaction time, and the source.
+The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction, including ID numbers, transaction time, and source.
 
 For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see .
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 <table id="table_ist_gfb_ghc"><thead><tr><th>
 
@@ -35,7 +35,7 @@ Transaction log
 
 </td><td>
 
-A unique, system-assigned transaction log identification number. Select the number for details.
+Unique, system-assigned transaction log identification number. Select the number for details.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ ERP system
 
 </td><td>
 
-The ERP system on which the transaction took place.
+ERP system on which the transaction took place.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Caller scope
 
 </td><td>
 
-The application that performed the transaction. For ERP transactions, the caller scope is sn\_erp\_integration.
+Application that performed the transaction. For ERP transactions, the caller scope is sn\_erp\_integration.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Encoded query
 
 </td><td>
 
-A filter for obtaining the IDoc information, for example, idoc\_type=ORDERS01.
+Filter for obtaining the IDoc information, for example, idoc\_type=ORDERS01.
 
 </td></tr><tr><td>
 
@@ -99,11 +99,11 @@ EDI transaction ID
 
 </td><td>
 
-A unique ID for an electronic exchange of a business document.
+Unique ID for an electronic exchange of a business document.
 
 </td></tr><tr><td>
 
-IDOC message parameter 2
+IDOC message parameter 1
 
 </td><td>
 
@@ -123,11 +123,11 @@ IDOC status
 
 </td><td>
 
-Processing state of outbound message sent via IDoc at a specific time.
+Processing state of an outbound message sent via IDoc at a specific time.
 
 </td></tr><tr><td>
 
-IDOC message parameter 3
+IDOC message parameter 2
 
 </td><td>
 
@@ -139,7 +139,7 @@ IDOC payload
 
 </td><td>
 
-Data sent from SAP system via IDoc.
+Data sent from the SAP system via IDoc.
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ IDOC message type
 
 </td><td>
 
-The type of business document in an SAP system, for example, ORDERS.
+Type of business document in an SAP system, for example, ORDERS.
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Unique number identifying the specific message.
 
 </td></tr><tr><td>
 
-IDOC message parameter 4
+IDOC message parameter 3
 
 </td><td>
 
@@ -167,7 +167,7 @@ Specified parameter to filter information.
 
 </td></tr><tr><td>
 
-IDOC message parameter 1
+IDOC message parameter 4
 
 </td><td>
 
@@ -190,5 +190,4 @@ IDOC create error
 Not currently used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

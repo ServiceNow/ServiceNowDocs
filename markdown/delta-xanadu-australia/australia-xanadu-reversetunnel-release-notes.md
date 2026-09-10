@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-reversetunnel-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -302,9 +302,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
 
- For details, see [Connect a private relay to the Reverse Tunnel gateway](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US).
+For details, see [Connect a private relay to the Reverse Tunnel gateway](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

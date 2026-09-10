@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [parts availability, recall campaign part availability, recall management, part requirement, RCPPA, quantity allocated]
-breadcrumb: [Generate a part requirement, Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a parts availability

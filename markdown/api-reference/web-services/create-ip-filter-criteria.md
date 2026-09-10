@@ -1,6 +1,6 @@
 ---
 title: Create IP filter criteria
-description: Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC or JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
+description: Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/create-ip-filter-criteria.html
 release: australia
@@ -8,26 +8,28 @@ product: Web Services
 classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure SQL API plugin on your ServiceNow instance, Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+reading_time_minutes: 3
+breadcrumb: [Live Connect configuration on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Create IP filter criteria
 
-Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC or JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
+Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver.
 
 ## Before you begin
 
--   Consult your network team to identify the IP address range for your ODBC or JDBC client machines. Depending on your network configuration and where the client machine is located in your network, it may be necessary to allow the external IP address rather than the internal IP address.
--   Complete the previous configuration steps: creating a Service Account and configuring Access Control Lists \(ACLs\).
+-   Consult your network team to identify the IP address range for your ODBC or JDBC client machines. You may need to use the external IP address rather than the internal IP address, depending on your network configuration.
+-   Complete the configuration steps:
+    -   [Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md)
+    -   [Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-acls-sql-api.md)
 
 Role required: admin
 
 ## About this task
 
-This is the third and final configuration procedure for enabling SQL API access on your instance. After completing this task, your Service Account will be able to connect to ServiceNow via ODBC or JDBC from the specified IP addresses and query the tables for which access has been granted.
+By default, all incoming IP addresses are blocked for Live Connect connections. Configure the Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
 
-By default, all incoming IP addresses are blocked for SQL API connections. You must explicitly define which IP addresses or IP ranges are permitted to connect. This ensures that only trusted client machines can access your ServiceNow data through the SQL API.
+This is the third and final configuration procedure for enabling Live Connect access on your instance. After completing this task, your user account \(personal or service account\) can connect to ServiceNow via ODBC or JDBC from the specified IP addresses.
 
 **Note:** For additional details on IP filtering, refer to the [IP filter documentation](https://www.servicenow.com/docs/r/platform-security/authentication/create-ip-filter-criteria.html) in the ServiceNow Platform Security guide.
 
@@ -35,44 +37,54 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 1.  Navigate to the **All** &gt; **Adaptive Authentication** &gt; **Authentication Policies** &gt; **All Policies**.
 
-2.  Search for **SQL API Authentication Policy** and open it.
+2.  Search for **Live Connect Authentication Policy** and open it.
 
 3.  From the **Policy Inputs** tab, select **New**.
 
-    \[Omitted image "sql-api-auth-policy-new.png"\] Alt text: UI screen showing SQL API Authentication Policy.
+    A screen appears asking "What kind of Policy Input \(Filter Criteria\) do you want to create?"
 
-4.  A screen appears asking "What kind of Policy Input \(Filter Criteria\) do you want to create?" Select **IP Filter Criteria**.
+4.  Select **IP Filter Criteria**.
 
-5.  Provide a Name and Description to identify this IP network or filter group.
+5.  On the IP Filter Criteria form, enter the following information:
 
-6.  From the **IP Range** tab, double-click \(or use the keyboard shortcut\) **Insert a new row**.
+    -   **Name**: Enter a name to identify this IP filter group \(for example, AllowedIPRange\).
+    -   **Description**: Enter a description \(for example, Allowed IP addresses for ODBC/JDBC connections\).
+6.  From the **IP Range** tab, double-select the **Start IP** column to insert a new row.
 
-    \[Omitted image "sql-api-IP-filter-criteria.png"\] Alt text: UI screen example showing IP filter criteria.
+    Enter the IP address range for ODBC/JDBC client machines that are allowed to connect:
 
-7.  Define the specific IP addresses or IP address ranges your ODBC/JDBC client machines that should be allowed to connect to your ServiceNow instance via the SQL API drivers.
+    -   **Start IP**: Enter the starting IP address of the range.
+    -   **End IP**: Enter the ending IP address of the range. For a single IP address, enter the same value in both Start IP and End IP.
+    -   **Description**: Enter a description.
+    The IP addresses you enter are the outbound IP addresses, not the internal IP addresses. Your IT team can provide this information. These are the machines from which BI tools and analytics platforms will connect to ServiceNow.
 
-    Enter the outbound IP address, not the internal IP address. Your IT team should be able to provide this information. BI tools and analytics platforms connect from these machines to your to ServiceNow instance.
+7.  Select **Submit**.
 
-8.  Select **Submit**.
+    The page returns to the Live Connect Authentication Policy form.
 
-9.  Go to the **Policy Conditions** tab and select **New**.
+8.  Go to the **Policy Conditions** tab and select **New**.
 
-    After defining the IP filter criteria and range, add a Policy Condition to the SQL API Authentication Policy to enforce the IP restriction for ODBC or JDBC access.
+9.  On the Condition form, enter the following information:
 
-10. Provide a Name and Description of this Policy condition.
+    -   **Label**: Enter a label to identify this policy condition \(for example, AllowedIPs\).
+    -   **Description**: Enter a description of this policy condition \(for example, Allowed IPs for ODBC\).
+10. In the Condition section, select **Add Filter Condition**.
 
-11. Create a filter condition.
+    -   From the first drop-down list, select the name of the IP filter criteria you created earlier.
+    -   From the second drop-down list, select **is**.
+    -   From the third drop-down list, select **true**
+    The condition evaluates whether the connecting IP address matches your allowed IP filter criteria.
 
-    A filter condition is a logical combination of policy inputs \(filter criteria\) to evaluate authentication requests. For example, choose the name of the IP Filter Criteria created earlier and give a condition as shown in the following example diagram.\[Omitted image "sql-api-policy-condition.png"\] Alt text: UI screen example showing how to create a filter condition.
+11. Select **Submit**.
 
-12. Select **Submit**.
+    The condition appears in the Policy Conditions list on the Live Connect Authentication Policy form.
 
 
 ## Result
 
-You have successfully configured IP filtering for SQL API access. Your ServiceNow instance will now accept SQL API connections only from the specified IP addresses or IP ranges. All other connection attempts will be blocked by default.
+You have successfully configured IP filtering for Live Connect access. Your ServiceNow instance will now accept Live Connect connections only from the specified IP addresses or IP ranges. All other connection attempts will be blocked by default.
 
-Your Service Account can now connect to ServiceNow via ODBC or JDBC from the permitted client machines and query the tables for which both egress\_sql and read ACLs have been configured.
+Your user account \(personal or service account\) can now connect to ServiceNow via ODBC or JDBC from the permitted client machines.
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)
 

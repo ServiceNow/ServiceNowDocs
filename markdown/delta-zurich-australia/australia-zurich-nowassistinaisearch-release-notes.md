@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistinaisearch-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -67,24 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Configure disambiguation](https://www.servicenow.com/docs/access?context=nava-configure-disambiguation-manually&family=zurich&ft:locale=en-US)**
-
-If a search is broad or unclear, Now Assist in AI Search may ask follow-up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable.
-
-
--   **[Automatic activation for Now Assist Multi-Content Response Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
-
-When you use Guided Setup to activate the Now Assist panel, Now Assist Multi-Content Response Genius Results are automatically activated for relevant search profiles.
-
--   **[Hybrid search](https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=zurich&ft:locale=en-US)**
-
-Hybrid search blends keyword search and semantic vector search to offer a blend of superior search recall and contextual relevance for knowledge article, Catalog Item, external content, and topic retrieval searches.
-
--   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=zurich&ft:locale=en-US)**
-
-Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions, enabling suggestion term highlighting and more flexible search operators in enhanced chat.
-
-
 -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
@@ -117,17 +99,12 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
-
-
--   **[Now Assist in Virtual Agent conversational prompt auto-complete suggestions](https://www.servicenow.com/docs/access?context=auto-complete-suggestion-types-na-ais&family=zurich&ft:locale=en-US)**
-
-Auto-complete suggestions for Now Assist in Virtual Agent conversational prompts are only returned from the search user's domain. Suggestions are disabled if they match any exclusion rule entry from the Search Suggestion Exclusion List \[sys\_search\_suggestion\_blacklist\] table. The system scores suggestions based on how search users interact with and rate their Genius Result responses, and preferentially displays higher-scored suggestions.
-
-
--   **[Semantic vector search indexing includes Catalog Item short descriptions](https://www.servicenow.com/docs/access?context=semantic-search-ais&family=zurich&ft:locale=en-US)**
+ -   **[Semantic vector search indexing includes Catalog Item short descriptions](https://www.servicenow.com/docs/access?context=semantic-search-ais&family=zurich&ft:locale=en-US)**
 
 Semantic indexing now indexes short descriptions from Catalog Item source records to improve search recall and make field indexing more consistent between legacy \(keyword\) and semantic indexing.
 
@@ -229,34 +206,36 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist in AI Search is installed when you install any of the following licensed applications from the ServiceNow Store.
 
--   [ServiceNow Otto for APO](https://www.servicenow.com/docs/access?context=now-assist-apo&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for CSM](https://www.servicenow.com/docs/access?context=now-assist-csm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for FSM](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for FSO](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=zurich&ft:locale=en-US)
--   [\[Placeholder link text to key bundle-gvin.now-assist-for-psds\]](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=zurich&ft:locale=en-US)
--   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for SPO](https://www.servicenow.com/docs/access?context=now-assist-spo&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for SLO](https://www.servicenow.com/docs/access?context=now-assist-slo&family=zurich&ft:locale=en-US)
--   [Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=zurich&ft:locale=en-US)
--   [\[Placeholder link text to key bundle-grc.now-assist-tprm\]](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=zurich&ft:locale=en-US)
--   [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=zurich&ft:locale=en-US)
--   [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US)
--   [Now Assist in Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&family=zurich&ft:locale=en-US)
--   [ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for APO](https://www.servicenow.com/docs/access?context=now-assist-apo&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for CSM](https://www.servicenow.com/docs/access?context=now-assist-csm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US)
+    -   [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for FSO](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=zurich&ft:locale=en-US)
+    -   [\[Placeholder link text to key bundle-gvin.now-assist-for-psds\]](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for SPO](https://www.servicenow.com/docs/access?context=now-assist-spo&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for SLO](https://www.servicenow.com/docs/access?context=now-assist-slo&family=zurich&ft:locale=en-US)
+    -   [Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=zurich&ft:locale=en-US)
+    -   [\[Placeholder link text to key bundle-grc.now-assist-tprm\]](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=zurich&ft:locale=en-US)
+    -   [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US)
+    -   [Now Assist in Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&family=zurich&ft:locale=en-US)
+    -   [ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&family=zurich&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -343,7 +322,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -372,7 +355,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 Now Assist in AI Search supports [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&family=zurich&ft:locale=en-US) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-gr&family=zurich&ft:locale=en-US) and [Dynamic Translation for Actions Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-actions-gr&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

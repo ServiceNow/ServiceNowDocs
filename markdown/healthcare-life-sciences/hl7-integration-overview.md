@@ -15,7 +15,7 @@ breadcrumb: [Healthcare Integrations, Healthcare and Life Sciences]
 
 HL7 v2.x Integration enables ServiceNow to receive, log, parse, and act on HL7 v2.x messages sent by hospital integration engines, without requiring custom scripting on either side.
 
-Health Level Seven \(HL7\) v2.x is the most widely deployed healthcare messaging standard. Hospital systems — including electronic health record \(EHR\) systems such as Epic and Cerner — use HL7 v2.x messages to communicate clinical and operational events such as patient admissions, discharges, and transfers \(ADT\).
+Health Level Seven \(HL7\) v2.x is the most widely deployed healthcare messaging standard. Hospital systems, including EHR systems such as Epic, use HL7 v2.x messages to communicate clinical and operational events. These include patient admissions, discharges, and transfers \(ADT\).
 
 HL7 v2.x Integration provides three core capabilities: message reception and acknowledgment, configurable parsing, and no-code workflow integration. Integration engines handle transport \(MLLP, HTTPS\). ServiceNow manages message reception, logging, parsing, and workflow triggering.
 

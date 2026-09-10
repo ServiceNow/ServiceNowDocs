@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Contract analysis, Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Analyze a contract document
@@ -35,15 +35,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d537112e108">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d539229e108">
 
 Method
 
-</th><th align="left" id="d537112e111">
+</th><th align="left" id="d539229e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d537112e117">
+</th></tr></thead><tbody><tr><td id="d539229e117">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d537112e164">
+</td></tr><tr><td id="d539229e164">
 
 **Workspace used by your application**
 
@@ -79,15 +79,15 @@ Steps
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d537112e232">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d539229e232">
 
 Method
 
-</th><th align="left" id="d537112e235">
+</th><th align="left" id="d539229e235">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d537112e241">
+</th></tr></thead><tbody><tr><td id="d539229e241">
 
 **Run analysis on a single contract document**
 
@@ -97,7 +97,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with AI**.
 
 
-</td></tr><tr><td id="d537112e265">
+</td></tr><tr><td id="d539229e265">
 
 **Run analysis on multiple contract documents**
 
@@ -141,5 +141,5 @@ Steps
     You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the AI suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
 
 
-**Parent Topic:**[Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

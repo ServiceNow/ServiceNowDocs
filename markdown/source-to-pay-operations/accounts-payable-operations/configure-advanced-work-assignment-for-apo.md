@@ -77,3 +77,5 @@ Configure agent chat settings in Accounts Payable Operations to enable AP agents
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

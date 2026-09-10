@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-03"
 reading_time_minutes: 11
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a neighborhood reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d755880e86">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d759036e78">
 
 Location
 
-</th><th align="left" id="d755880e89">
+</th><th align="left" id="d759036e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d755880e95">
+</th></tr></thead><tbody><tr><td id="d759036e87">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d755880e119">
+</td></tr><tr><td id="d759036e111">
 
 **From Employee Center Portal**
 

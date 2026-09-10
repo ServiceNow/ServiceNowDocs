@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-automationdiscovery-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,7 @@ Zurich
 
 </td><td>
 
-Starting with the Zurich release, Automation Discovery has been deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in this release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about this application see [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&family=zurich&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Starting with the Zurich release, Automation Discovery has been deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in this release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about this application see [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 

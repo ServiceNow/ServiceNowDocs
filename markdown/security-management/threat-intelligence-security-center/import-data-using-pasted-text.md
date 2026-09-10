@@ -154,3 +154,5 @@ Select the taxonomy for the imported data. Using taxonomies, define dictionaries
 
 [Import data using unstructured file format]()
 
+[Import data using AI]()
+

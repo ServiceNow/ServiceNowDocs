@@ -78,18 +78,6 @@ Service Desk Agent
 
 </td></tr><tr><td>
 
-Provide encryption support to secure sensitive information.
-
-</td><td>
-
-[Encryption options in EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
-
-</td><td>
-
-Administrator
-
-</td></tr><tr><td>
-
 Automatically transmit instance information to hospital service desk agents.
 
 </td><td>

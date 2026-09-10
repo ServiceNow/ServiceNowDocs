@@ -31,17 +31,15 @@ When you create an order from a quote, the quote line items, along with other re
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
+1.  In the CRM Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
 
-2.  Select the quote, which must be in the Completed state, and select the Line items tab.
+2.  Open the quote that you want to create an order from.
 
-3.  Open the quote that you want to create an order from.
-
-4.  Do one of the following:
+3.  Do one of the following:
 
     -   To include all line items in the order, don't select any line items.
     -   To include only specific line items, select one or more top-level line items. The **Create Order** button label updates to show the number of line items that you selected.
-5.  Select **Create Order**.
+4.  Select **Create Order**.
 
     An order is created from the quote. Orders associated with the quote appear in the **Related Lists: Orders** section of the Contextual Side Panel \(CSP\).
 

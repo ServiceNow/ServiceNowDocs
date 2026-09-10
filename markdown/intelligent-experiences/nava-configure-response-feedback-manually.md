@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the filter navigator, enter `sys_now_assist_deployment_config_attributes.list` to display the Now Assist in Virtual Agent Deployment Config Attributes table.
+1.  In the filter navigator, enter `sys_now_assist_deployment_config_attributes.list` to display the ServiceNow Otto for Virtual Agent Deployment Config Attributes table.
 
 2.  In the search fields, select **Name** from the drop-down list and enter `granular` in the Search field.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 8.  Select **Submit**.
 
-9.  To configure the feedback options, in the filter navigator, enter `sys_now_assist_message_bundle.list` to display the Now Assist Message Bundles table.
+9.  To configure the feedback options, in the filter navigator, enter `sys_now_assist_message_bundle.list` to display the ServiceNow Otto Message Bundles table.
 
 10. In the search fields, select **for text** from the drop-down list and enter `granular` in the Search field.
 

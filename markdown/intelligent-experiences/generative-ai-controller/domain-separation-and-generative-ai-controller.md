@@ -7,7 +7,7 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Exploring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
@@ -27,15 +27,13 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-Domain separation enables you to create partitions in the application data and administrative processes. Because the generative AI tables are domain separated, Generative AI Controller supports domain separation for OneExtend capabilities. The capabilities are the basic building blocks for Virtual Agent Designer topics, components, flows, and scripts that use generative AI. With domain separation, you can isolate the data and control access so that users in one domain don’t have access to the capabilities of another domain.
-
-For more details on domain separation and Virtual Agent, [check out the documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md).
+Domain separation enables you to create partitions in the application data and administrative processes. Because the generative AI tables are domain separated, Generative AI Controller supports domain separation for OneExtend capabilities. The capabilities are the basic building blocks for generative AI features across the ServiceNow AI Platform. With domain separation, you can isolate the data and control access so that users in one domain don’t have access to the capabilities of another domain.
 
 ## How domain separation works in Generative AI Controller
 
 Domain separation is possible at the generative AI OneExtend capability level. Records that are related to the execution and configuration of OneExtend capabilities, such as log tables that are accessible to ServiceNow personnel, are also separated according to the capability's domain.
 
-If you want to create a copy of an existing generative AI capability in a different domain, you must create a record in the OneExtend Capabilities \(sys\_one\_extend\_capability\) table. See the [reference for Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md) for more information about the OneExtend Capabilities table.
+If you want to create a copy of an existing generative AI capability in a different domain, you must create a record in the OneExtend Capabilities \(sys\_one\_extend\_capability\) table. For more information about the OneExtend Capabilities table, see [Reference for Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md).
 
 You set the domain when the record is created. The domain is based on the domain that you're in at the time that you create the record. When you're creating a capability record, you can use an existing OneExtend Capability record as a blueprint to help confirm that the capability works as intended.
 
@@ -45,15 +43,11 @@ After you create the OneExtend Capability record, you must create records for th
 -   A OneExtend Capability Definition that corresponds to the new capability.
 -   A OneExtend Definition Config definition record that includes the OneExtend Capability Definition for the new domain.
 
-For more information on setting up OneExtend Definition Configs to use in Virtual Agent Designer, see enabling Generative AI Controller for Virtual Agent.
-
-You can also create these records by using the related lists in the OneExtend Capability record default view.
-
-**Note:** The OneExtend Capability Definition record that you add must be the same as the capability that you want in the new domain. For example, if you’re creating a capability in a new domain for sentiment analysis, you could add the Sentiment Analysis \(OpenAI Completion\) record. Adding the Summarize \(OpenAI Completion\) Config could result in unexpected behavior. The OneExtend Definition Config record that you select should include the OneExtend Capability Definition record that you added.
+**Note:** The OneExtend Capability Definition record that you add must be the same as the capability that you want in the new domain. For example, if you’re creating a capability in a new domain for an Amazon Bedrock integration, you could add the corresponding Amazon Bedrock Capability Definition record. Adding a different capability definition than the one you intend could result in unexpected behavior. The OneExtend Definition Config record that you select should include the OneExtend Capability Definition record that you added.
 
 ## Use cases
 
-With domain-separated capabilities, you can build different Virtual Agent topics, flows with Workflow Studio, or different background and business rule scripts that are also domain separated.
+With domain-separated capabilities, you can isolate generative AI configurations so that different domains use different LLM providers or settings.
 
 **Related topics**  
 

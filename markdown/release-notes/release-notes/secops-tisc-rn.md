@@ -1,18 +1,18 @@
 ---
 title: Threat Intelligence Security Center release notes
-description: The ServiceNow Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
+description: The ServiceNow Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.The ServiceNow Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.The ServiceNow Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.The ServiceNow Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 ---
 
 # Threat Intelligence Security Center release notes
 
 The ServiceNow® Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
 
-## Threat Intelligence Security Center highlights for the Australia release
+## About Threat Intelligence Security Center
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Threat Intelligence Security Center \(TISC\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Introduced AI-generated threat intelligence reports from case data with analyst-guided instructions.
@@ -25,11 +25,33 @@ The ServiceNow® Threat Intelligence Security Center application is a threat int
 
 See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+    Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## April 2026
+
+The ServiceNow® Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -40,6 +62,12 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+
+## Australia
+
+The ServiceNow® Threat Intelligence Security Center application is a threat intelligence platform built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats. TISC was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/na-tisc-generate-ai-reports.md)**
 
@@ -76,7 +104,7 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
     Threat hunting playbook is now available out of the box. Analysts can use Playbooks for case management as a guided, stage-based workflow for investigations.
 
 
--   **[View Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/premium-threat-feed-for-crowdstrike.md)**
+-   **[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/premium-threat-feed-for-crowdstrike.md)**
 
     Enhanced CrowdStrike premium Threat feed by adding `Malware` to the record types to ingest. Threat Actor records now link to `Malware` through `uses` and `develops` relationships, and to `Location` through `originates-from` and `targets` relationships. Report and Indicator records are linked to `Malware` through `associated-with`. Threat Actor records ingested from CrowdStrike now represent `capabilities`, `target industries`, `target regions`, `target countries`, and `origins` as structured tags rather than free-text, additional context fields. Users can use these attributes as filters.
 
@@ -106,7 +134,7 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
     Introduced products as related entities with support for relationship linking.
 
 
--   **[Create a Vendor to a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-add-vendor-to-vul.md)**
+-   **[Create a Vendor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-add-vendor-to-vul.md)**
 
     Associated vendors as related entities with support for relationship linking.
 
@@ -131,7 +159,7 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
     View vulnerabilities and related intelligence in the **TISC Context** tab of Security Incident Response Workspace, allowing analysts to quickly access risk data during investigations without navigating to separate records.
 
 
-## UI changes
+### What's changed
 
 -   **[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-ioc.md)**
 
@@ -151,13 +179,6 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
 -   **[Threat Intelligence Security Center Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center-catalogue.md)**
 
     Introduced a new catalog entry which includes the RSS feed for **Google Project Zero**, enabling real-time detection of emerging threats.
-
-
-## Changed in this release
-
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 -   **[MITRE ATT&amp;CK Technique Extraction Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-extraction-rules.md) and [View extracted MITRE ATT&amp;CK Techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-extraction-method.md)**
@@ -189,29 +210,4 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
 
     Enhanced the vulnerability schema to support additional vulnerability intelligence fields related to CVSS scoring, exploit details, and remediation information.
 
-
-## Activation information
-
-Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intel-landing-page.md)**
-
-    The ServiceNow Threat Intelligence application displays indicators of compromise \(IoC\) and enables you to enrich security incidents with threat intelligence data.
-
--   **[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sir-landing-page.md)**
-
-    With Security Incident Response manage the life cycle of your security incidents from initial analysis to containment, eradication, and recovery. Security Incident Response enables you to get a comprehensive understanding of incident response procedures performed by your analysts, and understand trends and bottlenecks in those procedures with analytic-driven dashboards and reporting.
-
--   **[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vuln-landing-page.md)**
-
-    Vulnerability Response is part of the Security Operations application suite. Together, these applications connect security to your IT department, increase the speed and efficiency of your response, and give you a definitive view of your security posture.
-
--   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)**
-
-    The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
-
-
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
 

@@ -20,14 +20,11 @@ Role required: sn\_prd\_pm. product\_catalog\_admin or sn\_prd\_pm.product\_cata
 
 ## About this task
 
-A product offering family is a hierarchical classification of product offerings, like a category tree. Product families can have parent-child relationships \(multi-level tree\). You can define parent-child relationships, where each node in the family tree can have a parent, forming a multi-level hierarchy. With a product family you can:
+A product offering family is a hierarchical classification of product offerings, like a category tree. Product families can have parent-child relationships \(multi-level tree\). You can define parent-child relationships, where each node in the family tree can have a parent, forming a multi-level hierarchy. With a product family you can aggregate sales data by family, such as total revenue across sub-family products, as a rollup dimension for sales forecasting.
 
--   Apply rules or default attributes at the family level, which are inherited by descendent products in the family.
--   Aggregate sales data by family, such as total revenue, including all sub-family products, for revenue reports.
+For example, a product offering family hierarchy could be Hardware &gt; Computers &gt; Laptops. After you create product offering families, you assign a product offering to a product offering family when you create a product offering.
 
-For example, a product offering family hierarchy could be Hardware &gt; Computers &gt; Laptops. Each product offering inherits rules that define items such as required warranties or other features from the parent. Agents can view the product family for products in line items, which can provide context on why certain rules or discounts are applied to a product offering.
-
-After you create product offering families, you assign a product offering to a product offering family when you create a product offering.
+**Note:** A product offering family can't be its own ancestor or descendant. If you select a parent family that would create a circular hierarchy, the save is blocked with an error.
 
 ## Procedure
 

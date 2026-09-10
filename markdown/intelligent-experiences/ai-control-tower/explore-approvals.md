@@ -1,5 +1,5 @@
 ---
-title: Explore Approvals
+title: Approvals
 description: Explore the Approvals section on the Configurations page of AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/explore-approvals.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Explore Approvals
+# Approvals
 
 Explore the **Approvals** section on the Configurations page of AI Control Tower.
 

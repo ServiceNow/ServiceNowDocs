@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-27"
 reading_time_minutes: 2
 breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -58,6 +58,7 @@ The report generation uses a report field mapping for your reporting PDF templat
     -   Downloaded to the browser.
     For more information, see [Health and Safety report field mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-report-field-mapping-form.md).
 
+-   If the selected report field mapping includes one or more related lists, a separate related list report is generated in addition to the main report. It is available in the same location.
 
 **Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

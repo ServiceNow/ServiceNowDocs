@@ -30,7 +30,7 @@ This spoke was built for Amazon Route 53 API version 2013-04-01, but may be comp
 
 ## Spoke version
 
-Amazon Route 53 spoke v1.0.2 is the latest version.
+Amazon Route 53 spoke v1.0.2 is the latest version. For version history of the spoke, see [Amazon Route 53 spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-route53.html).
 
 ## Spoke requirements
 

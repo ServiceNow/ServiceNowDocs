@@ -20,7 +20,7 @@ Create code snippets of published decision tables in Workflow Studio to execute 
 
 If you have draft authoring enabled, you must publish your decision table to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
 
-Copying code snippets for a decision table lets you quickly insert the table into your script without authoring the code manually. For more information about the Decision table API, see [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
+Copying code snippets for a decision table lets you quickly insert the table into your script without authoring the code manually. For more information about the Decision table API, see .
 
 Role required: none
 

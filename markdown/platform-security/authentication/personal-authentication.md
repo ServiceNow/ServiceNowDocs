@@ -20,6 +20,8 @@ Personal authentication enables you to securely connect and manage your OAuth-ba
 
 The OAuth 2.0 Credentials module in ServiceNow `(oauth_2_0_credentials)`enables you to configure and manage access tokens used to connect with external OAuth 2.0-compliant systems. Use the Personal integration type when each user must authenticate with their own identity to an external system.
 
+**Note:** You need the oauth\_admin role for OAuth specific configurations.
+
 Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 Personal authentication is supported only for the following OAuth 2.0 grant types:

@@ -1,6 +1,6 @@
 ---
 title: Choose and configure metrics to monitor
-description: Metric Intelligence uses data sources that can be monitoring hundreds of metrics for all CIs. Choose for each data source type which details are important for which CIs, and then activate or deactivate the respective monitor type to control the amount of data that is being processed.
+description: Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI. Activate or deactivate the respective monitor type to control the amount of data that is processed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-metric-monitors.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Age
 
 # Choose and configure metrics to monitor
 
-Metric Intelligence uses data sources that can be monitoring hundreds of metrics for all CIs. Choose for each data source type which details are important for which CIs, and then activate or deactivate the respective monitor type to control the amount of data that is being processed.
+Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI. Activate or deactivate the respective monitor type to control the amount of data that is processed.
 
 ## Before you begin
 

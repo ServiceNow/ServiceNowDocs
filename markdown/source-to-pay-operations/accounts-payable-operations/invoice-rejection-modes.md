@@ -33,12 +33,12 @@ When the AP specialist selects **Reject invoice**, the system prompts them to en
 
 The exception rule allows AP admin to add conditions to any invoice exception definition by Legal entity, Supplier type, and more.\[Omitted image "inv-exception-defn.png"\] Alt text: Invoice exception definition configured with rule
 
-For more information on the fields in the exception rule, see [Invoice Exception Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md).
+For more information on the fields in the exception rule, see [Invoice exception rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md).
 
 **Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
 
 **Related topics**  
 
 
-[Invoice Exception Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)
+[Invoice exception rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)
 

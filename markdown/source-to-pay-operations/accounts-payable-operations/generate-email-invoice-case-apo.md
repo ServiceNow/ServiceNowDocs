@@ -41,7 +41,7 @@ The Email response for invoice case skill uses invoice case details to compose a
 
 5.  In the **Email** tab, select anywhere within the email body text box.
 
-6.  Generate an email draft by selecting the AI icon\[Omitted image "servicenow-otto-icon.png"\] Alt text: .
+6.  Generate an email draft by selecting the AI icon\[Omitted image "servicenow-otto-icon.png"\] Alt text: ServiceNow Otto icon .
 
 7.  Select **Insert**.
 

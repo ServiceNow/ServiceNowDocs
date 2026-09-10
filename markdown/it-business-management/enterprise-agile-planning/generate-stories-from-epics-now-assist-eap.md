@@ -58,7 +58,7 @@ If you have custom roles that require access to this skill, update the ACLs for 
 **Related topics**  
 
 
-[Configure Create stories agentic workflow with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.md)
+[Configure Create stories agentic workflow with ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.md)
 
 [Create stories agentic workflow using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)
 

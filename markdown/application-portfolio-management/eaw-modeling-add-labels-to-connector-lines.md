@@ -17,6 +17,8 @@ You can enhance diagram clarity in Enterprise Modeling and Visualization by addi
 
 ## Before you begin
 
+\[Omitted video\] Description: Configure the relationship type or visual style of a connector between shapens in an Enterprise Modeling diagram.
+
 Role required: sn\_apm.apm\_user
 
 ## Procedure

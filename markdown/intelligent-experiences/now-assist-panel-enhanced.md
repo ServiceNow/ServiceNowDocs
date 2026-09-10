@@ -29,7 +29,7 @@ You must fulfill the following conditions before using the ServiceNow Otto panel
 -   Your role must be applied to at least one active ServiceNow Otto skill to use skills in the ServiceNow Otto panel.
 -   ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
 -   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
--   If you want to use assistants, you must activate them. See [Activate Now Assist panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
+-   If you want to use assistants, you must activate them. See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
 -   If you want to use voice input, you have to enable voice input [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
     **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
@@ -165,7 +165,7 @@ A new conversation begins.
 
 </td><td>
 
-You can indicate if the response was helpful by selecting the like thumbs up icon \[Omitted image "nap-thumbs-up.png"\] Alt text: or if the response wasn't helpful, you can select the dislike thumbs down icon \[Omitted image "nap-thumbs-down.png"\] Alt text:. You can also copy the response by selecting the copy message icon \[Omitted image "nap-copy-icon.png"\] Alt text:.
+Select the thumbs up icon \(\[Omitted image "nap-thumbs-up.png"\] Alt text:\) if the response was helpful or the thumbs down icon \(\[Omitted image "nap-thumbs-down.png"\] Alt text:\) if it wasn't. Select the copy message icon \(\[Omitted image "nap-copy-icon.png"\] Alt text:\) to copy the response.
 
 </td></tr></tbody>
 </table>ServiceNow Otto panel is available on Next Experience and ServiceNow Studio. The following screenshots show the ServiceNow Otto panel in a workspace and on Core UI screens under Next Experience.
@@ -189,7 +189,7 @@ Core UI
 </td></tr></tbody>
 </table>## Response feedback
 
-Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(\[Omitted image "image.llm-thumbs-up-like"\] Alt text:\). If the response wasn't helpful, select the dislike thumbs down icon \(\[Omitted image "image.llm-thumbs-down-dislike"\] Alt text:\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
+Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(\[Omitted image "nap-thumbs-up.png"\] Alt text:\). If the response wasn't helpful, select the dislike thumbs down icon \(\[Omitted image "nap-thumbs-down.png"\] Alt text:\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
 
 \[Omitted image "feedback-panel-granular.png"\] Alt text: Thumbs down granular feedback dialog.
 
@@ -237,7 +237,7 @@ To generate resolution notes from the ServiceNow Otto panel, select **Generate r
 
 ## Streaming responses
 
-After you enter a question or request on the ServiceNow Otto panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
+After you enter a question or request on the panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
 
 ## Fallback options
 

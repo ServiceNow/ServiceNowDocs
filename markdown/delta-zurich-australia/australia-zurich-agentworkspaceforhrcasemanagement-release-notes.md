@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentworkspaceforhrcasemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -90,7 +90,7 @@ Recommend actions based on the context of the HR case, helping agents resolve ca
 Enable an HR agent to quickly review the HR profiles of both **subject person** and **opened for** during the case creation process.
 
 
--   **[Advanced Knowledge Editor](https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US)**
+ -   **[Advanced Knowledge Editor](https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US)**
 
 Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI-powered article optimizations recommendations to improve the knowledge content quality.
 
@@ -209,7 +209,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

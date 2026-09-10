@@ -1,9 +1,9 @@
 ---
 title: Agentic Contact Center for Insurance release notes
-description: The ServiceNow Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
+description: The ServiceNow Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.The ServiceNow Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
 
-## Agentic Contact Center for Insurance highlights for the Australia release
+## About Agentic Contact Center for Insurance
 
 -   Provides CSRs with workspaces that include AI support for customer engagement and profile evaluation.
 -   Accelerates interaction resolution with AI insights, customer analysis, and action recommendations.
@@ -20,9 +20,26 @@ The ServiceNow® Agentic Contact Center for Insurance application provides a wor
 
 See  for an overview of features and capabilities.
 
+## Activation and other requirements
+
 **Note:** Agentic Contact Center for Insurance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Agentic Contact Center for Insurance features
+-   **Activation information**
+
+    Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Additional requirements**
+
+    This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
+
+### What's new
 
 -   ****
 
@@ -37,11 +54,7 @@ See  for an overview of features and capabilities.
     This application provides specialized roles for Servicing &amp; Claims agents that enable CSR capabilities for insurance operations. With these roles, you can access and modify cases within the permitted scope, encompassing cases initiated by colleagues or through the self-service portal. You can also control the visibility of claims and case data on the Customer 360 page.
 
 
-## Activation information
-
-Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -49,29 +62,4 @@ Install Agentic Contact Center for Insurance by requesting it from ServiceNow St
 
     Agentic Contact Center for Insurance \(sn\_ins\_csr\): Provides tools to manage insurance front-office workflows and operations.
 
-
-## Additional requirements
-
-This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    Use AI agents and agentic workflows to generate customer summaries, and additional insights in Agentic Contact Center for Insurance and the Now Assist panel.
-
--   **[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-landing.md)**
-
-    Provides banking CSRs with workspaces for handling customer calls and reviewing customer profiles, which helps reduce research time, minimize application switching, and improve customer interactions.
-
--   **[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)**
-
-    Create and manage service requests for personal insurance policies as a contributor, processor, or underwriter.
-
--   **[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)**
-
-    Initiate, process, underwrite, acknowledge, and fulfill insurance policy service requests for commercial lines products.
-
-
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
 

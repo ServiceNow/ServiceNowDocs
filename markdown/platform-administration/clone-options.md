@@ -36,7 +36,7 @@ Amount of data copied from the Task table
 
 </td><td>
 
-Limits the number of days of historical data for the task table and its child tables \(for example Incident, problem, and change tables\) to 90 days. To reduce clone time, consider excluding large tables altogether. When excluding tables, your target instance has the same table schema and hierarchy \(empty usable tables\) as the source instance.
+Limits the number of days of historical data for the task table and its child tables \(for example Incident, problem, and change tables\). Options are Full or Last 90 days. The default is Full. To reduce clone time, consider excluding large tables altogether. When excluding tables, your target instance has the same table schema and hierarchy \(empty usable tables\) as the source instance.
 
 The default setting is to clone all data from the task table and its child tables to the target instance.
 
@@ -66,7 +66,7 @@ Exclude tables specified in Exclusion List
 
 </td><td>
 
-Helps to prevent cloning records from tables on the source instance, which are listed under  **Clone Admin Console****Definitions****Exclude Tables**. If a table is on the Exclusion List, the clone excludes the records on the table as well as records on the child tables. When excluding tables, their table schema and hierarchy are still cloned to your target instance. As a result, your target instance will have empty but usable tables after the clone.
+Helps to prevent cloning records from tables on the source instance, which are listed under  **Clone Admin Console** &gt; **Configuration** &gt; **Exclude Tables**. If a table is on the Exclusion List, the clone excludes the records on the table as well as records on the child tables. When excluding tables, their table schema and hierarchy are still cloned to your target instance. As a result, your target instance will have empty but usable tables after the clone.
 
 **Note:** Default table exclusions are still excluded and aren't affected by this setting. Including tables containing auditing, license usage, logging, and notifications.
 

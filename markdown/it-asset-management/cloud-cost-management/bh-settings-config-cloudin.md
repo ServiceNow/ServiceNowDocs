@@ -1,6 +1,6 @@
 ---
 title: Configure Business hours operations
-description: You can choose to use or to disable Business Hours features and specify the amount of non-business hour spend that triggers notifications to users or groups. Controlling unnecessary resource use can help reduce costs.
+description: Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Managem
 
 # Configure Business hours operations
 
-You can choose to use or to disable Business Hours features and specify the amount of non-business hour spend that triggers notifications to users or groups. Controlling unnecessary resource use can help reduce costs.
+Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_o
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Business hours**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Business hours**.
 
 2.  Select **Settings**.
 
@@ -150,7 +150,7 @@ Notify users / Notify groups
 
 </td><td>
 
-The users or groups to notify by email when the non-business hour spend exceeds the specified percentage of overall cloud spend. If you do not specify users or groups, then no notification is sent.
+The users or groups to notify by email when the non-business hour spend exceeds the specified percentage of overall cloud spend. If you don't specify users or groups, then no notification is sent.
 
 </td></tr><tr><td>
 

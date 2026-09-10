@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using the prominent action button

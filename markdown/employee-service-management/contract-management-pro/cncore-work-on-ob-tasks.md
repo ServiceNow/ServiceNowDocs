@@ -1,5 +1,5 @@
 ---
-title: Submit obligation tasks
+title: Create obligations manually
 description: As an obligation user, work on obligation tasks to fulfill the obligation specified in the contract, and submit them for review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Obligation Management, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Submit obligation tasks
+# Create obligations manually
 
 As an obligation user, work on obligation tasks to fulfill the obligation specified in the contract, and submit them for review.
 
@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_user
 
 1.  Open the obligation task from the email notification or Employee Center.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d409129e58">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d410616e58">
 
 Options
 
-</th><th align="left" id="d409129e61">
+</th><th align="left" id="d410616e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d409129e67">
+</th></tr></thead><tbody><tr><td id="d410616e67">
 
 **From the email notification**
 
@@ -40,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you to access the task.
 
-</td></tr><tr><td id="d409129e76">
+</td></tr><tr><td id="d410616e76">
 
 **From Employee Center**
 

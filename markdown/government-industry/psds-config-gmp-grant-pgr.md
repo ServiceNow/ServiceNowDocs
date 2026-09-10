@@ -15,7 +15,7 @@ breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspa
 Set up and configure the details of a new grant program using Grants Management.
 
 1.  [Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-configure-results-template.md)  
-As an agent or Grants Program manager, you can leverage templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
+As an agent or Grants Program manager, you can use templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
 2.  [Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-scoring-framework.md)  
 Define the scoring framework that a merit reviewer should follow as they review and score grant program proposals in the Reviewer Service portal. You can also select which knowledge bases or frameworks are displayed to a merit reviewer in the Reviewer Service portal.
 3.  [Configure budget categories in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-budget-cat.md)  

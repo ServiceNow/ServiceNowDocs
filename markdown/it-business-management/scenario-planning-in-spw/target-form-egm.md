@@ -64,7 +64,7 @@ Status
 
 </td><td>
 
-Status of the target. The status indicates whether the target breakdown is likely to be completed by the planned end date.
+Status of the target. The status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

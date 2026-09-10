@@ -17,6 +17,8 @@ Activate article health score calculation so Knowledge Management assesses and d
 
 ## Before you begin
 
+Enable Article Optimization skill as a prerequisite for health score. For more information see, [Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+
 Role required: admin
 
 ## Procedure

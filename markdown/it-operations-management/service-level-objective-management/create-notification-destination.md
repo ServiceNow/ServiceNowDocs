@@ -23,7 +23,7 @@ Before creating notification destinations, set up the Microsoft Teams Graph spok
 -   `ChannelMessage.Send`
 -   `Group.ReadWrite.All**`
 
-For setup instructions, see [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
+For setup instructions, see Set up the Microsoft Teams Graph spoke.
 
 Role required: srm\_manager, srm\_admin, or admin
 
@@ -41,15 +41,15 @@ Create a notification destination to deliver messages to a specific Microsoft Te
 
 4.  Select the **SLO Notification destinations** tab, select **Create a destination**, and then fill out the form.
 
-<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d92537e143">
+<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d95318e143">
 
 Field
 
-</th><th align="left" id="d92537e146">
+</th><th align="left" id="d95318e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92537e152">
+</th></tr></thead><tbody><tr><td id="d95318e152">
 
 **Channel URL**
 
@@ -57,7 +57,7 @@ Description
 
 Deep link to the relevant Microsoft Teams channel. You can find deep links to channels in Microsoft Teams. They follow this general format: `https://teams.microsoft.com/l/channel/19%abcdef`.
 
-</td></tr><tr><td id="d92537e172">
+</td></tr><tr><td id="d95318e172">
 
 **Destination name**
 

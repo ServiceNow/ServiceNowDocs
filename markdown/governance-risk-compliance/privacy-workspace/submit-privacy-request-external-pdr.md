@@ -34,21 +34,23 @@ After submitting your privacy request, verify your email address using a six-dig
 
 1.  Append `/now/grc/portal/public/pdr` to your organization's ServiceNow instance URL \(for example, `https://<instance-name>.service-now.com/now/grc/portal/public/pdr`\).
 
-2.  In the **Country** field, select your country of residence.
+2.  From the **Language** drop-down, select the language you want to view the form in.
 
-3.  If applicable, select your state or region.
+3.  In the **Country** field, select your country of residence.
+
+4.  If applicable, select your state or region.
 
     The form automatically displays the privacy rights available for your jurisdiction.
 
-4.  On the **Request information** and **Requester details** pages of the form, fill in the fields.
+5.  On the **Request information** and **Requester details** pages of the form, fill in the fields.
 
     For field descriptions, see [External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md).
 
-5.  Review the information you entered, and select **Continue**.
+6.  Review the information you entered, and select **Continue**.
 
     A six-digit verification code is sent to your email address.
 
-6.  Enter the six-digit verification code, and select **Submit**.
+7.  Enter the six-digit verification code, and select **Submit**.
 
 
 ## Result

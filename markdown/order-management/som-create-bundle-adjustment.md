@@ -24,7 +24,7 @@ A pricing adjustment can be a markup or markdown percentage, amount, or a pricin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

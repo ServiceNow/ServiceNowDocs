@@ -26,7 +26,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Universal tasks** &gt; **Employee forms**.
+1.  Navigate to **All** &gt; **Universal Task** &gt; **Employee forms**.
 
 2.  Click **Create New**.
 

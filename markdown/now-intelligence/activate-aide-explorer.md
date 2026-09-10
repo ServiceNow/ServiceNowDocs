@@ -40,13 +40,20 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
     \[Omitted image "nowass-expl-skills.png"\] Alt text: AI skills tab of AI Admin Hub, showing the skills for AI Data Explorer under Analytics.
 
-5.  Select **Activate skill**.
+5.  To see information about the skill, select **View details**.
+
+    The information includes the following details:
+
+    -   A description of the skill
+    -   Key benefits
+    -   Dependencies and other recommended skills, if applicable
+6.  Select **Activate skill**.
 
     If the skill is already activated, you can deactivate it through the 3-dot menu on the tile. This menu is available only for activated skills. Deactivating the analytics exploration skill deactivates AI Data Explorer for the instance.
 
     \[Omitted image "deactivate-skill.png"\] Alt text: Tile for activated skill showing Deactivate option from context menu.
 
-6.  Configure the analytics exploration skill.
+7.  Configure the analytics exploration skill.
 
     1.  In the **Advanced analysis** page, you can activate record-level analysis or deactivate indicator support.
 
@@ -66,17 +73,17 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
     \[Omitted image "activated-skill.png"\] Alt text: Tile for the activated analytics exploration skill, showing Edit Configuration and Deactivate options.
 
-7.  To enable users to generate recommendations based on the findings in their exploration, turn on the exploration action recommendation skill.
+8.  To enable users to generate recommendations based on the findings in their exploration, turn on the exploration action recommendation skill.
 
     You can set the roles that can generate recommendations. The default role is now\_assist\_explorer\_user. This role contains sn\_query\_gen.user, granting necessary access to Query Generation.
 
     Requires Australia Patch 1 and the associated application upgrade.
 
-8.  To enable users to generate summaries of explorations, turn on the exploration summarization skill.
+9.  To enable users to generate summaries of explorations, turn on the exploration summarization skill.
 
     You can set the roles that can generate summaries. Again, the default role is now\_assist\_explorer\_user. This role contains sn\_query\_gen.user, granting necessary access to Query Generation.
 
-9.  To enable users to use AI to help refine text that they write in explorations, activate the refine text in explorations skill.
+10. To enable users to use AI to help refine text that they write in explorations, activate the refine text in explorations skill.
 
     A dialog opens asking you where you want to display the refine text option.
 

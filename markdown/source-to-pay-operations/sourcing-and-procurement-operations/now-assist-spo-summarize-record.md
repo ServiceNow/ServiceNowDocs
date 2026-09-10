@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-07-28"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -29,11 +29,12 @@ The summary appears in different places depending on which interface you're usin
 
 -   **What the summary includes**
 
-    Based on the type of procurement record, ServiceNow Otto for SPO generates a summary with three sections:
+    Based on the type of procurement record, ServiceNow Otto for SPO generates a summary with the following sections:
 
-    -   **Overview**: Basic information about the record.
+    -   **Overview**: Information about the record.
     -   **Actions completed**: Actions that have been taken so far.
-    -   **Next steps**: Actions you need to do next.
+    -   **Next steps**: Actions you need to do next for open cases. For purchase requisitions and procurement cases, if the record has associated email records, this also factors in the sender, date, and key message from those emails \(excluding standard state-change notifications\).
+    -   **Close notes**: Complete resolution summary for closed procurement cases.
 
 ## Procedure
 
@@ -85,15 +86,15 @@ To generate a summary for the following procurement records:-   Negotiation
 
 7.  After ServiceNow Otto for SPO generates the summary, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d219868e301">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d232587e325">
 
 Option
 
-</th><th align="left" id="d219868e304">
+</th><th align="left" id="d232587e328">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d219868e310">
+</th></tr></thead><tbody><tr><td id="d232587e334">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -104,7 +105,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d219868e340">
+</td></tr><tr><td id="d232587e364">
 
 **Expand or collapse the summary**
 
@@ -112,7 +113,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d219868e361">
+</td></tr><tr><td id="d232587e385">
 
 **Provide feedback for the summary**
 
@@ -120,7 +121,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d219868e384">
+</td></tr><tr><td id="d232587e408">
 
 **Copy the record summary**
 
@@ -128,7 +129,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spo.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d219868e400">
+</td></tr><tr><td id="d232587e424">
 
 **View the information about the record summary**
 
@@ -136,7 +137,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spo.png"\] Alt te
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d219868e415">
+</td></tr><tr><td id="d232587e439">
 
 **Refresh the record summary**
 
@@ -160,4 +161,8 @@ If you want to refresh the summary, select the refresh icon \(\[Omitted image "i
 [Generate an email response for procurement cases]()
 
 [Analyze sentiment in procurement cases]()
+
+[AI L1 SPO Service Desk Specialist]()
+
+[Generate a knowledge article]()
 

@@ -49,7 +49,7 @@ The Universal Request is created and routed to a routing agent for review. The r
 -   **[Create a procurement case from a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.md)**  
 When a Universal Request arrives in the Source-to-Pay Workspace, create a linked procurement case to track and manage the request through fulfillment.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -65,4 +65,8 @@ When a Universal Request arrives in the Source-to-Pay Workspace, create a linked
 [Using Spend and Savings Management]()
 
 [Using Sourcing Pipeline Management]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 

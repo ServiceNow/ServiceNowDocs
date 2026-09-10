@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 1
-breadcrumb: [Demands Dashboard, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Using the Demands Dashboard

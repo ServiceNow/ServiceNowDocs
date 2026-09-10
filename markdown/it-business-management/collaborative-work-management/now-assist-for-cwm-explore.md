@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 8
+reading_time_minutes: 10
 keywords: [explore]
 breadcrumb: [Explore, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -38,6 +38,24 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     You can review and edit AI-generated tasks before adding them to your story. There is no limit on the number of tasks generated, giving you flexibility to capture all necessary work breakdown items. This capability reduces the time spent on repetitive task creation and helps teams establish a consistent starting point for sprint execution.
 
+-   **[Create child tasks from CWM task types in List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**
+
+    Break down a large and complex CWM task into smaller units of clear and assignable child tasks using AI. The parent task's short description and description are analyzed by AI to generate child tasks.
+
+    Generate child tasks inline from the List view by hovering over the short description of a task to display the Generate Subtasks icon. Child tasks are added as a hierarchy under the parent task in the List view.
+
+    \[Omitted image "generate-subtasks-cwm.png"\] Alt text: The Generate Subtasks option is available on hovering over the short description of a task.
+
+-   **[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)**
+
+    Turn an open prompt or an uploaded file into a batch of tasks for your Board, instead of creating each task individually. Describe the context for task generation, or attach a file such as meeting notes, brainstorming planning docs, or epic PRDs. The input is analyzed by AI and a list of tasks is proposed.
+
+    \[Omitted image "cwm-generate-contextual-tasks.png"\] Alt text: Generate tasks using context or uploaded reference files.
+
+    Review the proposed tasks, select the ones you want, and add them to your Board in one action.
+
+    \[Omitted image "cwm-generate-contextual-tasks-review.png"\] Alt text: Review the generated tasks and select the ones you want to add to your board.
+
 -   **[Generate formulas from natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**
 
     Create formula columns faster by describing your calculation in natural language and letting ServiceNow Otto generate the formula for you.
@@ -53,6 +71,8 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
     As a product manager, generate clear, comprehensive, and testable acceptance criteria for your user stories, instead of spending hours writing and refining them manually.
 
     You can review and refine the suggested options to ensure they meet your story requirements without slowing down planning. By helping you streamline generating acceptance criteria as a process, this skill helps save time, improve quality, and speed up delivery with cleaner backlogs and better collaboration.
+
+    \[Omitted image "na-cwm-acc-criteria.png"\] Alt text: Sprint planning view in CWM showing a story detail panel with the Acceptance criteria field open and the ServiceNow Otto menu displaying the Generate acceptance criteria option.
 
 -   **[CWM Doc generation and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**
 
@@ -113,6 +133,8 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
     -   Split a task recommendation into multiple tasks.
     -   Combine multiple task recommendations into one task.
     -   Remove any task recommendation.
+    \[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: CWM planning Doc page with the ServiceNow Otto panel showing generated tasks for a hackathon, including logistics, cross-functional meetings, and project management.
+
     Thus, by using the Task generation skill within CWM, you can:
 
     -   Remove initial roadblocks to create tasks for a CWM Board.
@@ -133,5 +155,6 @@ A knowledge worker can use the ServiceNow Otto panel in CWM workspace. This conv
 To learn more about configuring and using ServiceNow Otto, see:
 
 -   [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
+-   [Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
 -   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)
 

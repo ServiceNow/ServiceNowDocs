@@ -30,7 +30,7 @@ This spoke was built for Amazon Alexa API version v1, but may be compatible with
 
 ## Spoke version
 
-Amazon Alexa v1.3.0 is the latest version.
+Amazon Alexa v1.3.0 is the latest version. For version history of the spoke, see [Amazon Alexa spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-alexa.html).
 
 ## Spoke requirements
 

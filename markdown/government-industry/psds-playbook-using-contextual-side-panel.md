@@ -14,7 +14,7 @@ breadcrumb: [Using Service Request Playbooks, Playbooks, Use, Public Sector Digi
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the CSM Configurable Workspace gives you access to information that can help you resolve government service cases.
+The contextual side panel in the CRM Workspace gives you access to information that can help you resolve government service cases.
 
 It includes a column of icons that you can select to access different types of information.
 

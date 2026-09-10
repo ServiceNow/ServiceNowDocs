@@ -99,6 +99,8 @@ The list of tag names that you can add to the category.1.  Select the Lookup ico
 6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] to add multiple tag names.
 
 
+-   **[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/select-tag-category-source.md)**  
+Select a tag category source to control how the Cloud Cost Management application maps cloud resource tags to business entities for cost attribution and reporting.
 -   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
 Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
 
@@ -107,5 +109,5 @@ Associate a tag name with its corresponding tag value whenever a new AI service 
 **Related topics**  
 
 
-[Tags and tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 

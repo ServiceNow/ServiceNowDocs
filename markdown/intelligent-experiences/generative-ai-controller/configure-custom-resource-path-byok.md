@@ -1,6 +1,6 @@
 ---
 title: Configure a custom resource path for BYOK models
-description: Enter a custom resource path in your bring your own key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers, such as Azure OpenAI, that use a different web address than the default.
+description: Enter a custom resource path in your bring-your-own-key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers that use a different web address than the default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.html
 release: australia
@@ -9,12 +9,12 @@ classification: generative-ai-controller
 topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Bring your own key for third-party AI provider integration, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure a custom resource path for BYOK models
 
-Enter a custom resource path in your bring your own key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers, such as Azure OpenAI, that use a different web address than the default.
+Enter a custom resource path in your bring-your-own-key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers that use a different web address than the default.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-When you configure a bring your own key \(BYOK\) model provider in Generative AI Controller, it uses the connection and credential alias to send requests to your AI provider. The alias contains the base URL and API key for your provider. Some AI providers, such as Azure OpenAI, include an extra path segment in their web address that Generative AI Controller does not add by default. Without this segment, Generative AI Controller requests do not reach your provider correctly.
+When you configure a bring your own key \(BYOK\) model provider in Generative AI Controller, it uses the connection and credential alias to send requests to your AI provider. The alias contains the base URL and API key for your provider. Some AI providers, such as Azure OpenAI, include an extra path segment in their web address that Generative AI Controller does not add by default. Without this segment, Generative AI Controller requests don't reach your provider correctly.
 
 The Resource Path field in the model configuration record is where you provide that extra segment.
 

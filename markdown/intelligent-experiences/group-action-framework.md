@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/group-action-framework.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-08-10"
 reading_time_minutes: 4
 keywords: [gaf]
-breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Group Action Framework
@@ -48,11 +48,11 @@ Multiple skills are involved in GAF setup and execution. They are modular, so no
     Uses the generated summaries created by the mapper skill to produce a single summary for the entire cluster.
 
 
-## GAF and AI Search
+## GAF and ServiceNow® Otto for AI Search
 
-GAF uses AI Search to improve its effectiveness and uses it as a fallback option in case GAF does not return any results. When AI Search is enabled, then GAF can utilize its optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
+GAF uses AI Search to improve its effectiveness and can use it as a fallback option in case GAF does not return any results. GAF can work without ServiceNow Otto for AI Search, but if it is enabled then GAF has optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
 
-See [Install AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
+See [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
 
 ## Grouping inputs
 

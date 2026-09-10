@@ -30,6 +30,8 @@ A funnel can include various actions leading up to success or failure of a conve
 
 -   **[Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/create-funnel.md)**  
 View conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+-   **[Analyze conversion funnel results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/analyse-conversion-funnel-results.md)**  
+Review the results of a conversion funnel to review how users move through each step, where they drop off, and how the journey has changed compared with a previous period.
 -   **[Edit a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/edit-funnel.md)**  
 Edit conversion funnel data to collect or steps to include in your analysis.
 -   **[Delete a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/delete-funnel-step.md)**  

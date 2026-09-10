@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Identify system issues with Synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Identifying system issues with synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # View a monitor's test results
@@ -36,7 +36,7 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
 
     To view the details for a test, select its timestamp. For more information about the test details, see [View test details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-test-details.md).
 
-    **Note:** If your monitor uses OAuth and a test fails, see [OAuth issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-oauth.md).
+    **Note:** If your monitor uses OAuth and a test fails with a 4xx error, it may be because your refresh token expired. Re-authenticate by visiting the OAuth credential page and clicking the credential link.
 
     To view [active alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-alerts-for-a-synthetic-monitor.md) created by the monitor, select the Alert link to open its details.
 

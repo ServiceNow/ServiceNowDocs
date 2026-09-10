@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -72,7 +72,7 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
     Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see [Virtual Agent integration with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-ai-search.md).
 
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -83,11 +83,15 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

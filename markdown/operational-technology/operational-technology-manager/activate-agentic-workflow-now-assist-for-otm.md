@@ -26,9 +26,9 @@ Role required: sn\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 
-2.  Under the **Agentic workflows** tab, select the **Import OT device spreadsheet into OT CMDB** agentic workflow.
+2.  In the **Agentic workflows** tab, select the **Import OT device spreadsheet into OT CMDB** agentic workflow.
 
 3.  In the **Define key requirements** screen, review and update the information as needed then select **Save and Continue**.
 
@@ -40,7 +40,7 @@ Role required: sn\_aia.admin
 
 6.  Verify the **Status** toggle is on to confirm the OT Excel import task AI agent is active and running.
 
-    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic solutions**.
 
     2.  Under the **AI agents** tab, select the **OT Excel import task AI agent**.
 

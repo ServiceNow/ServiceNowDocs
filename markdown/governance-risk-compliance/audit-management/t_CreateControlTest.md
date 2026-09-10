@@ -1,6 +1,6 @@
 ---
 title: Create a control test from an engagement
-description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateControlTest.html
 release: australia
@@ -8,17 +8,19 @@ product: Audit Management
 classification: audit-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage engagements, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+reading_time_minutes: 5
+breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control test from an engagement
 
-After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 
 ## Before you begin
 
 Role required: sn\_audit.admin and sn\_audit.manager
+
+Starting with Audit Management 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## Procedure
 
@@ -179,6 +181,7 @@ Design effectiveness
 
 -   Effective
 -   Ineffective
+-   None: Default value; to be populated after design testing is complete
 
 
 </td></tr><tr><td>
@@ -217,6 +220,7 @@ Operation effectiveness
 
 -   Effective
 -   Ineffective
+-   None: Default value; to be populated after design testing is complete
 
 
 </td></tr><tr><td>
@@ -276,8 +280,35 @@ Confidential
 Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
-</table>6.  Click **Submit**.
+</table>    The control test form captures two types of testing:
 
+    -   Design Test: Validates whether the control was designed properly to achieve the control objective. Set Design effectiveness to Effective or Ineffective based on design assessment procedures and results.
+    -   Operational Test: Validates whether the control is operating effectively in practice. Set Operation effectiveness to Effective or Ineffective based on operational assessment procedures and results.
+    Both sections capture expectations, assessment procedures, and results to provide documented evidence of control effectiveness.
+
+    **Note:** After you create the control test and assign it to a user, that assigned user can edit the Design results and Operational results fields. Other fields are editable only by users with sn\_audit.admin or sn\_audit.manager roles.
+
+6.  Click **Submit**.
+
+7.  Attach a document with the record in the Document panel.
+
+8.  Ask questions about the document in the ServiceNow Otto® panel.
+
+9.  Use voice assist to navigate documents with voice commands and receive audio summaries.
+
+
+## Result
+
+After creating the control test, you can:
+
+-   View in grid: Use the **Control tests** tab on the engagement record to view all control tests in a single grid without opening individual records. For information, see [View control tests in a grid on an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/view-control-tests-tab-engagement-ws.md).
+-   Request evidence: Select Request evidence directly from the grid to collect evidence from the assigned auditor.
+-   Personalize columns: Show or hide additional columns such as Reference and Implementation Statement through column personalization settings.
+-   Use Hierarchical view: Switch to Hierarchical view for a tree-structured layout of control tests and related audit tasks.
+
+## What to do next
+
+Beginning with 23.x.x release, the control test form also has a Documents panel in addition to the Attachments panel. You can add, version, and manage permissions on documents while the control test is not in a Closed Complete, Closed Incomplete, or Closed Skipped state. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 -   **[Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/automatically-generate-control-test.md)**  
 After adding an entity to an engagement, you can automatically generate control tests.

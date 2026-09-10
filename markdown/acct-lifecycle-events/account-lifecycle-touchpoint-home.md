@@ -171,6 +171,14 @@ Select one or more locations from the drop-down list.
 
 </td></tr><tr><td>
 
+Process transcript
+
+</td><td>
+
+Select this check box to process the transcript and make it available in future related meetings.
+
+</td></tr><tr><td>
+
 Agenda
 
 </td><td>
@@ -296,7 +304,7 @@ When an email is sent from an internal touchpoint, this message is shown in the 
 
 You can view the success tasks associated with this touchpoint.
 
-1.  Select **New** to create success task for this touchpoint. The Create success task page is displayed. See **&lt;success case task&gt;\*\*\* to add link \*\*\*** for the details.
+1.  Select **New** to create success task for this touchpoint. The Create success task page is displayed.
 2.  Enter the details on this page and select **Save**. The newly created success task now appears on the `Success tasks` page.
 
 ## Related Items

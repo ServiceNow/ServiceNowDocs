@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -27,8 +27,6 @@ You need to have either Editor or Owner access to the Space to add a custom colu
 ## About this task
 
 **Note:** This procedure provides general instructions involved in creating custom column types for CWM Boards. To learn how to create a Formula type column, see [Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md).
-
-Watch this video for guidance on adding custom columns for tasks in a CWM Board.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-upgradeconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,18 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Additional way to access Upgrade Management](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
-
-You can now access Upgrade Console through the Admin menu by selecting **Admin Home**, and then selecting the **Upgrade Console** link.
-
--   **[Guided upgrade on sub-production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
-
-Upgrade your sub-production instance to facilitate a seamless and successful transition. This process is structured into three pivotal phases: Pre-upgrade, Instance upgrade, and Post-upgrade tasks.
-
--   **[Guided upgrade on production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement-prod&family=zurich&ft:locale=en-US)**
-
-Elevate your upgrade experience within your production instance by meticulously completing each stage of the transition. This comprehensive process encompasses four crucial phases: Select upgrade, Pre-upgrade, Instance upgrade, and Post-upgrade tasks, all designed for a successful upgrade experience.
-
 -   **[Additional step in pre-upgrade activities](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=zurich&ft:locale=en-US)**
 
 You an now choose an upgrade plan in the Choose an upgrade plan step by either selecting an existing plan or by creating a new plan. This new step is applicable for both production and sub-production instances.
@@ -126,7 +114,12 @@ Zurich
 
 </td><td>
 
--   **[Updated access to Guided upgrade](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Updated access to Guided upgrade](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
 
 Apart from the **Guided upgrade** tab option, you can also access Guided upgrade by selecting **Resume upgrade** if there is an ongoing upgrade in the instance.
 
@@ -158,7 +151,7 @@ Zurich
 
 </td><td>
 
--   Removed the Ready your environment step in the pre-upgrade activities on a production instance.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -187,7 +180,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Removed the Ready your environment step in the pre-upgrade activities on a production instance.
 
 </td></tr><tr><td>
 
@@ -216,7 +209,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Upgrade Console is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -224,7 +220,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Upgrade Console is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

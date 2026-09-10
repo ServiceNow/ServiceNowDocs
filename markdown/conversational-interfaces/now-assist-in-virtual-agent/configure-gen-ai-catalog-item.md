@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d173403e307">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d173069e307">
 
 Option
 
-</th><th align="left" id="d173403e310">
+</th><th align="left" id="d173069e310">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173403e316">
+</th></tr></thead><tbody><tr><td id="d173069e316">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d173403e355">
+</td></tr><tr><td id="d173069e355">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 

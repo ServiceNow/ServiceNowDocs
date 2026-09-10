@@ -50,7 +50,7 @@ Role required: admin
 10. Under ACTIONS, do the following:
 
     -   Select **Process Attachment using DI** to expand it.
-    -   In the **SYS DI Task Definition \[Use Case\]** field, select the copy of the use case that was created using the **Duplicate use case** icon \(\[Omitted image "duplicate-di-usecase.png"\] Alt text: duplicate DI use case\) in Global scope. For more information on copying use case, refer [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).\[Omitted image "inv-process-flow-di-skill.png"\] Alt text: Invoice processing case for invoice email flow
+    -   In the **SYS DI Task Definition \[Use Case\]** field, select the copy of the use case that was created using the **Duplicate use case** icon \(\[Omitted image "duplicate-di-usecase.png"\] Alt text: duplicate DI use case\) in Global scope. For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).\[Omitted image "inv-process-flow-di-skill.png"\] Alt text: Invoice processing case for invoice email flow
 11. Select **Save**.
 
 12. Select **Activate**.

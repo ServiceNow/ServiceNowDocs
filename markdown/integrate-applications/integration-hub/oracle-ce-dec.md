@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Compute Engine v1.0.4 is the latest version.
+Oracle Compute Engine v1.0.4 is the latest version. For version history of the spoke, see [Oracle Compute Engine spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-compute-engine.html).
 
 ## Supported versions
 

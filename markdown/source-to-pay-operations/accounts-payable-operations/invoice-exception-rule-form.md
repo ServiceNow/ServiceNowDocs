@@ -1,5 +1,5 @@
 ---
-title: Invoice Exception Rule form
+title: Invoice exception rule form
 description: Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.html
@@ -13,7 +13,7 @@ keywords: [Invoice Exception, APO, Accounts Payable Management, Accounts Payable
 breadcrumb: [Invoice exception form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Invoice Exception Rule form
+# Invoice exception rule form
 
 Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 

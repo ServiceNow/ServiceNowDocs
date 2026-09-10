@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Conversational contract search and insights Workflow, Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use conversational contract search and insights, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Search in contract metadata
@@ -17,6 +17,8 @@ breadcrumb: [Conversational contract search and insights Workflow, Use agentic w
 Ask question in the ServiceNow Otto panel to search for information related to contract fields.
 
 ## Before you begin
+
+The Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\) must be installed to use AI capabilities.
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
@@ -37,7 +39,7 @@ Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_c
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
-For feature limitations, see [Explore ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
+For feature limitations, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 ## Procedure
 
@@ -67,4 +69,10 @@ For feature limitations, see [Explore ServiceNow Otto for Contract Management Pr
 
     \[Omitted image "cmpro-na-converse-openreq.png"\] Alt text: Open contract request
 
+7.  Perform in-document search after viewing contract field search results.
+
+    After viewing contract field search results, the system asks whether you want to search within the contract documents. Select **Yes** to search within contract documents. The system displays matching results with AI reasoning. Previously shown contract field search results remain visible above the new document search results.
+
+
+**Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
 

@@ -18,8 +18,8 @@ Create a collector to import metadata from Snowflake.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Snowflake collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-snowflake-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,33 +47,9 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Configure the authentication options.
+7.  Configure the connection options.
 
-    |Field|Description|
-    |-----|-----------|
-    |Authenticate using username and password|
-    |Username|Username to use to make the JDBC connection.|
-    |Password|Password of the user.|
-    |Authenticate using a private key|
-    |Username|Username to use to make the JDBC connection.|
-    |Snowflake private key file|Upload the private key file to use for authentication.|
-    |Private key file password|Password for the private key file, if the key is encrypted and a password is set.|
-
-8.  Select from **Collect all schemas** and **Specify which schema to collect**.
-
-    |Field|Description|
-    |-----|-----------|
-    |Collect all schemas|
-    |Collect all schemas|Catalog all schemas to which the user has access.|
-    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
-    |Include Information Schema|Include the database's Information Schema in catalog collection.|
-    |Specify which schema to collect|
-    |Specify which schema to collect|Catalog only the specified schemas.|
-    |Schema|Name of the database schema to catalog.|
-
-9.  Enter the Snowflake connection details.
-
-<table id="table_pjv_hr4_33c"><thead><tr><th>
+<table id="table_s3_collector_props"><thead><tr><th>
 
 Field
 
@@ -99,6 +75,49 @@ Port of the database server \(if not the default\).
 
 </td></tr><tr><td>
 
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Authenticate using username and password|
+    |Username|Username to use to make the JDBC connection.|
+    |Password|Password of the user.|
+    |Authenticate using a private key|
+    |Username|Username to use to make the JDBC connection.|
+    |Snowflake private key file|Upload the private key file to use for authentication.|
+    |Private key file password|Password for the private key file, if the key is encrypted and a password is set.|
+
+9.  Select from **Collect all schemas** and **Specify which schema to collect**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+10. Enter the Snowflake connection details.
+
+<table id="table_pjv_hr4_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
 Database
 
 </td><td>
@@ -122,7 +141,7 @@ Excluded database
 Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>10. Configure the statistics and sampling options.
+</table>11. Configure the statistics and sampling options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -199,7 +218,7 @@ Disable Extended Metadata collection
 Option to skip harvesting extended metadata for data asset types such as database, schema, table, columns, functions, stored procedures, user-defined types, and synonyms. Basic metadata for these data asset types is still harvested.
 
 </td></tr></tbody>
-</table>11. Configure the harvesting scope and limits options.
+</table>12. Configure the harvesting scope and limits options.
 
 <table id="table_kbn_4lp_33c"><thead><tr><th>
 
@@ -266,7 +285,7 @@ Exclude system functions
 Option to exclude built-in system functions from harvesting.
 
 </td></tr></tbody>
-</table>12. Configure the connection and reliability options.
+</table>13. Configure the connection and reliability options.
 
 <table id="table_yhb_plp_33c"><thead><tr><th>
 
@@ -317,7 +336,7 @@ SQL parsing timeout
 Timeout in seconds for SQL parsing during lineage collection. Default: 60
 
 </td></tr></tbody>
-</table>13. Select **Save**.
+</table>14. Select **Save**.
 
 
 ## Result

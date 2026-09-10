@@ -36,7 +36,7 @@ Complete the following Guardian configuration steps:
 Before your agent goes into testing, verify that personally identifiable information \(PII\) is handled appropriately. Complete the following steps if you have not already done so:
 
 1.  Assign a data steward if one is not already assigned. The data steward is responsible for data sharing decisions for Now Assist on your instance. See [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md).
-2.  Configure privacy policies to control how PII is de-identified before it reaches the large language model. See [Configuring ServiceNow Otto for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
+2.  Configure privacy policies to control how PII is de-identified before it reaches the large language model. See [Configuring Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
 3.  Review your data sharing preferences and opt out if your organization policy requires it. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 ## Next step

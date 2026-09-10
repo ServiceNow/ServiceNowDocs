@@ -56,7 +56,7 @@ This role is required to access metadata tables to accurately troubleshoot test 
 -   Read-only access to syslog
 -   Read/write access to sn\_atf\_assist\_triage\_output
 
-**Note:** You can access the Now Assist panel using the now\_assist\_panel\_user role.
+**Note:** You can access the ServiceNow Otto panel using the now\_assist\_panel\_user role.
 
 </td></tr></tbody>
 </table>## ATF troubleshooting agent benefits

@@ -68,8 +68,5 @@ Role required: sn\_hr\_core.admin
 10. Select **Done**.
 
 
--   **[Configuring the Now Assist Context Menu for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.md)**  
-Customize a Now Assist skill so that agents can use the generative AI skills in HR Agent Workspace and Core UI.
-
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

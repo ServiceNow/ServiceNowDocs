@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure CPQ Configurator using guided setup
@@ -16,6 +16,6 @@ The CPQ Configurator guided setup provides a sequence of tasks that help you con
 
 Product catalog administrators and technicians run CPQ Configurator in the CSM Configurable Workspace, while users using self-service features use it in the Business Portal.
 
-1.  Complete the prerequisites. For more information, see [Prerequisites for configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
-2.  Configure CPQ Configurator using the guided setup. For more information, see [Set up ServiceNow CPQ Configurator using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-cpq-using-guided-setup.md).
+1.  Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
+2.  Configure CPQ Configurator using the guided setup. For more information, see [Set up CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-cpq-using-guided-setup.md).
 

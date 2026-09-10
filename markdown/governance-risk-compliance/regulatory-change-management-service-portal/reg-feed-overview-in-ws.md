@@ -16,12 +16,14 @@ breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, 
 
 When you select a regulatory event alert in the List view in the Compliance Workspace, it displays the details of the alert on a new page. The details include the title of the alert, provider of the alert, its state, and other important information in the Overview tab and Details tab.
 
-The regulatory event alerts page also displays the following tabs and related lists associated with the alert:
+The regulatory event alerts page also displays the following tabs associated with the alert:
 
--   Overview tab
--   Details tab
--   Related documents list
--   Impact assessments list
+-   Overview
+-   Details
+-   Impacted areas
+-   Regulatory assessments
+-   Risk assessments
+-   Regulatory tasks
 
 The following section provides more information on the tabs and the related lists that are associated with the alert.
 
@@ -47,7 +49,7 @@ Stage: Visual component that guides through a sequence of stages of a regulatory
 
 </td><td>
 
-Visual component for the regulatory event alert that displays the following stages:-   New: When a regulatory event alert is marked as applicable, the state of the alert is updated automatically to **In progress** in the Stepper component and a regulatory change task is automatically created.
+Visual component for the regulatory event alert that displays the following stages:-   New: When a regulatory event alert is marked as applicable, the state of the alert automatically changes to **In progress** in the Stepper component. This automatically creates a regulatory change task.
 -   Impact Assessment: When an impact assessment is initiated on the regulatory event alert, the stage in the stepper component is updated automatically to **Impact Assessment**.
 -   In progress: When the state of the regulatory event alert is updated to**In progress**, the highlighted stage in the stepper component is displayed as **In progress**.
 -   Closed: When the Regulatory event alert is in **Closed** state, the highlighted stage in the stepper component is displayed as **Closed**.
@@ -55,17 +57,26 @@ Visual component for the regulatory event alert that displays the following stag
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Regulatory alert|Details of the alert such as title of the alert, citation associated with the alert, provider URL, regulatory body URL, name of the provider, type of the alert, and coordinator of the alert.|
+|Regulatory alert|Details of the alert such as the alert number, title, associated citation, provider name and URL, regulatory body URL, alert type, and coordinator of the alert.|
 |Dates|Details of the important dates associated with the alert such as source publication date, comments date, effective date, compliance date, and expiration date.|
-|Compose additional comments|Text box for entering additional comments related to the activity.|
+|Activity journal|Text box for entering additional comments related to the activity.|
+|Settings|Functional domains that the regulatory alert belongs to. For example, `Cybersecurity and risk`, `IT risk and compliance`.|
 
 |Field|Description|
 |-----|-----------|
-|Related documents|Details of the related documents associated with the alert such as citation, citation reference, title, and type.|
+|Impacted area|Details of the related documents associated with the alert such as citation, citation reference, title, and type.|
 
 |Field|Description|
 |-----|-----------|
-|Impact assessments|Details about the impact assessment of the alert such as entity, risk assessment, assessor, inherent risk, and state.|
+|Regulatory assessments|Details about the regulatory impact assessments for the alert such as assessment template, assessor, state, and due date.|
+
+|Field|Description|
+|-----|-----------|
+|Risk assessments|Details about the risk assessments for the alert such as entity, assessor, inherent risk rating, and status, and due date.|
+
+|Field|Description|
+|-----|-----------|
+|Regulatory tasks|Details about the regulatory tasks required to address the alert such as state, type, assigned to, and due date.|
 
 Taxonomy side-panel: The taxonomy side-panel displays the following taxonomy classes for the Regulatory event alert:
 

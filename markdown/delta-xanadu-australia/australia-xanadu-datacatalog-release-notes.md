@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datacatalog-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -126,6 +126,39 @@ Automatically collect and synchronize metadata from external data platforms usin
 -   **[Tags and domains](https://www.servicenow.com/docs/access?context=create-tags-dc&family=australia&ft:locale=en-US)**
 
 Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
+
+
+ -   **[\[Placeholder link text to key amazon-s3-metadata-collector\]](https://www.servicenow.com/docs/access?context=amazon-s3-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   **[\[Placeholder link text to key teradata-metadata-collector\]](https://www.servicenow.com/docs/access?context=teradata-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **[Data quality for data assets](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Classifier field for columns](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **[Email notifications for owner and steward assignments for data assets](https://www.servicenow.com/docs/access?context=update-data-asset&family=australia&ft:locale=en-US)**
+
+When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
+
+-   **[Clone metadata collector connections](https://www.servicenow.com/docs/access?context=configure-metadata-collectors-dc&family=australia&ft:locale=en-US)**
+
+Clone an existing metadata collector connection to create data source connection faster. When you clone a connection, the system copies the connection type, collection settings, filters, and advanced parameters to a new connection record with an auto-generated name. Sensitive information is not carried over. Update credentials and any other environment-specific details before activating the new connection.
+
+-   **[Data quality for data assets](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+Review data quality information for table and column assets, including the overall data quality status, the total number of rules, the number of passed rules, and any quality badges awarded to the resource. View each rule with its source, asset type, asset name, category, status, and last run time, and filter or search to locate a specific rule. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Azure Data Factory metadata collector](https://www.servicenow.com/docs/access?context=azure-data-factory-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Azure Data Factory using metadata collectors.
 
 
 </td></tr></tbody>
@@ -309,7 +342,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

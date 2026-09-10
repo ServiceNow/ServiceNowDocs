@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -23,7 +23,7 @@ You can manually map spend categories to product categories to better organize a
 -   **[Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md)**  
 Convert a savings opportunity into a pipeline project, or dismiss it with a reason.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -39,4 +39,8 @@ Convert a savings opportunity into a pipeline project, or dismiss it with a reas
 [Using Sourcing Pipeline Management]()
 
 [Create a Universal Request]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 

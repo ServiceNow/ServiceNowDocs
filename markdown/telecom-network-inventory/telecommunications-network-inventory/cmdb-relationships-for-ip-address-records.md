@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ When an IP Address record is created, the system writes one or two relationship 
 
 ## Relationships created by each allocation method
 
-From allocated IPs \(per-host method\). When an IP Address record is created from a selected allocated IP, the system writes two relationships:
+From allocated IPs, when an IP Address record is created from a selected allocated IP, the system writes two relationships:
 
 |Relationship type|Parent|Child|
 |-----------------|------|-----|

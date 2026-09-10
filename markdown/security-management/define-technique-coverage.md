@@ -25,7 +25,7 @@ The technique coverage definitions are used in the overall technique detection m
 
 The customizations that you make to the coverage type and color are used in the [overall technique detection mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-technique-coverage.md) and also in the [heat map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md).
 
-**Note:** If you modify the base system coverage definition, the Coverage Type icons do not display with the techniques in the heat map. The heat map works as expected when you modify the same fields as the base system's-defined technique detection coverage and coverage colors. However, if you delete existing fields from the overall technique detection coverage, the heat map does not display the coverage type icons.
+**Note:** If you modify the base system coverage definition, the Coverage Type icons don't display with the techniques in the heat map. The heat map works as expected when you modify the same fields as the base system's-defined technique detection coverage and coverage colors. However, if you delete existing fields from the overall technique detection coverage, the heat map does not display the coverage type icons.
 
 \[Omitted image "mitre-heatmap-coverage-type.png"\] Alt text: Coverage type symbols are not displayed if you modify the coverage definition.
 
@@ -68,11 +68,7 @@ Description
 Overall technique detection coverage. See the base system definition in the [Scoring Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/scoring-definition.md).
 
 </td></tr></tbody>
-</table>    The following illustration shows the Detection Coverage Definition list.
-
-    \[Omitted image "mitre-detection-coverage.png"\] Alt text: Define the technique coverage.
-
-3.  To add an entry, click **New**, complete the entries, and click **Submit**.
+</table>3.  To add an entry, select **New**, complete the entries, and select **Submit**.
 
 
 -   **[MITRE-ATT&amp;CK Scoring definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/scoring-definition.md)**  

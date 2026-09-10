@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-ass
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the ServiceNow Otto panel conversational experience, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Admin Center help AI agent
@@ -44,7 +44,7 @@ NAC Help Agent
 Answers help questions by querying ServiceNow documentation. The agent is engaged when the user asks "How do I", "What is", "Help with", or similar help-seeking questions.
 
 </td></tr></tbody>
-</table>For more information on viewing your AI agents, see [View your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
+</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
 
 ## AI agent access
 
@@ -65,6 +65,4 @@ When used, the AI agent may attempt the following actions.
 3.  The AI agent displays the answer in the conversation including any links to related source documents.
 4.  You review the answer. If necessary, provide additional details about the question for a more relevant answer.
 5.  The AI agent retains the conversation throughout your session so you can ask follow-up questions without repeating context.
-
-**Parent Topic:**[Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 

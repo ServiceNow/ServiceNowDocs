@@ -19,12 +19,16 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 
 Before you can enable an MCP server in Build Agent, an administrator must approve it as an AI asset in AI Control Tower. Each MCP server requires this approval, regardless of whether the server is enabled by default.
 
+You must have Connect Hub installed.
+
 The end-to-end flow for making an MCP server available is:
 
 1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
 2.  The administrator approves the server as an AI asset in AI Control Tower.
 3.  You authenticate the connection in Personal Integrations.
 4.  You enable the MCP server in Build Agent settings.
+
+For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
 
 **Note:** An allowlist process is required to connect the Build Agent MCP client to the Figma MCP server. Contact Now Support to initiate the process.
 
@@ -34,7 +38,7 @@ For details on adding a new MCP connection in Workflow Data Fabric, see [Model C
 
 See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
 
-**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE, though you must be on Australia Patch 3 or higher to use MPC servers with Build Agent in ServiceNow Studio.
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
 Role required: admin
 

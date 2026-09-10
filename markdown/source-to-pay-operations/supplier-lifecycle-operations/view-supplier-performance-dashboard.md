@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Supplier Lifecycle Operations, supplier performance dashboard, supplier score, risk score, performance domain, KPI scores]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -38,6 +38,8 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
     All the KPIs are grouped by the performance domain set in the KPI template that they were created from.
 
     \[Omitted image "kpi-dashboard.png"\] Alt text: Supplier performance dashboard
+
+    **Note:** If **FedEx Dataworks** is integrated, the **FedEx Dataworks - supplier performance benchmarking** section is accessible for suppliers that have a FedEx Dataworks Supplier ID. Relationship managers can retrieve FedEx Dataworks logistics performance metrics for those suppliers. For more information see, [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md).
 
 
 ## Result

@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-07-28"
-reading_time_minutes: 8
+last_updated: "2026-08-17"
+reading_time_minutes: 9
 keywords: [Now Assist Security Operations]
 breadcrumb: [Configure ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -412,6 +412,7 @@ Base input fields
 -   Assigned to
 -   Work notes
 -   Additional comments
+-   Emails
 
 </td></tr></tbody>
 </table>## Purchase order summarization for requesters skill
@@ -484,6 +485,7 @@ Base input fields
 -   Order type
 -   Requisition type
 -   Supplier
+-   Emails
 
 </td></tr></tbody>
 </table>## Purchase requisition summarization for requesters skill
@@ -686,6 +688,8 @@ Base input fields
 
 
 [Customize an AI skill in Sourcing and Procurement Operations]()
+
+[Application plugins for AI capabilities in SPO]()
 
 [Activate the Spend categorization agent]()
 

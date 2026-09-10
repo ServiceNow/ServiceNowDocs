@@ -1,65 +1,104 @@
 ---
 title: AI Desktop Actions release notes
-description: The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions was enhanced and updated in the Australia release.
+description: The ServiceNow AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.Adaptive path AI Desktop Actions now gather stored credentials and dynamic parameters automatically, attach and track files during a task, and start faster with fewer stray browser tabs.Long-running sessions now preserve context by automatically summarizing older step history. Three new system properties are added to manage the compaction feature.A streamlined automation creation journey now enables users to request automations from Task Mining for desktop activities, generate them in Automation Center, automatically create AI agents configured with these desktop action tools, and deploy them directly from AI Agent Studio.Record on-screen task desktop actions, validate anchor positions, and generate screen contexts using AI. Provide dynamic values, such as credentials and user-specific inputs to on-screen task desktop actions by creating Desktop action parameter records.Agentic Desktop is rebranded as AI Desktop Actions, get a quick overview of the application by using the onboarding wizard, and use the ServiceNow Web Automation chrome extension for AI agent to interact with web applications.Enhanced error and informational messaging provides better guidance during desktop action testing and troubleshooting. A new Delete button enables quick screen removal from the image canvas, and a Test button in the Design tab allows direct screen testing while designing desktop actions.The Application field in the Details tab is now optional and descriptions for Excel, Word, PDF, and System Actions connectors are enhanced.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 10
 ---
 
 # AI Desktop Actions release notes
 
-The ServiceNow® AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions was enhanced and updated in the Australia release.
+The ServiceNow® AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.
 
-## AI Desktop Actions highlights for the Australia release
+## About AI Desktop Actions
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
-
--   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
--   Preserve context across long-running sessions by summarizing older step history instead of discarding it.
--   Three new system properties are included to manage the compaction feature.
--   Adaptive desktop actions are now batched for better performance. Multiple actions execute per LLM call instead of one call per action that reduces the round-trip latency that previously limited production readiness.
-
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
-
--   Use the unified automation creation journey that spans seamlessly across Task Mining, Automation Center, and AI Agent Studio eliminating context switching and streamlining automation development.
--   Automatically generate desktop actions from real user task patterns captured by using Task Mining.
--   Automatically create an AI agent from desktop actions context from Automation Center.
-
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
-
--   Record desktop actions more accurately by using the new AI-powered recording mode when creating desktop actions.
--   Save time on manual setup by letting AI automatically insert anchors and generate screen context for each captured screen and add desktop action description after recording.
--   Switch between AI-assisted recording and manual recording by using the new **Record with AI \(recommended\)** check box that replaces the previous capture modes in the Create Desktop Action dialog.
--   Make desktop actions more flexible by configuring parameters for on-screen task desktop actions.
--   Pass dynamic values at runtime by mapping parameters in the Map parameters section in AI Agent Studio.
--   Control data visibility and security by using the **Shared** and **Mark As Sensitive** fields on the Desktop action parameter form.
--   Get a quick guidance on how to effectively use the recorder with the recorder tips modal.
--   Keep browser tabs open after an adaptive desktop action completes by using the **sn\_naa.keep\_tab\_open** system property. The property is enabled by default.
--   Use the enhanced adaptive desktop actions to improve execution efficiency.
-
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
-
--   The name of the application is now changed to AI Desktop Actions from Agentic Desktop.
--   Use the desktop action to automate dynamic steps that are determined by AI, and automating the recorded steps.
--   Get a quick overview of the AI Desktop Actions application by using the onboarding wizard that highlights steps related to recording, refining, testing, and activating desktop actions.
--   Use the **Show Inputs** / **Show All** buttons in the Test modal to filter required input fields.
--   Use the latest LLM version for improved performance.
-
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
-
--   Improved error and informational messages for better guidance and troubleshooting.
--   Added a **Delete** button to the image canvas to remove a screen.
--   Enabled screen-level testing while designing desktop actions.
+-   Automate multi-step desktop and web tasks that involve conditional logic, freeing your users to focus on work that needs a human touch.
+-   Adapt to changes in application state and UI in real-time, reducing the need to maintain rigid scripts.
+-   Detect errors during execution and recover by evaluating context and trying alternative approaches.
+-   Let AI agents process instructions and generate execution plans autonomously or semi-autonomously, reducing manual setup for repetitive tasks.
 
 See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
 
-## Important information for upgrading AI Desktop Actions to Australia
+## Activation and other requirements
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   **Activation information**
 
-## New in the Australia release
+    AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+
+-   **Upgrade information**
+
+    Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+
+-   **Browser requirements**
+
+    ServiceNow Otto AI agents support various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto AI agents aren't supported in Internet Explorer.
+
+-   **Additional requirements**
+
+    The following are required to use defined AI Desktop Actions:
+
+    -   Operating system: Microsoft Windows 11.
+    -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
+    -   No extended monitors are connected.
+    To use adaptive desktop actions, Web Automation Chrome browser extension is required for web and AI Desktop Actions for macOS is required for desktop and web.
+
+    You must first install the supported ServiceNow Otto version of ServiceNow to be able to use the ServiceNow Otto AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+
+    You must enable Next Experience UI Framework before you can use the ServiceNow Otto panel.
+
+
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
+
+## September 2026
+
+Adaptive path AI Desktop Actions now gather stored credentials and dynamic parameters automatically, attach and track files during a task, and start faster with fewer stray browser tabs.
+
+### What's new
+
+-   **Execute adaptive desktop actions on macOS**
+
+    Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
+
+    -   Review the AI agent's execution plan before it runs and pause execution to make manual adjustments at any time.
+    -   Explicit user consent is required before the AI agent can access desktop, third-party services, and files.
+    -   Monitor the live execution of adaptive desktop actions in the preview window.
+    -   Refer the real-time status tracking that shows whether the AI agent is initiating, running, or paused.
+    -   Take control of the execution where your input is needed.
+    -   The AI agent batches consecutive actions into single execution calls where possible, minimizing round trips and reducing overall execution time.
+-   **Control resource access using policy and rules**
+
+    Create policies and rules to control which resources AI agents can access.
+
+    -   Policies: Collection of resource access rules that applies to a specific user group or set of users based on defined user criteria.
+    -   Resource access rules: Specific restrictions controlling agent access to various resource types, such as files, folders, websites, and applications.
+    -   Bi-directional policy-rule mapping: Link policies to rules from either the policy record or the rule record, enabling rule reuse across multiple policies.
+-   **Credential and dynamic parameter management**
+
+    Reference credentials or other user-specific values by name in your instructions. The agent resolves them securely at execution time, so you never have to type them in yourself.
+
+-   **File upload and download**
+
+    Upload files to web forms and track file downloads during automated browser tasks. The agent validates file safety, confirms the target field with the reasoning model, and escalates to the user when it can't proceed safely.
+
+
+### What's changed
+
+-   **[Browser startup and tab behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)**
+
+    Browser session now opens to an empty page instead of Google's homepage. Automation actions within the same chat window now reuse the existing browser tab instead of opening a new tab for every action. A new tab opens only when a new chat session starts or you close the current tab.
+
+-   **[Improved security for adaptive desktop actions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+
+    Adaptive desktop actions system properties now require appropriate read and write roles. This change prevents unauthorized users from viewing or modifying the configuration settings, while automation continues to work as expected.
+
+
+## August 2026
+
+Long-running sessions now preserve context by automatically summarizing older step history. Three new system properties are added to manage the compaction feature.
+
+### What's new
 
 -   **[Preserve context across long-running sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)**
 
@@ -76,6 +115,19 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     |sn\_naa.web\_agent.summarization\_batch\_size|Integer|10|Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.|
 
 
+### What's changed
+
+-   **[Renamed ServiceNow AI experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md)**
+
+    ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+## July 2026
+
+A streamlined automation creation journey now enables users to request automations from Task Mining for desktop activities, generate them in Automation Center, automatically create AI agents configured with these desktop action tools, and deploy them directly from AI Agent Studio.
+
+### What's new
+
 -   **[Unified automation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/explore-agentic-desktop.md)**
 
     Use the unified automation creation journey that eliminates manual intervention and saves time.
@@ -84,6 +136,12 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     -   Generate automations in Automation Center to create on-screen and background desktop actions.
     -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
     -   Test and deploy the AI agent in AI Agent Studio.
+
+## June 2026
+
+Record on-screen task desktop actions, validate anchor positions, and generate screen contexts using AI. Provide dynamic values, such as credentials and user-specific inputs to on-screen task desktop actions by creating Desktop action parameter records.
+
+### What's new
 
 -   **[Record desktop actions with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md)**
 
@@ -109,6 +167,12 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     The **Shared** and **Mark As Sensitive** fields can only be modified when no Desktop action parameter value records exist under the parameter record.
 
 
+## Australia General Availability
+
+Agentic Desktop is rebranded as AI Desktop Actions, get a quick overview of the application by using the onboarding wizard, and use the **ServiceNow Web Automation** chrome extension for AI agent to interact with web applications.
+
+### What's new
+
 -   **[Use the new application name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md)**
 
     The product formerly referred to as Agentic Desktop has been rebranded as AI Desktop Actions. All UI labels, navigation elements, and in-product text updated to reflect the new name.
@@ -132,6 +196,12 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     -   **Show Inputs** — Filters the screens with required input fields.
     -   **Show All** — Removes the filter and displays all screens.
 
+## April 2026
+
+Enhanced error and informational messaging provides better guidance during desktop action testing and troubleshooting. A new Delete button enables quick screen removal from the image canvas, and a Test button in the Design tab allows direct screen testing while designing desktop actions.
+
+### What's new
+
 -   **[Improved error and informational messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)**
 
     Improved error and informational messages for better guidance and troubleshooting during testing of desktop actions.
@@ -145,18 +215,15 @@ Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) 
     Test screens directly from the design tab while designing desktop actions.
 
 
-## UI changes
+## Australia
+
+The Application field in the Details tab is now optional and descriptions for Excel, Word, PDF, and System Actions connectors are enhanced.
+
+### What's changed
 
 The system now suggests a full URL instead of a partial URL. For example, `https://<instance name>.servicenow.com`.
 
 Pagination is implemented for desktop actions on the AI Desktop Actions home page, which helps improve navigation and load times.
-
-## Changed in this release
-
--   **[Renamed ServiceNow AI experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md)**
-
-    ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
-
 
 -   **[Optional Application name field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-details-desktop-action-ad.md)**
 
@@ -166,47 +233,4 @@ Pagination is implemented for desktop actions on the AI Desktop Actions home pag
 
     Descriptions for Excel, Word, PDF, and System Actions connectors are enhanced to improve accuracy and selection.
 
-
-## Activation information
-
-AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
-
-## Additional requirements
-
-The following are required to use AI Desktop Actions:
-
--   Operating system: Microsoft Windows 11.
--   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
--   No extended monitors are connected.
-
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
-
-You must enable Next Experience UI Framework before you can use the Now Assist panel.
-
-## Browser requirements
-
-Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
-
-## Related ServiceNow applications and features
-
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
-
-    The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can help reduce the workloads of your live agents and help increase their productivity.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    With the ServiceNow®Now Assist panel, you can get assistance from generative AI experiences to solve customer issues fast. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information quickly.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
-
--   **[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller.md)**
-
-    The ServiceNow® Generative AI Controller lets you integrate third-party LLMs with your workflows.
-
-
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

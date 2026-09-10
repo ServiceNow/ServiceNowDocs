@@ -36,3 +36,5 @@ Enable license key discovery and define the registry paths and values you want t
 
 **Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 
+**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
+

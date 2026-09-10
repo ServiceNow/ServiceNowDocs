@@ -56,7 +56,7 @@ Accessing assistants
 
 </td><td>
 
-Select **Manage assistants**.\[Omitted image "NAinVA-assistants-home-122025.png"\] Alt text: Manage assistants links to Assistant Designer.
+Select **Manage assistants**.\[Omitted image "sno-assistants-home.png"\] Alt text: Manage assistants links to Assistant Designer.
 
 </td></tr><tr><td>
 

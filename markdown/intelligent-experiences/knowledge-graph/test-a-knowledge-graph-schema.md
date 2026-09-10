@@ -26,7 +26,7 @@ Role required: kg\_admin
 
     The UI displays a list of all the Knowledge Graph schema on the landing page.
 
-2.  From the list of Knowledge Graph schemas, select the Knowledge Graph that you want to test.
+2.  From the list of Knowledge Graph schema, select the Knowledge Graph that you want to test.
 
     The Knowledge Graph schema​ opens in the canvas.
 

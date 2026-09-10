@@ -43,7 +43,7 @@ Role required: Impact Platform owner, Impact Admin, Impact Portfolio Owner
 
 3.  To View details for a specific Now Assist Impact Skill, select **View details**.
 
-    **Note:** For additional information on Now Assist Skills, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) and [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+    **Note:** For additional information on Now Assist Skills, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) and .
 
 4.  In the **All** section, select **Activate skill** to activate the desired skill.
 

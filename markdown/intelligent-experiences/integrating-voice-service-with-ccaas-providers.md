@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
-reading_time_minutes: 5
-breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+reading_time_minutes: 7
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Integrating voice assistant with CCaaS provider
@@ -101,6 +101,26 @@ NICE CXone uses the SIP channel type. Enter the NICE API credentials from your C
 |ServiceNow SIP FQDN|Read-only. The ServiceNow SIP fully qualified domain name \(FQDN\) for your region, used to route calls from CXone to the voice assistant. For configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).|
 |x-snc-param|Read-only. Generated token to send to your CXone account to authenticate requests to the voice assistant.|
 
+## Custom \(SIP\)
+
+Use the Custom provider option to connect the voice assistant to any SIP-capable telephony system that is not available as a named CCaaS provider. Inbound calls arrive over a customer-provided SIP trunk and are handled by the AI voice agent.
+
+|Field|Description|
+|-----|-----------|
+|Transfer method|Select **REFER** or **BYE** depending on the transfer protocol supported by your telephony system. Selecting **BYE** hides the **Transfer number/address** field.|
+|Transfer number/address|SIP URI to transfer the call to your telephony system. Use the format `user@domain`. Visible only when **Transfer method** is set to **REFER**.|
+
+|Option|Description|
+|------|-----------|
+|X-snc-context \(default\)|Passes conversation context using the ServiceNow proprietary SIP header. Maintains conversation state and session metadata across call transfers, handoffs, and interactions.|
+|User-to-User \(UUI\)|Passes conversation context using the standard SIP User-to-User header, enabling transfers without losing conversation state. Use this option when your telephony system supports the SIP UUI header.|
+|None|No session or interaction data is shared between systems.|
+
+|Field|Description|
+|-----|-----------|
+|ServiceNow SIP FQDN|Read-only. The ServiceNow SIP fully qualified domain name \(FQDN\) for your region, used to route calls from your telephony system to the voice assistant. For configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).|
+|x-snc-param|Read-only. Generated token to authenticate requests from your telephony system to the voice assistant. Pass this value as a SIP header when configuring your SIP trunk.|
+
 -   **[Integrate ServiceNow voice assistant with Twilio voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-twilio.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with the Twilio voice service.
 -   **[Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-genesys.md)**  
@@ -115,6 +135,8 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Five9 voice service.
 -   **[Integrate ServiceNow voice assistant with Nice CXone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-nice.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Nice CXone.
+-   **[Integrate ServiceNow voice assistant with a custom SIP provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-custom-sip.md)**  
+Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with a custom Session Initiation Protocol \(SIP\) provider.
 
 **Parent Topic:**[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

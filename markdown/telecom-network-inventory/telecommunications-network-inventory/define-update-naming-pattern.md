@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---
@@ -48,7 +48,7 @@ Role required: inventory\_template\_manager.
 
     Enter or update the JavaScript expression that produces the CI name. The pattern can combine literal text, variables, string methods such as `.replace()`, and conditional logic using the ternary operator.
 
-    For the full pattern syntax, see [CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
+    For the full pattern syntax, see [Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
 
 5.  Insert a variable from the token library.
 
@@ -102,7 +102,7 @@ The tree updates to show the resolved names. For more information, see [Inventor
 
 [Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
 
-[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
 [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 

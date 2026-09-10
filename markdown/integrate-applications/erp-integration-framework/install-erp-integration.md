@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, store]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Install Zero Copy Connector for ERP

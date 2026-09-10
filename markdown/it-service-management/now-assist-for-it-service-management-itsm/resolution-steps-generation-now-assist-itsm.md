@@ -21,7 +21,7 @@ Generate suggested steps automatically by analyzing clusters of closed incidents
 
 **Important:**
 
--   Starting with the Australia release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+-   Starting with the ServiceNow Otto for IT Service Management \(ITSM\) version 15.0, the Suggested steps skill is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 -   Starting Zurich Patch 12, Now Assist is renamed to ServiceNow Otto.
 
 To transition to LEAP:
@@ -57,15 +57,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d124596e248">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d126662e248">
 
 If
 
-</th><th align="left" id="d124596e251">
+</th><th align="left" id="d126662e251">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d124596e257">
+</th></tr></thead><tbody><tr><td id="d126662e257">
 
 **You're using LEAP**
 
@@ -73,7 +73,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d124596e274">
+</td></tr><tr><td id="d126662e274">
 
 **You're using Suggested steps**
 

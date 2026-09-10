@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/review-and-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
 ---
@@ -26,4 +26,9 @@ Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_d
 
 3.  Select **Complete setup**.
 
+
+**Related topics**  
+
+
+[Review predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-predictions.md)
 

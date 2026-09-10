@@ -79,7 +79,7 @@ After you add a tag value for an AI Service tag category, you must reimport the 
 **Related topics**  
 
 
-[Tags and tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 
 [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 

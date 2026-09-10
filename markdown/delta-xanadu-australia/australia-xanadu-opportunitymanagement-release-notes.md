@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-opportunitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,15 +115,6 @@ Yokohama
 Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
 
 
--   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
-
-Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
-
--   **[Revise existing opportunities after an upgrade](https://www.servicenow.com/docs/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
-
-Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
-
-
 </td></tr><tr><td>
 
 Zurich
@@ -153,45 +144,6 @@ Australia
 
 </td><td>
 
--   **[View touchpoint records for a task](https://www.servicenow.com/docs/access?context=opportunity-management-tasks-tab&family=australia&ft:locale=en-US)**
-
-Gain complete visibility into customer engagement by viewing a complete touchpoint timeline on every opportunity so that teams have context at their fingertips.
-
--   **[Add competitors](https://www.servicenow.com/docs/access?context=opportunity-management-competitors-tab&family=australia&ft:locale=en-US)**
-
-Identify and store competitor information for product offerings and product family within an opportunity.​
-
-
--   **[Support for opportunity allocation](https://www.servicenow.com/docs/access?context=manage-allocations&family=australia&ft:locale=en-US)**
-
-Divide sales credit across multiple contributors on a single opportunity for accurate attribution and compensation.
-
-
--   **[Customer entities on opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-details-tab&family=australia&ft:locale=en-US)**
-
-Capture the deal type \(Direct or Indirect\) on customer entities to align opportunities with defined routes to market and support consistent, compliant processing across systems and teams.
-
-
--   **[Manage touchpoints](https://www.servicenow.com/docs/access?context=manage-touchpoints-opportunity&family=australia&ft:locale=en-US)**
-
-Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity provides full visibility into customer engagement throughout the sales cycle.
-
-
--   **[Opportunity probability score and insights](https://www.servicenow.com/docs/access?context=opportunity-management&family=australia&ft:locale=en-US)**
-
-Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI-powered probability score \(0–100%\) with qualitative ratings. The score is integrated into the opportunity workspace and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
-
-
--   **[Manage opportunities in the MCP client](https://www.servicenow.com/docs/access?context=manage-opportunity-records&family=australia&ft:locale=en-US)**
-
-Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items from any MCP client, without navigating to individual record forms.
-
-
--   **[AI summarization for opportunities](https://www.servicenow.com/docs/access?context=now-assist-som-summarize-opportunity&family=australia&ft:locale=en-US)**
-
-Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
-
-
 -   **[Guided selling on opportunity](https://www.servicenow.com/docs/access?context=use-guided-selling-opportunity&family=australia&ft:locale=en-US)**
 
 Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
@@ -201,13 +153,6 @@ Guided selling on opportunity helps enforce process compliance and manage all de
     -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
     -   Display quote tasks for the primary quote as cards in the opportunity Action Center, with the same mark complete and add notes actions as other tasks.
     -   Guide agents with contextual empty states to create a task when no actions are pending.
-
--   **[Mandatory reason fields on closed opportunities](https://www.servicenow.com/docs/access?context=configure-guided-selling-exit-criteria&family=australia&ft:locale=en-US)**
-
-Enforce completion of the win or loss reason fields before agents move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement for each outcome using system properties.
-
-
- 
 
 </td></tr></tbody>
 </table>## Changes
@@ -297,7 +242,7 @@ Australia
 
 </td><td>
 
--   Removed the **New** Opportunity Line button from the platform and workspace view.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -353,7 +298,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Removed the **New** Opportunity Line button from the platform and workspace view.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -382,7 +327,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Management by requesting it from ServiceNow Store.
+
 
 </td></tr><tr><td>
 
@@ -390,7 +338,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -398,7 +349,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, monitor, transaction, action, log, status]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -41,7 +41,7 @@ Flow engine context
 
 </td><td>
 
-If the transaction occurs in a flow, the specific flow is logged and displayed here. Select the context name to open the flow in Workflow Studio and obtain more information.
+Flow in which the transaction occurs, if the transaction is part of a flow. Select the context name to open the flow in Workflow Studio and obtain more information.
 
  **Note:** System-provided flows are logged. Custom flows aren't logged.
 
@@ -51,7 +51,7 @@ Status
 
 </td><td>
 
-Extraction or remote lookup state: Started, Success, or Error.
+Extraction or remote lookup state: **Started**, **Success**, or **Error**.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Source table in Zero Copy Connector for ERP. For example, sn\_erp\_integration\_
 
 </td></tr><tr><td>
 
-Source Name
+Source name
 
 </td><td>
 
@@ -83,7 +83,7 @@ System
 
 </td><td>
 
-ERP system on which the transaction took place.
+ERP system on which the transaction takes place.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Caller scope
 
 </td><td>
 
-The application that performed the transaction. For ERP transactions, the caller scope is sn\_erp\_integration.
+Application that performs the transaction. For ERP transactions, the caller scope is sn\_erp\_integration.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Duration \(ms\)
 
 </td><td>
 
-Amount of time \(in milliseconds\) that the transaction took to process.
+Amount of time \(in milliseconds\) that the transaction takes to process.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Response item count
 
 </td><td>
 
-The number of records that were read.
+Number of records read.
 
 </td></tr><tr><td>
 
@@ -118,5 +118,4 @@ Updated
 The date and time the transaction was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

@@ -81,3 +81,5 @@ Activate the **Start Invoice Processing for Orphan Invoices** flow to process in
 
 [Check for invoice exceptions on a single invoice]()
 
+[Reopen a closed invoice case]()
+

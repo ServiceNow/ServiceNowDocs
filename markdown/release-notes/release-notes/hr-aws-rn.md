@@ -1,9 +1,9 @@
 ---
 title: Agent Workspace for HR Case Management release notes
-description: The ServiceNow Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.
+description: The ServiceNow Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.The ServiceNow Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,16 +12,29 @@ reading_time_minutes: 2
 
 The ServiceNow® Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.
 
-## Agent Workspace for HR Case Management highlights for the Australia release
+## About Agent Workspace for HR Case Management
 
 -   Enable Contact Center as a Service \(CCaaS\) providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
 See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+
+## Australia
+
+The ServiceNow® Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Integration with Contact Center as a Service \(CCaaS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/enable-hr-icc.md)**
 
@@ -42,21 +55,4 @@ See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/S
 
     Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI-powered article optimizations recommendations to improve the knowledge content quality.
 
-
-## Activation information
-
-Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-overview.md)**
-
-    Improve the employee service experience by automating HR interactions and providing a single platform for all HR services. Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. Align business goals with employee needs, including onboarding, career growth, and other transitions.
-
--   **[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd.md)**
-
-    Summarize case information, generate resolution notes, and summarize chat information using generative AI capabilities. Enable your agents to understand the chat and case context and to propose quicker resolutions to requesters.
-
-
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
 

@@ -32,6 +32,10 @@ Primary connectors are developed, made available, and supported by ServiceNow.
 |[Cloudera Hive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cloudera-hive-zcc.md)|starting with Australia Patch 1|
 |[Cloudera Impala](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cloudera-impala-zcc.md)|starting with Australia|
 |[Microsoft OneLake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-onelake-zcc.md)|starting with Australia Patch 1|
+|[MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-zcc.md)|starting with Australia Patch 6|
+|[PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-zcc.md)|Starting with Australia patch 6|
+|[Oracle HCM \(Discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/oracle-hcm-discovery-zcc.md)|starting with Australia Patch 6|
+|[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/acumatica-zcc.md)|starting with Australia Patch 6|
 
 For additional information on data types and authentication methods that aren't supported with primary connectors, see [KBB0010487](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 

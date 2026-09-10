@@ -7,8 +7,10 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-19"
+reading_time_minutes: 2
+keywords: [similar records prediction model, Task Intelligence for ITSM, similar incidents, similar change requests, similar problems, major incident recommendation, machine learning model, prediction model setup, model training, model deployment, Service Operations Workspace, recommended actions, similarity-based models]
+audience: administrator
 breadcrumb: [Create a similar records prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
 
@@ -39,6 +41,17 @@ You can configure any of the following similarity-based models:
 
     This action opens the model and displays the introductory pages. Each page in the model asks you questions and helps you select the information needed to build an effective model.
 
+
+## What to do next
+
+After you open the model, complete the wizard to define the purpose, train, assess, and deploy the model. For more information, see [Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/define-the-purpose.md).
+
+To make the model's predictions appear to agents in Service Operations Workspace:
+
+1.  Set a recommended action for the context \(for example, Incident\) and map the model into the Resource generator's **Model** field.
+2.  Confirm that the rule for the recommendation is active in the Recommended Actions for ITSM configuration.
+
+To test the model before agents rely on it, view sample results during the assess step or set the prediction behavior to **Monitor only** to run predictions in the background. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 
 -   **[Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/define-the-purpose.md)**  
 Specify the purpose of the similar records model. You can select the prediction table for which predictions will be generated. Then, select the training table \(Incidents, Problems, or Change Requests\) which will appear as predictions based on similarities between their selected fields.

@@ -21,13 +21,11 @@ Generate a playbook using AI by providing text directions or an image.
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are active.
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
-**Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
+**Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-\[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
-
-For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing ServiceNow Otto for Creator, see 
 
 Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md).
 
@@ -75,7 +73,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 

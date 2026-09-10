@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: reference
 last_updated: "2026-05-25"
 reading_time_minutes: 1
-breadcrumb: [Create form configuration record, Configure external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Create form configuration record, Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # External-facing form configuration fields

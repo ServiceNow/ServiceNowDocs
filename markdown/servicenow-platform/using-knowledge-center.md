@@ -41,7 +41,7 @@ Discover areas of improvement in the knowledge base through Potential gaps, Pote
 -   Potential duplicates
 -   Article optimization
 
-**Note:** This feature works only if the ServiceNow Otto Skill is enabled for your role. See [Configure custom prompts skills for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md).
+**Note:** This feature works only if the ServiceNow Otto Skill is enabled for your role. See [Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md).
 
 **Requires Attention**
 

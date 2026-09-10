@@ -1,6 +1,6 @@
 ---
 title: Cohesity storage system discovery
-description: The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.html
 release: australia
@@ -14,13 +14,13 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Cohesity storage system discovery
 
-The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Cohesity develops software that are used to consolidate and simplify data management, and it includes analytics capabilities. Their software also solves the problem of mass data fragmentation with data that extends across multiple systems or cloud providers.
 
-The company's main product, DataPlatform, is a hyper-converged software that allows businesses to consolidate a variety of workloads, including backups, archives, test, development, and analytics data onto a single cloud-native platform. It works with physical servers as well as virtual machines.
+The company's main product, DataPlatform, is a hyper-converged software that allows businesses to consolidate a variety of workloads onto a single cloud-native platform. These workloads include backups, archives, test, development, and analytics data. It works with physical servers as well as virtual machines.
 
-Cohesity extends backup capabilities to NoSQL workload distributed databases like MongoDB, Apache Cassandra, Couchbase, and Apache HBase, as well as Apache Hadoop data on Hadoop Distributed File System \(HDFS\) datastores.
+Cohesity extends backup capabilities to NoSQL workload distributed databases like MongoDB, Apache Cassandra, Couchbase, and Apache HBase. It also supports Apache Hadoop data on Hadoop Distributed File System \(HDFS\) datastores.
 
 ## Request apps on the Store
 

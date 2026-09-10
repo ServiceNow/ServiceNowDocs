@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Components installed with LEAP

@@ -22,7 +22,7 @@ As a contract configurator, complete clause mapping to build a clause library of
     1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon\) on the top-right corner.
     2.  In the drop- down, select the option consisting **Application scope**.
     3.  In the filter navigator, search and select **Global**.
--   Map clause and clause variations in the Microsoft Word document using the Microsoft Word Add-in for ServiceNow Contracts. For more information, see [Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)
+-   Map clause and clause variations in the Microsoft Word document using the Microsoft Word Add-in for ServiceNow Contracts. For more information, see [Map clauses and clause variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)
 -   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
 
 Role required: sn\_cm\_core.contract\_config

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 2
 keywords: [agentic evaluation, AI agent assessment, LLM scores, evaluation metrics, traces, optimization]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Review agentic evaluation outputs

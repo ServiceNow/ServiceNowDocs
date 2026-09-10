@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [Activity timer log, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Activity timer log, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity timer log components

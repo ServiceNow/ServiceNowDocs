@@ -49,6 +49,8 @@ Field descriptions for the Tax integration field mappings \[sn\_spend\_intg\_tax
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d404974e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d406453e186">
 
 Chat message window
 
-</th><th align="left" id="d404974e189">
+</th><th align="left" id="d406453e189">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d404974e197">
+</th></tr></thead><tbody><tr><td id="d406453e197">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d404974e217">
+</td></tr><tr><td id="d406453e217">
 
 **Left blank**
 
@@ -104,6 +104,10 @@ Generates a recommended reply that is based on the context of the conversation u
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
+
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
@@ -120,7 +124,7 @@ Generates a recommended reply that is based on the context of the conversation u
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
 [Generate activity responses for HR cases]()
+
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

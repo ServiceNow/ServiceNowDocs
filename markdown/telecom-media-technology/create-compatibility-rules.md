@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm\_adv.catalog\_
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Rules** &gt; **Compatibility Rule**.
 

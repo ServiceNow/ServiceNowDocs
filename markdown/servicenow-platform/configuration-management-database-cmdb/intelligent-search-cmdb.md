@@ -29,8 +29,8 @@ Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspa
 
 Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
 
--   [Explore and Search view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
--   [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md) for additional details about Service Graph Workspace.
+-   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-    for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 

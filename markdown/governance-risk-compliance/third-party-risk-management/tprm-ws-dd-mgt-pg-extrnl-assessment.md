@@ -149,7 +149,7 @@ Use the third-party risk assessment form to capture all the information that you
 -   **[Third-party element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.md)**  
 Use the third-party element form to capture all the information that you need to create a third-party element record using the Third-party Risk Management application. As a third-party risk manager, third-party risk assessor, or due diligence request owner, you can create a third-party element record.
 -   **[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)**  
-Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external task.
+Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal orexternal task.
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

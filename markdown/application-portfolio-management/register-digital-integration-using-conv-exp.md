@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a digital integration** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38029e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38243e162">
 
 Instruction
 
-</th><th align="left" id="d38029e165">
+</th><th align="left" id="d38243e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38029e171">
+</th></tr></thead><tbody><tr><td id="d38243e171">
 
 **Short: Request a digital integration**
 
@@ -65,7 +65,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. \[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d38029e224">
+</td></tr><tr><td id="d38243e224">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

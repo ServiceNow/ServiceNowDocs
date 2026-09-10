@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using Now Assist web search on mobile
@@ -24,7 +24,7 @@ To exit out of web search mode and return to internal search results, do one of 
 -   Select the **End** web search icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\)
 -   Select **End** in the web search banner \(enhanced chat only\)
 
-For more information on configuring web search, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
+For more information on configuring web search, see .
 
 **Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

@@ -19,7 +19,5 @@ Knowledge generative AI skills on the ServiceNow AI Platform provides recommenda
 
 The ServiceNow Otto Knowledge content recommendation is a Platform skill that is enabled by the admin from the Knowledge feature card. The skill allows agents and authors to use the ServiceNow Otto context menu to elaborate and shorten content in a knowledge article.
 
-\[Omitted image "NA-elaborate-shorten-content-1.png"\] Alt text: Use ServiceNow Otto to elaborate or shorten content in the knowledge article.
-
 For more information, see [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Now-Assist-generate-article-using-context-menu.md).
 

@@ -16,6 +16,8 @@ Fetch and add specific related records to the selected shape in a diagram.
 
 ## Before you begin
 
+\[Omitted video\] Description: Fetch and add specific related records to the selected shape in a diagram
+
 Role required: sn\_apm.apm\_user and Owner or Editor access to the artifact or diagram
 
 ## About this task

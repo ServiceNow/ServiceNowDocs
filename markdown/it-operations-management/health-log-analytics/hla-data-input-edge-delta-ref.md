@@ -50,7 +50,7 @@ The Edge Delta destination used for streaming log messages to the ServiceNow ins
 
 If you select TCP, you must provide the MID Server and port.
 
-When choosing the TCP transport option, create a TCP destination in Edge Delta to send log data to the instance from any source, using the same MID Server host and port you have configured for the Edge Delta data input.
+When choosing the TCP transport option, create a TCP destination in Edge Delta. Use the same MID Server host and port you configured for the Edge Delta data input.
 
 **Note:** For TCP, TLS/SSL is not supported.
 

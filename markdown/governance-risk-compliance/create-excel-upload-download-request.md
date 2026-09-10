@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 11
 breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -64,15 +64,17 @@ To become familiar with the process before handling more complex operations, you
 
 8.  Select the records that you want from the list and perform one of the following steps.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d47403e249">
+    When you apply a filter to the list and then select All, the download includes only the records that match the filter.
+
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d40994e255">
 
 Step
 
-</th><th align="left" id="d47403e252">
+</th><th align="left" id="d40994e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47403e258">
+</th></tr></thead><tbody><tr><td id="d40994e264">
 
 **Export to excel**
 
@@ -80,7 +82,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, select **Export to Info Excel**. Export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d47403e276">
+</td></tr><tr><td id="d40994e282">
 
 **Export to info register**
 
@@ -103,6 +105,14 @@ When making a download request for a Third-Party Information Register record, se
 -   Phase 3 — GLEIF batch API: Only format- and checksum-valid LEIs are sent to GLEIF. Results are cached in memory for the duration of the download request so that duplicate LEIs are validated only once. If the GLEIF API is unreachable or times out, the download is not blocked; the affected rows are reported as N/A \(API\_UNAVAILABLE\) in the report.
  During CSV generation, the system also checks for duplicate rows in the b\_02.02 sheet \(contractual arrangements\). When rows with an identical composite key are detected, a warning is logged to the DORA request record's error message field. \(contract reference, entity, provider, country, function, ICT service type, storage, processing are examples of keys.\) It indicates the affected row numbers and field values. The duplicate rows are not removed from the generated CSV; they are only warned.
 
+ During CSV generation, the system also runs data quality checks. It includes duplicate rows in the b\_02.02 sheet \(contractual arrangements\) detected by an identical composite key \(contract reference, entity, provider, country, function, ICT service type, storage, processing\). Warning messages from these checks are written to a dedicated `Data_Quality_Warnings.csv` file included in the Consolidated\_Reports.zip file. The affected rows are not removed from the generated CSV; they are only flagged.
+
+ Duplicate Rank 1 ICT service supply chain rows for the same contract are detected by grouping on identification code and type of ICT services. Multiple Rank 1 rows for different service types on the same contract are not flagged as duplicates.
+
+ An overarching contract with no subsequent contract referencing it in the Contractual arrangement reference number field is flagged as an orphaned overarching contract.
+
+ When a function's **Criticality or importance assessment** field is set to **Yes**, the system also runs the following criticality warning checks: the related contract's **Sensitiveness of the data stored** and **Level of reliance on the ICT service** fields \(b\_02.02\) cannot both be set to a low value \(**Low** or **Not significant**\), and the related assessment's **Existence of an exit plan** field \(b\_07.01\) cannot be set to **No**. Records that fail either check are flagged with a warning; they are not blocked from download.
+
  The following rules apply when the report is generated for b\_05.01 \(ICT third-party service provider\) data:
 
 -   Additional identification code \(c0030\): If a b\_05.01 row's additional identification code is empty or is identical to the primary identification code \(c0010\). It is not validated separately and does not appear as a distinct row in the report.
@@ -123,6 +133,8 @@ When making a download request for a Third-Party Information Register record, se
     It generates a Microsoft Excel sheet that you can submit directly to your regulatory authority. The file strictly adheres to the format of the template issued by the regulatory authority and includes all necessary details for reporting your third-party engagements.
 
     Starting with version 20.x.x of Digital resilience third-party registers, you can see choice or reference values in the downloaded Microsoft Excel files. For example, Departments can be created in the system as 'Research and Development'. When the functions are downloaded, department values are displayed as options in the Microsoft Excel template for selection. The template includes drop-down lists for departments, business units, and other yes or no questions \(as seen in the Branch template\). Additional drop-downs are added for countries, currencies, and so on
+
+    Supporting drop-down data included in the download is capped at 10,000 rows per field. This limit prevents the generated file from exceeding the platform's maximum string size.
 
     The application also handles translations for meta data, including headers and drop-down options.
 
@@ -146,17 +158,19 @@ When making a download request for a Third-Party Information Register record, se
 
     \[Omitted image "downloaded-report-in-local-currency.png"\] Alt text: Downloaded report with expenses reported in local currencies.
 
+    **Note:** Starting with Digital Operational Resilience Management, version 23.x.x, when you apply a filter and select all records for CSV download, only filtered records are included. Previously, all records were downloaded regardless of filters.
+
 13. To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d47403e512">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d40994e569">
 
 Step
 
-</th><th align="left" id="d47403e515">
+</th><th align="left" id="d40994e572">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47403e521">
+</th></tr></thead><tbody><tr><td id="d40994e578">
 
 **Select __File Type__.**
 
@@ -168,7 +182,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d47403e551">
+</td></tr><tr><td id="d40994e608">
 
 **Select __Delivery Type__.**
 
@@ -178,7 +192,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d47403e573">
+</td></tr><tr><td id="d40994e630">
 
 **Select __Export.__**
 

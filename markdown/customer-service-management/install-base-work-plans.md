@@ -20,7 +20,7 @@ A work plan provides the information that you need about the regular maintenance
 
 You assign your customer and consumer service agents with the sn\_fsm\_planned\_wm.planned\_work\_read role so that they can have read access to all the planned work management tables.
 
-You can also create a work plan in the CSM Configurable Workspace. To create a work plan in the workspace, see [Create a work plan in Customer Service Management \(CSM\) Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-work-plans-in-workspace.md).
+You can also create a work plan in the CRM Workspace. To create a work plan in the workspace, see [Create a work plan in Customer Service Management \(CSM\) Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-work-plans-in-workspace.md).
 
 ## Related lists for work plans
 

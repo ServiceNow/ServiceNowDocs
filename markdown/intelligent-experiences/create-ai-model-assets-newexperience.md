@@ -16,7 +16,7 @@ Create AI assets to track and manage the life cycles of your AI models.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 **Note:** Users with the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role can only create AI assets and submit them for life-cycle review. They can't initiate or complete any life-cycle reviews.
 
@@ -28,7 +28,7 @@ When you manually create an asset, the asset defaults to a **Design** state.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

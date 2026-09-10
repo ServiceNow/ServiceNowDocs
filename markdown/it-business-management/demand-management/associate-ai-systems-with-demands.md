@@ -8,7 +8,7 @@ product: Demand Management
 classification: demand-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -78,4 +78,6 @@ You can select the impacted AI systems for the demand. If the required AI system
 [Train the similarity solution for Demand Management to find similar demands]()
 
 [PPM PIWB template - Find similar demands]()
+
+[Work with demands in Employee Slate]()
 

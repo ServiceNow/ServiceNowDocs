@@ -44,7 +44,5 @@ The system asks for confirmation and performs the selected action per your input
 **Related topics**  
 
 
-[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center.md)
-
-[Antivirus metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-antivirus-metrics.md)
+[instance-security-center]
 

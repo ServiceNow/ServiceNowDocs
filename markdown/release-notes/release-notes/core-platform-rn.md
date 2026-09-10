@@ -1,18 +1,18 @@
 ---
 title: ServiceNow AI Platform core feature release notes
-description: The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+description: The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 ---
 
 # ServiceNow AI Platform core feature release notes
 
 The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
 
-## ServiceNow AI Platform core features highlights for the Australia release
+## About ServiceNow AI Platform core feature
 
 Control whether read-only fields can be updated through client scripts and server-side operations by configuring read-only options.
 
@@ -20,21 +20,86 @@ See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/Se
 
 Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 
-## Important information for upgrading ServiceNow AI Platform core features to Australia
+## Activation and other requirements
 
-The dynamic schema application framework was revised in the Zurich release. If you implemented dynamic schema in the Xanadu or Yokohama releases, the application is automatically migrated to a new framework as part of the upgrade to releases starting with the Zurich release. For details on the migration and steps you might need to perform, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
+-   **Activation information**
 
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+    The ServiceNow AI Platform core features are active by default.
 
-## New in the Australia release
+-   **Upgrade information**
+
+    The dynamic schema application framework was revised in the Zurich release. If you implemented dynamic schema in the Xanadu or Yokohama releases, the application is automatically migrated to a new framework as part of the upgrade to releases starting with the Zurich release. For details on the migration and steps you might need to perform, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
+
+    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    Format Painter plugin for TinyMCE enables you to apply consistent font styles, sizes, and table formats within the HTML editor field. This improvement helps users with cognitive disabilities and low vision by reducing confusion and supporting clear, predictable formatting throughout documents. Keyboard navigation is supported, providing added ease of use for keyboard-only users. For more information, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+
+## August 2026
+
+The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard**
+
+    View data volumes returned in integration responses and monitor domain-level usage.
+
+
+### Plugin information
+
+-   **Deprecated plugins**
+
+    The following plugin is deprecated in Australia:
+
+    ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)
+
+
+## June 2026
+
+The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Access and test pre-release features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/feature-preview-program.md)**
 
     The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
--   **[Enhance instance security for sandbox scripts with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**
+
+## Australia General Availability
+
+The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+
+### What's new
+
+-   **Enhance instance security for sandbox scripts with guarded script**
 
     The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Australia Patch 2 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+
+
+## April 2026
+
+The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+
+### What's new
+
+-   **Automatically generate request definitions for scripted REST API resources**
+
+    Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
+
+
+## Australia
+
+The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Granular read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md)**
 
@@ -56,7 +121,7 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     Easily identify AI involvement across the ServiceNow AI Platform® through a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
 
--   **[Guest API access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_RESTAPI.md)**
+-   **Guest API access control**
 
     Manage guest access to REST and GraphQL API endpoints using path-based ACLs while maintaining separate authenticated user controls.
 
@@ -64,19 +129,15 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     Grant specific permissions to developers or users who perform minor administrative tasks without granting them unrestricted access to the full admin role by reviewing and assigning available granular admin roles.
 
--   **[Optional trailing slash configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
+-   **Optional trailing slash configuration**
 
     Align with external specifications and industry standards by configuring REST APIs with optional trailing slash support.
 
--   **[Path-based REST ACL control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
+-   **Path-based REST ACL control**
 
     Control access to REST services by creating path-based ACLs using specific HTTP method and path combinations.
 
--   **[Automatically generate request definitions for scripted REST API resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/autogenerate-api-request-definitions.md)**
-
-    Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
-
--   **[Resource-level security configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
+-   **Resource-level security configuration**
 
     Enable public access or custom ACL authorization by configuring resource-level security settings.
 
@@ -89,11 +150,7 @@ The Australia release introduces enhanced protections for read‑only fields acr
     Strengthen scope boundary enforcement when dot-walking across application scopes using Reference Fields through additional properties and a table attribute. For more information, see the [Dot-Walk Scoping Security Enhancement \[KB2793170\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) article in the Now Support Knowledge Base.
 
 
-## Changed in this release
-
--   **[Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
-
-    View data volumes returned in integration responses and monitor domain-level usage.
+### What's changed
 
 -   **[Country setting added to Language and Region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-language-preferences.md)**
 
@@ -115,11 +172,11 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     Activate additional choices for countries in the Next Experience language and region preferences or in a User record.
 
--   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
+-   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
 
     Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **[JavaScript engine updated with changes from the Rhino engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/updates-javascript-engine.md)**
+-   **JavaScript engine updated with changes from the Rhino engine**
 
     The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
@@ -149,32 +206,16 @@ The Australia release introduces enhanced protections for read‑only fields acr
     Avoid normalization conflicts when creating records with the same company name in both the Company \[core\_company\] table and its extension tables, such as Customer Account \[customer\_account\], using the **glide.cmdb.canonical.use\_base\_core\_company\_only** property. It ensures that uniqueness enforcement applies only to base core\_company records.
 
 
-## Deprecated features
+### What's deprecated or removed
 
 Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements or defect fixes, and will no longer be supported. Certain system features might continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information about activating the Next Experience UI, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
-## Activation information
-
-The ServiceNow AI Platform core features are active by default.
-
-## Plugin information
+### Plugin information
 
 -   **Plugins planned for deprecation**
 
     The following plugins are planned for deprecation in a future release:
 
-    -   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+    -   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. Form Builder is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
     -   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
--   **Deprecated plugins**
-
-    The following plugin is deprecated in Australia:
-
-    ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)
-
-
-## Accessibility information
-
-Format Painter plugin for TinyMCE enables you to apply consistent font styles, sizes, and table formats within the HTML editor field. This improvement helps users with cognitive disabilities and low vision by reducing confusion and supporting clear, predictable formatting throughout documents. Keyboard navigation is supported, providing added ease of use for keyboard-only users. For more information, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
-
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

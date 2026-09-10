@@ -269,6 +269,8 @@ Make results from an external content connector searchable in your portals and s
 Include searchable content retrieved by an external content connector in your ServiceNow Otto for Virtual Agent chats.
 -   **[Verify your connection settings and source system permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/verify-connection-settings-ext-cont-connector.md)**  
 Check that connection settings and source system permissions are correctly specified for your external content connector. Perform this task to verify whether permission changes or revocations affect the connector's ongoing or scheduled crawls.
+-   **[Resolve health issues for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/resolve-health-issues-external-content-connector.md)**  
+View and resolve connector health issues using the connector health dashboard in the external content connector editor.
 
 **Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
 

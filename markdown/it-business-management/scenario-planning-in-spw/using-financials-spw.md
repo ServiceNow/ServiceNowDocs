@@ -1,6 +1,6 @@
 ---
 title: Managing financials for planning items in Strategic Planning Workspace
-description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. You can also view, analyze, and compare the financial performance of your planning items at required cadence in Strategic Planning Workspace.
+description: Manage budgets, cost plans, expense lines, and labor costs for planning items in Strategic Planning Workspace. View, analyze, and compare financial performance at the required cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/using-financials-spw.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Plann
 
 # Managing financials for planning items in Strategic Planning Workspace
 
-Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. You can also view, analyze, and compare the financial performance of your planning items at required cadence in Strategic Planning Workspace.
+Manage budgets, cost plans, expense lines, and labor costs for planning items in Strategic Planning Workspace. View, analyze, and compare financial performance at the required cadence.
 
 The comprehensive financials view helps you to understand planned and actual costs and Forecast \(previously EAC - Estimate At Completion\). These also include Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on, for the selected item. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
 
@@ -293,7 +293,7 @@ Instead of switching between the financials record page and benefit plan tabs, y
 
 Simple financials lets you enter the preliminary high-level planned capex, opex, benefit, and so on from the Details page without capturing the costs plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
 
-\[Omitted image "fin\_simple\_financials\_spw-ppw.png"\] Alt text: Simple financials view in the Details page of Strategic Planning workspace.
+This video is recorded in Project Workspace. Navigation might differ for Strategic Planning but functionality remains the same.\[Omitted video\] Description: Manage simple financials
 
 Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
 

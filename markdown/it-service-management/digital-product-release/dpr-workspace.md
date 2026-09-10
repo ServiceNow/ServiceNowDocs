@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-31"
+reading_time_minutes: 2
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
 
@@ -68,11 +68,11 @@ To open the workspace, navigate to **Workspaces** &gt; **Digital Product Release
 
 ## Landing page
 
-On the workspace landing page, get a quick overview of the active releases, open approval tasks, and policies compliance status.
+On the workspace landing page, get a quick overview of the active releases, open approval tasks, and policies compliance status. The widgets and the data that are displayed in the widgets depend on your role. The numbers show only from releases where you're either the release owner or a release team member.
+
+**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
 
 As a release manager, you can use the onboarding tool to create and manage release processes.
-
-**Note:** The widgets and the data that are displayed in the widgets depend on your role.
 
 The following is an example of the workspace landing page for the Digital Product Release application.
 

@@ -51,8 +51,6 @@ After installing the Digital resilience third-party registers, the **Digital res
 
         For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
-    **Note:**
-
 7.  To edit the third-party company record, select it from the list and select **Save** after making your edits.
 
 8.  To export third-party company records, select **Export**.

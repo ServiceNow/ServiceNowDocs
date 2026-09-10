@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-
 release: australia
 topic_type: concept
 last_updated: "2026-04-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
@@ -40,9 +40,9 @@ The admin role is required to view the Monitor tab.
 
 Access monitoring details for an AI system in one of the following ways:
 
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
+-   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
+-   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
+-   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 
 ## Quality and safety score cards
 
@@ -65,18 +65,34 @@ Select the side panel icon on a score card to open a detailed breakdown of how t
 
 For details on how scores are calculated, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
 
-## Asset monitoring details
+## Metrics evaluated
 
-The **Asset monitoring details** card shows the evaluation configuration that applies to this AI system.
+View every metric currently scored for this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system in the **Metrics evaluated** list. View the list to confirm exactly what's being evaluated for a single AI system without checking the global configuration separately.
+
+-   **Metrics**
+
+    Name of the metric.
+
+-   **Category**
+
+    Whether the metric is a Quality or Safety metric.
 
 -   **Sample rate**
 
-    The percentage of sessions that are evaluated. The default is 100%.
+    Percentage of eligible sessions that this metric evaluates. This value is set at the metric level and applies wherever the metric is used.
 
--   **Data retention**
 
-    How long evaluated session data is retained for this AI system.
+AI stewards can add or remove metrics for any AI system. Asset owners can do the same, but only for the AI systems they manage. For details on adding or removing metrics, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
 
+## Avg latency per session
+
+Determine whether recent agent activity or another change is affecting this AI system's response times by reviewing the Avg latency per session card and its change from the prior period. This value reflects the AI system's language model response time, not the total time to complete a trace or session.
+
+Select the expand icon on the card to open a chart of total latency by day, summed across all sessions evaluated that day.
+
+## Avg tokens per sessions
+
+Estimate the cost of running this AI system by reviewing the Avg tokens per sessions card and its change from the prior period. This value averages the combined input and output tokens consumed per session over the last month.
 
 ## Monitor agent activity
 
@@ -120,6 +136,10 @@ Select a session name to open the session detail page and begin investigating tr
 
     Number of traces in the session.
 
+-   **Spans**
+
+    Number of spans across all traces in the session.
+
 -   **Quality score**
 
     Composite quality score for the session, calculated from the weighted metrics in your quality template.
@@ -140,9 +160,15 @@ Select a session name to open the session detail page and begin investigating tr
 
     Combined input and output tokens consumed by the AI system during this session. This reflects the cost of running the interaction, not the cost of evaluating it.
 
+-   **Latency \(ms\)**
+
+    Combined language model response time, in milliseconds, across all traces in the session. This measures time spent in language model calls, not the total time to complete the session.
+
 
 -   **[Review scores for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-review-ai-system-scores.md)**  
 Determine whether a specific AI system is meeting quality and safety targets by reviewing its scores, identifying which metrics are affecting performance, and checking for regressions over time.
+-   **[Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)**  
+Add or remove metrics for a specific AI system to tailor evaluation coverage without changing your organization's global metric configuration.
 
 **Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
 

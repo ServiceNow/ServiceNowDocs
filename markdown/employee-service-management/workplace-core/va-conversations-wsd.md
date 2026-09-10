@@ -8,8 +8,8 @@ product: Workplace Core
 classification: workplace-core
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Explore, Workplace Core, Workplace Service Delivery, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Workplace Safety Management, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Virtual Agent for Workplace Service Delivery
@@ -48,7 +48,7 @@ To activate Virtual agent for Workplace Service Delivery, activate the following
 
 For more information, refer to [Activate Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/actuvate-va-for-wsd.md).
 
-**Parent Topic:**[Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
 
 **Related topics**  
 

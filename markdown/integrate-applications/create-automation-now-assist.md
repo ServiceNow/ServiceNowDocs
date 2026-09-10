@@ -67,15 +67,15 @@ To create an automation project manually, see [Create an automation project manu
 
     \[Omitted image "text-bot-preview-options.png"\] Alt text: Build with AI window displays options to regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d202550e320">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d207006e320">
 
 Option
 
-</th><th align="left" id="d202550e323">
+</th><th align="left" id="d207006e323">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202550e329">
+</th></tr></thead><tbody><tr><td id="d207006e329">
 
 **Regenerate preview**
 
@@ -83,7 +83,7 @@ Procedure
 
 If the generated automation preview doesn’t meet your needs, you can update the AI instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d202550e347">
+</td></tr><tr><td id="d207006e347">
 
 **Clear**
 
@@ -91,7 +91,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by AI and the AI instruction, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d202550e362">
+</td></tr><tr><td id="d207006e362">
 
 **Cancel**
 
@@ -99,7 +99,7 @@ If you want to clear the workflow that was created by AI and the AI instruction,
 
 If you want to stop creating an automation and return to the RPA Desktop Design Studio home page, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The generated automation workflows, if any, aren’t saved.
 
-</td></tr><tr><td id="d202550e382">
+</td></tr><tr><td id="d207006e382">
 
 **Next**
 

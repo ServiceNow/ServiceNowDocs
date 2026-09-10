@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/esm-uni
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 1
-breadcrumb: [Employee Service Management AI agents, Employee Service Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Employee Service Management AI agents, Employee Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Universal Request departmental ticket creator AI agent
@@ -71,7 +71,7 @@ UR Departmental service set identifier
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -79,7 +79,7 @@ snc\_internal
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

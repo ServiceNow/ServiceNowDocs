@@ -1,21 +1,21 @@
 ---
 title: Zero Copy Connector for ERP Quote to Cash content pack models
-description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you may need when interacting with an SAP system.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you might need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Quote to Cash, Available content packs, Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Quote to Cash, Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Quote to Cash content pack models
 
-The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you might need when interacting with an SAP system.
 
 ## Quote to Cash content pack models
 
@@ -33,7 +33,7 @@ Model type
 
 </th><th>
 
-Protocol
+Methods
 
 </th></tr></thead><tbody><tr><td>
 
@@ -59,7 +59,7 @@ Credit Memo Request - List
 
 </td><td>
 
-Retrieve a list of credit requests.
+Retrieve a list of credit memo requests.
 
 </td><td>
 

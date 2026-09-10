@@ -54,7 +54,7 @@ Quota Policy
 
 </td><td>
 
-Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
+Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)

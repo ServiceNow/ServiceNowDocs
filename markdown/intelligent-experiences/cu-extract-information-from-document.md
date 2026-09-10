@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-extract-information-from-document.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Content Understanding, Enable AI experiences]
 ---
 
@@ -16,9 +16,9 @@ The Extract Information from documents skill \(Information Extraction skill\) us
 
 With the Information Extraction skill, you can extract specific fields, tabular data, and answers about documents or images. You can then integrate the extracted data into your workflows. The skill transforms unstructured files, such as invoices, purchase orders, and contracts, into structured data that populates ServiceNow records, eliminating the need for manual data entry.
 
-You configure this skill in the AI Admin Hub. You can define one or more use cases that specify what to extract from a particular type of document. For example, a use case for purchase order forms can extract the form date and number, capture an itemized list with prices in a table, and answer questions such as whether any items include a specific term in the description.
+You configure this skill in the AI Admin Hub. You can define one or more use cases that specify what to extract from a particular type of document. For example, a use case for purchase order forms extracts date and number, captures an itemized list with prices, and answers questions about specific terms in the descriptions.
 
-**Note:** The Extract information from documents skill uses generative AI to process documents. Results may be inaccurate or incomplete. Review extracted data before using it in production workflows.
+**Important:** The Extract Information from documents skill can't be cloned. To use the skill, create a new use case or copy an existing one. For more information, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md) or [Copy a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-copy-use-case.md).
 
 ## Define the information to extract
 
@@ -35,6 +35,8 @@ The Extract information from documents skill provides the following benefits:
 -   Populates ServiceNow records with data extracted from documents.
 -   Reads both text and images in a document.
 -   Runs automatically or routes results to a reviewer for validation, depending on the automation mode.
+
+**Note:** The Extract information from documents skill uses generative AI to process documents. Results may be inaccurate or incomplete. Review extracted data before using it in production workflows.
 
 ## Scenarios
 

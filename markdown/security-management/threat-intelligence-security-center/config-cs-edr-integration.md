@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-04-21"
+last_updated: "2026-08-16"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
-4.  Select **Configure New Security Tool** to configure CrowdStrike Falcon EDR integration.
+4.  Select **Configure new security tool integration** to configure CrowdStrike Falcon EDR integration.
 
 5.  Select **CrowdStrike Falcon EDR**.
 
@@ -118,6 +118,16 @@ The client secret key that you obtained from CrowdStrike. For more information, 
 
 </td></tr><tr><td>
 
+Use TISC Expiration \(Observable expiration when available; otherwise, configured default expiration\)
+
+</td><td>
+
+Option to send the expiration time that is set on the observable in TISC instead of the expiration period configured for the observable type. When the observable has an expiration time, that value is sent to CrowdStrike EDR. When the observable has no expiration time, the expiration period configured for the observable type applies.**Note:**
+
+This option is selected by default for configurations that you create. For configurations that existed before you upgraded, this option is cleared so that the existing expiration behavior continues to apply.
+
+</td></tr><tr><td>
+
 Expiration period in days for any type of observables
 
 </td><td>
@@ -142,11 +152,13 @@ The expiry period in days that is applied for the domain type of observable when
 
 </td></tr><tr><td>
 
-Hash Observable Expiration Time
+MD5 and SHA256 hash Observable Expiration Time
 
 </td><td>
 
-The expiry period in days that is applied for the Hash type of observable when they are sent to CrowdStrike EDR.
+The expiry period in days that is applied for the MD5 and SHA256 hash type of observable when they are sent to CrowdStrike EDR.**Note:**
+
+SHA1 hash observables aren't sent to CrowdStrike EDR.
 
 </td></tr></tbody>
 </table>7.  Select **Save** to apply the changes.

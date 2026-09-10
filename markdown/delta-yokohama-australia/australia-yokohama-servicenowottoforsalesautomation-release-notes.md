@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforsalesautomation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -200,7 +200,10 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 
 </td></tr><tr><td>
 
@@ -314,7 +317,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -322,7 +328,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -351,7 +360,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
+
 
 </td></tr><tr><td>
 
@@ -359,7 +371,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
+
 
 </td></tr><tr><td>
 

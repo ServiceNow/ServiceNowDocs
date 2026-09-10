@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, snc, configure, test, connection, kerberos, security, sn\_erp\_integration.ERP\_Canvas\_RFC]
-breadcrumb: [SAP SNC, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [SAP SNC, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure an SNC connection in Zero Copy Connector for ERP

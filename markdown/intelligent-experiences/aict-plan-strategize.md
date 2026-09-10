@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-strategize.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
 ---
@@ -42,9 +42,9 @@ The four analytics widgets display the current alignment and health status of AI
 |Goals|The total count of goals aligned to AI systems, shown as a donut chart.|Green, Yellow, None, and Red segments indicate goal status.|
 |Strategic priorities|The total count of strategic priorities aligned to AI systems, shown as a donut chart.|Green, Red, and Yellow segments indicate strategic priority status.|
 
-## Targets by AI goals
+## Goals and targets list
 
-The Targets by AI goals list displays targets of goals that are aligned to AI systems, grouped by goal. Each goal row is collapsible and shows the targets associated with that goal. The list supports search, filter, refresh, and column personalization.
+The Goals &amp; targets list displays targets of goals that are aligned to AI systems, grouped by goal. Each goal row is collapsible and shows the targets associated with that goal. The list supports search, filter, refresh, and column personalization.
 
 \[Omitted image "aict-plan-strategy-goals-targets-list.png"\] Alt text: The Stratatize tab displays the goals and targets lists with analytics and filters.
 
@@ -62,7 +62,7 @@ Records displayed
 
 </th></tr></thead><tbody><tr><td>
 
-Targets by AI goals
+Goals and targets
 
 </td><td>
 

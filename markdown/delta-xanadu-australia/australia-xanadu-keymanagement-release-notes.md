@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-keymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -62,10 +62,11 @@ Australia
 
 </td><td>
 
--   In pre-Zurich releases, the GlideEncrypter API used the three-key Triple Data Encryption Standard \(3DES\) encryption standard, which [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) has recommended against using after 2023. The following changes are taking place in the Australia release in preparation for a full deprecation of GlideEncrypter/3DES in the future:
-    -   New Australia instances can’t use GlideEncrypter. All base system scripts have been changed to use alternative encryption processes.
-    -   if you’re upgrading your Australia instances, you can still GlideEncrypter, which has been updated to use AES256-GCM encryption via the Key Management Framework.
-    -   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
+-   **Upgrade information**
+    -   In pre-Zurich releases, the GlideEncrypter API used the three-key Triple Data Encryption Standard \(3DES\) encryption standard, which [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) has recommended against using after 2023. The following changes are taking place in the Australia release in preparation for a full deprecation of GlideEncrypter/3DES in the future:
+        -   New Australia instances can’t use GlideEncrypter. All base system scripts have been changed to use alternative encryption processes.
+        -   if you’re upgrading your Australia instances, you can still GlideEncrypter, which has been updated to use AES256-GCM encryption via the Key Management Framework.
+        -   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
 
 </td></tr></tbody>
 </table>## New features
@@ -94,7 +95,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Column Level Encryption is now Field Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
+
+Column Level Encryption has been rebranded to Field Encryption Starter \(FES\), while Column Level Encryption Enterprise is now Field Encryption Enterprise \(FEE\).
+
+-   **[Access observer](https://www.servicenow.com/docs/access?context=access-observer&family=yokohama&ft:locale=en-US)**
+
+Use access observer to understand the people and processes that access data on your instance.
+
+-   **[Improved migration process from Edge Encryption to Field Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&family=yokohama&ft:locale=en-US)**
+
+Use the new process for migration from Edge Encryption to Field Encryption \(formerly Column Level Encryption\). This improved workflow ensures that your data migrates from Edge Encryption to Field encryption without spending time in an unencrypted state.
+
 
 </td></tr><tr><td>
 
@@ -102,7 +114,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Keep track of Field Encryption and Key Management changes](https://www.servicenow.com/docs/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US)**
+
+By default, the changes to the records on these tables are now logged to the Sys Audits \[sys\_audit\] table:
+
+    -   Encrypted Field Configurations \[sys\_platform\_encryption\_configuration\]
+    -   Module Access Policies \[sys\_kmf\_crypto\_caller\_policy\]
+    -   Cryptographic Modules \[sys\_kmf\_crypto\_module\]
+For details on accessing the Sys Audits \[sys\_audit\] table, see [Review](https://www.servicenow.com/docs/access?context=c_UnderstandingTheSysAuditTable&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -170,7 +190,23 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Updates to GlideEncrypter functionality](https://www.servicenow.com/docs/access?context=glideencrypter-deprecation&family=zurich&ft:locale=en-US)**
+
+The GlideEncrypter API has been updated to use AES256-GCM encryption via the Key Management Framework. If needed, your instance can be changed to use legacy 3DES encryption, but this task can only be done by ServiceNow support.
+
+-   **[Disable GlideEncrypter on your instance](https://www.servicenow.com/docs/access?context=check-3des&family=zurich&ft:locale=en-US)**
+
+GlideEncrypter can be enabled or turned off using the **glide.security.glideencrypter.allow** system property. This property is unavailable on new Zurich instances, but administrators with the security\_admin role can edit this property in upgraded instances. When this system property is set to **false**, users see this error when attempting to run GlideEncrypter.
+
+    ```
+Unsupported call to GlideEncrypter. Details: GlideEncrypter is deprecated and now returns null, please refer KB1320986
+    ```
+
 
 </td></tr><tr><td>
 
@@ -320,9 +356,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
- Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=australia&ft:locale=en-US).
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

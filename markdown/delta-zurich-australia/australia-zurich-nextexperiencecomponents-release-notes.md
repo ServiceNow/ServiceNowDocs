@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -572,7 +572,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -659,7 +662,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
+
 
 </td></tr></tbody>
 </table>## Localization information

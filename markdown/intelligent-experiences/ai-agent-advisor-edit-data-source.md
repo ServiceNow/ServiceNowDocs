@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Setting up automation opportunity discovery, Configure, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Edit an analysis data source
@@ -76,6 +76,8 @@ View your automation opportunities on the home page. For more information, see [
 [Set up a data source for analysis]()
 
 [Deactivate an analysis data source]()
+
+[Delete an analysis data source]()
 
 [Activate a deactivated analysis data source]()
 

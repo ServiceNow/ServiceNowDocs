@@ -28,7 +28,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The current version of the Jack Henry Associates jXchange spoke is v 2.0.3.
+The current version of the Jack Henry Associates jXchange spoke is v 3.0.2. For version history of the spoke, see [Jack Henry jXchange Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jha.html).
 
 ## Spoke requirements
 

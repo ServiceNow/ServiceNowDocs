@@ -1,12 +1,12 @@
 ---
 title: Care Team Operations for Biomed release notes
-description: The ServiceNow Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.
+description: The ServiceNow Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.The ServiceNow Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.The ServiceNow Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/cto-biomed-rn.html
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Healthcare and Life Sciences release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Healthcare and Life Sciences release notes, Features and changes by
 
 The ServiceNow® Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.
 
-## Care Team Operations for Biomed for Biomed highlights for the Australia release
+## About Care Team Operations for Biomed
 
 -   Use the conversational abilities of Now Assist in Virtual Agent in Care Team Portal or Care Team Mobile to create requests for support departments.
 -   Leverage the Care Team Operations Case Creation AI voice agent to create cases conversationally over the phone.
@@ -22,26 +22,30 @@ The ServiceNow® Care Team Operations for Biomed application contains the case t
 
 See [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-operations-for-biomed.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Care Team Operations for Biomed is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Care Team Operations for Biomed to Australia
+-   **Activation information**
 
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+    Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-If you have the feature administrator role, you can now complete tasks that were initially reserved for users with the broader administrator role.
+-   **Upgrade information**
 
-## Care Team Operations for Biomed features
+    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
 
--   **[Create support requests using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)**
+    If you have the feature administrator role, you can now complete tasks that were initially reserved for users with the broader administrator role.
 
-    Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case creation AI agents and is available in Care Team Portal and Care Team Mobile.
 
--   **[Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
 
-    The Care Team Operations Case Creation AI voice agent enables care team members to create cases conversationally over the phone.
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
 
-    **Note:** For the Care Team Operations Case Creation AI voice agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
+## April 2026
 
+The ServiceNow® Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -53,22 +57,20 @@ If you have the feature administrator role, you can now complete tasks that were
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-## Activation information
+## Australia
 
-Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Australia release.
 
-## Related ServiceNow applications and features
+### What's new
 
--   **[Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-app.md)**
+-   **[Create support requests using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)**
 
-    ServiceNow® Healthcare Operations Core provides the foundation for Care Team Operations and enables hospitals to streamline and automate their operations by integrating with supporting service departments.
+    Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case creation AI agents and is available in Care Team Portal and Care Team Mobile.
 
--   **[Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-mobile-landing.md)**
+-   **[Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
 
-    ServiceNow® Care Team Mobile provides a mobile experience for hospital care teams to report issues to support departments.
+    The Care Team Operations Case Creation AI voice agent enables care team members to create cases conversationally over the phone.
 
+    **Note:** For the Care Team Operations Case Creation AI voice agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
-
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
 

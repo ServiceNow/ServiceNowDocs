@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Deactivate skills in Now Assist in Contract Management, ServiceNow Otto for Contract Management Pro, Deactivate contract metadata extraction, Deactivate contract analysis, Turn off contract metadata extraction, Turn off contract analysis]
-breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Deactivate skills for ServiceNow Otto for Contract Management Pro
@@ -40,9 +40,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 The skill is deactivated for ServiceNow Otto for Contract Management Pro and displayed in the **All available Contract Management Pro skills** section.
 
-To reactivate the skill, select **Activate skill**. For more information, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+To reactivate the skill, select **Activate skill**. For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
-**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 

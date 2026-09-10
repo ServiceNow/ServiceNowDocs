@@ -1,13 +1,13 @@
 ---
 title: Standard extraction tables for Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) provides a number of standard extraction tables that you can link to ERP models.
+description: Zero Copy Connector for ERP provides standard extraction tables that you can link to enterprise resource planning \(ERP\) models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, standard, extraction, table]
 breadcrumb: [Standard remote and extraction tables, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Standard remote and extraction tables, Reference, Zero Copy Connect
 
 # Standard extraction tables for Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP \(Enterprise Resource Planning\) provides a number of standard extraction tables that you can link to ERP models.
+Zero Copy Connector for ERP provides standard extraction tables that you can link to enterprise resource planning \(ERP\) models.
 
 The following extraction tables are available through Zero Copy Connector for ERP.
 
@@ -40,7 +40,5 @@ The following extraction tables are available through Zero Copy Connector for ER
 |SAP Vendor Invoice|Sales|
 |SAP Transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
-
-**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
+For more information about working with extraction tables, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 

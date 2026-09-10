@@ -1,9 +1,9 @@
 ---
 title: Encryption release notes
-description: The ServiceNow Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.
+description: The ServiceNow Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.The ServiceNow Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,14 +12,27 @@ reading_time_minutes: 2
 
 The ServiceNow® Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.
 
-## Encryption highlights for the Australia release
+## About Encryption
 
 -   ManageField Encryption and Field Encryption Enterprise using the redesigned user interface.
 -   Enhance data security with the newly added External Key Management Service \(EKMS\) integration, enabling you to store encryption keys outside the instance for enhanced security.
 
 See [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-sku.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Manage Field Encryption Enterprise with an enhanced Administration interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md)**
 
@@ -40,18 +53,14 @@ See [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
     -   Access UI improvements for configuration visibility and error handling.
     -   Benefit from telemetry and performance-tested operations.
 
-## UI changes
+### What's changed
 
 -   **[Field Encryption user interface changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md)**
 
     The new Field Encryption and Field Encryption Enterprise UI includes updates to key rotation and policies, access to encryption status and audit details, and changes to layouts.
 
 
-## Activation information
-
-Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-sku.md).
-
-## Plugin information
+### Plugin information
 
 -   **Plugins planned for deprecation**
 
@@ -61,6 +70,4 @@ Platform Encryption is available with activation of the com.glide.encryption.ext
     -   Column Level Encryption Enterprise\(com.glide.now.platform.encryption\): Planned for deprecation in July 2031. Activate the Field Encryption Starter or Field Encryption Enterprise instead.
     -   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
     -   [Edge Encryption Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

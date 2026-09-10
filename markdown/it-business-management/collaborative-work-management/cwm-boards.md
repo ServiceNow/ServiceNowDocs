@@ -1,22 +1,20 @@
 ---
 title: Managing work using Boards in CWM
-description: Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
+description: Use Boards in Collaborative Work Management to define and organize tasks. With views such as Dashboard, List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-boards.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 2
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Managing work using Boards in CWM
 
-Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
-
-\[Omitted video\] Description: Overview of Boards in the CWM workspace.
+Use Boards in Collaborative Work Management to define and organize tasks. With views such as Dashboard, List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 
 Using the following sections, get started with Boards in the CWM workspace.
 
@@ -25,7 +23,9 @@ Manage work assigned to your team as tasks and track them to completion using cu
 -   **[Duplicate a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/duplicate-board-in-cwm.md)**  
 Save time by duplicating an existing Board to copy all the task and collaborator details without having to copy the information manually in the Collaborative Work Management workspace.
 -   **[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)**  
-Start planning work on your Board by adding tasks and assigning them to team members in Collaborative Work Management workspace.
+Add tasks to a CWM Board and assign them to team members to plan and track work in a Collaborative Work Management workspace.
+-   **[Generate child tasks for CWM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**  
+Use AI to create child tasks for a large and complex CWM task in the List view. Child tasks are generated from the task's short description and description, reducing manual work breakdown effort.
 -   **[Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md)**  
 Create custom item types for Boards in Collaborative Work Management, so that you can organize and manage multiple types of tasks from a single location, regardless of the workflow.
 -   **[Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)**  
@@ -36,6 +36,8 @@ Gain deeper insights into your work by adding formula columns to your List view 
 Associate a goal to your Board so that you can plan and track all the tasks and activities that contribute to this goal directly from the Collaborative Work Management workspace.
 -   **[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)**  
 Create, customize, and switch seamlessly between Board display preferences such as column display, sorting, and filtering based on the audience and purpose in Collaborative Work Management \(CWM\).
+-   **[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)**  
+The Dashboard view displays a collection of widgets that visualize CWM Board data, giving teams an at-a-glance summary of task progress, priorities, and assignments.
 -   **[CWM Board preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-preferences.md)**  
 Reduce cognitive load and focus on the most relevant and actionable tasks by filtering work items on Boards in Collaborative Work Management \(CWM\).
 -   **[Export a CWM Board to CSV or Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)**  

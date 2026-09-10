@@ -16,7 +16,7 @@ breadcrumb: [Customer Service Problem Management, Use agentic workflows, Service
 
 Use the preliminary troubleshooter agentic workflow to resolve broadband and internet issues.
 
-## Test and repair telecom service issues overview
+## Preliminary troubleshooter overview
 
 The preliminary troubleshooter agentic workflow resolves customer issues such as internet or broadband problems. This agentic workflow processes task requests that require payment status, contextual information from similar cases, and Knowledge Base articles. The workflow runs autonomously in the background without user interaction.
 
@@ -58,7 +58,7 @@ To access the use case testing page:
 
 To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
-## AI agents used in the Service test and repair agentic workflow
+## AI agents used in the preliminary troubleshooter agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 

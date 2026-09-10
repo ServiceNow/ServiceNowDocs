@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-25"
 reading_time_minutes: 1
-breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Increase payload limit through system properties in AI Desktop Actions

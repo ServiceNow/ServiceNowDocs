@@ -39,15 +39,15 @@ To create, edit, or delete cost plan records, you can also use:
 
 5.  Create, edit, or delete a cost plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d170228e133">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d175821e133">
 
 Goal
 
-</th><th align="left" id="d170228e136">
+</th><th align="left" id="d175821e136">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d170228e142">
+</th></tr></thead><tbody><tr><td id="d175821e142">
 
 **Create a cost plan**
 
@@ -64,7 +64,7 @@ For a description of the field values, see [Cost plan form](https://raw.githubus
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create another one.
 
 
-</td></tr><tr><td id="d170228e183">
+</td></tr><tr><td id="d175821e183">
 
 **Edit a cost plan**
 
@@ -76,7 +76,7 @@ Edit a cost plan in one of the following ways.-   Select the name of the cost pl
 
 **Note:** Use the keyboard Tab key to navigate to between the fiscal periods.
 
-</td></tr><tr><td id="d170228e213">
+</td></tr><tr><td id="d175821e213">
 
 **Delete a cost plan**
 

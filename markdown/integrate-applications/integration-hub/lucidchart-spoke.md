@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Lucidchart Diagramming Spoke version 1.1.1.
+Lucidchart Diagramming Spoke version 1.1.1. For version history of the spoke, see [Lucidchart Diagramming Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-lucidchart-diagramming-spoke.html).
 
 ## Supported versions
 

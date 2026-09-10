@@ -18,8 +18,8 @@ Create a collector to import metadata from Databricks.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Databricks collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,25 +47,7 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the Databricks configuration details.
-
-    |Field|Description|
-    |-----|-----------|
-    |Server|Hostname of the database server to connect to.|
-
-8.  Choose between **Collect all schemas** and **Specify which schema to collect** to configure the schema collection options.
-
-    |Field|Description|
-    |-----|-----------|
-    |Collect all schemas|
-    |Collect all schemas|Catalog all schemas to which the user has access.|
-    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
-    |Include Information Schema|Include the database's Information Schema in catalog collection.|
-    |Specify which schema to collect|
-    |Specify which schema to collect|Catalog only the specified schemas.|
-    |Schema|Name of the database schema to catalog.|
-
-9.  Enter the Databricks configuration details.
+7.  Enter the Databricks connection details.
 
 <table id="table_pjv_hr4_33c"><thead><tr><th>
 
@@ -77,19 +59,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Server
+
+</td><td>
+
+Hostname of the database server to connect to.
+
+</td></tr><tr><td>
+
 Server port
 
 </td><td>
 
 Port of the database server \(if not the default\).
-
-</td></tr><tr><td>
-
-Database
-
-</td><td>
-
-Name of the database to connect to. Specify multiple databases by adding one value per line.
 
 </td></tr><tr><td>
 
@@ -101,22 +83,58 @@ Databricks compute resources URL. See [Databricks documentation](https://docs.da
 
 </td></tr><tr><td>
 
-Excluded database
+Use MID server
 
 </td><td>
 
-Name or regular expression for databases to exclude when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
 
 </td></tr></tbody>
-</table>10. Configure the server details and authentication options.
+</table>8.  Configure the authentication options.
 
     |Field|Description|
     |-----|-----------|
-    |Server details|
-    | |Hostname of the database server to connect to.|
-    |Authentication options|
     |Authenticate using personal access token|Option to authenticate using the Databricks personal access token. For details, see [Databricks documentation.](https://docs.databricks.com/dev-tools/api/latest/authentication.html)|
     |Authenticate using Databricks Service Principal|Option to authenticate using the Databricks service principal client ID and Databricks Service Principal Client Secret.|
+
+9.  Configure the databases information.
+
+<table id="table_mtg_br2_h3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Include databases
+
+</td><td>
+
+Name of the database to connect to. Specify multiple databases by adding one value per line.
+
+</td></tr><tr><td>
+
+Excluded databases
+
+</td><td>
+
+Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
+
+</td></tr></tbody>
+</table>10. Choose between **Collect all schemas** and **Specify which schema to collect** to configure the schema collection options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
 
 11. Configure the statistics and sampling options.
 
@@ -288,7 +306,7 @@ The number of seconds to wait between retry attempts for a failed API call.Defau
 
 </td></tr><tr><td>
 
-Disable Model Collection
+Disable model collection
 
 </td><td>
 
@@ -304,7 +322,7 @@ The Databricks account ID for Unity Catalog access.
 
 </td></tr><tr><td>
 
-External Workspace URL
+External workspace URL
 
 </td><td>
 
@@ -312,7 +330,7 @@ The external workspace URL for cross-workspace access.
 
 </td></tr><tr><td>
 
-Enable Governance Metadata Collection
+Enable governance metadata collection
 
 </td><td>
 

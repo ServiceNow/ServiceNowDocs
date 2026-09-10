@@ -140,6 +140,8 @@ Criticality or importance of the function according to the financial entity’s 
 -   **No**
 -   **Assessment not performed**
 
+**Note:** When you set this field to **Yes**, the related contract's data sensitiveness and reliance fields must be Medium/High or Material/Full reliance. The system displays a warning otherwise.
+
 </td></tr><tr><td>
 
 Reasons for criticality or importance

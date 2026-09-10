@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-opportunitymarketplace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -119,7 +119,21 @@ Yokohama
 
 </td><td>
 
--   **[Import Project Workspace project information to create an opportunity](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+-   **[A new step is added in the task for creating opportunities.](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+
+You must select how you want to get started with creating an opportunity.
+
+    -   **Create using an existing project** enables opportunity owners with the correct assigned roles to import details from Project Workspace projects.
+
+**Note:** This option is only visible when both Project Workspace and Opportunity Marketplace are installed.
+
+    -   **Create on your own** enables Opportunity Marketplace opportunity owners to create opportunities of type **Gig**, **Project**, or **Volunteer**.
+-   **[Enable selection of multiple user goups to manage which groups of users can view an opportunity.](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
+
+Select multiple user criteria groups from the **Who can view this opportunity?** field on the Opportunity details widget page.
+
+
+ -   **[Import Project Workspace project information to create an opportunity](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
 Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
 
@@ -138,6 +152,15 @@ The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and 
 -   **[Select multiple user criteria groups](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US)**
 
 Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://www.servicenow.com/docs/access?context=egd-create-other-opportunities&family=yokohama&ft:locale=en-US).
+
+
+ -   **reource\_user [Resource management process](https://www.servicenow.com/docs/access?context=r_ResourceManagementProcess&family=yokohama&ft:locale=en-US)**
+
+If you’re assigned the resource\_user role, you can be a resource requester.
+
+-   **[sn\_ppm\_read](https://www.servicenow.com/docs/access?context=business-stakeholder-role-ppm&family=yokohama&ft:locale=en-US)**
+
+The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
 
 </td></tr><tr><td>
@@ -249,7 +272,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

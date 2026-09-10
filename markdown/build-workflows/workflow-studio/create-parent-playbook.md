@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Nested Playbooks, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Nested Playbooks, Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a parent playbook to host a nestable child playbook
@@ -41,7 +41,7 @@ Role required: admin, playbook.admin, or playbook.write
 
 6.  In the center of the stage you just added, select the plus sign, and then select the **Add a playbook** icon:
 
-    \[Omitted image "add-nested-playbook-icon.png"\] Alt text: Option to add a playbook.
+    \[Omitted image "add-nested-playbook-icon.png"\] Alt text: Image of Playbook stage user interface showing the "Add a playbook" option.
 
 7.  In the **Add playbook** dialog box, search for and select the nestable child playbook you just created in the previous step.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforsoftwareassetmanagementsam-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+TBD.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -75,49 +78,9 @@ Yokohama
 
 </td><td>
 
--   **[Benefit with an integrated troubleshooting experience for SaaS applications by resolving common issues using automated guidance](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Use generative AI to troubleshoot SaaS integrations with automated guidance and recommendations. By following the resolution guidance, you can significantly reduce downtime, lower the mean time to resolution \(MTTR\), and resolve complex SaaS issues without deep technical intervention.
-
--   **[Improve accuracy and productivity by extracting licensing data from contracts and generating software entitlements](https://www.servicenow.com/docs/access?context=extract-entitlements-from-contracts-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Leverage generative AI to upload contract documents and automatically extract licensing data, generating software entitlements. You can review and refine the entitlements prior to finalization. The entitlements are created and linked to the contract records, ensuring a streamlined and accurate process.
-
-
--   **[Automate the creation of user resolution rules to accelerate reconciliation and ensure consistent user mappings](https://www.servicenow.com/docs/access?context=automate-userresolution-saas-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Use generative AI to resolve user subscriptions by creating user resolution rules without manual intervention. AI automatically creates the user resolution rules, and these rules analyze and map incoming subscription data to corresponding user records in the Software Asset Management application.
-
-
 -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-
--   **[Use an agentic workflow to automate software asset sourcing to improve operational efficiency](https://www.servicenow.com/docs/access?context=using-now-assist-sam-ai-agents-usecases&family=yokohama&ft:locale=en-US)**
-
-Use AI agents in the Help manage software request agentic workflow to automate sourcing of software assets either through automatic license allocation or by creating purchase orders.
-
--   **[Use an agentic workflow to create reclamation rules for enhancing software license utilization tracking and reducing waste](https://www.servicenow.com/docs/access?context=now-assist-sam-create-software-reclamation-rule-workflow&family=yokohama&ft:locale=en-US)**
-
-Use AI agents to automatically create reclamation rules for installed or subscription-based software, reducing the need for manual analysis of product usage and expenditure. The AI agent analyzes factors such as spend and utilization to suggest reclamation rules.
-
--   **[Use an agentic workflow to reclaim unused software to minimize compliance risk and optimize savings](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&family=yokohama&ft:locale=en-US)**
-
-Use AI agents to automate reclamation of removal candidate for an installed or subscription-based software. The AI agent evaluates software removal candidates and provides suggestions for reclamation, based on intelligent checks that help ensure safe removal.
-
-
--   **[Gain insights into product compliance and optimization with AI-powered product summaries](https://www.servicenow.com/docs/access?context=summarize-product-compliance-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Get comprehensive product summaries to better understand your product compliance position across software deployment, license compliance, optimization, and configuration health. The AI-based product summaries simplify the complexity of license management and ensure adherence to publisher contracts.
-
--   **[Use AI-powered recommended actions to mitigate your license compliance risk](https://www.servicenow.com/docs/access?context=recommended-actions-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Use recommended actions to guide you through the appropriate steps to achieve compliance. Take actionable steps to address any configuration, maintenance, or optimization issues and gain faster compliance.
-
-
--   **[Gain insights into your publisher license compliance by using Now Assist for SAM](https://www.servicenow.com/docs/access?context=summarize-publisher-compliance-now-assist-sam&family=yokohama&ft:locale=en-US)**
-
-Use generative AI to gain a comprehensive summary of publisher license compliance. The detailed publisher summaries that cover software deployment, license compliance, optimization, and configuration health enable you to understand the publisher license compliance details.
 
 
 </td></tr><tr><td>
@@ -126,25 +89,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+-   **[Streamline entitlement import by resolving import errors with AI-suggested corrections](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=zurich&ft:locale=en-US)**
 
--   **[Use an agentic workflow to automate software asset sourcing to improve operational efficiency](https://www.servicenow.com/docs/access?context=using-now-assist-sam-ai-agents-usecases&family=zurich&ft:locale=en-US)**
-
-Use AI agents in the Help manage software request agentic workflow to automate software asset sourcing, either through automatic license allocation or by creating purchase orders.
-
-
--   **[Use an agentic workflow to create reclamation rules for enhancing software license utilization tracking and reducing waste](https://www.servicenow.com/docs/access?context=now-assist-sam-create-software-reclamation-rule-workflow&family=zurich&ft:locale=en-US)**
-
-Use AI agents to create reclamation rules automatically for installed or subscription-based software, reducing manual analysis of product use and cost. The AI agent analyzes factors such as spend and utilization to suggest reclamation rules.
-
-
--   **[Use an agentic workflow to reclaim unused software to minimize compliance risk and optimize savings](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&family=zurich&ft:locale=en-US)**
-
-Use AI agents to automate the reclamation process for installed or subscription-based software. The AI agent evaluates software removal candidates and provides suggestions for reclamation based on intelligent checks that help ensure safe removal.
-
--   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
-
-Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+Reduce manual effort and improve data accuracy when reviewing entitlement import errors in the Software Asset Workspace by using AI skills. When publisher or product names in the standard entitlement import template don't match standard content, the Software normalization and Product match reviewer skills provide AI-suggested corrections for review. The feature also identifies potential duplicate entitlements, enabling you to review and dismiss them where appropriate.
 
 
 </td></tr><tr><td>
@@ -153,7 +100,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Benefit with an integrated troubleshooting experience for SaaS applications with the ability to resolve common issues](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=australia&ft:locale=en-US)**
+
+Use generative AI to troubleshoot SaaS integrations with automated guidance and recommendations. By following the resolution guidance, you can significantly reduce downtime, lower the mean time to resolution \(MTTR\), and resolve complex SaaS issues without deep technical intervention.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -184,7 +134,10 @@ The skills are automatically available to appropriate role users for the applica
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   ****
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=yokohama&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
 
 </td></tr><tr><td>
 
@@ -192,23 +145,10 @@ Zurich
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
 
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
-
-
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-
-
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
-
-
--   ****
--   ****
 
 </td></tr><tr><td>
 
@@ -216,7 +156,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Troubleshoot button alongside the error message on the Integration profile form](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=australia&ft:locale=en-US)**
+
+The **Troubleshoot** button is available for all SaaS integrations on the error message that is displayed when connection validation fails due to an error. When selected, the button triggers the generation of error summary and resolution guidance.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -311,11 +254,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Now Assist for SAM by requesting it from the ServiceNow Store.
 
 **Note:** To take full advantage of the Now Assist for SAM features, you need to install the Now Assist for SAM store application as well as upgrade to Yokohama Patch 3.
 
- 
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -323,7 +269,10 @@ Zurich
 
 </td><td>
 
-Install Now Assist for SAM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -331,7 +280,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -352,7 +304,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 The Now Assist for SAM application requires the Software Asset Management Pro plus or the Enterprise plus license.
+
 
 </td></tr><tr><td>
 
@@ -572,7 +527,9 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Enhance your SaaS integration troubleshooting experience with user-friendly error explanations and step-by-step resolution guidance for runtime job failures.
+
+ See [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)

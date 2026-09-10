@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Explore, AI Agent Advisor, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Supporting information for AI Agent Advisor

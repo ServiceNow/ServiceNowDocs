@@ -68,7 +68,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist \(Generative AI\) for Spoke Generation
+ServiceNow Otto® \(Generative AI\) for Spoke Generation
 
 </td><td>
 
@@ -88,7 +88,7 @@ AI-Generated Playbooks
 
 </td><td>
 
-Now Assist can create playbooks automatically based on business process descriptions, eliminating the need to manually design multi-step guided workflows.For more information, see [Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md).
+Now Assist can create playbooks automatically based on business process descriptions, eliminating the need to manually design multi-step guided workflows.For more information, see .
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ AI Agent Execution on Connected Data
 
 </td><td>
 
-ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 </td></tr><tr><td>
 

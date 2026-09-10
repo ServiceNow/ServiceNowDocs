@@ -14,6 +14,8 @@ breadcrumb: [IT Service Management]
 
 The L1 IT Service Desk AI Specialist is an autonomous worker, with pre-built skills and AI agents, that is assigned to teams to investigate and resolve incidents end-to-end.
 
+\[Omitted video\] Description: Overview video of the L1 IT Service Desk AI Specialist.
+
 Contact your ServiceNow account manager to get started with the L1 IT Service Desk AI Specialist.
 
 ## Get started
@@ -54,7 +56,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

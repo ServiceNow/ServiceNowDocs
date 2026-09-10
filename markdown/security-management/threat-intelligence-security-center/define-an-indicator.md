@@ -70,7 +70,7 @@ Pattern
 
 </td><td>
 
-The detection pattern for this Indicator may be expressed as a STIX Pattern.
+The detection pattern for this Indicator may be expressed as a STIX Pattern.If the pattern is a STIX pattern, observables are extracted from it automatically when the indicator source record is created.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Pattern Version
 
 </td><td>
 
-The version of the pattern language that is used for the data in the pattern property which must match the type of pattern data included in the pattern property.
+The version of the pattern language used for the data in the pattern property that must match the type of pattern data included in the pattern property.
 
 </td></tr><tr><td>
 
@@ -448,7 +448,7 @@ Observables
 
 </td><td>
 
-Lists the related observable records that are related to this indicator.
+Lists the related observable records that are related to this indicator.This list includes observables extracted from the pattern of the indicator. For more information, see [Observable extraction from indicator patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-extract-observables-from-indicators.md).
 
 </td></tr><tr><td>
 

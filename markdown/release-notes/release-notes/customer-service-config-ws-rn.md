@@ -1,9 +1,9 @@
 ---
 title: Agent experience for CSM release notes
-description: The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
+description: The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.The ServiceNow Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 7
 ---
@@ -12,20 +12,66 @@ reading_time_minutes: 7
 
 The ServiceNow® Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
 
-## Agent experience highlights for the Australia release
+## About Agent experience for CSM
 
--   Minimize drafts of comments, work notes, and emails to a dock at the bottom of Customer Service Workspace and keep track of documents in this centralized location.
--   Enable agents to work from a single location with the ability to view Customer Service Workspace record pages in other workspaces.
+-   Minimize drafts of comments, work notes, and emails to a dock at the bottom of CRM Workspace and keep track of documents in this centralized location.
+-   Enable agents to work from a single location with the ability to view CRM Workspace record pages in other workspaces.
 -   Populate interaction wrap-up codes and notes by using AI, saving agents time.
 -   Auto-populate record fields and email drafts with dynamic values using form templates.
 
 See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) for more information.
 
-**Important:** Customer Service Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+## Activation and other requirements
 
-## New in the Australia release
+**Important:** CRM Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
--   **[Dock in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
+-   **Activation information**
+
+    CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+
+    Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Browser requirements**
+
+    ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+
+
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+
+## June 2026
+
+The ServiceNow® Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **Knowledge article link insertion from Recommended Actions**
+
+    Selecting any of the three attach knowledge article options for work notes, comments, or email from the Recommended Actions panel now automatically switches to the relevant target tab, so the inserted link is immediately visible without manual navigation. Inserted links also now display the article title alongside the article number as a hyperlink, replacing the previous article-number-only display. This enhancement applies to the Front-line case page and CSM default record page.
+
+
+-   **Knowledge article link insertion from Recommended Actions on the Email Interaction record page**
+
+    Inserted knowledge article links from the Recommended Actions panel now display the article title alongside the article number as a hyperlink in the email body, replacing the previous article-number-only display. This enhancement applies to the Email Interaction record page.
+
+
+## Australia General Availability
+
+The ServiceNow® Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-time-tracking.md)**
+
+    Track the time that agents spend working on cases and interactions in CRM Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
+
+
+## Australia Early Availability
+
+The ServiceNow® Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Dock in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
 
     Enable agents to minimize drafts of comments, work notes, or emails to a dock at the bottom of the workspace page. This centralized location provides agents with the ability to see all current drafts at a glance.
 
@@ -35,7 +81,7 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Workspace record page interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md#section_q4z_fm3_23c)**
 
-    Enable agents to use record pages between Customer Service Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
+    Enable agents to use record pages between CRM Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
 
     -   Incident page
     -   Change page
@@ -45,22 +91,18 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Highlight fields with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md#section_zzp_dn3_23c)**
 
-    Use visual indicators in Customer Service Workspace such as icons and background colors to indicate form fields with unsaved changes.
+    Use visual indicators in CRM Workspace such as icons and background colors to indicate form fields with unsaved changes.
 
--   **[Knowledge Center article editor available in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
+-   **[Knowledge Center article editor available in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
 
-    Use the Knowledge Center article editor to create and edit knowledge articles in Customer Service Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
+    Use the Knowledge Center article editor to create and edit knowledge articles in CRM Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
 
 -   **[Unread email count on interaction tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md#section_rfs_4lt_13c)**
 
-    Displays the number of unread email messages on interaction tabs in Customer Service Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
-
--   **[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-time-tracking.md)**
-
-    Track the time that agents spend working on cases and interactions in Customer Service Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
+    Displays the number of unread email messages on interaction tabs in CRM Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Editable record headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md#section_hhb_1tj_23c)**
 
@@ -69,9 +111,9 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
     -   Front-line case page
     -   CSM Interaction record page
     -   CSM default record page
--   **[Collaborate component in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
+-   **[Collaborate component in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
 
-    Use the Collaborate component in the contextual side panel in Customer Service Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
+    Use the Collaborate component in the contextual side panel in CRM Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
 
 -   **[SLA component on the Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)**
 
@@ -99,33 +141,22 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Maximum number of active tabs in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)**
 
-    Agents can open up to 20 active tabs \(previously 10\) in Customer Service Workspace to handle multiple tasks simultaneously without losing context.
+    Agents can open up to 20 active tabs \(previously 10\) in CRM Workspace to handle multiple tasks simultaneously without losing context.
 
 -   **[Open multiple lists in separate primary tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-list-views.md)**
 
-    Agents can now open multiple lists in different Customer Service Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
+    Agents can now open multiple lists in different CRM Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
 
 -   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)**
 
     Enhance security, reduce over-privileged accounts, and enable flexible, task-focused permission management by assigning granular, feature-specific roles to replace broad admin access.
 
--   **Knowledge article link insertion from Recommended Actions**
 
-    Selecting any of the three attach knowledge article options for work notes, comments, or email from the Recommended Actions panel now automatically switches to the relevant target tab, so the inserted link is immediately visible without manual navigation. Inserted links also now display the article title alongside the article number as a hyperlink, replacing the previous article-number-only display. This enhancement applies to the Front-line case page and CSM default record page.
+## Australia
 
+The ServiceNow® Agent experience for CSM provides customer service agents with the tools that they need to find, research, and resolve customer issues and questions. Agent experience for CSM was enhanced and updated in the Australia release.
 
--   **Knowledge article link insertion from Recommended Actions on the Email Interaction record page**
-
-    Inserted knowledge article links from the Recommended Actions panel now display the article title alongside the article number as a hyperlink in the email body, replacing the previous article-number-only display. This enhancement applies to the Email Interaction record page.
-
-
-## Activation information
-
-Customer Service Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
-
-Install Customer Service Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -155,29 +186,4 @@ Install Customer Service Workspace by requesting it from the ServiceNow Store. V
     -   sn-component-workspace-shn \(com.sn\_component\_workspace\_shn\)
     For more information, see [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md).
 
-
-## Browser requirements
-
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    Use the Customer Service Management application to provide the service and support that your external customers need.
-
--   **[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)**
-
-    Use the ServiceNow® ServiceNow Otto for CSM application to summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes.
-
--   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
-
-    Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
-
--   **[Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
-
-    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents need to find, research, and resolve issues. Customer Service Workspace is a customer service-specific implementation that provides tier 1 agents with the tools that they need to respond to customers and to resolve cases.
-
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

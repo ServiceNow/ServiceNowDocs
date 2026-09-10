@@ -18,15 +18,15 @@ Chat with an AI agent in the ServiceNowOtto panel to begin the process for uploa
 
 ## Before you begin
 
-The ServiceNowOtto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 ## Procedure
 
-1.  Select the ServiceNowOtto \[Omitted image "now-assist-icon.png"\] Alt text: icon.
+1.  Select the ServiceNow Otto \[Omitted image "now-assist-icon.png"\] Alt text: icon.
 
-    The ServiceNowOtto panel is displayed.
+    The ServiceNow Otto panel is displayed.
 
 2.  Enter a prompt such as `I want to import an OT device` to initiate the Import OT device spreadsheet into OT CMDB agentic workflow.
 
@@ -36,17 +36,17 @@ Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 
 4.  In the Attachment panel of the import task record, download and save the Microsoft Excel spreadsheet template to your local drive.
 
-    \[Omitted image "download-spreadsheet-now-assist-otm.png"\] Alt text: Downloading the Microsoft Excel spreadsheet from the OT import task with the ServiceNowOtto panel open.
+    \[Omitted image "download-spreadsheet-now-assist-otm.png"\] Alt text: Downloading the Microsoft Excel spreadsheet from the OT import task with the ServiceNow Otto panel open.
 
 5.  After you fill out the spreadsheet with your OT device inventory, upload it in the Attachment panel.
 
     For more information about how to fill out the spreadsheet, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
-6.  In the ServiceNowOtto panel, enter a prompt such as `Done` to alert the agent that you have uploaded the spreadsheet.
+6.  In the ServiceNow Otto panel, enter a prompt such as `Done` to alert the agent that you have uploaded the spreadsheet.
 
     The agent uploads the spreadsheet to the SG OT Excel Stagings table. Wait for the **State** field of the import task record to update to **Staging import succeeded** and for the staging records to be created. You can view the staging records in the import task record's **Staging Records** tab.
 
-7.  After the import is complete, enter a prompt in the ServiceNowOtto panel, such as `Yes, proceed`.
+7.  After the import is complete, enter a prompt in the ServiceNow Otto panel, such as `Yes, proceed`.
 
     The prompt alerts the agent that the import was successful and can proceed to the next step. The agent validates the staging records and replies with the number of valid records, partially valid records, and invalid records. For invalid records, the agent asks whether to create a remediation task.
 

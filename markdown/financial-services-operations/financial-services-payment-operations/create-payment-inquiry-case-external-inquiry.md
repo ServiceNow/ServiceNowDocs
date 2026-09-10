@@ -8,7 +8,7 @@ product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 

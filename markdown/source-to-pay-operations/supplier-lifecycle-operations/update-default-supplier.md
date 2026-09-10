@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Raising requests, Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -63,6 +63,8 @@ The default supplier is updated.
 [Update company profile using the supplier catalog]()
 
 [Request elevated access]()
+
+[Update tax information using the supplier catalog]()
 
 [Request something else using the supplier catalog]()
 

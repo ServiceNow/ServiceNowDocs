@@ -7,8 +7,8 @@ release: australia
 product: Common Service Delivery
 classification: common-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-08-06"
+reading_time_minutes: 5
 breadcrumb: [Learn about FSC common applications, Common applications, Finance and Supply Chain applications, Finance and Supply Chain]
 ---
 
@@ -40,7 +40,7 @@ Generate fiscal and accounting periods.
 
 </td><td>
 
-sn\_fin.finance\_user
+sn\_fin.finance\_user, fiscal\_calendar\_user
 
 </td></tr><tr><td>
 
@@ -49,6 +49,102 @@ Finance user\[sn\_fin.finance\_user\]
 </td><td>
 
 View and edit accounting and fiscal periods.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Accountant\[sn\_fin.accountant\]
+
+</td><td>
+
+Perform day-to-day accounting tasks and view financial records.
+
+</td><td>
+
+fiscal\_calendar\_user
+
+</td></tr><tr><td>
+
+Finance access admin\[sn\_fin.finance\_access\_admin\]
+
+</td><td>
+
+Configure and manage financial access controls.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Organization admin\[sn\_fin.organization\_admin\]
+
+</td><td>
+
+Provides read, write, create, and delete access to all organization tables.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Procurement primary data admin\[sn\_fin.procurement\_primary\_data\_admin\]
+
+</td><td>
+
+Manage core procurement reference data.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Procurement user\[sn\_fin.procurement\_user\]
+
+</td><td>
+
+Access standard procurement records and processes.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Supplier payment info read\[sn\_fin.supplier\_payment\_info\_read\]
+
+</td><td>
+
+Provides read access to supplier payment tables.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Supplier payment info write\[sn\_fin.supplier\_payment\_info\_write\]
+
+</td><td>
+
+Provides read and write access to supplier payment tables.
+
+</td><td>
+
+sn\_fin.supplier\_payment\_info\_read
+
+</td></tr><tr><td>
+
+Tax manager\[sn\_fin.tax\_manager\]
+
+</td><td>
+
+Provides create, read, and update access to the Tax Code and Tax Type tables.
 
 </td><td>
 
@@ -384,6 +480,70 @@ Unit of measure\[sn\_fin\_uom\]
 </td><td>
 
 Manages the unit of measurement \(UOM\) standards used across financial transactions, including different types like kilograms, liters, and hours.
+
+</td></tr><tr><td>
+
+Base Invoice Line\[sn\_fin\_base\_invoice\_line\]
+
+</td><td>
+
+Stores individual line items associated with a base invoice, such as item, quantity, and amount details.
+
+</td></tr><tr><td>
+
+Buyer Group\[sn\_fin\_buyer\_group\]
+
+</td><td>
+
+Defines groups used to organize buyers and manage procurement assignment responsibilities.
+
+</td></tr><tr><td>
+
+Buyer Group Member\[sn\_fin\_buyer\_group\_member\]
+
+</td><td>
+
+Maps individual buyers to a buyer group.
+
+</td></tr><tr><td>
+
+Jurisdiction\[sn\_fin\_jurisdiction\]
+
+</td><td>
+
+Defines the tax or legal jurisdictions applicable to financial and procurement transactions.
+
+</td></tr><tr><td>
+
+Organization Category\[sn\_fin\_organization\_m2m\_category\]
+
+</td><td>
+
+Maps organizations to categories used for classification and reporting.
+
+</td></tr><tr><td>
+
+S2P Custom Configuration\[sn\_fin\_s2p\_custom\_config\]
+
+</td><td>
+
+Stores custom configuration settings used in source-to-pay \(S2P\) processes.
+
+</td></tr><tr><td>
+
+S2P Custom Configuration Type\[sn\_fin\_s2p\_custom\_config\_type\]
+
+</td><td>
+
+Defines the types of custom configuration available for source-to-pay \(S2P\) processes.
+
+</td></tr><tr><td>
+
+Supplier third-party\[sn\_fin\_supplier\_third\_party\]
+
+</td><td>
+
+Stores information about third parties associated with a supplier.
 
 </td></tr></tbody>
 </table>

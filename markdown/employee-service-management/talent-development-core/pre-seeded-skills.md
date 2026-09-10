@@ -1,6 +1,6 @@
 ---
 title: Pre-seeding employee skills
-description: The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up-to-date.
+description: Pre-seeding automatically detects missing skills in employee profiles and prompts employees to add necessary skills, helping keep profiles current and accurate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/pre-seeded-skills.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Solve the challenge of adoption with Proactive Prompts, Exploring S
 
 # Pre-seeding employee skills
 
-The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up-to-date.
+Pre-seeding automatically detects missing skills in employee profiles and prompts employees to add necessary skills, helping keep profiles current and accurate.
 
 ## About pre-seeding
 
@@ -30,7 +30,7 @@ The following image shows a pre-seeded skill prompt.
 
 \[Omitted image "skills-intelligence-pre-seed.png"\] Alt text: Screen shot that shows an employee getting a notice about a skill gap in their profile.
 
-In the example, the employee received a notification that is based on what the application knows about that employee. The application notices that there's a skill gap in their profile and then prompts the employee to add the needed information to the profile to remove the skill gap.
+In the example, the employee received a notification based on what the application knows about that employee. The application notices a skill gap in their profile and prompts the employee to add the needed information.
 
 **Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 

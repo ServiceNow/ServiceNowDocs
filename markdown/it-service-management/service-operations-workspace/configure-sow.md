@@ -19,7 +19,7 @@ You can configure Service Operations Workspace so that agents can manage IT fulf
 -   **[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)**  
 You can easily migrate common customizations and configurations for various features from ITSM Agent Workspace to Service Operations Workspace for ITSM using the on-screen migration utility. With this migration, you won't have to rebuild these features in Service Operations Workspace for ITSM. For these features, you can migrate any specific record types and elements or all of them.
 -   **[Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/getting-started-sow.md)**  
-Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
+Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 -   **[Setting up integrations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setting-up-sow-itsm.md)**  
 You can set up multiple integrations in Service Operations Workspace for ITSM to leverage its complete capabilities.
 -   **[Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/admin-center-sow.md)**  

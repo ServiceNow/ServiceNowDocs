@@ -1,5 +1,5 @@
 ---
-title: Search sources for Employee Slate
+title: Search sources
 description: Configure internal and external search sources to expand the knowledge base available to Now Assist in Employee Slate. Search sources determine what content users can access through conversational search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-add-search-sources.html
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 2
 keywords: [search sources, ServiceNow Otto, Employee Slate, AI Search, conversational search]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Search sources for Employee Slate
+# Search sources
 
 Configure internal and external search sources to expand the knowledge base available to Now Assist in Employee Slate. Search sources determine what content users can access through conversational search.
 
-Search sources define the content that Now Assist can access when responding to employee queries in Employee Slate. By configuring search sources, you expand the knowledge base beyond default ServiceNow content to include external systems, knowledge bases, and custom data sources.
+Search sources define the content that Now Assist can access when responding to employee queries. By configuring search sources, you expand the knowledge base beyond default ServiceNow content to include external systems, knowledge bases, and custom data sources.
 
 ## Types of search sources
 
@@ -38,12 +38,12 @@ Employee Slate supports multiple types of search sources to provide comprehensiv
 
 ## Search configuration workflow
 
-Setting up search sources for Employee Slate involves several configuration steps:
+Setting up search sources involves several configuration steps:
 
 -   Define indexed sources: Configure what content gets indexed for search.
 -   Create search sources: Apply filters and access controls to indexed content.
 -   Configure search profiles: Group search sources and define search behavior.
--   Link to Now Assist: Connect search profiles to the Employee Slate assistant.
+-   Link to Now Assist: Connect search profiles to the assistant.
 
 ## Access control and security
 
@@ -62,12 +62,12 @@ Search source performance depends on proper indexing configuration and content v
 
 ## Benefits of expanded search sources
 
-Adding comprehensive search sources to Employee Slate provides several advantages:
+With comprehensive search source, you can:
 
--   Employees can locate information through conversational queries
--   Reduced support ticket volume as employees resolve requests through self-service
--   Consistent access to enterprise knowledge across different systems
--   Unified information access across enterprise systems in a single interface
+-   Locate information through conversational queries
+-   Reduce support ticket volume through self-service request resolution
+-   Access enterprise knowledge consistently across different systems
+-   Unify information access across enterprise systems in a single interface
 
 **Related topics**  
 

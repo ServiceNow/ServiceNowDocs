@@ -81,8 +81,6 @@ A visitor is a person from outside the organization who came to visit the site.
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Migrate existing safety documents to the Document library]()

@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Price Lists** and select the price list to which you're adding the price list line.
 

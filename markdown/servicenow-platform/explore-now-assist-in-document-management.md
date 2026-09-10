@@ -1,31 +1,31 @@
 ---
-title: Explore Now Assist in Document Management
-description: Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+title: Explore ServiceNow Otto in Document Management
+description: ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/explore-now-assist-in-document-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Explore Now Assist in Document Management
+# Explore ServiceNow Otto in Document Management
 
-Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 
-## Now Assist in Document Management overview
+## ServiceNow Otto in Document Management overview
 
-After you activate and configure, Now Assist in Document Management uses generative AI to generate key insights from the document through conversational interactions.
+After you activate and configure, ServiceNow Otto in Document Management uses generative AI to generate key insights from the document through conversational interactions.
 
-## Now Assist in Document Management users
+## ServiceNow Otto in Document Management users
 
 |User|Description|
 |----|-----------|
-|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for Now Assist in Document Management|
+|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for ServiceNow Otto in Document Management|
 
-## Now Assist in Document Management benefits
+## ServiceNow Otto in Document Management benefits
 
 <table id="table_amf_g24_3hc"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Generate instant summaries and key document insights
 
 </td><td>
 
-[Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
+[Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ Extract key document insights through conversational interactions using generati
 
 </td><td>
 
-[Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
+[Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -70,8 +70,8 @@ Generate audio summaries and interact using voice based queries to extract infor
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist in Document Management, see:
+To learn more about configuring and using ServiceNow Otto in Document Management, see:
 
--   [Configure Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-now-assist-document-management.md)
--   [Use Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-now-assist-document-management.md)
+-   [Configure ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-now-assist-document-management.md)
+-   [Use ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-now-assist-document-management.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Service definitions with catalog items
-description: Enable service definitions to use service catalog items. Agents can select these catalog items and use the associated record producers to create cases of the correct type in CSM Configurable Workspace.
+description: Enable service definitions to use service catalog items. Agents can select these catalog items and use the associated record producers to create cases of the correct type in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definition-catalog-items.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Service definitions, Case management, Organize agent workspaces, Co
 
 # Service definitions with catalog items
 
-Enable service definitions to use service catalog items. Agents can select these catalog items and use the associated record producers to create cases of the correct type in CSM Configurable Workspace.
+Enable service definitions to use service catalog items. Agents can select these catalog items and use the associated record producers to create cases of the correct type in CRM Workspace.
 
 Users with the admin role can configure service definitions to use service catalog items. These catalog items are displayed as cards in the service selector. If a service definition has more than one associated service catalog item, the system shows all of the associated catalog items as cards in the service selector.
 
-When an agent selects a catalog item from the service selector, the system displays the record producer associated with the catalog item in a workspace record page. Completing and submitting the record producer creates a case of the correct type and displays the case in CSM Configurable Workspace.
+When an agent selects a catalog item from the service selector, the system displays the record producer associated with the catalog item in a workspace record page. Completing and submitting the record producer creates a case of the correct type and displays the case in CRM Workspace.
 
 ## Configuring a service definition to use catalog items
 
@@ -30,7 +30,7 @@ For more information, see [Configuring service definitions](https://raw.githubus
 
 ## Using a service definition with catalog items to create a case
 
-For service definitions that are configured to use catalog items, agents can create cases by selecting a catalog item from the service selector. The system displays the record producer page associated with the catalog item in CSM Configurable Workspace.
+For service definitions that are configured to use catalog items, agents can create cases by selecting a catalog item from the service selector. The system displays the record producer page associated with the catalog item in CRM Workspace.
 
 The agent adds information to the record producer fields and selects **Submit**. The system creates the case and displays the record page for the correct case type.
 

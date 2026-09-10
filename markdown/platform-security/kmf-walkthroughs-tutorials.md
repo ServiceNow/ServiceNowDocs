@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/kmf-walkthrou
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
 
@@ -36,7 +36,26 @@ After the key has been stored in a cryptographic module, you can start configuri
 
 This task demonstrates two scenarios. One example encrypts the **Short Description** field in an incident for users who aren't authorized to view the sensitive data.
 
-Attachments can also be encrypted and only visible to users who are granted access, or is visible to all users that aren't restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/attachment-encryption-walkthrough.md) to encrypt an attachment.
+The following field types can be encrypted with Field Encryption Enterprise:
+
+-   Date
+-   Date/Time
+-   Email
+-   HTML
+-   Journal
+-   Journal Input
+-   Phone Number \(E164\)
+-   String
+-   String \(Full UTF-8\)
+-   Translated
+-   Translated Field
+-   Translated HTML
+-   Translated Text
+-   URL
+
+**Note:** Attachments aren't considered a field type but can be encrypted separately and are only visible to users who are granted access, or is visible to all users that aren't restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/attachment-encryption-walkthrough.md) for more information.
+
+The following walkthrough demonstrates the **Short Description** field as an example. For more information about supported field types, see [Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md).
 
 ### Procedure
 

@@ -140,7 +140,7 @@ Interaction with synonyms
 
 </td><td>
 
-Synonym expansion terms can't trigger Genius Result configurations with Term trigger conditions. When computing Knowledge base articles Genius Results for a search query, AI Search expands synonyms in the query.
+Synonym expansion terms can't trigger Genius Result configurations with Term trigger conditions. When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.
 
 </td></tr><tr><td>
 

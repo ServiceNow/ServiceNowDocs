@@ -19,6 +19,9 @@ The Capacity tab provides portfolio managers a comprehensive view of capacity, a
 Analyzing the Capacity screen, you can:
 
 -   View resource capacity for prioritized items in your portfolio.
+
+    **Note:** The Capacity screen displays effort only from prioritized planning items for the **Filtered Out Items** and **Estimate outside portfolio** rows. This design choice may result in different utilization values compared to Resource Management Workspace, which includes all planning items regardless of state.
+
 -   Understand the resource capacity needs and estimates across your organization by using key attributes such as group, role, and skill.
 -   Effectively forecast the supply of resources and the demand of work in your portfolio.
 -   Understand and get an overview of the resource capacity allocations by using the color indicators.

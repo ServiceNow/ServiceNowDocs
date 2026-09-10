@@ -48,7 +48,7 @@ When you create multiple external content connectors of the same type on the sam
 
 -   **User permissions are specific to an individual external content connector, not shared between all external content connectors of the same type**
 
-    Admins need to run a separate user permission crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector needs its own user permission crawl. Running a user permission crawl for the first Microsoft SharePoint Online external content connector does not populate security principals for the second connector.
+    Admins need to run a separate user permission crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector needs its own user permission crawl. Running a user permission crawl for the first Microsoft SharePoint Online external content connector doesn't populate security principals for the second connector.
 
 -   **The system executes crawl jobs for external content connectors of the same type in parallel if sufficient resources are available**
 

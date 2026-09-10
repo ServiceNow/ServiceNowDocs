@@ -18,7 +18,7 @@ Add custom fields into your planning tool integration to improve configurability
 
 ## Before you begin
 
-Role required: sn\_devops.admin
+Role required: admin
 
 ## About this task
 

@@ -1,18 +1,18 @@
 ---
 title: Generate event reports in PDF or Microsoft Word
-description: Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for future reference.
+description: Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-pdf-for-events.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Generate event reports in PDF or Microsoft Word
 
-Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for future reference.
+Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
 
 ## Before you begin
 
@@ -28,6 +28,8 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 -   Include details of the asset owner and the description from the Business Impact Analysis.
 -   Display a table that outlines the dependencies of the plan assets.
 -   Mark the date of the PDF creation on the front page.
+
+Starting with BCM Core version 12.x.x and later, the generated PDF also includes a **Collaboration Threads** section listing each collaboration thread's recovery team, impacted assets, and state.
 
 ## Procedure
 
@@ -60,6 +62,8 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
     Generate a report of the event or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
     For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md).
+
+    For instructions on customizing a collaboration section into a formatted block, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 8.  To print the report, open the saved PDF or Microsoft Word copy and select **Print**.
 

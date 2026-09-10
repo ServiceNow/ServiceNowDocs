@@ -1,18 +1,18 @@
 ---
 title: Review integration and configuration health
-description: Review your events to ensure alerts are created as intended. Start this process by checking the health status of your integration. This provides useful statistics to highlight where you can make improvements to enrich alerts with relevant business context, group them for better noise reduction, escalate critical alerts promptly, and notify your team for swift response and resolution.
+description: Review your events to ensure alerts are created as intended. Start this process by checking the health status of your integration. This provides useful statistics to highlight where you can make improvements. You can enrich alerts with relevant business context, group them for better noise reduction, escalate critical alerts promptly, and notify your team for swift response and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/review-integration-config-health.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Review integration and configuration health
 
-Review your events to ensure alerts are created as intended. Start this process by checking the health status of your integration. This provides useful statistics to highlight where you can make improvements to enrich alerts with relevant business context, group them for better noise reduction, escalate critical alerts promptly, and notify your team for swift response and resolution.
+Review your events to ensure alerts are created as intended. Start this process by checking the health status of your integration. This provides useful statistics to highlight where you can make improvements. You can enrich alerts with relevant business context, group them for better noise reduction, escalate critical alerts promptly, and notify your team for swift response and resolution.
 
 ## Before you begin
 
@@ -107,7 +107,7 @@ Suggested tags
 
 Provides suggested alert tags based on the integration payload. Alert tags are structured fields that you can define to facilitate easier filtering and grouping of alerts.
 
- The tags are stored in **sn\_itom\_integ\_app\_recommendation\_tags\_suggestion**, and only the top 5 most popular tags are displayed. In case you prefer to refine the results of suggestion mechanism, you can use property **sn\_itom\_integ\_app.evt\_mgmt\_tag\_suggestion\_ignore\_keys**, which displays a list of lowercase field names or keywords, separated by commas, to be ignored when scanning additional alert info for tag suggestions. Default value is time.
+ The tags are stored in **sn\_itom\_integ\_app\_recommendation\_tags\_suggestion**, and only the top 5 most popular tags are displayed. To refine the results of the suggestion mechanism, you can use the **sn\_itom\_integ\_app.evt\_mgmt\_tag\_suggestion\_ignore\_keys** property. This property displays a list of lowercase field names or keywords, separated by commas, to be ignored when scanning additional alert info for tag suggestions. The default value is time.
 
 </td></tr></tbody>
 </table>8.  In the Events section, ensure that your events are generating alerts as expected.
@@ -119,5 +119,5 @@ Provides suggested alert tags based on the integration payload. Alert tags are s
 
 ## What to do next
 
-Now that you've confirmed alerts from the events, you can initiate the alert automation process by selecting **Add automation**. This takes you to the ignore automation step, where you can disregard irrelevant or false-positive alerts. Following that, proceed to enrich, group, and automate responses. This process involves transforming raw alerts into a format understandable by ServiceNow, grouping the alerts, and escalating an alert to ensure an immediate response from the appropriate team or individual. For more information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md).
+Now that you've confirmed alerts from the events, you can initiate the alert automation process by selecting **Add automation**. This takes you to the ignore automation step, where you can disregard irrelevant or false-positive alerts. Following that, proceed to enrich, group, and automate responses. This process involves transforming raw alerts into a format understandable by ServiceNow and grouping the alerts. You can then escalate an alert to ensure an immediate response from the appropriate team or individual. For more information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md).
 

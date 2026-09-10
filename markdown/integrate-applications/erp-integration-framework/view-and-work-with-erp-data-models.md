@@ -1,21 +1,21 @@
 ---
 title: View and edit models
-description: Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
+description: Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP. Models encompass remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-08-14"
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, edit, change, view]
-breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and edit models
 
-Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
+Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP. Models encompass remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
 
 ## Before you begin
 
@@ -54,89 +54,14 @@ Zero Copy Connector for ERP provides a standard set of models, such as SAP Mater
     |Version|Specific variant of the model.|
     |Updated|Date and time the model was last updated.|
 
-4.  Select a model to view and edit the details of the model.
-
-<table id="table_hsv_q2v_2yb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Model name
-
-</td><td>
-
-Name of the ERP model.
-
-</td></tr><tr><td>
-
-ERP module
-
-</td><td>
-
-Brief name of the ERP business area on the ERP system.
-
-</td></tr><tr><td>
-
-ERP system
-
-</td><td>
-
-ERP system that represents a connection to a business section of your ERP system.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-Application scope the ERP model is linked to. For example, if you create a custom model, the model is in that scope.
-
-</td></tr><tr><td>
-
-Model type
-
-</td><td>
-
-ERP model or Platform model.
-
-</td></tr><tr><td>
-
-Short description
-
-</td><td>
-
-Brief description of what the ERP model represents.
-
-</td></tr><tr><td>
-
-Long text
-
-</td><td>
-
-A longer description or information about the ERP data model.
-
-</td></tr><tr><td>
-
-ERP software
-
-</td><td>
-
-Supportability of the model. This field is required because it determines which models can be used with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. The list contains major SAP versions and doesn't include patch versions. When a model is exported, the ERP software information specified here is included.
-
-</td></tr></tbody>
-</table>5.  View and work with the following on the **Details** tab of an ERP model:
+4.  View and work with the following on the **Details** tab of an ERP model:
 
     -   Public comments and private work notes.
     -   The Activity stream for the model.
     -   File attachments.
-6.  Select **Save**.
+5.  Select **Save**.
 
-7.  View and confirm that the table entities included in the model by selecting the **Model entities** tab of the ERP model record.
+6.  View and confirm that the table entities included in the model by selecting the **Model entities** tab of the ERP model record.
 
     View details for an individual table by selecting the table name in the **Model entities** tab.
 
@@ -185,11 +110,11 @@ Updates
 Number of times the model entity was updated.
 
 </td></tr></tbody>
-</table>8.  Export the list of tables in the model by selecting the **Export** button.
+</table>7.  Export the list of tables in the model by selecting the **Export** button.
 
     You can select the **File type**, such as **JSON** or **Excel**, and the **Delivery type**, such as **Download**.
 
-9.  View and confirm the table entity fields included in the ERP model by selecting the **Entity fields** tab of the ERP model record.
+8.  View and confirm the table entity fields included in the ERP model by selecting the **Entity fields** tab of the ERP model record.
 
     For a description of the field values, see [Zero Copy Connector for ERP ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
 

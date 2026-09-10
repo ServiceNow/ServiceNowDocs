@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -58,6 +58,10 @@ The Expiring Contracts Condition form is used to create a rule or update an exis
 [Obligation form]()
 
 [Obligation Management notifications]()
+
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
 
 [Contract Management Pro glossary]()
 

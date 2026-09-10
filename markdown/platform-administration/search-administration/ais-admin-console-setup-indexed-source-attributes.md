@@ -1,5 +1,5 @@
 ---
-title: Set up an indexed source attribute for indexing the search content
+title: Set up an indexed source attribute
 description: Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-setup-indexed-source-attributes.html
@@ -8,12 +8,12 @@ product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Set up an indexed source attribute for indexing the search content
+# Set up an indexed source attribute
 
 Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 

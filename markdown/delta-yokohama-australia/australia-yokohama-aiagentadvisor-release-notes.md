@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiagentadvisor-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,42 +91,13 @@ Australia
 
 </td><td>
 
--   **[Pre-generated AI agents in AI Agent Studio](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
+-   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
 
-Access AI agents pre-generated for the proposed solutions to automation opportunities.
+Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
 
--   **[Base system AI agents proposed for automations](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+-   **[Delete custom data set analysis](https://www.servicenow.com/docs/access?context=ai-agent-advisor-delete-data-source&family=australia&ft:locale=en-US)**
 
-Deploy base system AI agents to solve common problems identified in your automation opportunities.
-
--   **[Data from custom tables and fields analyzed for automation opportunities](https://www.servicenow.com/docs/access?context=now-assist-center-set-up-automation-discovery&family=australia&ft:locale=en-US)**
-
-Identify automation opportunities from the analysis of custom tables and fields in your instance in addition to the base system data sources.
-
--   **[View automation opportunities in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-recommendations-ai-insights&family=australia&ft:locale=en-US)**
-
-View automation opportunities as actionable insights in AI Control Tower.
-
-
--   **[CSM automation opportunities from chat, voice, and email data](https://www.servicenow.com/docs/access?context=now-assist-center-ai-agent-advisor&family=australia&ft:locale=en-US)**
-
-Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
-
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
-
-    -   Foundation: AI agents and skills to deliver insights
-    -   Advanced: AI agents and skills to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI agents and skills, and create your own
--   **[Automation discovery with AI Agent Advisor](https://www.servicenow.com/docs/access?context=now-assist-center-using-ai-agent-advisor&family=australia&ft:locale=en-US)**
-
-Use AI Agent Advisor to analyze actual instance data, identify automation opportunities, and view proposed AI automations.
-
--   **[AI agent matching and automated deployment](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
-
-Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
+Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
 
 </td></tr></tbody>
@@ -164,7 +135,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Calculate savings projections for automation opportunities](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
+
+Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
+
+-   **[Daily recommendation](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
+
+The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -275,7 +253,10 @@ Australia
 
 </td><td>
 
-AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-agent-advisor&family=australia&ft:locale=en-US).
+-   **Activation information**
+
+AI Agent Advisor installs and runs automatically as part of the standard ServiceNow AI setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-agent-advisor&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -349,7 +330,7 @@ Australia
 
 </td><td>
 
-The AI Agent Advisor application supports various browsers, including Google Chrome and Microsoft Edge. AI Agent Advisor isn’t supported in Internet Explorer. For more information, see Browser support.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -423,7 +404,10 @@ Australia
 
 </td><td>
 
+-   **Localization information**
+
 AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -460,7 +444,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   Use the automation opportunities enhancements to refine your view and identify opportunities.
+-   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
+
+ [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
 
 -   Choose from base system and pre-generated AI agents in AI Agent Studio to automate solutions to common issues.
 -   Analyze the custom tables and fields in your instance to find automation opportunities.

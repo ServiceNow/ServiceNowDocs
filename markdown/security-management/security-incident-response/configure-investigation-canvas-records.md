@@ -39,6 +39,8 @@ Configure each associated list from the view to handle run time data rendering.
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [SIR Workspace Related Records]()

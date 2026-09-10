@@ -26,19 +26,19 @@ Identify non-compliant hardening settings with the highest score impact on your 
 
 1.  Navigate to **Hardening** &gt; **All settings**.
 
-2.  Filter Compliance Status column to view only non-compliant hardening settings.
+    \[Omitted image "hardening-score-improve.png"\] Alt text: The All settings window
 
-3.  Select **Score Impact** to sort from largest to smallest.
+2.  Select one of the following:
 
-4.  Select settings and review the setting details to decide whether you want to comply with recommendations.
+    -   **Improve my hardening score**: Open the high impact hardening setting record automatically.
+    -   **Non-compliant settings**: Filter the list and select a setting.
+3.  Review the setting details to decide whether you want to comply with the recommendations.
 
     \[Omitted image "hardening-setting-overview.png"\] Alt text: hardening setting page in UI
 
-5.  Make the hardening setting compliant.
+4.  If you update a non-compliant hardening score to make it compliant, the compliance score should be calculated automatically.
 
-6.  If you update a non-compliant hardening score to make it compliant, the compliance score should be calculated automatically.
-
-    The hardening score is rounded up. A score of 86.75% will be rounded up to 87.
+    Hardening scores are rounded up. For example, a score of 86.75% will be rounded up to 87.
 
 
 **Parent Topic:**[Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md)

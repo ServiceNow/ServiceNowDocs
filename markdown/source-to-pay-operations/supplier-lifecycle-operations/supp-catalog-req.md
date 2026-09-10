@@ -33,7 +33,8 @@ The following catalog items are available in the supplier catalog:
 -   Submit an issue
 -   Update banking details
 -   Update profile details
--   Update default supplier \(from Xanadu December 2024 release onwards\)
+-   Update default supplier
+-   Update tax information \(from September 2026 release onwards\)
 -   Something else
 
 -   **[Add or remove a supplier location using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-add-remove-supploc.md)**  
@@ -56,6 +57,8 @@ Update the company profile when the details about your company change.
 Submit a request to gain access to the privileges of the primary contact role.
 -   **[Update default supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-default-supplier.md)**  
 Update the default supplier when multiple suppliers are linked with your profile.
+-   **[Update tax information using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-tax-information-from-portal.md)**  
+Suppliers can submit tax information change requests through the supplier portal to update or add tax details for their organization.
 -   **[Request something else using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-general-request.md)**  
 Request something else if the available catalog items in the supplier catalog do not meet your needs.
 

@@ -143,7 +143,7 @@ Option to enable the Activity stream for the record page. The Activity stream en
 
 5.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
 
-    For more information on playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+    For more information on playbooks, see .
 
     **Note:** You must have the Playbook Experience plugin installed.If you used a template to create the app, you can't add a playbook to the record page. For details on how to add a playbook for workspaces created from templates, see [this knowledgebase article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=13fd98de1bfd6510a4de35df034bcbce).
 
@@ -298,7 +298,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 </td><td>
 
-
+[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 
 </td></tr></tbody>
 </table>        The selected tools appear in the record page preview canvas.
@@ -313,7 +313,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d248369e924">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d247558e924">
 
 **Update the name of the record page**
 
@@ -330,7 +330,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d248369e959">
+</td></tr><tr><td id="d247558e959">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +338,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d248369e980">
+</td></tr><tr><td id="d247558e980">
 
 **Delete a record page**
 

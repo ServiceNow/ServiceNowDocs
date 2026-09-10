@@ -7,7 +7,7 @@ release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, AI agent, Email Parser, Structured data extraction, Supplier, payment acceleration request]
 breadcrumb: [Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]

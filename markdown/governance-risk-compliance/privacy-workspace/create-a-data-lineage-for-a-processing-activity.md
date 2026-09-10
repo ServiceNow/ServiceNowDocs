@@ -1,6 +1,6 @@
 ---
-title: Create a lineage for a processing activity
-description: Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
+title: Add relationships to a hierarchy for a processing activity
+description: Define new relationships in a hierarchy directly on a processing activity to record how it connects to vendors, applications, systems, and other processing activities across regions. This enables you to track cross-border data transfers and generate a lineage map to visualize data consumption, sharing, and the associated risks for a processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.html
 release: australia
@@ -12,71 +12,98 @@ reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Create a lineage for a processing activity
+# Add relationships to a hierarchy for a processing activity
 
-Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
+Define new relationships in a hierarchy directly on a processing activity to record how it connects to vendors, applications, systems, and other processing activities across regions. This enables you to track cross-border data transfers and generate a lineage map to visualize data consumption, sharing, and the associated risks for a processing activity.
 
 ## Before you begin
 
 The processing activity must be in Discover state or later. If the processing activity is in New state, move it to Discover before proceeding.
 
-Role required: Privacy analyst, Privacy manager, Privacy admin
+Role required: Privacy analyst, Privacy manager
 
 ## About this task
 
-Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity could involve multiple entities such as vendors, applications, and systems that make up the processing activity. These vendors, applications, and systems share data with each other, making it essential to establish a lineage that tracks where personal data is shared. This helps mitigate privacy-related risks.
+Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a hierarchy that describes how those entities interact and track where personal data is shared. Privacy Management then uses the relationships in a hierarchy to generate a data lineage map that visualizes how data moves across the processing activity. This helps mitigate privacy-related risks.
 
-You add lineage relationships from the **Hierarchy** tab using the **Add** button. The Add screen is a two-step flow. In the first step you define the relationship, and in the second step you provide the relationship details.
+Adding hierarchy relationships is a two-step flow. In the first step you define the relationship, and in the second step you provide the relationship details.
+
+A business user can also define such relationships as part of a privacy assessment. For details, see [Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Privacy Workspace** &gt; **Processing activities** &gt; **All processing activities**.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace**.
 
-2.  Navigate to the **Hierarchy** tab.
+2.  Select the List icon \[Omitted image "ListsIcon.jpg"\] Alt text:.
 
-3.  Select **Add**.
+3.  In the **Lists** tab, select **Processing activities** &gt; **All processing activities**.
 
-4.  In the Primary node field, review the pre-selected record.
+4.  Open a processing activity that is in the Discover state.
 
-    This field is automatically set to the processing activity you have open. You can change the primary node to any other node that has been linked with the processing activity.
+5.  Create new relationships in one the following ways.
 
-5.  In the **Relationship Type** field, select the relationship type that describes how this processing activity relates to the node you want to add.
+<table id="choicetable_y5d_d1q_hkc"><thead><tr><th align="left" id="d292288e138">
 
-    Select from the following options:
+Choice
 
-    1.  Depends on: The primary node depends on the related node for data. Data flows from the related node to the primary node.
-    2.  Contains: The primary node contains the related node. Data flows from the primary node to the related node.
-    3.  Contained by: The primary node is contained by the related node. Data flows from the related node to the primary node.
-    4.  Sends data to: The primary node sends data to the related node. Data flows from the primary node to the related node.
-    5.  Receives data from: The primary node receives data from the related node. Data flows from the related node to the primary node.
-    6.  Used by: The primary node is used by the related node. Data flows from the primary node to the related node.
-6.  In the **Related Node Type** field, select the type of entity you want to add.
+</th><th align="left" id="d292288e141">
 
-    The available types are Processing Activity, Entity, Business Application, Business Process, Business Service, Company, and Vendor.
+Path
 
-7.  In the Related Node field, select from the available related nodes list and then select **Next**.
+</th></tr></thead><tbody><tr><td id="d292288e147">
 
-    You can add more than one related node.
+**From Hierarchy tab**
 
-8.  For each related node, set the following options:
+</td><td>
 
-    -   Part of processing activity: This option is enabled by default. Keep it selected if this is part of the current processing activity.
-    -   Description: Enter a description of the relationship for this node.
-    -   Copy details: If you have added multiple nodes and want to apply the description of one node to all other nodes, select Copy Details on that node.
-    -   Remove: To remove a node before saving, select the remove icon next to that node.
-9.  Select **Add**.
+1.  Navigate to **Processing data inventory** &gt; **Hierarchy**.
+2.  Select **Add**.
+
+
+</td></tr><tr><td id="d292288e177">
+
+**From Data lineage map**
+
+</td><td>
+
+1.  Select **View lineage map**.
+2.  Select the **Primary record** card.
+3.  In the record panel, select **Add relationship**.
+
+
+</td></tr></tbody>
+</table>    The New relationship dialog box opens to the **Define relationships** step.
+
+6.  In the Define relationships form, fill in the fields.
+
+    For detailed description of the fields, see [Define relationships form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
+
+7.  Select **Next**.
+
+8.  For each Related node in the Relationship details form, fill in the fields.
+
+    For detailed description of the fields, see [Relationship details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
+
+9.  To automatically apply the same relationship details to every related node, select **Copy details to all**.
+
+10. Select **Add**.
 
 
 ## Result
 
-The new node appears in the **Hierarchy** tab list. When you select the View lineage map, the node appears in the graphical view. If the related node is itself a processing activity with existing relationships, those connections also appear in the map.
+The new relationship appears in the **Hierarchy** tab list. Select **View lineage map** for a graphical view of the new relationships added to the hierarchy. If a related node is itself a processing activity with existing relationships, those connections also appear in the map.
 
--   **[Edit a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/editing-data-lineage.md)**  
-Edit an existing lineage relationship to update the relationship type, description, or key relationship status of a connected node.
--   **[Delete a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/delete-data-lineage.md)**  
-Delete a lineage to remove a specific connection or node from the hierarchy of a processing activity.
--   **[Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md)**  
-Update the `sn_privacy.nodemap.maxLevel system` property to control how many node levels are visible on the lineage map.
+If the hierarchy relationship involves sending or receiving personal data from one node to another, data transfer records are generated to capture each movement. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md).
+
+## What to do next
+
+Manage the relationships from the **Processing data inventory** &gt; **Hierarchy** tab of the processing activity.
+
+-   To edit a relationship, select the record, and select **Edit**.
+-   To delete a relationship, select the record, and select **Remove**.
+
+-   **[New hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-relationship-forms.md)**  
+When creating a new hierarchy relationship in Privacy Management, you first define how a node is related to another. Then, you provide details for each related node.
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

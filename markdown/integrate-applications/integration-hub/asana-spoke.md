@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Asana spoke v1.0.2 is the latest version.
+Asana spoke v1.0.2 is the latest version. For version history of the spoke, see [Asana Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-asana.html).
 
 ## Spoke requirements
 

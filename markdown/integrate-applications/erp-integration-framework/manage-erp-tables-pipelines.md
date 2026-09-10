@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, prod, sub-prod, non-prod, development, move, update, update set]
-breadcrumb: [Build with ERP data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Building with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Managing ERP development pipelines in Zero Copy Connector for ERP
@@ -20,17 +20,17 @@ Move your ERP \(Enterprise Resource Planning\) systems, ERP models, tables, oper
 Changes that you could promote from a development instance to a production instance include adding:
 
 -   Fields to tables
--   Tables or BAPIs \(Business Application Programming Interface\) to ERP models
+-   Tables or BAPIs \(business application programming interfaces\) to ERP models
 -   Table joins and fields to link tables
 -   Create, read, and update operations
 -   Flows built with the **Use ERP Data** action to query and update the ERP system
 
-**Note:** You should do your development on a non-production instance. If you make changes on a production instance, then promote changes from a non-production instance to the production instance, changes previously made on the production instance are overwritten.
+**Note:** Do your development on a non-production instance. If you make changes on a production instance, then promote changes from a non-production instance to the production instance, changes previously made on the production instance are overwritten.
 
-There are several ways to move changes to your production instance on the ServiceNow AI Platform:
+You can move changes to your production instance on the ServiceNow AI Platform in several ways:
 
-1.  Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
-2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see .
+-   Use System Update Sets to transfer changes from a development instance to a non-production and then production instance. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+-   Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see [Publish an application to an Update Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PublishApplicationsToAnUpdateSet.md).
 
-For more information on ways to publish your ERP updates, see .
+For more information about ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md).
 

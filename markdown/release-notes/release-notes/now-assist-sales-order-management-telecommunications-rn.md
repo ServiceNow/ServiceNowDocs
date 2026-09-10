@@ -1,9 +1,9 @@
 ---
 title: Now Assist for Sales CRM for Telecommunications release notes
-description: The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+description: The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 
-## Now Assist for Sales CRM for Telecommunications highlights for the Australia release
+## About Now Assist for Sales CRM for Telecommunications
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
@@ -22,11 +22,29 @@ The ServiceNow® Now Assist for Sales CRM for Telecommunications application enr
 
 See [Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt-now-assist.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Now Assist for Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Sales CRM for Telecommunications features
+-   **Activation information**
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+    Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## Australia General Availability
+
+The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
+
+
+## April 2026
+
+The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -41,33 +59,15 @@ See [Now Assist for Sales CRM for Telecommunications](https://raw.githubusercont
 
     Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
 
+
+## Australia
+
+The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Move Order Voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-move-order-somt.md)**
 
     Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
 
-
-## Activation information
-
-Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-## Related ServiceNow applications and features
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface in the Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

@@ -1,18 +1,22 @@
 ---
 title: Virtual Agent release notes
-description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-27"
-reading_time_minutes: 9
+reading_time_minutes: 11
 ---
 
 # Virtual Agent release notes
 
 The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 
-## Virtual Agent highlights for the Australia release
+## About Virtual Agent
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
+-   Embed the enhanced chat widget on third-party websites.
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -24,46 +28,94 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Virtual Agent is a ServiceNow AI Platform feature that is active by default.
+
+
+**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)
+
+## September 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-portable-va-client-website.md)**
+
+    Embed the chat widget for enhanced chat on third-party websites.
+
+-   **[View all topics on the premium chat greeting screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
+
+-   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
+
+    Configure and update permissions for each tool when assigning a Model Context Protocol \(MCP\) server to an assistant that uses premium chat. A tool is a function made available through an MCP server that allows an assistant to access data or perform a task on behalf of the user.
+
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md)**
+
+    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+
+
+### What's changed
+
+-   **[Updated Otto processing animation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    View an updated Otto processing animation.
+
+-   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
+
+    Role-based configuration is no longer stored or managed within Assistant Designer.
+
+
+-   **[Upload files improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md)**
+
+    Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, PNG for premium chat in ServiceNow Otto for Virtual Agent and Otto panel.
+
+
+### What's deprecated or removed
+
+-   Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+## August 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[View Live Agent status updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
     Routing messages and section headers indicate when the live agent has entered and left the chat in premium chat conversations.
 
 
--   **[Switch between interactive views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+### What's changed
 
-    In premium chat conversations, switch between multiple interactive views through the drop-down selector including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.
+-   **[Refresh to the organization chart user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
-
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
-
-    Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
+    The org chart's user interface was updated for premium chat in ServiceNow Otto for Virtual Agent and ServiceNow Otto panel.
 
 -   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md)**
 
-    Enable estimated wait time for the next live agent. When enabled, users see the estimated wait time for the live agent in the chat menu item.
+    In **Assistant Designer** &gt; **Assistants** &gt; **Branding**, the standard chat and enhanced chat sections are condensed into one section.
 
--   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md)**
 
-    Premium chat now supports uploading documents directly into a conversation.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
--   **[Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/review-assistant-settings.md)**
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-    The MCP servers section shows which users can access Model Context Protocol \(MCP\)-provided capabilities through the assistant.
 
--   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)**
+## July 2026
 
-    Personalization is now shown by default.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 
+### What's new
 
 -   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
 
-    Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
-
-    By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
-
-    The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
+    Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
 
 -   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
 
@@ -71,9 +123,7 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 -   **[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md)**
 
-    If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
-
-    Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
+    If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
 
 -   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/edit-assistant.md)**
 
@@ -87,6 +137,12 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
     When in premium chat conversations, you can upload a document and view it in the interactive view.
 
+
+## June 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
 
@@ -104,44 +160,34 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 -   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md)**
 
-    Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.
-
-    To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
+    Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
 
 -   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md)**
 
-    For Now Assist in Virtual Agent assistants, voice input is available for premium chat.
-
-    For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
+    For Now Assist in Virtual Agent assistants, voice input is available for premium chat.For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
 
 -   **[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md)**
 
-    For premium chat, you can select a topic for fallback options.
-
-    For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.
-
-    For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
+    For premium chat, you can select a topic for fallback options.For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
 
 -   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/edit-assistant.md)**
 
-    View **All assets** to see the assets that are assigned to an assistant.
-
-    There is no limit to the number of assets that can be promoted.
-
-    If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
+    View **All assets** to see the assets that are assigned to an assistant.There is no limit to the number of assets that can be promoted.If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
 
 -   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)**
 
     Use the **sn\_nowassist\_va.assistant\_personalization** system property to show or hide chat personalization when branding an assistant. Personalization determines the tone of the assistant, response length, and persona.
 
--   ****
-
-    Manage the behavior of suggestions that users see when typing in the input box.
-
 -   **[Post-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
     Collect user feedback in premium chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
 
+
+## Australia General Availability
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/view-assistants.md)**
 
@@ -153,9 +199,7 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 -   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md)**
 
-    For the default Employee Slate assistant, configure premium chat branding. Select and configure the chat header, chat logo, and chat menu items such as a phone number, email, and link.
-
-    A **Channels** section is shown for Now Assist in Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
+    For the default Employee Slate assistant, configure premium chat branding. Select and configure the chat header, chat logo, and chat menu items such as a phone number, email, and link.A **Channels** section is shown for Now Assist in Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
 
 -   **[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md)**
 
@@ -188,32 +232,46 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
     The Now Assist Panel - Platform \(default\) assistant now has the premium chat experience configured by default.
 
 
-## UI changes
 
--   **[Refresh to the organization chart user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
-
-    The org chart's user interface was updated for premium chat in ServiceNow Otto for Virtual Agent and ServiceNow Otto panel.
-
--   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md)**
-
-    In **Assistant Designer** &gt; **Assistants** &gt; **Branding**, the standard chat and enhanced chat sections are condensed into one section.
-
+### What's changed
 
 -   **[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/vad-topics-page.md): actions for this row icon**
 
     The tooltip for the **Discoverable** and **Visible** options now explains that Setup topics can't be discoverable or visible, as they aren't editable by users. The Live Agent topic is excepted.
 
 
-## Changed in this release
+### What's deprecated or removed
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+-   -   
+## Australia
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Switch between interactive views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    In premium chat conversations, switch between multiple interactive views through the drop-down selector including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.
 
 
-## Activation information
+-   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
 
-Virtual Agent is a ServiceNow AI Platform feature that is active by default.
+    Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
 
-**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)
+-   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md)**
+
+    Enable estimated wait time for the next live agent. When enabled, users see the estimated wait time for the live agent in the chat menu item.
+
+-   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md)**
+
+    Premium chat now supports uploading documents directly into a conversation.
+
+-   **[Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/review-assistant-settings.md)**
+
+    The MCP servers section shows which users can access Model Context Protocol \(MCP\)-provided capabilities through the assistant.
+
+-   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)**
+
+    Personalization is now shown by default.
+
 

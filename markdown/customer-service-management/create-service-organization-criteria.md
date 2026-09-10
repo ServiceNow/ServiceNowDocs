@@ -18,6 +18,8 @@ Define the criteria within organization criteria \[service\_organization\_criter
 
 Role required: admin
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Administration** &gt; **Organization Criteria**.

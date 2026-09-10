@@ -1,18 +1,18 @@
 ---
 title: Collaborative Work Management release notes
-description: The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+description: The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.The ServiceNow Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-08-03"
-reading_time_minutes: 7
+reading_time_minutes: 8
 ---
 
 # Collaborative Work Management release notes
 
 The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
 
-## Collaborative Work Management highlights for the Australia release
+## About Collaborative Work Management
 
 -   Track and break down project tasks on a Board, while your work automatically rolls up to the plan in Project Workspace.
 -   Save time and effort by importing existing tasks and stories into CWM.
@@ -22,24 +22,60 @@ The ServiceNow® Collaborative Work Management \(CWM\) application provides a ce
 
 See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+    Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Accessibility improvements**
+
+        Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+
+    -   **Reflow**
+
+        Docs in CWM Configurable Workspace support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+
+        This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
+
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/connect-project-workspace-cwm.md)**
 
     Deliver your part of a project without leaving CWM or duplicating work progress in Project Workspace. Track project tasks assigned to you in **My Work**, break them down into CWM tasks and stories directly from a Board, and see the project and project task that you're contributing to.
 
     Save time on status updates because your work rolls up to the project automatically. Any child tasks that you create are automatically linked to the parent project task and its project, you can reassign or remove that connection as work evolves, and project managers see the same updates in Project Workspace.
+
+
+### What's changed
+
+-   **[AI skills for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-explore.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-task-dependencies-relationships-cwm.md)**
+
+    You can now search by task number, in addition to name, when adding a relationship to a work item.
+
+
+## June 2026
+
+The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Import tasks into CWM Boards using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/importing-tasks-cwm-boards.md)**
 
@@ -53,11 +89,49 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
     Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
 
+
+### What's changed
+
+-   **[Inline comments changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-docs.md)**
+    -   The Add comments icon appears in the inline toolbar.
+    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
+    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
+    -   Users can turn highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
+
+## Australia General Availability
+
+The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+
+### What's new
+
+
+## April 2026
+
+The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
 -   **[Team member roles for project work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-team-member-roles.md)**
 
     View and update project and demand tasks directly in CWM using team member roles, installed alongside Collaborative Work Management.
 
     The team member read role lets users view project and demand tasks and leave comments. The team member read-write role also lets users edit those tasks. Team members can view and manage the work assigned to them and their team through **My Work** and **Connected Work** in CWM.
+
+
+## Australia
+
+The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Formula columns in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/add-formula-column-cwm-boards.md)**
 
@@ -90,13 +164,8 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
     Save images from your CWM documents directly to your device, making it easier to share or use them outside of the Docs environment.
 
 
-## UI changes
+### What's changed
 
--   **[Inline comments changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-docs.md)**
-    -   The Add comments icon appears in the inline toolbar.
-    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
-    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
-    -   Users can turn highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
 -   **[Formatting toolbar changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-docs.md)**
 
     Quickly confirm which text formatting is active for your text selection. A green checkmark now appears next to the currently applied format in the formatting toolbar, giving you a clear visual indicator of the active formatting.
@@ -106,48 +175,8 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
     In the sprint section footer of the Sprint planning view, unstarted sprints now display only the % of capacity utilized and remaining story points.
 
 
-## Changed in this release
-
--   **[AI skills for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-explore.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
 -   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
--   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-task-dependencies-relationships-cwm.md)**
-
-    You can now search by task number, in addition to name, when adding a relationship to a work item.
-
-
-## Activation information
-
-Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
--   **Accessibility improvements**
-
-    Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-    Docs in CWM Configurable Workspace support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-    This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
-
-
-## Related ServiceNow applications and features
-
--   **[ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-landing.md)**
-
-    The ServiceNow®ServiceNow Otto for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
-
--   **[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/alignment-planner-workspace-landing-page.md)**
-
-    Prioritize, roadmap, and track work when using traditional, Agile, or hybrid methodologies with the ServiceNow® Strategic Planning application. Align strategy to execution by defining and tracking goals across your organization. Strategic Planning is available with an SPM Professional license.
-
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
 

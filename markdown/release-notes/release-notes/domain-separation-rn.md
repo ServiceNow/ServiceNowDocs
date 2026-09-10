@@ -1,9 +1,9 @@
 ---
 title: Domain Separation release notes
-description: The ServiceNow Domain Separation application enables you to separate data, processes, and administrative tasks into logically defined domains. Domain Separation was enhanced and updated in the Australia release.
+description: The ServiceNow Domain Separation application enables you to separate data, processes, and administrative tasks into logically defined domains. Domain Separation was enhanced and updated in the Australia release.The ServiceNow Domain Separation application enables you to separate data, processes, and administrative tasks into logically defined domains. Domain Separation was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Domain Separation application enables you to separate data, processes, and administrative tasks into logically defined domains. Domain Separation was enhanced and updated in the Australia release.
 
-## Domain Separation highlights for the Australia release
+## About Domain Separation
 
 -   Use the new AI agent to manage domain visibility through natural language. Query, validate, add, and remove visibility settings without navigating complex admin interfaces.
 
@@ -21,7 +21,20 @@ The ServiceNow® Domain Separation application enables you to separate data, pro
 
 See for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Domain Separation is a ServiceNow AI Platform feature available with activation of the `com.glide.domain.activation_utility` plugin. For details, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Domain Separation application enables you to separate data, processes, and administrative tasks into logically defined domains. Domain Separation was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[AI Agent for Domain Visibility Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-sep-aia.md)**
 
@@ -36,7 +49,7 @@ See for more information.
     Domain visibility queries now complete in under one second on average — a 70% reduction from the previous 3.2 second average for large instances. A new query optimization replaces multiple OR conditions with a single IN clause on the domain ID for instances that exceed the configured domain collection size threshold. All 785 Domain Separation customers benefit from faster queries, with the greatest impact for the 20 customers operating 10,000 or more domains.
 
 
-## Changed in this release
+### What's changed
 
 -   **Dot-Walk Scoping Bypass Compliance \(DIRS0000335\)**
 
@@ -46,10 +59,4 @@ See for more information.
 
     Domain Separation has been validated and updated to run on the Java 21 runtime introduced in the Australia release. Deprecated Java APIs have been removed from the Domain Separation codebase. No action is required for customers — this update is included automatically with the Australia upgrade.
 
-
-## Activation information
-
-Domain Separation is a ServiceNow AI Platform feature available with activation of the `com.glide.domain.activation_utility` plugin. For details, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

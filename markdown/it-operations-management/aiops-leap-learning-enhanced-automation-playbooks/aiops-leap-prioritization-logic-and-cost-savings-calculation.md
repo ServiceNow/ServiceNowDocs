@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Savings metrics, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [LEAP savings metrics, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # LEAP prioritization logic and cost savings calculation

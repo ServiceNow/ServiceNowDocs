@@ -16,6 +16,8 @@ breadcrumb: [Channels, Workforce Optimization for ITSM, IT Service Management]
 
 Set up service channels, queues, and key performance indicators \(KPIs\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 With Workforce Optimization for ITSM:
 
 -   As a channel administrator, you can set up service channels and work item queues and then automatically route incoming work to agents. You can also configure real-time refresh intervals for the metrics and lists so that managers can always see the latest information about their teams.

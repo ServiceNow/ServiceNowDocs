@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforlegalservicedeliverylsd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -72,26 +72,13 @@ Zurich
 Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
 
--   **[Now LLM LTS support for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=zurich&ft:locale=en-US)**
-
-Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
-
--   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install an AI product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
-
--   ****
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Conversational intake for COI](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&family=australia&ft:locale=en-US)**
+-   **[Submit COI request using AI](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&family=australia&ft:locale=en-US)**
 
 Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
@@ -115,23 +102,10 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow AI implementation](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
-
-
-
-
 -   **[Summarize request and matters](https://www.servicenow.com/docs/access?context=now-assist-lsd-summarize-case&family=zurich&ft:locale=en-US)**
 
 Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
-
-
--   ****
--   ****
 
 </td></tr><tr><td>
 
@@ -221,7 +195,10 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Otto for Legal Service Delivery \(LSD\) by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for Legal Service Delivery \(LSD\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -229,7 +206,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Legal Service Delivery \(LSD\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -279,7 +259,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 The ServiceNow Otto for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -287,7 +270,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 To see the list of supported browsers for ServiceNow Otto for Legal Service Delivery \(LSD\), see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information

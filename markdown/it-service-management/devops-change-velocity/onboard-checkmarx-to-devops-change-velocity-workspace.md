@@ -30,15 +30,15 @@ Checkmarx has two types of tools - Checkmarx SAST and Checkmarx One.
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Checkmarx.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d322465e81">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d326998e81">
 
 Option
 
-</th><th align="left" id="d322465e84">
+</th><th align="left" id="d326998e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322465e90">
+</th></tr></thead><tbody><tr><td id="d326998e90">
 
 **Homepage**
 
@@ -48,7 +48,7 @@ Steps
 2.  On the  Connect to a tool  modal, select **Checkmarx One** or **Checkmarx SAST** from the **Security** category.
 
 
-</td></tr><tr><td id="d322465e120">
+</td></tr><tr><td id="d326998e120">
 
 **Applications module**
 
@@ -60,7 +60,7 @@ Steps
 4.  On the  Connect to a tool  modal, select **Checkmarx One** or **Checkmarx SAST** from the **Security** category.
 
 
-</td></tr><tr><td id="d322465e172">
+</td></tr><tr><td id="d326998e172">
 
 **Tools module**
 
@@ -77,15 +77,15 @@ Steps
 
 3.  On the instance details playbook activity section, enter the following credentials based on whether you are connecting to Checkmarx One or Checkmarx SAST.
 
-<table id="choicetable_e1f_tgd_xyb"><thead><tr><th align="left" id="d322465e243">
+<table id="choicetable_e1f_tgd_xyb"><thead><tr><th align="left" id="d326998e243">
 
 Tool
 
-</th><th align="left" id="d322465e246">
+</th><th align="left" id="d326998e246">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322465e252">
+</th></tr></thead><tbody><tr><td id="d326998e252">
 
 **Checkmarx SAST**
 
@@ -96,7 +96,7 @@ Steps
 3.  In the **API key** field, enter the API key of your Checkmarx SAST instance.
 
 
-</td></tr><tr><td id="d322465e287">
+</td></tr><tr><td id="d326998e287">
 
 **Checkmarx One**
 
@@ -148,8 +148,8 @@ Steps
         -   If you are using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always.
         -   You can configure Checkmarx scans on any stage of the pipeline and the scan details are retrieved from the corresponding stage to DevOps Change Velocity. If you’re using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always. If you’re using Jenkins, and your pipeline already has a Checkmarx One security scan \(checkmarxASTScanner\) step, you don’t have to add the custom action code in your pipeline. For Checkmarx SAST, the custom action code must be added in your pipeline even if it has the security scan step \(checkmarxASTScanner\).
     -   If this is the not the first security tool instance you’re onboarding, the respective custom action codes for orchestration tools that you’ve selected in step 6 will be available to copy. If you’re using Jenkins, and your pipeline already has a Checkmarx One security scan \(checkmarxASTScanner\) step, you don’t have to add the custom action code in your pipeline.
-    -   If you want to configure Checkmarx for the GitLab tool, you can either use the generic Docker container image to add the Checkmarx security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
-    -   For Harness pipelines, you can configure Checkmarx scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md)
+    -   If you want to configure Checkmarx for the GitLab tool, you can use the generic Docker container image to add the Checkmarx security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+    -   For Harness pipelines, you can configure Checkmarx scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md)
     -   Alternatively, you can associate pipeline with security tool instance by adding security tool ID to the custom action code. This will override any previously associated security tool instance.
     \[Omitted image "checkmarx-one-pl05.png"\] Alt text: Add custom actions to pipeline playbook activity Checkmarx SAST
 

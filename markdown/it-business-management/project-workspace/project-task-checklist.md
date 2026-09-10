@@ -18,9 +18,9 @@ Track the activities that must be completed on a task using the project task che
 
 For a project task to be considered complete, you can track activities that do not require separate sub tasks. For example, you have a human resources-related project that includes a task for interviewing candidates. You can also track booking a meeting room or getting an interview confirmation from the candidate. Create a checklist item for each and mark when they have been completed.
 
-Checklist items do not have start or end dates, nor do they track effort or cost. By default, a checklist item record provides only a name with a check box, which can be selected or unselected. The state of the project task is independent of the state of the checklist items.
+Checklist items don't have start or end dates, nor do they track effort or cost. By default, a checklist item record provides only a name with a check box, which can be selected or unselected. The state of the project task is independent of the state of the checklist items.
 
-Checklists, as well as tasks, are copied into a project template. You also have access to all checklist templates from any project task form.
+Checklists and tasks are copied into a project template. You also have access to all checklist templates from any project task form.
 
 **Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
 

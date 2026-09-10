@@ -30,9 +30,9 @@ Use the RIDAC Decision form to document and track critical planning decisions re
 |Estimated Cost|Estimated cost in currency \(for example, USD\) associated with implementing the decision. Helps with financial tracking and planning.|
 |Due date|Target date for decision implementation or effective date.|
 |Assigned to|User or team responsible for implementing the decision and tracking its outcomes.|
+|Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Planning Item|The planning item \(project, demand, epic, feature, or custom planning item\) that this decision is associated with. This field is auto-populated when a decision is created from a planning item context.|
 |Enterprise agile iteration|The EAP iteration associated with this decision. This field is auto-populated when a decision is created from an EAP iteration context.|
 |Goal|The goal \(portfolio plan goal or board goal\) that this decision is associated with. This field is auto-populated when a decision is created from a goal context.|
-|Parent|Parent decision, if this decision depends on or relates to another decision. Used for decision hierarchy and dependency tracking.|
 |Work notes|Internal notes and updates about decision evaluation, discussions, approval status, and implementation progress. Used to track decision history and communication.|
 

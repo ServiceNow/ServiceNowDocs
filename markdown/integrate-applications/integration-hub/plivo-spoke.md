@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Plivo spoke v1.3.0 is the latest version.
+Plivo spoke v1.3.0 is the latest version. For version history of the spoke, see [Plivo spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-plivo.html).
 
 ## Supported versions
 

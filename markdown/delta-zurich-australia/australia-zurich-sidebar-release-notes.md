@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-sidebar-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -197,7 +197,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://www.servicenow.com/docs/access?context=install-sidebar&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -205,7 +208,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Sidebar is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

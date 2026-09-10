@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article with ServiceNow Otto
-description: Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
+description: Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Generate a knowledge article with ServiceNow Otto
 
-Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
+Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ Role required: agent
 
 ## About this task
 
-In the CSM Configurable Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
+In the CRM Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
 
 **Note:**
 

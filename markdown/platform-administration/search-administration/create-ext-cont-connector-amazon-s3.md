@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-08-18"
+reading_time_minutes: 7
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content from your Am
 
 ## Before you begin
 
-A source system administrator must have already configured your Amazon S3 source system to allow access by the Amazon S3 external content connector. For details on configuring these settings in the source system, see [Configure Amazon S3 for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
+A source system administrator must have already configured your Amazon S3 source system to allow access by the Amazon S3 external content connector. For the required source system configuration steps, see [Configure Amazon S3 for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-amazon-s3-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -75,22 +75,87 @@ I agree to the following legal disclaimer
 
 </td><td>
 
-Option acknowledging that the Amazon S3 external content connector makes all crawled content accessible by all search users. Amazon S3 content access permissions do not rely on users' email addresses, as retrieved in user permission crawls. As a result, user permission crawls are not supported for the Amazon S3 external content connector.
+Option acknowledging that the Amazon S3 external content connector makes all crawled content accessible by all search users. Amazon S3 content access permissions don't rely on users' email addresses, as retrieved in user permission crawls. As a result, user permission crawls aren't supported for the Amazon S3 external content connector.
 
 </td></tr></tbody>
-</table>6.  Save and validate your connection settings by selecting **Validate Connection**.
+</table>6.  Expand the **Advanced connection settings** section and fill in the fields.
+
+<table id="table_u4x_znw_gkc"><thead><tr><th>
+
+ 
+
+</th><th>
+
+ 
+
+</th></tr></thead><tbody><tr><td>
+
+Endpoint resolution
+
+</td><td>
+
+Selection mode for the AWS endpoint to use for connection and authentication.Supported values:
+
+-   **Automatic**: The connector uses the AWS SDK and your **AWS region** and **Use FIPS compliant endpoints** settings to automatically select the AWS endpoint to use.
+-   **Manual**: The connector uses the AWS endpoint and region that you specify in the **Endpoint** and **AWS region** fields.
+
+
+</td></tr><tr><td>
+
+Use FIPS compliant endpoints
+
+</td><td>
+
+Option to force connection and authentication operations to use an AWS endpoint host that conforms to the Federal Information Processing Standards.This option appears only when you set **Endpoint resolution** to **Automatic**. It's only accessible when the region specified in the **AWS region** field supports FIPS endpoints.
+
+</td></tr><tr><td>
+
+Endpoint
+
+</td><td>
+
+URL for the AWS endpoint host you want the connector to use for connection and authentication. As an example, to make the connector use the `s3.us-east-1.amazonaws.com` endpoint with the HTTPS protocol, you might enter `https://s3.us-east-1.amazonaws.com`.This field appears only when you set **Endpoint resolution** to **Manual**.
+
+For the full list of supported endpoints, see the [Amazon Simple Storage Service endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/s3.html) Amazon documentation resource.
+
+**Note:** The Amazon resource lists endpoint hostnames. This field's value must be a valid URL, with the HTTP or HTTPS protocol prefix included.
+
+</td></tr><tr><td>
+
+AWS region
+
+</td><td>
+
+AWS region containing your Amazon S3 buckets. As an example, you might specify `us-west-1`.When **Endpoint resolution** is set to **Automatic**, the connector uses this region and the **Use FIPS compliant endpoints** option to determine the correct AWS endpoint to use for connection and authentication.
+
+To view the list of AWS regions, see the [Amazon Simple Storage Service endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/s3.html) Amazon documentation resource.
+
+**Note:** For regulatory market compliance, specify a regulated market AWS region, such as `us-gov-east-1` or `us-gov-west-1`.
+
+</td></tr><tr><td>
+
+Buckets
+
+</td><td>
+
+List of Amazon S3 buckets containing your content. Enter a bucket name and press **Add** to add it to the list.You must populate this field when using an AWS endpoint that doesn't support automatic bucket discovery, such as a FIPS endpoint or an Amazon S3 Outposts endpoint. For other endpoints, you can leave this field empty to enable auto-discovery of buckets.
+
+When this list is populated, the connector only retrieves searchable content and metadata from the specified Amazon S3 buckets.
+
+</td></tr></tbody>
+</table>7.  Save and validate your connection settings by selecting **Validate Connection**.
 
     **Note:** If validation of your connection settings fails, the system shows an error message. Verify your connection settings to ensure they're correct. If permissions required by the connector are missing or incorrectly configured in the source system, a warning message appears showing the permissions that must be corrected. Provide the information from this message to your source system administrator.
 
-7.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
+8.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for an Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-cc-ext-cont-connector.md).
 
-8.  On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
+9.  On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can create and run crawls for this connector from the External Content Admin Home page. For details on creating content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-9.  On the Connect search profile page, use the **Connect to search profile** field and **Add** button to add any search profiles that you want to connect this external content connector's default search source to, then select **Save**.
+10. On the Connect search profile page, use the **Connect to search profile** field and **Add** button to add any search profiles that you want to connect this external content connector's default search source to, then select **Save**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can connect search sources for this connector to search profiles from the External Content Admin Home page. For details on connecting an external content connector to search profiles, see [Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/connect-external-content-connector-search-profile.md).
 

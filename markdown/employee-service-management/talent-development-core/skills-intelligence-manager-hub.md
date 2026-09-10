@@ -30,7 +30,7 @@ Role required: sn\_skills\_int.manager
 
 4.  On the **Employee details** tab, select the **Skills** tab.
 
-    \[Omitted image "skills-validated-skills.png"\] Alt text: Skill validation section in Manager Hub.
+    \[Omitted image "skills-validated-skills.png"\] Alt text: Skills tab showing Validate skills button, list of skills needing validation, and detailed activity view for selected Agentic skill with completed credentials
 
 5.  Select the **Validate skills** button, and then select the skills that you want to validate.
 

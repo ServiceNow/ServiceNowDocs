@@ -189,6 +189,8 @@ Train the Similar Demands solution definition is included within the Predictive 
 Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
 -   **[Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/associate-ai-systems-with-demands.md)**  
 Add and manage AI system associations directly from the **AI Associations** tab in Demand Management.
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/my-demands-widget-ppm.md)**  
+The My Demands widget and conversational experience in Employee Slate brings demand creation and tracking into a single, conversation-first workspace. Requesters can create demands through the conversational experience and track them using widgets.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandManagement.md)
 

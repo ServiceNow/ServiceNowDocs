@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [SAM advisor dashboard indicators, software install data quality metrics, duplicate software installs, server installs missing cloud license, virtual server host relationship indicators]
 breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
@@ -25,11 +25,11 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
 -   **Installs by**
 
-    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by a selectable dimension: software publisher \(default\), normalized software product, the CI class of the CI hosting the install, or discovery source.
+    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by a selectable dimension. Options include software publisher \(default\), normalized software product, the CI class of the CI hosting the install, or discovery source.
 
 -   **Software installs by normalization status**
 
-    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by normalized software product, the CI class of the CI hosting the install, and the normalization status recorded on the associated Software Discovery Model.
+    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by normalized software product and the CI class of the CI hosting the install. Installs are further grouped by the normalization status recorded on the associated Software Discovery Model.
 
 -   **Software installs missing edition**
 
@@ -41,11 +41,11 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
 -   **Server installs missing cloud license**
 
-    Total number of software installs on CIs where a cloud provider is populated and a cloud license type isn't populated, limited to a defined set of qualifying software products that require cloud license tracking.
+    Total number of software installs on CIs where a cloud provider is populated and a cloud license type isn't populated. The count is limited to a defined set of qualifying software products that require cloud license tracking.
 
 -   **Installs by CI install status**
 
-    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by the install status of the CI hosting the install. On instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is active, this card is named **Installs by lifecycle stages**, and installs are grouped by life cycle stage instead.
+    Software installs from the Software Install \[cmdb\_sam\_sw\_install\] table, grouped by the install status of the CI hosting the install. On instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is active, this card is named **Installs by life cycle stages**, and installs are grouped by life cycle stage instead.
 
 -   **CIs missing environment**
 
@@ -73,24 +73,24 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
 -   **Duplicate CIs**
 
-    Total number of software installs on CIs identified as duplicates, where the CI has a follow-on de-duplication task in the Reconcile Duplicate Task \[reconcile\_duplicate\_task\] table that is still active, limited to installs of selected software products.
+    Total number of software installs on CIs identified as duplicates, where the CI has an active follow-on de-duplication task in the Reconcile Duplicate Task \[reconcile\_duplicate\_task\] table. Counts are limited to installs of selected software products.
 
--   **Virtual machines without host server CI relationships**
+-   **Virtual machines without host CI relationships**
 
-    Total number of software installs, scoped to the selected SAM products, on Windows Server or Linux Server virtual CIs that don't have a Virtualized by::Virtualizes relationship to a host CI, limited to VMware ESX Server and Microsoft Hyper-V virtual infrastructure, resulting in gaps in licensing compliance tracking.
+    Total number of software installs on Windows Server or Linux Server virtual CIs missing a Virtualized by::Virtualizes relationship to a host CI, scoped to selected SAM products. The check is limited to VMware ESX Server and Microsoft Hyper-V virtual infrastructure. Missing relationships can create gaps in licensing compliance tracking.
 
--   **Incorrect virtual server infrastructure relationships**
+-   **Virtual CIs with incorrect host CI relationships**
 
-    Total number of Virtualized by or Member of relationships for virtual server CIs, limited to VMware ESX Server and Microsoft Hyper-V virtual infrastructure, that relationship health analysis flags as incorrect or suggested for removal. On the KPI Details page, this indicator appears under the heading Incorrect infrastructure relationships.
+    Total number of Virtualized by or Member of relationships for virtual server CIs, limited to VMware ESX Server and Microsoft Hyper-V virtual infrastructure. Relationship health analysis flags these relationships as incorrect or suggested for removal. On the KPI Details page, this indicator appears under the heading Incorrect infrastructure relationships.
 
 -   **Install status distribution matched**
 
-    Virtual server software installs where the install status, or life cycle stage, of the virtual server CI matches the install status, or life cycle stage, of its related host CI.
+    Virtual server software installs where the install status, or life cycle stage, of the virtual server CI matches that of its related host CI.
 
 -   **Install status distribution mismatched**
 
-    Virtual server software installs where the install status, or life cycle stage, of the virtual server CI doesn't match the install status, or life cycle stage, of its related host CI.
+    Virtual server software installs where the install status, or life cycle stage, of the virtual server CI doesn't match that of its related host CI.
 
 
-**Note:** Relationship-based indicators require the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job to have run. If the job is inactive, the dashboard displays a `Relationship data incomplete` alert with a **Run job** action, and metrics in the Virtual CI relationships section may be incomplete.
+**Note:** Relationship-based indicators require the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job to have run. If the job is inactive, the dashboard displays a message indicating that relationship data is incomplete, with an option to run the job. Metrics in the Virtual CI relationships section may be incomplete as a result.
 

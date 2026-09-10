@@ -36,6 +36,8 @@ By default, News Integration for Supplier Lifecycle Operations retrieves the sup
 
 [Relish Integration for Supplier Lifecycle Operations]()
 
+[FedEx Dataworks Integration for Supplier Lifecycle Operations]()
+
 [Configure the Supplier News REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-news-rest.md)
 
 [Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)

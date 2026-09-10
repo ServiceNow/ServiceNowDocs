@@ -92,5 +92,5 @@ Option that indicates if Now LLM was used while requesting the item, that is, if
 
 [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
 
-[Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md)
+[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md)
 

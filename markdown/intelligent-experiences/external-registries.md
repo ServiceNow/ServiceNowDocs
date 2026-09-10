@@ -19,7 +19,7 @@ When an AI agent is added to the inventory, AI Control Tower tracks whether it c
 
 AI Control Tower no longer pushes agents to Microsoft. Instead, an AI steward marks an agent as publishable, which exposes it through a ServiceNow API. External systems such as Microsoft Agent 365 \(A365\) can then call this API at their own schedule \(example: a periodic daily job\) to discover and retrieve those agents.
 
-Publishing an AI agent to an external registry makes it discoverable outside the AI Control Tower. Marking an agent as unpublishable removes it from consideration for external publication while keeping it active in the inventory. The agent continues to operate and is still managed by AI Control Tower regardless of its publish-ability status.
+Publishing an AI agent to an external registry makes it discoverable outside the AI Control Tower. Marking an agent as unpublishable removes it from consideration for external publication while keeping it active in the inventory. The agent is still managed by AI Control Tower regardless of its publish-ability status.
 
 **Note:** Changing the publish-ability status of an AI agent does not affect its operational status or governance controls within AI Control Tower.
 

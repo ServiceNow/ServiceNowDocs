@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-healt
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [AI search, LLM status, semantic layer]
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -89,7 +89,7 @@ Query Generation enabled products
 
 </td><td>
 
-Installed products that use Query Generation and their statusThe Now Assist Explorer entry refers to AI Data Explorer.
+Installed products that use Query Generation and their status
 
 </td><td>
 

@@ -58,7 +58,7 @@ Supported version: 21.3.71.
 
         The format date and time. Default format M/d/yyyy/ h:mm:ss a. If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event will not be processed correctly.
 
-        For example, if an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**, modify the **date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+        For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
 
         In the **date\_format**, `a` represents AM, and `p` represents PM.
 

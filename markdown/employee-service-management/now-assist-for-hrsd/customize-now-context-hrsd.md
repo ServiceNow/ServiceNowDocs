@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Configure Activity Response Generation for HR Case, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configuring the Now Assist Context Menu for HR Service Delivery
@@ -74,7 +74,7 @@ The Now Assist context menu configuration is accessible through the Now Assist E
 
     -   Select In-product desktop to show Case NACM Config for HR Case ARG in HR Agent Workspace and Core UI.
     -   Select roles for whom NACM Config for HR Case ARG will be displayed.
-10. In Review and Activate step, select a record with the specific usage conditions from the drop down to test the configuration.
+10. In the Review and Activate step, select a record with the specific usage conditions from the drop down to test the configuration.
 
     1.  Select **Preview** to view the final output of the configuration.
 
@@ -85,5 +85,5 @@ The Now Assist context menu configuration is accessible through the Now Assist E
 11. Select **Done**.
 
 
-**Parent Topic:**[Configure Activity Response Generation for HR Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

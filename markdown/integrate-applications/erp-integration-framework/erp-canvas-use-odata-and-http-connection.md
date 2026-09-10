@@ -1,5 +1,5 @@
 ---
-title: Connect Zero Copy Connector for ERP to SAP using OData
+title: Connecting Zero Copy Connector for ERP to SAP using OData
 description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
@@ -7,23 +7,23 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-08-05"
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, connection]
-breadcrumb: [Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connect Zero Copy Connector for ERP to SAP using OData
+# Connecting Zero Copy Connector for ERP to SAP using OData
 
 Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 
 **Important:**
 
-OData v2 does not use snapshot isolation so you might experience some data consistency issues when retrieving data from an external ERP source.
+OData v2 doesn't use snapshot isolation, so you might experience some data consistency issues when retrieving data from an external ERP source.
 
 ## Providing OData access to users
 
-You must have an SAP system that has been enabled to make an OData connection.
+You must have an SAP system enabled for OData connections.
 
 To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
 
@@ -65,7 +65,7 @@ string
 
 </td><td>
 
-After the hostname and port, this path is used to connect with any SAP catalog service. The default is: /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. After creating the property and setting it to true, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP. **Note:** If there's an update in the catalog service and you want to update the table catalog information, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
+After the hostname and port, this path is used to connect with any SAP catalog service. The default is: /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. After you create the property and set it to true, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP. **Note:** To update the table catalog information, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
 
 </td><td>
 
@@ -85,7 +85,7 @@ integer
 
 </td><td>
 
-Limits the number of records fetched for GET calls by adding the $top parameter to the OData calls. This reduces the number of records read from the Odata endpoint.
+Limits the number of records fetched for GET calls by adding the $top parameter to the OData calls. This reduces the number of records read from the OData endpoint.
 
 </td><td>
 
@@ -93,7 +93,7 @@ No
 
 </td><td>
 
- 
+admin
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ integer
 
 </td><td>
 
-Specifies the timeout value for OData response. If OData calls are timed out frequently, increase the timeout value. Specify the value in seconds. The default is 100 seconds. This value is used for responses both from external web and from a MID Server.
+Specifies the timeout value for OData response. If OData calls time out frequently, increase the timeout value. Specify the value in seconds. The default is 100 seconds. This value is used for responses both from external web and from a MID Server.
 
 </td><td>
 
@@ -145,7 +145,7 @@ true \| false
 
 </td><td>
 
-Specifies if cookies must be used for OData connection.
+Specifies whether to use cookies for an OData connection.
 
 </td><td>
 
@@ -165,7 +165,7 @@ true \| false
 
 </td><td>
 
-Indicates if CSRF token should be sent for OData calls in Zero Copy Connector for ERP operations.
+Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td><td>
 
@@ -180,9 +180,9 @@ admin or sn\_erp\_integration.erp\_admin
 
 ## Heartbeat information
 
-For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats are set to active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record.
+For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats are set to active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status appears on the system record.
 
-\[Omitted image "erpc-system-heartbeats.png"\] Alt text: System record with ODATA retrieval status of completed.
+\[Omitted image "erpc-system-heartbeats.png"\] Alt text: System record with OData retrieval status of completed.
 
 ## More information
 

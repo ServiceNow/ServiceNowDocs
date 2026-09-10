@@ -72,3 +72,5 @@ Compose and send emails directly from an invoice inquiry case or an invoice proc
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

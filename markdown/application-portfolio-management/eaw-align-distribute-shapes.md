@@ -23,7 +23,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-When working with multiple shapes on the diagram canvas, you can use the alignment and distribution options to arrange them. Select two or more shapes to enable the alignment toolbar options. Select three or more shapes to enable the distribute options.
+\[Omitted video\] Description: Organize shapes on the diagram canvas by aligning or distributing them.When working with multiple shapes on the diagram canvas, you can use the alignment and distribution options to arrange them. Select two or more shapes to enable the alignment toolbar options. Select three or more shapes to enable the distribute options.
 
 **Note:** You can't align or distribute shapes in a business capability map diagram.
 

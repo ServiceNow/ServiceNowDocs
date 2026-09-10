@@ -8,8 +8,8 @@ product: Audit Management
 classification: audit-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [File Access Permissions, Cloud File Access Setup, Cloud Document Management, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+reading_time_minutes: 4
+breadcrumb: [File Access Permissions, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # File access permissions
@@ -20,7 +20,7 @@ The Workspace administrators with the sn\_grc\_workspace.admin role can configur
 
 The Workspace administrators with the sn\_grc\_workspace.admin role can configure different conditions for file access permissions:
 
--   For a combination of the **Table** field, **Access permission** field, and **Users** field, you can have only one File access permission record. If you have an existing record for a table with a given set of user and access permissions, you cannot create a duplicate record with the same access permissions. For example, if a contributor has Read access permission for the policy \(sn\_compliance\_policy\) record, creating another record for the same condition is not permitted.
+-   For a combination of the **Table** field, **Access permission** field, and **Users** field, you can have only one File access permission record. Duplicate records with the same access permissions are not permitted. For example, if a contributor has Read access permission for the policy \(sn\_compliance\_policy\) record, creating another record for the same condition is not permitted.
 -   For a given combination of the **Table** field, **Provider** field, and **Active** option, only one Cloud file configuration record is permitted. A duplicate configuration is not permitted for an active table as shown in the following example.
 
     \[Omitted image "doc-access-config-no-duplicate-config.png"\] Alt text: Duplicate configuration.
@@ -37,9 +37,9 @@ A source link to the GRC record always has the write access and the reference li
 
 When a record is mapped as a source link to the cloud file, the configuration is applied as it is to the cloud file. For example, if the configuration contains write access for some users and read access for some users, the same configuration is maintained and applied to the users.
 
-The Document reference table shows how one document record is being referenced such as its source link and reference link to the GRC record as shown in the following example \[Omitted image "doc-ref-table.png"\] Alt text: Document reference table.
+The Document reference table shows how one document record is being referenced such as its source link and reference link to the GRC record. The following example shows the Document reference table. \[Omitted image "doc-ref-table.png"\] Alt text: Document reference table.
 
-Consider the example of Engagement\_memo.xslx for which Control test CTR0020005 is a source link and Control test CTR0020004 is a reference link. For any configuration that matches the configuration of Control test CTR0020004, all the users under this configuration even though they have Write access in the configuration has only read access.
+Consider the example of Engagement\_memo.xslx for which Control test CTR0020005 is a source link and Control test CTR0020004 is a reference link. For any configuration that matches the configuration of Control test CTR0020004, all users under this configuration have only read access. This applies even though they have Write access in the configuration.
 
 Consider the following example where a Risk and Controls Matrix Report is connected to Engagement record 1 and Engagement record 2.
 
@@ -65,7 +65,7 @@ For example, the Engagement\_memo.xlsx file is mapped to the engagement 1 and en
 
 By default, the file access permissions are enabled on the engagement and audit task records. For other records, you can use the **Request access** and **Refresh file access** actions on the form. By default, the file access permissions are enabled on the engagement and audit task records. If a user is part of a group, they can use the **Request access** UI action to request access to the file. The **Request access** UI action is available only to the group members. If the user is part of a cloud file configuration, they can use the **Refresh file access** action to refresh or configure the file access. The **Refresh file access** action is available to the users mentioned in the cloud file configuration.
 
-To configure the file access permissions on other tables such as control records or policy records \(instead of using the manual **Request access** and **Refresh file access** actions\), see the configuration steps in KB1587297.
+You can configure file access permissions on other tables such as control records or policy records. Instead of using the manual **Request access** and **Refresh file access** actions, see the configuration steps in KB1587297.
 
 The users that are part of a group should request access to the cloud file by using the **Request access** action button. When a user who is part of the Audit Managers group selects **Request access** on the form, a UI message is displayed as shown in the example: `The file access is being processed.`
 

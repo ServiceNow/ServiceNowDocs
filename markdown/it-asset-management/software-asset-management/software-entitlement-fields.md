@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -599,7 +599,7 @@ Number of rights to upgrade.
 |-----|-----------|
 |Work notes|Work notes for the asset.|
 
-## Downgrade Rights related list
+## Downgrade Rights related tab
 
 <table id="table_o1h_4cm_43b"><thead><tr><th>
 
@@ -663,7 +663,7 @@ End date
 End date of the downgrade.
 
 </td></tr></tbody>
-</table>## Entitlement Consumption Rules
+</table>## Entitlement Consumption Rules related tab
 
 **Note:** This tab appears for all publishers except Workday. Additionally, the tab appears for all license metrics except the following:
 
@@ -681,13 +681,27 @@ End date of the downgrade.
 |Consumption rule|The consumption rule linked to the entitlement.|
 |License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md).|
 
-## License Key related list
+## License Key related tab
 
 |Field|Description|
 |-----|-----------|
 |Is allocated|Option that indicates that the license key has been allocated.|
 |License key|License key value. Must be unique for an entitlement.|
 |Software entitlement|Software entitlement associated with the license key.|
+
+## License Metric Tier related tab
+
+The **License Metric Tier** tab lists the tier ranges and factors applied when calculating the number of licenses required for a tier-based license metric.
+
+**Note:** The tab contains data only when the entitlement uses a tier-based license metric. For any other license metric, the tab remains empty.
+
+|Field|Description|
+|-----|-----------|
+|License metric config|License metric configuration that the tier belongs to. Each tier-based license metric has a set of tiers that define how the consumed quantity is measured.|
+|Tier level|Position of the tier in the sequence of ranges, starting from 1. The tiers are applied in order from the lowest level to the highest.|
+|Range from|Lower bound of the consumed quantity that the tier applies to.|
+|Range to|Upper bound of the consumed quantity that the tier applies to.|
+|Tier factor|Value that is applied to the units within the tier to determine the number of licenses required for that tier.|
 
 **Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Credential-less discovery with Nmap
-description: If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
+description: When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/nmap-credential-less-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery,
 
 # Credential-less discovery with Nmap
 
-If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
+When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 
 A MID Server administrator can [install Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-nmap-on-mid-server.md) on individual MID Server instances running on a Windows host. Those MID Server instances can then discover some basic information about CIs in your network when normal authentication fails.
 
@@ -35,7 +35,7 @@ The Nmap commands executed during credential-less discovery can:
 
 ## Nmap credential-less discovery scans in cloud computing platforms
 
-It is often against the terms of service to run Nmap scans to or from any resource within a cloud computing service such as Amazon Web Services \(AWS\), Microsoft Azure, IBM Cloud, or Google Cloud Platform \(GCP\). For example, the AWS environment is tightly regulated and requires the permission of AWS through the [AWS Vulnerability/Penetration Testing Request](https://aws.amazon.com/security/penetration-testing/) form. Unauthorized tests against AWS services or AWS-owned resources are prohibited. For this reason, credential-less discovery within a cloud computing service environment is not appropriate, and if a violation of their policy occurs, could result in expulsion from the service. Contact your platform service provider for information on limitations or permission requirements for running Nmap.
+Running Nmap scans to or from resources within cloud computing services such as Amazon Web Services \(AWS\), Microsoft Azure, IBM Cloud, or Google Cloud Platform \(GCP\) is often against the terms of service. For example, the AWS environment is tightly regulated and requires the permission of AWS through the [AWS Vulnerability/Penetration Testing Request](https://aws.amazon.com/security/penetration-testing/) form. Unauthorized tests against AWS services or AWS-owned resources are prohibited. For this reason, credential-less discovery within a cloud computing service environment is not appropriate, and if a violation of their policy occurs, could result in expulsion from the service. Contact your platform service provider for information on limitations or permission requirements for running Nmap.
 
 ## Components installed with Nmap
 
@@ -102,7 +102,7 @@ Patterns
 </td><td>
 
 -   Credentialless Discovery Network Device: Scans a host IP address using an Nmap command to identify the host. This pattern launches the **Credentialless Discovery Network Device - PreLaunch** script to retrieve the list of ports to explore from the IP Service \[cmdb\_ip\_service\] table. Don't modify this script.
--   Credentialless Discovery Application: Scans a port at an IP address using an Nmap command to identify the application service actively listening on that port. Service Mapping launches this pattern when all credential-based port classification steps fail. Discovery creates a CI in the Application \[cmdb\_ci\_appl\] table if the port is open and it can identify the service by name and product. If the service does not respond to any of the scan attempts, Nmap consults its nmap-services registry and guesses at which service is most likely running on that port. If Nmap has to guess what application is running on a scanned port, the Credentialless Discovery Application pattern does not create an application CI or update an existing CI.
+-   Credentialless Discovery Application: Scans a port at an IP address using an Nmap command to identify the application service actively listening on that port. Service Mapping launches this pattern when all credential-based port classification steps fail. Discovery creates a CI in the Application \[cmdb\_ci\_appl\] table if the port is open and it can identify the service by name and product. If the service does not respond to any scan attempts, Nmap consults its nmap-services registry. Nmap then guesses which service is most likely running on that port. If Nmap guesses the application on a scanned port, the Credentialless Discovery Application pattern does not create or update an application CI.
 
 </td></tr><tr><td>
 

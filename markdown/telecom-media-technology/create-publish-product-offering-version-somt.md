@@ -40,15 +40,15 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29254e138">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29738e138">
 
 Action
 
-</th><th align="left" id="d29254e141">
+</th><th align="left" id="d29738e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29254e147">
+</th></tr></thead><tbody><tr><td id="d29738e147">
 
 **Publish**
 
@@ -58,7 +58,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d29254e165">
+</td></tr><tr><td id="d29738e165">
 
 **Update**
 
@@ -66,7 +66,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d29254e174">
+</td></tr><tr><td id="d29738e174">
 
 **Copy**
 

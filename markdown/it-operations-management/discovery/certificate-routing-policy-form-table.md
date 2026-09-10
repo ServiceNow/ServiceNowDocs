@@ -83,7 +83,7 @@ Vault Type
 
 </td><td>
 
-External vault provider to use for private key storage with this routing policy. Options include **HashiCorp Vault**. When set, the system stores private keys in the specified vault during automated certificate operations \(new request, renew, revoke\) instead of on the MID Server.
+External vault provider to use for private key storage with this routing policy. When set to HashiCorp Vault, the system stores private keys in the HashiCorp Vault during automated certificate operations.
 
 </td></tr><tr><td>
 
@@ -93,6 +93,30 @@ Certification Purpose
 
 Certification Purpose. Options are:-   Internal
 -   External
+
+</td></tr><tr><td>
+
+Certificate Format
+
+</td><td>
+
+Format in which the certificate is generated. The available options are: PEM, DER, and PKCS12. The default value is PEM.
+
+</td></tr><tr><td>
+
+PKCS12 Password Vault Reference
+
+</td><td>
+
+Reference to the PKCS\#12 key store password stored in your external vault. For HashiCorp Vault, enter the full path to the secret. This field is required when the Certificate Format field is set to PKCS12.
+
+</td></tr><tr><td>
+
+PKCS12 Password Vault Key
+
+</td><td>
+
+Name of the key within the vault secret that holds the PKCS\#12 key store password. This field is required when the Certificate Format field is set to PKCS12 and the Vault Type field is set to HashiCorp Vault.
 
 </td></tr><tr><td>
 

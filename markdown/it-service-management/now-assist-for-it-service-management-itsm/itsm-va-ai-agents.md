@@ -19,7 +19,7 @@ Use AI agents in Virtual Agent to autonomously resolve tasks.
 
 ## Platform Requester AI agents
 
-View tickets and make updates to them from ServiceNow Otto for Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams using the Request Status AI agent. For more information, see [Platform Request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ticket-status-aia.md).
+View tickets and make updates to them from ServiceNow Otto for Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams using the Request Status AI agent. For more information, see [Using the request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-request-status-agent-ai-agent.md).
 
 ## ITSM AI agents used in Virtual agent
 

@@ -16,7 +16,7 @@ breadcrumb: [UI Builder, Builder library, Developing your application, Building 
 
 Explore facets of UI Builder to set you up for creating pages quickly.
 
-UI Builder is a web user interface builder. Use UI Builder to build pages for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+UI Builder is a web user interface builder. Use UI Builder to build pages for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 Check out the [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-quick-start.md) topic to understand the basics of UI Builder. If you want a deeper understanding of UI Builder, go through the [tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-tutorial.md) to learn how to create your first page.
 

@@ -28,6 +28,8 @@ Create a visitor type that can be used to categorize visitors for your hosts or 
 Configure requirements that visitors must fulfill for their visit to your organization.
 -   **[Create a visitor badge template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-badge-template.md)**  
 Create an HTML template that can be used to print badges for your workplace locations.
+-   **[Configure the frequency of email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-scheduled-jobs.md)**  
+ServiceNow provides two scheduled jobs in the Workplace Visitor Management application that automate email notifications for visitor registration and policy confirmation. This topic explains how to locate these jobs and adjust their execution frequency to meet your organization's notification requirements.
 -   **[Configuring Workplace Visitor Management for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/config-visitor-for-kiosk.md)**  
 You can configure pages, check-in flows, check-out flows to integrate Workplace Visitor Management with the Workplace Services Kiosk.
 -   **[Quick start test for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/quick-start-tests-wsd-visitor-mgmt.md)**  

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Disable email responses from the case activity stream
@@ -22,7 +22,7 @@ Role required: admin
 
 By default, customer service agents can respond to cases using options within a customer email thread instead of having to use another email client. Agents can use the **Reply**, **Reply All**, and **Forward** buttons in the case activity stream to respond to customer emails.
 
-You can disable this feature and hide these buttons from the Agent Workspace or Configurable Workspace application.
+You can disable this and hide these buttons in the Agent Workspace or Configurable Workspace application.
 
 ## Procedure
 

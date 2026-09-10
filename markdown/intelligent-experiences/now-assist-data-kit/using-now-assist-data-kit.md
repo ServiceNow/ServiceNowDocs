@@ -24,7 +24,7 @@ Use AI Data Kit to add datasets to a data catalog to create collections for use 
 
     Create a custom skill for Now Assist. Creating a custom skill enables you to have greater flexibility with the Now Assist generative AI capabilities.
 
-2.  [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
+2.  [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 
     Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the administrator can find the skill in AI Admin Hub.
 

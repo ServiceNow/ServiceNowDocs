@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/campaigns.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -38,4 +38,6 @@ Data owners and approvers are configured separately. A data owner, a single user
 [Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)
 
 [Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)
+
+[Campaign fields and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/campaign-fields-and-states.md)
 

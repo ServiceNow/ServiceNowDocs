@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
@@ -57,9 +57,9 @@ Validation failed: Slot name exceeds maximum length: Slot -4; Duplicate name at 
 
 ## Unresolvable variables in resolved names
 
-Patterns can reference variables that have no value in a particular related template's context. For example, a top-level slot directly under an equipment template has no parent slot, so the variable `parent_slot_name` cannot be resolved for it.
+Patterns can reference variables that have no value in a particular related template's context. For example, a top-level slot directly under an equipment template has no parent slot, so the variable `parent_slot_name` can't be resolved for it.
 
-When the **Inventory Template Overview** detects an unresolvable variable, the tab displays `?` in place of the variable in the resolved name on the tree node label . The `?` substitution indicates that the pattern is using variables that do not fit the related template's position in the hierarchy.
+When the **Inventory Template Overview** detects an unresolvable variable, it substitutes `?` for the variable in the resolved name on the tree node label . The `?` substitution is a signal that the pattern is using variables that do not fit the related template's position in the hierarchy.
 
 **Note:** The `?` substitution does not raise an **Error** badge or a **Validation failed** banner. It is a display-only indicator in the tree node label.
 

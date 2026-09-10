@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-digitalportfoliomanagementdpm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,38 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Use the Admin Center in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-admin-center&family=yokohama&ft:locale=en-US)**
+
+Use the added Troubleshoot tab on the DPM Admin Center landing page to help you recalculate availability results and indicators for service offerings. You select a specific time period for the recalculation and then you can check the progress in the event log.
+
+-   **[Configure personal portfolio solution cards in the DPM Admin Center](https://www.servicenow.com/docs/access?context=dpm-configure-solution-cards&family=yokohama&ft:locale=en-US)**
+
+Configure the fields that are displayed on the personal portfolio solution cards in the DPM Workspace. Solution cards display information about the four main types of solutions \(service, service offering, business application, and application service\). This configuration determines the fields that are displayed on each solution card.
+
+-   **[View relationships of business applications and application services in the DPM Admin Center](https://www.servicenow.com/docs/access?context=dpm-view-related-records&family=yokohama&ft:locale=en-US)**
+
+See all incidents, problems, and changes that are related to your business applications and application services. You can view the data in these areas:
+
+    -   The DPM Admin Center
+    -   In the DPM Workspace, in the Needs attention panels and in the life-cycle tabs that present key performance indicator \(KPI\) data.
+-   **[KPI groups in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-configure-kpi&family=yokohama&ft:locale=en-US)**
+
+Added the ability to select the spark lines \(time series chart\) for a KPI indicator to open its details.
+
+-   **[Update KPIs in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-kpi-descriptions&family=yokohama&ft:locale=en-US)**
+
+Added an Active flag so that you can hide KPIs in a KPI group from the DPM Workspace. The Active flag is available for all KPIs so that you can hide an individual KPI even when it's part of a larger KPI group.
+
+-   **[View application service details](https://www.servicenow.com/docs/access?context=dpm-app-service-details&family=yokohama&ft:locale=en-US)**
+
+Expanded the DPM data model so that when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list, the updates roll up to the related business application. You can see the impacts in the related business application's KPIs and Needs attention panels\). For more information, see [Work with Needs attention panels in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-needs-attn-panels&family=yokohama&ft:locale=en-US).
+
+-   **[Work with lists in Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-list-modules&family=yokohama&ft:locale=en-US)**
+
+Use the updated logic in the list address bar to copy the link of any list item to share that list with others. The list address includes a unique list ID for every list item. This updated logic applies wherever lists are used in the DPM Workspace:
+
+    -   In the list module \(for both provided lists and created lists\).
+    -   In the DPM Admin Center.
 
 </td></tr><tr><td>
 
@@ -131,7 +162,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **Enhancements to the Web and installed apps monitoring setup**
+
+The process of adding an application for monitoring has been updated to enable you to choose any service from the cmdb\_ci\_service table or its child tables. The application type filed was added to the monitored applications list.
+
 
 </td></tr><tr><td>
 
@@ -242,7 +280,10 @@ Zurich
 
 </td><td>
 
-Install Digital Portfolio Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Digital Portfolio Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -353,7 +394,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

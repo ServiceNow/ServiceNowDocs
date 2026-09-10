@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-ai-asset-inventory.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-08-05"
 reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Discover and manage AI assets, AI Control Tower, Enable AI experiences]
@@ -17,37 +17,38 @@ Track every AI system, model, prompt, and dataset across your enterprise and con
 
 ## Key benefits
 
-The AI asset inventory is the central record of all AI assets in your organization. Every asset that AI Control Tower discovers, imports, or identifies through traces appears here, organized into five asset types: AI systems, AI models, datasets, and prompts.
+The AI asset inventory is the central record of AI assets in your organization. Assets that AI Control Tower discovers or identifies through traces appears here, organized by asset type.
 
 -   Get a complete picture of every AI asset across your organization, including assets discovered automatically and those added manually or through connectors.
 -   Control which assets participate in governance, monitoring, and risk workflows by setting management status directly from the inventory list.
 -   Filter and refine the asset list by type, risk classification, lifecycle state, asset status, and management status to focus on what needs attention.
--   Add assets at any time by entering details manually, importing at scale through Service Graph Connectors, or discovering them through observability traces.
+-   Add assets manually when a connector or trace can't reach them. See [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).
+
+For the ways AI Control Tower adds assets to your inventory automatically, see [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-discovering-ai-assets.md).
 
 \[Omitted image "disc-inventory.png"\] Alt text: Example AI asset inventory showing a list of AI assets showing asset types, asset states, asset status, management status, and evaluation status.
 
 ## AI assets list columns
 
-The following table explores the AI assets list's important columns and it's description.
-
 |Column|Description|
 |------|-----------|
 |Name|The name of the AI asset as registered in AI Control Tower.|
-|Asset type|The category of the AI asset, such as AI dataset, AI prompt, AI model, or AI system.|
+|Asset type|The category of the AI asset, such as AI dataset, AI prompt, AI model,MCP server, or AI system.|
 |State|The operational state of an AI asset.|
 |Status|The governance status of the asset within its current phase.|
-|Management status|Indicates whether the asset is actively governed. Displays as true or false.|
+|Managed status|Indicates whether the asset is actively governed. Displays as true or false.|
+|Domain|Domain the asset belongs to.|
 |Managed by|The team or individual responsible for governing the asset.|
 |Risk classification|The assessed risk level of an AI asset.|
 |Updated|The date and time the asset record was last modified.|
 
 ## Required roles
 
-The AI steward \[sn\_ai\_governance\_ai\_steward\] or AI system owner \[sn\_ai\_governance\_workspace\_user\] role is required to access the AI asset inventory.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI system owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the AI asset inventory.
 
 ## Accessing the AI asset inventory
 
-Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
+Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 ## AI systems
 
@@ -83,17 +84,9 @@ A prompt is a system prompt or prompt template that shapes the behavior of an AI
 -   Identify prompts that may need policy review or update as acceptable use standards evolve.
 -   Understand the reach of any prompt change before making it by tracking which AI systems and models each prompt supports.
 
-## Adding AI assets to the inventory
-
-Build your inventory by adding AI assets through one of the following ways:
-
--   Add AI assets at scale through scheduled connector syncs with external AI platforms. See [Configuring Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-connectors.md).
--   Add AI assets identified by observability traces from external AI systems. See [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
--   Add AI assets manually when no connector or trace covers the asset. See [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).
-
 ## Reviewing duplicate AI assets
 
-AI asset deduplication detects assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. AI Control Tower surfaces these likely duplicates as a group for an AI steward to review; the steward confirms the group as true duplicates or dismisses it, and no changes are made to any asset record until that decision is made. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-duplicates.md).
+AI asset deduplication can detect assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. AI Control Tower surfaces these likely duplicates as a group for an AI steward to review. The AI steward can then confirm the group as true duplicates or dismiss it, before changes are made to relevant asset records. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-duplicates.md).
 
 ## Managing the status of AI assets
 
@@ -106,4 +99,8 @@ Classify large numbers of AI assets automatically instead of moving them to mana
 ## Managing evaluations
 
 Detect quality and safety regressions in your managed AI assets by enabling evaluation. Evaluation scoring assesses AI interactions against configurable quality and safety metrics and surfaces trends so you can investigate regressions before they affect users. Disable evaluation when an asset no longer needs active scoring; historical scores are retained either way. For more information, see [Evaluating AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-evaluating-ai-assets.md).
+
+## Deactivating managed AI agents
+
+Deactivate a managed AI agent directly from its asset record using AI agent containment with kill switch protocol. For more information, see [Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-contain-managed-asset.md).
 

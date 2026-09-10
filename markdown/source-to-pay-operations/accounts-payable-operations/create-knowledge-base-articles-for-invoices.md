@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [APO, Accounts Payable Operations, invoice management, supplier, AP specialist]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -87,4 +87,6 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 [Playbook for updating the invoice primary data]()
 
 [Using Supplier Collaboration Portal in APO]()
+
+[AI worker case resolution confirmation]()
 

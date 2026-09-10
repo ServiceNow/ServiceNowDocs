@@ -8,8 +8,8 @@ product: Audit Management
 classification: audit-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+reading_time_minutes: 5
+breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage engagements
@@ -44,7 +44,7 @@ Validate
 
 </td><td>
 
-After an engagement has moved to the **Validate** state, all the risks, controls, and test plans associated with the entities in the engagement's scope will be associated with the audit. Indicator results that were collected during the audit period of the engagement will also be associated with the audit. Audit managers can review the risks, controls, test plans, and indicator results, and update the scope of the engagement, if necessary. Audit managers can also begin creating and planning audit tasks for the engagement.
+After an engagement has moved to the **Validate** state, all the risks, controls, and test plans associated with the entities in the engagement's scope are associated with the audit. Indicator results collected during the audit period are also associated with the audit. Audit managers can review the risks, controls, test plans, and indicator results, and update the scope of the engagement, if necessary. Audit managers can also begin creating and planning audit tasks for the engagement.
 
  To move an engagement into the **Validate** state, click **Validate** on any engagement currently in the **Scope** state.
 
@@ -78,7 +78,7 @@ Follow Up
 
 </td><td>
 
-After an engagement has been approved, if there are any remaining open tasks, issues or milestones, in case of GRC Advanced Audit, associated with the engagement, the engagement automatically goes into the **Follow Up** state. During this stage, auditors must close out all remaining issues, tasks, and milestones before the engagement are marked as complete.
+After an engagement is approved, it automatically goes into the **Follow Up** state if there are remaining open tasks, issues, or milestones \(in case of GRC Advanced Audit\). During this stage, auditors must close out all remaining issues, tasks, and milestones before the engagement is marked as complete.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Generate an audit report and maintain different versions of audit reports from a
 -   **[Create an engagement from a previous engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-engagement-from-previous.md)**  
 Audit managers can create engagements from previous engagements to reduce the need to redefine the scope, auditors, and approvers for similar engagements that are conducted throughout the year.
 -   **[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateControlTest.md)**  
-After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 -   **[Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnActivity.md)**  
 After defining a control, audit managers create activities that explore and provide documented evidence of whether the associated control is operating correctly.
 -   **[Create an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnInterview.md)**  

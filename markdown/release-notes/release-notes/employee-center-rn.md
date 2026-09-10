@@ -1,9 +1,9 @@
 ---
 title: Employee Center release notes
-description: The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
+description: The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
 
-## Employee Center highlights for the Australia release
+## About Employee Center
 
 -   Add editable, tab-specific filters to the Enhanced Requests Experience functionality on the Employee Center portal to make searching and managing requests more streamlined.
 -   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the Company News &amp; Events AI Agent in the Now Assist for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company.
@@ -23,13 +23,33 @@ The ServiceNow® Employee Center application is a standard multi-department, dyn
 
 See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Employee Center to Australia
+-   **Activation information**
 
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+    Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Australia release
+-   **Upgrade information**
+
+    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
+
+
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Simplified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/simple-portal-navigation-ec.md)**
 
@@ -55,27 +75,4 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
-
-## Activation information
-
-Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
-Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
-
-## Related ServiceNow applications and features
-
--   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)**
-
-    Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
-
-    Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
-
--   **[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assisit-employee-exp.md)**
-
-    Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
-
-
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
 

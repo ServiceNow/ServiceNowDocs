@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **HR Administration** &gt; **Properties**.
+1.  Navigate to **All** &gt; **HR Administration**.
 
     Some HR properties are found under **sys\_properties.list**.
 

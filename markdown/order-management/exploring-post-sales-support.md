@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Contracts and Entitlements

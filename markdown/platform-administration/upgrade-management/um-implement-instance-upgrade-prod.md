@@ -20,7 +20,7 @@ Implement the instance upgrade tasks for a successful upgrade on your prod insta
 
 **Note:** You will be able to perform the Instance upgrade tasks only after completing the pre-upgrade tasks.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 

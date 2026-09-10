@@ -16,7 +16,7 @@ breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations M
 
 After metric data is collected, Metric Intelligence identifies the CIs and the resources to bind the data to.
 
-The data that is collected on the MID Server is raw and does not relate to any specific CI or resource in the CMDB. To be useful, the data goes through a **normalization** process that uses CMDB identification rules and event rules to uniquely identify CIs, and to map and bind them to the raw data. Raw data can also be [mapped and bound to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md), if binding to a CI is successful and if resource binding is configured.
+The data that is collected on the MID Server is raw and does not relate to any specific CI or resource in the CMDB. To be useful, the data goes through a **normalization** process that uses CMDB identification rules and event rules to uniquely identify CIs. The process then maps and binds them to the raw data. Raw data can also be [mapped and bound to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md), if binding to a CI is successful and if resource binding is configured.
 
 Records for mapping raw data to CIs are automatically generated and remain in effect for a specified length of time determined by the properties:
 

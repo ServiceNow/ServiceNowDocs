@@ -44,12 +44,12 @@ For more details on working with remote tables, see [Remote tables](https://raw.
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)
 -   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
--   [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
--   
--   
--   
+-   [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder-landing.md)
 
 You can also access data from the ERP system through the Glide API.
 
@@ -62,6 +62,4 @@ sap_customer_gr.get('customer_number', '100032');
 sap_customer_gr.getValue('name');
 
 ```
-
-**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

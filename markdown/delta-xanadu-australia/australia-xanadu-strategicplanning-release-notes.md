@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-strategicplanning-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 41
+last_updated: "2026-09-10"
+reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,10 +46,12 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
 
--   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
--   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
+    -   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
+    -   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
 
 </td></tr><tr><td>
 
@@ -57,9 +59,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Strategic Planning v4.8.0, the existing **Investment type** and **Investment class** fields will appear as **Investment type \(Deprecated\)** and **Investment class \(Deprecated\)** respectively across the Planning page including in the Prioritization and Roadmap views and in the Scenario Planning page. The values from these deprecated fields will be automatically copied to the new **Investment type** and **Investment class** fields.
 
- If you previously applied filters or personalized your view using the deprecated fields, you must update those configurations to use the new **Investment type** and **Investment class** fields across the workspace—including in the Prioritization and Roadmap views on the Planning page, as well as in the Scenario Planning page.
+If you previously applied filters or personalized your view using the deprecated fields, you must update those configurations to use the new **Investment type** and **Investment class** fields across the workspace—including in the Prioritization and Roadmap views on the Planning page, as well as in the Scenario Planning page.
+
 
 </td></tr><tr><td>
 
@@ -201,12 +206,6 @@ For free-form roadmaps - Create, edit, and switch between views with display pre
 -   **[Write planning item skill](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=yokohama&ft:locale=en-US)**
     -   Improve record quality and user satisfaction by enabling AI assistance in the **Description** field across all Strategic Planning Workspace forms, including product idea, demand, epic, project, capability, feature, and story.
     -   Enable text refinement with the **Elaborate** and **Shorten** options on planning items to support product managers and agile team members in creating and editing content more effectively.
--   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&family=yokohama&ft:locale=en-US)**
-
-Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
-
-The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
-
 -   **[Cycle time report for Agile teams in EAP dashboards](https://www.servicenow.com/docs/access?context=eap-agile-team-dashboard&family=yokohama&ft:locale=en-US)**
 
 Analyze how long the stories take for your Agile team to move from an in-progress state to completion. Each bubble on the chart represents a story and the chart shows stories completed in the past 30 days. You can compare the cycle times of stories that have different story points and review the trend in the time taken by the team to complete them.
@@ -225,24 +224,12 @@ Quickly find the work items that you need by using column-level filters for the 
 
 Break down epics and features into stories using the Now Assist Agile story generation skill in the EAP workspace. Using the available details such as name, description, docs content, and any existing stories, Now Assist provides story recommendations for your epic or feature. You can let Now Assist generate stories using its initial recommendations or you can choose to split or combine the story recommendations before prompting Now Assist to create the stories.
 
--   **[View financial data of your planning items at portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
-    -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
-    -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
-    -   View the Forecasts, Actuals, and Variance of monetary benefits.
 -   **[Create a manage financial scenarios of planning items](https://www.servicenow.com/docs/access?context=optimizing-scenarios-in-strategic-planning&family=yokohama&ft:locale=en-US)**
     -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
     -   Plan and manage the budget of planning items in simulation mode for efficient financial planning and to help prevent overspending.
     -   Manage prioritization and budget allocation of the planning items to meet business priorities.
     -   Compare scenarios financially and automatically allocate the planned budget to planning items from approved scenarios.
     -   Enable the **new budget allocation** property \(**sn\_invst\_pln.enable\_budget\_allocation\_v2**\) to perform financial analysis in scenario planning and take effective decisions by data-driven insights.
--   **[Real-time collaboration for EAP Docs](https://www.servicenow.com/docs/access?context=docs-for-eap-teams-and-planning-items&family=yokohama&ft:locale=en-US)**
-
-Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
-
-The real-time collaboration feature for docs is also available for planning items in the Strategic Planning Workspace. See [Docs for planning items](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=yokohama&ft:locale=en-US).
-
-**Note:** To use the full functionality of Docs v6.6.0 within Strategic Planning Workspace, ensure that you upgrade Strategic Planning Workspace to v4.5.0. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
-
 
 </td></tr><tr><td>
 
@@ -255,22 +242,6 @@ Zurich
 Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
 
 Use the **Type** field for strategic priorities, the **Category** field for goals, the **Investment type** field for planning items - to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
-
--   **[Integrate Enterprise Agile Planning \(EAP\) with Atlassian Jira](https://www.servicenow.com/docs/access?context=spw-jira-landing&family=zurich&ft:locale=en-US)**
-
-Facilitate execution of the work planned in EAP and executed in Jira. With this integration, enable seamless tracking of work across tools with bidirectional sync between Jira and EAP. Key updates made in one system, such as a status change or field update for Epics and Stories, will automatically reflect in the other. This integration ensures your team can collaborate and track development efforts without switching contexts, reducing manual effort and improving visibility across platforms.
-
--   **[Enterprise Agile Planning \(EAP\) integration with CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
-
-Enhance visibility, planning, and execution for your teams with seamless integration between EAP and CWM.
-
-For Agile teams managing non-agile work items such as incidents and change tasks, this integration bridges the gap by automatically creating a dedicated Space and Board in CWM. Agile work is seamlessly brought over via Connected Work, while EAP sprints are reflected directly in CWM’s Sprint planning view, thus enabling unified planning across work types. Teams can plan work for their sprints and update work status directly from the CWM Board, with performance reports in EAP dynamically reflecting these changes. This integration enables teams to manage their full scope of work from a single, connected workspace.
-
--   **[Dynamic data linking in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
-
-Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
-
-You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
 -   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=create-portfolio-plans-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
     -   Create portfolio plans for AI-related items by applying a filter on the planning item tables, setting the **Investment type** field value to **Artificial Intelligence** during portfolio plan creation. This allows you to focus exclusively on AI-related items.
@@ -287,10 +258,6 @@ You can add references from any ServiceNow table you have access to, with no set
     -   Match milestone colors with their status labels across the roadmap, milestone popover, and side panel. For example, a missed milestone displays the same color in all locations.
     -   With the sn\_align\_core.apw\_admin role, you can define the number of milestone items to be loaded in the Roadmap tab. The **sn\_align\_ws.item\_milestone\_limit** system property allows you to define the number of milestone items to be loaded in the Roadmap tab.
     -   With the sn\_align\_core.apw\_admin role, you can define the list of planning item types that can be created in a free-form roadmap. The **sn\_align\_ws.freeform\_planning\_items\_creation\_list** system property allows you to define the list of planning item types that can be created in a free-form roadmap.
--   **[Scenario planning enhancements](https://www.servicenow.com/docs/access?context=enable-scenario-planning-in-strategic-planning&family=zurich&ft:locale=en-US)**
-
-With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
-
 -   **[Quick filters enhancements](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
 
 Apply filters using string-type and boolean field values across the Planning page and Scoring page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
@@ -321,158 +288,6 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
-
--   **[Financials grid for demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=managing-financials-dw&family=australia&ft:locale=en-US)**
-
-Next Experience for Demand Management includes a Financials grid for demand records. This grid shows the demand's cost plans, benefit plans, and baselines. From this grid, users can:
-
-    -   Add cost plans, benefit plans, and expense lines scoped to the demand.
-    -   Create and compare baselines for financial data on the demand.
-    -   Filter by time scope and personalize the grid columns.
--   **[Demands Dashboard](https://www.servicenow.com/docs/access?context=c_demand_dashboards&family=australia&ft:locale=en-US)**
-
-Next Experience for Demand Management includes a Dashboard menu for demand records. The dashboard opens by default and is organized into three tabs:
-
-    -   Overview
-    -   Financials
-    -   Data Quality
-Filter dashboard data by department, business unit, portfolio, program, or demand manager. Select a widget, or select **View all** on a list widget, to open the underlying records with the same filters applied.
-
--   **[Identify similar demands using AI in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=australia&ft:locale=en-US)**
-
-Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the Name, Description, and Business Case fields for contextual similarity.
-
--   **[RIDAC](https://www.servicenow.com/docs/access?context=spw-ridac-landing&family=australia&ft:locale=en-US)**
-    -   Create and associate risks, issues, decisions, actions, and changes \(RIDAC\) with all planning items, goals, and EAP \(Enterprise Agile Planning\) iterations to track planning uncertainties.
-    -   Access a dedicated RIDAC menu in Strategic Planning Workspace for quick navigation to RIDAC items.
-    -   Manage RIDAC items with granular role-based access—assign read-only or full edit access to team members based on their responsibilities.
-    -   Run the scheduled job to populate the planning item field on the existing RIDAC records that were created earlier.
-    -   Track RIDAC across multiple scopes—view all RIDAC, project-specific RIDAC, portfolio RIDAC, and program RIDAC in a single unified view.
--   **[Epic status assessment](https://www.servicenow.com/docs/access?context=assess-epic-status-now-assist-eap&family=australia&ft:locale=en-US)**
-
-Automatically evaluate epic health across six risk dimensions using the Epic status assessment skill in Enterprise Agile Planning. Now Assist analyzes story health, blocked stories, dependencies, progress, timeline, and ownership to return a red, yellow, or green status with plain-English reasoning. Portfolio managers can quickly assess epic risks without manually reviewing stories, timelines, and assignments by selecting the **Epic status** button on the epic record page.
-
--   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&family=australia&ft:locale=en-US)**
-
-Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays.View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
-
-The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
-
-Users with the sn\_align\_core.apw\_admin role can configure severity thresholds and scoring factors for planning items. These settings control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
-
--   **[Story generation for epics in Agile Development 2.0 and EAP](https://www.servicenow.com/docs/access?context=generate-stories-quickly-for-eap-and-agile-2-0&family=australia&ft:locale=en-US)**
-
-Generate a complete user story, including title, description, and acceptance criteria, directly from an epic instead of creating one. By providing one or two lines of context, you can generate a story and edit inline before saving. This skill is available in both Agile Development 2.0 and EAP.
-
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&family=australia&ft:locale=en-US)**
-
-Next Experience for Demand Management delivers a unified experience for managing strategic and operational demands in Strategic Planning. This Next Experience interface consolidates demand creation, assessment, collaboration, and conversion in one place, eliminating context switching and reducing reliance on the classic Demand Workbench.
-
--   **[Create and manage demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-demands-dmnd-wpc&family=australia&ft:locale=en-US)**
-    -   Create and manage a demand in Next Experience for Demand Management using guided tabs that help you define alignment, estimate costs, and confirm readiness as you build out the demand.
-    -   Collaborate on demands through Docs, with execution and planning synced.
-    -   View, add, and edit cost plans and budgeting details using related lists.
--   **[Use Playbooks in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-dw&family=australia&ft:locale=en-US)**
-
-Help teams manage demands with greater structure and consistency using Playbook in Next Experience for Demand Management.
-
-Playbooks enable you to define multiple governance processes across the organization using a low‑code/no‑code configuration experience. Create clear stages and guided activities from demand intake to completion using a default playbook or a custom playbook. Custom playbooks support multiple demand management processes across your organization’s multiple demand management processes.
-
--   **[Associate AI systems with demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-dw&family=australia&ft:locale=en-US)**
-
-Use a playbook activity in Next Experience for Demand Management to associate AI systems with a demand. You can link impacted systems and add new ones directly within the demand workflow.
-
--   **[Summarize demands using AI](https://www.servicenow.com/docs/access?context=summarize-demand-in-demand-workspace&family=australia&ft:locale=en-US)**
-
-Generate a concise, structured summary of any demand using the demand summarization skill through the **Summarize** button in the demand form. The skill reviews the demand fields and helps create a clear summary of the demand.
-
--   **[Strategy and Goals](https://www.servicenow.com/docs/access?context=strategy-goals-landing-page&family=australia&ft:locale=en-US)**
-
-Use boards in Strategy and Goals to organize and manage your organization’s strategic priorities and objectives. A board is a collection of strategic plans, priorities, objectives, and key results based on your selected filter criteria—helping you stay focused and manage them effectively.
-
-    -   Managing boards:
-        -   Create boards step by step, choosing whether to base them on strategic plans, priorities, goals, or both. Define what items to display using advanced filter conditions.
-        -   Build boards tailored to specific goals by entity type and entity, ensuring focus on the goals that matter most.
-        -   Share boards with stakeholders to align efforts and drive shared outcomes.
-        -   Add boards to your favorites for faster navigation.
-    -   Managing strategy and goals using boards:
-        -   Create and organize strategic plans, strategic priorities, goals, and key results in a single, focused view.
-        -   Associate work or planning items with goals or targets to align your current or future work with your strategic priorities, helping your team achieve goals and targets efficiently.
-        -   As the goal or process owner, send notifications to target owners or contributors to ensure timely updates of target actuals.
-        -   Target owners and contributors receive reminder notifications for check-in updates before the due date.
-        -   With ServiceNow Otto for Strategic Portfolio Management, generate measurable targets for your goals to reduce the effort of defining clear success criteria, and gain actionable insights to identify at‑risk goals, assess forecasted status, and act on AI‑driven recommendations.
--   **[AI-generated insights for goals](https://www.servicenow.com/docs/access?context=generate-insights-for-goal&family=australia&ft:locale=en-US)**
-    -   Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
-    -   View the AI-forecasted status for goals and targets in the grid, generated automatically via the Goal insights generation scheduled job, along with the rationale for the generated status.
-    -   Configure run frequency and set of goals to run the Goal insights generation scheduled job as need. The job is inactive by default.
--   **[Portfolio plan goals enhancements](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&family=australia&ft:locale=en-US)**
-    -   Owners and contributors are notified when they’re mentioned in a goal, target, or when comments are added.
-    -   Define targets across multiple organizational levels with the Assigned entity field in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
-    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from target breakdowns to the target for targets set to cumulative distribution, and from targets and subgoals to the goal.
--   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=create-portfolio-plans-in-alignment-planner-workspace&family=australia&ft:locale=en-US)**
-    -   Visualize planning items in lanes with the new Kanban tab in the Planning page and access the Hierarchy tab directly from the same location. These tabs replace the previous access point in the Prioritization tab, offering a more streamlined way to view and manage planning items.
-    -   Save filter views specific to the Kanban tab and the Hierarchy tab without affecting views in the Prioritization tab.
-    -   View planning items in the new Hierarchy tab on the Planning page, now sorted using global rank when available. Drag and drop is supported for lowest‑level items, enabling you to rerank them within their groups.
-    -   Share a portfolio plan using the Copy link option. This provides access to existing users who have access to the portfolio plan.
-    -   Make a portfolio plan public and share the copied link with Strategic Planning Workspace users, without inviting them individually or as a group. Note that users accessing a public portfolio plan with the shared link cannot view scenarios within the plan.
-    -   Expand or collapse portfolio plan header to maximize screen space while planning.
-    -   Edit the default view within a portfolio plan and save changes using the Save view option.
-    -   View additional status attributes — cost, resource, schedule, and scope — for planning items in Strategic Planning Workspace. For project planning items, these attributes are synced automatically from the latest published project status report. For other planning items, these attributes can be set manually. Note that project status report attributes synced from the Project status \(project\_status\) table are read-only in Strategic Planning Workspace and can't be edited directly.
-    -   Set planning item status to **No status** when a status has not been determined, in addition to the existing **Green**, **Yellow**, and **Red** values, giving planners the flexibility to update the status as needed. By default, the status is set **No status** when a planning item is created.
-    -   Display rollup bars at parent levels in the hierarchy view and choose the date type to display — approved, planned, or actual. Use the comparison option to compare date types, such as approved versus planned dates, to identify schedule misalignments.
--   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&family=australia&ft:locale=en-US)**
-
-Use the Planning item lens to plan, prioritize, and roadmap work in Strategic Planning Workspace directly with planning items, without configuring organization structure, programs, portfolios, or products. The lens supports all enabled work item types, such as projects and demands, and can be used as a standalone lens or alongside other lenses.
-
--   **[Hierarchy tab for EAP teams](https://www.servicenow.com/docs/access?context=eap-hierarchy-tab&family=australia&ft:locale=en-US)**
-
-Gain visibility into how your work connects to broader organizational goals by viewing the complete work item hierarchy directly in the EAP workspace. Expand any epic to see its capabilities, features, and stories across Solution Trains, ARTs, and Agile Teams without switching between multiple screens or running separate reports.
-
-Customize your view by selecting which columns appear in the hierarchy grid and adjusting column widths to match your workflow. Your column preferences persist across sessions, so your configured view is ready each time you return.
-
-The Hierarchy tab requires your admin to enable it through the **sn\_apw\_advanced.enable\_hierarchy\_view** system property. See [Enable Hierarchy tab in EAP](https://www.servicenow.com/docs/access?context=hierarchy-enable-eap&family=australia&ft:locale=en-US).
-
--   **[Open EAP work items in new browser tab](https://www.servicenow.com/docs/access?context=using-eap&family=australia&ft:locale=en-US)**
-
-Open work items from the EAP Backlog and Hierarchy pages in a new browser tab, so you never lose your context. Right-click any work item, or use the item options menu, to open its full details in a separate tab. This feature lets you review and compare multiple work items side by side without losing your current view.
-
--   **[Move work items to the top or bottom in EAP Backlog](https://www.servicenow.com/docs/access?context=schedule-work-items-into-iterations-in-eap-backlog&family=australia&ft:locale=en-US)**
-
-Promote an urgent story to the top of a sprint or push deprioritized work to the bottom of a long backlog without dragging items across multiple pages. Right-click any story, feature, capability, or epic in the EAP Backlog, iteration, or team grid and select **Move to top** or **Move to bottom** to re-prioritize the work item in one action. Prioritization changes take effect across all pages, so you can act on shifting priorities even when the work item is far from its target position.
-
--   **[Live updates in the EAP Hierarchy tab](https://www.servicenow.com/docs/access?context=eap-hierarchy-tab&family=australia&ft:locale=en-US)**
-
-Keep working in your hierarchy without breaking your flow each time you create a work item. When you create a work item with the Hierarchy tab open, it is added to your current view immediately, so you don't need to refresh the page to see a new story, feature, capability, or epic. A new top-level item appears alongside the existing top-level items for the selected portfolio configuration. A new child item appears under its parent when that parent is expanded.
-
--   **[Active work first in the EAP Backlog](https://www.servicenow.com/docs/access?context=using-eap&family=australia&ft:locale=en-US)**
-
-Plan and prioritize without sifting through completed or cancelled work. The Backlog section of the EAP Backlog tab now hides completed and cancelled work items by default, so the list shows only what your teams have to work on. Sprint and Planning Interval \(PI\) sections continue to show all work items, giving you visibility into both ongoing and finished work for each iteration.
-
-Admins can change these settings for either sections using two new system properties: `sn_apw_advanced.show_inactive_items_in_backlog_list` for the Backlog section and `sn_apw_advanced.show_inactive_items_in_iteration` for iteration sections.
-
--   **[Refresh without losing your place in the EAP Hierarchy tab](https://www.servicenow.com/docs/access?context=eap-hierarchy-tab&family=australia&ft:locale=en-US)**
-
-Selecting Refresh in the Hierarchy tab now reloads your data without collapsing the rows you've already expanded or resetting your scroll position. Rows deleted by someone else are removed silently, and new child items appear under their expanded parent. If the grid displays more than 100 non-root items or 100 stories, you're asked to confirm before all rows are collapsed.
-
--   **[View or delete a dependency directly from the EAP Planning board](https://www.servicenow.com/docs/access?context=work-item-dependencies-in-eap&family=australia&ft:locale=en-US)**
-
-Select a dependency line on the Planning board to open the dependency record in a side panel, without navigating to the work item's full details page. Review the dependent and prerequisite items, or select **Delete** to remove the dependency directly from the panel.
-
--   **[Backlog and Hierarchy access for CWM connected teams](https://www.servicenow.com/docs/access?context=integrate-eap-with-collaborative-work-management&family=australia&ft:locale=en-US)**
-
-Teams connected to CWM can now access the Backlog and Hierarchy tabs in EAP. Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams.
-
--   **[Creating iterations for teams in EAP](https://www.servicenow.com/docs/access?context=simplified-iteration-creation-in-eap&family=australia&ft:locale=en-US)**
-
-From EAP version 4.17.0, create Planning Intervals and Sprints directly from the Backlog by entering their start and end dates. The underlying planning calendar entries are created for you, so nobody has to define them before teams can plan.
-
-The following capabilities support this flow:
-
-    -   Users with the new `sn_apw_advanced.eap_scrum_master` role create the first iteration for a set of teams that share a planning calendar. After that timeline exists, users with the `sn_apw_advanced.eap_user` role create the following iterations for the other ARTs and teams that share it.
-    -   Select **Have unique calendars** on an EAP configuration to give each ART that you add afterward its own planning calendar. By default, the ARTs in a configuration share one calendar and follow one cadence.
-    -   When an Agile Team joins an ART, the in-progress Sprint and the upcoming Sprints are created for that team automatically.
-    -   Planning calendar entries that your admin defined earlier remain valid. Teams can continue to create iterations within the timelines that those entries define.
 -   **[Admin role enhancements in Feedback](https://www.servicenow.com/docs/access?context=components-installed-with-product-feedback&family=australia&ft:locale=en-US)**
 
 The read role sn\_align\_core.pf\_read and write role sn\_align\_core.apw\_admin are added to the following system properties in Feedback and Product idea:
@@ -481,13 +296,6 @@ The read role sn\_align\_core.pf\_read and write role sn\_align\_core.apw\_admin
     -   sn\_apw\_advanced.product\_feedback\_product\_idea\_filters
     -   sn\_apw\_advanced.product\_feedback\_feedback\_filters
     -   sn\_apw\_advanced.feedback.idea\_feedback\_queue\_address
--   **[Financials for planning items](https://www.servicenow.com/docs/access?context=using-financials-spw&family=australia&ft:locale=en-US)**
-    -   Migration of financial baselines:
-        -   Migrate the financial baselines of projects, which includes investment currency support.
-        -   While migration, financial baselines will now include actuals, costs, benefits, and budget values from the project currency to the investment currency.
-    -   Streamlined currency fields while using multicurrency:
-        -   New and existing customers will now see only investment currency fields in demand and project records.
-        -   Planned costs, actual costs, planned benefits, actual benefits, and budget fields are included in the financial baselines.
 
 </td></tr></tbody>
 </table>## Changes
@@ -529,9 +337,13 @@ Yokohama
 
 </td><td>
 
--   **[Changes in planning item forms](https://www.servicenow.com/docs/access?context=epic-form&family=yokohama&ft:locale=en-US)**
+-   **[Skill name updates](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&family=yokohama&ft:locale=en-US)**
+    -   Renamed the Planning item Gen AI Docs to the Planning item doc summarization skill in Strategic Planning.
+    -   Renamed the EAP Teams Gen AI Docs to the EAP doc summarization skill in Enterprise Agile Planning.
+    -   Added the Write planning items skill in Strategic Planning.
+-   **[Capacity Planning name updates](https://www.servicenow.com/docs/access?context=using-cap-plan-spw&family=yokohama&ft:locale=en-US)**
 
-The dates in the **Planned start date** and **Planned end date** fields are editable for all planning item types other than Demand and Project planning item types. Also, the **State** field is editable for EAP planning items and its child items.
+Change in the name of the **Capacity Planning** tab to **Capacity** in the planning view.
 
 
 </td></tr><tr><td>
@@ -540,7 +352,27 @@ Zurich
 
 </td><td>
 
--   **[Investment type and Investment class fields](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Financials UI changes](https://www.servicenow.com/docs/access?context=using-financials-spw&family=zurich&ft:locale=en-US)**
+    -   New Display mode in the Financials record page to select and view forecast, compare planned vs actual costs, planned costs, or allocate budget.
+    -   Select and view forecasts, compare planned vs. actual costs, and view planned costs or the allocated budget through a new display mode on the Financials record page.
+    -   Renamed **Cost** tab as **Costs and benefits** to manage cost plans and benefit plans in one view.
+    -   Renamed **Baselines** as **Baseline comparison** to create and compare financial baselines.
+    -   Renamed **Time scope** as **Filter time scope** to adjust the time scope to view a focused and customized financial snapshot.
+    -   New **Generate labor costs** button to generate labor costs based on the resource assignments.
+    -   New **Currency** list option to switch between functional and investment currency.
+    -   New **Edit investment currency** option to define investment currency for your projects.
+    -   **New monetary benefit plan** option to create new forecast benefit plans.
+    -   New **Planned Benefits** widget displays the total forecasted benefits.
+    -   New **Total Return** widget displays the total actual benefits form the projects.
+    -   New **Record type** column to classify the financial records between benefits and costs.
+    -   Renamed **Estimate At Completion** widget to **EAC Cost**.
+    -   Renamed **Actual Cost To Date** to **Actuals \(Incl. current fiscal period\)**.
+
+ -   **[Investment type and Investment class fields](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
 
 The **Investment type** and **Investment class** fields have been deprecated from the Project and Demand planning item tables. These fields are now created at the parent level in the Planning item \[sn\_align\_core\_planning\_item\] table.
 
@@ -552,9 +384,6 @@ By default, only active goals—those goals with the **Active** field set to **t
 
 In the Stories list for an Epic, Feature, or Capability in the Enterprise Agile Planning workspace, the Assignment group and Sprint columns in the default related list view are replaced with the EAP team and Iteration columns.
 
--   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
-    -   Resize the column width of a table per your preference.
-    -   Add color to single or multiple table cells.
 
 </td></tr><tr><td>
 
@@ -562,37 +391,50 @@ Australia
 
 </td><td>
 
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+-   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&family=australia&ft:locale=en-US)**
+    -   The Demands icon has been added to the Strategic Planning L1 menu to open the All Demands home page.
+    -   The **State** field on the **All Demands** page has been color-coded for each state value.
+    -   The **Playbook**, **Details**, and **Docs** tabs have been added to the L2 menu of each demand to clearly and consistently group information.
+        -   The **Details** tab has been added to add and manage demand information such as financials and resource assignments.
+        -   The **Playbook** tab has been added to define clear stages and guided activities to read and follow. Selecting the name of a stage or activity navigates you to that stage or activity in the playbook. The **Skip**, **Update**, and **Mark Complete** options have been added to the activities of the playbook.
+        -   The **Docs** tab has been added to view and manage the documentation on the demand.
+    -   If you have the AI Control Tower plugin installed and the investment type of the demand is set to artificial intelligence:
+        -   The **AI Associations** section in the Demand details is displayed. The following fields are included:
+            -   **Product**: Enables you to select the product or system that the demand relates to.
+            -   **Impacted AI systems**: Links the impacted AI systems with the demand. You can select existing AI systems from the list or remove systems that are no longer relevant.
+        -   The **AI Checkpoint** stage is added to the demand default playbook. This stage includes the **Product** and **Impacted AI systems** fields.
+        -   The **Create AI System** option is added to the **Details** page of a demand for users with the sn\_ai\_steward role.
+    -   [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)The **Financials** grid is added to the navigation menu of a demand. It has options to create cost plans, monetary benefits plans, expense lines, and create and compare baselines.
+    -   The **Dashboards** menu item is added for demands, providing **Overview**, **Financials**, and **Data Quality** tabs.
+    -   The following items have been added to the demand form and are available if you have the identify similar records AI skill activated:
+        -   The **Identify similar demands** button, which identifies and displays similar demands.
+        -   The **Similar Demands** tab in **Details**, which displays the list of similar demand records identified by AI.
+    -   The **AI Overview** tab is added to the navigation menu of a demand. It generates a demand summary on landing if the skill trigger is set to automatic. If the trigger is set to manual, a **Summarize** button is available to generate the summary.
+-   **[Changes to Target form](https://www.servicenow.com/docs/access?context=target-form-egm&family=australia&ft:locale=en-US)**
 
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+The following fields have been added to the Target form to support defining targets at multiple organizational levels.
+
+    -   **Assigned entity**
+    -   **Company**
+    -   **Business Unit**
+    -   **Department**
+    -   **Portfolio**
+    -   **Product model**
+    -   **Value stream**
+    -   **Initiative**
+    -   **Strategic Program**
+-   **[Changes to Strategic Priority form](https://www.servicenow.com/docs/access?context=strategic-priority-form&family=australia&ft:locale=en-US)**
+
+The **Status** field has been added to the Strategic Priority form, enabling you to set the status of a strategic priority as **None**, **Green**, **Yellow**, or **Red**.
+
+-   **[Hierarchy and List views in Prioritization](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&family=australia&ft:locale=en-US)**
+
+The **Kanban** and **Hierarchy** views have been removed from the Prioritization page and are now available as separate tabs in the Planning page. This change improves navigation by consolidating all planning-related views in one place.
+
+
+ -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
--   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&family=australia&ft:locale=en-US)**
-
-The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
-
--   **[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)[Summarize demands using AI](https://www.servicenow.com/docs/access?context=summarize-demand-in-demand-workspace&family=australia&ft:locale=en-US)**
-
-The demand summary is generated in the **AI Overview** tab instead of the **Details** tab. The skill is set to trigger automatically, that is, the summary is generated on landing in this tab. Auto-generation is on by default and applies to demands in Submitted, Screening, Qualified, or Approved states. You can define the trigger to manually trigger as well, where users must select the **Summarize** button to generate the summary.
-
--   **[AI skills for Demand Management](https://www.servicenow.com/docs/access?context=similar-demand-identification-using-now-assist&family=australia&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
--   **[Access execution records from Portfolio Plans](https://www.servicenow.com/docs/access?context=access-demands-from-portfolio-plan-spw&family=australia&ft:locale=en-US)**
-
-The execution URL is updated on the planning item demand. New planning items demand will automatically use the new execution URL. The execution URLs on existing planning item demands continue to work but doesn't reflect the updated navigation. Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URL on the existing demands.
-
--   **[Components installed with Enterprise Agile Planning](https://www.servicenow.com/docs/access?context=components-installed-with-enterprise-agile-planning&family=australia&ft:locale=en-US)**
-
-The EAP role hierarchy is updated. The `sn_apw_advanced.eap_admin` role now contains `sn_apw_advanced.eap_scrum_master`, which in turn contains `sn_apw_advanced.eap_user`. The `sn_apw_advanced.eap_admin` role no longer contains `sn_apw_advanced.eap_user` directly.
-
-As a result, the following actions require the `sn_apw_advanced.eap_scrum_master` role:
-
-    -   Changing the start date or the end date of an iteration.
-    -   Creating, editing, and deleting planning calendars and calendar spans.
-Because `sn_apw_advanced.eap_admin` contains `sn_apw_advanced.eap_scrum_master`, users with the admin role keep access to these actions.
 
 
 </td></tr></tbody>
@@ -712,7 +554,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -720,7 +565,10 @@ Zurich
 
 </td><td>
 
-Install Strategic Planning by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -728,7 +576,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

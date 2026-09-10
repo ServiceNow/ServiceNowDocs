@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [alert analysis, alert resolution, health log analytics, log anomaly detection, troubleshooting alerts, log investigation, anomaly analysis, alert remediation, log viewer, root cause analysis, log correlators, alert monitoring, operator workflow, log data analysis, incident response]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -42,7 +42,7 @@ More detailed information on tasks and procedures for analyzing and resolving Lo
 -   Navigate to the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/express-list.md) and select an alert from the Alerts list. Use ServiceNow Otto to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
 -   [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
 
-    For further investigation you can navigate to the **Log Viewer** to browse the alert logs by timestamp or time range, and visualize anomaly frequency within a time period for a comprehensive view of log data over a specified time range.
+    For further investigation, navigate to the **Log Viewer** to browse alert logs by timestamp or time range. You can visualize anomaly frequency within a time period for a comprehensive view of log data.
 
 -   [Add a KB article to a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-add-kb-sow.md)
 

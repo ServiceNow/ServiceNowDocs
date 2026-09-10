@@ -75,7 +75,7 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 ## Optimization Accelerators
 
 |Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
-|:----------|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
+|:---------:|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
 |[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
 
@@ -142,7 +142,6 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Automated Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-cmdb.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your CSDM: Crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-CSDM-crawl.md)|✓|✓|✓| | | | |
 |[Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CSDM for Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/csm-configurable-workspace.md)|✓|✓|✓|✓|✓|✓| |
@@ -156,7 +155,6 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your GenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-gen-ai.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your HR Case and Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-issue-auto-resolution.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-impact-platform-health.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-integration-hub.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-itom-discovery.md)|✓|✓|✓|✓|✓|✓| |
@@ -165,9 +163,6 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-major-incident-management.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Migration of Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Modern Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-modern-change-management.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Multi-lingual Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-NLU.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.md)|✓|✓|✓|✓|✓|✓| |
@@ -187,7 +182,7 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md)​|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-virtual-agent.md)​|✓|✓|✓|✓|✓|✓| |
+|Jumpstart Your Virtual Agent​|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Workflow Automation: Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-workflow-automation-playbooks.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-ai-search.md)|✓|✓|✓|✓|✓|✓| |

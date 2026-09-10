@@ -314,6 +314,10 @@ Date/Time
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and Asset Management data model mappings]()
 
 [Primary data tables for Sourcing and Procurement Operations]()
@@ -321,4 +325,6 @@ Date/Time
 [Domain separation and Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 

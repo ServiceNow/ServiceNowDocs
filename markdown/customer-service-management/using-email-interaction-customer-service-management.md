@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usi
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [Email Interaction for CSM, email replies closed interactions, AI summarization email interactions]
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -31,7 +31,7 @@ Email interactions can be routed through Advanced Work Assignment \(AWA\) or thr
 
 ## Inbound email interactions
 
-When a customer sends an email, the system creates an inbound interaction instead of a case and routes it to an available agent through Advanced Work Assignment \(AWA\) or a CCaaS provider. The agent reviews the interaction, responds through the activity stream, and resolves the query directly within the interaction. If the query requires further investigation, the agent creates a case from the interaction while preserving all communication history and context.
+When a customer sends an email, the system creates an inbound interaction instead of a case. The interaction is routed to an available agent through Advanced Work Assignment \(AWA\) or a CCaaS provider. The agent reviews the interaction, responds through the activity stream, and resolves the query directly within the interaction. If the query requires further investigation, the agent creates a case from the interaction while preserving all communication history and context.
 
 Inbound email interactions support the following features:
 
@@ -42,7 +42,7 @@ Inbound email interactions support the following features:
 
 ## Email replies on closed interactions
 
-When a customer replies to an email thread linked to a closed interaction, the system automatically links the reply to the correct open case or interaction instead of creating a new interaction. This preserves conversation continuity and confirms the assigned agent receives the reply in context. If no open cases or interactions are linked to the closed interaction, the system creates a new interaction for the email reply.
+When a customer replies to an email thread linked to a closed interaction, the system automatically links the reply to the correct open case or interaction. This prevents the creation of a new interaction. This preserves conversation continuity and confirms the assigned agent receives the reply in context. If no open cases or interactions are linked to the closed interaction, the system creates a new interaction for the email reply.
 
 Email replies on closed interactions support the following:
 
@@ -56,7 +56,7 @@ For more information on how the system evaluates and routes replies, see [Email 
 
 ## Outbound email interactions
 
-Agents can initiate outbound email interactions directly from contact or consumer records in the CSM Configurable Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction and assigns it to the agent.
+Agents can initiate outbound email interactions directly from contact or consumer records in the CRM Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction. The interaction is assigned to the agent.
 
 Outbound email interactions support the following features:
 
@@ -69,7 +69,7 @@ Outbound email interactions support the following features:
 
 ## Multiple agents composing email for the same customer
 
-By default, when multiple agents initiate outbound emails for the same customer, the system consolidates all drafts into a single WIP interaction. The outbound interaction is assigned to the agent who initiates the email. If the agent composes the email but doesn’t send it immediately, and another agent composes an email to the same contact or consumer during this period, the second email is linked to the same outbound interaction and ownership is reassigned to the second agent. When the email is sent, the interaction is assigned to the agent who sends it.
+By default, when multiple agents initiate outbound emails for the same customer, the system consolidates all drafts into a single WIP interaction. The outbound interaction is assigned to the agent who initiates the email. If the agent composes the email but doesn’t send it immediately, the draft remains in the WIP interaction. When another agent composes an email to the same contact or consumer, the system links the second email to the same outbound interaction. The system reassigns ownership to the second agent. When the email is sent, the interaction is assigned to the agent who sends it.
 
 This behavior is configurable using the \(**sn\_eaai\_core.create\_outbound\_interaction\_per\_agent.target\_tables**\) system property. When a table is listed in this property, a new outbound interaction is created for each outbound email initiated by different agents for the same customer. For example, if Agent A and Agent B both compose emails to the same contact, each agent gets a separate outbound interaction instead of sharing one. When a table isn’t listed, all agent drafts are consolidated into a single WIP interaction.
 

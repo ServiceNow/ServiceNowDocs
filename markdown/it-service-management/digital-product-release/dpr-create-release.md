@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -39,15 +39,15 @@ For creating a release for multiple products using the wizard, see [Create a rel
 
 2.  Create a release for a product version from the Release planning page or the Releases list view.
 
-<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d104228e161">
+<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d106128e166">
 
 Option
 
-</th><th align="left" id="d104228e164">
+</th><th align="left" id="d106128e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104228e170">
+</th></tr></thead><tbody><tr><td id="d106128e175">
 
 **From the Release planning page of a product**
 
@@ -59,7 +59,7 @@ Steps
 4.  Select the sub menu icon \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
 
 
-</td></tr><tr><td id="d104228e221">
+</td></tr><tr><td id="d106128e226">
 
 **From the Releases list view**
 
@@ -101,6 +101,7 @@ Steps
 
     You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
+-   If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team. Only members of this team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md),
 
 **Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

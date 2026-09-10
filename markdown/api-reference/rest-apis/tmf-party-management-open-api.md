@@ -1,6 +1,6 @@
 ---
 title: Party Management Open API
-description: The Party Management Open API provides endpoints for managing parties with a relationship to the enterprise, like a consumer, account, or contact. Use this API to create, update, and retrieve data from the Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\] tables.Inactivates a specified record from the Consumer \[csm\_consumer\] and Contact \[customer\_contact\] tables.Retrieves a list of all individual \(party\) records with a relationship to the enterprise. You can filter results by specific fields or IDs.Retrieves a specified record from the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables. You can filter results by specific fields.Retrieves a specified record from the Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Retrieves organization-level party records from the Company \[core\_company\] and Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Updates an existing individual party record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] table without replacing the entire resource.Updates an existing individual party record in the Account \[customer\_account\] tables without replacing the entire resource.Creates a new individual party management record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables.Creates a new party organization record in the Account \[customer\_account\] tables.
+description: The Party Management Open API provides endpoints for managing parties with a relationship to the enterprise, like a consumer, account, or contact. Use this API to create, update, and retrieve data from the Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\] tables.Inactivates a specified record from the Consumer \[csm\_consumer\] and Contact \[customer\_contact\] tables.Retrieves a list of all individual \(party\) records with a relationship to the enterprise. You can filter results by specific fields or IDs.Retrieves a specified record from the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables. You can filter results by specific fields.Retrieves a specified record from the Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Retrieves organization-level party records from the Company \[core\_company\] and Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Updates an existing individual party record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] table without replacing the entire resource.Updates an existing individual party record in the Account \[customer\_account\] tables without replacing the entire resource.Creates a new individual party management record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables.Creates a new party organization record in the Account \[customer\_account\] tables. You can also create and associate Contact and Location records inline during organization creation, eliminating the need for separate POST operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tmf-party-management-open-api.html
 release: australia
@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 71
+reading_time_minutes: 76
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -1723,7 +1723,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -1857,6 +1857,16 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+createdDate
+
+</td><td>
+
+Timestamp when the organization record was created \(ISO 8601 format\). Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
@@ -1915,6 +1925,16 @@ id
 Sys\_id of the external entity account record.Table: Account \[customer\_account\]
 
 Data type: String
+
+</td></tr><tr><td>
+
+lastModifiedDate
+
+</td><td>
+
+Timestamp when the organization record was last modified \(ISO 8601 format\).Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
 
 </td></tr><tr><td>
 
@@ -2403,12 +2423,12 @@ contactMedium.@type
 
 Type of contacting party. Indicates the specific schema or subclass type of the object.Possible values:
 
--   BusinessPhoneContactMedium: Business phone number
--   EmailContactMedium: Email address
--   FaxPhoneContactMedium: Fax number
--   GeographicAddressContactMedium: Physical address \(street, city, state, postal code\)
--   HomePhoneContactMedium: Home phone number
--   MobilePhoneContactMedium: Mobile number
+-   `BusinessPhoneContactMedium`: Business phone number
+-   `EmailContactMedium`: Email address
+-   `FaxPhoneContactMedium`: Fax number
+-   `GeographicAddressContactMedium`: Physical address: street, city, state, postal code
+-   `HomePhoneContactMedium`: Home phone number
+-   `MobilePhoneContactMedium`: Mobile number
 
 Data type: String
 
@@ -2764,7 +2784,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -2898,6 +2918,16 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+createdDate
+
+</td><td>
+
+Timestamp when the organization record was created \(ISO 8601 format\). Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
@@ -2956,6 +2986,16 @@ id
 Sys\_id of the external entity account record.Table: Account \[customer\_account\]
 
 Data type: String
+
+</td></tr><tr><td>
+
+lastModifiedDate
+
+</td><td>
+
+Timestamp when the organization record was last modified \(ISO 8601 format\).Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
 
 </td></tr><tr><td>
 
@@ -3365,12 +3405,12 @@ contactMedium.@type
 
 Type of contacting party. Indicates the specific schema or subclass type of the object.Possible values:
 
--   BusinessPhoneContactMedium: Business phone number
--   EmailContactMedium: Email address
--   FaxPhoneContactMedium: Fax number
--   GeographicAddressContactMedium: Physical address \(street, city, state, postal code\)
--   HomePhoneContactMedium: Home phone number
--   MobilePhoneContactMedium: Mobile number
+-   `BusinessPhoneContactMedium`: Business phone number
+-   `EmailContactMedium`: Email address
+-   `FaxPhoneContactMedium`: Fax number
+-   `GeographicAddressContactMedium`: Physical address: street, city, state, postal code
+-   `HomePhoneContactMedium`: Home phone number
+-   `MobilePhoneContactMedium`: Mobile number
 
 Data type: String
 
@@ -4356,7 +4396,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -4394,6 +4434,23 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `faxPhone`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -4415,23 +4472,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   businessPhone
--   email
--   faxPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -4467,8 +4507,8 @@ contactMedium.stateOrProvince
 
 Indicates whether the location is from a state or province.Possible values:
 
--   state
--   province
+-   `state`
+-   `province`
 
 Data type: String
 
@@ -4556,6 +4596,153 @@ name
 </td><td>
 
 Name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship
+
+</td><td>
+
+List of child organization relationships, such as subsidiary, partner, or branch organizations. Data type: Array of Objects
+
+```
+"organizationChildRelationship": [
+  {
+    "relationshipType": "String",
+    "organization": {Object}
+  }
+]
+```
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization
+
+</td><td>
+
+Child organization object containing identity and details.Data type: Object
+
+```
+"organization": {
+        "id": "String",
+        "name": "String",
+        "@type": "String"
+      }
+```
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.@type
+
+</td><td>
+
+Type of the organization object. Value is always `Organization`.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.id
+
+</td><td>
+
+Sys\_id of the child organization record.Table: Account \[customer\_account\] or Organization \[core\_company\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.name
+
+</td><td>
+
+Display name of the child organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.relationshipType
+
+</td><td>
+
+Type of relationship between parent and child organization.Data type: String
+
+Accepted values:
+
+-   `partneraccount`
+-   `distributor`
+-   `subsidiary`
+-   `branch`
+-   `reseller`
+
+</td></tr><tr><td>
+
+organizationParentRelationship
+
+</td><td>
+
+Parent organization relationship. Data type: Object
+
+```
+"organizationParentRelationship": {
+  "relationshipType": "String",
+  "organization": {Object}
+}
+```
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization
+
+</td><td>
+
+Parent organization object containing identity and details.Data type: Object
+
+```
+"organization": {
+      "id": "String",
+      "name": "String",
+      "@type": "String"
+    }
+```
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.@type
+
+</td><td>
+
+Type of the organization object. Value is always `Organization`.Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.id
+
+</td><td>
+
+Sys\_id of the parent organization record. Table: Account \[customer\_account\] or Organization \[core\_company\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.name
+
+</td><td>
+
+Display name of the parent organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.relationshipType
+
+</td><td>
+
+Type of relationship between this organization and its parent.Accepted values:
+
+-   `Account`
+-   `Company`
+-   `HoldingCompany`
+-   `ParentAccount`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4771,7 +4958,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -4905,6 +5092,16 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+createdDate
+
+</td><td>
+
+Timestamp when the organization record was created \(ISO 8601 format\). Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
@@ -4963,6 +5160,16 @@ id
 Sys\_id of the external entity account record.Table: Account \[customer\_account\]
 
 Data type: String
+
+</td></tr><tr><td>
+
+lastModifiedDate
+
+</td><td>
+
+Timestamp when the organization record was last modified \(ISO 8601 format\).Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
 
 </td></tr><tr><td>
 
@@ -5565,12 +5772,12 @@ contactMedium.@type
 
 Type of contacting party. Indicates the specific schema or subclass type of the object.Possible values:
 
--   BusinessPhoneContactMedium: Business phone number
--   EmailContactMedium: Email address
--   FaxPhoneContactMedium: Fax number
--   GeographicAddressContactMedium: Physical address \(street, city, state, postal code\)
--   HomePhoneContactMedium: Home phone number
--   MobilePhoneContactMedium: Mobile number
+-   `BusinessPhoneContactMedium`: Business phone number
+-   `EmailContactMedium`: Email address
+-   `FaxPhoneContactMedium`: Fax number
+-   `GeographicAddressContactMedium`: Physical address: street, city, state, postal code
+-   `HomePhoneContactMedium`: Home phone number
+-   `MobilePhoneContactMedium`: Mobile number
 
 Data type: String
 
@@ -6498,7 +6705,74 @@ Response body.
 
 ## Party Management - POST /api/sn\_tmf\_api/v1/party/organization
 
-Creates a new party organization record in the Account \[customer\_account\] tables.
+Creates a new party organization record in the Account \[customer\_account\] tables. You can also create and associate Contact and Location records inline during organization creation, eliminating the need for separate POST operations.
+
+### Automatic Location Creation with contactMedium
+
+When you include address information in the **contactMedium** field \(with **@type** set to `GeographicAddressContactMedium`\), the system automatically handles location creation and association based on what you provide:
+
+1.  If you supply a valid locationId, the system links the existing location record to the organization you are creating.
+2.  If you provide address attributes \(street, city, country, postCode, stateOrProvince\) along with an invalid or non-existent locationId, the system automatically creates a new location record with those attributes and associates it to the organization.
+3.  If you provide address attributes without specifying a locationId at all, the system creates a new location record and associates it to the organization.
+
+**Note:** Location creation requires no mandatory fields. You can provide any combination of address attributes \(street1, street2, city, state, postCode, country\) based on your needs. If you omit all address attributes from the contactMedium section, no location record is created or linked to the organization.
+
+### Inline Contact Creation with relatedParty
+
+When you include contact attributes in the **relatedParty** field without providing a contact ID, the system automatically creates a new contact record and associates it to the organization you are creating. This eliminates the need for a separate POST request to create the contact first. You can include the following contact information directly in the **relatedParty.partyOrPartyRole** object.
+
+Mandatory attributes for inline contact creation:
+
+-   familyName \(or lastName\)
+-   email
+
+Optional attributes:
+
+-   givenName
+-   middleName
+-   gender
+-   title
+-   nationality
+-   contactMedium \(to include phone, address, or other contact details\)
+
+Example: Creating a contact inline without a pre-existing ID.
+
+```
+{
+  "relatedParty": [
+    {
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "givenName": "John",
+        "familyName": "Doe",
+        "email": "john.doe@example.com",
+        "@type": "Individual"
+      }
+    }
+  ]
+}
+```
+
+Legacy approach: Linking an existing contact by ID.
+
+If you already have a contact record, you can link it by providing its sys\_id instead:
+
+```
+{
+  "relatedParty": [
+    {
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "existing_contact_sys_id",
+        "name": "John Doe",
+        "@type": "Individual"
+      }
+    }
+  ]
+}
+```
+
+Both approaches are supported. The system automatically determines whether to create a new contact or link an existing one based on whether the partyOrPartyRole includes an id field.
 
 ### URL format
 
@@ -6567,7 +6841,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -6605,6 +6879,23 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `faxPhone`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -6626,23 +6917,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   businessPhone
--   email
--   faxPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -6678,8 +6952,8 @@ contactMedium.stateOrProvince
 
 Indicates whether the location is from a state or province.Possible values:
 
--   state
--   province
+-   `state`
+-   `province`
 
 Data type: String
 
@@ -6767,6 +7041,153 @@ name
 </td><td>
 
 Name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship
+
+</td><td>
+
+List of child organization relationships, such as subsidiary, partner, or branch organizations. Data type: Array of Objects
+
+```
+"organizationChildRelationship": [
+  {
+    "relationshipType": "String",
+    "organization": {Object}
+  }
+]
+```
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization
+
+</td><td>
+
+Child organization object containing identity and details.Data type: Object
+
+```
+"organization": {
+        "id": "String",
+        "name": "String",
+        "@type": "String"
+      }
+```
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.@type
+
+</td><td>
+
+Type of the organization object. Value is always `Organization`.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.id
+
+</td><td>
+
+Sys\_id of the child organization record.Table: Account \[customer\_account\] or Organization \[core\_company\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.organization.name
+
+</td><td>
+
+Display name of the child organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationChildRelationship.relationshipType
+
+</td><td>
+
+Type of relationship between parent and child organization.Data type: String
+
+Accepted values:
+
+-   `partneraccount`
+-   `distributor`
+-   `subsidiary`
+-   `branch`
+-   `reseller`
+
+</td></tr><tr><td>
+
+organizationParentRelationship
+
+</td><td>
+
+Parent organization relationship. Data type: Object
+
+```
+"organizationParentRelationship": {
+  "relationshipType": "String",
+  "organization": {Object}
+}
+```
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization
+
+</td><td>
+
+Parent organization object containing identity and details.Data type: Object
+
+```
+"organization": {
+      "id": "String",
+      "name": "String",
+      "@type": "String"
+    }
+```
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.@type
+
+</td><td>
+
+Type of the organization object. Value is always `Organization`.Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.id
+
+</td><td>
+
+Sys\_id of the parent organization record. Table: Account \[customer\_account\] or Organization \[core\_company\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.organization.name
+
+</td><td>
+
+Display name of the parent organization.Data type: String
+
+</td></tr><tr><td>
+
+organizationParentRelationship.relationshipType
+
+</td><td>
+
+Type of relationship between this organization and its parent.Accepted values:
+
+-   `Account`
+-   `Company`
+-   `HoldingCompany`
+-   `ParentAccount`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -6938,11 +7359,27 @@ Data format of the response body. Supported types: **application/json** or **app
 
 The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
+<table><thead><tr><th>
 
-### Response body parameters \(JSON or XML\)
+Status code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+200
+
+</td><td>
+
+Successful. The request was successfully processed.**Note:** Response may include a **warning** array if:
+
+-   Invalid **relatedParty** IDs are provided \(related contact or party doesn't exist\).
+-   Invalid **locationId** is provided in **contactMedium**. Example warning: `relatedParty[0] is incorrect. User does not exist`.
+
+</td></tr></tbody>
+</table>### Response body parameters \(JSON or XML\)
 
 ### Response body parameters \(JSON or XML\)
 
@@ -6984,7 +7421,7 @@ List of means for contacting the party. A contact medium represents the way you 
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -7118,6 +7555,16 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+createdDate
+
+</td><td>
+
+Timestamp when the organization record was created \(ISO 8601 format\). Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
@@ -7176,6 +7623,16 @@ id
 Sys\_id of the external entity account record.Table: Account \[customer\_account\]
 
 Data type: String
+
+</td></tr><tr><td>
+
+lastModifiedDate
+
+</td><td>
+
+Timestamp when the organization record was last modified \(ISO 8601 format\).Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
 
 </td></tr><tr><td>
 
@@ -7330,35 +7787,36 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "athammhd@email.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "phone",
+      "contactType": "mobilePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "validFor": {
         "startDateTime": "2017-03-15T07:49:25.246Z"
       },
       "@type": "GeographicAddressContactMedium",
+      "locationId": "12345678901234567",
       "city": "chennai",
       "country": "INDIA",
       "postCode": "608001",
@@ -7473,11 +7931,22 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   ],
   "relatedParty": [
     {
-      "@type": "User",
-      "role": "primaryContact"
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "givenName": "John",
+        "familyName": "Doe",
+        "email": "john.doe@example.com",
+        "@type": "Individual"
+      }
     },
     {
-      "role": "other"
+      "role": "other",
+      "partyOrPartyRole": {
+        "givenName": "Mary",
+        "familyName": "Star",
+        "email": "mary.star@example.com",
+        "@type": "Individual"
+      }
     }
   ],
   "organizationChildRelationship": [
@@ -7515,35 +7984,36 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "athammhd@email.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "phone",
+      "contactType": "mobilePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "validFor": {
         "startDateTime": "2017-03-15T07:49:25.246Z"
       },
       "@type": "GeographicAddressContactMedium",
+      "locationId": "03e588a17be062105e0d5494548cb68c",
       "city": "chennai",
       "country": "INDIA",
       "postCode": "608001",
@@ -7658,11 +8128,26 @@ Response body.
   ],
   "relatedParty": [
     {
-      "@type": "User",
-      "role": "primaryContact"
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "givenName": "John",
+        "familyName": "Doe",
+        "email": "john.doe@example.com",
+        "name": "John Doe",
+        "@type": "Individual"
+      }
     },
     {
-      "role": "other"
+      "role": "other",
+      "partyOrPartyRole": {
+        "id": "776a22ea11f43110f877366201dea6b7",
+        "givenName": "Mary",
+        "familyName": "Star",
+        "email": "mary.star@example.com",
+        "name": "Mary Star",
+        "@type": "Individual"
+      }
     }
   ],
   "organizationChildRelationship": [
@@ -7684,7 +8169,7 @@ Response body.
     }
   },
   "status": "active",
-  "@type": "User",
+  "@type": "Organization",
   "createdDate": "2025-06-25T14:32:18.000Z",
   "lastModifiedDate": "2025-06-25T14:32:18.000Z"
 }

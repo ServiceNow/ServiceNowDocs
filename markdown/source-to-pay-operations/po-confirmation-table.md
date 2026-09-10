@@ -16,13 +16,13 @@ Purchase order confirmations are supplier-generated transactions that acknowledg
 
 ## sn\_poem\_po\_confirmation table
 
-The Purchase Order Confirmation \[sn\_poem\_po\_confirmation\] table contains the following fields..
+The Purchase Order Confirmation \[sn\_poem\_po\_confirmation\] table contains the following fields.
 
 |Field|Data type|Description|
 |-----|---------|-----------|
 |Created by|String|Supplier contact who created this purchase order confirmation record.|
 |Purchase order|Reference|Reference to the purchase order associated with this confirmation.|
-|Confirmation source|Choice|Indicates how the confirmation was received, such as manually entered, imported from an ERP, or submitted by the supplier.|
+|Confirmation source|Choice|Indicates how the confirmation was received, such as an email, manually entered, imported from an ERP, created by an AI agent, or submitted from the Supplier Collaboration Portal.|
 |Number|String|Auto-generated unique identifier for this PO confirmation record.|
 |Active|True/False|Indicates whether this confirmation record is currently active.|
 |Created|Date/Time|Date and time on which this PO Confirmation was created.|
@@ -32,7 +32,8 @@ The Purchase Order Confirmation \[sn\_poem\_po\_confirmation\] table contains th
 |Updated by|String|User who last modified this record.|
 |ERP Source|Reference|Reference to the ERP system from which this confirmation originated.|
 |Updated|Date/Time|Date and time when this record was last modified.|
-|Status|Choice|Indicates the current stage of the confirmation record. Possible values are Draft or Submitted.|
+|Status|Choice|Indicates the current stage of the confirmation record. Possible values are Draft, Draft Retracted, or Submitted.|
+|ERP created|Date/Time|Data and time when this purchase order confirmation was created in the ERP system.|
 
 **Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
 

@@ -46,14 +46,14 @@ Metric Intelligence is available when you activate the Metric Intelligence \(com
 
 -   **Time series**
 
-    A series of values \(such as metric values\) over a time range, associated with a CI and a metric type. Because an anomaly score is evaluated for each metric, the series of anomaly scores over a period of time are also a time series. Time series are computed by the statistical model built for a metric data series, and are used with metric data values, anomaly scores, and upper and lower control bounds.
+    A series of values \(such as metric values\) over a time range, associated with a CI and a metric type. Because an anomaly score is evaluated for each metric, the series of anomaly scores over a period of time are also a time series. Time series are computed by the statistical model built for a metric data series. They are used with metric data values, anomaly scores, and upper and lower control bounds.
 
 
 ## Statistical models
 
 Metric Intelligence jobs learn from past metric data \(up to 32 days old\). A model training process analyzes historical data to construct a model that projects future values. Typically, models are in effect until the next time the model learning process runs. These models are used to calculate upper and lower bounds. Incoming values that are beyond those bounds, and that deviate with statistical significance from expected values, generate anomalies. Each model is uniquely patterned and is labeled with a classifier that illustrates the general behavior of the model. This classification determines if anomaly detection can be applied. For most models, it is possible to project which future values deviate from expected values. Such models are associated with control bounds and anomaly detection can be applied \(if enabled\).
 
-However, for some models, there is insufficient data to determine which values are anomalous and anomaly detection cannot be applied without additional information \(even if anomaly detection is enabled\).
+However, for some models, there is insufficient data to determine which values are anomalous. Anomaly detection cannot be applied without additional information, even if it is enabled.
 
 The learned data models are stored in the Metric Time Series Models \[sa\_time\_series\] table.
 

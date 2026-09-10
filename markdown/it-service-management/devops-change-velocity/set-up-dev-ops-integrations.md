@@ -250,7 +250,7 @@ global
 
     The inbound event record state is set to **Processed** once the object has been inserted into the DevOps Core table. Event states include New, In Progress, Processed, Unmatched, and Error.
 
-3.  If the tool integration record and the subflow are created in a different scope, the DevOps admin must create two new Cross scope privileges records to allow the app to access the inbound events table.
+3.  If the tool integration record and the subflow are created in a different scope, the DevOps admin must create two new Cross scope privileges records to enable the app to access the inbound events table.
 
     Navigate to **System Applications** &gt; **Application Cross-Scope Access** and create read and write cross scope privileges records to allow your app to access the inbound events table.
 

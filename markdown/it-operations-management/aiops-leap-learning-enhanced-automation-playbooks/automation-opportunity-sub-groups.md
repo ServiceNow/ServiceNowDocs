@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [automation opportunities, LEAP, sub-groups]
 breadcrumb: [Automation opportunities overview, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

@@ -54,7 +54,21 @@ Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
 
             For example, the L1 IT Service Desk AI Specialist **Awaiting info** state can be mapped to the Incident record **On Hold** state. If you have customized state values for your Incident table, you can map them to the L1 IT Service Desk AI Specialist states here.
 
-        -   **Router \(recommended\)** uses your configured routing decision criteria. **Script** runs a custom script.
+        -   **Default routing decision:** The routing decision the L1 IT Service Desk AI Specialist falls back to when no routing decision criteria matches.
+
+        -   **Routing criteria:** Add routing criteria to determine which records the L1 IT Service Desk AI Specialist handles.
+
+            -   Attempt resolution for:
+
+                Add criteria to match.
+
+                When an incident matches one of these criteria, the L1 IT Service Desk AI Specialist will attempt resolution.
+
+            -   Reassign for:
+
+                Add criteria to match.
+
+                When an incident matches one of these criteria, the incident will be reassigned.
 
     3.  Configure the Investigate and resolve section.
 

@@ -1,6 +1,6 @@
 ---
 title: Install Skills Foundation
-description: You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role.The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/install-skills-intelligence.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experience
 
 # Install Skills Foundation
 
-You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 

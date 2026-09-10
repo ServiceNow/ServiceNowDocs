@@ -23,6 +23,8 @@ To access the External Content Connectors application, navigate to **All** &gt; 
 View crawl history records for an external content connector. Drill into a crawl history record to see metrics and alerts for the crawl in question.
 -   **[Review analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-analytics-external-content-connector.md)**  
 Review analytics for an external content connector to gain insight into its crawl behavior.
+-   **[Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-indexing-status-content-items.md)**  
+View indexing status, selected fields, errors, and user and group access permissions for individual content items using the Index inspector tool in the external content connector editor.
 -   **[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)**  
 View user and group access permissions retrieved by an external content connector, and see how the connector maps those permissions to your ServiceNow AI Platform® instance's users.
 

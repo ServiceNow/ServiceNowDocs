@@ -1,6 +1,6 @@
 ---
 title: Monitor and troubleshoot FHIR sync runs
-description: Review the FHIR Sync Log to confirm that sync runs complete, see how many records each run processed and skipped, and trace skipped records and failures to their cause.
+description: Review the FHIR Sync Log to confirm that sync runs complete and see how many records each run processed or skipped. Trace skipped records and failures to their cause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-monitor-sync.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Run the initial load, EMR Provider Directory Sync, Healthcare Integ
 
 # Monitor and troubleshoot FHIR sync runs
 
-Review the FHIR Sync Log to confirm that sync runs complete, see how many records each run processed and skipped, and trace skipped records and failures to their cause.
+Review the FHIR Sync Log to confirm that sync runs complete and see how many records each run processed or skipped. Trace skipped records and failures to their cause.
 
 ## Before you begin
 
@@ -49,7 +49,7 @@ You can confirm sync health at a glance and trace any skipped or failed records 
 
 Common situations:
 
--   If the run stops after the Organization import, the Organization row is likely **Failed** — verify that the FHIR server and the HL7 FHIR Spoke connection are reachable, then rerun with **Execute Now**.
+-   If the run stops after the Organization import, the Organization row is likely **Failed**. Verify that the FHIR server and the HL7 FHIR Spoke connection are reachable, then rerun with **Execute Now**.
 -   If locations import but some organization associations are missing, those locations referenced an organization that could not be resolved; the locations still upsert. Rerun after the missing organizations are imported.
 -   If imported practitioners cannot sign in, set their password or configure SSO — the integration enables login but does not set credentials.
 

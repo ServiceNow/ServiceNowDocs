@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cmdb-ai
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [CMDB, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [CMDB, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # CMDB AI agents
@@ -33,5 +33,5 @@ This AI agent searches for data in CMDB.
 -   **[Configuration item summarization AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cmdb-configuration-item-summarization-ai-agent.md)**  
 This AI agent uses a sys\_id to summarize a configuration item \(CI\) using an existing skill.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

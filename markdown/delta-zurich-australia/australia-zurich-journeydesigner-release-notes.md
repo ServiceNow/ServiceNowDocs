@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-journeydesigner-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,29 +67,12 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
-
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://www.servicenow.com/docs/access?context=offboarding-knowledge-x-agentic-wf&family=zurich&ft:locale=en-US)**
-
-The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
-
-
--   **[Generate onboarding ramp-up agentic workflow](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
-
-Use the Generate onboarding ramp-up plan agentic workflow to establish an efficient process for generating onboarding plans that are personalized for each new employee joining your organization.
-
-    |Agentic workflow name|Description|
-    |---------------------|-----------|
-    |Generate onboarding ramp-up plan|AI agents work together to generate personalized plans that are designed to ramp up the knowledge and skills of new employees who are beginning to embark on their onboarding journey.|
-
 -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
-Zurich Early Availability
-
--   **[Configure the journey overview page](https://www.servicenow.com/docs/access?context=manager-journeys-view&family=zurich&ft:locale=en-US)**
+ -   **[Configure the journey overview page](https://www.servicenow.com/docs/access?context=manager-journeys-view&family=zurich&ft:locale=en-US)**
 
 As an admin, you can now configure the journey overview page and hide the Task Templates and Create a Journey for Your Team widgets.
 
@@ -121,7 +104,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Cancel Journey Accelerator Journeys](https://www.servicenow.com/docs/access?context=cancel-ja-journeys&family=zurich&ft:locale=en-US)**
+
+Journey owners having access to Journey Accelerator only journeys now have a **Cancel** option instead of the **Delete** option in the Employee Center portal.
+
 
 </td></tr><tr><td>
 
@@ -209,7 +199,10 @@ Zurich
 
 </td><td>
 
-Install Journey designer by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

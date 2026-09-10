@@ -192,7 +192,7 @@ Roll up of MITRE technique associations from observables, indicators, objects, a
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

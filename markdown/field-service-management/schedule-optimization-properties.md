@@ -170,8 +170,6 @@ Maximum number of technicians to be considered for prioritized event optimizatio
 
 If the data for a prioritized intraday job exceeds these limits, the job will not run, and no assignments will be received.
 
-The 'maint' role is required to edit this property. This role is exclusive to internal users. Contact support to make changes.
-
 
 </td></tr><tr><td>
 

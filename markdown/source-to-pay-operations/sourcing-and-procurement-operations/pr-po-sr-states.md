@@ -588,6 +588,10 @@ Not applicable. This is the last state.
 
 [Savings opportunity fields]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and Asset Management data model mappings]()
 
 [Primary data tables for Sourcing and Procurement Operations]()
@@ -595,6 +599,8 @@ Not applicable. This is the last state.
 [Domain separation and Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 
 [Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md)
 

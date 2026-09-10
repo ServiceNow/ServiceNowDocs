@@ -7,8 +7,8 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 73
+last_updated: "2026-09-02"
+reading_time_minutes: 74
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -76,6 +76,10 @@ Agent Workspace
 AI Control Tower
 
 </td><td>
+
+-   **Server**
+
+[MCPClient - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MCPClientAPI.md)
 
 -   **REST**
 

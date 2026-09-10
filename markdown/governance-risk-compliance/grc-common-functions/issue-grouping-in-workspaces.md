@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -22,9 +22,11 @@ Role required: risk\_admin, risk\_manager, or sn\_risk.user
 
 ## About this task
 
-Grouping issues under a parent can streamline your workflow and save time. All child issues are managed under a single parent, making it easier to track and address them collectively. You can group different types of issues under a single parent when issues belong to the same project or audit to gain a holistic view of how different issues are managed. Grouping issues under a parent helps in organizing and prioritizing them, reducing the redundancy of solving similar issues, and ensuring that issues are addressed in a coordinated manner.
+Grouping issues under a parent can streamline your workflow and save time. All child issues are managed under a single parent, making it easier to track and address them collectively. You can group different types of issues under a single parent when issues belong to the same project or audit. This provides a holistic view of how different issues are managed. Grouping issues under a parent helps in organizing and prioritizing them, reducing the redundancy of solving similar issues, and ensuring that issues are addressed in a coordinated manner.
 
 You can enable the **Advanced issue grouping functionality** property to use the advanced issue grouping features, such as management methods for issue grouping and making standalone issues into parents. For more information, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
+
+If the issues you're grouping use different workflows, **Management method** is locked to **Manage child**. Each child issue continues to follow its own workflow independently, and the parent issue only keeps them grouped together.
 
 **Important:** When you group issues with confidentiality enabled, you can add confidential child issues only under a confidential parent issue.
 
@@ -99,6 +101,13 @@ Additional information about the issue group.
 </td></tr></tbody>
 </table>6.  Select **Group**.
 
+    **Note:** Moving a Manage-parent parent issue through its normal state progression \(the primary action button on the issue\) does not cascade to its child issues. Each issue's own state progresses independently. Reassigning the parent's workflow is a separate action that does cascade to all child issues. See [Reassign an issue's workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.md).
+
+
+-   **[Add an existing issue as a child issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-an-existing-issue-as-a-child-issue.md)**  
+Add a standalone issue as a child of an existing parent issue directly from the parent record.
+-   **[Remove a child issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/remove-a-child-issue.md)**  
+Remove a child issue from its group so it becomes a standalone issue.
 
 **Parent Topic:**[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)
 

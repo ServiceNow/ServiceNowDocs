@@ -145,7 +145,7 @@ The area marked in red in the following example is the Design surface. You creat
 
 You can also create automations by dragging the activities and variables from the Project Explorer pane or by dragging methods and events from the Object Explorer pane.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see .
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md).
 
 \[Omitted image "design-surface.png"\] Alt text: Design surface.
 

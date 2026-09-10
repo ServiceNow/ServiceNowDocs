@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/setup-approval
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [approvals, setup, prerequisites, configuration]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -78,35 +78,7 @@ Set up the environment to administer and manage approvals.
 
     For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-stages-entry-criteria.md).
 
-6.  Create the web embeddable module for the approval interface.
-
-    1.  Navigate to **All** &gt; **Web Embeddables** &gt; **Home Page**.
-
-    2.  Create a web embeddable module.
-
-        Web embeddables are reusable UI components that can be embedded in multiple places. For approvals, this creates a reusable approval interface component.
-
-    3.  Name the module \(for example, "Advanced Approvals" or "Approval Interface"\).
-
-    4.  Select **Advanced Approvals** as the component type.
-
-    5.  Configure the component properties and save.
-
-        The web embeddable is created, and a SYS ID is generated for the module.
-
-    6.  Copy the SYS ID of the created embeddable module.
-
-    7.  Navigate to **All** &gt; **UI Builder** &gt; **CSM/FSM Configurable Workspace**.
-
-    8.  Select **Quote Transaction Default** component.
-
-    9.  Locate the seismic\_components\_property\_list field.
-
-    10. Add an entry with the embeddable SYS ID for approvals.
-
-    The web embeddable module for approvals is created and configured. The approval interface is now embedded in your microservices instance and ready for use.
-
-7.  Verify all prerequisites are complete.
+6.  Verify all prerequisites are complete.
 
     1.  Confirm all plugins are active and installed.
 

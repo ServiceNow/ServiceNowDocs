@@ -14,7 +14,7 @@ breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact
 
 You can monitor all your instances 24x7 at one place using near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
 
-Make data-driven decisions based on your users, platform, and applications​, access to near real-time and historical instance performance telemetry, and ​proactively visualize instance performance telemetry across instances with point-in-time metadata​.
+Make data-driven decisions based on your users, platform, and applications​, access to near real-time and historical instance performance telemetry. You can proactively visualize instance performance telemetry across instances with point-in-time metadata​.
 
 ## Key benefits
 

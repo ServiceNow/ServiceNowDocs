@@ -1,5 +1,5 @@
 ---
-title: Connect to SAP
+title: Connecting to SAP
 description: Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to an SAP system using a variety of methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-connect-to-sap.html
@@ -9,14 +9,15 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+keywords: [erp, integration, canvas, data hub, zero, copy, connect, sap]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connect to SAP
+# Connecting to SAP
 
 Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to an SAP system using a variety of methods.
 
-The following SAP systems are supported:
+Zero Copy Connector for ERP supports the following SAP systems:
 
 -   SAP ECC
 -   SAP S/4HANA

@@ -40,7 +40,7 @@ To insert an evaluation point, make sure that:
 
 3.  In Diagram view, select **+** after the activity where you want to evaluate the variants.
 
-4.  From the mini-picker, select the variants icon \(\[Omitted image "playbook-variants-icon.png"\] Alt text: Insert a variant.\) to add variant evaluation point.
+4.  From the mini-picker, select the variants icon \(\[Omitted image "playbook-variants-icon.png"\]\) to add variant evaluation point.
 
     \[Omitted image "playbook-variant.png"\] Alt text: Inserting a variant evaluation point.
 

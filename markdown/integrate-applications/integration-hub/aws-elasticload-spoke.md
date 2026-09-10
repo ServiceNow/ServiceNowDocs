@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-AWS Elastic Load Balancing spoke v1.0.1 is the latest version.
+AWS Elastic Load Balancing spoke v1.0.1 is the latest version. For version history of the spoke, see [AWS Elastic Load Balancing spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-elastic-load-balancing.html).
 
 ## Supported versions
 
