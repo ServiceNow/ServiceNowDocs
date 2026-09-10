@@ -1,6 +1,6 @@
 ---
 title: Amazon DynamoDB discovery using Patterns
-description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Amazon DynamoDB discovery using Patterns
 
-The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Amazon AWS DynamoDB pattern deploys REST APIs for fetching information about DynamoDB. You can also configure Service Mapping and Discovery to discover AWS DynamoDB components using AWS events.
 

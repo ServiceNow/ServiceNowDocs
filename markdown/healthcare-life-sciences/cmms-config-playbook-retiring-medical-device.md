@@ -20,7 +20,7 @@ To use maintenance and servicing workflows or inventory and management workflows
 
 As a user with the admin role, you can create a playbook by using Playbooks, a ServiceNow AI Platform® feature. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md).
 
-The playbooks in the Healthcare CMMS application use the CSM Configurable Workspace playbook experience. By default, the Healthcare CMMS application includes the playbook for medical device out-of-service to assist clinical engineers to resolve medical device out-of-service cases.
+The playbooks in the Healthcare CMMS application use the CRM Workspace playbook experience. By default, the Healthcare CMMS application includes the playbook for medical device out-of-service to assist clinical engineers to resolve medical device out-of-service cases.
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with the medical device cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-definitions.md).
 

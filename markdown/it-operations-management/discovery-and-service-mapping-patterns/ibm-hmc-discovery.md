@@ -1,6 +1,6 @@
 ---
 title: IBM Virtualization and Hardware Management Console discovery
-description: The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # IBM Virtualization and Hardware Management Console discovery
 
-The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery supports the following configuration items \(CIs\):
 

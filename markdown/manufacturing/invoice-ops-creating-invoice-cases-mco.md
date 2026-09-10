@@ -1,6 +1,6 @@
 ---
 title: Create an invoice case
-description: Agents can create invoice cases from the Invoice Cases list view in CSM Configurable Workspace in Manufacturing Commercial Operations.
+description: Agents can create invoice cases from the Invoice Cases list view in CRM Workspace in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/invoice-ops-creating-invoice-cases-mco.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Sales Customer Relationship Management for Manufacturing Commercial
 
 # Create an invoice case
 
-Agents can create invoice cases from the Invoice Cases list view in CSM Configurable Workspace in Manufacturing Commercial Operations.
+Agents can create invoice cases from the Invoice Cases list view in CRM Workspace in Manufacturing Commercial Operations.
 
 Agents can create invoice cases by selecting **New** from the Invoice Cases list view. From the Invoice case record, agents can:
 

@@ -1,6 +1,6 @@
 ---
 title: Align versions of customized probes and sensors
-description: If you customized a probe or sensor and upgraded to a new version of an instance, you need to realign the versions of the customized probe and sensor to the most current version.
+description: If you customized a probe or sensor and upgraded to a new instance version, realign the customized probe and sensor to the most current version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/t\_AlignVerCustProbeSens.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Discovery probes and sensors, Discovery, ITOM Visibility, IT Operat
 
 # Align versions of customized probes and sensors
 
-If you customized a probe or sensor and upgraded to a new version of an instance, you need to realign the versions of the customized probe and sensor to the most current version.
+If you customized a probe or sensor and upgraded to a new instance version, realign the customized probe and sensor to the most current version.
 
 ## Before you begin
 
@@ -26,23 +26,23 @@ Probes and sensors have a major and a minor version.
 
 -   **Major version**
 
-    A major version change reflects a change in the expected output of a probe, such as the addition or subtraction of a targeted attribute, a format change, such as XML versus JSON, or a probe parameter script change.
+    A major version change reflects a change in the expected output of a probe. Examples include the addition or subtraction of a targeted attribute, a format change \(such as XML vs. JSON\), or a probe parameter script change.
 
 -   **Minor version**
 
-    A minor version change reflects small fixes that do not impact the result or the processing of the data.
+    A minor version change reflects small fixes that don't impact the result or the processing of the data.
 
 
-A sensor and its corresponding probe must have the same major version. It is recommended they also have the same minor version. This version matching ensures that the data sent back from the probe is understood and properly processed by the sensor. All members of a multi-probes bundle must have the same major and minor version.
+A sensor and its corresponding probe must have the same major version. It is a general guideline that they also have the same minor version. This version matching confirms that the data sent back from the probe is understood and properly processed by the sensor. All members of a multi-probes bundle must have the same major and minor version.
 
-By default, Discovery tracks major version mismatches and displays version mismatch errors in the Active Discovery Errors section in the [Discovery Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryLog.md). You can control whether or not Discovery tracks minor versions mismatches by setting the **Warn on Minor Version Mismatch** \(`glide.discovery.warn_minor_version`\) [Discovery property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryProperties.md). Minor version mismatches are tracked in the Discovery log, but are not displayed on the Discovery Dashboard.
+By default, Discovery tracks major version mismatches and displays version mismatch errors in the Active Discovery Errors section in the [Discovery Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryLog.md). You can control whether or not Discovery tracks minor versions mismatches by setting the **Warn on Minor Version Mismatch** \(`glide.discovery.warn_minor_version`\) [Discovery property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryProperties.md). Minor version mismatches are tracked in the Discovery log, but aren't displayed on the Discovery Dashboard.
 
 Versions for multi-probes and multi-sensors are checked as follows:
 
 -   The versions of the individual probes contained in the multi-probes are compared with the Responds to Probes scripts that process their data.
 -   The versions of the Responds to Probes scripts and the main multi-sensors script are compared.
 
-If a probe and its corresponding sensor do not have the same major version, a sensor does not process information during a discovery and sends error messages to the log file. Errors also show up on the Discovery Dashboard when you run a discovery job. If the major version is the same, but the minor version is not, a sensor processes information during a discovery.
+If a probe and its corresponding sensor don't have the same major version, a sensor does not process information during a discovery and sends error messages to the log file. Errors also show up on the Discovery Dashboard when you run a discovery job. If the major version is the same, but the minor version is not, a sensor processes information during a discovery.
 
 To use the most up-to-date version of a probe that is available:
 
@@ -62,13 +62,13 @@ To use the most up-to-date version of a probe that is available:
 
     \[Omitted image "DiscoveryProbeSensorVersion.png"\] Alt text: This example shows matching MultiProbe and MultiSensor versions.
 
-7.  Click the **Versions** related list.
+7.  Select the **Versions** related list.
 
 8.  Look for version where the **State** is **Previous** and the **Source** is **System upgrades**.
 
-9.  Click the date link in the **Created** column for that version to open the version record.
+9.  Select the date link in the **Created** column for that version to open the version record.
 
-10. Click **Revert to this version**.
+10. Select **Revert to this version**.
 
 11. Navigate back to the probe or sensor form and verify that the major version is correct.
 

@@ -19,11 +19,11 @@ After performing the initial data input setup and configuration, continue with t
 -   **[Add timestamp formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-timestamp-formats-add.md)**  
 Define any timestamp format that does not appear in the list of defined formats. Health Log Analytics must be able to read timestamps of any format contained in your log files.
 -   **[Add source types manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types-manual.md)**  
-Create a source type manually before you configure a data input if you want to stream log data to a specific source type rather than to the source type automatically extracted by Health Log Analytics during the mapping process.
+Create a source type manually to stream log data to a specific source type rather than to the source type automatically extracted during mapping.
 -   **[Configure source type capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types.md)**  
 Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 -   **[Verify your log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-sources-review.md)**  
-Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
+Verify that all your log sources are present and active after Health Log Analytics assigns logs to service instances and components.
 -   **[Review the properties extracted from a source type in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-sts-properties-table.md)**  
 View the properties that were extracted from all the source types in a source type structure in a single table to identify any setup issues.
 -   **[Review the patterns extracted from a source type in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-view-source-type-patterns.md)**  

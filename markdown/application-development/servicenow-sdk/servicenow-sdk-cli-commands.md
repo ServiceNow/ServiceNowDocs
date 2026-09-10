@@ -16,6 +16,8 @@ breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Bu
 
 Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.
 
+**Note:** For the latest ServiceNow SDK CLI documentation, see the [ServiceNow SDK CLI reference](https://servicenow.github.io/sdk/cli) on GitHub.
+
 From the command-line tool on your system, enter `now-sdk` to start the CLI and return a list of available commands or `now-sdk [command]` to begin using the ServiceNow SDK.
 
 **Note:** If you use `npx` to install the ServiceNow SDK in application rather than globally, you must use `npx @servicenow/sdk [command]` rather than `now-sdk [command]` with the ServiceNow SDK CLI.

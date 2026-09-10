@@ -1,6 +1,6 @@
 ---
 title: Couchbase Database discovery
-description: The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/couchbase-db-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Couchbase Database discovery
 
-The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Couchbase Database is an open source, distributed database that manages JSON documents. One or more instances of a Couchbase Server constitute a cluster. Data and services are shared across the cluster.
 

@@ -3,7 +3,7 @@ title: Journey designer release notes
 description: The ServiceNow Journey designer application enables managers and employees to create and track journeys. Journeys include transition plans, such as promotions, offboarding, onboarding, and role changes for employees. Journey designer was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Journey designer application enables managers and employees to create and track journeys. Journeys include transition plans, such as promotions, offboarding, onboarding, and role changes for employees. Journey designer was enhanced and updated in the Yokohama release.
 
-## Journey designer highlights for the Yokohama release
+## About Journey designer
 
 Yokohama Patch 3
 
@@ -34,27 +34,13 @@ Yokohama Patch 3
 
 See  for more information.
 
-## Activation information
-
-Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+## Activation and other requirements
 
 **Important:** Journey designer is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Related ServiceNow applications and features
+-   **Activation information**
 
--   ****
-
-    Define and manage plan types for employee transitions, such as promotions, onboarding, offboarding, and more.
-
-
--   ****
-
-    With the ServiceNow Learning Posts application, create an omnichannel learning experience that empowers employees to access the right learning when they need it.
-
-
--   ****
-
-    The Lifecycle Events application helps to facilitate daily activities among various cross-functional processes and departments. It makes completing processes that relate to an employee's daily life more efficient and easier.
+    Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-service-management-rn-landing.md)

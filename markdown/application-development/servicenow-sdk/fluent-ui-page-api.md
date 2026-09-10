@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The UI Page API defines custom user interface \(UI\) pages \[sys\_ui\_page\] that display forms, dialogs, lists, and other UI components.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 A UI page displays as a web page and can be added to a widget for use in dashboards. For general information about UI pages, see [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md).
 

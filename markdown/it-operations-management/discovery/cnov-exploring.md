@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Agent Client Collector, Kubernetes, Visibility, overview, introduction, benchmark, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,6 +24,8 @@ Kubernetes Visibility Agent detects changes on resources in a Kubernetes cluster
 When you deploy Kubernetes Visibility Agent, Kubernetes creates a Deployment resource in the cluster with the latest data. This resource uses a secret stored in Kubernetes to connect to your ServiceNow instance.
 
 The Kubernetes Visibility Agent Deployment resource contains a pod called Informer, which connects to the Kubernetes API server and receives events on the resources in the cluster from it. The Informer sends the collected data to the instance through the External Communication Channel \(ECC\) Queue table, using the ServiceNow Table API to read from and write to the queue. The backend part of Kubernetes Visibility Agent \(KVA\) then updates the appropriate tables in the CMDB.
+
+The main informer image and the daemonset image used for traffic discovery are FIPS-140 compliant for use in regulated markets. For more information, see [Kubernetes Visibility Agent support matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-support-matrix.md).
 
 **Note:** If the Informer is unable to report the changes, for example due to a network problem, the resources that were added to the cluster during the event are added to the CMDB after the next full discovery cycle. The resources that were removed from the cluster during the event are marked as Absent and deleted after two full discovery cycles.
 

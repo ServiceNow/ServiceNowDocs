@@ -1,6 +1,6 @@
 ---
 title: Pure Storage FlashArray discovery
-description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/flasharray-discovery.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Pure Storage FlashArray discovery
 
-The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Note:** Starting March 2024, the pattern execution is disabled by default. To create a CI for Pure Storage FlashArray, synchronize the pattern to the MID Server.
 

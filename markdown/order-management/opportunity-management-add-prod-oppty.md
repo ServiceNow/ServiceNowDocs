@@ -28,7 +28,7 @@ In the **Catalog** tab, you can search for and select simple or complex product 
 
 1.  Navigate to **All** &gt; **Workspaces**.
 
-2.  In the CSM Configurable Workspace, select the List view icon \( \[Omitted image "Lists.png"\]\).
+2.  In the CRM Workspace, select the List view icon \( \[Omitted image "Lists.png"\]\).
 
 3.  Navigate to **Opportunity** &gt; **All** and select the opportunity that you want to work with.
 

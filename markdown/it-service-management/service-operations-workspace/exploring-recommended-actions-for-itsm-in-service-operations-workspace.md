@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: concept
 last_updated: "2025-04-22"
 reading_time_minutes: 5
-breadcrumb: [Explore, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Exploring Recommended Actions for ITSM in Service Operations Workspace

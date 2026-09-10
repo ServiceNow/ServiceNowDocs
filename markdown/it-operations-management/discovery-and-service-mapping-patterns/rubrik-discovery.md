@@ -1,6 +1,6 @@
 ---
 title: Rubrik Cluster discovery
-description: Discovery uses multiple patterns to find all Rubrik cluster data. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery uses multiple patterns to find all Rubrik cluster data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Rubrik Cluster discovery
 
-Discovery uses multiple patterns to find all Rubrik cluster data. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery uses multiple patterns to find all Rubrik cluster data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

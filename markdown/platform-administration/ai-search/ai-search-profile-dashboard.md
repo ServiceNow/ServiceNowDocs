@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Advanced AI Search Management Tools, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -40,8 +40,6 @@ For examples of how different people in your organization would use this dashboa
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Searchable Documents|Single Score \[Omitted image "single-score.svg"\] Alt text:|sn\_ais\_admin\_tools\_ai\_search\_dashboard\_documents\_by\_search\_profile|Shows the number of indexed records that users can find when searching with the selected search profile.|
-|Documents by Search Source|Donut \[Omitted image "donut-icon.png"\] Alt text:|sn\_ais\_admin\_tools\_ai\_search\_dashboard\_documents\_by\_search\_source|Shows the number of indexed records accessible from each search source linked to the selected search profile.|
 |Queries by Application|Bar \[Omitted image "column-icon.png"\] Alt text:|sys\_search\_event|Shows the number of search queries that used the selected search profile in the selected query time frame, grouped by search application.|
 |Queries Run Against This Profile|Line \[Omitted image "line-icon.png"\] Alt text:|sys\_search\_event|Shows the number of search queries that used the selected search profile in the selected query time frame, grouped by month.|
 

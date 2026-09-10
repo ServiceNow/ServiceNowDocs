@@ -27,7 +27,7 @@ CMDB success advisor helps improve CMDB data quality by aligning data quality ef
 
 </td></tr><tr><td>
 
-[Hardware Asset Management\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md)
+[Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md)
 
 </td></tr><tr><td>
 

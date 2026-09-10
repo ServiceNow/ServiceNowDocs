@@ -40,7 +40,7 @@ New change tasks can be created when a change is copied. If your change record h
 
     The Copy Change option is available from the form, and not from the list view.
 
-3.  In the change request form header, select the Additional Actions menu icon \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change**.
+3.  In the change request form header, select the Additional Actions menu icon \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change** to copy change request details.
 
     A preview of the new change record appears with values from the original source change record.
 

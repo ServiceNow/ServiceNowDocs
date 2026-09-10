@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/request-public-branded-android-app.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 10
+last_updated: "2026-08-20"
+reading_time_minutes: 11
 breadcrumb: [Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -21,6 +21,8 @@ Role required: admin
 ## About this task
 
 Mobile Publishing enables you to request a branded Android app that can be distributed on the public Google Play Store. After you complete the request form, your ServiceNow® instance builds the app and provides a link from where you can download an Android App Bundle file \(`.aab`\). Then you download the AAB file and test it. When testing completes successfully, you approve the build and can deploy your branded Android app with the public Google Play Store. For information about AAB files, see the [Google documentation](https://developer.android.com/guide/app-bundle).
+
+If you provided a developer verification snippet, a signed Android Package file \(`.apk`\) containing the snippet is also made available for download alongside the AAB file.
 
 **Note:** Publicly distributed Android app builds take one week from submission to be ready for testing. ServiceNow can't expedite this timeline because it's determined by Google.
 
@@ -286,6 +288,34 @@ Option that enables you to opt in your app to the trusted user-added certificate
 
 </td></tr><tr><td colspan="2">
 
+**Android developer verification**
+
+</td></tr><tr><td>
+
+Provide developer snippet
+
+</td><td>
+
+Option that enables you to embed a verification snippet from the Android Developer Console or Google Play Console into your signed app. Use this option to complete Google's Developer Verification requirement for existing Android apps. This toggle is off by default.
+
+ **Note:** This section is available only when the system property \(**glide.sn\_mobile\_whitelab.show\_developer\_verification\_snippet\_for\_public\_distribution**\) is configured on your instance.
+
+ When you turn on the toggle, a required **Developer verification snippet** field appears below.
+
+ **Note:** If you select **Next** without turning on this toggle, an alert titled Developer Verification may apply to your app explains the requirement and asks you to go back and turn on the toggle if it applies to you. Select **Continue** to proceed without a snippet, or dismiss the alert to return to the form and turn on the toggle.
+
+</td></tr><tr><td>
+
+Developer verification snippet
+
+</td><td>
+
+Verification snippet from the Android Developer Console or Google Play Console. This field appears only when you turn on the **Provide developer snippet** toggle, and only for Android apps.
+
+ The value can contain only letters and numbers. If the field is empty or contains other characters when you select **Next**, you must correct the value before you can proceed.
+
+</td></tr><tr><td colspan="2">
+
 **Android icons and splash screen**
 
 </td></tr><tr><td>
@@ -379,7 +409,7 @@ To view the status of the build:
 1.  Navigate to **All** &gt; **Mobile Branding** &gt; **Manage Mobile Publishing Apps**.
 2.  In **Your recent app requests** section, select the card for your branded app request to view its status on the **Request details** page.
 
-When it completes, you receive an email notification about the status of the build. A link is provided from where you can download an Android App Bundle file \(`.aab`\).
+When it completes, you receive an email notification about the status of the build. A link is provided from where you can download an Android App Bundle file \(`.aab`\). If you provided a developer verification snippet, a signed Android Package file \(`.apk`\) containing the snippet is also made available for download alongside the AAB file.
 
 **Note:**
 

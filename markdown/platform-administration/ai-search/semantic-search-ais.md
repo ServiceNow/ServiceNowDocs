@@ -32,7 +32,7 @@ As an example, suppose you index a source record including text `how to prevent 
 
 AI Search orders results from semantic vector search based on how similar they are to your search. In the example, if you had a second indexed record including text `how to prevent scams`, it would be more similar to the `avoiding scams` search and its search result would appear before the `how to prevent phishing` result.
 
-Unlike the default keyword-based search mode, semantic vector search does not rely on your synonym dictionaries to find term equivalences. AI Search identifies term similarities automatically when indexing source content and metadata for semantic vector search.
+Unlike the default keyword-based search mode, semantic vector search doesn't rely on your synonym dictionaries to find term equivalences. AI Search identifies term similarities automatically when indexing source content and metadata for semantic vector search.
 
 Semantic vector search is automatically enabled and doesn’t include any configurable settings.
 

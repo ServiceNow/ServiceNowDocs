@@ -1,6 +1,6 @@
 ---
 title: Interaction Controls Component \(ICC\) call interaction features
-description: The Contact Center Integration framework integrates traditional contact center capabilities, including telephony, intelligent routing, and workforce engagement management \(WEM\), with the CSM Configurable Workspace. This integration consolidates tools and workflows into a single, intuitive platform for both customers and agents.
+description: The Contact Center Integration framework integrates traditional contact center capabilities, including telephony, intelligent routing, and workforce engagement management \(WEM\), with the CRM Workspace. This integration consolidates tools and workflows into a single, intuitive platform for both customers and agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/interaction-controls-component-icc-call-interaction-features.html
 release: yokohama
@@ -13,7 +13,7 @@ breadcrumb: [Integrating contact centers with Interaction Controls Component \(I
 
 # Interaction Controls Component \(ICC\) call interaction features
 
-The Contact Center Integration framework integrates traditional contact center capabilities, including telephony, intelligent routing, and workforce engagement management \(WEM\), with the CSM Configurable Workspace. This integration consolidates tools and workflows into a single, intuitive platform for both customers and agents.
+The Contact Center Integration framework integrates traditional contact center capabilities, including telephony, intelligent routing, and workforce engagement management \(WEM\), with the CRM Workspace. This integration consolidates tools and workflows into a single, intuitive platform for both customers and agents.
 
 The voice interaction feature is available for integration via Interaction Controls Component \(ICC\) for contact centers.
 

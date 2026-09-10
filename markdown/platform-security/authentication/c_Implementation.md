@@ -1,20 +1,18 @@
 ---
 title: Implement a nonce
-description: Add a cryptographic nonce to the authentication header to ensure that it can only be used once.
+description: 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_Implementation.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Implementing a nonce, Local Authentication, Authentication, Access Management]
 ---
 
 # Implement a nonce
-
-Add a cryptographic nonce to the authentication header to ensure that it can only be used once.
 
 -   Create a system property called **glide.authenticate.header.nonce\_key** and set its value to whatever variable name you're using for the nonce, such as NONCE or NCE.
 -   Create a new table called `u_authentication_nonce`. Add a field to the table called `u_nonce`.

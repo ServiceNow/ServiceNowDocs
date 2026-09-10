@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/ab
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -19,6 +19,10 @@ The MITRE-ATT&amp;CK framework is a knowledge base of common tactics, techniques
 The MITRE Adversarial Tactics, Techniques, and Common Knowledge \(ATT&amp;CK\) framework documents and tracks various adversarial techniques that are used during different stages of a cyberattack.
 
 By using the MITRE-ATT&amp;CK framework's knowledge base, the cyberthreat intelligence community can quickly identify threats and coordinate cyberattack responses.
+
+In addition to the MITRE-ATT&amp;CK framework, ServiceNow also supports MITRE ATLAS.
+
+For an overview, see [MITRE ATLAS framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/about-mitre-atlas.md).
 
 ## MITRE-ATT&amp;CK and Security Operations
 
@@ -85,6 +89,8 @@ Use the MITRE-ATT&amp;CK framework across the Threat Intelligence and the SIR mo
 [IoC Repository]()
 
 [MITRE D3FEND framework]()
+
+[MITRE ATLAS framework]()
 
 [Threat Intelligence administration]()
 

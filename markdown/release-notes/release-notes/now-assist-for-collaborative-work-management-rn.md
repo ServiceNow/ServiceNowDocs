@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Collaborative Work Management \(CWM\) release notes
-description: The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-04-09"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
 
-## ServiceNow Otto for Collaborative Work Management \(CWM\) highlights for the Yokohama release
+## About ServiceNow Otto for Collaborative Work Management \(CWM\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -27,9 +27,43 @@ The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM
 
 See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Now Assist for Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## ServiceNow Otto for Collaborative Work Management \(CWM\) features
+-   **Activation information**
+
+    Install Now Assist for Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
+
+### What's changed
+
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+
+    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+## Yokohama
+
+The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
+
+### What's new
 
 -   **[Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)**
 
@@ -43,38 +77,4 @@ See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://
 
     -   Summarize, elaborate, or shorten selected text.
     -   Summarize the entire content on the page.
-
-## Changed in this release
-
--   **Changes to Now Assist usage measurement**
-
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **Some Now Assist skills are turned on by default**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
-
-    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
-
-## Activation information
-
-Install Now Assist for Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/cwm-landing.md)**
-
-    Collaborative Work Management \(CWM\) provides a central hub to plan, visualize, manage, and collaborate on work with your teams.
-
-    The ServiceNow Otto for CWM application uses generative AI skills to save time and improve efficiency for the actions that you perform within the CWM workspace.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
 

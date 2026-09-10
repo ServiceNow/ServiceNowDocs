@@ -34,7 +34,7 @@ Efficiently identify and resolve service problems experienced by the customers w
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=service%20problem%20management&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

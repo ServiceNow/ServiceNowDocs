@@ -30,7 +30,7 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 

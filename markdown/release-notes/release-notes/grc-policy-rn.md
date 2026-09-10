@@ -1,18 +1,18 @@
 ---
 title: Policy and Compliance Management release notes
-description: The ServiceNow Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.The ServiceNow Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.The ServiceNow Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Policy and Compliance Management release notes
 
 The ServiceNow® Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.
 
-## Policy and Compliance Management highlights for the Yokohama release
+## About Policy and Compliance Management
 
 -   View the compliance score at the entity level based on the hierarchy of entities.
 -   Eliminate duplicate citations associated with the authority documents when you download UCF content.
@@ -24,9 +24,47 @@ The ServiceNow® Policy and Compliance Management application provides a central
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Browser requirements**
+
+    GRC: Policy and Compliance Management requires the latest public release and two previous release versions of the following browsers:
+
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+## Yokohama
+
+The ServiceNow® Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Calculate compliance score and roll up to entity**
 
@@ -49,35 +87,7 @@ See  for more information.
     Using Generative AI, identify and recommend similar control objectives. You can choose to accept a control objective as duplicate, dismiss those that are not similar, or retain a control objective as primary in which details from all other similar control objectives are merged. Additionally, the system automatically copies related records, including policies and risk statements, to ensure comprehensive information is maintained in one location after retiring the accepted control objectives.
 
 
-## Changed in this release
-
--   **Some Now Assist skills are turned on by default**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Changes to Now Assist usage measurement**
-
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
-## Deprecations
+### What's deprecated or removed
 
 GRC DevOps Accelerator is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-## Activation information
-
-Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Browser requirements
-
-GRC: Policy and Compliance Management requires the latest public release and two previous release versions of the following browsers:
-
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

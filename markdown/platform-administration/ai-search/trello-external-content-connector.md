@@ -21,7 +21,7 @@ Search administrators can run or schedule content crawls to update searchable co
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
-**Note:** The Trello external content connector only retrieves searchable content and metadata from boards that can be accessed by all users in your Trello enterprise. It does not retrieve content and metadata from secure boards.
+**Note:** The Trello external content connector only retrieves searchable content and metadata from boards that can be accessed by all users in your Trello enterprise. It doesn't retrieve content and metadata from secure boards.
 
 -   **[Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-trello-external-content-indexing.md)**  
 Create and authorize a Power-Up in the Trello Power-Up Admin Portal to allow the Trello external content connector to access your Trello source system.

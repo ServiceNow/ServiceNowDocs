@@ -1,18 +1,18 @@
 ---
 title: Operational Sustainability Management release notes
-description: The ServiceNow ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.The ServiceNow ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Operational Sustainability Management release notes
 
 The ServiceNow® ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.
 
-## ESG Management highlights for the Yokohama release
+## About Operational Sustainability Management
 
 -   Model and prepare for potential outcomes with what-if scenario analysis tools that can help with your strategic planning.
 -   Review the calculated metric definition data by using a formula tree so that you can access detailed information on the operands, metric definitions, metrics, and emission factors.
@@ -22,9 +22,22 @@ The ServiceNow® ESG Management application helps you to manage all your environ
 
 See [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ESG Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install ESG Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
+
+## Yokohama
+
+The ServiceNow® ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Forecast planning and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/scenario-analysis-forecast.md)**
 
@@ -43,14 +56,12 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
     Filter the fields dynamically and set up dependencies by using related fields. In the Microsoft 365 add-in, you can configure fields so that cascading filters are supported dynamically. You can select a value in a field and have the related fields automatically update to show the relevant options. This process helps you to streamline data entry and improve efficiency.
 
 
-## UI changes
+### What's changed
 
 -   **[Forecast planning and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/scenario-analysis-forecast.md)**
 
     The forecast planning analysis module is now included in the List view of the Operational Sustainability Workspace.
 
-
-## Changed in this release
 
 -   **[Result types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/create-manual-metric-definition.md)**
 
@@ -132,13 +143,7 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
     -   com.glide.event\_manager.grc\_metrics\_queue.even.load.distribution.enabled
     -   com.glide.event\_manager.grc\_metrics\_queue.claim\_limit
 
-## Deprecations
+### What's deprecated or removed
 
 Business rules were deactivated and moved to common script include methods as part of GRC Metrics. For more information, see the KB article: [KB1734660](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sys_kb_id%3De92f82dd476a9610b8a4aa25126d4356).
-
-## Activation information
-
-Install ESG Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

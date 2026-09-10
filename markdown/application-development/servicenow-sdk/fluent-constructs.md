@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 ServiceNow Fluent language constructs provide additional functionality for development in source code with ServiceNow Fluent APIs.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 ## Now.ID
 

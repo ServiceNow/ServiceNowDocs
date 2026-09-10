@@ -1,6 +1,6 @@
 ---
 title: Cisco Unified Computing System \(UCS\)-HD device discovery
-description: Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/r-CiscoUCSHD.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM V
 
 # Cisco Unified Computing System \(UCS\)-HD device discovery
 
-Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 

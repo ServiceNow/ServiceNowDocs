@@ -1,18 +1,18 @@
 ---
 title: Workspace release notes
-description: The ServiceNow Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.
+description: The ServiceNow Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.The ServiceNow Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.The ServiceNow Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Workspace release notes
 
 The ServiceNow® Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.
 
-## Workspace highlights for the Yokohama release
+## About Workspace
 
 -   Navigate form templates with larger cards, sorting preferences, and favorites.
 -   Add collapsible content to email templates and attach a display to knowledge base links.
@@ -20,24 +20,62 @@ The ServiceNow® Workspace application provides agents, case managers, help desk
 -   Use lists that have additional condition builder fields, infinite scroll, live updates, and saved temporary lists.
 -   Provide role-based access control for viewing and editing tables in the Activity stream.
 
-See Workspace UI for more information.
+See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
 
--   **Configure keyboard shortcut for response templates**
+-   **Activation information**
+
+    Workspace is a ServiceNow AI Platform feature that is active by default.
+
+-   **Browser requirements**
+
+    Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-screen-summarization.md)**
+
+        Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
+
+        Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
+
+
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-ui-rn-landing.md)
+
+## March 2026
+
+The ServiceNow® Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-ai-filter-assist.md)**
+
+    Convert everyday language into an encoded query with AI filter assist.
+
+
+## Yokohama
+
+The ServiceNow® Workspace application provides agents, case managers, help desk professionals, and managers with tools to answer customer questions and resolve customer problems. Workspace was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Configure keyboard shortcut for response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-response-templates.md)**
 
     Use a keyboard shortcut to add response templates to journal fields within a form.
 
--   **Create collapsible content for email templates**
+-   **[Create collapsible content for email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-collapsible-email-templates.md)**
 
     Hide email content behind an ellipsis in email templates.
 
--   **Configure the email composer in Core UI**
+-   **[Configure the email composer in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/enable-next-experience-email-client-core-ui.md)**
 
     Access the latest Workspace features for email composer in the Core UI.
 
 
-## UI changes
+### What's changed
 
 -   **Favorite form templates**
 
@@ -51,15 +89,15 @@ See Workspace UI for more information.
 
     Sort form templates in the Templates list by the last used templates or in alphabetical order.
 
--   **Preview the relevant templates in the email composer**
+-   **[Preview the relevant templates in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-email-templates-in-the-compose-email-page.md)**
 
     Preview relevant email templates, response templates, and quick messages that are listed in the email composer's Apply templates modal.
 
--   **View a total count of drafts in the email composer**
+-   **[View a total count of drafts in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/review-draft-emails.md)**
 
     A badge on the View drafts icon displays the total count of your drafts that are available in the email composer.
 
--   **Preview all drafts available in the email composer**
+-   **[Preview all drafts available in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/review-draft-emails.md)**
 
     Preview all drafts that are available in the email composer's View drafts modal instead of your three most recent drafts.
 
@@ -71,7 +109,7 @@ See Workspace UI for more information.
 
     The Compose text area expands dynamically to fit the parent container in the side-by-side view and modeless dialog.
 
--   **Customize the multi-record associator**
+-   **[Customize the multi-record associator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md)**
 
     Resize the multi-record associator and adjust the number of rows that are shown per page in the multi-record associator.
 
@@ -104,13 +142,11 @@ See Workspace UI for more information.
     The Show column search row icon enables you to display a row to search columns in a list instead of using the Column options menu.
 
 
-## Changed in this release
-
--   **Context-based suggestions with @mentions**
+-   **[Context-based suggestions with @mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-at-mentions.md)**
 
     Receive suggestions for users with access to the record when using @ mentions.
 
--   **Expand all tiles in the Activity stream**
+-   **[Expand all tiles in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activity-stream-expand-tiles.md)**
 
     Set a user preference to keep all tiles in the Activity stream expanded across cases and user sessions.
 
@@ -118,7 +154,7 @@ See Workspace UI for more information.
 
     Data filters and access rules provide role-based access control for viewing and editing tables in the Activity stream.
 
--   **Multiple records added from the multi-record associator load in the background**
+-   **[Multiple records added from the multi-record associator load in the background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-asynchronous-record-addition.md)**
 
     Work on a record while the multiple records that were selected from the multi-record associator are added in the background.
 
@@ -142,27 +178,4 @@ See Workspace UI for more information.
 
     The **is within hierarchy** field in the condition builder enables you to filter your list within a hierarchy instead of only direct reports.
 
--   **AI filter assist**
-
-    Convert everyday language into an encoded query with AI filter assist.
-
-
-## Activation information
-
-Workspace is a ServiceNow AI Platform feature that is active by default.
-
-## Browser requirements
-
-Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
-
-## Accessibility information
-
--   **Screen Summarization**
-
-    Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
-
-    Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
-
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-ui-rn-landing.md)
 

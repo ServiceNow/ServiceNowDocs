@@ -28,9 +28,9 @@ The case summarization skill provides you with a concise summary of a customer s
 -   Generate an initial summary of a case so that you can understand the case context.
 -   Summarize all the work that has been done on a case.
 
-The case summarization skill is available in CSM Configurable Workspace and in Core UI.
+The case summarization skill is available in CRM Workspace and in Core UI.
 
--   In CSM Configurable Workspace, you use the Case summary by Now Assist component to generate a summary. This component appears above the activity stream.
+-   In CRM Workspace, you use the Case summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
     **Note:** You can also generate a case summary on demand from the Now Assist panel. For more information, see .
 
@@ -45,7 +45,7 @@ If there is enough data, the Case summary component displays the **Summarize** b
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace** and open a customer service case.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case.
 
 2.  In the Case summary by Now Assist component, select **Summarize**.
 
@@ -57,15 +57,15 @@ If there is enough data, the Case summary component displays the **Summarize** b
 
 3.  When you're finished summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d135703e185">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d135612e185">
 
 Option
 
-</th><th align="left" id="d135703e188">
+</th><th align="left" id="d135612e188">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d135703e194">
+</th></tr></thead><tbody><tr><td id="d135612e194">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -76,7 +76,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d135703e221">
+</td></tr><tr><td id="d135612e221">
 
 **Expand or collapse the summary**
 
@@ -84,7 +84,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d135703e242">
+</td></tr><tr><td id="d135612e242">
 
 **Provide feedback for the summary**
 
@@ -92,7 +92,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d135703e265">
+</td></tr><tr><td id="d135612e265">
 
 **Copy the case summary**
 
@@ -100,7 +100,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d135703e281">
+</td></tr><tr><td id="d135612e281">
 
 **View the information about the case summary**
 

@@ -55,7 +55,7 @@ The following illustration describes the tasks involved in configuring and using
 
 \[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how sales development representatives create customer engagement sequences and how sales representatives use them for interacting with prospective customers. For details, refer to the following description.
 
-1.  As a sequence admin, create a customer engagement sequence such as a lead-nurturing sequence from the CSM Configurable Workspace.
+1.  As a sequence admin, create a customer engagement sequence such as a lead-nurturing sequence from the CRM Workspace.
 2.  Define the sequence parameters:
     -   Trigger conditions \(for example, when a new lead is created\)
     -   Sequence steps \(for example, call, follow-up, email\)
@@ -119,5 +119,5 @@ The following topics provide more information about configuring and using Custom
 -   [Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-customer-engagement-sequences.md)
 -   [Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-customer-engagement-sequences.md)
 -   [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/components-installed-customer-engagement-sequences.md)
--   
+-   [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-workflow-studio.md)
 

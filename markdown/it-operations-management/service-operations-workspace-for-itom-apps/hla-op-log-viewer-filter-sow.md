@@ -36,7 +36,7 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 3.  Filter the search results in one of the following ways.
 
-<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d668482e133">
+<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d670368e133">
 
 **Add filters using the fields list**
 
@@ -63,7 +63,7 @@ For example, to set the filter **\[Level\]\[is\]\[critical\]**, select **Add** f
 
 For example, to set the filter **\[Level\]\[is not\]\[critical\]**, select **Exclude** for the value "critical" in the Level field.
 
-</td></tr><tr><td id="d668482e207">
+</td></tr><tr><td id="d670368e207">
 
 **Add filters from the __Log viewer__ table**
 

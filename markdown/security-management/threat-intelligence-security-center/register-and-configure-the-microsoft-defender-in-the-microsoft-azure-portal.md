@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Microsoft Defender for EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Register and configure the Microsoft Defender in the Microsoft Azure portal
@@ -59,5 +59,5 @@ Role required: Application developer, Tenant administrator.
     |Ti.ReadWrite.All|Read and write Indicators|
 
 
-**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

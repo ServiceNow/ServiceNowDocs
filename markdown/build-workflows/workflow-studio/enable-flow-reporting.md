@@ -36,7 +36,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Administration** &gt; **Settings**.
+1.  Navigate to **Operations** &gt; **Flows** &gt; **Settings** or **All** &gt; **Process Automation** &gt; **Flow Administration** &gt; **Settings**.
 
     The system displays the list of individual items for which flow reporting is activated.
 

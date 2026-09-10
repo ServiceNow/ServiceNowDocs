@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2024-08-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Leader Hub, Persona Based Experiences, HR Service Delivery, Employe
 # Installing and configuring Leader Hub
 
 Install the Leader Hub application to give organizational leaders and their supporters access to resources that help them guide, influence, and motivate teams within their organization. Administrators can configure components of the application to meet the specifications of your organization.
+
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Installation and configuration overview
 

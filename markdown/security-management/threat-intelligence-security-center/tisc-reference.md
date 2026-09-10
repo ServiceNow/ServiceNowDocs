@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2025-08-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
@@ -16,8 +16,21 @@ breadcrumb: [Threat Intelligence Security Center, Security Operations]
 
 Reference topics provide additional information about the Threat Intelligence Security Center.
 
-|Reference information|Links to topics|
-|---------------------|---------------|
+|Reference|Reference link|
+|---------|--------------|
 |Domain Separation and Threat Intelligence Security Center|[Domain separation and Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-domain-separation.md)|
-|Components installed with Threat Intelligence Security Center application|[Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-components-installed.md)|
+|Components installed with Threat Intelligence Security Center application|[Set Threat Intelligence Security Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-set-properties.md)|
+
+**Related topics**  
+
+
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
+
+[Configuring Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-configure.md)
+
+[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
+
+[Administer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-data-administration.md)
+
+[Using Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/using-tisc.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Interaction wrap up timer
-description: The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
+description: The interaction wrap up timer displays a countdown of the wrap up duration period in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/interaction-management/interaction-wrap-up-timer.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Interaction wrap up, Configuring Interaction Management, Interactio
 
 # Interaction wrap up timer
 
-The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
+The interaction wrap up timer displays a countdown of the wrap up duration period in CRM Workspace.
 
 The system administrator can configure the display of the wrap up timer by enabling the **Show duration to agent** field on the Interaction Wrap Up Configuration form.
 
 The read-only timer appears in an interaction record's secondary values. Depending on the configuration of the secondary values, these values can be displayed either in the form header or in the contextual side panel.
 
-**Note:** The interaction wrap up timer works in both CSM Configurable Workspace and CSM Agent Workspace but the timer display is only available in CSM Configurable Workspace.
+**Note:** The interaction wrap up timer works in both CRM Workspace and CSM Agent Workspace but the timer display is only available in CRM Workspace.
 
 The timer counts down the amount of time specified in the **Duration in seconds** field on the Interaction Wrap Up Configuration form. The background color of the timer changes as it counts down the duration.
 

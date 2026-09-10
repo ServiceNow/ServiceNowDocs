@@ -21,13 +21,13 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 -   [Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/data-management-rn.md) \(Customer Life Cycle Management\)
 -   [Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-contracts-entitlements-csm-rn.md)
 
-Also, agents can use the Case Management for Order Operations application to display order cases and order case line items in CSM Configurable Workspace. The Case lines and workflows application provides the ability to reference multiple order line items on a case record.
+Also, agents can use the Case Management for Order Operations application to display order cases and order case line items in CRM Workspace. The Case lines and workflows application provides the ability to reference multiple order line items on a case record.
 
 -   **[Lead Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lead-management-rn.md)**  
 The ServiceNow® Lead Management application enables your sales development representatives to create and manage leads. Lead Management was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-order-management-rn.md)**  
+-   **[ServiceNow Otto for Order Management release notes]()**  
 The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Yokohama release.
--   **[ServiceNow Otto for Sales Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-sales-and-order-management-rn.md)**  
+-   **[ServiceNow Otto for Sales Automation release notes]()**  
 The ServiceNow® ServiceNow Otto for Sales Automation application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Sales Automation is a new application in the Yokohama release.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/opportunity-management-rn.md)**  
 The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.

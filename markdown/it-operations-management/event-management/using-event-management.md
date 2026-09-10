@@ -39,7 +39,7 @@ An alert is a notification for selected events that are considered to be importa
 -   **[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/application-service-event-management.md)**  
 An application service is a set of interconnected applications and hosts which are configured to offer a service to the organization.
 -   **[View Event Management license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/license-usage.md)**  
-Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts that are not bound to CIs, the system calculates the number of nodes \(servers\) that can send events to the instance directly or through a third-party monitoring tool during the last year.
+Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts not bound to CIs, the system calculates the number of nodes that can send events during the last year.
 
 **Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EM.md)
 

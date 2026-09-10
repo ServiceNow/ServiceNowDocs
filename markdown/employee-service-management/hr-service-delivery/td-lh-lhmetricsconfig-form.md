@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
-breadcrumb: [Leader Hub reference, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Leader Hub Metric Configurations table

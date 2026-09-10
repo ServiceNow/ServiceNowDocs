@@ -25,7 +25,7 @@ Analyze the importance of each input field to your model's predictions using mod
 
 Model explainability helps identify the key features that influence the model's predictions during training.
 
-**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md).
+**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see .
 
 The script provided in the procedure creates and trains a model with explainability set to true. On the new model's solution form, an additional tab labeled **Feature Importance** appears. This tab offers a graph of the relative contribution of each input to the prediction.\[Omitted image "predictive-intel-explainability1.png"\] Alt text: On the Solution form, the Feature Importance tab is highlighted. In the output \(predicted\) field, the value Global is selected, and an example graph is displayed.
 
@@ -73,15 +73,15 @@ The script provided in the procedure creates and trains a model with explainabil
 
     -   The label for this drop-down list is the name of your output \(predicted\) field, so the label is specific to each model.
     -   The values in the drop-down list are the possible output classes for your output field, plus the **Global** option.
-<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d131982e157">
+<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d131957e156">
 
 List option
 
-</th><th align="left" id="d131982e160">
+</th><th align="left" id="d131957e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131982e166">
+</th></tr></thead><tbody><tr><td id="d131957e165">
 
 **__Global__**
 
@@ -89,7 +89,7 @@ Description
 
 Provides an overview of how the model behaves across all predictions, showing the overall impact of each input feature.Select **Global** to open a graph of the importance of your input fields to predictions for all output classes as a whole.
 
-</td></tr><tr><td id="d131982e181">
+</td></tr><tr><td id="d131957e180">
 
 **`Your output class value`**
 
@@ -118,7 +118,7 @@ Consider dropping input fields with low importance scores. Retrain your model af
 
 [Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+[bundle-crapiref.ClassificationSolutionAPI]
 
 [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

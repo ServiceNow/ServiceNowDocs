@@ -1,6 +1,6 @@
 ---
-title: Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist
-description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+title: Generate a knowledge article from the CRM Workspace and classic environment with Now Assist
+description: Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [generative AI, generative AI for Customer Service Management, generat
 breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist
+# Generate a knowledge article from the CRM Workspace and classic environment with Now Assist
 
-Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ Role required: agent
 
 ## About this task
 
-In  CSM Configurable Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
+In  CRM Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
 
 **Note:**
 

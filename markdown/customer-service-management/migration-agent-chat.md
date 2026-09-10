@@ -1,20 +1,20 @@
 ---
 title: Agent Chat for Customer Service Management Configurable Workspace
-description: Learn how the CSM Agent Workspace Agent Chat functions with CSM Configurable Workspace.
+description: Learn how the CSM Agent Workspace Agent Chat functions with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-agent-chat.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Agent Chat for Customer Service Management Configurable Workspace
 
-Learn how the CSM Agent Workspace Agent Chat functions with CSM Configurable Workspace.
+Learn how the CSM Agent Workspace Agent Chat functions with CRM Workspace.
 
-Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue. CSM Agent Workspace Agent Chat configurations work with CSM Configurable Workspace.
+Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue. CSM Agent Workspace Agent Chat configurations work with CRM Workspace.
 
 For more information about the Agent Chat component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades) and select Agent Chat from the list of Next Experience Components.
 

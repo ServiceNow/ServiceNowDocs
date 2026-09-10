@@ -1,20 +1,20 @@
 ---
 title: Remove Observables from EDL
-description: Remove observables from EDL.
+description: Remove observables from an External Dynamic List \(EDL\) to stop blocking or monitoring specific observables. Use this when observables are no longer relevant or incorrectly categorized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/remove-observables-edl.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Remove Observables from EDL
 
-Remove observables from EDL.
+Remove observables from an External Dynamic List \(EDL\) to stop blocking or monitoring specific observables. Use this when observables are no longer relevant or incorrectly categorized.
 
 ## Before you begin
 
@@ -24,16 +24,21 @@ Role required: sn\_sec\_tisc.analyst
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click **Threat Analyst Workbench** icon.
+2.  Select the **Threat Analyst Workbench**.
 
-3.  Go to **Observables** &gt; **All Observables**.
+3.  Navigate to **Observables** &gt; **All Observables**.
 
 4.  Open any observable record.
 
-5.  Click **Remove from EDL**.
+5.  Select **Remove from EDL** button to remove the entries from the list.
 
-    The Remove from EDL modal screen is displayed.
+    The **Remove from EDL** modal opens. Complete the removal process. You can add observables back to the list later. For more information, see [Add Observables to EDLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/add-obsesrvables-edl.md).
 
 
 **Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
+
+**Related topics**  
+
+
+[Approve EDL entries for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.md)
 

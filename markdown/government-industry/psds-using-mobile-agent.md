@@ -61,7 +61,7 @@ You can narrow down or sort the list of cases by using the filter icon \(\[Omitt
 
 ## Service Request case cards in the Mobile Agent app
 
-The case cards in the Mobile Agent app display information that is similar to what you would see if you were viewing a case in the CSM Configurable Workspace. For a full list of service request case fields and their descriptions, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/service-request-case-form-new.md).
+The case cards in the Mobile Agent app display information that is similar to what you would see if you were viewing a case in the CRM Workspace. For a full list of service request case fields and their descriptions, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/service-request-case-form-new.md).
 
 The following example shows the case details card view. In this view, you can see the case number, case opened date, application type, priority, constituent, channel, primary purpose, and which agency is assigned to the case.
 
@@ -83,7 +83,7 @@ For more information on the agent tasks in the Mobile Agent app, see [Using the 
 
 ## Information Request case cards in the Mobile Agent
 
-The case cards in the Mobile Agent display information that is similar to what you would see if you were viewing a case in the CSM Configurable Workspace. For a full list of information request case fields and their descriptions, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/information-request-case-form.md).
+The case cards in the Mobile Agent display information that is similar to what you would see if you were viewing a case in the CRM Workspace. For a full list of information request case fields and their descriptions, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/information-request-case-form.md).
 
 The following example shows the case details card view. In this view, you can see the case number, case opened date, application type, priority, contact, channel, primary purpose, and which agency is assigned to the case.
 

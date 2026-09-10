@@ -16,7 +16,7 @@ breadcrumb: [Discovery probes and sensors, Discovery, ITOM Visibility, IT Operat
 
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
 
-You can schedule multiprobes to run any time in the discovery process to make exploration more efficient. One common use for multiprobes is as [identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md). Identity probes ask a device for information such as its name and serial number, and then use the results of those queries to update existing CIs in the CMDB.
+You can schedule multiprobes to run any time in the discovery process to make exploration more efficient. One common use for multiprobes is as [identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md). Identity probes ask a device for information such as its name and serial number. The probes use the results of those queries to update existing CIs in the CMDB.
 
 To process the data returned from a multiprobe, you must create multisensors, which run scripts that process the data returned by the multiprobes. Multisensors typically use the same name as their corresponding multiprobes.
 

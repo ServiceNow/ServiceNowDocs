@@ -1,6 +1,6 @@
 ---
 title: Resume an entitlement
-description: Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
+description: Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-resume-entitlement.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contract
 
 # Resume an entitlement
 
-Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
+Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 
 ## Before you begin
 

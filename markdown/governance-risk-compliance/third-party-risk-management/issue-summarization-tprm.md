@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Exploring, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]

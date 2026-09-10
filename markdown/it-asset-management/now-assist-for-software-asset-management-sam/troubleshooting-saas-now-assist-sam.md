@@ -32,15 +32,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS integrati
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d297418e106">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d297520e106">
 
 Integration
 
-</th><th align="left" id="d297418e109">
+</th><th align="left" id="d297520e109">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d297418e115">
+</th></tr></thead><tbody><tr><td id="d297520e115">
 
 **Existing**
 
@@ -54,7 +54,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d297418e143">
+</td></tr><tr><td id="d297520e143">
 
 **New**
 

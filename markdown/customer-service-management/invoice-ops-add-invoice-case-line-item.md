@@ -20,7 +20,7 @@ Role required: sn\_csm\_invoice.agent, sn\_csm\_invoice.manager, admin
 
 ## Procedure
 
-1.  Open an invoice case In CSM Configurable Workspace.
+1.  Open an invoice case In CRM Workspace.
 
 2.  Select the Invoice Case Lines tab and then select **New**.
 

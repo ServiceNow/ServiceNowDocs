@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-03-26"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace chat session tabs, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Edit or remove chat session tabs

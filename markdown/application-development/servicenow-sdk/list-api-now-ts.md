@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The List API defines list views \[sys\_ui\_list\] for tables.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 For general information about lists, see [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/p_ListAdministration.md).
 

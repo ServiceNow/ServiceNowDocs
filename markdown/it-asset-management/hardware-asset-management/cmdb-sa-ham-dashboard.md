@@ -25,7 +25,7 @@ The CMDB success advisor for HAM dashboard enables CMDB administrators to identi
 
 ## Access the dashboard
 
-To open the dashboard, select **View insights** for HAM on the CMDB success advisor landing page. See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md). The dashboard displays a **Last updated** timestamp reflecting the completion time of the most recent HAM data collector job run.
+To open the dashboard, select **View insights** for HAM on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md). The dashboard displays a **Last updated** timestamp reflecting the completion time of the most recent HAM data collector job run.
 
 **Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
@@ -35,6 +35,7 @@ To open the dashboard, select **View insights** for HAM on the CMDB success advi
 |----|-----------|
 |sn\_cmdb\_admin|Required to access the dashboard.|
 |sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.|
+|sn\_cmdb\_editor|Provides the same dashboard access as sn\_cmdb\_user, with write access on CMDB records outside the application.|
 
 ## Use cases
 

@@ -45,15 +45,15 @@ Journey designer plan configuration owners can change or create task templates f
 
 4.  Add or update a task template.
 
-<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d683091e117">
+<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d683195e117">
 
 Options
 
-</th><th align="left" id="d683091e120">
+</th><th align="left" id="d683195e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d683091e126">
+</th></tr></thead><tbody><tr><td id="d683195e126">
 
 **Add task template**
 
@@ -66,7 +66,7 @@ Description
 5.  Select **Add Templates**.
 
 
-</td></tr><tr><td id="d683091e171">
+</td></tr><tr><td id="d683195e171">
 
 **Update task template**
 

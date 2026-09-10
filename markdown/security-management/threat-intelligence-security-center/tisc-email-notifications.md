@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing email Notifications, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Manage email Notifications, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Email Notifications
@@ -49,7 +49,7 @@ The following table details the email notification rules that are provisioned in
 
 **Note:** Clicking on each email notification will take you to the classic UI, so that you can take necessary actions such as viewing or editing or creating the notifications.
 
-**Parent Topic:**[Managing email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 

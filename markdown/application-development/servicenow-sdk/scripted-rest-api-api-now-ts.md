@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The Scripted REST API defines the endpoints, query parameters, and headers for a scripted REST service \[sys\_ws\_definition\].
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 For general information about scripted REST services, see [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md).
 
@@ -458,7 +458,7 @@ Default: GET
 
 </td></tr><tr><td>
 
-authorization
+authentication
 
 </td><td>
 
@@ -475,7 +475,7 @@ Default: true
 
 </td></tr><tr><td>
 
-authentication
+authorization
 
 </td><td>
 

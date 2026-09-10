@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
@@ -27,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Smartsheet spoke v2.7.0 is the latest version.
+Smartsheet spoke v2.8.0 is the latest version. For version history of the spoke, see [Smartsheet spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-smartsheet.html).
 
 ## Supported versions
 
@@ -453,7 +453,7 @@ Update Sheet
 
 Updates a sheet.
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td rowspan="10">
 
 User Management
 
@@ -472,6 +472,14 @@ Deactivate User
 </td><td>
 
 Deactivates the specified user account in Smartsheet.
+
+</td></tr><tr><td>
+
+Downgrade User
+
+</td><td>
+
+Downgrades the user associated with the specified Smartsheet plan.
 
 </td></tr><tr><td>
 
@@ -496,6 +504,14 @@ Look up User by ID
 </td><td>
 
 Retrieves the details of a user.
+
+</td></tr><tr><td>
+
+Look up User Subscription Stream
+
+</td><td>
+
+Retrieves information about all the users in Smartsheet.
 
 </td></tr><tr><td>
 

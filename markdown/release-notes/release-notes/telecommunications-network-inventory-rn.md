@@ -1,9 +1,9 @@
 ---
 title: Telecommunications Network Inventory release notes
-description: The ServiceNow Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.
+description: The ServiceNow Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.The ServiceNow Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.
 
-## Telecommunications Network Inventory highlights for the Yokohama release
+## About Telecommunications Network Inventory
 
 -   View the geographical location and the details of your network site
 -   Design and assign a configuration item using a playbook and add custom states to a Change model.
@@ -22,13 +22,26 @@ The ServiceNow® Telecommunications Network Inventory application enables a netw
 
 See [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/telecom-network-inventory.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Telecommunications Network Inventory is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Telecommunications Network Inventory to Yokohama
+-   **Activation information**
 
-The Yokohama release needs the Xanadu platform version to support the Design and Assign playbook feature.
+    Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/installing-telecommunications-network-inventory.md).
 
-## New in the Yokohama release
+-   **Upgrade information**
+
+    The Yokohama release needs the Xanadu platform version to support the Design and Assign playbook feature.
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/design-assign-playbook.md)**
 
@@ -74,17 +87,4 @@ The Yokohama release needs the Xanadu platform version to support the Design and
 
     Supports all types of telephone numbers.
 
-
-## Activation information
-
-Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/installing-telecommunications-network-inventory.md).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    With the Configuration Management Database \(CMDB\) application, build logical representations of assets, services, and the relationships between them that comprises the infrastructure of your organization. Details about these components are stored in the CMDB, which you can use to monitor the following infrastructure, helping promote integrity, stability, and continuous service operation.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 

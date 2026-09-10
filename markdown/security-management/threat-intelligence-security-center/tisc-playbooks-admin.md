@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 2
 keywords: [tisc, playbook, administrator, workflow, threat response, configure]
-breadcrumb: [Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Playbooks

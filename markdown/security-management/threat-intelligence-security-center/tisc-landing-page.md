@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Security Operations]
 ---
@@ -50,7 +50,7 @@ Click on a tile to get started.
 
 </td><td>
 
-[Data Archival\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Understand TISC data archival and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/data-archival-process.md)
+[TISC Data archival and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/data-archival-process.md)Archive\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage Data Archival and Destroy Rules.
 
 </td><td>
 

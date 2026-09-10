@@ -1,18 +1,18 @@
 ---
 title: Project Portfolio Management release notes
-description: The ServiceNow Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.The ServiceNow Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.The ServiceNow Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.The ServiceNow Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Project Portfolio Management release notes
 
 The ServiceNow® Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
 
-## Project Portfolio Management highlights for the Yokohama release
+## About Project Portfolio Management
 
 -   Move your old status reports to a new tool to maintain a consistent reporting process.
 -   Secure your projects with confidentiality settings to safeguard all confidential data.
@@ -23,23 +23,39 @@ The ServiceNow® Project Portfolio Management application enables you to create 
 
 For more information, see the [Project Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/project-workspace-rn.md).
 
-## New in the Yokohama release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \( Project Portfolio Management \)](https://www.webstg.servicenow.com/docs/access?topicname=t_ActivateProjectPortfolioSuiteWithFinancials&version=washingtondc&pubname=washingtondc-it-business-management).
+
+    Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
+
+## December 2025
+
+The ServiceNow® Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Identify similar records using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/identify-similar-demand-records.md)**
 
     Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
 
--   **[Migrate old status reports to new reporting tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/view-status-report-in-project-workspace.md)**
 
-    Import your old status reports to a new status report tool for a consistent and organized reporting system.
+### What's changed
 
--   **[Apply confidentiality settings to your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/configuring-security-for-a-project-in-pw.md)**
+-   **[Demand Management UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/identify-similar-demands.md)**
+    -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
+    -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
 
-    Secure sensitive projects by applying confidentiality settings to your projects and make sure only authorized users can access confidential data and sub-projects.
+## May 2025
 
--   **[Use checklist for project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_project-task-checklists.md)**
+The ServiceNow® Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
 
-    Track the list of activities to be completed for a task by creating a checklist for your project tasks.
+### What's new
 
 -   **[Migrate notes of resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/migrate-rsrc-plan-rsrc-asgnmnt.md)**
 
@@ -54,24 +70,22 @@ For more information, see the [Project Workspace release notes](https://raw.gith
         -   Notes
     -   Extend a resource assignment for a project or project task using the **Extend** row context menu action.
 
-## UI changes
+## Yokohama
 
--   **[Demand Management UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/identify-similar-demands.md)**
-    -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
-    -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
+The ServiceNow® Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
 
-## Activation information
+### What's new
 
-Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \( Project Portfolio Management \)](https://www.webstg.servicenow.com/docs/access?topicname=t_ActivateProjectPortfolioSuiteWithFinancials&version=washingtondc&pubname=washingtondc-it-business-management).
+-   **[Migrate old status reports to new reporting tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/view-status-report-in-project-workspace.md)**
 
-Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Import your old status reports to a new status report tool for a consistent and organized reporting system.
 
-## Related ServiceNow applications and features
+-   **[Apply confidentiality settings to your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/configuring-security-for-a-project-in-pw.md)**
 
--   **[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/project-workspace-landing-page.md)**
+    Secure sensitive projects by applying confidentiality settings to your projects and make sure only authorized users can access confidential data and sub-projects.
 
-    See the [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/project-workspace-landing-page.md) documentation for more details about using ServiceNow® Workspace in Next Experience.
+-   **[Use checklist for project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_project-task-checklists.md)**
 
+    Track the list of activities to be completed for a task by creating a checklist for your project tasks.
 
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
 

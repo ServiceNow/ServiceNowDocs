@@ -38,7 +38,7 @@ The call summarization skill enables you to do the following actions:
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Set your status as Available in CSM Configurable Workspace so that you can receive a call request when a customer calls in and requests to speak to an agent.
+2.  Set your status as Available in CRM Workspace so that you can receive a call request when a customer calls in and requests to speak to an agent.
 
     The call summarization skill creates an inline summary in the Active Chat window. This summary includes the transcript of the conversation between the agent and the customer.
 

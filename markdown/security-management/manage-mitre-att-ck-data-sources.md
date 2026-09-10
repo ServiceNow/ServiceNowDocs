@@ -1,6 +1,6 @@
 ---
 title: Define the data source and detection tool mapping
-description: Define the data source and detection tool mapping for MITRE-ATT&amp;CK tactics and techniques. The data source mapping provides you with insight into the relevance and availability of the data sources and the detection tools for monitoring the data sources in your environment.
+description: Define the data source and detection tool mapping for MITRE-ATT&amp;CK tactics and techniques. This mapping provides the insight into the relevance and availability of the data sources and the detection tools for monitoring the data sources in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/manage-mitre-att-ck-data-sources.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overvie
 
 # Define the data source and detection tool mapping
 
-Define the data source and detection tool mapping for MITRE-ATT&amp;CK tactics and techniques. The data source mapping provides you with insight into the relevance and availability of the data sources and the detection tools for monitoring the data sources in your environment.
+Define the data source and detection tool mapping for MITRE-ATT&amp;CK tactics and techniques. This mapping provides the insight into the relevance and availability of the data sources and the detection tools for monitoring the data sources in your environment.
 
 ## Before you begin
 
@@ -114,14 +114,14 @@ The data source mapping for a record is revoked if the technique and data source
 </td></tr></tbody>
 </table>2.  Review the listed data sources and modify the value in the **Data Source Available** field based on your environment.
 
-3.  **Note:** You cannot edit this entry from the list view.
+3.  **Note:** You can't edit this entry from the list view.
 
     In the **Detection Tool** field, do the following steps:
 
-    1.  Click the information icon, and click **Open Record**.
+    1.  Select the information icon, and select **Open Record**.
     2.  Unlock **Detection Tool** entry.
     3.  Use the lookup list to select a detection tool. You can multi-select detection tools.
-    4.  Click **Update**.
+    4.  Select **Update**.
     In the following illustration, multiple detection tools are added to monitor the data source.
 
     \[Omitted image "mitre-select-detection-tool.gif"\] Alt text: How to map the detection tool.

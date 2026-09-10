@@ -50,7 +50,7 @@ You can refresh an existing event rule with new event data. For more information
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules** and take one of the following actions.
 
-<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d409257e154">
+<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d410522e154">
 
 **Create an event rule from an existing event**
 
@@ -64,7 +64,7 @@ You can refresh an existing event rule with new event data. For more information
 
 The event fields are copied to the Event Field Rules section of the rule.
 
-</td></tr><tr><td id="d409257e182">
+</td></tr><tr><td id="d410522e182">
 
 **Edit an existing event rule**
 
@@ -77,7 +77,7 @@ Rule cannot be viewed in the
           event rule designer. To modify the rule click 'Save and Upgrade'.
 ```
 
-</td></tr><tr><td id="d409257e206">
+</td></tr><tr><td id="d410522e206">
 
 **Create an event rule**
 
@@ -145,7 +145,7 @@ When the rules are running – first the global rules run and then the rules tha
 </td></tr></tbody>
 </table>4.  Define the event rule using these Event Rule Designer features.
 
-<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d409257e336">
+<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d410522e336">
 
 **Event Filter**
 
@@ -153,7 +153,7 @@ When the rules are running – first the global rules run and then the rules tha
 
 Define a filter to restrict to which events the event rule must apply. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCreateFilter.md).
 
-</td></tr><tr><td id="d409257e352">
+</td></tr><tr><td id="d410522e352">
 
 **Transform and compose alert output**
 
@@ -161,7 +161,7 @@ Define a filter to restrict to which events the event rule must apply. See [Filt
 
 Configure the customization of alert content. See [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMComposeOuput.md).
 
-</td></tr><tr><td id="d409257e371">
+</td></tr><tr><td id="d410522e371">
 
 **Threshold**
 
@@ -169,7 +169,7 @@ Configure the customization of alert content. See [Configure an event rule to cu
 
 Create or close alerts according to the specified threshold. See [Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMISetThresholdEvent.md).
 
-</td></tr><tr><td id="d409257e390">
+</td></tr><tr><td id="d410522e390">
 
 **Binding**
 

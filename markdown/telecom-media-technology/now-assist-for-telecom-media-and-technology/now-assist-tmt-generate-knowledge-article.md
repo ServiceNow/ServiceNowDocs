@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
-description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+description: Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology
 
 # Generate a knowledge article for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ Role required: agent
 
 ## About this task
 
-In  CSM Configurable Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
+In  CRM Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
 
 ## Procedure
 

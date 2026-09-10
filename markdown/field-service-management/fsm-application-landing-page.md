@@ -52,7 +52,7 @@ The ServiceNow® Field Service Management application enables you to manage work
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed in this release at [Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/field-service-management-rn.md).
+-   Learn more about what's new and changed in this release at [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/field-service-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/field-service-management-rn.md).
 -   Log in to your ServiceNow account and find additional information about implementing and deploying Field Service Management features at [Best Practices Library](https://learning.servicenow.com/nowcreate).
 -   Connect with other Field Service Management users in the [FSM community forum](https://www.servicenow.com/community/fsm/ct-p/field-service-management).
 -   Work with an implementation specialist to streamline your Field Service Management setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).

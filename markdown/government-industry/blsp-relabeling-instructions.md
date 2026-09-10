@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [CRM Workspace, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Relabel Business Service Location portal items for public sector use after upgrade
@@ -39,5 +39,5 @@ This script will relabel the "Business Location Details" page within the Busines
 5.  Follow the steps to complete the Guided Setup task.
 
 
-**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
 

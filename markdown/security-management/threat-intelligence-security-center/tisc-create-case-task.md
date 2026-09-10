@@ -1,5 +1,5 @@
 ---
-title: Create case task using Threat Analyst Workbench
+title: Creating case task using Threat Analyst Workbench
 description: Create case tasks to associate with case\(s\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-task.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Create case task using Threat Analyst Workbench
+# Creating case task using Threat Analyst Workbench
 
 Create case tasks to associate with case\(s\).
 
@@ -73,7 +73,7 @@ Role required: sn\_sec\_tisc.analyst, sn\_sec\_tisc.admin
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

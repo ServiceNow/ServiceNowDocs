@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager or sn\_si.basic
 
 4.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon\) in the top banner.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d300851e138">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d304995e138">
 
 Option
 
-</th><th align="left" id="d300851e141">
+</th><th align="left" id="d304995e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d300851e147">
+</th></tr></thead><tbody><tr><td id="d304995e147">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d300851e184">
+</td></tr><tr><td id="d304995e184">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d300851e218">
+</td></tr><tr><td id="d304995e218">
 
 **Generate correlation insights**
 

@@ -87,7 +87,7 @@ Other ServiceNow® applications consume NLU model output, such as Virtual Agent.
 
 \[Omitted image "natural-language-understanding-consumption.png"\] Alt text: This image shows you how the Virtual Agent application consumes Natural Language Understanding.
 
-For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-NLU.md).
+For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: Natural Language Understanding \(NLU\) topic discovery in Virtual Agent.
 
 ## Get started
 

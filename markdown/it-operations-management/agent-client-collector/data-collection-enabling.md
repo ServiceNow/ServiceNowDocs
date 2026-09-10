@@ -20,7 +20,7 @@ You can perform actions which enhance data collection from the hosts on which Ag
 Create a background script to send an `osquery` request. The `osquery` request enables data collection from your host's operating system.
 -   **[View host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/collect-agent-host-data.md)**  
 Run data collection on an agent's host to discover the components that are running on the host.
--   **[Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md)**  
+-   **[Generate an Agent Client Collector allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md)**  
 Specify the checks to be included in the list of checks that are enabled to run on the agent.
 -   **[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
 Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.

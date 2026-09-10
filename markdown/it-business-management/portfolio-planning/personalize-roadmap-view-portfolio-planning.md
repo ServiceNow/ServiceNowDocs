@@ -31,15 +31,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d40600e96">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d40601e96">
 
 Roadmap type
 
-</th><th align="left" id="d40600e99">
+</th><th align="left" id="d40601e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d40600e105">
+</th></tr></thead><tbody><tr><td id="d40601e105">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d40600e126">
+</td></tr><tr><td id="d40601e126">
 
 **Free-form roadmap**
 

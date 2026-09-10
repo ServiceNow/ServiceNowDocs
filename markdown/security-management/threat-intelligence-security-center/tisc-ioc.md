@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -24,14 +24,14 @@ Indicators are artifacts observed on a network or operating system that are like
 The Threat Entities module provides structured records used to manage threat intelligence objects in the TISC. These records align with STIX domain object concepts and help standardize how threat activity is documented and analyzed.
 -   **[Other Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-other-objects.md)**  
 Define and manage data classifications within TISC.
--   **[Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/vulnerability.md)**  
+-   **[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/vulnerability.md)**  
 A Vulnerability is a weakness or defect in a software or hardware component that attackers exploit. Vulnerabilities apply for STIX 2.x.
--   **[Define RSS Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/define-rss-feeds.md)**  
-A threat intelligence feed is a real time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite websites, such as blogs or latest cyber security news.
+-   **[View RSS Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/define-rss-feeds.md)**  
+A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
 -   **[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)**  
 The Reports module in the Threat Intelligence Library section enables you to create, manage, and publish reports that use any intelligence available in the Threat Intelligence Library.
--   **[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)**  
-The MITRE-ATT&amp;CK repository is available under the Intelligence Library where the data from the MITRE sources are ingested.
+-   **[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)**  
+The MITRE-ATT&amp;CK repository stores MITRE data separately from **Threat Intel Library** data in the **Intelligence Library**.
 -   **[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/relationship-objects.md)**  
 Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other.
 -   **[Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/potential-relationships.md)**  
@@ -44,7 +44,7 @@ Use many-to-many \(M2M\) relationship records to map connections between vulnera
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Objects form view]()
 
@@ -56,5 +56,5 @@ Use many-to-many \(M2M\) relationship records to map connections between vulnera
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

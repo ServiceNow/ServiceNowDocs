@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [tisc, dupilcate records, observable, indicator, deduplication, object]
 breadcrumb: [TISC Data archival and cleanup, Use, Threat Intelligence Security Center, Security Operations]

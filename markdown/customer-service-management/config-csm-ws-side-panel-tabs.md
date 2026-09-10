@@ -1,18 +1,18 @@
 ---
 title: Configure tabs in the contextual side panel
-description: Use the inlineTabExclusion UX page property to prevent tabs from appearing in the configurable side panel in CSM Configurable Workspace.
+description: Use the inlineTabExclusion UX page property to prevent tabs from appearing in the configurable side panel in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-ws-side-panel-tabs.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure tabs in the contextual side panel
 
-Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CSM Configurable Workspace.
+Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CRM Workspace.
 
 ## Before you begin
 

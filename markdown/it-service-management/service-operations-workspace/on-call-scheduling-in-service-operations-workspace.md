@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Explore, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Exploring On-call Scheduling in Service Operations Workspace

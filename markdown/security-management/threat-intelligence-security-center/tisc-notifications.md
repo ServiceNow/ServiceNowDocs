@@ -1,5 +1,5 @@
 ---
-title: Managing email Notifications
+title: Manage email Notifications
 description: Use ServiceNow Notifications to create and manage system email notifications, and view email logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-notifications.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Managing email Notifications
+# Manage email Notifications
 
 Use ServiceNow Notifications to create and manage system email notifications, and view email logs.
 

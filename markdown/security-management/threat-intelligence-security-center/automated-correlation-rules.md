@@ -1,282 +1,66 @@
 ---
-title: Automated Correlation
-description: Automated correlation helps you to identify the relationships between observables, indicators, and objects.
+title: Automated correlation
+description: Automated correlation automatically establishes relationships between threat intelligence records based on predefined rules, helping you identify connections between observables, indicators, and threat objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/automated-correlation-rules.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-04-06"
+reading_time_minutes: 3
+keywords: [automated correlation, threat intelligence, observables, indicators]
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Automated Correlation
+# Automated correlation
 
-Automated correlation helps you to identify the relationships between observables, indicators, and objects.
+Automated correlation automatically establishes relationships between threat intelligence records based on predefined rules, helping you identify connections between observables, indicators, and threat objects.
 
-With the correlation process, the application automatically establishes the correlation between threat intelligence records based on the predefined rules. Based on the type of the rule that is applied, the relationship can be a confirmed relationship or potential relationship. If the relationships between the objects are confirmed, those objects are automatically displayed on the details view of that object under the **Related Records** section.
+The correlation process automatically establishes relationships or potential relationships between threat intelligence records based on predefined rules.
 
-The following describes the relationships and potential relationships:
+In the **Related Records** section, relationships are listed in the object details view and **Potential relationships** are listed separately.
 
--   **Relationships**: Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other.
--   **Potential Relationships**: Use the potential relationships to establish potentially possible relationships between two SDOs, two Observables or an observable and SDO by using the automated correlation.
+The following list describes relationships and potential relationships.
 
-    Correlation rules for potential relationships identify potential relationships between threat intelligence entities, indicators, and observables.
+-   Relationships: Relates two observables or an observable and STIX Domain Object \(SDO\).
+-   Potential relationships: Establish potentially possible relationships between two SDOs, two observables, or an observable and SDO by using automated correlation.
 
-    **Note:** The four correlation rules that generate potential relationships are disabled by default \(for details, refer the following Correlation rules table\). Enabling these rules can result in the creation of large number of potential relationships, depending on the volume of ingested data. Users can enable the rules based on their requirement.
+**Important:** Automated correlation is disabled by default. Set *sn\_sec\_tisc.disable\_correlation\_rules* to `true` to enable it. For more information, see [Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-components-installed.md).
 
+## Correlation rule considerations
 
-The following are the predefined correlation rules provisioned within the base system:
+-   The correlation rules that generate potential relationships are disabled by default. To enable these rules, see [Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/configure-correlation-rules.md).
+-   Each potential relationship table has a default limit of 1,000,000 records for each domain. This is done to maintain optimal instance performance while managing threat intelligence data volume.
+-   The following observables must be of malicious or suspicious reputation for the correlation rule to trigger: Artifact, Domain Name, File, IPv4 address, IPv6 address, MD5 Hash, SHA1 Hash, SHA256 Hash, SHA512 Hash, and URL.
 
-<table id="table_dqb_dq2_nzb"><thead><tr><th>
+**Note:** The following rules are deprecated:
 
-Name
+-   Relate Indicators with Objects Based on Common Observables
+-   Relate Observables Based on Communication
 
-</th><th>
+|Name|Description|Action|Default status|
+|----|-----------|------|--------------|
+|File Hash Linkage|Links files, artifacts, and hash observables that share the same hash values so that you can identify variants and copies of known malicious files.|Creates a relationship|Enabled|
+|URL Domain Grouping|Groups URL observables that share the same domain and path, regardless of protocol, port number, or query parameters.|Creates a potential relationship|Disabled|
+|Network Source Attribution|Links network observables to the domain and IP address \(IPv4 and IPv6\) observables that are the source of the traffic.|Creates a relationship|Enabled|
+|Network Destination Attribution|Links network observables to the domain and IP address \(IPv4 and IPv6\) observables that are the destination of the traffic.|Creates a relationship|Enabled|
+|Communication Path Correlation|Maps communication flows by relating the source and destination observables that are recorded in a network observable.|Creates a potential relationship|Disabled|
+|Subdomain &amp; Parent Domain Linking|Relates a domain observable to its immediate parent domain and its direct subdomains.|Creates a relationship|Enabled|
+|Domain-to-IP Resolution Mapping|Connects domain observables to the IP addresses that they resolve to in DNS records.|Creates a relationship|Enabled|
+|Certificate-Domain Association|Associates SSL/TLS certificate observables with their corresponding domain names.|Creates a relationship|Enabled|
 
-Description
+-   **[Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/configure-correlation-rules.md)**  
+Enable or disable the Correlation rules or customize them according to your business requirements.
+-   **[Configure potential relationship table limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-update-potential-relationship-record-limit.md)**  
+Configure the maximum potential relationship records that automated correlation can create. By default, each potential relationship table has a limit of 1,000,000 records for each domain.
 
-</th><th>
-
-Definition
-
-</th><th>
-
-Action
-
-</th><th>
-
-Status
-
-</th></tr></thead><tbody><tr><td>
-
-Observables with same file hash
-
-</td><td>
-
-The rule compares the observables' hash values of the same type and identifies if they share the same hash.
-
-</td><td>
-
-The rule compares the hash values of the same type of the indicators and identifies if they share the same hash.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-URL Observables with same domain
-
-</td><td>
-
-The rule examines the commonalities in the structure of URLs to identify if they share the same base domain.
-
-</td><td>
-
-The rule examines the commonalities in the structure of URLs. Identifies if they share the same base domain and have a similar sub directory structure.
-
-</td><td>
-
-Creates a Potential Relationship
-
-</td><td>
-
-Disabled
-
-</td></tr><tr><td>
-
-Observable found as sources in network object
-
-</td><td>
-
-The rule matches the Network source attribute value with IPV4, IPV6, or domain-name observables in the system and links as the Source of traffic.
-
-</td><td>
-
-The rule matches the Source attribute value with IPV4, IPV6 or domain-name observables in the system and links as Source of traffic.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Observable found as destination in network object
-
-</td><td>
-
-The rule matches the Network destination attribute value with IPV4, IPV6, or domain-name observables in the system and links as the destination of the traffic.
-
-</td><td>
-
-The rule matches the destination attribute value with IPV4, IPV6 or domain-name observables in the system and links as destination of traffic.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Relate observables based on communication
-
-</td><td>
-
-Based on network objects, the rule identifies all the observables \(IPV4, IPV6, and domain name\) that have communicated with the same destination \(IPV4, IPV6, or domain name\) and establishes a relationship between these observables. Also, related observables \(IPV4, IPV6, and domain name\) if they are related to the same network object as the source communicating with the destination.
-
-</td><td>
-
-Based on network objects, the rule identifies all the indicators that have communicated with the same destination \(IPV4, IPV6, mac-addr or domain-name\) and establishes a relationship between these indicators as connected to the same C2 infrastructure.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Related Root domain observables to sub domains
-
-</td><td>
-
-The rule ties together a root domain with sub-domains and vice versa for domain type of observables.
-
-</td><td>
-
-The rule ties together a root domain with sub-domains.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Related domains to IPs based on DNS resolutions
-
-</td><td>
-
-Using domain-ipv4 or domain-ipv6 attributes of domain observables, the rule establishes relationships between the domains and IPs.
-
-</td><td>
-
-Using the attributes domain-ipv4 or domain-ipv6, the rule identifies all the domains or sub-domains that resolve to the same IP address and establishes relationships between the indicators, indicating their connection to the same C2 infrastructure.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Matching domains with SSL Certificates
-
-</td><td>
-
-The rule analyzes the SSL certificate information associated with the domain observables and establishes a relation between them.
-
-</td><td>
-
-The rule analyzes the SSL certificate information associated with the indicators and identifies that both certificates are issued by the same certificate authority and share the same expiration date and establishes relationships between the indicators, indicating their connection to the same C2 infrastructure or threat campaign.
-
-</td><td>
-
-Creates a Relationship
-
-</td><td>
-
-Enabled
-
-</td></tr><tr><td>
-
-Relate entities based on common observables
-
-</td><td>
-
-The rule compares if the same observable is related to two different entities and relates them to each other.
-
-</td><td>
-
-The rule compares if the same observable is related to two different entities and identifies them as related to each other.
-
-</td><td>
-
-Creates a Potential Relationship
-
-</td><td>
-
-Disabled
-
-</td></tr><tr><td>
-
-Relate indicators based on common observables
-
-</td><td>
-
-The rule compares if the same observable is related to two different indicators and relates them to each other.
-
-</td><td>
-
-The rule compares if the same observable is related to two different indicators and identifies them as related to each other.
-
-</td><td>
-
-Creates a Potential Relationship
-
-</td><td>
-
-Disabled
-
-</td></tr><tr><td>
-
-Relate indicators with objects based on common observables
-
-</td><td>
-
-The rule compares if the same observable is related to indicators, and objects and relates them to each other.
-
-</td><td>
-
-The rule compares if the same observable is related to indicators and objects and identifies them as related to each other.
-
-</td><td>
-
-Creates a Potential Relationship
-
-</td><td>
-
-Disabled
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Objects form view]()
 

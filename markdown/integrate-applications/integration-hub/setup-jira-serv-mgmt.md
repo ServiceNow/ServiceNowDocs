@@ -119,7 +119,7 @@ Integrate the ServiceNow instance and Jira Service Management by using the Basic
 
 ### Before you begin
 
-**Important:** Apps that collect API tokens to create individual 3LO apps don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
+**Important:** Apps that collect or store API tokens don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
 
 Role required: admin
 
@@ -194,7 +194,7 @@ Role required: admin
     |-----|-----------|
     |Name|Name to identify the credential record for the Jira Service Management spoke. For example, `Jira SM Basic Auth Token cred`.|
     |User name|Enter the email address of the user.|
-    |API Key|Enter the API token you generated for your Jira Cloud instance.|
+    |Password|Enter the API token you generated for your Jira Cloud instance.|
 
 5.  Right-click the form header and click **Save**.
 
@@ -219,40 +219,13 @@ Role required: admin
 
 4.  Enter these values and click **Submit**.
 
-<table id="table_vsw_lkv_4fb"><thead><tr><th>
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira cloud Basic Auth Token Connection`.|
+    |Credential|Select the Credential record created for Jira. For example, select **Jira SM Basic Auth Token cred**.|
+    |Connection URL|Enter the URL of your Jira instance in this format: `https://<provider-domain-name>.atlassian.net`.|
 
-Field
-
-</th><th>
-
-Value required
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Enter any name to uniquely identify the connection record. For example, enter `Jira cloud Basic Auth Token Connection`.
-
-</td></tr><tr><td>
-
-Credential
-
-</td><td>
-
-Select the Credential record created for Jira. For example, select **Jira SM Basic Auth Token cred**.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.For information about obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
-
-</td></tr></tbody>
-</table>5.  Click **Submit**.
+5.  Click **Submit**.
 
     The Jira Service Management spoke is configured to use basic credentials via the service account.
 

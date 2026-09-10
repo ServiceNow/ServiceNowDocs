@@ -1,6 +1,6 @@
 ---
 title: Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns
-description: Discovery and Service Mapping Patterns uses the Amazon AWS Relational Database Service pattern to find Amazon RDS components in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the Amazon AWS Relational Database Service pattern to find Amazon RDS components in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-rds-discovery.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns
 
-Discovery and Service Mapping Patterns uses the Amazon AWS Relational Database Service pattern to find Amazon RDS components in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the Amazon AWS Relational Database Service pattern to find Amazon RDS components in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Amazon RDS is a managed relational database service by Amazon Web Services \(AWS\). Amazon RDS enables you to create and manage relational database instances in the cloud.
 

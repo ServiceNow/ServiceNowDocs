@@ -16,7 +16,7 @@ You can use the Grants Proposal playbook to review information provided by the a
 
 **Note:** Verify that the Grants Management proposal, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-grants-management-playbook.md).
 
-The Grants proposal workflow provides a structured process for managing grant proposals from submission for the pre-award phase. It begins with proposal intake, where applicants submit required forms and eligibility is verified. The review and evaluation phase involves initial screening, technical assessments, and scoring to determine funding recommendations. Once selections are made, agencies proceed with award decisions and notifications. By default, the following stages are available in the Grants Management in the CSM Configurable Workspace.
+The Grants proposal workflow provides a structured process for managing grant proposals from submission for the pre-award phase. It begins with proposal intake, where applicants submit required forms and eligibility is verified. The review and evaluation phase involves initial screening, technical assessments, and scoring to determine funding recommendations. Once selections are made, agencies proceed with award decisions and notifications. By default, the following stages are available in the Grants Management in the CRM Workspace.
 
 -   Intake
 -   Screen
@@ -204,7 +204,7 @@ Evaluation consists of two tasks: Conduct merit review\(s\) and Build funding pr
 
     -   Decline funding and provide a reason by selecting **Propose Decline**.
     -   View the funding proposal page from where you can allocate budget, submit the proposals, and notify the grant program director for further approval by selecting **Add to Proposal**
-11. As the grants program director, view the funding proposals in the CSM Configurable Workspace by navigating to **List** &gt; **My approvals**.
+11. As the grants program director, view the funding proposals in the CRM Workspace by navigating to **List** &gt; **My approvals**.
 
 12. From the list of available funding proposals, as the grants program director, select one or more proposals to perform either of these actions:
 

@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
+1.  In the CRM Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
 
 2.  Select **New** to create a case.
 

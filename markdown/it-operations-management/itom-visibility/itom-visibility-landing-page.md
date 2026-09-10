@@ -32,7 +32,7 @@ Data collected by ITOM Visibility provides a foundation for operation of the fol
 
 -   **[ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-optimization-landing-page.md)**
 
-    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cloud-insights-landing-page.md) application, available in the ServiceNow Store, helps you to analyze the full range of costs associated with cloud assets so you can identify and take action on opportunities to save money and optimize operations.
+    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cloud-insights-landing-page.md) application, available in the ServiceNow Store, helps you analyze the full range of costs associated with cloud assets. You can identify and take action on opportunities to save money and optimize operations.
 
 -   **[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_SoftwareAssetMgmt.md)**
 

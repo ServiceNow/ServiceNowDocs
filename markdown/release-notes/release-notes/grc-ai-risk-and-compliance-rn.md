@@ -1,9 +1,9 @@
 ---
 title: AI Risk and Compliance release notes
-description: The ServiceNow AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance is a new application in the Yokohama release.
+description: The ServiceNow AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance is a new application in the Yokohama release.The ServiceNow AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-03-26"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance is a new application in the Yokohama release.
 
-## AI Risk and Compliance highlights for the Yokohama release
+## About AI Risk and Compliance
 
 -   Manage AI systems, models, and datasets across their entire life-cycle with consistent governance for better visibility, control, and compliance.
 -   Perform impact assessments for AI systems, models, and datasets to identify high-risk AI assets.
@@ -22,11 +22,24 @@ The ServiceNow® AI Risk and Compliance application to manage your artificial in
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## AI Risk and Compliance features
+-   **Activation information**
 
--   **AI asset lifecycle management**
+    Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® AI Risk and Compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance is a new application in the Yokohama release.
+
+### What's new
+
+-   **[AI asset lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-asset-lifecycle.md)**
 
     Manage the complete life-cycle of AI assets, from selecting appropriate AI systems to developing, deploying, and monitoring AI models and datasets. This feature helps maintain a centralized inventory, confirms consistent governance practices, and improves traceability and oversight across all stages of AI development and usage.
 
@@ -76,17 +89,4 @@ See  for more information.
 
     -   AI Risk and Compliance User \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\]: Create an AI case on the Employee Center and work on the assigned tasks. Perform control attestations.
     -   AI Risk and Compliance Reader \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_reader\]: Read the AI systems and AI impact assessments.
-
-## Activation information
-
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    Use the AI Control Tower application with AI Risk and Compliance to manage AI asset inventory life cycle.
-
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

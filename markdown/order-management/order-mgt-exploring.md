@@ -35,7 +35,7 @@ With the Order Management application, you get an order management system that i
 
     Order Management provides different ways to capture product and service orders.
 
-    -   Direct order capture - Your agents and order managers can enter product or service orders using the CSM Configurable Workspace.
+    -   Direct order capture - Your agents and order managers can enter product or service orders using the CRM Workspace.
     -   If you're using the Order Management for Telecommunications, Media, and Technology application and have a Telecommunications Service Management subscription, you can use the following features:
         -   Product and Service Order Open APIs - Use the ServiceNow implementation of the TMF Open APIs to capture product and service orders from third-party systems.
         -   Now Service Exchange integrations - Use the Service Exchange applications to receive and fulfill product or service requests directly between your instance and the instances of your customers, without configuring and maintaining custom integrations. Service Exchange supports the verification, enrichment, decomposition, and fulfillment of these customer orders. For detailed benefits of the Service Exchange applications, see [Learn about Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-benefits.md).
@@ -60,6 +60,6 @@ With the Order Management application, you get an order management system that i
     -   Configure product options for complex products.
     -   Create orders and view products in their shopping carts.
     -   Review the fulfillment process to check the progress of their orders.
-    For more information on setting up the Business Portal, see Configure the Business Portal.
+    For more information on setting up the Business Portal, see [Configure the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md).
 
 

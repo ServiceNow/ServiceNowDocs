@@ -16,7 +16,7 @@ breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Bu
 
 Use ServiceNow Fluent APIs to define the metadata that makes up scoped applications in source code with the ServiceNow IDE or ServiceNow SDK.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 -   **[ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/fluent-constructs.md)**  
 ServiceNow Fluent language constructs provide additional functionality for development in source code with ServiceNow Fluent APIs.

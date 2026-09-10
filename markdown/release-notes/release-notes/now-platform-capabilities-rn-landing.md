@@ -32,9 +32,11 @@ The ServiceNow® Password Reset application enables you to set up your end users
 The ServiceNow® Hermes Messaging Service application enables you to integrate your Apache Kafka environment with your ServiceNow® instance. Hermes Messaging Service was enhanced and updated in the Yokohama release.
 -   **[Knowledge Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/knowledge-management-rn.md)**  
 The ServiceNow® Knowledge Management application enables you to share knowledge articles that provide users with information for self-help, troubleshooting, and task resolution. Knowledge Management was enhanced and updated in the Yokohama release.
+-   **[Knowledge Center Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/knowledge-center-rn.md)**  
+The ServiceNow® Knowledge Center helps you manage your knowledge articles from a single interface. It consists of dashboards that provide metrics of articles and facilitate swift actions. Knowledge Center is introduced in the Yokohama release.
 -   **[Instance Data Replication release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/instance-data-replication-rn.md)**  
 The ServiceNow® Instance Data Replication \(IDR\) application simplifies the data replication process between instances. Instance Data Replication was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-cmdb-rn.md)**  
+-   **[ServiceNow Otto for Configuration Management Database \(CMDB\) release notes]()**  
 The ServiceNow® ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
 -   **[Service Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-catalog-rn.md)**  
 The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.

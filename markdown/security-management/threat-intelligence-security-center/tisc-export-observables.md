@@ -7,8 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [export,intelligence data,tisc,observables,marking definition,tlp2.0]
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -28,25 +29,25 @@ Currently, the export functionality is limited to observables, indicators, and c
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Threat Intel Library** &gt; **Observables** &gt; **All Observables**.
 
-2.  Select any observable\(s\).
+2.  Select any observable record.
 
-3.  Click **Export** button.
+3.  Select **Export**.
 
     **Note:** The **Export** button is enabled only when observables are selected for export. If no observables are selected, the button remains disabled.
 
 4.  Select the desired file type for export.
 
-    Currently, the supported export formats are Excel, CSV, and STIX 2.1 JSON. Suppose, if your export type is Excel then the number of records that can be exported at a time is limited to 10,000, regardless of the selected format type.
+    -   Currently, the supported export formats are Excel, CSV, and STIX 2.1 JSON. Suppose, if your export type is Excel then the number of records that can be exported at a time is limited to 10,000, regardless of the selected format type.
+    -   If the selection exceeds 10,000 records, then an error message displays indicating that the maximum limit for the selected format type has been surpassed, and only the first 10,000 records will be exported.
+    -   If the export format is CSV and the record limit is exceeded, an alert message is displayed indicating that the export is **in progress** state, along with a link to view the export status. You can click the link to view the status, and refresh the record. Once it moves to **processed** state you can download the attachment.
 
-    If the selection exceeds 10,000 records, then an error message is displayed indicating that the maximum limit for the selected format type has been surpassed, and only the first 10000 records will be exported.
+        **Note:** When you export records in STIX 2.1 format Traffic Light Protocol \(TLP\) definitions applied to the intelligence object are included in the export as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/define-market-definition.md).
 
-    If the export format is CSV and the record limit is exceeded, an alert message will be displayed indicating that the export is **in progress** state, along with a link to view the export status. You can click the link to view the status, refresh the record, and once it moves to **processed** state after refreshing then you can download the attachment.
-
-5.  Click **Export**.
+5.  Select **Export**.
 
     **Note:** You can also view export data from the **Imports/Exports** module.
 
-    A confirmation message displayed indicating that the export is successful and your download is complete.
+    A confirmation message indicating that the export is successful and your download is complete displays.
 
 
 **Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
@@ -54,7 +55,7 @@ Currently, the export functionality is limited to observables, indicators, and c
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Objects form view]()
 
@@ -66,5 +67,5 @@ Currently, the export functionality is limited to observables, indicators, and c
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

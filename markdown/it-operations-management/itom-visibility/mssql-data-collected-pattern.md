@@ -1,6 +1,6 @@
 ---
 title: Microsoft SQL Server and Cluster discovery
-description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Microsoft SQL Server and Cluster discovery
 
-The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

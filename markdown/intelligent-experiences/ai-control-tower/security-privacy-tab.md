@@ -104,11 +104,11 @@ The ServiceNow AI security score is a measure of the health of your ServiceNow A
 
     You can exclude an asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change.
 
-<table id="simpletable_nqz_1sl_mhc"><thead><tr><th align="left" id="d107799e19">
+<table id="simpletable_nqz_1sl_mhc"><thead><tr><th align="left" id="d107784e19">
 
 Column
 
-</th><th align="left" id="d107799e22">
+</th><th align="left" id="d107784e22">
 
 Description
 

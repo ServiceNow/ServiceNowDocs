@@ -1,6 +1,6 @@
 ---
 title: Cancel a service contract
-description: Create an order to cancel a service contract and its child service contract lines on the CSM Configurable Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
+description: Create an order to cancel a service contract and its child service contract lines on the CRM Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-cancel-service-contract.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contract
 
 # Cancel a service contract
 
-Create an order to cancel a service contract and its child service contract lines on the CSM Configurable Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
+Create an order to cancel a service contract and its child service contract lines on the CRM Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
 
 ## Before you begin
 

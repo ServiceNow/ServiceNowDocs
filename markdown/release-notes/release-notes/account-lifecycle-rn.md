@@ -1,9 +1,9 @@
 ---
 title: Account Lifecycle Events release notes
-description: The ServiceNow Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
+description: The ServiceNow Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.The ServiceNow Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.The ServiceNow Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
 
-## Account Lifecycle Events highlights for the Yokohama release
+## About Account Lifecycle Events
 
 -   Define, measure, and track the overall health of an engagement and monitor risk signals and issues.
 -   Manage all customer interactions in a single place and organize them with the touchpoint calendar.​
@@ -22,9 +22,22 @@ The ServiceNow® Account Lifecycle Events application helps you to streamline yo
 
 See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Account Lifecycle Events is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Account Lifecycle Events by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
+
+## Yokohama Early Availability
+
+The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Health framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifeycle-health-frmwk.md)**
 
@@ -51,7 +64,11 @@ See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/Serv
     Use generative AI to get a high-level summary of the status of your engagements, onboarding cases, and touchpoints.
 
 
-## UI changes
+## Yokohama
+
+The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
+
+### What's changed
 
 -   **[Success portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-success-landing.md)**
 
@@ -65,17 +82,4 @@ See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Optimize the onboarding process by importing and publishing a large amount of data and resolve any errors or issues​ quickly.
 
-
-## Activation information
-
-Install Account Lifecycle Events by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    The Customer Service Management application enables you to automate your onboarding and case monitoring processes and provides service agents with visibility into the customer systems and tools that you need to deliver proactive services to your customers.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 

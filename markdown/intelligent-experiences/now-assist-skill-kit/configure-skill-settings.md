@@ -97,7 +97,7 @@ A description of the feature.
     -   Now Assist context menu
     -   Virtual assistant
 
-        For more information about Now Assist in Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
+        For more information about Now Assist in Virtual Agent, see .
 
     -   UI Builder
 8.  Select **Save**.

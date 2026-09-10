@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2024-10-22"
 reading_time_minutes: 2
-breadcrumb: [Installing and configuring Leader Hub, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Install and configure, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure time range data in tenure widgets

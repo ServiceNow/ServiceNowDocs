@@ -1,9 +1,9 @@
 ---
 title: Order Management release notes
-description: The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-03-25"
 reading_time_minutes: 4
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 
 The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.
 
-## Order Management highlights for the Yokohama release
+## About Order Management
 
 -   Enable order agents to view price adjustment details while processing orders.
 -   Enable customers to view the product catalog, add products to a shopping cart, and create orders by using the Business Portal.
@@ -22,9 +22,24 @@ The ServiceNow® Order Management application enables you to capture, manage, an
 
 See [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-exploring.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Order Management by requesting it from the ServiceNow Store.
+
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Business Portal for order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-business-portal.md)**
 
@@ -46,6 +61,21 @@ See [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
     Add transient products, which are defined as one-time-use products or services, to new orders. Sold product and product inventory records are created but not maintained for transient products. Move, Add, Change and Disconnect \(MACD\) actions are not supported for transient products.
 
+-   **[Add subscription pricing to an order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/add-subscription-pricing-to-an-order.md)**
+
+    Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
+
+
+### What's deprecated or removed
+
+-   The Subscription start and end dates have been deprecated starting with the Q2 2025 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
+
+## Yokohama
+
+The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **[Business Portal for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md)**
 
     Use the Business Portal to view product catalogs, select product options, and place orders. Customers can also view their order status using the Business Portal.
@@ -54,14 +84,9 @@ See [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
     Create cases for multiple invoices or for specific invoice lines. Agents can reference multiple invoices or invoice lines as case line items on an invoice case record. By using case line items, agents can track multiple issues for the same invoice case and resolve the issues in each case line item independently before resolving and closing the order case. This application is a feature of Customer Service Management and the Order to Cash Operations functionality for Order Management.
 
--   **[Add subscription pricing to an order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/add-subscription-pricing-to-an-order.md)**
 
-    Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
+### What's deprecated or removed
 
-
-## Deprecations
-
--   The Subscription start and end dates have been deprecated starting with the Q2 2025 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
 -   The fields listed for the following tables are no longer supported.
 
     |Table name|Fields|
@@ -70,35 +95,4 @@ See [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     |Order line item \(sn\_ind\_tmt\_orm\_order\_line\_item\)|Cumulative monthly recurring price, Cumulative annual recurring price, Subscription start date, Subscription end date|
     |Order line item \(sn\_csm\_om\_order\_line\_item\)|Total recurring price|
 
-
-## Activation information
-
-Install Order Management by requesting it from the ServiceNow Store.
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    The Order Management application uses the Customer Service Management account, consumer, and product inventory data model.
-
--   **[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/opportunity-management.md)**
-
-    The Opportunity Management application provides your sales agents and account executives with product recommendations for customers based on a needs analysis. You can seamlessly convert sales opportunities to quotes when the customer is ready.
-
--   **[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/product-catalog-managment.md)**
-
-    The Product Catalog Management feature in Sales Customer Relationship Management enables your catalog administrators to create product catalogs with pricing that enable agents to find and add products and services to orders.
-
--   **[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/pricing-management.md)**
-
-    The Pricing Management feature in Sales Customer Relationship Management enables your pricing administrators to set pricing for products and services in orders. Pricing administrators also set the controls that enable your agents to adjust pricing for orders that have complex product offers.
-
--   **[Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/quote-management.md)**
-
-    The Quote Management application enables your sales agents to generate and manage sales quotes for your customers.
-
-
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
 

@@ -1,30 +1,30 @@
 ---
-title: CSM Configurable Workspace record pages
-description: A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This includes records such as cases, incidents, and tasks.
+title: CRM Workspace record pages
+description: A record page provides the base structure for how a record is displayed in CRM Workspace. This includes records such as cases, incidents, and tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-config-workspace-record-pages.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-06-09"
 reading_time_minutes: 4
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# CSM Configurable Workspace record pages
+# CRM Workspace record pages
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This includes records such as cases, incidents, and tasks.
+A record page provides the base structure for how a record is displayed in CRM Workspace. This includes records such as cases, incidents, and tasks.
 
 ## Record page overview
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages, including the **CSM default record page** and **CSM Interaction record page**, leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability makes simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md).
+Several record pages are included with CRM Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md).
 
-Each record page has an order value. The system uses the pages with the lowest order values as the [default record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md). When the system displays information in CSM Configurable Workspace, such as interaction and case records, it uses the elements in the default pages to determine the page appearance.
+Each record page has an order value. The system uses the pages with the lowest order values as the [default record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md). When the system displays information in CRM Workspace, such as interaction and case records, it uses the elements in the default pages to determine the page appearance.
 
 ## Available record pages
 
-Several record pages are included with CSM Configurable Workspace.
+Several record pages are included with CRM Workspace.
 
 <table id="table_hmm_t21_lzb"><thead><tr><th>
 
@@ -93,7 +93,7 @@ This page provides the basic structure for an interaction record, including inte
 </td></tr></tbody>
 </table>## Record page elements
 
-Record pages are made up of different elements that determine how record information is displayed in CSM Configurable Workspace.
+Record pages are made up of different elements that determine how record information is displayed in CRM Workspace.
 
 <table id="table_iyv_lzx_hzb"><thead><tr><th>
 
@@ -154,7 +154,7 @@ An extension point enables subpages, such as viewports and page collections, to 
 </td></tr></tbody>
 </table>## Default record pages
 
-Each record page has an order number and the page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information.
+Each record page has an order number and the page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information.
 
 New Z-boot customers see the following pages by default:
 

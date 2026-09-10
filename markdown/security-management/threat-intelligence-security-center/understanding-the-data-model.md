@@ -1,5 +1,5 @@
 ---
-title: Understanding the Data Model
+title: TISC Data Model
 description: The data model and architecture of threat intelligence security center module is designed to support threat intelligence platform capabilities and different security views that provides detailed data for threat analysts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/understanding-the-data-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Understanding the Data Model
+# TISC Data Model
 
 The data model and architecture of threat intelligence security center module is designed to support threat intelligence platform capabilities and different security views that provides detailed data for threat analysts.
 
@@ -35,5 +35,5 @@ The data model has the data structures which are represented as objects in the T
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

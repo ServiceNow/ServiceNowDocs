@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -165,9 +165,11 @@ Select this check box to modify members of allowed group and allowed members. Fo
 
 7.  Click **Save**.
 
-    After the record has been saved, you can click the **Import Intelligence** tab to import the threat intel data using the **Import Intelligence** feature.
+    After the record has been saved, you can click the **Import Intelligence** tab to import the threat intelligence data using the **Import Intelligence** feature.
 
-    **Note:** If you are importing and processing data from Case Management, then a unique is associated to the import record.\[Omitted image "tisc-import-intelligence-case-management.png"\] Alt text: Import intelligence-Case Management
+    **Note:** If you are importing and processing data from Case Management, then a unique is associated to the import record.
+
+    \[Omitted image "tisc-import-intelligence-case-management.png"\] Alt text: Import intelligence-Case Management
 
 
 -   **[Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md)**  
@@ -184,11 +186,11 @@ Roll up of MITRE technique associations from observables, indicators, objects, a
 
 [Workbench Overview]()
 
-[Create case task using Threat Analyst Workbench]()
+[Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

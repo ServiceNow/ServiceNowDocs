@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automated flows, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Vulnerability Management Support
@@ -63,6 +63,10 @@ When new vulnerability is created in TISC and there is a related vulnerability i
 
 
 [Automated IOC Enrichment]()
+
+[Automated sharing of high-risk IOC's with trusted partners]()
+
+[Automatically add threat intelligence to a TAXII collection]()
 
 [Create vulnerability assessment for zero day]()
 

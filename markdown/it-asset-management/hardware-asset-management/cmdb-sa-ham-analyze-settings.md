@@ -94,15 +94,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d288916e487">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d289018e487">
 
 Action
 
-</th><th align="left" id="d288916e490">
+</th><th align="left" id="d289018e490">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d288916e496">
+</th></tr></thead><tbody><tr><td id="d289018e496">
 
 **Manage rule**
 
@@ -110,7 +110,7 @@ Description
 
 Opens the configuration page for the related business rule that automates tasks between assets and CIs.
 
-</td></tr><tr><td id="d288916e505">
+</td></tr><tr><td id="d289018e505">
 
 **Manage model categories**
 
@@ -118,7 +118,7 @@ Opens the configuration page for the related business rule that automates tasks 
 
 Opens the Model categories list page where you can select a model category to review and update mappings between asset model categories and CI classes.
 
-</td></tr><tr><td id="d288916e514">
+</td></tr><tr><td id="d289018e514">
 
 **Manage mappings**
 
@@ -126,7 +126,7 @@ Opens the Model categories list page where you can select a model category to re
 
 Opens the Asset CI Field Mappings list page where you can select a CI and review and change how asset fields connect to CI fields to keep data accurate.
 
-</td></tr><tr><td id="d288916e523">
+</td></tr><tr><td id="d289018e523">
 
 **Manage policies**
 
@@ -134,7 +134,7 @@ Opens the Asset CI Field Mappings list page where you can select a CI and review
 
 Opens the Data Manager overview page where you can create or update policies for different CI classes to automate asset management.
 
-</td></tr><tr><td id="d288916e533">
+</td></tr><tr><td id="d289018e533">
 
 **Create policy**
 

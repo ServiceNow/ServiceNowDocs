@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data integration with Edge Encryption, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---

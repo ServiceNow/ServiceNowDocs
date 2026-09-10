@@ -33,15 +33,15 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d194414e103">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d194446e103">
 
 Choice
 
-</th><th align="left" id="d194414e106">
+</th><th align="left" id="d194446e106">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194414e112">
+</th></tr></thead><tbody><tr><td id="d194446e112">
 
 **Roadmap-level**
 
@@ -49,7 +49,7 @@ Action
 
 From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d194414e133">
+</td></tr><tr><td id="d194446e133">
 
 **Planning item-level**
 
@@ -62,15 +62,15 @@ From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-co
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d194414e161">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d194446e161">
 
 Choice
 
-</th><th align="left" id="d194414e164">
+</th><th align="left" id="d194446e164">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194414e170">
+</th></tr></thead><tbody><tr><td id="d194446e170">
 
 **Attachments**
 
@@ -78,7 +78,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d194414e185">
+</td></tr><tr><td id="d194446e185">
 
 **Comments**
 

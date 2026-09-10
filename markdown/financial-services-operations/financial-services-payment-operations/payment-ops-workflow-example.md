@@ -1,5 +1,5 @@
 ---
-title: Payment Operations workflow example
+title: Financial Services Payment Operations workflow example
 description: The workflows available with Financial Services Payment Operations connect people, departments, and institutions to quickly initiate, research, and resolve the payment errors and missing payments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Financial Services Payment Operations, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Explore, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Payment Operations workflow example
+# Financial Services Payment Operations workflow example
 
 The workflows available with Financial Services Payment Operations connect people, departments, and institutions to quickly initiate, research, and resolve the payment errors and missing payments.
 
@@ -26,11 +26,11 @@ A customer can report a payment error or missing payment by logging into their a
 
 -   **2. Intake and assign**
 
-Once the case is initiated, a workflow is triggered automatically or by an agent that validates the information about the transaction and the customer and routes the inquiry to the appropriate middle and back office payment teams.
+Once the case is initiated, a workflow is triggered automatically or by an agent that validates the information about the transaction and the customer. The workflow routes the inquiry to the appropriate middle and back office payment teams.
 
 -   **3. Investigate**
 
-An inquiry agent can review any customer details or payment details within the system of engagement, without needing to do any research across systems, and take action if the claim is eligible for reversal. A claim agent can manage all interactions with the payment recipient and/or external financial institutions. Tasks and status are tracked in the case and notifications are sent automatically to try to recover funds and take corrective action.
+An inquiry agent can review customer details or payment details within the system of engagement without needing to research across systems. The agent can take action if the claim is eligible for reversal. A claim agent can manage all interactions with the payment recipient and external financial institutions. Tasks and status are tracked in the case. Notifications are sent automatically to recover funds and take corrective action.
 
 -   **4. Resolve**
 

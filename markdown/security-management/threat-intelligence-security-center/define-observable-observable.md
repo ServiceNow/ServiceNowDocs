@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d380459e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d387000e98">
 
 Field
 
-</th><th align="left" id="d380459e101">
+</th><th align="left" id="d387000e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d380459e107">
+</th></tr></thead><tbody><tr><td id="d387000e107">
 
 **Source Observable**
 
@@ -48,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d380459e116">
+</td></tr><tr><td id="d387000e116">
 
 **Target Observable**
 
@@ -56,7 +56,7 @@ Select and define the source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d380459e125">
+</td></tr><tr><td id="d387000e125">
 
 **Relationship Type**
 
@@ -68,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d380459e144">
+</td></tr><tr><td id="d387000e144">
 
 **Basis For Correlation**
 

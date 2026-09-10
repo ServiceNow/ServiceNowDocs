@@ -27,7 +27,7 @@ The Health Log Analytics base system typically provides 1,000 GB storage space f
 -   **[Scaling Health Log Analytics to stream logs at a higher rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-scaling.md)**  
 Stream log data to Health Log Analytics in a scalable, more stable way using the advanced ServiceNow infrastructure.
 -   **[Enhancing the CMDB with host data found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)**  
-When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate based on the data it found in the logs for you to review.
+When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate. You can review the candidate based on the data found in the logs.
 
 **Parent Topic:**[Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-configuring.md)
 

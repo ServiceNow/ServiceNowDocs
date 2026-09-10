@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/ma
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 

@@ -46,15 +46,15 @@ From the list of records, assign an open, unassigned response task to yourself o
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d273751e162">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d277626e162">
 
 Option
 
-</th><th align="left" id="d273751e165">
+</th><th align="left" id="d277626e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273751e171">
+</th></tr></thead><tbody><tr><td id="d277626e171">
 
 **Assign to Me**
 
@@ -62,7 +62,7 @@ Description
 
 Assign the response task to yourself. If the task is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d273751e180">
+</td></tr><tr><td id="d277626e180">
 
 **Reassign**
 
@@ -85,15 +85,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 
     \[Omitted image "mobile-sir-open-restasks.jpg"\] Alt text: Open Response Task record.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d273751e261">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d277626e261">
 
 Option
 
-</th><th align="left" id="d273751e264">
+</th><th align="left" id="d277626e264">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273751e270">
+</th></tr></thead><tbody><tr><td id="d277626e270">
 
 **Details tab**
 
@@ -103,7 +103,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Reassign** or **Assign to Me**.
  After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d273751e318">
+</td></tr><tr><td id="d277626e318">
 
 **Activity Stream tab**
 
@@ -115,7 +115,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit or reassign the task.
 
 
-</td></tr><tr><td id="d273751e351">
+</td></tr><tr><td id="d277626e351">
 
 **Screen icons at the bottom of the screen.**
 

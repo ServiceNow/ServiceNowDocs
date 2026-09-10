@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-administration-console.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security E
 The Administration for Security Exposure Management application offers a unified administrative experience across all Unified Security Exposure Management \(USEM\) applications. It introduces the Admin Console within the Security Exposure Management \(SEM\) Workspace, allowing administrators to configure Security Exposure Management applications and monitor integrations from a single location.
 
 The Administration Console centralizes configuration and administration for all USEM applications, streamlining the management process and ensuring consistent settings across the environment. The following modules are available within the Admin Console:
+
+\[Omitted video\] Description: Administration Console overview
 
 -   **Integrations**: The Integration status page provides a comprehensive overview of installed third-party applications and their integration runs. Real-time status updates enable administrators to diagnose and resolve issues related to failed integration runs. For more information, see [Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/review-usem-integrations.md).
 -   **Configurations**: Configuring rules automates, organizes, and manages the lifecycle of findings, ensuring scalability, data consistency, and faster response times by reducing manual intervention. For more information, see [Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-configure-rules-manage-findings.md).

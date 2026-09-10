@@ -29,7 +29,7 @@ Selecting software products defines which software the CMDB success advisor moni
 
 1.  On the CMDB success advisor landing page, select **Select software products** within the SAM card.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md).
 
 2.  In the Edit dashboard scope dialog box, use the **Search** field to find a software publisher or product.
 

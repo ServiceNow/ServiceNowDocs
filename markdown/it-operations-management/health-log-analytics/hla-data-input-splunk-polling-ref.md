@@ -169,7 +169,7 @@ Splunk Poll Credential Alias
 
 </td><td>
 
-The credential alias to be used. Specify a Splunk Poll credential alias by selecting the magnifying glass icon and then either selecting an existing credential alias from the **Connection &amp; Credential Aliases** list, or selecting **New** to create a new record. The selected credential alias can hold one Basic Auth credential and one Token Auth credential.
+The credential alias to be used. Select the magnifying glass icon to specify a Splunk Poll credential alias. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The selected credential alias can hold one Basic Auth credential and one Token Auth credential.
 
 For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/discovery-credential-alias.md).
 

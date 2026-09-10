@@ -110,15 +110,15 @@ Refine records
 
 4.  Choose your Now Assist skill and activate it.
 
-<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d229821e326">
+<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d229857e326">
 
 Option
 
-</th><th align="left" id="d229821e329">
+</th><th align="left" id="d229857e329">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d229821e335">
+</th></tr></thead><tbody><tr><td id="d229857e335">
 
 **Skill tiles with Turn on option**
 
@@ -133,7 +133,7 @@ Steps
 4.  Select **Turn on** to activate the skill.
 
 
-</td></tr><tr><td id="d229821e371">
+</td></tr><tr><td id="d229857e371">
 
 **Skill tiles with Activate skill option**
 

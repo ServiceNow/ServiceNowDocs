@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, Data and Automation]
 ---

@@ -1,9 +1,9 @@
 ---
 title: Data Loss Prevention Incident Response release notes
-description: The ServiceNow Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.
+description: The ServiceNow Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.The ServiceNow Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.The ServiceNow Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-02-20"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.
 
-## Data Loss Prevention Incident Response highlights for the Yokohama release
+## About Data Loss Prevention Incident Response
 
 -   Enhanced the ability to securely store, manage, and track evidence files within the platform for all Data Loss Prevention Incident Response integrations.
 -   Preview the evidence file of an incident from either the DLP IR analyst workspace or end user workspace.
@@ -22,9 +22,26 @@ The ServiceNow® Data Loss Prevention Incident Response application helps you to
 
 See [Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/dlp-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Data Loss Prevention Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Data Loss Prevention Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    -   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
+
+        The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Create a Data Loss Prevention Incident Response SLA trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sla-records.md)**
 
@@ -37,6 +54,13 @@ See [Data Loss Prevention Incident Response](https://raw.githubusercontent.com/S
 -   **[Create an Application in Proofpoint and Obtain Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/create-application-proofpoint-dlp.md)**
 
     Create an application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to the Proofpoint API for seamless integration and automation.
+
+
+## Yokohama
+
+The ServiceNow® Data Loss Prevention Incident Response application helps you to manage sensitive information for your customers such as financial and proprietary data, health records, or Social Security numbers. Data Loss Prevention Incident Response was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/icap-dlp-integration.md)**
 
@@ -71,35 +95,15 @@ See [Data Loss Prevention Incident Response](https://raw.githubusercontent.com/S
     Parent incident is always assigned the highest priority among consolidated incidents, enhancing incident management accuracy.
 
 
-## UI changes
+### What's changed
 
 -   **[Data Loss Prevention Incident Response Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/using-dlp-ops-portal.md)**
 
     Introduced a new action in the DLP incident form view that requires users to specify a closure code prior to incident closure.
 
 
-## Changed in this release
-
 -   **[Create additional incident data fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/create-custom-fields-dlp.md)**
 
     In the DLP incident table, the **Custom Fields** column has been renamed **Additional Incident Data Fields**.
 
-
-## Activation information
-
-Install Data Loss Prevention Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
-
-    The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
-
-
-## Related ServiceNow applications and features
-
--   **[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-landing-page.md)**
-
-    The ServiceNow® Security Incident Response application tracks the progress of security incidents from discovery and initial analysis, through containment, eradication, and recovery, and into the final post incident review, knowledge base article creation, and closure.
-
-
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
 

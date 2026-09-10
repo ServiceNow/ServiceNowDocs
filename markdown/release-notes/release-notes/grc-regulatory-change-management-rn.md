@@ -1,18 +1,18 @@
 ---
 title: Regulatory Change Management release notes
-description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Regulatory Change Management release notes
 
 The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
 
-## Regulatory Change Management highlights for the Yokohama release
+## About Regulatory Change Management
 
 -   Summarize a regulatory alert by using the Now Assist summarization skill.
 -   Use Regulatory mapping with AI to help organizations identify, track, and manage regulatory requirements that are specific to their industry.
@@ -26,9 +26,39 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+## Yokohama
+
+The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Generating a summary of a regulatory alert**
 
@@ -51,7 +81,7 @@ See  for more information.
     View the new Regulatory assessments related list for a regulatory alert. This list displays the uniquely generated regulatory assessments that are powered by the Smart Assessment Engine application so that you can analyze and track the completion status for compliance users. Your users with the sn\_grc.business\_user role can work on these assessments.
 
 
-## UI changes
+### What's changed
 
 -   **Changes on the action task form**
 
@@ -61,8 +91,6 @@ See  for more information.
 
     The **Initiate Impact Assessment** button is now called the **Assess impact** button.
 
-
-## Changed in this release
 
 -   **Overview page of regulatory alerts**
 
@@ -77,26 +105,9 @@ See  for more information.
     The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
 
 
--   **Some Now Assist skills are turned on by default**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Changes to Now Assist usage measurement**
-
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
-## Removed in this release
+### What's deprecated or removed
 
 -   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
 -   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
 -   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
-
-## Activation information
-
-Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

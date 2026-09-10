@@ -20,7 +20,7 @@ Use Service Catalog to request new firewall policies and rules.
 
 **Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-audit-report-use.md)
 
-## Request firewall rule
+## Request a firewall rule
 
 Request one or more firewall rules using Service Catalog to manage various IP addresses and enhance network security and accommodate evolving business requirements.
 
@@ -34,7 +34,7 @@ Role required: firewall\_admin
 
 You can request multiple firewall rule configurations in a single request. The system creates one parent firewall task with individual configuration tasks for each rule. Administrators initiate tasks, which are automatically directed to the risk team for assessment and approval. Following approval, firewall admins smoothly implement changes, all orchestrated through automated workflows.
 
-**Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in the Panorama-specific table and display the task type as Panorama. Open requests created before version 1.12.0 are read-only. To proceed with those requests, resubmit them using the current catalog form.
+**Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in vendor-specific tables and display the task type based on the selected vendor. Open requests created before version 1.12.0 are read-only. To proceed with those requests, resubmit them using the current catalog form.
 
 ### Procedure
 
@@ -69,7 +69,7 @@ You can request multiple firewall rule configurations in a single request. The s
 
 ### What to do next
 
-To verify the new rule task, navigate to **Rule Requests** &gt; **Rule Requests Task**. Your request appears in the list with the task type set to Panorama. Open the parent task to view all individual rule configuration tasks.
+To verify the new rule task, navigate to **Rule Requests** &gt; **Rule Requests Task**. Your request appears in the list with the task type set to the selected vendor. Open the parent task to view all individual rule configuration tasks.
 
 ## Approve firewall requests
 

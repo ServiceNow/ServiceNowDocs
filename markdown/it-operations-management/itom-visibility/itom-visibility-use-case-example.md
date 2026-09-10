@@ -39,7 +39,7 @@ You can create application services manually, using an API, or by having Service
 
 ## Results of the Service Mapping use case
 
-Service Mapping automates a critical aspect of CSDM with a consistent, automated approach to connect the logical layer of the CSDM model to the physical model CIs in the CMDB. This approach lets you more effectively manage your business applications. The approach also enables you to automate modeling of your business applications for impact assessment and analysis. For impact assessments and analysis, you can use a number of ServiceNow products including Change Management, Incident Management, or the CMDB Query Builder.
+Service Mapping automates a critical aspect of CSDM. It provides a consistent, automated approach to connect the logical layer of the CSDM model to the physical model CIs in the CMDB. This approach lets you more effectively manage your business applications. It also enables you to automate modeling of your business applications for impact assessment and analysis. For impact assessments and analysis, you can use a number of ServiceNow products including Change Management, Incident Management, or the CMDB Query Builder.
 
 \[Omitted image "itom-visibility-flow.png"\] Alt text: Application Services flow.
 

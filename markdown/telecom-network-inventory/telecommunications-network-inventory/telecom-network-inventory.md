@@ -46,7 +46,7 @@ Watch this short video for an introduction to the Telecommunications Network Inv
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Telecommunications Network Inventory release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/telecommunications-network-inventory-rn.md)
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/telecommunications-network-inventory-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/telecommunications-network-inventory-rn.md)
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Network Inventory features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

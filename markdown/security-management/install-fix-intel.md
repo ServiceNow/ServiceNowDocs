@@ -49,7 +49,7 @@ Fix Intelligence for Security Exposure Management is active. The Fix tables, rol
 
 ## What to do next
 
-Now Support configures the Armis™ Centrix™ for ViPR integration for your instance. Allow one to two business days after you install the plugin. If the integration is not configured after that time, raise a support case.
+Now Support configures the Armis Centrix™ for ViPR integration for your instance. Allow one to two business days after you install the plugin. If the integration is not configured after that time, raise a support case.
 
 You must also configure inbound authentication. For more information, see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3139883).
 

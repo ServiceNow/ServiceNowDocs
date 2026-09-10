@@ -22,6 +22,6 @@ Plan and configure your implementation of Customer Engagement Sequences.
 
 2.  [Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-customer-engagement-sequence.md)
 
-    Create a customer engagement sequence from the CSM Configurable Workspace. Specify trigger and exit conditions, and add activities to create a guided experience for your sales representatives to engage with their prospects and customers.
+    Create a customer engagement sequence from the CRM Workspace. Specify trigger and exit conditions, and add activities to create a guided experience for your sales representatives to engage with their prospects and customers.
 
 

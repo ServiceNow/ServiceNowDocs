@@ -49,7 +49,7 @@ Quota usage
 
 **Single score with progress bar:**-   First value shows the number of items the connector retrieved that are currently included in the AI Search index.
 
-**Note:** Deleted items are not deducted from this quota usage figure.
+**Note:** Deleted items aren't deducted from this quota usage figure.
 
 -   Second value shows the indexing limit for the connector.
 -   Progress bar shows how close the connector is to its indexing limit.
@@ -107,7 +107,7 @@ Skipped
 
 **Single score with trend:**-   Score shows the number of items skipped due to processing errors in the selected date range.
 
-**Note:** This number does not include items excluded by crawl settings specified for the connector.
+**Note:** This number doesn't include items excluded by crawl settings specified for the connector.
 
 -   Trend shows how this score changed in the selected date range as compared with the previous time period.
 

@@ -1,9 +1,9 @@
 ---
 title: Next Experience Components release notes
-description: The ServiceNow Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.
+description: The ServiceNow Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.The ServiceNow Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 ---
@@ -12,14 +12,34 @@ reading_time_minutes: 5
 
 The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.
 
-## Next Experience Components highlights for the Yokohama release
+## About Next Experience Components
 
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Developer site Next Experience Components doc](https://developer.servicenow.com/dev.do#!/reference/next-experience/components%3Freleases%5B%5D=washingtondc%26query=%26order_by=nameAsc%26limit=120%26offset=0%26categories%5B%5D=uib_component%26categories%5B%5D=uib_macroponent-component%26categories%5B%5D=uib_facades).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
 -   Use preset property values to configure properties and event handlers automatically for a component so the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
-## New in the Yokohama release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    For Next Experience Components accessibility conformance, refer to the ServiceNow [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
+
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
+
+## Yokohama
+
+The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.
+
+### What's new
 
 |Component|Description|
 |---------|-----------|
@@ -33,7 +53,7 @@ The ServiceNow® Next Experience Components are the components used to build cus
 |Loader custom|Renders custom animations with an optional progress bar and label.|
 |Skeleton loader|Decorative placeholder for generated content.|
 
-## Changed in this release
+### What's changed
 
 <table id="table_qvp_xdg_zcd"><thead><tr><th>
 
@@ -317,24 +337,4 @@ Record list
 -   If live list is enabled, infinite scrolling is enabled by default
 
 </td></tr></tbody>
-</table>## Activation information
-
-Next Experience Components is a ServiceNow AI Platform feature that is active by default.
-
-## Accessibility information
-
-For Next Experience Components accessibility conformance, refer to the ServiceNow [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    UI Builder is a low-code tool that enables you to build pages for workspace and portal web-based experiences.
-
--   ****
-
-    Use components to build custom workspace experiences for agents who solve internal or external customer issues.
-
-
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
-
+</table>

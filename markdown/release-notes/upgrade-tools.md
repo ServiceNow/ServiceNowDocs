@@ -26,7 +26,7 @@ Use these ServiceNow products to automate parts of your upgrade testing and mana
 
     \[Omitted image "atf-executionorder.png"\] Alt text: Automated Test Framework test steps
 
--   **Upgrade Center**
+-   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-landing-page.md)**
 
     Use ServiceNow® Upgrade Center to plan and manage your upgrades. Use the Upgrade Preview module to explore different release versions available to you and gain insights about the experience of an upgrade without actually upgrading your instance. You can also monitor the status of any ongoing upgrade and view the summary of your latest upgrade with the new Upgrade Monitor module. The Upgrade Center also features an Upgrade visual task board \(VTB\) to manage post-upgrade skips. A separate Upgrade History module can be used to view all your past upgrades.
 

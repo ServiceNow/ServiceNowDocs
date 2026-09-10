@@ -18,7 +18,7 @@ The ServiceNow® Accounts Payable Operations application enables Accounts Payabl
 The ServiceNow® Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
 -   **[Supplier Lifecycle Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/supplier-lifecycle-operations-rn.md)**  
 The ServiceNow® Supplier Lifecycle Operations application enables you to quickly onboard and collaborate with suppliers, manage supplier relationships, monitor risk, compliance, and performance across the supplier life cycle. Supplier Lifecycle Operations was enhanced and updated in the Yokohama release.
--   **[Now Assist for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-source-to-pay-operations-rn.md)**  
+-   **[Now Assist for Source-to-Pay Operations release notes]()**  
 The ServiceNow® Now Assist for Source-to-Pay Operations application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. Now Assist for Source-to-Pay Operations was enhanced and updated in the Yokohama release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)

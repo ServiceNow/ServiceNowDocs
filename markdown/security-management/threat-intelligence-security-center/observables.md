@@ -7,8 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -48,9 +48,11 @@ Following are the type of observables available in the application:
 -   **[Define an Observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/define-an-observable.md)**  
 Observables can be retrieved from scheduled feed ingestion or from the import assistant. However, you can create observables, as needed.
 -   **[Observables source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-observables-source-records.md)**  
-The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds or manually created by the user.
+The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds, extracted from indicator patterns, or manually created by the user.
 -   **[Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md)**  
-Link the related records that are related to the corresponding threat intel objects.
+Link the records that are related to the corresponding threat intelligence objects.
+-   **[Create a related record to link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-new-related-record.md)**  
+Create a threat intelligence record directly from a related records list and link it to the record that you're viewing, without leaving your investigation.
 -   **[Fetch Observables Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/fetch-observables-data.md)**  
 Fetch the observables related records data.
 -   **[View details in Visualizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/objects-visualizer.md)**  
@@ -77,13 +79,13 @@ View observables, indicators, and various objects enrichment results.
 
 [Other Objects]()
 
-[Vulnerability]()
+[Vulnerability Artifacts]()
 
-[Define RSS Feeds]()
+[View RSS Feeds]()
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

@@ -1,18 +1,18 @@
 ---
 title: Enable custom tabs on CSM workspace record page
-description: Enable custom tabs which appear after details tab, on CSM default Record page of CSM Configurable Workspace CSM configurable to get access to multiple list and form views for various sold product and product inventory entities.
+description: Enable custom tabs which appear after details tab, on CSM default Record page of CRM Workspace CSM configurable to get access to multiple list and form views for various sold product and product inventory entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-custom-tabs-on-workspace-record-pages.html
 release: yokohama
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Enable custom tabs on CSM workspace record page
 
-Enable custom tabs which appear after details tab, on CSM default Record page of CSM Configurable Workspace CSM configurable to get access to multiple list and form views for various sold product and product inventory entities.
+Enable custom tabs which appear after details tab, on CSM default Record page of CRM Workspace CSM configurable to get access to multiple list and form views for various sold product and product inventory entities.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **All**.
+1.  Navigate to the CRM Workspace and select **All**.
 
 2.  From the list, select **Now Experience Framework** &gt; **UI Builder**.
 
@@ -45,5 +45,5 @@ Role required: ui\_builder\_admin
 
 ## Result
 
-You have now enabled custom tabs for your entities on the CSM Configurable Workspace.
+You have now enabled custom tabs for your entities on the CRM Workspace.
 

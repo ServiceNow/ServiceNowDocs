@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
@@ -41,7 +41,9 @@ Change Management - Predictive Intelligence Core\[com.snc.change\_management.ml\
 Enables you to use Predictive Intelligence in Change Management.
 
 </td></tr></tbody>
-</table>## Procedure
+</table>After you activate the plugin, the solution analyzes historical change requests to identify clusters of similar changes and proposes standard change templates for those clusters. Review the proposals and adopt the templates that fit your process. To train the proposal solution and to review and accept proposed templates, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/train-std-chg-proposal-soln.md) and [Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/propose-standard-chg-template.md).
+
+## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 

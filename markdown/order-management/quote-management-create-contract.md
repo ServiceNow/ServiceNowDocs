@@ -24,7 +24,7 @@ You can create a legal sales contract to finalize a deal and formalist the agree
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Select **Quotes** &gt; **All**.
 

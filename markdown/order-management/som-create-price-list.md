@@ -24,7 +24,7 @@ You can create various types of price lists for your organization, such as price
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Prices** &gt; **Price Lists.**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -65,7 +65,7 @@ A Threat Note conveys informative text to provide additional analysis not contai
 An Opinion is an assessment of the accuracy of the information in a STIX Object produced by a different entity. Threat opinions apply for STIX 2.x.
 -   **[Threat Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-report.md)**  
 Threat Reports are collections of threat intelligence focused on one or more topics. Threat reports apply for STIX 2.x.
--   **[Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tool.md)**  
+-   **[Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tool.md)**  
 Tools are legitimate software that are used by threat actors to perform attacks. Tools apply for STIX 2.x.
 
 **Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ioc.md)
@@ -79,13 +79,13 @@ Tools are legitimate software that are used by threat actors to perform attacks.
 
 [Other Objects]()
 
-[Vulnerability]()
+[Vulnerability Artifacts]()
 
-[Define RSS Feeds]()
+[View RSS Feeds]()
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

@@ -109,7 +109,7 @@ All
 
 </td><td>
 
-Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-workspace.md) and [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Adjuster
 
 This adjuster workspace UI Builder page has been set up in Insurance claims.If necessary, you can clone this workspace and modify it to be more specific to your particular line of business.
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-workspace.md) and [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ For more information on the included dashboards and their layouts, see [Insuranc
 
 **Note:** The FNOL landing page is built into Financial Services Operations Core. Any changes to this page may impact other applications.
 
-For more information on landing pages as dashboards, see .
+For more information on landing pages as dashboards, see [Dashboard landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-ws-landing-page-dashboard.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Restore a muted alert or a significant alert
-description: If you no longer want a muted alert or an alert that was marked as significant to be treated specially, you can restore normal importance to the metric involved in generating it.
+description: Restore normal importance to a metric that was muted or marked as significant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Assigning higher or lower significance to an alert, Health Log Anal
 
 # Restore a muted alert or a significant alert
 
-If you no longer want a muted alert or an alert that was marked as significant to be treated specially, you can restore normal importance to the metric involved in generating it.
+Restore normal importance to a metric that was muted or marked as significant.
 
 ## Before you begin
 

@@ -24,7 +24,7 @@ Add images to your product offerings so that order agents see the products theyâ
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you're working with.
 

@@ -1,6 +1,6 @@
 ---
 title: Run Certificate discovery via Certificate Authority query
-description: Running Certificate discovery via Certificate Authority query allows for systematic identification and import of TLS certificates from specific Certificate Authorities, ensuring comprehensive tracking, management, and security of the certificate inventory. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
+description: Running Certificate discovery via Certificate Authority query systematically identifies and imports TLS certificates from specific Certificate Authorities. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/run-cert-inventory-mgmt-ca-query.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory an
 
 # Run Certificate discovery via Certificate Authority query
 
-Running Certificate discovery via Certificate Authority query allows for systematic identification and import of TLS certificates from specific Certificate Authorities, ensuring comprehensive tracking, management, and security of the certificate inventory. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
+Running Certificate discovery via Certificate Authority query systematically identifies and imports TLS certificates from specific Certificate Authorities. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
 
 ## Before you begin
 

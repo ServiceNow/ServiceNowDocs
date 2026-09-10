@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-02-21"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [About Rules Engine in TISC, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure Tagging Rules in TISC
@@ -22,9 +22,9 @@ Role required: sn\_sec\_tisc.admin
 
 ## About this task
 
-Tagging rules are available from the **Administration** module and these tagging rules are supported for RSS feeds only.
+Tagging rules are available from the **Administration** module and are supported for RSS feeds only.
 
-Each tagging rule consists of matching criteria that TISC evaluates against incoming feed items, and a set of tags and taxonomies that TISC applies when all criteria are satisfied. When multiple tagging rules apply, all tags and taxonomies will be aggregated accordingly.
+Each tagging rule consists of matching criteria that TISC evaluates against incoming feed items, and a set of tags and taxonomies that TISC applies when all criteria are satisfied. When multiple tagging rules apply, all tags and taxonomies are aggregated accordingly.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Each tagging rule consists of matching criteria that TISC evaluates against inco
 
 2.  Select **Rules Engine** &gt; **Tagging Rules**.
 
-    The Tagging Rules list view displays all the existing tagging rules with the following fields.
+    The Tagging Rules list view displays all existing tagging rules with the following fields.
 
 <table id="table_ovc_lcd_j3c"><thead><tr><th>
 
@@ -48,7 +48,7 @@ Name
 
 </td><td>
 
-The display name of the tagging rule.
+Display name of the tagging rule.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Table
 
 </td><td>
 
-The table name for the tagging rule is **RSS Feed** by default, and it is read-only.
+Table name for the tagging rule is **RSS Feed** by default and is read-only.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Description
 
 </td><td>
 
-A brief summary of the rule's purpose.
+Brief summary of the rule's purpose.
 
 </td></tr><tr><td>
 
@@ -80,24 +80,68 @@ Method to Match
 
 </td><td>
 
-The keywords to match against the selected fields. Matching is case-insensitive by default.When defining a tagging rule, you must specify the keywords that the application will use to match against the fields you have selected. The matching process is case-insensitive by default, ensuring that matches are found regardless of letter casing.
+Keywords to match against the selected fields. Matching is case-insensitive by default.When defining a tagging rule, you must specify the keywords that the application uses to match against the fields you have selected. The matching process is case-insensitive by default, ensuring that matches are found regardless of letter casing.
 
 There are two available matching options for evaluating feed items:
 
--   **Keywords**: Allows you to specify one or more keywords that the system will search for within the selected fields. By default, the option is Keywords.
+-   **Keywords**: Allows you to specify one or more keywords that the system searches for within the selected fields. By default, the option is Keywords.
 -   **Regex**: Enables you to define regular expressions for more complex matching criteria within the feed data.
 
 Choose the most appropriate matching method based on the complexity of your tagging requirements.
 
 </td></tr></tbody>
-</table>    **Note:** The following are the two base system tagging rules provisioned in the application for the RSS feeds. By default these two tagging rules are disabled, select **Enable** to enable the rules and proceed to next step.
+</table>    **Note:** The following are the two base system tagging rules provisioned in the application for RSS feeds. By default these two tagging rules are disabled, select **Enable** to enable the rules and proceed to the next step.
 
-    |Field|Description|Table|Method to Match|
-    |-----|-----------|-----|---------------|
-    |Sample Tagging Rule|This is a sample tagging rule.|sn\_sec\_tisc\_rss\_feed|Keywords|
-    |Tag RSS Feeds with Zero Day mentions|This tagging rule is used to automatically associate the Vulnerability Intelligence: ZERODAY taxonomy with RSS feed records based on matching keywords found in the RSS feeds.|sn\_sec\_tisc\_rss\_feed|Keywords|
+<table id="table_f5s_4vn_j3c"><thead><tr><th>
 
-3.  Select **New** to create a tagging rule, or select an existing rule name to edit it.
+Field
+
+</th><th>
+
+Description
+
+</th><th>
+
+Table
+
+</th><th>
+
+Method to Match
+
+</th></tr></thead><tbody><tr><td>
+
+Sample Tagging Rule
+
+</td><td>
+
+Sample tagging rule.
+
+</td><td>
+
+sn\_sec\_tisc\_rss\_feed
+
+</td><td>
+
+Keywords
+
+</td></tr><tr><td>
+
+Tag RSS Feeds with Zero Day mentions
+
+</td><td>
+
+Tagging rule used to automatically associate the Vulnerability Intelligence: ZERODAY taxonomy with RSS feed records based on matching keywords found in RSS feeds.**Note:** This rule must be enabled for vulnerability extraction and correlation to function.
+
+</td><td>
+
+sn\_sec\_tisc\_rss\_feed
+
+</td><td>
+
+Keywords
+
+</td></tr></tbody>
+</table>3.  Select **New** to create a tagging rule, or select an existing rule name to edit it.
 
     The Create New Tagging Rule form view opens. The form is divided into the following sections.
 
@@ -117,7 +161,7 @@ Name
 
 </td><td>
 
-A unique, descriptive name that identifies the tagging rule.
+Unique, descriptive name that identifies the tagging rule.
 
 </td></tr><tr><td>
 
@@ -133,7 +177,7 @@ Table
 
 </td><td>
 
-The table name for the tagging rule is RSS Feed by default.**Note:** As tagging rules are supported only for RSS feeds, the table name is read-only.
+Table name for the tagging rule is RSS Feed by default.**Note:** Because tagging rules are supported only for RSS feeds, the table name is read-only.
 
 </td></tr><tr><td>
 
@@ -141,9 +185,9 @@ Fields
 
 </td><td>
 
-Select the fields that the tagging rule will match on. For example, you can choose fields such as **Description**, **Notes**, or **Title** of an RSS record.The available fields are displayed in a multi-select list that includes columns from the RSS table. Select one or more fields based on your requirements.
+Fields that the tagging rule matches on. For example, you can choose fields such as **Description**, **Notes**, or **Title** of an RSS record.The available fields are displayed in a multi-select list that includes columns from the RSS table. Select one or more fields based on your requirements.
 
-This matching is evaluated using the defined condition across the selected fields. The rule is considered a match when a keyword is found in any of the selected field. For example, if **Notes** and **Description** are selected, then the rule triggers when a match is detected in either of the selected field.
+This matching is evaluated using the defined condition across the selected fields. The rule is considered a match when a keyword is found in any of the selected fields. For example, if **Notes** and **Description** are selected, then the rule triggers when a match is detected in either of the selected fields.
 
 Select one or more keywords to match against the selected fields. Separate multiple keywords with commas. Each keyword is evaluated independently during matching.
 
@@ -195,7 +239,7 @@ Keyword\(s\)
 
 </td><td>
 
-Select one or more keywords to match against the selected fields. Separate multiple keywords with a comma.
+One or more keywords to match against the selected fields. Separate multiple keywords with a comma.
 
 </td></tr><tr><td>
 
@@ -213,7 +257,7 @@ Trim padded spaces for keywords
 
 Select this check box to trim the leading and trailing spaces from keywords.When selected, the application automatically removes spaces entered before or after each keyword. For example, if extra spaces are included around a keyword, those spaces are ignored during matching.
 
-If this check box is not selected, spaces are preserved and treated as part of the keyword. This allows you to control how precisely the match is evaluated.
+If this check box isn't selected, spaces are preserved and treated as part of the keyword. This allows you to control how precisely the match is evaluated.
 
 **Note:** Only one regular expression can be provided.
 
@@ -222,20 +266,20 @@ If this check box is not selected, spaces are preserved and treated as part of t
 
     |Field|Description|
     |-----|-----------|
-    |Tags|Select one or more TISC tags to apply when the rule condition is met.|
-    |Taxonomies|Select one or more taxonomy values to apply when the rule condition is met. Select a taxonomy and specify the corresponding taxonomy values to apply when a match occurs.|
+    |Tags|One or more TISC tags to apply when the rule condition is met.|
+    |Taxonomies|One or more taxonomy values to apply when the rule condition is met. Select a taxonomy and specify the corresponding taxonomy values to apply when a match occurs.|
 
 8.  Select **Save** to save the tagging rule.
 
-9.  Select **Enable** enable the tagging rule.
+9.  Select **Enable** to enable the tagging rule.
 
-    **Note:** Once you enable the rule, the tagging rules form view will be in the read-only mode. You need to disable the tagging rule to edit the form view. The tagging rule execution is asynchronous.
+    **Note:** After you enable the rule, the tagging rules form view is in read-only mode. You need to disable the tagging rule to edit the form view. The tagging rule execution is asynchronous.
 
 10. Select **Duplicate** to copy an existing rule.
 
     A confirmation message is displayed indicating that the current tagging rule has been duplicated and a new rule has been created with a unique name.
 
-    **Note:** When you copy an existing rule, the application creates a duplicate entry that retains all the field values from the original rule. The copied rule is created in a **disabled** state by default, allowing you to review or modify it before enabling the rule.
+    **Note:** When you copy an existing rule, the application creates a duplicate entry that retains all field values from the original rule. The copied rule is created in a **disabled** state by default, allowing you to review or modify it before enabling the rule.
 
 
 **To view the result of the execution**:

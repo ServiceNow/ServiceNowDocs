@@ -51,15 +51,15 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d269215e214">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d269273e214">
 
 Option
 
-</th><th align="left" id="d269215e217">
+</th><th align="left" id="d269273e217">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269215e223">
+</th></tr></thead><tbody><tr><td id="d269273e223">
 
 **Share to additional comments**
 
@@ -67,7 +67,7 @@ Description
 
 Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d269215e238">
+</td></tr><tr><td id="d269273e238">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d269215e247">
+</td></tr><tr><td id="d269273e247">
 
 **View less**
 
@@ -83,7 +83,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d269215e256">
+</td></tr><tr><td id="d269273e256">
 
 **Provide feedback**
 
@@ -93,7 +93,7 @@ Select the helpful icon \[Omitted image "1be69ab015c3919c984a975555c29f747c0987e
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d269215e282">
+</td></tr><tr><td id="d269273e282">
 
 **Copy the summary**
 
@@ -101,7 +101,7 @@ Select the helpful icon \[Omitted image "1be69ab015c3919c984a975555c29f747c0987e
 
 Select the copy icon \[Omitted image "5e99c9e181dde7146a23640f1ab09c065ebaa898.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d269215e299">
+</td></tr><tr><td id="d269273e299">
 
 **Regenerate the summary**
 

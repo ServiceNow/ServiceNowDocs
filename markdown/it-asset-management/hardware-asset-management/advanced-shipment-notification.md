@@ -41,15 +41,15 @@ The identification rules for a CI class are defined in the CMDB Identification a
 
 1.  Navigate to ASN import page.
 
-<table id="choicetable_rcm_45c_m3c"><thead><tr><th align="left" id="d290098e116">
+<table id="choicetable_rcm_45c_m3c"><thead><tr><th align="left" id="d290200e116">
 
 HAM version
 
-</th><th align="left" id="d290098e121">
+</th><th align="left" id="d290200e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d290098e127">
+</th></tr></thead><tbody><tr><td id="d290200e127">
 
 **Version 15.0.0 and later**
 
@@ -59,7 +59,7 @@ Steps
 2.  Select the **Procurement** tab.
 
 
-</td></tr><tr><td id="d290098e160">
+</td></tr><tr><td id="d290200e160">
 
 **Versions prior to 15.0.0**
 

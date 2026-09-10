@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---

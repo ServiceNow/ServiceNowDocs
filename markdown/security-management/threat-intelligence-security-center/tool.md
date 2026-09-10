@@ -1,5 +1,5 @@
 ---
-title: Tool
+title: Tools
 description: Tools are legitimate software that are used by threat actors to perform attacks. Tools apply for STIX 2.x.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tool.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Tool
+# Tools
 
 Tools are legitimate software that are used by threat actors to perform attacks. Tools apply for STIX 2.x.
 

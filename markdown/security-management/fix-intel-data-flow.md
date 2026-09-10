@@ -19,11 +19,11 @@ Fix Intelligence for Security Exposure Management connects Armis Centrix™ for 
 
 ## How fixes are identified
 
-Fix Intelligence for SEM relies on the normalization and deduplication capability of Armis™ Centrix™ for ViPR to identify a normalized fix for each vulnerability detection. The data moves through the following stages:
+Fix Intelligence for SEM relies on the normalization and deduplication capability of Armis Centrix™ for ViPR to identify a normalized fix for each vulnerability detection. The data moves through the following stages:
 
 1.  **Detections are ingested**: Your vulnerability integrations bring detections from your scanners into USEM as findings.
-2.  **Detections are consumed for normalization**: Armis™ Centrix™ for ViPR consumes the scanner detection data from your instance through the Integration Sync API.
-3.  **Fixes are identified**: Armis™ Centrix™ for ViPR normalizes and de-duplicates the detections and identifies a fix for each one.
+2.  **Detections are consumed for normalization**: Armis Centrix™ for ViPR consumes the scanner detection data from your instance through the Integration Sync API.
+3.  **Fixes are identified**: Armis Centrix™ for ViPR normalizes and de-duplicates the detections and identifies a fix for each one.
 4.  **Fixes are stored and linked**: USEM retrieves the identified fixes and stores them as Fix records, linked to the findings each fix resolves.
 5.  **Risk is rolled up**: Each fix receives a risk score, a findings count, and a distinct-assets count, calculated from the active findings that share the fix. For more information on roll-up calculators, see [Vulnerability Response Rollup Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-vuln-rollup-calculator.md).
 
@@ -31,7 +31,7 @@ In this release, fixes are identified for host vulnerabilities \(host vulnerable
 
 ## Where fixes appear
 
-After fixes are identified, they are available as a list and form in Unified Security Exposure Management Workspace, and as widgets on the **Findings View** and the **Remediation View** — for example, **Findings with fix identified** and **Top fixes by finding count**. Each finding also shows a read-only **Fix** reference linking to the fix that resolves it. To learn how to read and act on this data, see [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-fixes-in-workspace.md) and [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/prioritize-remediation-by-fix.md).
+After fixes are identified, they are available as a list and form in Unified Security Exposure Management Workspace, and as widgets on the **Findings View** and the **Remediation View** — for example, **Findings with fix identified** and **Top fixes by finding count**. Each finding also shows a read-only **Fix** reference linking to the fix that resolves it. To learn how to read and act on this data, see [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-fixes-in-workspace.md).
 
 **Related topics**  
 

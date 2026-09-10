@@ -1,18 +1,18 @@
 ---
-title: Set up a form action in CSM Configurable Workspace
-description: Create a form action that links to a UI action so that you can use the UI action in CSM Configurable Workspace.
+title: Set up a form action in CRM Workspace
+description: Create a form action that links to a UI action so that you can use the UI action in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-form-action.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Set up a form action in CSM Configurable Workspace
+# Set up a form action in CRM Workspace
 
-Create a form action that links to a UI action so that you can use the UI action in CSM Configurable Workspace.
+Create a form action that links to a UI action so that you can use the UI action in CRM Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-In order to use UI actions in CSM Configurable Workspace, each UI action must have a corresponding form action.
+In order to use UI actions in CRM Workspace, each UI action must have a corresponding form action.
 
 ## Procedure
 

@@ -45,3 +45,7 @@ The ServiceNow® CMDB success advisor is a scoped application that drives busine
 
 [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-landing-page.md)
 
+[Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md)
+
+[Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-outcomes.md)
+

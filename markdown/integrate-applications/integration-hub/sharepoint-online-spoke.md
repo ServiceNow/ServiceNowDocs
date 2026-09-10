@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft SharePoint Online spoke v2.11.3 is the latest version.
+Microsoft SharePoint Online spoke v2.11.5 is the latest version.
 
 **Note:** The Microsoft SharePoint online spokes does not support the On-premise SharePoint.
 

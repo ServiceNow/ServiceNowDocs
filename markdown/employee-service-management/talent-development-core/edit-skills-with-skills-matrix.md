@@ -7,7 +7,7 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
 ---

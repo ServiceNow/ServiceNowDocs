@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim case and task in one of the following ways.
 
-<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d29885e86">
+<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d29898e86">
 
 Option
 
-</th><th align="left" id="d29885e89">
+</th><th align="left" id="d29898e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d29885e95">
+</th></tr></thead><tbody><tr><td id="d29898e95">
 
 **From the landing page**
 
@@ -46,13 +46,13 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d29885e104">
+</td></tr><tr><td id="d29898e104">
 
 **From the case playbook**
 
 </td><td>
 
--   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 -   On the **Lists** tab, under **Insurance claim cases** \(or the list category that is specific to your custom workflow\), open the case list.
 -   In the list, select the case that contains the task.
 -   If the claim case is in the New status or not assigned to you, select **Accept** to be able to work on it.
@@ -60,26 +60,26 @@ Select an active case from the My pending tasks or My open claims list.
 -   Under one of the following stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d29885e151">
+</td></tr><tr><td id="d29898e153">
 
 **From an insurance claim case**
 
 </td><td>
 
--   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 -   On the **Lists** tab, under **Insurance claim cases** \(or the list category that is specific to your custom workflow\), select **Assigned to me**.
 -   In the list, select the case that you want to open.
 -   If the claim case is in the New status, select **Accept** to be able to work on it.
 -   In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d29885e197">
+</td></tr><tr><td id="d29898e201">
 
 **From the Insurance claim case tasks list**
 
 </td><td>
 
--   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 -   On the **Lists** tab, under **Insurance claim tasks** \(or the list category that is specific to your custom workflow\), select **All**.
 -   In the list, select the task that you want to open.
 

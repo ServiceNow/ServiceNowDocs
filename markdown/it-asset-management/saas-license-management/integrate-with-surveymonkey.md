@@ -129,15 +129,15 @@ If you’re using Software Asset Workspace, the option to create the SurveyMonke
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d132787e479">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d132809e479">
 
 Interface
 
-</th><th align="left" id="d132787e482">
+</th><th align="left" id="d132809e482">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d132787e488">
+</th></tr></thead><tbody><tr><td id="d132809e488">
 
 **Core UI**
 
@@ -148,7 +148,7 @@ Action
 3.  Select **SurveyMonkey Integration Profile**.
 
 
-</td></tr><tr><td id="d132787e530">
+</td></tr><tr><td id="d132809e530">
 
 **Software Asset Workspace**
 

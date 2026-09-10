@@ -1,9 +1,9 @@
 ---
 title: Business Continuity Management release notes
-description: The ServiceNow Business Continuity Management application gives your organization the capability to continue to deliver products and services at an acceptable level when a disruptive incident occurs. Business Continuity Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Business Continuity Management application gives your organization the capability to continue to deliver products and services at an acceptable level when a disruptive incident occurs. Business Continuity Management was enhanced and updated in the Yokohama release.The ServiceNow Business Continuity Management application gives your organization the capability to continue to deliver products and services at an acceptable level when a disruptive incident occurs. Business Continuity Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Business Continuity Management application gives your organization the capability to continue to deliver products and services at an acceptable level when a disruptive incident occurs. Business Continuity Management was enhanced and updated in the Yokohama release.
 
-## Business Continuity Management highlights for the Yokohama release
+## About Business Continuity Management
 
 -   Use the latest assessment template to perform a Business Impact Analysis.
 -   Create nested plans in an event so that you can activate cross-references to multiple plans.
@@ -21,9 +21,37 @@ The ServiceNow® Business Continuity Management application gives your organizat
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Business Continuity Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Business Continuity Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Browser requirements**
+
+    Business Continuity Management requires the following browsers:
+
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    Various accessibility issues in the Crisis map application have been resolved with the implementation of the Geomap \[sn\_geo\_map\] component, which has replaced the FAM Map \[sn-fam-map\] component.
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Business Continuity Management application gives your organization the capability to continue to deliver products and services at an acceptable level when a disruptive incident occurs. Business Continuity Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -40,7 +68,7 @@ See  for more information.
     Create nested plans in an event so that you can activate cross-references to multiple plans. You can use the hierarchical view to organize nested event tasks according to their dependencies with the work-breakdown structure \(WBS\) functionality. You can also monitor the progress bar to track the creation of related plans, event assets, or event tasks.
 
 
-## UI changes
+### What's changed
 
 -   ****
     -   The BIA form displays the assessment questionnaire that is based on the latest assessment template. The **Assessments** tab in the BIA record page has been enhanced to eliminate repetitive UI actions and reduce large empty spaces. The latest assessment template includes additional question types such as drop-down, references, text, attachments, check boxes, date, time, and number value inputs.
@@ -61,29 +89,8 @@ See  for more information.
     -   The hierarchical view shows the nested event tasks.
     -   The progress bar displays the progress of the creation of related plans, event assets, or event tasks.
 
-## Changed in this release
-
 -   ****
 
     You can use the latest assessment template to conduct the Business Impact Analysis \(BIA\).
 
-
-## Activation information
-
-Install Business Continuity Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Browser requirements
-
-Business Continuity Management requires the following browsers:
-
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
-
-## Accessibility information
-
-Various accessibility issues in the Crisis map application have been resolved with the implementation of the Geomap \[sn\_geo\_map\] component, which has replaced the FAM Map \[sn-fam-map\] component.
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

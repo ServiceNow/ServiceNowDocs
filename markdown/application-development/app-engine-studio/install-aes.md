@@ -66,7 +66,7 @@ ServiceNow provides several additional resources on installing and administering
 
 </td><td>
 
-\[Omitted image "bus-try-a-demo.svg"\] Alt text: [App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/app-engine-studio-rn.md)
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/app-engine-studio-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/app-engine-studio-rn.md)
 
 </td></tr><tr><td>
 

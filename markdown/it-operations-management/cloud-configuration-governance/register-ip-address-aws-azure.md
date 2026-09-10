@@ -1,5 +1,5 @@
 ---
-title: Register IP addresses for AWS and Azure virtual machines in Infoblox
+title: Register IP addresses for AWS and Azure VMs in Infoblox
 description: Create a policy to register IP addresses for AWS and Azure virtual machines in Infoblox, once these virtual machines are provisioned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/register-ip-address-aws-azure.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [IPAM integration, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Register IP addresses for AWS and Azure virtual machines in Infoblox
+# Register IP addresses for AWS and Azure VMs in Infoblox
 
 Create a policy to register IP addresses for AWS and Azure virtual machines in Infoblox, once these virtual machines are provisioned.
 

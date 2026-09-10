@@ -1,6 +1,6 @@
 ---
 title: AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-description: The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CSM Configurable Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
+description: The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CRM Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-exploring-ais.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Explore, ServiceNow Otto for PSDS, Public Sector Digital Services \
 
 # AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CSM Configurable Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
+The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CRM Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
 
 \[Omitted image "ais-psds.png"\] Alt text: CSM Config Workspace showing AI Search results for a query.
 

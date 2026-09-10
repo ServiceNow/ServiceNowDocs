@@ -50,7 +50,7 @@ The Proactive Service Experience Workflows application enables service providers
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflow features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=proactive%20service%20experience%20workflows&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

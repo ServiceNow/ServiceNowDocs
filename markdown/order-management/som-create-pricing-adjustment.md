@@ -20,11 +20,11 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see .
+In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/using-decision-builder.md).
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -72,7 +72,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 7.  Test your decision table.
 
-    For more information on testing your decision table before publishing it, see .
+    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/test-decision-table-in-decision-builder.md).
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 

@@ -18,11 +18,11 @@ By integrating the Telecommunications Network Inventory application with the Har
 
 ## HAM integration overview
 
-With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RecordProducer.md).
+With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see .
 
 Before creating the service request, you must publish the asset to the hardware catalog by adding it to the Catalog Definition table. To learn more, see [Publish an asset to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.md).
 
-The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_Procurement.md).
+The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see .
 
 After the assets are acquired or available in a stockroom, the procurement managers can use the ServiceNow® Procurement application to create the configuration items \(CIs\) for these assets. You can use these CIs for equipment instantiation by tagging them.
 

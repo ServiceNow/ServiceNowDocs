@@ -1,20 +1,20 @@
 ---
-title: System properties for Reports
-description: The system properties for reports are explained below.
+title: System properties for TISC Reports
+description: The following section describes the system properties applicable to TISC reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/reports-system-properties.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure report templates, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure report templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
-# System properties for Reports
+# System properties for TISC Reports
 
-The system properties for reports are explained below.
+The following section describes the system properties applicable to TISC reports.
 
 <table id="table_u5p_fhy_hbc"><thead><tr><th>
 
@@ -117,20 +117,6 @@ False
 
 </td></tr><tr><td>
 
-sn\_sec\_tisc.reporting\_email\_template\_sn\_sec\_tisc\_case
-
-</td><td>
-
-Specifies the Sys ID of the email client template associated with the Case Reports table \(`sn_sec_tisc_case`\). This template will be used when sharing a Case Report via email.
-
-**Note:** This limitation applies only to Case Reports.
-
-</td><td>
-
-b55e22c54324021060eee0ea78b8f2df
-
-</td></tr><tr><td>
-
 sn\_sec\_tisc.sn\_sec\_tisc\_case.honor\_report\_lists\_column\_selection
 
 </td><td>
@@ -202,6 +188,20 @@ Controls whether URLs from lists will be defanged or not in intelligence reports
 </td><td>
 
 False
+
+</td></tr><tr><td>
+
+sn\_sec\_tisc.default\_report\_email\_template
+
+</td><td>
+
+Sys ID of the email client template which will be used in share report in TISC workspace.This is the email template that will be used while sharing reports \(Case/Intelligence\) from TISC Workspace.
+
+**Note:** The system property`sn_sec_tisc.reporting.email_template_sn_sec_tisc_case` is no longer supported in TISC. It has been renamed to`sn_sec_tisc.default_report_email_template`, effective with the latest release.
+
+</td><td>
+
+b55e22c54324021060eee0ea78b8f2df
 
 </td></tr></tbody>
 </table>

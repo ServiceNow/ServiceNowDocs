@@ -7,8 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-11-24"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -130,7 +130,9 @@ By selecting this option, you can choose any individual from the list of system 
 NA
 
 </td></tr></tbody>
-</table>Reports include pre-defined templates, tables offering a comprehensive view of relevant intelligence.
+</table>\[Omitted image "tisc-report-slash-cmd.png"\] Alt text: Record selection using slash command
+
+Reports include pre-defined templates, tables offering a comprehensive view of relevant intelligence.
 
 Intelligence Reports appear in the **All Reports** and **Intelligence Reports** views of the threat intelligence library **Reports** module.
 
@@ -138,8 +140,12 @@ Intelligence Reports appear in the **All Reports** and **Intelligence Reports** 
 Use this section to view all the list of reports.
 -   **[View Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-case-reports.md)**  
 View Case Reports.
+-   **[Create Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-report.md)**  
+Create a case report from the **Reports** module in Threat Intel Library.
 -   **[View Intelligence Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-view-intel-reports.md)**  
 View intelligence reports.
+-   **[Create an intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-intelligence-report.md)**  
+Create an intelligence report from the **Reports** module in the Threat Intelligence Library by using a published intelligence template and populating it with intelligence from library lists and slash commands, independent of a case.
 -   **[View my reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-view-my-reports.md)**  
 View the reports that you created.
 
@@ -156,11 +162,11 @@ View the reports that you created.
 
 [Other Objects]()
 
-[Vulnerability]()
+[Vulnerability Artifacts]()
 
-[Define RSS Feeds]()
+[View RSS Feeds]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

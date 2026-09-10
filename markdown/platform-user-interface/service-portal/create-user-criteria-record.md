@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

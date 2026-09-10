@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon SNS spoke spoke v1.1.0 is the latest version.
+Amazon SNS spoke spoke v1.1.4 is the latest version.
 
 ## Supported version
 

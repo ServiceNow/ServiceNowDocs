@@ -1,6 +1,6 @@
 ---
 title: Activate a playbook page or page variant
-description: Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CSM Configurable Workspace.
+description: Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-process-based-page.html
 release: yokohama
@@ -12,13 +12,13 @@ breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent too
 
 # Activate a playbook page or page variant
 
-Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CSM Configurable Workspace.
+Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CRM Workspace.
 
 ## Before you begin
 
 Role required: ui\_builder\_admin, admin
 
-Some playbook pages and page variants are not active by default. You need to activate the pages and set the page order before using the pages in CSM Configurable Workspace.
+Some playbook pages and page variants are not active by default. You need to activate the pages and set the page order before using the pages in CRM Workspace.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ Some playbook pages and page variants are not active by default. You need to act
 
 6.  In the **Order** field, set the order number for the page.
 
-    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 7.  In the **Variant conditions** field, specify the table value.
 

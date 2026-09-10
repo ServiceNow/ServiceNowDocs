@@ -1,9 +1,9 @@
 ---
 title: Employee Center release notes
-description: The ServiceNow Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
+description: The ServiceNow Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.The ServiceNow Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
 
-## Employee Center highlights for the Yokohama release
+## About Employee Center
 
 -   Resolve tasks created from submitted negative feedback with the Integrated experience and service feedback functionality.
 -   Enable employees to seek assistance through virtual or in-person appointments, or by joining walk-up queues for immediate support.
@@ -20,9 +20,22 @@ The ServiceNow® Employee Center application is a multi-department dynamic porta
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-service-management-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Favoriting topic pages**
 
@@ -69,19 +82,4 @@ See  for more information.
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
-
-## Activation information
-
-Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    Now Mobile® application enables users to manage and create tasks and access other company resources from their mobile device.
-
-    Install the Now Mobile® application from ServiceNow Store to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
-
-
-**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-service-management-rn-landing.md)
 

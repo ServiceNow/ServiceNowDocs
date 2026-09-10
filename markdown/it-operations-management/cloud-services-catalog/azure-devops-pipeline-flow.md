@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Integrating Azure DevOps and the CI-CD pipeline, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Order a Microsoft Azure DevOps catalog item
@@ -72,5 +72,5 @@ Follow this short video to learn how to order an Azure DevOps catalog item.
 
 Verify that a blueprint approval policy \(CSC Content Approval Policy ADO Integration\) is applied on the Microsoft Azure DevOps catalog. This policy mandates that an approval must be obtained from the Change management group before any provisioning can take place.
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

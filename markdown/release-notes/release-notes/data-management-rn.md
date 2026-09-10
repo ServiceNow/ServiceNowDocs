@@ -1,9 +1,9 @@
 ---
 title: Data Management release notes
-description: The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Yokohama release.
+description: The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Yokohama release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,40 +12,45 @@ reading_time_minutes: 1
 
 The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Yokohama release.
 
-## Data Management highlights for the Yokohama release
+## About Data Management
 
 -   View insights into storage consumption on your instance and implement data management policies directly from the Data Management Console.
 -   Automatically delete older or unwanted records with improved table cleaner scalability.
 
-See  for more information.
+See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataManagement.md) for more information.
 
-## Important information for upgrading Data Management to Yokohama
+## Activation and other requirements
 
--   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
+-   **Activation information**
 
--   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
+    Data Management is a ServiceNow AI Platform feature that is active by default.
 
-## New in the Yokohama release
+-   **Upgrade information**
+    -   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
 
--   **Data Management Console**
+    -   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
+
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-data-usage.md)**
 
     View a summary of storage consumption on your instance and manage the growth of data directly from the Data Management Console.
 
--   **Table cleaner scalability improvements**
+-   **[Table cleaner scalability improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/deleting-older-records.md)**
 
     Automatically delete older or unwanted records at scale.
 
 
-## Changed in this release
+### What's changed
 
--   **Data Management Console**
+-   **[Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-data-usage.md)**
 
     You can now access data usage on your instance by navigating to **All** &gt; **System Data Management** &gt; **Data Management Console**.
 
-
-## Activation information
-
-Data Management is a ServiceNow AI Platform feature that is active by default.
-
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
 

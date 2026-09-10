@@ -28,21 +28,21 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see .
+    For more information, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 
 4.  From the CSM default record page, set the page order.
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d39145e116">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d39160e117">
 
 Claims page variant
 
-</th><th align="left" id="d39145e119">
+</th><th align="left" id="d39160e120">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d39145e125">
+</th></tr></thead><tbody><tr><td id="d39160e126">
 
 **Claim workspace page**
 

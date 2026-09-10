@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -85,18 +85,18 @@ Password
 
 Password for the MID Server user. This password is specified in the **mid.instance.password** parameter of the configuration file \(config.xml\) in the agent folder of the MID Server installation directory.
 
-</td></tr><tr><td>
-
-Web service access only
-
-</td><td>
-
-Check this box if you are using basic authentication. The web\_service\_access\_only field is used to restrict user access to the ServiceNow instance, ensuring that a user can only interact with the platform through web services \(REST or SOAP APIs\) rather than the user interface.
-
- When this field is set to true for a user with the mid\_server role, it prevents that user from logging into the ServiceNow UI, which is crucial for security and proper MID server operations.
-
 </td></tr></tbody>
-</table>4.  Right-click the header and select **Save**.
+</table>    **Important:** The XML specification defines five predefined special characters that all XML processors must recognize. To use a predefined character in an XML file, such as the MID Server config.xml file, replace it with its entity reference.
+
+    |Predefined character|Entity reference|
+    |--------------------|----------------|
+    |"|&amp;quot;|
+    |&amp;|&amp;amp;|
+    |'|&amp;apos;|
+    |&lt;|&amp;lt;|
+    |&gt;|&amp;gt;|
+
+4.  Right-click the header and select **Save**.
 
 5.  Under the **Roles** related list, click **Edit**.
 

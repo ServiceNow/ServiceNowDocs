@@ -176,7 +176,7 @@ Provides the highest level of access to tools and UIs within CMDB Workspace.
 
  CMDB Admin, for example, can set policies in the CI Class Manager and application service requirements.CMDB Admin can also modify default config records under the default identifier or the default identifier itself.
 
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
+ **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
 </td><td>
 
@@ -198,7 +198,7 @@ Provides access to tools and UIs within CMDB Workspace.
 
  A CMDB Editor has writing privileges to CMDB Data Manager tasks and to CIs but can't change policies such as in the CMDB Data Manager or in the CI Class Manager.
 
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
+ **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
 </td><td>
 

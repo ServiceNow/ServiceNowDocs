@@ -23,7 +23,7 @@ The search query parameter evaluation framework enables A/B relevancy testing on
 
 AI Search computes A/B testing evaluation results on a nightly basis.
 
-**Note:** The search query parameter evaluation framework does not support user configured A/B testing. All A/B testing is automatically performed by AI Search as part of its evaluation of machine learning relevancy models.
+**Note:** The search query parameter evaluation framework doesn't support user configured A/B testing. All A/B testing is automatically performed by AI Search as part of its evaluation of machine learning relevancy models.
 
 The search query parameter evaluation framework is part of the Adaptive Telemetry suite of features.
 

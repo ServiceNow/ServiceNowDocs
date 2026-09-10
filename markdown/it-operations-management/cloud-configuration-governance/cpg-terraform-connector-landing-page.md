@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Support for continuous delivery \(configuration management\), Cloud
 # Cloud Provisioning and Governance: Terraform Connector
 
 Use the ServiceNow® Cloud Provisioning and Governance: Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
+
+**Important:** Starting with the Brazil release, Cloud Provisioning and Governance: Terraform Connector is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Get started
 

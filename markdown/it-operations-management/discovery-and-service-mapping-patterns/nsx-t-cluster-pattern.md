@@ -1,6 +1,6 @@
 ---
 title: VMware NSX-T cluster pattern-based discovery
-description: Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/nsx-t-cluster-pattern.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # VMware NSX-T cluster pattern-based discovery
 
-Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

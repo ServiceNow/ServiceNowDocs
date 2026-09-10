@@ -1,6 +1,6 @@
 ---
 title: Close an alert in Express List
-description: Manually close alerts directly from the Express List pane or from the preview panel without waiting for them to be automatically closed if you already know the root cause or have fixed the problem.
+description: Manually close alerts from the Express List pane or preview panel if you know the root cause or have fixed the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/close-alert.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Se
 
 # Close an alert in Express List
 
-Manually close alerts directly from the Express List pane or from the preview panel without waiting for them to be automatically closed if you already know the root cause or have fixed the problem.
+Manually close alerts from the Express List pane or preview panel if you know the root cause or have fixed the problem.
 
 ## Before you begin
 
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can close alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d99556e93">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d99743e93">
 
 Location
 
-</th><th align="left" id="d99556e96">
+</th><th align="left" id="d99743e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d99556e102">
+</th></tr></thead><tbody><tr><td id="d99743e102">
 
 **The Express List pane**
 
@@ -57,7 +57,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Close alert**.
 
 
-</td></tr><tr><td id="d99556e155">
+</td></tr><tr><td id="d99743e155">
 
 **The Express List preview panel for group alerts**
 

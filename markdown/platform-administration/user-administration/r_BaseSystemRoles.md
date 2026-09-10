@@ -1330,7 +1330,7 @@ Information Technology Infrastructure Library \(ITIL\) users can open, update, c
     -   sn\_change\_write
     -   sn\_cmdb\_editor
 
-        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
+        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
     -   sn\_comm\_management.comm\_plan\_viewer
     -   sn\_gd\_guidance.guidance\_user
@@ -1374,7 +1374,7 @@ ITIL administrators can delete incidents, problems, changes, and other related r
 
     -   sn\_cmdb\_admin
 
-        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
+        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
     -   assessment\_admin
     -   sn\_bm\_client.benchmark\_data\_viewer

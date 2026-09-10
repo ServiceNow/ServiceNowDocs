@@ -31,7 +31,7 @@ Service Operations Workspace for ITOM provides powerful AIOps Experience capabil
 
 -   **[Alert Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md)**
 
-    Alert automation provides crucial support as organizations navigate complex IT infrastructures and rising data volumes. Manual alert handling is error-prone and inefficient, underscoring the need for automated systems. By disregarding irrelevant or false-positive alerts through ignore alert automation, and by using alert enrichment, grouping, and response, these systems streamline alert response, reduce human error, and ensure consistent, timely actions.
+    Alert automation provides crucial support as organizations navigate complex IT infrastructures and rising data volumes. Manual alert handling is error-prone and inefficient, underscoring the need for automated systems. These systems disregard irrelevant or false-positive alerts through ignore alert automation. By using alert enrichment, grouping, and response, they streamline alert response, reduce human error, and ensure consistent, timely actions.
 
 -   **[AIOps Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md)**
 

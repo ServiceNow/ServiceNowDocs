@@ -24,7 +24,7 @@ Use this procedure to build product characteristics and characteristic options, 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Characteristics** &gt; **Characteristics**.
 

@@ -149,7 +149,7 @@ Release notes
 
 </td><td>
 
-[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/document-intelligence-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/document-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -429,7 +429,7 @@ Release notes
 
 </td><td>
 
-[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/predictive-intelligence-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/predictive-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Platform Analytics Solutions for Health Log Analytics
-description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected, and the money it saved your organization by preventing critical outages.
+description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected. It also shows the money saved by preventing critical outages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-content-pack.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analyti
 
 # Platform Analytics Solutions for Health Log Analytics
 
-Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected, and the money it saved your organization by preventing critical outages.
+Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected. It also shows the money saved by preventing critical outages.
 
 ## Required roles
 

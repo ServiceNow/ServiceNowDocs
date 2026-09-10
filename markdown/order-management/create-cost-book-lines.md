@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, access the cost book to which you're adding a cost book line.
+1.  In the CRM Workspace, access the cost book to which you're adding a cost book line.
 
     1.  Select the **List** \[Omitted image "Lists.png"\] view.
 

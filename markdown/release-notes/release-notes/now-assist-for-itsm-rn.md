@@ -1,19 +1,19 @@
 ---
 title: ServiceNow Otto for IT Service Management \(ITSM\) release notes
-description: The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 15
-keywords: [Now Assist, generative AI]
+reading_time_minutes: 16
+keywords: [Now Assist, generative AI, Now Assist, generative AI, Now Assist, generative AI, Now Assist, generative AI, Now Assist, generative AI, Now Assist, generative AI, Now Assist, generative AI]
 ---
 
 # ServiceNow Otto for IT Service Management \(ITSM\) release notes
 
 The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
 
-## ServiceNow Otto for IT Service Management \(ITSM\) highlights for the Yokohama release
+## About ServiceNow Otto for IT Service Management \(ITSM\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -44,122 +44,173 @@ Yokohama Early Availability
 -   View a summary of incidents and change requests in an intuitive summarization interface.
 -   Track the status of common IT-related tasks by using the Now Assist application.
 
-See  for more information.
+See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md) for more information.
+
+## Activation and other requirements
 
 **Important:** ServiceNow Otto for IT Service Management \(ITSM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading ServiceNow Otto for IT Service Management \(ITSM\) to Yokohama
+-   **Activation information**
 
-When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
+    Install ServiceNow Otto for ITSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Yokohama release
+    -   **Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/activate-major-incident-management-plugin.md).
 
--   **Adding self-service and deflection to phone channels using Voice AI agents**
+    -   **Important:** To enable the display of the Notify users with Twilio use case, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see [Twilio Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/twilio-spoke.md).
+
+-   **Upgrade information**
+
+    When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
+
+-   **Additional requirements**
+
+    The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Adding self-service and deflection to phone channels using Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-voice.md)**
 
     Enhance employee productivity with Voice AI agents by adding self-service and deflection to their phone channel.
 
--   **Getting password reset instructions using an AI agent**
+-   **[Getting password reset instructions using an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-va-ai-agents.md)**
 
     The **DEMO Password reset agent** is a demo AI agent that provides requesters with password reset instructions for the account that they need help with.
 
--   **Editing the incident summarization skill prompts and inputs using the Now Assist Skill Kit**
+-   **[Editing the incident summarization skill prompts and inputs using the Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-record-summ-skill.md)**
 
     You can edit the prompts and inputs for the incident summarization skill within the Now Assist Skill Kit \(NASK\) and test the updates you've made.
 
--   **Expanding attachment summarization capabilities to include additional document formats and language**
+-   **[Expanding attachment summarization capabilities to include additional document formats and language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-record-summ-skill.md)**
 
     You can now summarize, analyze, and extract data from attachments in additional formats and languages.
 
--   **Enhancing the efficiency of the Investigate and resolve ITSM incidents agentic workflow**
+-   **[Enhancing the efficiency of the Investigate and resolve ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-incident-resolver-workflow.md)**
 
     For better efficiency, the ITSM incident resolution investigation AI agent and Find catalog item AI agent have been combined into one agent. This agent is called the ITSM incident resolution plan investigation AI agent.
 
--   **Enhancing the efficiency of the Triage and categorize ITSM incidents agentic workflow**
+-   **[Enhancing the efficiency of the Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)**
 
     For better efficiency, the Link major incident AI agent and the Link incident to problem AI agent have been combined into one agent. This agent is called the Link major incident or problem AI agent.
 
--   **Enhancing the efficiency of the Generate change request plans agentic workflow**
+-   **[Enhancing the efficiency of the Generate change request plans agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)**
 
     For better efficiency, the existing six agents in the change request plans agentic workflow have been combined into one agent. This agent is called the Change request plans AI agent.
 
--   **Display the risk factors sources that contribute to the calculation of a change risk explanation**
+-   **[Display the risk factors sources that contribute to the calculation of a change risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-change-risk-skill.md)**
 
     When a change risk is calculated, ServiceNow Otto for ITSM provides the list of the change requests that were used to identify the potential risks for the change risk explanation so that you can understand which risk factors contributed to the calculated risk.
 
--   **Generating resolution notes using the Now Assist context menu**
+-   **[Generating resolution notes using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-gen-resolution-notes-skill.md)**
 
     As an admin, you can view and configure the Now Assist context menu \(NACM\) to generate resolution notes using the **Resolution notes generation** skill.
 
--   **Generating an activity response using the Now Assist context menu**
+-   **[Generating an activity response using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-activity-response-skill.md)**
 
     As an admin, you can view and configure the Now Assist context menu \(NACM\) for an activity response using the **Incident activity response generation** skill.
 
--   **Masking roles for controlled access to agentic workflows, AI agents, and skills**
+-   **[Masking roles for controlled access to agentic workflows, AI agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/supporting-information-now-assist-itsm.md)**
 
     Mask roles to restrict access to agentic workflows, AI Agents, and skills, ensuring that users receive only the necessary permissions.
 
--   **Suggest configuration items for a change request agentic workflow**
+-   **[Suggest configuration items for a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)**
 
     Find and link applicable configuration items \(CIs\) to a change request from the Now Assist panel in a conversational and intuitive way using the Suggest configuration items for a change request agentic workflow.
 
--   **Create outages for a change request agentic workflow**
+-   **[Create outages for a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-create-outages-for-a-change-request.md)**
 
     Associate outages with a change request in a conversational and intuitive way from the Now Assist panel using the Create outages for a change request agentic workflow.
 
--   **Create standard change request agentic workflow**
+-   **[Create standard change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-create-change-request-workflow.md)**
 
     Create a standard, normal, or emergency change request in a conversational and intuitive way from the Now Assist panel using the Create standard change request agentic workflow.
 
--   **Create standard change template proposal agentic workflow**
+-   **[Create standard change template proposal agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-create-standard-change-template-proposal.md)**
 
     Create a change template proposal record based on similar change requests in a conversational and intuitive way from the Now Assist panel using the Create standard change template proposal agentic workflow.
 
--   ****
+-   **[DEX issue diagnosis and resolution agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-dex-diagnosis-resolution-workflow.md)**
 
     Diagnose and resolve issues on DEX monitored devices through a structured process that includes diagnosis of the cause, a resolution plan with actionable steps, and documenting the resolution in the incident record.
 
--   **Generate comprehensive release notes for a release in Digital Product Release**
+-   **[Generate comprehensive release notes for a release in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpr-generate-release-notes.md)**
 
     Automatically generate structured release notes for a release using the Generate Release Notes skill. This AI-driven capability compiles enhancements, features, incidents, and change records into structured notes with an executive summary and scope of work sections, reducing manual effort and ensuring consistency. You can edit the AI-generated draft as needed, then publish and share via link or PDF download.
 
 
--   **Classify service and CI AI agent**
+### What's changed
+
+-   **[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)[Changing the password reset topic to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-va-ai-agents.md)**
+
+    The Virtual Agent **Password reset** topic has been changed to a Virtual Agent AI agent. The agent guides the users with instructions to reset passwords using KB articles in their self-service portal.
+
+
+### What's deprecated or removed
+
+The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
+
+## August 2025
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Classify service and CI AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)**
 
     Automatically assign the related service, service offering, and configuration item \(CI\) to an incident using the Classify service and CI AI agent in the Triage and categorize ITSM incidents agentic workflow.
 
--   **Setting the AI user as the Run as user in the Triage and categorize incidents agentic workflow**
+-   **[Setting the AI user as the Run as user in the Triage and categorize incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)**
 
     Create AI users for the identity type **AI agent** and assign roles to the AI user based on your needs. Run the agentic workflow as the AI user that determines the data access defined by the role.
 
--   **Matching flow action access control roles with the agent roles for the Notify users with Twilio agentic workflow**
+-   **[Matching flow action access control roles with the agent roles for the Notify users with Twilio agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-twilio-text-usecase.md)**
 
     When you update the agent role for the Notify users with Twilio agentic workflow, you must also update the corresponding access controls with those roles.
 
--   **Matching flow action access control roles with the agent roles for the Manage Microsoft 365 group members agentic workflow**
+-   **[Matching flow action access control roles with the agent roles for the Manage Microsoft 365 group members agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)**
 
     When you update the agent role for the Manage Microsoft 365 group members agentic workflow, you must also update the corresponding access controls with those roles.
 
--   **Using the itil role to add or update work notes in the Now Assist panel**
+-   **[Using the itil role to add or update work notes in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/request-gen-ai-capabilities-itsm-now-assist-panel.md)**
 
     To add or update work notes in the Now Assist panel, the logged-in user must have the itil role.
 
--   **New third-party AI model provider options available for all Now Assist applications**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
--   **Editing prompts using the Now Assist skill kit**
+-   **[Editing prompts using the Now Assist skill kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-skill.md)**
 
     As an admin, you can clone the following skills, then access the skill in the Now Assist skill kit, and update the prompts:
 
     -   Resolution notes generation skill
     -   Knowledge article generation skill
     -   Incident summarization skill
--   **Prompt inputs for Major incident email content recommendation**
+-   **[Prompt inputs for Major incident email content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-skills.md)**
 
     Use related tables and fields as prompt inputs to generate a Major incident email content recommendation.
 
 
--   **Using IT Service Management AI agent collection**
+### What's changed
+
+-   **Yokohama Patch 6 [Removing the prompt headers from the Customize prompt screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-skill.md)**
+
+    The prompt headers have been removed from the Customize prompt screen in the Incident summarization and Change summarization skill to support third-party Large Language Models \(LLMs\).
+
+
+## May 2025
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Using IT Service Management AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md)**
 
     Use the IT Service Management AI agent collection to boost productivity, and autonomously resolve business tasks.
 
@@ -169,7 +220,7 @@ When you upgrade to the Zurich Patch 4 release, any customizations you may have 
     |Investigate and resolve ITSM incidents|Get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.|
     |Manage Microsoft 365 group members|Add or remove groups and email distribution lists from the Microsoft 365 group.|
 
--   ****
+-   **[IT Service Management AI agent collection Generate change request plans agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)**
 
     Use the following additional AI agents to handle change requests.
 
@@ -178,28 +229,51 @@ When you upgrade to the Zurich Patch 4 release, any customizations you may have 
     |Change risk and impact analysis AI agent|Analyzes the potential risk and impact of a change request.|
     |Change justification proposal AI agent|Proposes justification for a change request.|
 
--   ****
+-   **[Generate a Major Incident email content recommendation by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-mim-email-recommendation.md)**
 
     Draft a communication for a major incident using an email template. You can fill in the template field values with an AI-generated response.
 
--   **Generate comments and work notes using the Now Assist context menu**
+-   **[Generate comments and work notes using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/request-gen-ai-capabilities-itsm-now-assist-panel.md)**
 
     Enable your agents to generate comments and work notes quickly and add them to incidents using the Now Assist panel.
 
--   **Incident sentiment and sentiment trend**
+-   **[Incident sentiment and sentiment trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-skills.md)**
 
     Make informed decisions on incidents by considering the requester's sentiments and the reasoning behind them.
 
--   ****
+-   **[Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)**
 
     Automatically generate suggested steps to resolve an incident by analyzing the solutions from clusters of similar resolved incidents.
 
--   **Summarizing attachments in the Incident summarization skill**
+-   **[Summarizing attachments in the Incident summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-skill.md)**
 
     Summarize, analyze, and extract data from attachments that are of type PNG or JPEG using Document Intelligence in the Incident summarization skill.
 
 
--   **Using IT Service Management AI agent collection**
+### What's changed
+
+-   **Yokohama Patch 3[Terminology change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md)**
+    -   The term use case is replaced with the term agentic workflow. For example, the Notify users with Twilio use case is now referred to as the Notify users with Twilio agentic workflow.
+    -   The naming of the AI agents has changed. For example, Twilio SMS texter has been renamed to Twilio SMS texter AI agent.
+
+-   **Yokohama Patch 3 [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)**
+
+    The Categorize incidents use case has been renamed to the Triage and categorize ITSM incidents agentic workflow.
+
+    The following AI agents have been added to the workflow:
+
+    -   Link major incident AI agent
+    -   Link incident to problem AI agent
+    The Incident categorize AI agent has been renamed to Categorize incident AI agent.
+
+
+## Yokohama General Availability
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Using IT Service Management AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md)**
 
     Use the IT Service Management AI agent collection to boost productivity, and autonomously resolve business tasks.
 
@@ -217,7 +291,7 @@ Generate post incident reviews
 
 </td><td>
 
-Enhance IT productivity during major incidents by minimizing the time required to generate post-incident reviews using AI agents. This process helps improve communication and avoid outages​.**Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see .
+Enhance IT productivity during major incidents by minimizing the time required to generate post-incident reviews using AI agents. This process helps improve communication and avoid outages​.**Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/activate-major-incident-management-plugin.md).
 
 </td></tr><tr><td>
 
@@ -245,129 +319,74 @@ Send text messages via SMS to recipients manually using AI agents to help improv
 
 </td></tr></tbody>
 </table>
--   **Using self service to deflect incidents in a ServiceNow portal by using ServiceNow Otto for IT Service Management \(ITSM\)**
+## Yokohama Early Availability
+
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Using self service to deflect incidents in a ServiceNow portal by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/deflect-incidents-now-assist-itsm.md)**
 
     Designed to reduce the number of incidents to be resolved by deflecting issues with self-service.
 
--   **Customizing a Now Assist for IT Service Management \(ITSM\) change risk skill**
+-   **[Customizing a Now Assist for IT Service Management \(ITSM\) change risk skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-change-risk-skill.md)**
 
     Efficiently explain the risk of a change request by adding custom input fields to the following input tables:
 
     -   Change request
     -   Past similar change request
     -   Incident caused by change
--   **Refining a change risk explanation response**
+-   **[Refining a change risk explanation response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-risk-exp-now-assist.md)**
 
     Refine the explanation to a change risk by shortening or lengthening a response by using ServiceNow Otto for IT Service Management \(ITSM\).
 
--   **Risk Assessment as input to calculate a change risk**
+-   **[Risk Assessment as input to calculate a change risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-risk-exp-now-assist.md)**
 
     Use risk assessment values as an input to explain the risk of a change request.
 
--   **Generating an email response by using ServiceNow Otto for IT Service Management \(ITSM\)**
+-   **[Generating an email response by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-email-recommendation.md)**
 
     Get recommendations for email responses that agents can review and send to users. Agents can also get email template and content edit recommendations from ServiceNow Otto for IT Service Management \(ITSM\).
 
--   **Monitoring task status using pre-built LLM topics with Now Assist in ITSM Virtual Agent**
+-   **[Monitoring task status using pre-built LLM topics with Now Assist in ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-customize-itsm-llm-topic.md)**
 
     Copy and customize a ITSM Virtual Agent core ITSM topic template to track the status of a task by using Now Assist in ITSM Virtual Agent.
 
 
-## UI changes
+## Yokohama
 
--   **[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)Changing the password reset topic to an AI agent**
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
 
-    The Virtual Agent **Password reset** topic has been changed to a Virtual Agent AI agent. The agent guides the users with instructions to reset passwords using KB articles in their self-service portal.
+### What's changed
 
--   **Yokohama Patch 3Terminology change**
-    -   The term use case is replaced with the term agentic workflow. For example, the Notify users with Twilio use case is now referred to as the Notify users with Twilio agentic workflow.
-    -   The naming of the AI agents has changed. For example, Twilio SMS texter has been renamed to Twilio SMS texter AI agent.
--   **__Yokohama Early Availability__ New look and feel for the display of incident and change request summarizations**
+-   **__Yokohama Early Availability__ [New look and feel for the display of incident and change request summarizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/summarize-incident-now-assist.md)**
 
     Get the summary of an incident or a change request by using the new and more intuitive summarization user interface. The new interface is available in Service Operations Workspace and in the Core UI.
 
 
-## Changed in this release
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   **Changes to Now Assist usage measurement**
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **Role configuration required for agentic workflows and AI agents**
+-   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
 
     Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
--   **Some Now Assist skills are turned on by default**
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Skills activated by default in Now Assist for ITSM**
+-   **[Skills activated by default in Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/using-now-assist-for-itsm.md)**
 
     For new ServiceNow Otto for IT Service Management \(ITSM\) users, the following skills are activated by default:
 
     -   Incident summarization
     -   Change request summarization
     -   Chat summarization
--   **Yokohama Patch 6 Removing the prompt headers from the Customize prompt screen**
-
-    The prompt headers have been removed from the Customize prompt screen in the Incident summarization and Change summarization skill to support third-party Large Language Models \(LLMs\).
-
--   **Yokohama Early AvailabilitySystem property to display knowledge article templates**
+-   **Yokohama Early Availability[System property to display knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)**
 
     Display Knowledge article templates that you can use to create articles by using a system property. In earlier releases, the templates were displayed by default.
 
--   **Yokohama Patch 3 **
-
-    The Categorize incidents use case has been renamed to the Triage and categorize ITSM incidents agentic workflow.
-
-    The following AI agents have been added to the workflow:
-
-    -   Link major incident AI agent
-    -   Link incident to problem AI agent
-    The Incident categorize AI agent has been renamed to Categorize incident AI agent.
-
-
-## Deprecations
-
-The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
-
-## Activation information
-
-Install ServiceNow Otto for ITSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see .
-
--   **Important:** To enable the display of the Notify users with Twilio use case, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see [Twilio Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/twilio-spoke.md).
-
-
-## Additional requirements
-
-The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
-
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **AI Admin Hub console**
-
-    Use the AI Admin Hub console for quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **Now Assist panel**
-
-    Use this conversational interface in ServiceNow® Service Operations Workspace to summarize a chat, an incident, or resolution notes so that you can get the context of this information more quickly.
-
--   **Now Assist skills**
-
-    Use the ServiceNow® Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
 

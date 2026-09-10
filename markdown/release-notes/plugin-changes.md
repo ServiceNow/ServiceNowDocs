@@ -52,7 +52,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cpg-terraform-connector-landing-page.md) documentation.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Enables support for encryption of fields and attachments.
 
 </td><td>
 
-Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see .
+Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see [Activate Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/activate-platform-encryption.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sec-center-v2.md).
 
 </td></tr><tr><td>
 
@@ -460,7 +460,7 @@ Load demo data for CTI Softphone.
 
 </td><td>
 
-Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the  documentation.
+Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/integrate-ccc-amazonconnect.md) documentation.
 
 </td></tr><tr><td>
 
@@ -556,7 +556,7 @@ Password reset add-on to enable the use of ServiceNow Orchestration. Includes su
 
 </td><td>
 
-Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.
+Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConPassResetActiveDir.md) documentation.
 
 </td></tr><tr><td>
 
@@ -929,7 +929,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_CMSAndSP.md).
 
 </td><td align="center">
 

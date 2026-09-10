@@ -1,18 +1,18 @@
 ---
 title: Smart Assessment Engine release notes
-description: The ServiceNow Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
+description: The ServiceNow Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.The ServiceNow Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Smart Assessment Engine release notes
 
 The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
 
-## Smart Assessment Engine highlights for the Yokohama release
+## About Smart Assessment Engine
 
 -   Configure default responses for questions.
 -   Copy an existing SAE template with all questions, sections, instructions, and configurations to save time.
@@ -26,9 +26,34 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to stre
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Additional requirements**
+
+    Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Accessibility improvements**
+
+        Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -62,21 +87,4 @@ See  for more information.
 
     Attach descriptive images in the guidance section of the assessment questions. This means that template managers can include helpful visuals to assist respondents, making the instructions clearer and easier to understand.
 
-
-## Activation information
-
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
--   **Accessibility improvements**
-
-    Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
-
-## Additional requirements
-
-Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

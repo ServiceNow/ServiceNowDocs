@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,8 +18,8 @@ Improve incident deflection for Service Portal users by displaying the most rele
 
 AI Search Assist can help an agent or user find the most relevant items in a search on your portal. For example:
 
--   An agent, working on an Incident record, can use AI Search Assist to find and attach knowledge articles, order a catalog item on behalf of the caller, or search for an article and link it to a related incident or problem.
--   A user, creating an Incident via the Service Portal, can see related Catalog Items that the user can order. The user can also view related knowledge articles to help them resolve the issue on their own without involving the service desk operators.
+-   An agent working on an Incident record can use AI Search Assist to find and attach knowledge articles, order a catalog item on behalf of the caller, or search for an article and link it to a related incident or problem.
+-   A user creating an Incident via the Service Portal can see related Catalog Items that they can order. The user can also view related knowledge articles to help them resolve the issue on their own without involving the service desk operators.
 
 AI Search Assist helps with incident deflection for the following areas:
 

@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select **List** \[Omitted image "Lists.png"\] Alt text: view and select **Quotes** &gt; **All**
+1.  In the CRM Workspace, select **List** \[Omitted image "Lists.png"\] Alt text: view and select **Quotes** &gt; **All**
 
 2.  Select the quote, which must be in the Completed state, and select the Line items tab.
 

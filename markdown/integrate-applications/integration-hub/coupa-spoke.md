@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-08-31"
 reading_time_minutes: 10
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Coupa spoke v4.16.2 is the latest version.
+Coupa spoke v4.17.0 is the latest version.
 
 ## Supported versions
 
@@ -383,7 +383,7 @@ Submit Invoice
 
 Submits the specified invoice in Coupa.
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td rowspan="3">
 
 Item Management
 
@@ -402,6 +402,14 @@ Look up Item
 </td><td>
 
 Looks up the required item in Coupa using the Coupa query.
+
+</td></tr><tr><td>
+
+Look up Commodities Stream
+
+</td><td>
+
+Retrieves commodity records from Coupa based on the specified filter criteria.
 
 </td></tr><tr><td rowspan="9">
 

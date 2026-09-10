@@ -1,6 +1,6 @@
 ---
 title: Credential-less discovery with Nmap
-description: If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
+description: When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/nmap-credential-less-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Op
 
 # Credential-less discovery with Nmap
 
-If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
+When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 
 A MID Server administrator can [install Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/install-nmap-on-mid-server.md) on individual MID Server instances running on a Windows host. Those MID Server instances can then discover some basic information about CIs in your network when normal authentication fails.
 
@@ -102,7 +102,7 @@ Patterns
 </td><td>
 
 -   Credentialless Discovery Network Device: Scans a host IP address using an Nmap command to identify the host. This pattern launches the **Credentialless Discovery Network Device - PreLaunch** script to retrieve the list of ports to explore from the IP Service \[cmdb\_ip\_service\] table. Don't modify this script.
--   Credentialless Discovery Application: Scans a port at an IP address using an Nmap command to identify the application service actively listening on that port. Service Mapping launches this pattern when all credential-based port classification steps fail. Discovery creates a CI in the Application \[cmdb\_ci\_appl\] table if the port is open and it can identify the service by name and product. If the service does not respond to any of the scan attempts, Nmap consults its nmap-services registry and guesses at which service is most likely running on that port. If Nmap has to guess what application is running on a scanned port, the Credentialless Discovery Application pattern does not create an application CI or update an existing CI.
+-   Credentialless Discovery Application: Scans a port at an IP address using an Nmap command to identify the application service actively listening on that port. Service Mapping launches this pattern when all credential-based port classification steps fail. Discovery creates a CI in the Application \[cmdb\_ci\_appl\] table if the port is open and it can identify the service by name and product. If the service does not respond to any scan attempts, Nmap consults its nmap-services registry. Nmap then guesses which service is most likely running on that port. If Nmap guesses the application on a scanned port, the Credentialless Discovery Application pattern does not create or update an application CI.
 
 </td></tr><tr><td>
 

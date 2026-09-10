@@ -18,7 +18,7 @@ Notify provides support for SMS and voice channels for communicating internally 
 
 ## Voice capabilities
 
-Notify supports outbound voice calls for notifications and conference management. For more information, see .
+Notify supports outbound voice calls for notifications and conference management. For more information, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 
 ## SMS capabilities
 
@@ -27,11 +27,11 @@ Notify supports the following SMS interactions:
 -   Outgoing SMS: Send automated SMS notifications to team members, customers, and contractors based on the workflow triggers or subscriptions.
 -   Incoming SMS: Receive or route inbound SMS messages to the appropriate workflow or record.
 
-For more information about configuring SMS channels, see .
+For more information about configuring SMS channels, see [Configure SMS opt-out preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/opt-out-requests.md).
 
 ## Outgoing SMS channels
 
-Notify enables applications to send outgoing SMS messages to team members, customers, and contractors. To configure outgoing SMS channels, you must set up an SMS provider \(such as Twilio or Bandwidth\) and configure the corresponding Notify driver in your instance. For more information about configuring SMS channels, see .
+Notify enables applications to send outgoing SMS messages to team members, customers, and contractors. To configure outgoing SMS channels, you must set up an SMS provider \(such as Twilio or Bandwidth\) and configure the corresponding Notify driver in your instance. For more information about configuring SMS channels, see [Configure SMS opt-out preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/opt-out-requests.md).
 
 Notify provides a way for applications to start and manage a conference, send/receive SMS, send/receive calls and present them with IVR like system.
 

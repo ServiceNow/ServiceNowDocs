@@ -1,6 +1,6 @@
 ---
 title: AWS MemoryDB for Redis discovery with Patterns
-description: The Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-memorydb-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # AWS MemoryDB for Redis discovery with Patterns
 
-The ® Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ® Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

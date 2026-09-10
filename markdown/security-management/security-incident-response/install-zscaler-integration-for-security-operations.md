@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -99,11 +99,7 @@ API Key
 API key that you obtained from the Zscaler Internet Access administration portal.**Note:** **The user must have sn\_si.admin role to setup the integration.**
 
 </td></tr></tbody>
-</table>    The following example shows the Zscaler configuration page.
-
-    \[Omitted image "zscaler-configuration.png"\] Alt text: Zscaler integration configuration page.
-
-5.  Select **Validate and Update**.
+</table>5.  Select **Validate and Update**.
 
 
 ## Result

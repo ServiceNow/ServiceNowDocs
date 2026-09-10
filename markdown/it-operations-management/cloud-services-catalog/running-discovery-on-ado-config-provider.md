@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Integrating Azure DevOps and the CI-CD pipeline, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Run Discovery on Azure DevOps config provider
@@ -65,5 +65,5 @@ Role required: none
 
 You can now order an Azure DevOps catalog item from the Azure DevOps catalog order form on Employee Center.
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

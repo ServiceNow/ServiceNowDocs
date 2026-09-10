@@ -16,7 +16,7 @@ The ServiceNow® Financial Services Operations Integration with Jack Henry jXcha
 
 **Important:** Starting with the Utah release, the Financial Services Operations Integration with Jack Henry Associates \(JHA\) jXchange application has been renamed to Financial Services Operations Integration with Jack Henry jXchange.
 
-## Overview
+## Integration overview
 
 The Financial Services Operations Integration with Jack Henry jXchange enables your agents to use all the FSO banking applications to look up and verify the information about your customers and financial accounts quickly.
 

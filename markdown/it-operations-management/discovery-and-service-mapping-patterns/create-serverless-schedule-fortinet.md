@@ -68,7 +68,7 @@ Role required: discovery\_admin
         |Parameter|Value|
         |---------|-----|
         |ip\_address|IP address of the firewall device.|
-        |credentialsAlias|Name of the credential alias you created.|
+        |credentialsAlias|ID of the credential alias you created.|
 
     3.  Select **Submit**.
 

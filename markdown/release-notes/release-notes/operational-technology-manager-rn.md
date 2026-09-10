@@ -1,9 +1,9 @@
 ---
 title: Operational Technology Manager release notes
-description: The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so that you can build the foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Yokohama release.
+description: The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so that you can build the foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Yokohama release.The ServiceNow Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so that you can build the foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 9
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 9
 
 The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so that you can build the foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Yokohama release.
 
-## Operational Technology Manager highlights for the Yokohama release
+## About Operational Technology Manager
 
 -   View the Operational Technology Manager \(OT\) device-to-device connections with additional information such as port and protocol values.
 -   Review the OT applications and versions that you have installed on the About Industrial Workspace page.
@@ -24,9 +24,22 @@ The ServiceNow® Operational Technology Manager application enables you to aggre
 
 See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-manager.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Operational Technology Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Operational Technology Manager application enables you to aggregate Operational Technology \(OT\) device data from multiple sources so that you can build the foundational data relationships in the Industrial solution. Operational Technology Manager was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[About the Industrial Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/view-installed-ot-applications.md)**
 
@@ -67,7 +80,7 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
     Configure the OT Action-Oriented Landing Page by using the **Sort items** field for your important actions.
 
 
--   **CMDB OT class model updates**
+-   **[CMDB OT class model updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)**
 
     Leverage an enhanced OT user experience and make additional configurations for your OT devices with the following CMDB OT class model updates:
 
@@ -92,7 +105,7 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
     -   OT entity update issues can be resolved through the Service Graph Connector for Microsoft Excel.
     -   The new Industrial Core plugin \(com.sn\_ot\_core\) is required for class mapping when using the Service Graph Connector for Microsoft Excel.
 
-## UI changes
+### What's changed
 
 -   **[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/ot-assets-related-links-and-lists.md)**
 
@@ -147,8 +160,6 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
 
     A site filter was added to the Operational Technology Visibility in the Industrial Workspace so you can filter the displayed data by a chosen site.
 
-
-## Changed in this release
 
 -   **[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/ot-assets-related-links-and-lists.md)**
 
@@ -206,7 +217,7 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
     -   OT devices by manufacturer \(Top Level\)
     -   OT devices by criticality
 
-## Deprecations
+### What's deprecated or removed
 
 -   For the Service Graph Connector for Microsoft Excel, the following items were deprecated on the ServiceNow AI Platform:
     -   The SG OT Excel Staging Task table
@@ -214,16 +225,6 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
 -   The OT Manager dashboard is no longer available in the Industrial Workspace.
 -   Starting with the Yokohama release, Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-## Activation information
-
-Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    The CMDB CI Class Models store application enables Operational Technology Manager to import and classify device data in ServiceNow. The Operational Technology Manager application automatically installs the latest version of the Operational Technology \(OT\) extension classes, available in the CMDB CI Class Models application in the ServiceNow Store.
-
-
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
+-   The SG OT Excel Staging Task table
+-   The Staging task reference on the SG OT Excel Staging table
 

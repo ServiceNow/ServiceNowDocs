@@ -1,22 +1,22 @@
 ---
 title: Dashboard landing pages
-description: Enable your users to display, customize, and share dashboards in CSM Configurable Workspace and use these dashboards as landing pages.
+description: Enable your users to display, customize, and share dashboards in CRM Workspace and use these dashboards as landing pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ws-landing-page-dashboard.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [CSM Configurable Workspace landing pages, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Dashboard landing pages
 
-Enable your users to display, customize, and share dashboards in CSM Configurable Workspace and use these dashboards as landing pages.
+Enable your users to display, customize, and share dashboards in CRM Workspace and use these dashboards as landing pages.
 
 Workspace dashboards enable users such as agents and managers to configure and customize their own metrics. These users can switch between available dashboards and modify dashboard lists and metrics to track important information. They can also share dashboards with coworkers and across teams.
 
-To display workspace dashboards, system administrators activate the [CSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-ws-landing-page-dashboard.md) landing page variant and configure user privileges. When configured, users included in the page audience see the Dashboard Overview landing page in CSM Configurable Workspace and the [default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-ws-landing-page-dashboard.md) included with that page.
+To display workspace dashboards, system administrators activate the [CSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-ws-landing-page-dashboard.md) landing page variant and configure user privileges. When configured, users included in the page audience see the Dashboard Overview landing page in CRM Workspace and the [default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-ws-landing-page-dashboard.md) included with that page.
 
 The dashboards are represented by tiles on the Dashboard Overview landing page. The individual tiles show the title, the creator, whether the dashboard is certified, and an indication that the logged in user has bookmarked the dashboard.
 
@@ -101,7 +101,7 @@ Customer Service Agent
 
 </td><td>
 
-Available with the CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\) plugin.
+Available with the CRM Workspace \(com.snc.uib.csm\_agent\_workspace\) plugin.
 
  Out of box, the Customer Service Agent dashboard includes the widgets on the **My Work** tab.
 
@@ -115,7 +115,7 @@ Customer Service Agent - Advanced
 
 </td><td>
 
-Available with the following plugins:-   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+Available with the following plugins:-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
 -   Performance Analytics – Content Pack – Customer Service Management – Advanced \(com.snc.pa.customer\_service\_advanced\)
 
 Activating the Performance Analytics - Content Pack – Advanced Work Assignment \(com.snc.pa.awa\) plugin adds two additional widgets to the Organizational Trends tab:
@@ -129,7 +129,7 @@ Customer Service Manager
 
 </td><td>
 
-Available with the following plugins:-   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+Available with the following plugins:-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
 -   Performance Analytics - Content Pack - Customer Service \(com.snc.pa.customer\_service\)
 
 Activating the Performance Analytics - Content Pack - Customer Service \(com.snc.pa.customer\_service\) plugin provides the complete Customer Service Manager dashboard with all tabs.
@@ -142,7 +142,7 @@ Customer Service Manager - Advanced
 
 Available with the following plugins:
 
--   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
 -   Performance Analytics – Content Pack – Customer Service Management – Advanced \(com.snc.pa.customer\_service\_advanced\)
 
  Activating the Performance Analytics - Content Pack – Advanced Work Assignment \(com.snc.pa.awa\) plugin adds the Work Assignment Analytics tab to the Customer Service Manager - Advanced dashboard.

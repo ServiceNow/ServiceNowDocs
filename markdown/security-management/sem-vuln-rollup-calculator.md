@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-vuln-rollup-calculator.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Prioritizing vulnerabilities and other findings using roll-up calculators, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---

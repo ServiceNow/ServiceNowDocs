@@ -24,7 +24,7 @@ The following workflow example shows a typical series of steps for setting up ca
 
 ## Overview of product offering and catalog configuration
 
-Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CSM Configurable Workspace to configure product offering catalogs, product offerings, and product offering relationships.
+Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CRM Workspace to configure product offering catalogs, product offerings, and product offering relationships.
 
 The following table identifies the configuration tasks for setting up the various features available in Product Catalog Management.
 

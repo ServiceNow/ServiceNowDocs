@@ -24,7 +24,7 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All** and select a quote to which a covered product is to be added.
 
@@ -38,15 +38,15 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d48500e165">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d48526e165">
 
 Covered product type
 
-</th><th align="left" id="d48500e168">
+</th><th align="left" id="d48526e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48500e174">
+</th></tr></thead><tbody><tr><td id="d48526e174">
 
 **Covered quote line item**
 
@@ -54,7 +54,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d48500e183">
+</td></tr><tr><td id="d48526e183">
 
 **Covered sold product**
 
@@ -62,7 +62,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d48500e195">
+</td></tr><tr><td id="d48526e195">
 
 **Covered install base item**
 

@@ -28,7 +28,7 @@ This spoke requires a subscription. Contact your ServiceNow account manager or s
 
 ## Spoke version
 
-The current version of the Jack Henry Associates jXchange spoke is v2.0.1.
+The current version of the Jack Henry Associates jXchange spoke is v3.0.2.
 
 ## Spoke requirements
 

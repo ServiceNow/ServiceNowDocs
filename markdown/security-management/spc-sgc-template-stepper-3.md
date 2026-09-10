@@ -26,15 +26,15 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d136833e108">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d139058e108">
 
 Option
 
-</th><th align="left" id="d136833e111">
+</th><th align="left" id="d139058e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136833e117">
+</th></tr></thead><tbody><tr><td id="d139058e117">
 
 **Select Use Now Assist**
 
@@ -42,7 +42,7 @@ Description
 
 See [Create an API connector with ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/select-api-template.md) for the steps for using Now Assist.
 
-</td></tr><tr><td id="d136833e139">
+</td></tr><tr><td id="d139058e139">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

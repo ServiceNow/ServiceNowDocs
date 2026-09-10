@@ -1,9 +1,9 @@
 ---
 title: Case and Knowledge Management release notes
-description: The ServiceNow Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Yokohama release.The ServiceNow Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,13 +12,26 @@ reading_time_minutes: 2
 
 The ServiceNow® Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Yokohama release.
 
-## Case and Knowledge Management highlights for the Yokohama release
+## About Case and Knowledge Management
 
 Use HR Benchmarks to provide instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to the industry averages of your peers and to the industry top performers.
 
 See  for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Case and Knowledge Management is a ServiceNow AI Platform feature that is available with activation of the Human Resources Scoped App: Core \[com.sn\_hr\_core\]. See  for more information.
+
+
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/hr-service-delivery-landing.md)
+
+## Yokohama
+
+The ServiceNow® Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -37,20 +50,7 @@ See  for more information.
     -   Include an approval step before deletion of data, confirming better compliance and audit capabilities with respect to General Data Protection Regulation \(GDPR\) requirements.
     -   Have HR Agents manage the approval process by generating reports using the Real-Time Business Intelligence \(RTBI\) configuration from the Data Classification \(com.glide.data\_classification\) plugin.
 
-## Deprecations
+### What's deprecated or removed
 
 The CTI Demo Data for HRSD \(com.sn\_hr\_cti\_demo\) plugin is being deprecated. Use Workflow Studio instead.
-
-## Activation information
-
-Case and Knowledge Management is a ServiceNow AI Platform feature that is available with activation of the Human Resources Scoped App: Core \[com.sn\_hr\_core\]. See  for more information.
-
-## Related ServiceNow applications and features
-
--   ****
-
-    The ServiceNow® Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly.
-
-
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/hr-service-delivery-landing.md)
 

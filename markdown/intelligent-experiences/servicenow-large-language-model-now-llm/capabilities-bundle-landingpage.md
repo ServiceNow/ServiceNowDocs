@@ -242,16 +242,16 @@ For more information about configuring sources for skill or AI agent use, see th
 
 |Skill|Reference|
 |-----|---------|
-|App generation|[General guidelines for using Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-guidelines.md)|
+|App generation||
 |Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/example-questions-generating-dv.md)|
 |Catalog item generation|[How to describe a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/how-to-describe-catalog-item.md)|
-|Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/scripts/general-guidelines-code-generation.md)|
+|Code generation||
 |Flow generation| |
-|LLM topic skill for Virtual Agent|[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-llm-instruction-guidelines.md)|
+|LLM topic skill for Virtual Agent||
 |AI Skill Kit|[General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
-|RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-bot-generation.md)|
-|Test generation|[Design considerations for prompting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tg-prompt-design-considerations.md)|
-|UI generation|[General guidelines UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/general-guidelines-ui-generation.md)|
+|RPA bot generation|General guidelines for RPA bot generation|
+|Test generation||
+|UI generation||
 
 **Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md)
 

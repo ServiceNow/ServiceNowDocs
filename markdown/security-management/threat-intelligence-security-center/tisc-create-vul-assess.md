@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [Working with automated flows, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Create vulnerability assessment for zero day
@@ -50,6 +50,10 @@ Role required:
 
 
 [Automated IOC Enrichment]()
+
+[Automated sharing of high-risk IOC's with trusted partners]()
+
+[Automatically add threat intelligence to a TAXII collection]()
 
 [Analyze, assess, and disseminate observables]()
 

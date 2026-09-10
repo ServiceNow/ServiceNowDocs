@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/use-ai-filter-assist.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working on records in your Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

@@ -1,6 +1,6 @@
 ---
 title: AWS hardware type pattern-based discovery
-description: Discovery and Service Mapping Patterns finds Amazon EC2 instance types on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds Amazon EC2 instance types on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-hardware-type-pattern.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # AWS hardware type pattern-based discovery
 
-Discovery and Service Mapping Patterns finds Amazon EC2 instance types on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds Amazon EC2 instance types on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery uses the Amazon AWS - Hardware Type \(LP\) pattern to discover AWS EC2 instance types from your AWS account.
 

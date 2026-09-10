@@ -1,9 +1,9 @@
 ---
 title: ServiceNow AI Lens release notes
-description: With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
+description: With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-03-19"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
 
-## ServiceNow AI Lens highlights for the Yokohama release
+## About ServiceNow AI Lens
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -33,17 +33,30 @@ With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can
 -   Provide specific instructions to ServiceNow AI Lens on what to do with the data that it captures.
 -   Get insights from multiple images so that you know what actions to do next.
 
-See  for more information.
+See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-landing-page.md) for more information.
+
+## Activation and other requirements
 
 **Important:** ServiceNow AI Lens is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
 
--   **Auto-fill the Catalog Item form in the Service Portal**
+    ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-sn-lens.md).
+
+
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
+
+## January 2026
+
+With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
+
+### What's new
+
+-   **[Auto-fill the Catalog Item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-record-in-the-service-portal.md)**
 
     Fill the Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto-fills the relevant fields in the form.
 
--   **Handle post-processing in the standalone mode**
+-   **[Handle post-processing in the standalone mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-actions.md)**
 
     The following fields have been added to handle post-processing timeout for previewing data in the standalone mode:
 
@@ -54,88 +67,82 @@ See  for more information.
     Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from artifacts and auto-fill forms on your mobile device.
 
 
--   **ServiceNow AI Lens UI enhancement**
+### What's changed
 
-    Use ServiceNow AI Lens to launch the scanner window by using the context defined in Lens actions or as a standalone application. You can preview the gathered insights or extracted data. You can also see the logged-in user and instance details.
-
--   **Use Lens actions to customize Lens behavior**
-    -   Define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. With Lens actions, you can customize how a classic form is auto-filled. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the ServiceNow AI Lens execution.
-
-        For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a table. You can also define form fields that must be used as context.
-
-    -   As part of your integration logic, configure a Lens action as one of the steps to invoke a ServiceNow AI Lens service from any part of the ServiceNow AI Platform, such as a workspace form or portal.
--   **Use ServiceNow AI Lens in Virtual Agent**
-
-    Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow AI Lens topic in Virtual Agent.
-
--   **Auto-attach images to a record**
-
-    View captured images that are automatically attached to the record that is auto-filled using ServiceNow AI Lens. You can view the images to understand the source of the auto-filled information.
-
--   **New third-party AI model provider options available for all Now Assist applications**
-
-    Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
-
-
--   **Capture data**
-
-    Get actionable insights from such visual data as images, handwritten notes and forms, emails, websites, and applications. For example, ServiceNow AI Lens can scan an email to gather data for auto-filling the fields on the Incident form.
-
--   **Act on visual data**
-
-    Provide instructions to Now Assist on what to do with the captured data. For example, you can convert the extracted data into a JSON format.
-
--   **Launch from ServiceNow forms**
-
-    Launch ServiceNow AI Lens from a form to fill the extracted data automatically into the form fields.
-
--   **Use as a standalone application**
-
-    Use ServiceNow AI Lens as a standalone application for previewing extracted data when you're connected to a ServiceNow instance.
-
-
-## UI changes
-
--   **Changes in the scanner window UI**
+-   **[Changes in the scanner window UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-record-sn-lens.md)**
 
     The UI of the scanner window has been changed. See the following image.\[Omitted image "lens-scanner-new-ui.png"\] Alt text: Screenshot of the Lens scanner new UI.
 
     When you open the scanner window, the toolbar is displayed outside of it. However, when you maximize the window, the toolbar moves inside.
 
 
-## Changed in this release
-
--   **Changes to Now Assist usage measurement**
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **Some Now Assist skills are turned on by default**
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
-## Activation information
+## September 2025
 
-ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see .
+With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
 
-## Related ServiceNow applications and features
+### What's new
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[ServiceNow AI Lens UI enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-explore.md)**
 
-    Help improve productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
+    Use ServiceNow AI Lens to launch the scanner window by using the context defined in Lens actions or as a standalone application. You can preview the gathered insights or extracted data. You can also see the logged-in user and instance details.
 
--   ****
+-   **[Use Lens actions to customize Lens behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-actions.md)**
+    -   Define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. With Lens actions, you can customize how a classic form is auto-filled. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the ServiceNow AI Lens execution.
 
-    The AI Admin Hub console provides you with quick and easy access to the important information that you must set up, configure, and monitor in Now Assist applications and features.
+        For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a table. You can also define form fields that must be used as context.
 
--   ****
+    -   As part of your integration logic, configure a Lens action as one of the steps to invoke a ServiceNow AI Lens service from any part of the ServiceNow AI Platform, such as a workspace form or portal.
+-   **[Use ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enabling-lens-for-virtual-agent.md)**
 
-    Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including content summarization in Docs.
+    Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow AI Lens topic in Virtual Agent.
+
+-   **[Auto-attach images to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-actions.md)**
+
+    View captured images that are automatically attached to the record that is auto-filled using ServiceNow AI Lens. You can view the images to understand the source of the auto-filled information.
 
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
+## August 2025
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
+With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
+
+### What's new
+
+-   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+
+
+## May 2025
+
+With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
+
+### What's new
+
+-   **[Capture data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-explore.md)**
+
+    Get actionable insights from such visual data as images, handwritten notes and forms, emails, websites, and applications. For example, ServiceNow AI Lens can scan an email to gather data for auto-filling the fields on the Incident form.
+
+-   **[Act on visual data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-explore.md)**
+
+    Provide instructions to Now Assist on what to do with the captured data. For example, you can convert the extracted data into a JSON format.
+
+-   **[Launch from ServiceNow forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-explore.md)**
+
+    Launch ServiceNow AI Lens from a form to fill the extracted data automatically into the form fields.
+
+-   **[Use as a standalone application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-explore.md)**
+
+    Use ServiceNow AI Lens as a standalone application for previewing extracted data when you're connected to a ServiceNow instance.
+
 

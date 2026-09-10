@@ -28,7 +28,7 @@ This procedure explains the Product Offering Category tab. To set up categories 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering you are working with.
 

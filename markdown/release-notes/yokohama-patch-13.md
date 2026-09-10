@@ -50,7 +50,7 @@ Yokohama Patch 13 includes fixes for security-related problems that affected cer
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
--   ****
+-   **[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)**
     -   **glide.rest.sampling.enabled**
 
         Enables request sampling from scripted REST API resources. REquest samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.

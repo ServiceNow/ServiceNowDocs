@@ -35,6 +35,7 @@ To open the dashboard, select **View insights** for Data Foundations on the CMDB
 |----|-----------|
 |sn\_cmdb\_admin|Required to access the Data Foundations dashboard.|
 |sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.|
+|sn\_cmdb\_editor|Provides the same dashboard access as sn\_cmdb\_user, with write access on CMDB records outside the application.|
 
 ## Use cases
 

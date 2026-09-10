@@ -1,18 +1,18 @@
 ---
-title: Set up a highlighted value in a form header in CSM Configurable Workspace
-description: You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
+title: Set up a highlighted value in a form header in CRM Workspace
+description: You can configure fields that appear as highlighted values in a form header in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-highlight-value.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Set up a highlighted value in a form header in CSM Configurable Workspace
+# Set up a highlighted value in a form header in CRM Workspace
 
-You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
+You can configure fields that appear as highlighted values in a form header in CRM Workspace.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a highlighted value, you must link it to a highlighted value configuration if you want it to appear in CSM Configurable Workspace.
+After creating a highlighted value, you must link it to a highlighted value configuration if you want it to appear in CRM Workspace.
 
-**Note:** You can also use highlighted values from CSM Agent Workspace in CSM Configurable Workspace if you link the value to the highlighted value configuration.
+**Note:** You can also use highlighted values from CSM Agent Workspace in CRM Workspace if you link the value to the highlighted value configuration.
 
-One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighted Value Config**, is included with CSM Configurable Workspace. You can use this configuration out of the box without completing any additional configuration steps.
+One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighted Value Config**, is included with CRM Workspace. You can use this configuration out of the box without completing any additional configuration steps.
 
 ## Procedure
 

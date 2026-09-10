@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d615066e78">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d615156e78">
 
 Method
 
-</th><th align="left" id="d615066e81">
+</th><th align="left" id="d615156e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d615066e87">
+</th></tr></thead><tbody><tr><td id="d615156e87">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d615066e131">
+</td></tr><tr><td id="d615156e131">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d615066e191">
+</td></tr><tr><td id="d615156e191">
 
 **Using platform view**
 

@@ -22,7 +22,7 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 Technicians and managers can view and manage scheduled walk-up appointments from Walk-up Experience in the application navigator, or left navigation bar.
 
-**Note:** Primary access is through CSM Configurable Workspace for all Walk-up Experience related information, including scheduled appointments.
+**Note:** Primary access is through CRM Workspace for all Walk-up Experience related information, including scheduled appointments.
 
 Upcoming appointments also display with a small calendar icon next to the user name on the onsite walk-up location queue wall monitor. The user with an appointment appears on the monitor a short time before the appointment is scheduled to begin.
 

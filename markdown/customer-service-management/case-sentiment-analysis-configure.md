@@ -85,9 +85,9 @@ The sentiment analysis feature uses the following fields to display sentiment pr
 -   Current sentiment
 -   Sentiment over time
 
-Add the sentiment fields to Case list views and to the Case form for CSM Configurable Workspace, CSM Agent Workspace, and Core UI.
+Add the sentiment fields to Case list views and to the Case form for CRM Workspace, CSM Agent Workspace, and Core UI.
 
--   In CSM Configurable Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md).\)
+-   In CRM Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md).\)
 -   In CSM Agent Workspace, these fields appear in the Case form header.
 -   In Core UI, these fields appear on the Case form.
 

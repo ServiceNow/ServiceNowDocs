@@ -26,7 +26,7 @@ You can change the default price list selection logic by using the Price List De
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

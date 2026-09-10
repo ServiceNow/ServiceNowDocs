@@ -124,7 +124,7 @@ Paris
 |Test|Description|Release version|
 |----|-----------|---------------|
 |CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using itil user role.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, associated records such as change tickets, and settings such as CMDB views \(relationship filters\), displayed for a specific CI in relationship formatter using itil user role.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, and associated records displayed for a specific CI in relationship formatter using itil user role.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|

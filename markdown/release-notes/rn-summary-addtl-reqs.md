@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-addtl-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -26,6 +26,14 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Skill Kit
+
+</td><td>
+
+The Next Experience UI Framework must be enabled to use the Now Assist panel.
+
+</td></tr><tr><td>
+
 AIOps LEAP
 
 </td><td>
@@ -34,14 +42,6 @@ You should have the following dependencies installed:
 
 -   Now Assist for Platform
 -   Now Assist for Creator \(optional\)
-
-</td></tr><tr><td>
-
-Advanced AI Search Management Tools
-
-</td><td>
-
-You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 </td></tr><tr><td>
 
@@ -73,57 +73,9 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
-
-</td></tr><tr><td>
-
-Now Assist Skill Kit
-
-</td><td>
-
-The Next Experience UI Framework must be enabled to use the Now Assist panel.
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-Check your entitlements to determine whether you have access to the ServiceNow Otto for App Engine application.
-
-</td></tr><tr><td>
-
-Now Assist for Customer Service Management \(CSM\)
-
-</td><td>
-
-The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-Now Assist for Field Service Management \(FSM\)
-
-</td><td>
-
-The ServiceNow Otto for FSM application requires Field Service Management.
-
-</td></tr><tr><td>
-
-Now Assist for Financial Services Operations \(FSO\)
-
-</td><td>
-
-The ServiceNow Otto for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-Now Assist for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-The ServiceNow Otto for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
 
 </td></tr><tr><td>
 
@@ -132,22 +84,6 @@ Now Assist for IT Operations Management \(ITOM\)
 </td><td>
 
 The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-The Now Assist for SAM application requires the Software Asset Management Pro plus or the Enterprise plus license.
 
 </td></tr><tr><td>
 
@@ -259,6 +195,70 @@ You must have Microsoft Outlook 2019 or a later version to use ServiceNow Add-in
 
 </td></tr><tr><td>
 
+ServiceNow Otto for App Engine
+
+</td><td>
+
+Check your entitlements to determine whether you have access to the ServiceNow Otto for App Engine application.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+The ServiceNow Otto for FSM application requires Field Service Management.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+The ServiceNow Otto for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+The Now Assist for SAM application requires the Software Asset Management Pro plus or the Enterprise plus license.
+
+</td></tr><tr><td>
+
 ServiceNow SDK
 
 </td><td>
@@ -289,7 +289,7 @@ Synthetic monitoring
 
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see .
+-   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/proxy-agent.md).
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 

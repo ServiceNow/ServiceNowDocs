@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-03-18"
 reading_time_minutes: 18
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Front-line case page
@@ -21,13 +21,13 @@ The Front-line case page focuses on the essential functionality that front-line 
 -   Viewing related information
 -   Searching for knowledge articles
 
-The Front-line case page is included with the CSM Configurable Workspace application.
+The Front-line case page is included with the CRM Workspace application.
 
 \[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
 
 ## Front-line case page variant
 
-The Front-line case page variant is included with the CSM Configurable Workspace application. This variant includes the following settings.
+The Front-line case page variant is included with the CRM Workspace application. This variant includes the following settings.
 
 <table id="table_zqv_lvv_q1c"><thead><tr><th>
 
@@ -81,7 +81,7 @@ For more information, see [Learn about audiences](https://raw.githubusercontent.
 
 ## Roles
 
-The CSM Configurable Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CSM Configurable Workspace.
+The CRM Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CRM Workspace.
 
 The Front-line case page variant includes the CSM - Front-line Agent audience, which includes the sn\_cwf\_wrkspc.frontline\_agent role.
 

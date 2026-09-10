@@ -18,10 +18,10 @@ Use the ServiceNow AI Platform® security to secure the instance, encrypt your d
 The ServiceNow® Authentication application supports many authentication mechanisms that enable you to validate the identity of users. Authentication was enhanced and updated in the Yokohama release.
 -   **[Encryption Key Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/encryption-key-mgmt-rn.md)**  
 The ServiceNow® Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Yokohama release.
+-   **[Identity release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/identity-rn.md)**  
+The ServiceNow® Identity application supports identity mechanisms that enable you to validate the identity of users. Identity was enhanced and updated in the Yokohama release.
 -   **[Code Signing release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/code-signing-rn.md)**  
 The Code Signing application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Yokohama release.
--   **[]()**  
-
 -   **[Data Privacy release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/data-privacy-rn.md)**  
 The ServiceNow® Data Privacy application enables you to classify sensitive data, remove personally identifiable information \(PII\) from user data in a production instance, and anonymize data in production and non-production instances. Data Privacy was enhanced and updated in the Yokohama release.
 -   **[Domain Separation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/domain-separation-rn.md)**  

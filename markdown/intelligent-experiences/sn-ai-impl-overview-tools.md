@@ -35,7 +35,7 @@ Roles and responsibilities:
 
     The AI asset \(or product\) owner is responsible for driving the development and delivery of AI-powered products, ensuring alignment with business goals and user needs. They define product vision, manage feature prioritization, and translate business requirements into technical deliverables.
 
--   **[AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md)**
+-   **AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]**
 
     The AI Risk and Compliance Manager is tasked with identifying, assessing, and mitigating risks related to AI use within the enterprise. This role ensures AI compliance with laws, regulations, and internal standards while addressing issues such as bias, privacy, and transparency.
 
@@ -47,7 +47,7 @@ Roles and responsibilities:
 For more information about these tools, see:
 
 -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
--   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
+-   
 -   [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md)
 
 ## Data management
@@ -133,7 +133,7 @@ For more information about these tools and features, see:
     -   [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md)
     -   [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md)
     -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md)
-    -   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
+    -   
 -   [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 ## Agentic AI
@@ -212,12 +212,12 @@ Roles and responsibilities:
 
 For more information about these tools, see:
 
--   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md)
-    -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)
-    -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)
-    -   [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md)
-    -   [Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/na-va-llm-slack.md)
+-   
     -   
--   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
+    -   
+    -   
+    -   
+    -   
+-   
 -   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md)
 

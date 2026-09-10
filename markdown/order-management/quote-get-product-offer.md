@@ -26,7 +26,7 @@ When you're working on a draft quote and adding or updating products, product of
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Quotes** &gt; **All** and select the quote that you want to work on.
 

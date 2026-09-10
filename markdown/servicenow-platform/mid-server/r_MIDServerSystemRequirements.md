@@ -40,7 +40,7 @@ Use these minimum system requirements to allocate resources for computers hostin
 
     -   Linux Red Hat 6 and above
     -   Ubuntu 1404 \(Ubuntu 14\) and above
-    -   CentOS 7 and above
+    -   CentOS 9 and above
 
 **Note:** ServiceNow no longer supports new installations of 32-bit MID Servers or upgrades to version Rome. New MID Server installation are blocked through RPM and MSI installer on the following operating systems:
 
@@ -66,14 +66,13 @@ In order to connect, the MID Server requires access to:
 
 -   \*.service-now.com or &lt;instance\_name&gt;.service-now.com
 -   install.service-now.com
--   http://ocsp.entrust.net
 -   http://ocsp.digicert.com \(or other CA OCSP Responder\)
 
 **Note:** OCSP responder URLs use HTTP by design, not HTTPS. Allow outbound HTTP traffic to these addresses so the MID Server can reach OCSP responder endpoints.
 
 While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires \(for example, if its associated private key may have been compromised\). Therefore, the current validity of a website’s certificate must always be checked by clients regardless of its expiry date.
 
-Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP Entrust and DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
+Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
 ## PowerShell requirements \(Windows only\)
 

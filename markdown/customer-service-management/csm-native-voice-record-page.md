@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-03-17"
 reading_time_minutes: 11
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # CSM voice interaction record page
@@ -16,7 +16,7 @@ The CSM voice interaction record page provides a component that customers can us
 
 \[Omitted image "voice-interaction-record-page.png"\] Alt text: CSM voice interaction record page with the Interaction Controls Component and Customer History component displayed in the side panel.
 
-The CSM voice interaction record page enables CCaaS providers to display native voice integrations in CSM Configurable Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
+The CSM voice interaction record page enables CCaaS providers to display native voice integrations in CRM Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
 
 -   Accept calls directly from the agent inbox.
 -   Manage call transfers and conferences.
@@ -88,7 +88,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The CSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The CSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ For more information about the integration with CCaaS providers, see the followi
 
 ## Customer History component
 
-The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
+The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md) plugin, which is activated as part of the CRM Workspace application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
@@ -291,11 +291,11 @@ The action bar component contains the actions available to users while working o
 -   **Save**: Save changes to the interaction record.
 -   **More Actions**: Perform additional actions such as creating a request or associating a related record.
 
-The CSM voice interaction record page supports actions from the following Customer Service Management and CSM Configurable Workspace plugins:
+The CSM voice interaction record page supports actions from the following Customer Service Management and CRM Workspace plugins:
 
 -   Customer Service \(com.sn\_customerservice\)
 -   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
--   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
 -   CSM Workspace \(com.snc.agent\_workspace.csm\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)

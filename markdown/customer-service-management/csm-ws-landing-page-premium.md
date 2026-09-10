@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [CSM Configurable Workspace landing pages, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # CSM Landing Page - Premium
@@ -20,10 +20,10 @@ The CSM Landing Page - Premium includes components that display case information
 
 The CSM Landing Page - Premium is available with the following plugins:
 
--   CSM Configurable Workspace \(sn\_csm\_wrkspc\)
+-   CRM Workspace \(sn\_csm\_wrkspc\)
 -   Performance Analytics - Content Pack - Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)
 
-**Note:** Upgrade customers who haven’t customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Yokohama release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page must manually accept the Yokohama landing page.
+**Note:** Upgrade customers who haven’t customized the existing CRM Workspace landing page are automatically upgraded to the landing page available with the Yokohama release. Upgrade customers who have customized the existing CRM Workspace landing page must manually accept the Yokohama landing page.
 
 \[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 

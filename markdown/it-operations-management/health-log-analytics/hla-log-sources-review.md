@@ -1,6 +1,6 @@
 ---
 title: Verify your log sources
-description: Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
+description: Verify that all your log sources are present and active after Health Log Analytics assigns logs to service instances and components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-log-sources-review.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics 
 
 # Verify your log sources
 
-Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
+Verify that all your log sources are present and active after Health Log Analytics assigns logs to service instances and components.
 
 ## Before you begin
 

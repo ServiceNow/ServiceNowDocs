@@ -33,15 +33,15 @@ Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servic
 
 1.  Perform any of the following tasks to install the ServiceNow Otto for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d117697e113">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d118899e113">
 
 Option
 
-</th><th align="left" id="d117697e116">
+</th><th align="left" id="d118899e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117697e122">
+</th></tr></thead><tbody><tr><td id="d118899e122">
 
 **From Now Assist Admin**
 
@@ -54,7 +54,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d117697e184">
+</td></tr><tr><td id="d118899e184">
 
 **From System Applications**
 

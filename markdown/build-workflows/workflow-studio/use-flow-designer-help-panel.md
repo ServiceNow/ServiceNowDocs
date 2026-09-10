@@ -22,7 +22,7 @@ Role required: admin, flow\_designer, or delegated\_developer
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  In the Workflow Studio landing page's main header, select the question mark icon \(\[Omitted image "fd-help-panel-icon.png"\] Alt text: Help panel question mark icon\) to open the help panel.
 

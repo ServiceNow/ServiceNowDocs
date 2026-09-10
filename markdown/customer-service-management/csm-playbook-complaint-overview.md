@@ -16,9 +16,9 @@ Use the Case Playbook for Complaints to guide agents through the steps that are 
 
 A complaint case captures the information about the customer, the product, and the details about the complaint. The complaint playbook provides the activities and tasks that agents can perform to research and resolve the complaint. Agents can also create and assign tasks as needed and use the playbook to communicate with the customer.
 
-The Case Playbook for Complaints can be used with cases that are created using the complaint case type. This playbook is available for both CSM Configurable Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
+The Case Playbook for Complaints can be used with cases that are created using the complaint case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
 
-**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CSM Configurable Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
+**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
 
 ## Case Playbook for Complaints application
 
@@ -83,7 +83,7 @@ Feature that displays the following information in the contextual side panel:
 -   Ribbon information, such as the case overview, customer details, timeline, and SLAs
 -   Dynamic related records
 
-**Note:** The activity stream and ribbon information are available in CSM Configurable Workspace only.
+**Note:** The activity stream and ribbon information are available in CRM Workspace only.
 
  For more information about using the contextual side panel, see
 
@@ -110,7 +110,7 @@ Compact mode
 
 </td><td>
 
-Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CSM Configurable Workspace only.
+Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CRM Workspace only.
 
  Users with the admin role can configure a playbook to use the compact mode in the playbook component configuration in UI Builder. For more information about configuring this feature, see Integrate Playbook with Workspace.
 
@@ -128,7 +128,7 @@ Feature that displays the records in the contextual side panel. These records dy
 -   Open the list in a new tab
 -   Create records
 
-**Note:** The dynamic related records feature is available in CSM Configurable Workspace only.
+**Note:** The dynamic related records feature is available in CRM Workspace only.
 
  For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
@@ -470,7 +470,7 @@ Activity that displays the details of the email that was automatically sent to t
 </td></tr></tbody>
 </table>## Process-based page variant for complaint case type
 
-The Case Playbook for Complaints v5.0 application includes a process-based page variant that you can activate and use with the complaint case type in CSM Configurable Workspace. This page includes the following features:
+The Case Playbook for Complaints v5.0 application includes a process-based page variant that you can activate and use with the complaint case type in CRM Workspace. This page includes the following features:
 
 -   Horizontal stage picker in the record that provides an end-to-end view of the complaint process.
 -   Related list tabs that are displayed in the Dynamic Related Records component in the contextual side panel.

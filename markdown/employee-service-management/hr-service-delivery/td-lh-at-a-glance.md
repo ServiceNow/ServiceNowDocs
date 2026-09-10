@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2024-10-07"
 reading_time_minutes: 1
-breadcrumb: [Exploring Leader Hub, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # At a glance page

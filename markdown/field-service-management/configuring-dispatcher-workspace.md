@@ -76,7 +76,7 @@ The steps for setting up Dispatcher Workspace are:
 
 14. [Customize Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/dispatch-work-ui-builder.md)
 
-    Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
+    Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
 
 
 **Related topics**  

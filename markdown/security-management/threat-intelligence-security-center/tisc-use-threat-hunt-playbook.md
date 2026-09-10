@@ -167,5 +167,5 @@ Adds the selected techniques and its matrix and tactic metadata to the case desc
 
 [Associate MITRE Techniques to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.md)
 
-[Create case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-task.md)
+[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-task.md)
 

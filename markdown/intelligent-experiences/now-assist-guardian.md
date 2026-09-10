@@ -351,12 +351,12 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)
+
 
 </td><td>
 
--   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/alert-summarization-now-assist.md)
--   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/nai-analyze-past-incidents.md)
+-   Alert analysis
+-   Alert investigation
 
 </td></tr><tr><td>
 
@@ -364,19 +364,19 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md)
+
 
 </td><td>
 
--   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-risk-exp-now-assist.md)
--   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/summarize-change-now-assist.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-incident-assist.md)
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/summarize-incident-now-assist.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/resolve-incident-now-assist.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
+-   Change request risk explanation
+-   Change request summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Incident assist
+-   Incident summarization
+-   KB generation
+-   Resolution notes generation
+-   Sidebar discussion summarization
 
 </td></tr><tr><td>
 
@@ -399,16 +399,16 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
+
 
 </td><td>
 
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/feedback-summary-sentiment-topics.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-documents-genai-skill-spw.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-doc-content-genai-skill-pw.md)
--   [Project summary emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/email-project-summary-skill-pw.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+-   Multi feedback summarization
+-   Planning item doc summarization
+-   Project doc summarization
+-   Project summary emails
+-   Story generation
+-   Write planning item
 
 </td></tr><tr><td>
 
@@ -416,17 +416,17 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-case.md)
--   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-chat-reply-recommendations.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-email-reply-recommendations.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-generate-resolution.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/summarize-sidebar-conversations.md)
+-   Case summarization
+-   Chat recommendation
+-   Chat summarization
+-   Email recommendation
+-   KB generation
+-   Resolution notes generation
+-   Sidebar summarization
 
 </td></tr><tr><td>
 
@@ -434,13 +434,13 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
+
 
 </td><td>
 
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-generate-kb-article.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/generate-wot-summ-fsm.md)
+-   KB generation
+-   Sidebar summarization
+-   Work order task summarization
 
 </td></tr><tr><td>
 
@@ -448,12 +448,12 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/summarize-case-using-now-assist-fso.md)
--   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+-   Case summarization
+-   Disputes intake via Virtual Agent
 
 </td></tr><tr><td>
 
@@ -474,11 +474,11 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
+
 
 </td><td>
 
-[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)
+Incident summarization
 
 </td></tr><tr><td>
 
@@ -486,14 +486,14 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-summarize-case.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-chat.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-res-note.md)
+-   Case summarization
+-   Chat summarization
+-   KB generation
+-   Resolution notes generation
 
 </td></tr><tr><td>
 
@@ -501,11 +501,11 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
+
 
 </td><td>
 
-[Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
+Legal request summarization
 
 </td></tr><tr><td>
 
@@ -513,12 +513,12 @@ Employee
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-now-assit-landing.md)
+
 
 </td><td>
 
--   [Contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-NA-review-land.md)
--   [Contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-metadata-extract-land.md)
+-   Contract analysis
+-   Contract metadata extraction
 
 </td></tr><tr><td>
 
@@ -526,7 +526,7 @@ Creator
 
 </td><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)
+
 
 </td><td>
 

@@ -30,7 +30,7 @@ Role required: admin
 
     The script fetches data from all the SolarWinds APIs, and stores the data in the respective directories.
 
-3.  After the data is loaded in your high-secure server, transfer the data to your low-secure server using a method of your choice, such as SFTP.
+3.  After the data is loaded in your high-secure server, transfer the `data_source` directories and contents to the corresponding directories in your low-secure server using a method of your choice \(such as SFTP or SCP\).
 
 4.  Verify that the data is loaded in your low-secure server.
 

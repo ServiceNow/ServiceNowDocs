@@ -35,15 +35,15 @@ Role required: admin
 
 2.  Access the guided setup in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d223803e128">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d223914e128">
 
 Option
 
-</th><th align="left" id="d223803e131">
+</th><th align="left" id="d223914e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d223803e137">
+</th></tr></thead><tbody><tr><td id="d223914e137">
 
 **Using Get started button**
 
@@ -53,7 +53,7 @@ Steps
 2.  Select the Guided Setup version you want to implement on your instance.
 
 
-</td></tr><tr><td id="d223803e158">
+</td></tr><tr><td id="d223914e158">
 
 **Using Guided tab option**
 

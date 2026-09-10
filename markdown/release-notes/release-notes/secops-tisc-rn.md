@@ -1,9 +1,9 @@
 ---
 title: Threat Intelligence Security Center release notes
-description: The ServiceNow Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.
+description: The ServiceNow Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.The ServiceNow Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.The ServiceNow Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.
 
-## Threat Intelligence Security Center highlights for the Yokohama release
+## About Threat Intelligence Security Center
 
 -   Integrate with Microsoft Defender to enable Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs from TISC to Microsoft Defender.
 -   Added creation of security incident directly from a TISC case with an option to associate observable artifacts to the security incident.
@@ -22,11 +22,28 @@ The ServiceNow® Threat Intelligence Security Center application empowers your o
 
 See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/tisc-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
 
--   **[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/tisc-ms-defender-integration.md)**
+    Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    -   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
+
+        The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
+
+## Yokohama Early Availability
+
+The ServiceNow® Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Microsoft Defender for EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/tisc-ms-defender-integration.md)**
 
     Integration with the Microsoft Defender for EDR allows Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs to Microsoft Defender for continuous monitoring and real-time alerting.
 
@@ -39,7 +56,11 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
     Duplicate threat intelligence feeds to create an exact copy of the existing feed.
 
 
-## Changed in this release
+## Yokohama
+
+The ServiceNow® Threat Intelligence Security Center application empowers your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Yokohama release.
+
+### What's changed
 
 -   **[Courses of Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/course-of-action.md)**
 
@@ -49,22 +70,4 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
 
     Renamed Inbound Filtering Rules to Inbound Data Exclusion Rules.
 
-
-## Activation information
-
-Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
-
-    The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
-
-
-## Related ServiceNow applications and features
-
--   **[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/threat-intel-landing-page.md)**
-
-    The ServiceNow Threat Intelligence application displays indicators of compromise \(IoC\) and enables you to enrich security incidents with threat intelligence data.
-
-
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/nav-chart-to-list-2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Configure a navigation from a chart to a list screen, Chart screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,11 +22,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Mobile** &gt; **Mobile App Builder**.
 
-    The Mobile App Builder
+    The Mobile App Builder opens in a new browser tab and displays the application scope selection screen.
 
 2.  Search for the application scope you are working in and then select the name of the application scope.
 
-    The Mobile App Builder
+    The Mobile App Builder categories home screen displays.
 
 3.  Select the **Functions** category, and then select **New**.
 
@@ -137,7 +137,7 @@ Specifies an additional attribute for a button. Select **New** to configure this
  -   **alerts\_require\_dismissal**: The button attribute when set to true enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
 -   **used\_for\_deeplink**: The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to true triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
--   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to true, any field in the URL string, is checked against the ACL \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is not checked against the ACL for backward compatibility.
+-   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to true, any field in the URL string, is checked against the ACL \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is checked against the ACL for backward compatibility. To opt-out of the check, mark the parameter as false.
 
 
 </td></tr><tr><td>

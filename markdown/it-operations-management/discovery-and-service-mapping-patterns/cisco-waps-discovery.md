@@ -1,6 +1,6 @@
 ---
 title: Cisco Switch Wireless Access Point \(WAP\) discovery
-description: The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cisco-waps-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Cisco Switch Wireless Access Point \(WAP\) discovery
 
-The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 This extension extends the Network Switch discovery pattern. For more information, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
 

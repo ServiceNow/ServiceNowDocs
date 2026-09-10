@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Otto for Customer Service Management \(CSM\) release notes
-description: The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 10
+reading_time_minutes: 11
 ---
 
 # ServiceNow Otto for Customer Service Management \(CSM\) release notes
 
 The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
 
-## ServiceNow Otto for CSM highlights for the Yokohama release
+## About ServiceNow Otto for Customer Service Management \(CSM\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -48,9 +48,30 @@ Yokohama Early Availability
 
 See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for CSM is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+    Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
+
+    Starting with Xanadu Patch 7, Customer Service Management AI agent collection is supported.
+
+-   **Additional requirements**
+
+    The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
+
+
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Enabled the is\_template property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
 
@@ -59,6 +80,13 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
 -   **Access Sentiment analysis dashboard in Core UI**
 
     Defined the navigation path in Sentiment Analysis dashboard in the Core UI interface to make it easier for users to locate and access sentiment analysis data without searching through multiple menus.
+
+
+## December 2025
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Sentiment trends analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/use-sentiment-analysis-dashboard.md)**
 
@@ -81,6 +109,46 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
     Configure output fields for resolution notes through the Now Assist context menu configuration page so skills apply to extended tables without any additional setup.
 
 
+### What's changed
+
+-   **[Enhancement in case summarization skill flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-summarization-generation-in-now-assist.md)**
+
+    The **Define trigger** step has been added to the case summarization flow. This step enables admins to choose between the User Trigger option, where users select a button to generate a summary, and the Automatic Trigger option, where summaries are automatically generated based on specified conditions.
+
+-   **[Enhancement in email reply recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-email-reply-recommendations.md)**
+
+    Generate reply suggestions in the compose area using preset templates that include headers, footers, and signatures.
+
+-   **[Unified admin experience for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
+
+    Skills cloned in AI Admin Hub console can now be edited in Now Assist Skill Kit. This update unifies the admin experience across AI Admin Hub and Now Assist Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
+
+-   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+
+    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
+-   **[Display sentiment scale in case list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
+
+    Added sentiment scoring to both the case record page and list view across cases, giving agents immediate visibility into the emotional tone of customer interactions. The sentiment scale ranges from very positive, positive, neutral, negative to very negative.
+
+
+## October 2025
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Multilingual Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-supporting-info.md)**
+
+    Enhanced multilingual support in chat summarization, resolution notes, and knowledge generation. Leveraged native multilingual LLMs for improved fluency and domain specificity, addressing translation inconsistencies across Tier 1 and Tier 2 languages.
+
+
+## September 2025
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **[Triage cases agentic workflow security directives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-resolving-use-case.md)**
 
     Implement security on AI agents and agentic workflows through ACLs and user identities.
@@ -90,7 +158,11 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
     Implement security in ServiceNow Otto for CSM skills through ACLs and user identities.
 
 
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+## May 2025
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Sentiment analysis on a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
 
@@ -117,7 +189,22 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
     Gather context from cases, identify missed fixes, and troubleshoot potential solutions by using the Troubleshooting steps identification AI agent.
 
 
-[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+### What's changed
+
+-   **[Triage cases agentic workflows enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-resolving-use-case.md)**
+
+    Added new standalone AI agents to check duplicate cases and split some existing standalone AI agents to focus on more specific tasks. The AI agents available are the Triage cases planner AI agent, Context validator and analyzer agent, Duplicate identifier AI agent, Informational queries AI agent, Transactional queries AI agent, Case creation AI agent, Entity extraction AI agent, Document verification AI agent, and Email response AI agent.
+
+-   **[Now Assist in Portal case form enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)**
+
+    Added the new **Ask Now Assist** button that opens a contextual chat window so that a requester can carry the conversation forward. If no results are found or if the requester isn’t satisfied with the result, they can get further assistance by selecting the button to chat and get an answer, which helps to avoid case creation.
+
+
+## Yokohama General Availability
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Triage cases AI agents use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-ai-agents-use-cases.md)**
 
@@ -128,7 +215,11 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
     |Triage cases|Use AI agents to handle all routine cases coming in through email and other offline channels, so that it improves customer satisfaction and reduces resolution times.|
 
 
-Yokohama Early Availability
+## Yokohama Early Availability
+
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Conversational search in the Now Assist panel with results from knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-conversational-search-in-now-assist-panel.md)**
 
@@ -143,46 +234,7 @@ Yokohama Early Availability
     Guide requesters through a self-service flow to find solutions to their problems by using Genius Results. You can reduce the number of cases created and decrease the effort required by your agents to close open cases.
 
 
-## Changed in this release
-
--   **[Enhancement in case summarization skill flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-summarization-generation-in-now-assist.md)**
-
-    The **Define trigger** step has been added to the case summarization flow. This step enables admins to choose between the User Trigger option, where users select a button to generate a summary, and the Automatic Trigger option, where summaries are automatically generated based on specified conditions.
-
--   **[Enhancement in email reply recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-email-reply-recommendations.md)**
-
-    Generate reply suggestions in the compose area using preset templates that include headers, footers, and signatures.
-
--   **[Unified admin experience for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
-
-    Skills cloned in AI Admin Hub console can now be edited in Now Assist Skill Kit. This update unifies the admin experience across AI Admin Hub and Now Assist Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
-
--   **Role configuration required for agentic workflows and AI agents**
-
-    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
-
--   **[Display sentiment scale in case list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
-
-    Added sentiment scoring to both the case record page and list view across cases, giving agents immediate visibility into the emotional tone of customer interactions. The sentiment scale ranges from very positive, positive, neutral, negative to very negative.
-
-
--   **[Multilingual Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-supporting-info.md)**
-
-    Enhanced multilingual support in chat summarization, resolution notes, and knowledge generation. Leveraged native multilingual LLMs for improved fluency and domain specificity, addressing translation inconsistencies across Tier 1 and Tier 2 languages.
-
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   **[Triage cases agentic workflows enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-resolving-use-case.md)**
-
-    Added new standalone AI agents to check duplicate cases and split some existing standalone AI agents to focus on more specific tasks. The AI agents available are the Triage cases planner AI agent, Context validator and analyzer agent, Duplicate identifier AI agent, Informational queries AI agent, Transactional queries AI agent, Case creation AI agent, Entity extraction AI agent, Document verification AI agent, and Email response AI agent.
-
--   **[Now Assist in Portal case form enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)**
-
-    Added the new **Ask Now Assist** button that opens a contextual chat window so that a requester can carry the conversation forward. If no results are found or if the requester isn’t satisfied with the result, they can get further assistance by selecting the button to chat and get an answer, which helps to avoid case creation.
-
-
-Yokohama Early Availability
+### What's changed
 
 -   **[Email reply recommendations enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-email-reply-recommendations.md)**
 
@@ -196,43 +248,6 @@ Yokohama Early Availability
     -   Added parity with the chat summarization AI Admin Hub console capabilities. The AI Admin Hub console can specify the portal and channels for chat reply recommendations and assign additional support roles.
 -   **[Case summarization enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)**
 
-    Detailed feedback option is now available for negative feedback \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: thumbs down icon in the generated case summary.
+    Detailed feedback option is now available for negative feedback \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: thumbs down icon in the generated case summary.Xanadu Patch 7: Extended the capabilities of the case summarization feature so it can now be used on custom tables.
 
-    Xanadu Patch 7: Extended the capabilities of the case summarization feature so it can now be used on custom tables.
-
-
-## Activation information
-
-Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see .
-
-Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
-
-Starting with Xanadu Patch 7, Customer Service Management AI agent collection is supported.
-
-## Additional requirements
-
-The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
-
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   ****
-
-    Use the AI Admin Hub console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   ****
-
-    Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   ****
-
-    Use the Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Mobile Platform release notes
-description: The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
+description: The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 ---
@@ -12,14 +12,61 @@ reading_time_minutes: 6
 
 The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
 
-## Mobile Platform highlights for the Yokohama release
+## About Mobile Platform
 
 -   Write and refine text with the Now Assist Context Menu.
 -   Use enhanced capabilities within the input form screen.
 
 See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-config-navigation.md) for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
+
+-   **Activation information**
+
+    ServiceNow mobile Mobile Platform is a ServiceNow AI Platform® feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    The following accessibility updates are available in Mobile Card Builder:
+
+    -   Updated alternative text on key images to better support users who rely on screen readers.
+    -   Enhanced the focus indicator on the Mobile Card Builder home page to improve navigation for users relying on keyboards or Assistive Technology \(AT\).
+    -   Improved accessible names to provide clear and descriptive labels for interactive elements to support screen readers and other AT.
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
+
+## May 2025
+
+The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Web to mobile AI card creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/web-mobile-component-conversion.md)**
+
+    Use Now Assist to create a new mobile card for use on a record screen created using the Web to Mobile functionality. Now Assist will automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
+
+-   **[Agentic AI in Mobile Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/agentic-ai-mobile-va.md)**
+
+    Use AI agents in your mobile app to boost live agent productivity. AI agents handle tasks from automated responses to complex problem-solving with human-like intelligence.
+
+-   **[ServiceNow Otto in the Virtual Agent mobile client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-va.md)Mobile Virtual Agent&gt;**
+
+    Use the following enhancement added to Virtual Agent:
+
+    -   Enhanced chat offers a more robust conversational experience. Check the status of previous and on-going chats with the chat history button and view Now Assist’s responses with streamlined in-line citations. Enhanced chat also allows you to use your custom mobile search configuration to launch the standard search results page from within enhanced chat.
+    -   Use Now Assist’s people match function to search for information about a specific employee.
+    -   Now Assist can now suggest follow-up actions for your queries using the next best action feature.
+    -   Updated UI for choice list pickers and other actions for improved usability.
+    -   Added multi-language support.
+
+## Yokohama
+
+The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Now Assist Context Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-context-menu-mobile.md)**
 
@@ -47,25 +94,8 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     See your mobile content change in real-time with live previews for most mobile components. The mobile interface changes according to what component you have selected, and updates when you add, change, or remove UI-based elements.
 
--   **[Web to mobile AI card creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/web-mobile-component-conversion.md)**
 
-    Use Now Assist to create a new mobile card for use on a record screen created using the Web to Mobile functionality. Now Assist will automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
-
--   **[Agentic AI in Mobile Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/agentic-ai-mobile-va.md)**
-
-    Use AI agents in your mobile app to boost live agent productivity. AI agents handle tasks from automated responses to complex problem-solving with human-like intelligence.
-
--   **[ServiceNow Otto in the Virtual Agent mobile client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-va.md)Mobile Virtual Agent&gt;**
-
-    Use the following enhancement added to Virtual Agent:
-
-    -   Enhanced chat offers a more robust conversational experience. Check the status of previous and on-going chats with the chat history button and view Now Assist’s responses with streamlined in-line citations. Enhanced chat also allows you to use your custom mobile search configuration to launch the standard search results page from within enhanced chat.
-    -   Use Now Assist’s people match function to search for information about a specific employee.
-    -   Now Assist can now suggest follow-up actions for your queries using the next best action feature.
-    -   Updated UI for choice list pickers and other actions for improved usability.
-    -   Added multi-language support.
-
-## UI changes
+### What's changed
 
 -   **[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md)**
 
@@ -76,8 +106,6 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     -   The right-hand panel is now visible when a record is opened in a preview browser tab.
     -   Component recommendations available for additional record types.
     -   The card selection and preview screens in the Web to Mobile flow have been consolidated to create a more streamlined user experience. This allows for the ability to generate previews using the different card options and jump back and forth between them to review.
-
-## Changed in this release
 
 -   **[Input form screen enhancement and changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/parameter-input-screen.md)**
 
@@ -107,18 +135,4 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     In mobile client versions 19.4 and later, you can turn off Zero Trust Access banners on mobile screens. Turning off these banners can enhance usability of your mobile apps because the banner does not display each time the connection state changes so end users are not interrupted by the banner display. You can configure this behavior by setting the **disableZTABanner** mobile property on your ServiceNow instance.
 
-
-## Activation information
-
-ServiceNow mobile Mobile Platform is a ServiceNow AI Platform® feature that is active by default.
-
-## Accessibility information
-
-The following accessibility updates are available in Mobile Card Builder:
-
--   Updated alternative text on key images to better support users who rely on screen readers.
--   Enhanced the focus indicator on the Mobile Card Builder home page to improve navigation for users relying on keyboards or Assistive Technology \(AT\).
--   Improved accessible names to provide clear and descriptive labels for interactive elements to support screen readers and other AT.
-
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

@@ -1,6 +1,6 @@
 ---
 title: AWS Storage Gateway Gateway pattern-based discovery
-description: Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-gateway-gateway.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # AWS Storage Gateway Gateway pattern-based discovery
 
-Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 

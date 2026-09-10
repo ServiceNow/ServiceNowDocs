@@ -1,20 +1,20 @@
 ---
-title: Discovery Admin Workspace data visualizations
-description: The Overview tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
+title: Schedule details data visualizations
+description: When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The Overview tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/r\_dawScheduleDetailsOverview.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery Admin Workspace data visualizations
+# Schedule details data visualizations
 
-The **Overview** tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
+When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The **Overview** tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
 
 <table id="table_cb2_yjv_fsb"><thead><tr><th>
 

@@ -99,7 +99,7 @@ Learn how to enable the suggested steps generation in the CSM Workspace after sk
 
 Role required: admin
 
-After activating the Suggested steps generation feature in the AI Admin Hub console, follow the steps outlined to make the skill available in CSM Configurable Workspace.
+After activating the Suggested steps generation feature in the AI Admin Hub console, follow the steps outlined to make the skill available in CRM Workspace.
 
 ### Procedure
 

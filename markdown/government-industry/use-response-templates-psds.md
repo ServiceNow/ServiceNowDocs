@@ -1,6 +1,6 @@
 ---
 title: Use response templates in Service Request Playbook
-description: Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work.
+description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/use-response-templates-psds.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using the contextual side panel in Public Sector Digital Services S
 
 # Use response templates in Service Request Playbook
 
-Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work.
+Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Selecting the response templates icon \[Omitted image "response-template-icon.pn
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, open a service request task.
+1.  In the CRM Workspace, open a service request task.
 
 2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
 

@@ -1,6 +1,6 @@
 ---
 title: Customize an order summarization skill in ServiceNow Otto for Order Management
-description: If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
+description: If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CRM Workspace and in Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Configure, ServiceNow Otto for Order Management]
 
 # Customize an order summarization skill in ServiceNow Otto for Order Management
 
-If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
+If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CRM Workspace and in Platform.
 
 ## Before you begin
 

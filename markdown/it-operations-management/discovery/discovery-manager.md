@@ -48,7 +48,7 @@ As you complete each configuration phase, the tabs at the top of the Discovery M
 
 The Service Account Field Options \[service\_account\_field\_options\] table contains fields to modify the labels in Discovery Manager. These fields enable you to customize the Discovery Manager to handle new service providers or to alter existing labels to meet internal policies. For example, the Microsoft Azure account ID label is Microsoft Azure Subscription GUID by default. You can change it to Subscription ID, to Account ID, or to anything else based on your needs.
 
-## Select a service account and test your credentials
+## Select a service account and test credentials
 
 Specify your cloud provider and select the service account to discover. You can include one or all available sub-accounts on a schedule. Provide the credentials for the cloud service account and test the connection.
 
@@ -70,19 +70,21 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Discovery** &gt; **Home**, and then click **Discover Cloud Resources** in the Welcome screen.
+1.  Navigate to **All** &gt; **Discovery** &gt; **Home**.
 
-    **Note:** The Welcome screen contains a link to the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-quick-start.md). This wizard is designed to quickly set up a basic Discovery. You can use Quick Start to evaluate Discovery or to explore new network devices, but the guide is not intended for discovering cloud resources.
+2.  Select **Discover Cloud Resources** in the Welcome screen.
 
-    If the system cannot detect an appropriate MID Server, you are prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md). This notification is also displayed if an existing MID Server is not available because it is upgrading.
+    **Note:** The Welcome screen includes a link to the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-quick-start.md). Quick Start sets up a basic Discovery for evaluating the product or exploring new network devices. It is not intended for discovering cloud resources.
+
+    If the system can't detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md). This notification is also displayed if an existing MID Server is not available because it is upgrading.
 
     \[Omitted image "CloudDiscoNoMIDs.png"\] Alt text: Notification that no MID Servers were found.
 
-2.  In the Basic Info pane of the Discovery Manager, select the name of your cloud provider in the **Provider** field, such as **AWS** or **Azure**.
+3.  In the Basic Info pane of the Discovery Manager, select the name of your cloud provider in the **Provider** field, such as **AWS** or **Azure**.
 
     The wizard displays a count of the validated and available MID Servers in the MID Servers pane.
 
-3.  If you're using AWS, Azure, or GCP, you can specify the MID Server selection type in the **MID Selection Type** field.
+4.  If you're using AWS, Azure, or GCP, you can specify the MID Server selection type in the **MID Selection Type** field.
 
     **Note:** AWS and Azure selection is only available after migration to pattern-based Discovery. For more information, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
 
@@ -92,7 +94,7 @@ The default timeout value is 300000 milliseconds or 5 minutes.
     -   **Specific MID Server**: The wizard uses the MID Server specified in the **MID Server** field. To filter and view MID Servers that are configured to assume an IAM role for discovering cloud resources, select the **Credential-Less Discovery** option.
     \[Omitted image "MIDSelection.png"\] Alt text: MID server selection.
 
-4.  If no MID Server has the Cloud Management capability, click **Configure MID Servers** and configure one appropriately.
+5.  If no MID Server has the Cloud Management capability, select **Configure MID Servers** and configure one appropriately.
 
     1.  Navigate to **MID Servers** &gt; **Capabilities**.
 
@@ -100,15 +102,15 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
         You can also select **ALL**, which includes Cloud Management by default.
 
-    3.  In the MID Servers related list, click **Edit** and then add your MID Servers to the capability.
+    3.  In the MID Servers related list, select **Edit** and then add your MID Servers to the capability.
 
-    4.  Click **Save**.
+    4.  Select **Save**.
 
         Your MID Servers are ready to communicate with your cloud service accounts.
 
-5.  In the **Schedule Name** field, enter a unique and descriptive name for the schedule.
+6.  In the **Schedule Name** field, enter a unique and descriptive name for the schedule.
 
-6.  In the Service Accounts pane, select an existing account for the newly named schedule.
+7.  In the Service Account pane, choose whether you want to add an account or select an existing account.
 
     If you select an existing account, the system auto-completes the form with the available information. If you add an account, you must provide the account ID, credentials, and URL, if applicable. For VMware, you must specify the URL.
 
@@ -118,35 +120,35 @@ The default timeout value is 300000 milliseconds or 5 minutes.
     -   The [VMware account ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/vmware-create-creds-cloud-mgt.md) is the virtual machine instance UUID.
     **Note:** VMware discovery can run without a service account. To discover VMware resources, configure the schedule to run on the IP address of the vCenter server.
 
-7.  Select the credentials for this cloud service account or add new credentials.
+8.  Select the credentials for this cloud service account or add new credentials.
 
-    1.  To add a credential, click the plus icon \(**+**\).
+    1.  To add a credential, select the plus icon \(**+**\).
 
     2.  Select the appropriate cloud credential type from the list.
 
-    3.  Complete the form and click **Save**.
+    3.  Complete the form and select **Save**.
 
         **Note:** You can configure AWS to generate temporary credentials for service accounts. This capability eliminates the need to define some credentials on the instance, and it can increase security on your member accounts \(sub-accounts\). For details, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/access-aws-accounts.md).
 
-8.  To validate the account with the provided details, click **Test Account**.
+9.  To validate the account with the provided details, select **Test Account**.
 
-    Messages in the header bar notify you of the validation results. If you specified a management account and the connection test was successful, then the wizard displays a selection screen for any members accounts \(sub-accounts\) that are associated with the management account. By default, all current member accounts are selected for the schedule and cannot be moved to the Available list.
+    Messages in the header bar notify you of the validation results. If you specified a management account and the connection test was successful, then the wizard displays a selection screen for any members accounts \(sub-accounts\) that are associated with the management account. By default, all current member accounts are selected for the schedule and can't be moved to the Available list.
 
     **Note:**
 
-    If the validation process does not return any sub-accounts or any sub-accounts that you added recently, click **Refresh Members** or rerun the validation process. If validation times out repeatedly, increase the timeout interval in the **cdu.record.watcher.timeout** MID Server property.
+    If the validation process does not return any sub-accounts or any sub-accounts that you added recently, select **Refresh Members** or rerun the validation process. If validation times out repeatedly, increase the timeout interval in the **cdu.record.watcher.timeout** MID Server property.
 
     \[Omitted image "CloudDiscoSubAccounts.png"\] Alt text: Selecting what sub-accounts to include in the schedule.
 
-9.  To select specific sub-accounts for the schedule, deactivate the auto-select feature.
+10. To select specific sub-accounts for the schedule, deactivate the auto-select feature.
 
     By default, all sub-accounts are selected. To disable the feature and to permit the selection of specific datacenters to discover, slide the toggle switch to the left.
 
     \[Omitted image "CloudDiscoDeselectSubAccounts.png"\] Alt text: Disabling the auto-select feature for sub-accounts.
 
-10. To exclude a sub-account, drag the sub-account from the Selected list to the Available list.
+11. To exclude a sub-account, drag the sub-account from the Selected list to the Available list.
 
-11. Select **Next**.
+12. Select **Next**.
 
 
 ## Select a cloud provider datacenter to discover

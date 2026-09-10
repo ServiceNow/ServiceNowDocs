@@ -1,9 +1,9 @@
 ---
 title: Application Vulnerability Response release notes
-description: The ServiceNow Application Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Application Vulnerability Response is included as part of the ServiceNow Vulnerability Response application. Application Vulnerability Response was enhanced and updated in the Yokohama release.
+description: The ServiceNow Application Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Application Vulnerability Response is included as part of the ServiceNow Vulnerability Response application. Application Vulnerability Response was enhanced and updated in the Yokohama release.The ServiceNow Application Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Application Vulnerability Response is included as part of the ServiceNow Vulnerability Response application. Application Vulnerability Response was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-05-28"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Application Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Application Vulnerability Response is included as part of the ServiceNow® Vulnerability Response application. Application Vulnerability Response was enhanced and updated in the Yokohama release.
 
-## Application Vulnerability Response highlights for the Yokohama release
+## About Application Vulnerability Response
 
 -   Monitor your penetration test requests and findings, as well as your team's overall progress in the Penetration Test Workspace.
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a specific set of application vulnerable items in the Vulnerability Manager Workspace.
@@ -24,14 +24,25 @@ The ServiceNow® Application Vulnerability Response application brings security 
 
 See [Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/avr-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Application Vulnerability Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Application Vulnerability Response to Yokohama
+-   **Activation information**
 
--   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/secops-vuln-resp-rn.md).
--   For more information about the released versions of the Application Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Xanadu release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+    Install Application Vulnerability Response by requesting it from the ServiceNow Store. Application Vulnerability Response is included as a part of the Vulnerability Response application. The Software Bill of Materials applications require a separate subscription. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Yokohama release
+-   **Upgrade information**
+    -   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/secops-vuln-resp-rn.md).
+    -   For more information about the released versions of the Application Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Xanadu release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Application Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Application Vulnerability Response is included as part of the ServiceNow® Vulnerability Response application. Application Vulnerability Response was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Enhancements to Application Vulnerability Response**
 
@@ -101,10 +112,4 @@ See [Application Vulnerability Response](https://raw.githubusercontent.com/Servi
 
     Starting with v25.0.3 of Application Vulnerability Response, the system property **sn\_sec\_cmn.risk\_score\_changes\_add\_worknotes** is inactive by default. If you enable it, only then you can see all the changes related to the risk score of an application vulnerable item in the Work notes section. Additionally, the work notes are updated only if there’s a change in the risk score.
 
-
-## Activation information
-
-Install Application Vulnerability Response by requesting it from the ServiceNow Store. Application Vulnerability Response is included as a part of the Vulnerability Response application. The Software Bill of Materials applications require a separate subscription. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
 

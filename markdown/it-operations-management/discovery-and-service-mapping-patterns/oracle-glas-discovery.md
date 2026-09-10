@@ -398,7 +398,7 @@ SYS.DBA\_MINING\_MODELS
     4.  Repeat for each target virtual machine.
 -   **For large-scale or high-volume environments: You can enable Oracle GLAS V2 data collection**
 
-    To use V2 database data collection instead of the default V1 method, set the **sn\_itom\_pattern.enable\_large\_env\_glas\_data\_collection** system property to **true**. For more information about V2, see the "Oracle GLAS Data Collection V2" section. For instructions, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
+    To use V2 database data collection instead of the default V1 method, set the **sn\_itom\_oracleglas.enable\_large\_env\_glas\_data\_collection** system property to **true**. For more information about V2, see the "Oracle GLAS Data Collection V2" section. For instructions, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
 
 
 ## V1 database CI relationships

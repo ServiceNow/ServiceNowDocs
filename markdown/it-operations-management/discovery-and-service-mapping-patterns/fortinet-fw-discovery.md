@@ -1,6 +1,6 @@
 ---
 title: Next-Generation Fortinet Network Firewall SNMP-based discovery
-description: The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall pattern to find Fortinet firewalls through a series of SNMP calls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall pattern to find Fortinet firewalls through a series of SNMP calls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Next-Generation Fortinet Network Firewall SNMP-based discovery
 
-The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall pattern to find Fortinet firewalls through a series of SNMP calls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall pattern to find Fortinet firewalls through a series of SNMP calls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Next Generation Fortinet Network Firewall pattern uses a set of SNMP calls to find the Fortinet firewalls. Discovery uses the pattern to run horizontal discovery.
 

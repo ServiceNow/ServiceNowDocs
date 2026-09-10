@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Import Threat Intelligence, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Import data using raw text
@@ -84,6 +84,19 @@ Enter the expiry period for the imported records.**Note:** This is a mandatory f
 
 </td></tr><tr><td>
 
+Add Observable\(s\) to security Control List
+
+</td><td>
+
+Select this option to add observables to the appropriate security control list. This option allows you to directly add the observables to a security control list while importing.
+
+The available options in the drop-down list are:-   Allow list
+-   Deny list
+-   None
+The default option is **None**.
+
+</td></tr><tr><td>
+
 Add Tags
 
 </td><td>
@@ -130,7 +143,7 @@ Select the taxonomy for the imported data. Using taxonomies, define dictionaries
 12. Click **Go Back** to go back to the previous page and review the record, if necessary.
 
 
-**Parent Topic:**[Import Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 **Related topics**  
 

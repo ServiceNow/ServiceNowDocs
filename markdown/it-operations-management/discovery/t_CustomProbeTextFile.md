@@ -1,5 +1,5 @@
 ---
-title: Example: Custom Discovery probe to populate a CI from a text file
+title: Custom Discovery probe to populate a CI from a text file
 description: This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/t\_CustomProbeTextFile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-09-16"
+last_updated: "2026-08-07"
 reading_time_minutes: 2
 breadcrumb: [Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Example: Custom Discovery probe to populate a CI from a text file
+# Custom Discovery probe to populate a CI from a text file
 
 This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 

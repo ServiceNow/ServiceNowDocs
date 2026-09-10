@@ -54,15 +54,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d141702e258">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d141704e258">
 
 Option
 
-</th><th align="left" id="d141702e261">
+</th><th align="left" id="d141704e261">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141702e267">
+</th></tr></thead><tbody><tr><td id="d141704e267">
 
 **Skill is always available**
 
@@ -70,7 +70,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d141702e276">
+</td></tr><tr><td id="d141704e276">
 
 **Customize skill availability**
 
@@ -83,15 +83,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d141702e312">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d141704e312">
 
 Option
 
-</th><th align="left" id="d141702e315">
+</th><th align="left" id="d141704e315">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141702e321">
+</th></tr></thead><tbody><tr><td id="d141704e321">
 
 **In-product desktop**
 
@@ -99,7 +99,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d141702e332">
+</td></tr><tr><td id="d141704e332">
 
 **Now Assist panel**
 

@@ -16,7 +16,7 @@ You can use playbooks to create cases and to complete the tasks and activities t
 
 **Note:** Verify that the Information Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-information-request-playbook.md).
 
-By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CSM Configurable Workspace.
+By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CRM Workspace.
 
 -   Intake
 -   Review
@@ -43,7 +43,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ### Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the CRM Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

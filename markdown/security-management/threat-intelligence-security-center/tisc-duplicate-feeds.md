@@ -1,20 +1,20 @@
 ---
 title: Duplicate threat intelligence feeds
-description: Duplicating a threat feed allows you to create an exact copy of an existing feed, including all associated observables, indicators, actors, and so on.
+description: Duplicate a threat feed to create an exact copy with all associated observables, indicators, and actors when you want to modify settings without affecting the original feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-04-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Threat Intelligence Feeds, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Duplicate threat intelligence feeds
 
-Duplicating a threat feed allows you to create an exact copy of an existing feed, including all associated observables, indicators, actors, and so on.
+Duplicate a threat feed to create an exact copy with all associated observables, indicators, and actors when you want to modify settings without affecting the original feed.
 
 ## Before you begin
 
@@ -24,17 +24,19 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select the **Integrations** icon.
 
 3.  Select the desired integration from the **Catalog** view.
 
     For example, select CrowdStrike
 
-4.  Click **Edit** button for CrowdStrike feed card to open the configuration form.
+4.  Select the **Edit** button for CrowdStrike feed card to open the configuration form.
 
-5.  Click the **More Actions** menu and select **Duplicate**.
+5.  Make the necessary changes, as required.
 
-    A confirmation is displayed indicating that the duplicated the current feed configuration and created a new feed with name \[integrationname Feed-copy\] with a link to the new duplicated feed. For example, CrowdStrike Feed-copy.
+6.  Select the **More Actions** menu and select **Duplicate**.
+
+    A confirmation appears indicating that the current feed configuration was duplicated and a new feed was created with the name \[`integrationname Feed-copy`\]. For example, CrowdStrike Feed-copy.
 
 
 **Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)

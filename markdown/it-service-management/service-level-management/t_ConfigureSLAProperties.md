@@ -118,7 +118,7 @@ Enable compatibility with 2010 'breached' status of SLAs \(default: false\)
 
 </td><td>
 
-The name of the Script Include class that will be used to evaluate SLA Conditions for the 2011 SLA engine \(use to override with your own extension of the SLAConditionBase class\)
+The name of the Script Include class used to evaluate SLA Conditions for the 2011 SLA engine \(use to override with your own extension of the SLAConditionBase class\).
 
  -   Type: String
 -   Default value: SLAConditionBase
@@ -129,14 +129,34 @@ The name of the Script Include class that will be used to evaluate SLA Condition
 
 </td><td>
 
-An update to a Task can result in an SLA being attached that is already breached - for example when an Incident that has already been open for a while is upgraded to a high priority with a short resolution SLA.
+An update to a Task can result in an SLA being attached that is already breached. For example, when an incident that has already been open for a while is upgraded to high priority with a short resolution SLA.
 
- By default if there is a workflow specified in the SLA Definition it will not run if the Task SLA is attached and the Planned End Time has already passed.
+ By default, if there is a workflow specified in the SLA Definition, the workflow doesn't run when the Task SLA is already breached at the time it attaches.
 
- Enable this property if you would like the workflow to run for a Task SLA that is already breached when it is attached to the Task.
+ Enable this property if you would like the workflow to run for a task SLA that is already breached when it is attaches to the task.
 
  -   Type: true \| false
 -   Default value: false
+
+</td></tr><tr><td>
+
+**com.snc.sla.flow.run\_for\_breached**
+
+</td><td>
+
+An update to a task can result in an SLA being attached that is already breached. For example, when an incident that has already been open for a while is upgraded to high priority with a short resolution SLA.
+
+By default, if there is a flow specified in the SLA Definition, the flow doesn't run when the task SLA is already breached at the time it attaches.
+
+Enable this property if you would like the flow to run for a task SLA that is already breached when it attaches to the task.
+
+This property isn't present in the base system. To use it, create it manually. Navigate to **All** &gt; **System Properties** &gt; **All Properties**, and then select **New**. Add the following details:
+
+-   **Name** = `com.snc.sla.flow.run_for_breached`
+-   **Type** = `true | false`
+-   **Value** = `true`
+
+The property value is read at run time by the `TaskSLAFlowSNC` script include.
 
 </td></tr><tr><td>
 
@@ -175,7 +195,7 @@ Recalculate Task SLA records when a Task form is displayed. This ensures that th
 
 </td><td>
 
-When this property is set to true, the business fields such as Business elapsed time will be populated with the same values as those in the actual fields when there is no schedule specified on the Task SLA.
+When set to true, business fields such as **Business elapsed time** are populated with the same values as in actual fields when no schedule is specified on the Task SLA.
 
  If the property is false, the business fields will be empty when a Task SLA has no schedule.
 

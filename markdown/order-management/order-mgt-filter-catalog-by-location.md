@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Select **Customer Orders** &gt; **All**, then choose the order you want to work with.
 

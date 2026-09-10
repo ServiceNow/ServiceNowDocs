@@ -28,7 +28,9 @@ RCA maps the alerts and change requests to the CIs. It proceeds to calculate the
 
 By default, the list shows the five probable root causes with the highest score. It lists the CIs related to each alert, and the reason RCA identified them as probable root causes.
 
-Each probable root cause includes a reason that explains how RCA correlated the alert with the change request. The reason can indicate that the change request was applied directly to the CI that generated the alert, to a CI in the affected CIs list, to a related CI, to an application service, or to software installed on the CI or related infrastructure. RCA identifies installed software by using the `cmdb_software_instance` table.
+Each probable root cause includes an explanation on how RCA correlated the alert with the change request. The reason can indicate that the change request was applied directly to the CI that generated the alert. It can also indicate the change was applied to a CI in the affected CIs list, to a related CI, or to an application service. The change might also have been applied to software installed on the CI or related infrastructure.
+
+RCA identifies installed software by using the `cmdb_software_instance` table.
 
 For alert groups, RCA uses topology analysis to identify upstream CIs that might explain cascading failures in the group. Changes on these topology origin CIs receive higher priority in the probable root cause score.
 

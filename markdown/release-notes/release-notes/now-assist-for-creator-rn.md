@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Otto for Creator release notes
-description: The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-07-23"
-reading_time_minutes: 11
+reading_time_minutes: 10
 ---
 
 # ServiceNow Otto for Creator release notes
 
 The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
 
-## ServiceNow Otto for Creator highlights for the Yokohama release
+## About ServiceNow Otto for Creator
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -64,20 +64,64 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for Creator is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
+
+## February 2026
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's deprecated or removed
+
+-   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+
+## January 2026
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Build Agent, an autonomous AI agent for ServiceNow application development**
 
     Build Agent, located in a chat panel within the ServiceNow IDE, functions as an autonomous AI agent capable of independently generating a complete ServiceNow application. It can handle various code-related tasks, such as rewriting tables, explaining code, validating and improving existing applications, fixing application errors, and more.
 
--   **Generate catalog items conversationally with Now Assist in Catalog Builder**
+-   **[Generate catalog items conversationally with Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)**
 
     Create catalog items and record producers efficiently using the conversational interface within Catalog Builder. Communicate your requirements and specifications for your desired catalog items through guided conversation. Now Assist for catalog generation helps to simplify and streamline the catalog item creation process.
 
 
--   **New third-party AI model provider options available for Now Assist**
+### What's changed
+
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+
+    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+## August 2025
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[New third-party AI model provider options available for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md)**
 
     Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
@@ -94,6 +138,12 @@ See  for more information.
     -   RPA bot generation
     -   Spoke generation
     -   Test generation
+
+## May 2025
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Add columns to existing tables with Now Assist for app generation**
 
@@ -144,15 +194,15 @@ See  for more information.
     Choose Now LLM Service or OpenAI GPT-4o to ensure compliance with any regional restrictions. This feature is helpful for APAC users who may face limitations with US-based models, such as GPT-4.0.
 
 
+## Yokohama General Availability
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **Create applications in ServiceNow Studio by using Now Assist with the guided app creator role**
 
     Enable your users with the guided app creator role \(in addition to users with the admin role\) to create applications with the Now Assist for app generation skill.
-
--   **[Create and edit automations and activities and extend automation logic flow in RPA Desktop Design Studio by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-now-assist-studio.md)**
-
-    Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options. This feature helps you to accelerate automation development because new and existing users can develop and build faster automations.
-
-    Enhance the automation logic by using the **Build automation** option, starting from components or from an empty design surface that is based on text instructions.
 
 -   **Summarize an app in ServiceNow Studio**
 
@@ -163,7 +213,12 @@ See  for more information.
     Use the new Test generation skill to generate automated tests faster by simply describing your test requirements. Review the generated test, make edits directly, or refine your original prompt to generate a revised version of the test.
 
 
-## UI changes
+### What's changed
+
+-   **[Improved query engine for Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-assist-landing-page.md)**
+
+    Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
+
 
 -   **Find files faster when previewing an application in the Now Assist for app generation skill**
 
@@ -174,22 +229,24 @@ See  for more information.
     On the ServiceNow Studio home page, apps that are generated by AI display the AI indicator.
 
 
-## Changed in this release
+## Yokohama Early Availability
 
--   **Changes to Now Assist usage measurement**
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
 
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+### What's new
 
--   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
+-   **[Create and edit automations and activities and extend automation logic flow in RPA Desktop Design Studio by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-now-assist-studio.md)**
 
-    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+    Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options. This feature helps you to accelerate automation development because new and existing users can develop and build faster automations.
 
-    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
+    Enhance the automation logic by using the **Build automation** option, starting from components or from an empty design surface that is based on text instructions.
 
-    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
+## Yokohama
+
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
+
+### What's changed
 
 -   **More easily identify changes when previewing and updating applications**
 
@@ -199,58 +256,8 @@ See  for more information.
 
     When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
 
--   **More easily query Analytics Generation**
+-   **[More easily query Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-assist-landing-page.md)**
 
     Analytics Generation now uses a semantic filter instead of Natural Language Query \(NLQ\), resulting in less rigid requirements for queries.
 
-
--   **Improved query engine for Analytics Generation**
-
-    Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
-
-
-## Removed in this release
-
-[Yokohama Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12.md)
-
--   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
-
-## Activation information
-
-Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **App Engine Studio**
-
-    ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
-
--   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)**
-
-    Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
-
--   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md)**
-
-    Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
-
--   **MID Server**
-
-    The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn.md)**
-
-    Use AI recommendations to select the next component in your flow. The system generates recommendations based on the current position in the flow and the flow component names listed before.
-
--   **Process Automation Designer**
-
-    ServiceNow® Playbooks enables process owners to author cross-enterprise workflows and create a single, unified process. You can also use Playbooks to provide end users with a simplified, task-oriented view of your process.
-
--   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)**
-
-    Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
 

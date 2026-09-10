@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace form headers
-description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+title: CRM Workspace form headers
+description: Form headers in CRM Workspace provide a quick glance of case, account, or contact information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-form-headers.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form headers
+# CRM Workspace form headers
 
-Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+Form headers in CRM Workspace provide a quick glance of case, account, or contact information.
 
 Form headers include a primary value and several secondary values. You can configure the information included in the form header for the Case, Account, and Contact forms.
 
@@ -76,16 +76,16 @@ You can configure the form header to display secondary values either below the p
 
 \[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: Case form header that shows secondary values for case Account, Contact, Priority, and State in the Contextual side panel.
 
-See the following topics for more information about configuring form headers in CSM Configurable Workspace:
+See the following topics for more information about configuring form headers in CRM Workspace:
 
--   [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-header.md)
+-   [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-header.md)
 -   [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md)
 
-**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace.
+**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace.
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/using-ui-builder.md).
+For CRM Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/using-ui-builder.md).
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

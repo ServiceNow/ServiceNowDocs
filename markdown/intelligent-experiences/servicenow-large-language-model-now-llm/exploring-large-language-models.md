@@ -8,7 +8,7 @@ product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
 last_updated: "2025-06-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Enable AI experiences]
 ---
 
@@ -44,8 +44,8 @@ See [Manage large language models](https://raw.githubusercontent.com/ServiceNow/
 
 For more information on selecting and updating model providers, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
 
--   **[Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
-The Now LLM Service provides access to specialized large language models \(LLMs\) that are developed by ServiceNow. It also provides access to open-source LLMs that are selected, configured, or enhanced by ServiceNow, from the ServiceNow community and partners. Review these reference materials and model cards for additional information about the Now LLM Service and about the models used.
+-   **[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
+Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
 -   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
 When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
 -   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  

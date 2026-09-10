@@ -1,9 +1,9 @@
 ---
 title: Contract Management Pro for Legal Service Delivery release notes
-description: The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
+description: The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 ---
@@ -12,16 +12,31 @@ reading_time_minutes: 2
 
 The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
 
-## Contract Management Pro for Legal Service Delivery highlights for the Yokohama release
+## About Contract Management Pro for Legal Service Delivery
 
 -   Initiate and manage amendment requests for existing contracts.
 -   Record producer to initiate an amendment request from the Employee Center.
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    For details, see .
+
+
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lsd-rn-landing-page.md)
+
+## December 2025
+
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -36,23 +51,4 @@ See  for more information.
     -   Contract Requests: Displays all contract and amendment requests associated with the contract.
     -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
     -   Contract Documents: Provides access to all documents related to the contract, including those generated or updated as part of amendment processes. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and managing all related documents from a single location.
-
-## Activation information
-
-Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-For details, see .
-
-## Related ServiceNow applications and features
-
--   ****
-
-    Use the ServiceNow®Contract Management Pro application to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
-
--   ****
-
-    Use the ServiceNow® Now Assist application in the Contract Management application to analyze a contract for missing and non-standard clauses. It also enables you to review and add the information to the mapped fields in the contract repository, eliminating the need to manually update the contract repository.
-
-
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lsd-rn-landing-page.md)
 

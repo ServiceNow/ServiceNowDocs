@@ -103,6 +103,8 @@ Create a copy of an existing search profile. The cloned search profile retains s
 Publish a search profile to make pending changes to its settings take effect in linked search applications.
 -   **[Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/link-search-source-profile-ais.md)**  
 Link search sources to a search profile to specify the content users can search through that profile.
+-   **[Unlink a search source from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/unlink-search-source-profile-ais.md)**  
+Unlink search sources from a search profile to prevent their content from being searchable through that profile. Deleted search sources aren't automatically unlinked from search profiles.
 -   **[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/synonyms-ais.md)**  
 Synonyms expand search queries to include additional terms with equivalent meaning or usage. Improve search recall by configuring synonym dictionaries and defining synonyms.
 -   **[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/stop-words-ais.md)**  

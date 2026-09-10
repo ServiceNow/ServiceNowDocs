@@ -1,9 +1,9 @@
 ---
 title: Compliance Case Management release notes
-description: The ServiceNow Compliance Case Management application helps you to report, investigate, analyze, and resolve a compliance case or raise a compliance request in a centralized location. Compliance Case Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Compliance Case Management application helps you to report, investigate, analyze, and resolve a compliance case or raise a compliance request in a centralized location. Compliance Case Management was enhanced and updated in the Yokohama release.The ServiceNow Compliance Case Management application helps you to report, investigate, analyze, and resolve a compliance case or raise a compliance request in a centralized location. Compliance Case Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Compliance Case Management application helps you to report, investigate, analyze, and resolve a compliance case or raise a compliance request in a centralized location. Compliance Case Management was enhanced and updated in the Yokohama release.
 
-## Compliance Case Management highlights for the Yokohama release
+## About Compliance Case Management
 
 -   Empower compliance professionals to perform assessments on compliance cases using the Smart Assessment Engine.
 -   Utilize the unified **Tasks** page on Employee Center to complete your assessments.
@@ -20,9 +20,34 @@ The ServiceNow® Compliance Case Management application helps you to report, inv
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Compliance Case Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Compliance Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Accessibility improvements**
+
+        Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+
+    -   **Reflow**
+
+        The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Compliance Case Management application helps you to report, investigate, analyze, and resolve a compliance case or raise a compliance request in a centralized location. Compliance Case Management was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -33,7 +58,7 @@ See  for more information.
     As a business user, use the **Tasks** page on the Employee Center for a consolidated view of all your tasks, enabling you to access and complete them efficiently. This page provides an easy way to manage all your assessments in one place, enabling you to view and perform tasks seamlessly.
 
 
-## Changed in this release
+### What's changed
 
 -   **Roles updated for smart assessment**
 
@@ -43,25 +68,8 @@ See  for more information.
     -   sn\_comp\_case.compliance\_case\_analyst
     -   sn\_comp\_case.compliance\_case\_business\_user
     -   sn\_comp\_case.compliance\_case\_manager
--   ****
+-   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
 
     The Compliance Management configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
-
-## Activation information
-
-Install Compliance Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
--   **Accessibility improvements**
-
-    Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-    The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
-
-
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

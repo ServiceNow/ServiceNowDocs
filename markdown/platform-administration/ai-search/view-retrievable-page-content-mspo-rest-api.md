@@ -49,7 +49,7 @@ The upshot of this limitation is that pages built primarily with static text con
 
     2.  In the browser, navigate to `<site-url>/_api/web/lists?$select=ID,Title&$filter=Title%20eq%20%27Site%20Pages%27`, replacing `<site-url>` with your Microsoft SharePoint Online site URL.
 
-        If this request does not return an XML response describing the Site Pages list, navigate to `<site-url>/_api/web/lists?$select=ID,Title` instead, then find the entry for the Site Pages list in the unfiltered response.
+        If this request doesn't return an XML response describing the Site Pages list, navigate to `<site-url>/_api/web/lists?$select=ID,Title` instead, then find the entry for the Site Pages list in the unfiltered response.
 
     3.  In the XML response, locate the `<d:Id>` element and copy the list GUID given as its value.
 
@@ -63,7 +63,7 @@ The upshot of this limitation is that pages built primarily with static text con
 
         These fields contain the static content that the Microsoft SharePoint Online connector makes searchable when the page is retrieved.
 
-        **Note:** If the CanvasContent1 and WikiField metadata fields are missing or empty, the page is likely rendered entirely via dynamic web parts and does not contain static content that can be retrieved by the Microsoft SharePoint Online external content connector.
+        **Note:** If the CanvasContent1 and WikiField metadata fields are missing or empty, the page is likely rendered entirely via dynamic web parts and doesn't contain static content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 
 **Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/microsoft-sharepoint-online-external-content-connector.md)

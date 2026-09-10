@@ -45,7 +45,7 @@ The following diagram shows how a customer creates a case.
 **Related topics**  
 
 
-[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

@@ -42,7 +42,7 @@ After connecting an APM instance to Service Observability, map services in the C
 
 With this data mapping, Service Observability displays APM metrics for entities such as host or database along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
 
-For example, say you use Dynatrace to monitor your `checkout` service, and metrics from your database and host use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the APM data tagged with `checkout-service`, Service Observability retrieves metrics for those databases and hosts and CIs related to the service, then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
+For example, say you use Dynatrace to monitor your `checkout` service, and metrics from your database and host use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the APM data tagged with `checkout-service`, Service Observability retrieves metrics for those databases and hosts and CIs related to the service. It then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
 
 ## Service Observability users
 

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2024-08-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Leader Hub, Persona Based Experiences, HR Service Delivery, Employe
 The Leader Hub app provides organizational and HR leaders with visibility into their organization's talent so they can comprehensively understand the landscape of their workforce. This application helps leaders gauge their team's strengths and deficiencies to confirm their employees have the appropriate skills and expertise to succeed in the present and future.
 
 ## Leader Hub overview
+
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Leader Hub gives organizational leaders the tools to grasp their teams' capabilities, recognize skill gaps, and implement changes that support their workforce while advancing key business objectives.
 

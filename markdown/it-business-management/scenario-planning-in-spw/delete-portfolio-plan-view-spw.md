@@ -7,7 +7,7 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

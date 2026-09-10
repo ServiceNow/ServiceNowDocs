@@ -88,7 +88,7 @@ Loan admin
 
 </td><td>
 
-Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the loan workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Workflows

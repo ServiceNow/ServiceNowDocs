@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Add artifacts to case\(s\) or case task\(s\), Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Add artifacts to cases or case tasks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Show MITRE ATT&amp;CK Framework for a Case\(s\)
@@ -29,6 +29,8 @@ Select the required MITRE ATT&amp;CK matrix from the **Matrix** drop-down list. 
 3.  The framework displays the sub-techniques that are present under each technique. Expand each technique to view the sub-techniques.
 
 **Important:** In the framework, the techniques and sub-techniques that are associated with a case are highlighted.
+
+Each matrix in the **Matrix** drop-down list includes the MITRE ATT&amp;CK collection version that it was ingested from, for example Enterprise ATT&amp;CK \(v18.0\). The tactic counts and the highlighted techniques exclude any tactic and technique pair that MITRE has stopped mapping. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
 ## Procedure
 
@@ -62,5 +64,5 @@ Select the required MITRE ATT&amp;CK matrix from the **Matrix** drop-down list. 
     -   Select **Show Sub Techniques** to view all the sub-techniques. When you select this option, all the techniques are shown in the expanded view. The expanded view of the technique shows all the sub-techniques that are present for that corresponding technique.
     -   Select **Show Only Associated Techniques** to view only MITRE techniques that are associated with a case. When you select this option, each tactic shows the total number of associated techniques and sub-techniques.
 
-**Parent Topic:**[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
+**Parent Topic:**[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
 

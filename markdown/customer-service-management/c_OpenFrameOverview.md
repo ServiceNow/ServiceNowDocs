@@ -107,12 +107,12 @@ Select and drag the OpenFrame window header.
 
 </td></tr></tbody>
 </table>
-## Using OpenFrame in CSM Configurable Workspace
+## Using OpenFrame in CRM Workspace
 
-In the CSM Configurable Workspace, you can:
+In the CRM Workspace, you can:
 
 -   Integrate OpenFrame with the Interaction Management System \(IMS\) and interaction records. This enables agents to manage the phone interaction life cycle. For more information, see Integration with Interaction Management System \(IMS\).
--   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voicechannel. You would need to be enable this in the CSM Configurable Workspace to manage the voice channel. For more information, see [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component.md) and [Interaction Controls Component \(ICC\) call interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
+-   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voicechannel. You would need to be enable this in the CRM Workspace to manage the voice channel. For more information, see [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component.md) and [Interaction Controls Component \(ICC\) call interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 
 ## Creating an OpenFrame configuration
 

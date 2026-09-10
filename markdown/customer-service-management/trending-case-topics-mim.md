@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Add trending case topics to existing major cases
@@ -20,7 +20,7 @@ Role required: sn\_majorissue\_mgt.major\_issue\_manager
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **Lists** &gt; **Trending Case Topics** &gt; **Last 1 week**.
 

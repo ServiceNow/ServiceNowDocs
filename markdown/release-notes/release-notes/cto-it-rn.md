@@ -1,9 +1,9 @@
 ---
 title: Care Team Operations for Healthcare IT release notes
-description: The ServiceNow Care Team Operations for Healthcare IT application contains case types to report and fulfill healthcare IT issues as part of Healthcare Operations. Care Team Operations for Healthcare IT is a new application in the Yokohama release.
+description: The ServiceNow Care Team Operations for Healthcare IT application contains case types to report and fulfill healthcare IT issues as part of Healthcare Operations. Care Team Operations for Healthcare IT is a new application in the Yokohama release.The ServiceNow Care Team Operations for Healthcare IT application contains case types to report and fulfill healthcare IT issues as part of Healthcare Operations. Care Team Operations for Healthcare IT is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The ServiceNow® Care Team Operations for Healthcare IT application contains case types to report and fulfill healthcare IT issues as part of Healthcare Operations. Care Team Operations for Healthcare IT is a new application in the Yokohama release.
 
-## Care Team Operations for Healthcare IT highlights for the Yokohama release
+## About Care Team Operations for Healthcare IT
 
 -   Automate healthcare operations by enabling IT support request creation and fulfillment.
 -   Create IT support requests from directly within the Care Team Portal.
@@ -20,9 +20,22 @@ The ServiceNow® Care Team Operations for Healthcare IT application contains cas
 
 See [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-cto-it-app.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Care Team Operations for Healthcare IT is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Care Team Operations for Healthcare IT features
+-   **Activation information**
+
+    Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-life-sciences-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Care Team Operations for Healthcare IT application contains case types to report and fulfill healthcare IT issues as part of Healthcare Operations. Care Team Operations for Healthcare IT is a new application in the Yokohama release.
+
+### What's new
 
 -   **[Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcl-cto-it-case.md)**
 
@@ -36,17 +49,4 @@ See [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/S
 
     Care Team Operations for Healthcare IT links Healthcare IT cases and incidents, enabling care teams to get visibility into all IT cases reported by their team while also providing IT support teams with the ability to fulfill cases as incidents
 
-
-## Activation information
-
-Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-cto-app.md)**
-
-    ServiceNow® Healthcare Operations Core provides the foundation to enable hospitals to streamline and automate their operations by integrating with supporting service departments. It provides the Care Team Portal functionality for use with Care Team Operations for Healthcare IT.
-
-
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-life-sciences-rn-landing.md)
 

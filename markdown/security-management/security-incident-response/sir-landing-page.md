@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2025-03-17"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Enterprise security case management applications, Security Operations]
 ---
 

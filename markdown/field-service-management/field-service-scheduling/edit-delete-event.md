@@ -28,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d68011e81">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d68012e81">
 
 Option
 
-</th><th align="left" id="d68011e84">
+</th><th align="left" id="d68012e84">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d68011e90">
+</th></tr></thead><tbody><tr><td id="d68012e90">
 
 **Edit the event**
 
@@ -48,7 +48,7 @@ Actions
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d68011e120">
+</td></tr><tr><td id="d68012e120">
 
 **Delete the event**
 

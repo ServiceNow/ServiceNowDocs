@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -21,9 +21,9 @@ The Enrich Observable WhoIs workflow performs enrichment on selected observables
 -   **[Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md)**  
 Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name observable to determine whether it has been involved in a known data breach.
 -   **[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)**  
-The Whois integration enables you to submit Whois lookups on domain names and URLs to obtain context on URL observables, and to make better determination on threats.
+Submit Whois lookups on domain names and URLs to gather threat intelligence and assess potential security risks. Use this integration to obtain registration details, ownership information, and other contextual data for suspicious domains.
 -   **[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-shodan.md)**  
-Shodan is a search engine that analyzes service banner information from connected devices all around the globe.
+Configure Shodan integration to enable automated discovery and analysis of internet-connected devices in your network infrastructure.
 
 **Parent Topic:**[Run Enrichment operations in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-unified-experience-capabilities-and-modal-screens.md)
 

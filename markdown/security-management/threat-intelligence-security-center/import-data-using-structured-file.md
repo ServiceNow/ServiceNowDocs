@@ -7,9 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Import Threat Intelligence, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Import data using structured file
@@ -107,6 +107,19 @@ Expiry Period \(days\)
 
 Enter the expiry period for the imported records.**Note:** This is a mandatory field.
 
+</td></tr><tr><td>
+
+Add Observable\(s\) to security Control List
+
+</td><td>
+
+Select this option to add observables to the appropriate security control list. This option allows you to directly add the observables to a security control list while importing.
+
+The available options in the drop-down list are:-   Allow list
+-   Deny list
+-   None
+The default option is **None**.
+
 </td></tr><tr><td colspan="2">
 
 **Tags**
@@ -117,7 +130,7 @@ Add Tags
 
 </td><td>
 
-Use the tags to annotate or ear mark records ingested into the system from this source. Staart typing the tag name in the **Search** bar to choose the available tags in the system or enter new tag name and click **Add** to assign it to the source.
+Use the tags to annotate or ear mark records ingested into the system from this source. Start typing the tag name in the **Search** bar to choose the available tags in the system or enter new tag name and click **Add** to assign it to the source.
 
 </td></tr><tr><td colspan="2">
 
@@ -129,7 +142,7 @@ Select a Taxonomy
 
 </td><td>
 
-Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intel records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/create-taxonomies.md).**Note:** The taxonomy value options change based on the selected taxonomy.
+Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intelligence records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/create-taxonomies.md).**Note:** The taxonomy value options change based on the selected taxonomy.
 
 </td></tr><tr><td>
 
@@ -169,7 +182,7 @@ Select this check box if you wish to over ride the source values for TLP, Confid
 12. Click **Go Back** to go back to the previous page and review the record, if necessary.
 
 
-**Parent Topic:**[Import Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 **Related topics**  
 

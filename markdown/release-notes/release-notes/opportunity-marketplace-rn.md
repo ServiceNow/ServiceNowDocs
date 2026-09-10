@@ -1,27 +1,40 @@
 ---
 title: Opportunity Marketplace release notes
-description: The ServiceNow Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
+description: The ServiceNow Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.The ServiceNow Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 ---
 
 # Opportunity Marketplace release notes
 
 The ServiceNow® Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
 
-## Opportunity Marketplace highlights for the Yokohama release
+## About Opportunity Marketplace
 
 -   Opportunity owners can select multiple user criteria when creating opportunities.
 -   Import an opportunity from the ServiceNow Project Workspace. Importing a project from the Project Workspace is only available with the Project type opportunity.
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Opportunity Marketplace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-growth-development-landing.md)
+
+## Yokohama
+
+The ServiceNow® Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Create project opportunities by importing project details from Project Workspace**
 
@@ -32,7 +45,7 @@ See  for more information.
     Access to opportunities is controlled by assigning user criteria groups to an opportunity. From the Opportunity details page of the Create an opportunity widget, you can select multiple user criteria to manage access to the opportunity.
 
 
-## UI changes
+### What's changed
 
 -   **A new step is added in the task for creating opportunities.**
 
@@ -47,8 +60,6 @@ See  for more information.
 
     Select multiple user criteria groups from the **Who can view this opportunity?** field on the Opportunity details widget page.
 
-
-## Changed in this release
 
 -   **Import Project Workspace project information to create an opportunity**
 
@@ -71,56 +82,12 @@ See  for more information.
     Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see .
 
 
-## Activation information
+-   **reource\_user [Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ResourceManagementProcess.md)**
 
-Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    If you’re assigned the resource\_user role, you can be a resource requester.
 
-## Related ServiceNow applications and features
+-   **[sn\_ppm\_read](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/business-stakeholder-role-ppm.md)**
 
--   ****
+    The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
-    Talent Development Core helps employees identify growth and development areas, create a plan, and track the success of the plan.
-
--   ****
-
-    Career Conversations support an end-to-end process for individuals and managers to create and manage career growth conversations.
-
--   ****
-
-    Opportunity Marketplace enhances career mobility. It provides employees an intuitive experience to explore career opportunities. Customizable match preferences are seamlessly integrated with your Applicant Tracking System \(ATS\) to enhance employee engagement with transparent and efficient career development.
-
--   ****
-
-    Leader Hub empowers organizational leaders to understand the strengths of their teams, identify gaps in skills, and facilitate changes that are simultaneously conducive to their workforce and the achievement of desired business outcomes.
-
--   ****
-
-    The ServiceNow® Employee Goals application lets employees view and track their career goals from the Employee Center. This application is a tool that enables employees to stay focused and aligned with your company's strategic objectives, resulting in improved overall organizational performance.
-
--   ****
-
-    The ServiceNow® Mentoring application is a platform that connects individuals seeking mentorship with experienced mentors. It creates a seamless experience for both mentees and mentors.
-
--   ****
-
-    The Learning application enables you to discover, manage, and engage with career development content. It enables users to configure learning catalogs that contain course items from both internal and external learning systems.
-
--   ****
-
-    Supports an end-to-end process for individuals and managers to create and manage career growth conversations.
-
--   ****
-
-    The ServiceNow® Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
-
--   ****
-
-    The ServiceNow Employee Center portal is a standard multi-department, dynamic portal for service delivery and employee engagement.
-
--   ****
-
-    The ServiceNow® Manager Hub increases managers self-service and proactive engagement with their team by providing insights and recommended actions for what's most urgent and important to drive team success. It enables managers to grow as leaders through curated and personalized resources.
-
-
-**Parent Topic:**[Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-growth-development-landing.md)
 

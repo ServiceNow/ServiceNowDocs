@@ -17,7 +17,7 @@ Use ServiceNow AI Platform administration features to address the business needs
 -   **[Advanced AI Search Management Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/advanced-ais-mgmt-tools-rn.md)**  
 The ServiceNow® Advanced AI Search Management Tools application helps AI Search administrators analyze search query traffic trends, review indexed record and configuration settings, and preview search query results. Advanced AI Search Management Tools was enhanced and updated in the Yokohama release.
 -   **[AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-search-rn.md)**  
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
+The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. See the following sections for release notes by version.
 -   **[Application Manager release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/application-manager-rn.md)**  
 The ServiceNow® Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Yokohama release.
 -   **[ServiceNow AI Platform core feature release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/core-platform-rn.md)**  
@@ -27,7 +27,7 @@ The ServiceNow® Data Management capabilities enable you to manage the growth of
 -   **[Dynamic Translation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/dynamic-translation-rn.md)**  
 The ServiceNow® Dynamic Translation application enables translation of user-generated text by using third-party translation service providers. Dynamic Translation was enhanced and updated in the Yokohama release.
 -   **[External Content Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/external-content-connectors-rn.md)**  
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Yokohama release.
+The ServiceNow® External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.
 -   **[Legacy Application Manager release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/legacy-application-manager-rn.md)**  
 The ServiceNow® Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.
 -   **[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/localization-workspace-rn.md)**  

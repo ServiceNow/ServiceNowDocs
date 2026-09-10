@@ -1,6 +1,6 @@
 ---
-title: View work order details from a change request using the CSM Configurable Workspace
-description: View or track the progress of a work order in the associated change request from CSM Configurable Workspace.
+title: View work order details from a change request using the CRM Workspace
+description: View or track the progress of a work order in the associated change request from CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-integrations/view-wo-details-from-change-req.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
 ---
 
-# View work order details from a change request using the CSM Configurable Workspace
+# View work order details from a change request using the CRM Workspace
 
-View or track the progress of a work order in the associated change request from CSM Configurable Workspace.
+View or track the progress of a work order in the associated change request from CRM Workspace.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ ITIL agents can view the progress of a work order directly from a related change
 
 ## Procedure
 
-1.  Log in to CSM Configurable Workspace.
+1.  Log in to CRM Workspace.
 
 2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 

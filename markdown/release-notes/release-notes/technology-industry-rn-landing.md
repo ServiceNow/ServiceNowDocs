@@ -42,7 +42,7 @@ The Technology industry solution includes the following applications:
 
 -   **[Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/account-lifecycle-rn.md)**  
 The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-tmt-rn.md)**  
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes]()**  
 The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 -   **[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/proactive-service-experience-workflows-rn.md)**  
 The ServiceNow® Proactive Service Experience Workflows helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Proactive Service Experience Workflows was enhanced and updated in the Yokohama release.

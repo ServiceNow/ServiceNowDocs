@@ -49,7 +49,7 @@ In the JavaScript function, you are required to map only the service instance \(
 
 4.  Activate Test mode by setting the **Test mode** value to ON.
 
-    In Test mode, Health Log Analytics doesn't create the source types, sources, or any other objects it creates in the standard flow to avoid blowing up Elasticsearch storage with sample data. For more information, see [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
+    In Test mode, Health Log Analytics doesn't create the source types, sources, or any other objects it creates in the standard flow. This avoids filling Elasticsearch storage with sample data. For more information, see [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 5.  View how the current JavaScript function affects log lines.
 

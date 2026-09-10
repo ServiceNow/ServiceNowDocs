@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List icon view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List icon view.
 
 2.  In the **Opportunity** &gt; **ALL** list, select **New**.
 

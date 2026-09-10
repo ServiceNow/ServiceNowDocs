@@ -36,15 +36,15 @@ If both options are configured, **excludeLabelsAndAnnotations** takes precedence
 
 1.  Create an include or exclude list by using the following procedure.
 
-<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d101405e141">
+<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d101596e141">
 
 Task
 
-</th><th align="left" id="d101405e144">
+</th><th align="left" id="d101596e144">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d101405e150">
+</th></tr></thead><tbody><tr><td id="d101596e150">
 
 **Create an include list**
 
@@ -57,7 +57,7 @@ For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
 -   When using the k8s\_informer.yaml file, add values under the environment variable INCLUDE\_LABELS\_AND\_ANNOTATIONS.
 
 
-</td></tr><tr><td id="d101405e172">
+</td></tr><tr><td id="d101596e172">
 
 **Create an exclude list**
 

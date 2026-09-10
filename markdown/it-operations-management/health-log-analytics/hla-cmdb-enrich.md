@@ -28,15 +28,15 @@ Role required: evt\_mgmt\_admin
 
 2.  Handle a single CI candidate or multiple CI candidates together.
 
-<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d105025e92">
+<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d105216e92">
 
 Option
 
-</th><th align="left" id="d105025e95">
+</th><th align="left" id="d105216e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d105025e101">
+</th></tr></thead><tbody><tr><td id="d105216e101">
 
 **Take action on a single CI candidate**
 
@@ -56,7 +56,7 @@ The CI is added to the CMDB. In the CMDB table for the relevant class type, the 
     -   If the CI candidate is irrelevant, delete it by selecting **Delete**.
 
 
-</td></tr><tr><td id="d105025e167">
+</td></tr><tr><td id="d105216e167">
 
 **Take action on multiple CI candidates at the same time**
 

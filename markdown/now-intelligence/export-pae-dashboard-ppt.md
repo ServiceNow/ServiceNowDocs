@@ -73,8 +73,10 @@ PowerPoint \(PPT\)
 
 
 </td></tr></tbody>
-</table>-   Content is not necessarily exported in the order it appears on the dashboard.
--   Depending on your entitlements, you may be able export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md).
+</table>-   Only the supported data visualizations and Lists are exported, not Headings or Rich Text or any other element.
+-   Content is not necessarily exported in the order it appears on the dashboard.
+-   Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
+-   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 
 

@@ -44,5 +44,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-csm.csm-config-workspace-record-pages]
+[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 

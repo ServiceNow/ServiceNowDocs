@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -18,6 +18,8 @@ Indicators are artifacts observed on a network or operating system that are like
 
 -   **[Define an Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/define-an-indicator.md)**  
 Define an Indicator.
+-   **[Observable extraction from indicator patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-extract-observables-from-indicators.md)**  
+Threat Intelligence Security Center extracts observables from indicators that use the STIX pattern type and links the extracted observables back to the source indicator.
 
 **Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
@@ -30,13 +32,13 @@ Define an Indicator.
 
 [Other Objects]()
 
-[Vulnerability]()
+[Vulnerability Artifacts]()
 
-[Define RSS Feeds]()
+[View RSS Feeds]()
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

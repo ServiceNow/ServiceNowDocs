@@ -1,6 +1,6 @@
 ---
 title: Case line record pages
-description: The Case lines and workflows application includes record pages that display case line items, case line characteristics, and case line tasks in CSM Configurable Workspace.
+description: The Case lines and workflows application includes record pages that display case line items, case line characteristics, and case line tasks in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-case-line-pages.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Case lines and workflows, Case management, Organize agent workspace
 
 # Case line record pages
 
-The Case lines and workflows application includes record pages that display case line items, case line characteristics, and case line tasks in CSM Configurable Workspace.
+The Case lines and workflows application includes record pages that display case line items, case line characteristics, and case line tasks in CRM Workspace.
 
 The following record pages use the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md) to display case line, case line task, and case line characteristic information in CSM Configurable Workspace.
 

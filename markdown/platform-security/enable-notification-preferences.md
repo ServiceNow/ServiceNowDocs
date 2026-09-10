@@ -95,15 +95,15 @@ Send a weekly digest on the selected type of notification. It includes:-   A sum
 
     You can select multiple notification methods for each.
 
-<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d31742e215">
+<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d31744e215">
 
 Check box
 
-</th><th align="left" id="d31742e218">
+</th><th align="left" id="d31744e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31742e224">
+</th></tr></thead><tbody><tr><td id="d31744e224">
 
 **Email**
 
@@ -111,7 +111,7 @@ Description
 
 Send an email for this type of security event.
 
-</td></tr><tr><td id="d31742e233">
+</td></tr><tr><td id="d31744e233">
 
 **Slack**
 
@@ -119,7 +119,7 @@ Send an email for this type of security event.
 
 Send notifications for this type of security event through Slack. **Note:** This column appears only if you have set up Slack integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d31742e254">
+</td></tr><tr><td id="d31744e254">
 
 **Teams**
 
@@ -127,7 +127,7 @@ Send notifications for this type of security event through Slack. **Note:** This
 
 Send notifications for this security event through Microsoft Teams.**Note:** This column appears only if you have set up Microsoft Teams integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d31742e275">
+</td></tr><tr><td id="d31744e275">
 
 **Push**
 
@@ -135,7 +135,7 @@ Send notifications for this security event through Microsoft Teams.**Note:** Thi
 
 Send push notifications on Now Mobile for this type of security event. **Note:** This column appears only if you first log into Now Mobile.
 
-</td></tr><tr><td id="d31742e294">
+</td></tr><tr><td id="d31744e294">
 
 **Select All**
 

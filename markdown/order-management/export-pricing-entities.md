@@ -22,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 

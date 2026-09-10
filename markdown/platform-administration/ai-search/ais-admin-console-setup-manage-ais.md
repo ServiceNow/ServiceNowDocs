@@ -38,15 +38,15 @@ You can modify existing search application configurations, or create and configu
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d381028e195">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d381145e195">
 
 Option
 
-</th><th align="left" id="d381028e198">
+</th><th align="left" id="d381145e198">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381028e204">
+</th></tr></thead><tbody><tr><td id="d381145e204">
 
 **Create a new search profile**
 
@@ -54,7 +54,7 @@ Procedure
 
 Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d381028e244">
+</td></tr><tr><td id="d381145e244">
 
 **Link an existing search profile**
 
@@ -130,15 +130,15 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d381028e624">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d381145e624">
 
 Option
 
-</th><th align="left" id="d381028e627">
+</th><th align="left" id="d381145e627">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381028e633">
+</th></tr></thead><tbody><tr><td id="d381145e633">
 
 **Create a new search application configuration**
 
@@ -146,7 +146,7 @@ Procedure
 
 Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d381028e673">
+</td></tr><tr><td id="d381145e673">
 
 **Link an existing search application configuration**
 

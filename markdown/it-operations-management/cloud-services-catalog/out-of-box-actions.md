@@ -47,7 +47,7 @@ ACC \(agent client collector\) is deployed through a Flow Designer action. This 
 
 3.  There should be connectivity over SSH port from the MID Server to the provisioned VM.
 
- In case of any failure in installing agent on the provisioned VM, a task is created, and stack is set to a 'follow-up required' state and automatically turns active, once all the follow-on tasks are closed.
+ If the agent fails to install on the provisioned VM, a task is created and the stack is set to a 'follow-up required' state. The stack automatically turns active after all follow-on tasks are closed.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ CSC Content- Post Provisioning- Retrieve Windows Password
 All windows catalogs have a retrieve password action, which emails the Administrator, the password of the provisioned windows VM to the requester. The password is obtained from AWS after the deployment is complete using a ssh key \('pem'\) file to decrypt the password. Follow these pre-requisite steps to set up this pem file on the Terraform Linux server:
 
  1.  Ensure that the SSH Private Key credential to the VM with Terraform CLI installed, is associated with the credential alias named 'TFO Server Credential Alias'. This alias is already created with installation of CSC Content pack. This alias is used to SSH into the terraform server to get the windows password from output variable.
-2.  Ensure that in the Catalog’s Provision variable set, the variable called 'keypath' has the default value set to the path of the management key \(the key which can decrypt the password\) on the terraform VM.
+2.  Ensure that in the Catalog’s Provision variable set, the variable called 'keypath'. Set the default value to the path of the management key on the terraform VM. This key decrypts the password.
 3.  Ensure that the requester has set up the email
 
  **Note:** For custom catalogs, this operation is available for use only, with Terraform Opensource- Linux based catalog items.
@@ -101,7 +101,7 @@ CSC Content- Email URL For Microsoft Azure Scalable Web Server Application
 
 </td><td>
 
-This action is added as a post provision operation in 'CSC Microsoft Azure Linux with Scalable Web Server' catalog item, which emails the deployed application's end point URL to the requester.
+This action is added as a post provision operation in 'CSC Microsoft Azure Linux with Scalable Web Server' catalog item. It emails the deployed application's end point URL to the requester.
 
 The URL is obtained from Microsoft Azure after the deployment is complete. Ensure the requester has set up the email.
 

@@ -34,7 +34,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 3.  Enter the following values.
 
-<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d141663e128">
+<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d141665e128">
 
 **Description**
 
@@ -42,7 +42,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 A description of the user preference. For example, `Remove the welcome splash screen.`
 
-</td></tr><tr><td id="d141663e140">
+</td></tr><tr><td id="d141665e140">
 
 **User**
 
@@ -54,7 +54,7 @@ The user that the splash screen is turned off for.
 
  To turn off the splash screen for specific users, user the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search image.\) to find the user and select them in the search results.
 
-</td></tr><tr><td id="d141663e164">
+</td></tr><tr><td id="d141665e164">
 
 **Name**
 
@@ -64,7 +64,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
  `overview_help.visited.NextExperience`
 
-</td></tr><tr><td id="d141663e180">
+</td></tr><tr><td id="d141665e180">
 
 **Value**
 
@@ -72,7 +72,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
 Enter `true` to enable this user preference, which turns off the welcome splash screen.
 
-</td></tr><tr><td id="d141663e192">
+</td></tr><tr><td id="d141665e192">
 
 **Type**
 
@@ -80,7 +80,7 @@ Enter `true` to enable this user preference, which turns off the welcome splash 
 
 Select **string**.
 
-</td></tr><tr><td id="d141663e205">
+</td></tr><tr><td id="d141665e205">
 
 **System**
 

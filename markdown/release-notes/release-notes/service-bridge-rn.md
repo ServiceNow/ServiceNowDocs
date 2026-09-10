@@ -1,9 +1,9 @@
 ---
 title: Service Exchange release notes
-description: ServiceNow Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.
+description: ServiceNow Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.ServiceNow Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 ServiceNow® Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.
 
-## Service Exchange highlights for the Yokohama release
+## About Service Exchange
 
 -   Providers can now include client and UI policy scripts in remote record producers, which consumers can review and approve.
 -   Providers can now copy local catalog items to Service Exchange as remote record producers either in bulk or individually.
@@ -21,21 +21,34 @@ ServiceNow® Service Exchange will be renamed for the 2026 Australia release and
 
 See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Service Exchange is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading ServiceNow® to Yokohama
+-   **Activation information**
 
--   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility.
--   The Service Exchange Global Script Include is automatically installed or updated when you install the Service Exchange application on the following platform versions:
-    -   Washington DC Patch 9
-    -   Xanadu Patch 4
-    -   Yokohama
--   Service Exchange 2.x.x, which was first released with the Xanadu release, does not support migration of Service Exchange \(Legacy\) versions. If you are using a Service Exchange \(Legacy\) version, before you upgrade to the Yokohama release, you must follow instructions in the [Service Exchange for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to migrate your configuration data.
--   If you are upgrading from Service Exchange version 1.x.x, follow the steps in [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) to migrate your Service Exchange applications.
--   Due to the introduction of mismatched version support, new entitlements cannot be activated until both the consumers and providers upgrade to Service Exchange version 2.x.x. Older active entitlements will continue to work but new ones cannot be activated.
--   If you upgrade to Service Exchange version 2.0.55 with Sales Customer Relationship Management plug-in version 1.0.4 before upgrading the platform to the Yokohama release, the new Deny ACLs will not be installed. To ensure the Deny ACLs get installed, after upgrading to Yokohama, you must click Repair to reinstall the Service Exchange application.
+    Install Service Exchange by requesting it from the ServiceNow Store.
 
-## New in the Yokohama release
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Upgrade information**
+    -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility.
+    -   The Service Exchange Global Script Include is automatically installed or updated when you install the Service Exchange application on the following platform versions:
+        -   Washington DC Patch 9
+        -   Xanadu Patch 4
+        -   Yokohama
+    -   Service Exchange 2.x.x, which was first released with the Xanadu release, does not support migration of Service Exchange \(Legacy\) versions. If you are using a Service Exchange \(Legacy\) version, before you upgrade to the Yokohama release, you must follow instructions in the [Service Exchange for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to migrate your configuration data.
+    -   If you are upgrading from Service Exchange version 1.x.x, follow the steps in [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) to migrate your Service Exchange applications.
+    -   Due to the introduction of mismatched version support, new entitlements cannot be activated until both the consumers and providers upgrade to Service Exchange version 2.x.x. Older active entitlements will continue to work but new ones cannot be activated.
+    -   If you upgrade to Service Exchange version 2.0.55 with Sales Customer Relationship Management plug-in version 1.0.4 before upgrading the platform to the Yokohama release, the new Deny ACLs will not be installed. To ensure the Deny ACLs get installed, after upgrading to Yokohama, you must click Repair to reinstall the Service Exchange application.
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
+
+## Yokohama
+
+ServiceNow® Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Remote Catalog Item Client Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-add-scripts-to-rrp.md)**
 
@@ -53,23 +66,4 @@ See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
     Consumers: Manage requested content and flow better by adding additional variables to add customization to your remote record producers.
 
-
-## Activation information
-
-Install Service Exchange by requesting it from the ServiceNow Store.
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-overview.md)**
-
-    The Sales Customer Relationship Management applications enable you to manage the product sales life cycle in your organization, including pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
-
--   **HR Service Delivery**
-
-    Improve the employee service experience by automating HR interactions and providing a single platform for all HR services. Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. Align business goals with employee needs, including onboarding, career growth, and other transitions.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 

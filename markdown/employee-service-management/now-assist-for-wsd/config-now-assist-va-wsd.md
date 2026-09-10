@@ -26,7 +26,7 @@ For more information about Now Assist in Virtual Agent, see [Now Assist in Virtu
 
 Make sure that you have installed the following applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
 
--   Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) activates and installs Now Assist for Platform \(sn\_genai\_platform\)
+-   Installing Now Assist for WSD activates and installs Now Assist for Platform \(sn\_genai\_platform\)
 -   Workplace Reservation Management
 -   Workplace Visitor Management
 

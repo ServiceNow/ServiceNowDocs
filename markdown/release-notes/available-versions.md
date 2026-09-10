@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-08-13"
+last_updated: "2026-09-03"
 reading_time_minutes: 11
 breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -26,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 2 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138484)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 10 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138481)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 4a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138483)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152205)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 10 Hotfix 4b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152184)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152505)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,38 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Yokohama Patch 13 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152505)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150446)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/20
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Yokohama Patch 13 Hotfix 5a W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147915)
 
 </td><td>
@@ -64,7 +96,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -80,7 +112,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -96,7 +128,39 @@ Hotfix
 
 </td><td>
 
+Unavailable
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152127)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
 Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5 W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150429)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/20
+
+</td><td>
+
+Unavailable
 
 </td></tr><tr><td>
 
@@ -112,7 +176,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -128,7 +192,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -144,7 +208,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -160,7 +224,7 @@ Security patch
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 

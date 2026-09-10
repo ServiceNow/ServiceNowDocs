@@ -39,7 +39,7 @@ The ServiceNow® software development kit \(SDK\) enables developers to create s
 -   **[ServiceNow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-studio-rn.md)**  
 The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
 -   **[Workflow Data Fabric Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-data-fabric-rn.md)**  
-The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Yokohama release.
+ The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Yokohama release.
 -   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-studio-rn.md)**  
 The ServiceNow® Workflow Studio application provides a single location to access all process automation applications. Workflow Studio was enhanced and updated in the Yokohama release.
 

@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Local Authentication, Authentication, Access Management]
 ---
 
@@ -20,7 +20,11 @@ You can direct all users to the same page after login.
 
 Role required: admin
 
+This procedure requires the Content Management \(CMS\) plugin to be active. If you're using a Personal Developer Instance \(PDI\) or a basic instance without CMS enabled, the following navigation path may not be available. Verify that the **com.glide.cms** plugin is active before proceeding.
+
 ## About this task
+
+When users log on to an instance directly, the system accesses the value in the property **glide.entry.page.script**. The default value of this property uses the CMSEntryPage script include. Verify that this script include exists in your instance before following the procedure.
 
 To force the system to direct all users to the same page after login:
 

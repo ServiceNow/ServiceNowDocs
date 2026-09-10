@@ -187,7 +187,7 @@ Manager
 
 </td></tr><tr><td>
 
-[CSM Configurable Workspace Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
+[CRM Workspace Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

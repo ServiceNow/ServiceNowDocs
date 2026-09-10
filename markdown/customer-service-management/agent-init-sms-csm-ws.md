@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Initiate SMS conversations from CSM Agent Workspace

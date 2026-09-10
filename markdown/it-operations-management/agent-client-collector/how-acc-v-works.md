@@ -40,7 +40,7 @@ When the payload is returned from the MID Server to the instance, the ACC-VC Che
 
 The ACC-VC Check Definition, **Enhanced Discovery**, is initiated by the ServiceNow Instance. Then, an ECC Queue record with topic, MonitoringProbe, is created on the output queue with relevant Check information. The MID Server then processes the check by sending a message to the ACC via WebSocket over TLS.
 
-During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests, making sure it is relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
+During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests. The MID Server ensures the Assets or Plugins are relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
 
 You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/checks-policies.md) for more information.
 
