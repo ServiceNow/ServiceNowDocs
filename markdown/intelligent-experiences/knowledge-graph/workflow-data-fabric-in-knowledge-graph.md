@@ -27,7 +27,7 @@ The key feature of Workflow data fabric integration with Knowledge Graph are:
 The benefits of using Workflow data fabric integration in Knowledge Graph are:
 
 -   Requestors and Fulfillers: Can ask NLQ questions and receive insights from external \(WDF\) tables integrated with the KG schema.
--   Admins: Can create a KG schema with WDF tables and link it to the Now Assist panel, AI Agents, or Now Assist in Virtual Agent.
+-   Admins: Can create a Knowledge Graph schema with WDF tables and link it to the Now Assist panel, AI Agents, or ServiceNow® Otto for Virtual Agent.
 
 Admins can add WDF tables to the Knowledge Graph just like any other internal table. However, only WDF tables configured with a primary key are supported.
 

@@ -28,7 +28,7 @@ Following are the stages of the workflow:
 4.  Design Assign: In this stage, the Telecommunications Network Inventory application initiates the following process:
     1.  creates change request that triggers the respective change model based on the analyzed change characteristics.
     2.  creates change tasks based on the change characteristics.
-    3.  completes all the tasks through the inventory task flow that includes template sub flow, read flow action, and create flow action. After which required CIs or resources are read or created.
+    3.  completes all the tasks through the inventory task flow that includes template sub flow, read flow action, and create flow action, after which the required CIs or resources are read or created.
 5.  Build: In this stage, the service is physically built or implemented through FSM.
 6.  Activate: The service is deployed using activation procedure.
 
@@ -43,8 +43,8 @@ You must ensure that these conditions are met:
 
 To create a change request, an admin must perform the following tasks for an order task that needs the network inventory actions:
 
-1.  Create a record producer. To learn more, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_DefRecProdInSCat.md).
-2.  Create a change model. To learn more, see [Create a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/create-a-change-model.md).
+1.  Create a record producer. To learn more, see Create a record producer.
+2.  Create a change model. To learn more, see Create a change model.
 
     By default, the Telecommunications Network Inventory application provides the change models that are described in the following table.
 

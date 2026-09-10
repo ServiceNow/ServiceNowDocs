@@ -16,6 +16,8 @@ breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Manage
 
 As a manager, you can manage and optimize your entire workforce using Workforce Optimization for ITSM from one central location. Organizing your teams, for example, different levels of employees in your organizational chart, into groups is the foundation on which Workforce Optimization for ITSM operates.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Therefore, after you set up your teams as groups in Workforce Optimization for ITSM, as a manager, you can route work, set up schedules, train your teams, and analyze all aspects of your workforce from one location.
 
 ## Planning for your Workforce Optimization for ITSM implementation

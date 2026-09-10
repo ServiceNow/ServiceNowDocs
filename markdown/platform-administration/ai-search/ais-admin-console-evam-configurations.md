@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Customizing the result-card, Using AI Search Admin console, AI Search Admin console, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Create or edit an EVAM view definition
@@ -79,15 +79,15 @@ Add a new result-card interface for your search application
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d396446e249">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d396137e248">
 
 Option
 
-</th><th align="left" id="d396446e252">
+</th><th align="left" id="d396137e251">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d396446e258">
+</th></tr></thead><tbody><tr><td id="d396137e257">
 
 **Create an EVAM view configuration**
 
@@ -97,7 +97,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d396446e282">
+</td></tr><tr><td id="d396137e281">
 
 **Edit the existing EVAM view configuration**
 

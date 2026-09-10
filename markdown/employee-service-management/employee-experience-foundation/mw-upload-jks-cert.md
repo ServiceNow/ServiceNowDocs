@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto Chat Integration, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
 
 # Upload Java KeyStore certificate
@@ -78,5 +78,5 @@ Proceed to add bot ID to complete the Moveworks AI assistant setup.
 **Related topics**  
 
 
-[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

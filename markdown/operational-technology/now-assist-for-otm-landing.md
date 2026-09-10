@@ -16,26 +16,13 @@ Use the Operational Technology \(OT\) Manager Foundation to help streamline proc
 
 ## Get started
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Get started with AI
 
 Starting with the Australia release, Now Assist for Operational Technology Manager \(OTM\) is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
--   Foundation: AI basics to deliver insights
--   Advanced: AI to boost productivity across relevant use cases
--   Prime: Act autonomously with all AI assets, and create your own
-
-For more information, see .
-
 For more information about AI capabilities in Operational Technology Manager, see [OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md).
-
-For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
-
--   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)
--   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 **Important:**
 
@@ -54,5 +41,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

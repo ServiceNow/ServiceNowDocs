@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-return-merchandise-authorization-case-lines.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Return merchandise authorization, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_rma\_case.csm\_rma\_case\_agent
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace.
+1.  Navigate to the CRM Workspace.
 
 2.  From the list, navigate to **RMA cases** and select **All** to open the list of cases.
 

@@ -85,10 +85,10 @@ The note has reached it's expiration date or it has been expired manually.If a n
  A note is expired automatically by a scheduled job when it reaches it's expiration date. The scheduled job also sets any inactive notes to expired if the inactive notes have reached their expiration date.
 
 </td></tr></tbody>
-</table>A note can be assigned one of the following priorities. Each priority has an associated color, which is displayed as a colored bar in the pop-up window and as a colored circle in the **Priority** field in a list. The Core UI and the CSM Configurable Workspace interface use different colors to represent priority.
+</table>A note can be assigned one of the following priorities. Each priority has an associated color, which is displayed as a colored bar in the pop-up window and as a colored circle in the **Priority** field in a list. The Core UI and the CRM Workspace interface use different colors to represent priority.
 
-|Priority|Core UI|CSM Configurable Workspace|
-|--------|-------|--------------------------|
+|Priority|Core UI|CRM Workspace|
+|--------|-------|-------------|
 |1 - Critical|Red|Red|
 |2 - High|Orange|Orange|
 |3 - Moderate|Green|Purple|
@@ -116,7 +116,7 @@ Special handling notes can be displayed on a form in an embedded or related list
 
 ## Resurfacing special handling notes
 
-Special handling notes are typically displayed in a pop-up window when a record is opened. Agents can view the special handling notes, dismiss individual notes, and close the window. If an agent closes the window, they can open it again and display the special handling notes without closing and reopening the record tab in CSM Configurable Workspace.
+Special handling notes are typically displayed in a pop-up window when a record is opened. Agents can view the special handling notes, dismiss individual notes, and close the window. If an agent closes the window, they can open it again and display the special handling notes without closing and reopening the record tab in CRM Workspace.
 
 To open the special handling notes pop-up window after it has been closed, select **Special handling notes** from the More actions menu \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: agent workspace more UI actions icon\) on the action bar. If no special handling notes are available, the system displays an informational message: “No special handling notes are available.”
 

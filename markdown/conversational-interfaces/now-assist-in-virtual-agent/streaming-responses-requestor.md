@@ -23,7 +23,7 @@ LLM response messages stream for synthesized responses as they’re generated in
 
 For standard chat, the **Show more** link appears after six lines of text is streamed. Selecting **Show more** streams the remainder of the message until the full message is delivered.
 
-\[Omitted image "nava-streamed-full-message.png"\] Alt text: Fully streamed response example showing six lines of text before the Show more link and Sources section.
+\[Omitted image "nava-streamed-full-message.png"\] Alt text: Fully streamed response example showing lines of text before the Show more link and Sources section.
 
 For enhanced chat, streaming is applicable to the synthesized response wherever it applies. When streaming completes, the entire synthesized response displays, rather than a truncated response, in the chat window or enhanced chat. The synthesized response can stream in the chat window or on the portal's search results page, as well as the enhanced chat's **Servicenow Otto** tab.
 

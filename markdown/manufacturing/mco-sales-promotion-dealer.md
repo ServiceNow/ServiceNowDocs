@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-sales-promotion-dealer.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Sales promotion for the dealer

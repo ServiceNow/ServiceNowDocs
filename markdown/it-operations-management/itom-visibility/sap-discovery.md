@@ -1,6 +1,6 @@
 ---
 title: SAP products discovery
-description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map a service instance containing an SAP application and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
+description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map a service instance containing an SAP application and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/sap-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # SAP products discovery
 
-ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -366,7 +366,7 @@ The pattern fails at the EVAL function for identifying the web service, because 
 
 ### Cause 3
 
-The pattern fails at the EVAL function for identifying the web service, because the URL configured in the entry point is not correct or because the MID Server cannot access this URL.
+The pattern fails at the EVAL function for identifying the web service. This occurs because the URL configured in the entry point is not correct or because the MID Server cannot access this URL.
 
 ### Solution 3
 

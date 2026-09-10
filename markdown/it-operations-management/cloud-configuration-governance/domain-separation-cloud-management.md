@@ -36,7 +36,7 @@ Domain separation for Cloud Provisioning and Governance supports:
 
 -   **Service Providers \(SPs\) using the application to provide data separation.**
 
-    In this scenario, SPs can provide data separation to multiple customers, where domains are necessary to contain all relevant customer data and processes. For example, an SP provides support to customers who typically use Cloud Provisioning and Governance to manage their IT infrastructure on the cloud. SPs can provide catalogs, template profiles, resource pools, and filter, resource profiles, quotas, permissions, IP address management \(IPAM\), lease and business hours scheduling, and a view to billing, as domain-separated offerings to their customers.
+    In this scenario, SPs can provide data separation to multiple customers, where domains are necessary to contain all relevant customer data and processes. For example, an SP provides support to customers who typically use Cloud Provisioning and Governance to manage their IT infrastructure on the cloud. SPs can provide domain-separated offerings to their customers. These offerings include catalogs, template profiles, resource pools, filters, resource profiles, and quotas. They also include permissions, IP address management \(IPAM\), lease and business hours scheduling, and a view to billing.
 
 
 ## How domain separation works in Cloud Provisioning and Governance
@@ -45,7 +45,7 @@ Domain separation for Cloud Provisioning and Governance aligns one or more compa
 
 All entities that are related to the company, such as cloud accounts and service accounts, are created in the same domain as the company. When a new company is created, create a domain with a unique name and assign it to the company. All related entities for an account, such as contacts and cases, must reside in the same domain. When you create a related entity for a domain-separated account, the entity is assigned to the company domain.
 
-Members of a domain can only view the data that is contained within their domain or child domains that are lower in the domain hierarchy. By default, all users and all records are members of the global domain unless you assign them to a particular domain. Once you assign a user or a record to a domain, the instance compares the user's domain to the record's domain to determine whether the user can view the record.
+Members of a domain can only view the data that is contained within their domain or child domains that are lower in the domain hierarchy. By default, all users and all records are members of the global domain unless you assign them to a particular domain. Once you assign a user or a record to a domain, the instance compares the user's domain to the record's domain. This comparison determines whether the user can view the record.
 
 Service Providers \(SPs\) use domain separation to segregate data for each customer. Users in a given domain can only view the data in their own domains or in child domains. SPs typically control the top-level domain, which allows them to view data that is associated with all domains. Don't delegate administration to cloud admin users of the child domains in Cloud Provisioning and Governance.
 

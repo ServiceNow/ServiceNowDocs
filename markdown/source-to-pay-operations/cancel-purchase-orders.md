@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/cancel-purchase-orders.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Cancel PO exceptions, Address exception]
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -27,16 +27,17 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an exception that you want to work on.
 
-4.  Select **Address exception**.
+4.  From the **Address exception** list, select **Cancel exception**.
 
-5.  From the drop-down list, select **Cancel exception**.
+5.  Select **OK**.
 
-6.  Select **OK**.
+    The purchase order exception is canceled.
 
-
-## Result
-
-The purchase order exception is canceled.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

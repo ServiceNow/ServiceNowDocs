@@ -40,7 +40,7 @@ Type
 
 </td><td>
 
-Select the type that determines whether the total count of available values for the option the user is selecting will remain the same \(Static\) or decrease by one \(Diminishing\).
+Select the type that determines whether the available value count remains the same \(Static\) or decreases by one \(Diminishing\).
 
 </td></tr><tr><td>
 

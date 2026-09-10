@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using agentic and generative AI in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using agentic and generative AI in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert analysis by ServiceNow Otto in Express List

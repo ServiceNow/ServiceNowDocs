@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-08-27"
 reading_time_minutes: 3
-keywords: [Virtual Agent, Designer, Input Collector, User input, control, node, LLM, Now Assist, Large Language Model]
+keywords: [Virtual Agent, Designer, Input Collector, User input, control, node, LLM, ServiceNow Otto, Large Language Model]
 breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -17,11 +17,11 @@ breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset li
 
 Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 
-## Input Collector Overview
+## Input Collector demonstration
 
-For an overview of the Input Collector from a user perspective, watch this video.
+For an example of the Input Collector from a user perspective, watch this video.
 
-\[Omitted video\] Description: Input Collector user input control demo video.
+\[Omitted video\] Description: Input Collector user input control video
 
 ## Input Collector properties
 
@@ -30,6 +30,8 @@ The Input Collector is only available for topics that use LLM discovery.
 The Input Collector can hold up to 5 of any of the LLM user inputs aside from another Input Collector. To collect more than 5 user inputs, place multiple Input Collector nodes in sequence or adjust the Value of the **com.glide.cs.va\_input\_collector\_max\_nodes** property in the System Properties \[sys\_properties\] table.
 
 You can reorder nodes inside the Input Collector on both the canvas and table views. To reorder nodes on the canvas, select a given node inside the Input Collector and drag it up or down in the list. You can add or remove nodes from an Input Collector, or nodes between multiple Input Collectors, by selecting a node and dragging it into or out of an Input Collector node on the canvas. To reorder nodes in an Input Collector in the table view, select a given node in the list, then select the up or down arrow next to the node.
+
+You can also set the number of times the Input Collector prompts a user for information before triggering a search instead. You can set the limit under **sn\_vad\_genai.input\_collector\_reprompt\_limit** in the System Properties \[sys\_properties\] table. The minimum limit is 1, and the default limit is 2. With values greater than 2, the Input Collector reprompts the user up to the set limit before starting a search. If you use very high values \(such as 1000\), you effectively disable automatic searches, and continue collecting information through additional reprompts.
 
 Specify the flow action properties for the node that you want to create.
 
@@ -104,21 +106,13 @@ No-code condition statement or low-code script that specifies a condition for le
 
 ## Channel support
 
-|Channel|LLM support|NLU/keyword support|Constraints|
-|-------|-----------|-------------------|-----------|
-|Web UI|Not supported|Supported|None|
-|Mobile UI|Not supported|Supported|None|
-|ServiceNow Otto panel|Not supported|Supported|None|
-|Microsoft Teams|Supported|Supported|None|
-|Slack|Not supported|Not supported|Not applicable|
-|Workplace|Not supported|Not supported|Not applicable|
-|Facebook Messenger|Not supported|Not supported|Not applicable|
-|SMS Twilio|Supported|Not supported|Not applicable|
-|LINE|Not supported|Not supported|Not applicable|
-|WhatsApp \(powered by Twilio\)|Supported|Not supported|Not applicable|
-|WhatsApp|Not supported|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not supported|Not applicable|
-|Alexa \(Voice\)|Not supported|Not supported|Not applicable|
+|Channel|Support|Constraints|
+|-------|-------|-----------|
+|Microsoft Teams|Supported|None|
+|Slack|Not supported|Not applicable|
+|SMS Twilio|Supported|Not applicable|
+|WhatsApp|Not supported|Not applicable|
+|Google Chat|Supported|None|
 
 **Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

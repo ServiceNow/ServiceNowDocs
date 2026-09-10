@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Predictive Intelligence for Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Train the Standard change proposal solution definition to use clustering capabil
 
 ## Before you begin
 
-Ensure that Change Management - Standard Change Template Intelligence \(com.snc.change\_management.ml.sctp\) plugin is activated.
+Activate the Change Management - Standard Change Template Intelligence plugin `com.snc.change_management.ml.sctp`.
 
 Role required: admin
 
@@ -32,7 +32,7 @@ Role required: admin
 
     For more information on creating and training the solutions, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-clustering-solution.md).
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
 **Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-intelligent-solutions.md)

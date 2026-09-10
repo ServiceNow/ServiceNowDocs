@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/rules\_
 release: zurich
 topic_type: concept
 last_updated: "2025-10-08"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [ServiceNow CPQ Configurator, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
@@ -59,6 +59,8 @@ Message actions provide contextual information as the end user works through the
 |Warning|\[Omitted image "cpq-rules-message-type-example-warning.png"\] Alt text: warning message|No effect on configuration experience beyond message|
 |Error|\[Omitted image "cpq-rules-message-type-example-error.png"\] Alt text: error message|Disables the Quote button so the user cannot move forward until the error state is alleviated.|
 |Custom|Look is determined by user|The user can control whether this has no effect on configuration experience beyond message of if it disables the Quote button so the user cannot move forward until the error state is alleviated.|
+
+You can customize the messages that are displayed. For more information, see [Change how messages are displayed to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/can_i_change_how_messages_are_displayed_to_the_end_user.md).
 
 ## Inclusion/exclusion actions
 

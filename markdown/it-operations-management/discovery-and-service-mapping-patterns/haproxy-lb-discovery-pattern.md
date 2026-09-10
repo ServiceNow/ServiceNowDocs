@@ -1,6 +1,6 @@
 ---
 title: HAProxy load balancer discovery with patterns
-description: The Discovery and Service Mapping Patterns application uses the HA Proxy pattern to find HAProxy Community load balancers running on a Linux server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the HA Proxy pattern to find HAProxy Community load balancers running on a Linux server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/haproxy-lb-discovery-pattern.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # HAProxy load balancer discovery with patterns
 
-The Discovery and Service Mapping Patterns application uses the HA Proxy pattern to find HAProxy Community load balancers running on a Linux server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the HA Proxy pattern to find HAProxy Community load balancers running on a Linux server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 HAProxy Community edition is an open-source load balancer that can run in either TCP or HTTP mode. Note that although Discovery supports HAProxy for HTTP load balancing, TCP load balancing isn’t supported.
 

@@ -22,6 +22,8 @@ Role required: it\_demand\_user or it\_demand\_manager.
 
 ## About this task
 
+\[Omitted video\] Description: Playbooks in Next Experience for Demand Management.
+
 A playbook defines the standard stages of a demand \(for example, Initiation, Planning, Execution, Monitoring, and Closure\) and includes activities or action items to complete at each stage.
 
 **Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).

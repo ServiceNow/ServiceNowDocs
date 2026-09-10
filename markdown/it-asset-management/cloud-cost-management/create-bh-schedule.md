@@ -20,6 +20,10 @@ Create and apply a Business hours schedule to the cloud resources for enforcing 
 
 Role required: insights\_admin or insights\_owner
 
+## About this task
+
+**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see.
+
 ## Procedure
 
 1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Administration** &gt; **Business hours schedules**.

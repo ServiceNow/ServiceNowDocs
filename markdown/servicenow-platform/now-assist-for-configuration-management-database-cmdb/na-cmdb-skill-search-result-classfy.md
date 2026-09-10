@@ -44,15 +44,15 @@ Role required: sn\_cmdb\_user and now\_assist\_panel\_user
 
 4.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d286608e188">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d285864e188">
 
 Option
 
-</th><th align="left" id="d286608e191">
+</th><th align="left" id="d285864e191">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d286608e197">
+</th></tr></thead><tbody><tr><td id="d285864e197">
 
 **Provide feedback for the summary**
 
@@ -60,7 +60,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d286608e212">
+</td></tr><tr><td id="d285864e212">
 
 **Copy the summary**
 
@@ -68,7 +68,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d286608e223">
+</td></tr><tr><td id="d285864e223">
 
 **Refresh the summary**
 

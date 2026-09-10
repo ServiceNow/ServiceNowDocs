@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-02-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---

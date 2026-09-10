@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using other AI applications from AI Admin Center, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Use AI Guardian features in AI Admin Center
@@ -52,15 +52,15 @@ For more information on AI Guardian, see [AI Guardian](https://raw.githubusercon
 
     AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d220409e231">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d236049e232">
 
 Guardrail
 
-</th><th align="left" id="d220409e234">
+</th><th align="left" id="d236049e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220409e240">
+</th></tr></thead><tbody><tr><td id="d236049e241">
 
 **Prompt injection detection**
 
@@ -72,7 +72,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d220409e268">
+</td></tr><tr><td id="d236049e269">
 
 **Offensiveness detection**
 
@@ -84,7 +84,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d220409e299">
+</td></tr><tr><td id="d236049e297">
 
 **Sensitive topic filters**
 
@@ -98,5 +98,3 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md)
-

@@ -1,20 +1,20 @@
 ---
 title: View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM
-description: View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, monitor active projects showing early risk indicators, analyze root causes, and review recommended actions.
+description: View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays. Then monitor active projects showing early risk indicators, analyze root causes, and review recommended actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/view-portfolio-insights.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM
 
-View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, monitor active projects showing early risk indicators,analyze root causes, and review recommended actions.
+View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays. Then monitor active projects showing early risk indicators,analyze root causes, and review recommended actions.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Use Portfolio Insights to identify prioritized planning items that are at risk of schedule delays. The insights are categorized by impact severity and include root cause analyses and AI-generated recommended actions to help you address identified risks.
+Use Portfolio Insights to identify prioritized planning items that are at risk of schedule delays. The insights are categorized by impact severity and include root cause analyzes and AI-generated recommended actions to help you address identified risks.
 
 The insights are generated for the following categories for a portfolio plan:
 
@@ -63,7 +63,7 @@ The insights are generated for the following categories for a portfolio plan:
 
 ## Result
 
-Portfolio Insights identifies prioritized planning items at risk, along with root cause analyses and recommended actions to help you maintain portfolio health.
+Portfolio Insights identifies prioritized planning items at risk, along with root cause analyzes and recommended actions to help you maintain portfolio health.
 
 **Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
 

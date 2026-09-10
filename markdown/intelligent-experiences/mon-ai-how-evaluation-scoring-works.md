@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-30"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # How evaluation scoring works
@@ -128,6 +128,4 @@ All metrics use a scale where higher is better.
 |Red|0–50%|Low. Investigate immediately.|
 |Orange|51–75%|Fair. Review recent sessions for trends.|
 |Green|76–100%|Good. Meeting quality or safety targets.|
-
-**Parent Topic:**[Exploring AI system monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-exploring-aict-evaluations.md)
 

@@ -26,7 +26,7 @@ The **Touchpoints** tab on an opportunity record displays all touchpoints associ
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record and select the **Touchpoints** tab.
 

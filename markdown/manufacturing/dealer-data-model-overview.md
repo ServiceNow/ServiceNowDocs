@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/dealer-data-model-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -18,7 +18,7 @@ The dealer portal provides you with a wide range of benefits such as claims mana
 
 The following diagram shows the entities and their relationships within the Dealer application.
 
-\[Omitted image "Data-model-dealer.png"\] Alt text:
+\[Omitted image "Data-model-dealer.png"\] Alt text: Decorative
 
 -   **[Dealer tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/dealer-tables.md)**  
 This section explains the dealer tables in Manufacturing Commercial Operations.

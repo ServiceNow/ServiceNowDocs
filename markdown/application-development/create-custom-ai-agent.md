@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/create-custom-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-08-19"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [agentic workflow, AI agent, custom skill, Build Agent, ServiceNow Studio, create AI agent, create agentic workflow, AI Skill Kit, AI Agent Studio, access control list, ACL, automated generation, app development, prompt, Now Assist, AI Agents, generative AI, agentic AI]
+audience: administrator
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -33,30 +34,23 @@ For details on creating agentic workflows, agents, and skills, see [Agentic work
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+    ServiceNow Studio opens. Use the central chat area on the ServiceNow Studio home page to start a new Build Agent conversation. You can access an existing conversation by selecting the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
 
-    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
+    \[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
 
 2.  Select your application from the Build Agent chat panel drop-down list.
 
-3.  Prompt to add AI to your app in one of two ways.
+3.  Prompt to add AI to your app.
 
-    -   Enter a prompt describing the agentic workflow, agent, or skill that you want to create. For example:
-        -   To create an agentic workflow: `Create an onboarding agentic workflow for contractors featuring three sequential AI agents:`
-            -   `Intake Agent: Validates requests, conducts online background checks, verifies budget, and calculates costs using web searches and scripts.`
-            -   `Background Check Agent: Assesses risk and performs tiered checks on identity, employment, credit, and references. Also verifies credentials and identifies necessary training.`
-            -   `Provisioning Agent: Evaluates access needs, assigns equipment, generates credentials, provisions system access, finds training resources, and sends welcome packages.`
-        -   To create an agent: `Create a Swag Fulfillment AI agent that can review and approve swag requests. The agent must review incoming swag requests, check inventory availability for all requested items, approve requests autonomously, update inventory, and request records when taking actions.`
-        -   To create a skill: `Create a summarization skill that summarizes travel requests and provides approval suggestions based on the company's travel policy.`
-        -   If you don't know what agents or skills you need: `Analyze my application. Review the tables, fields, business rules, and workflows. Identify the most repetitive manual tasks that fulfillers perform and suggest which ones could benefit from AI agent or skill.`
-    -   Select the **Add AI to my app** button and follow the prompts.
+    Enter a prompt describing the agentic workflow, agent, or skill that you want to create. For example:
 
-        \[Omitted image "ba-add-ai-button.png"\] Alt text: ServiceNow Otto chat panel with the Add AI to button highlighted.
-
-        **Note:**
-
-        -   Depending on your licensing, the button may not be available.
-        -   You must be on Australia Patch 3 or higher for the button to appear.
+    -   To create an agentic workflow: `Create an onboarding agentic workflow for contractors featuring three sequential AI agents:`
+        -   `Intake Agent: Validates requests, conducts online background checks, verifies budget, and calculates costs using web searches and scripts.`
+        -   `Background Check Agent: Assesses risk and performs tiered checks on identity, employment, credit, and references. Also verifies credentials and identifies necessary training.`
+        -   `Provisioning Agent: Evaluates access needs, assigns equipment, generates credentials, provisions system access, finds training resources, and sends welcome packages.`
+    -   To create an agent: `Create a Swag Fulfillment AI agent that can review and approve swag requests. The agent must review incoming swag requests, check inventory availability for all requested items, approve requests autonomously, update inventory, and request records when taking actions.`
+    -   To create a skill: `Create a summarization skill that summarizes travel requests and provides approval suggestions based on the company's travel policy.`
+    -   If you don't know what agents or skills you need: `Analyze my application. Review the tables, fields, business rules, and workflows. Identify the most repetitive manual tasks that fulfillers perform and suggest which ones could benefit from AI agent or skill.`
 4.  Review and approve the plan by selecting **Approve plan**.
 
     \[Omitted image "ba-add-skill-1.png"\] Alt text: Five-step plan for creating a swag management application

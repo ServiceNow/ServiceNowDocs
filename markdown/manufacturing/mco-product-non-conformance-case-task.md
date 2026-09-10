@@ -1,18 +1,18 @@
 ---
-title: Product non-conformance case task
-description: Create the non-conformance case task report for products that had an issue.
+title: Create a product non-conformance case
+description: Create a non-conformance case report for products that had an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-non-conformance-case-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Product non-conformance case task
+# Create a product non-conformance case
 
-Create the non-conformance case task report for products that had an issue.
+Create a non-conformance case report for products that had an issue.
 
 ## Before you begin
 
@@ -20,32 +20,43 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Product Non Conformance Case Task**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case**.
 
 2.  Select **New**.
 
-3.  On the Product Non-conformance Case task form, fill in the fields.
+3.  On the Product Non-conformance Case form, fill in the fields.
 
-    For a description of the field values, see [Product non-conformance case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task-form.md).
+    For a description of the field values, see [Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-form.md).
 
 4.  Select **Save**.
 
-    **Notes** is displayed.
+5.  Select **Submit**.
 
-5.  On the Product Non-conformance Case task form, fill in the Notes fields.
+    The **State** move from Draft to **New**.
+
+6.  The **Assignment group** and **Assigned to** are auto-populated.
+
+    **Assigned to** is the manager of the Assignment group. It can be reassigned to any of the available user.
+
+7.  On the related list, the **Product Non Conformance Case Tasks** are created.
+
+    **Note:** The PNCC tasks are auto created.
+
+8.  On the Product Non Conformance Case task form, fill in the fields.
 
     For a description of the field values, see [Product non-conformance case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task-form.md).
 
-6.  Select **Discuss**.
+9.  Select **Save**.
 
-    The Start a Sidebar discussion window is displayed.
+10. Select one of the following option.
 
-    For a description of the field values, see [Discuss form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-discuss-sidebar.md).
+    -   Cancel Case
+    -   Close Case
+    -   Update
+    -   Update with Lens
+    -   Assign to me
+11. Select **Save**.
 
-    -   Select **Start discussion**.
-    -   Select **Start private discussion**.
-7.  Select **Save**.
 
-
-**Parent Topic:**[Related lists for Non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 

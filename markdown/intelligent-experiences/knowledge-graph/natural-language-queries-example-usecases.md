@@ -74,7 +74,7 @@ Here are some example queries and description of how they works in Knowledge Gra
 
 ## Aggregate or Sorting Queries
 
-These queries let users perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
+These queries let users perform simple statistics and sorting directly in the Virtual Agent or ServiceNow Otto panel.
 
 Here are some example queries and description of how they works in Knowledge Graph.
 
@@ -92,7 +92,7 @@ Knowledge Graph does not support the following types of queries:
 
 ## Queries Missing References or with Misspellings
 
-Queries that lack references to table, columns, choice values, or conditions, or contain misspellings, are not supported.
+Queries that lack references to table, columns, choice values, or conditions, or contain misspellings, aren’t supported.
 
 Here are a few examples of unsupported queries that will work if rephrased, as suggested below:
 

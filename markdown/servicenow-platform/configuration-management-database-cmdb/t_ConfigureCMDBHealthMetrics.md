@@ -70,7 +70,7 @@ Create Task
 
 </td><td>
 
-If a CI fails the metric test, create a task with details about the failure. You can then view any generated tasks in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md), and configure remediation for the task.
+If a CI fails the metric test, create a task with details about the failure. You can then view any generated tasks in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in , and configure remediation for the task.
 
 </td></tr><tr><td>
 

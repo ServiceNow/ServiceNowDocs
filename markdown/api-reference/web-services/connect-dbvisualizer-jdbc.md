@@ -9,7 +9,7 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Integrate, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Connect DB Visualizer to JDBC driver
@@ -20,7 +20,7 @@ Connect the DB Visualizer database tool to your ServiceNow instance using the JD
 
 Before you begin, verify the following prerequisites are in place:
 
--   The SQL API plugin is installed on your ServiceNow instance.
+-   The Live Connect plugin is installed on your ServiceNow instance.
 -   The ServiceNow JDBC driver is installed and configured on your client machine.
 -   You have a Service Account with the **sn\_jdbc\_rest\_access** role assigned.
 -   Access Control Lists \(ACLs\) are configured for the tables you must query.
@@ -81,5 +81,5 @@ Step-by-step instructions for external tools in this guide are illustrative — 
 
 You have successfully connected DB Visualizer to your ServiceNow instance using the JDBC driver. You can now query authorized ServiceNow tables using SQL commands in DB Visualizer. The connection respects all ServiceNow Access Control Lists \(ACLs\) and security policies configured for your Service Account.
 
-**Parent Topic:**[Integrate SQL API Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-drivers-bi-tools.md)
+**Parent Topic:**[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-drivers-bi-tools.md)
 

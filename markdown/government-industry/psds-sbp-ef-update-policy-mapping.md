@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
 
 2.  Select the policy name for the policy that you want to update, and select the **Mappings** tab.
 

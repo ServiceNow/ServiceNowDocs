@@ -22,6 +22,8 @@ Any user can report a privacy case or an event that needs the attention of the p
 Initiate a breach assessment from a privacy case to capture the details of breach, the type of data that is impacted, and so on. These details help the privacy analyst to identify if the breach must be notified to a regulator.
 -   **[Work on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/work-on-a-privacy-breach-asmt.md)**  
 Accept the work of assessing a privacy breach assessment and work on the assessment.
+-   **[Perform RadarFirst analysis on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/submit-breach-review.md)**  
+Initiate a RadarFirst analysis to evaluate the breach against applicable privacy regulations and receive an overall risk estimate for each impacted jurisdiction.
 -   **[Case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/case-task-workflow.md)**  
 Case tasks help you to collaborate with multiple teams to investigate, perform impact assessment to establish case criticality, and gather evidence to capture the details and responses for further review.
 -   **[Add an impacted area to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-impacted-areas.md)**  

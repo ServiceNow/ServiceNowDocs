@@ -1,6 +1,6 @@
 ---
 title: Create a Service Account and assign Roles
-description: Create a dedicated non-interactive Service Account in User Administration and assign the appropriate SQL API access role to enable secure, programmatic access for BI tools and analytics platforms.
+description: Create a dedicated non-interactive Service Account in User Administration and assign the appropriate Live Connect access role to enable secure, programmatic access for BI tools and analytics platforms.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-service-account.html
 release: zurich
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure SQL API plugin on your ServiceNow instance, Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure Live Connect plugin on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Create a Service Account and assign Roles
 
-Create a dedicated non-interactive Service Account in User Administration and assign the appropriate SQL API access role to enable secure, programmatic access for BI tools and analytics platforms.
+Create a dedicated non-interactive Service Account in User Administration and assign the appropriate Live Connect access role to enable secure, programmatic access for BI tools and analytics platforms.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To enable SQL API access for BI tools and analytics platforms, you must create a dedicated Service Account \(non-interactive user\) in your ServiceNow instance and assign the appropriate role. Service Accounts are the recommended approach for programmatic access. Using personal user accounts is not supported, as reports and dashboards will fail if that user's permissions change or the user leaves the organization.
+To enable Live Connect access for BI tools and analytics platforms, you must create a dedicated Service Account \(non-interactive user\) in your ServiceNow instance and assign the appropriate role. Service Accounts are the recommended approach for programmatic access. Using personal user accounts is not supported, as reports and dashboards will fail if that user's permissions change or the user leaves the organization.
 
 You can create multiple Service Accounts, each with different roles and access levels. For example, one account may have ODBC access to a limited set of tables, while another has JDBC access to a broader dataset. This lets you apply granular access control per integration or team.
 
@@ -87,13 +87,13 @@ Do not check this check box as this is a machine account. To set a password for 
 </td></tr></tbody>
 </table>    Do not change any other settings.
 
-    **Note:** Non-interactive \(Machine\) users cannot complete MFA challenges. Confirm that MFA is turned off for all SQL API Service Accounts.
+    **Note:** Non-interactive \(Machine\) users cannot complete MFA challenges. Confirm that MFA is turned off for all Live Connect Service Accounts.
 
 4.  Select and hold \(or right-click\) the form header and select **Save**.
 
 5.  On the **Roles** tab, select **Edit**.
 
-    Each Service Account must be assigned at least one role to determine which SQL API protocol it is permitted to use. You can assign a single role or both roles to one account, or create separate accounts for each. Admins should consider using separate accounts with different roles when different security policies or access levels apply.
+    Each Service Account must be assigned at least one role to determine which Live Connect protocol it is permitted to use. You can assign a single role or both roles to one account, or create separate accounts for each. Admins should consider using separate accounts with different roles when different security policies or access levels apply.
 
 6.  In the Collection list, select one or all of the following roles and move them to the Roles list:
 
@@ -109,7 +109,7 @@ Do not check this check box as this is a machine account. To set a password for 
 
 ## Result
 
-The Service Account is now created with the appropriate SQL API access role. This account can be used to authenticate ODBC or JDBC connections from BI tools and analytics platforms. The account will only be able to query tables for which explicit access has been granted through Access Control Lists \(ACLs\). See [Create Access Control Lists \(ACLs\) for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-acls-sql-api.md).
+The Service Account is now created with the appropriate Live Connect access role. This account can be used to authenticate ODBC or JDBC connections from BI tools and analytics platforms. The account will only be able to query tables for which explicit access has been granted through Access Control Lists \(ACLs\). See [Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-acls-sql-api.md).
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Configure Live Connect plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
 

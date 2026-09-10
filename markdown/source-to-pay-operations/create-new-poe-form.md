@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/create-new-poe-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -40,7 +40,7 @@ Exception type
 
 </td><td>
 
-The type of exception being created. The default value is Delivery plan change.
+Type of exception being created. The default value is Delivery plan change.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Priority
 
 </td><td>
 
-Indicates the urgency and business impact of a purchase order exception.
+Urgency and business impact of a purchase order exception.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ State
 
 </td><td>
 
-The current state of this purchase order exception. The options are:-   New
+Current state of this purchase order exception. The options are:-   New
 -   In progress
 -   Closed
 -   Canceled
@@ -84,7 +84,7 @@ Supplier
 
 </td><td>
 
-The name of the supplier.
+Name of the supplier.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Assigned to
 
 </td><td>
 
-The name of the buyer that the exception is assigned to.
+Name of the buyer that the exception is assigned to.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Related PO
 
 </td><td>
 
-The purchase order to which exception is related.
+Purchase order to which exception is related.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ ERP line number
 
 </td><td>
 
-An identifier assigned to each item being ordered within a single purchase order. This field is auto-populated.
+Identifier assigned to each item being ordered within a single purchase order. This field is auto-populated.
 
 </td></tr><tr><td>
 
@@ -201,4 +201,6 @@ Revised delivery quantity.
 [Delivery plan change form]()
 
 [Master data tables for Purchase Order Management]()
+
+[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-po-exception-universal-req.md)
 

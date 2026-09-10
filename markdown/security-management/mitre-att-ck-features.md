@@ -25,7 +25,7 @@ If you have not enabled automatic rollup of MITRE-ATT&amp;CK information, you ca
 -   **[Rollup MITRE-ATT&amp;CK information from detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/rollup-mitre-attack-information-detection-rules.md)**  
 Enable rollup of MITRE-ATT&amp;CK information from the detection rules to the security incidents for better security incident and threat analysis.
 -   **[Rollup MITRE-ATT&amp;CK information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/rollup-mitre-att-ck-information-from-child-security-incidents.md)**  
-If you have not enabled automatic rollup of MITRE-ATT&amp;CK information, you can do this manually.
+If you have not enabled automatic rollup of MITRE-ATT&amp;CK information or MITRE ATLAS information, you can do this manually.
 -   **[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/link-analysis-threat-hunt-mitre.md)**  
 Correlate and perform link analysis of observables, security incidents, and MITRE-ATT&amp;CK related information so that your organization can start hunting for threats.
 -   **[MITRE-ATT&amp;CK heat map and navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitre-att-ck-heatmap-and-navigator.md)**  

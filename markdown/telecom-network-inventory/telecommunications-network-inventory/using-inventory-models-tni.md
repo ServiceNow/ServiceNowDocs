@@ -1,6 +1,6 @@
 ---
 title: Network inventory models
-description: You define an inventory model in the Telecommunications Network Inventory application so that you can track the technical information from the manufacturer about a network asset such as the telco equipment or a network interface.
+description: You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer about a network asset, such as telco equipment or a network interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 
 # Network inventory models
 
-You define an inventory model in the Telecommunications Network Inventory application so that you can track the technical information from the manufacturer about a network asset such as the telco equipment or a network interface.
+You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer about a network asset, such as telco equipment or a network interface.
 
 ## Inventory models overview
 

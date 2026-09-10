@@ -18,9 +18,9 @@ Configure Veracode scans on your Azure DevOps, Jenkins, GitHub, GitLab, or Harne
 
 You can configure Veracode scans on any stage of the pipeline and the scan details are retrieved from the corresponding stage to DevOps Change Velocity. If you are using Azure DevOps or GitHub Actions orchestration tools then you need to add the custom action code in your pipeline always. If you are using Jenkins, and your pipeline already has a Veracode security scan step, you do not have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has waitForScan: true. This is required for the system to retrieve the scan information.
 
-If you want to configure Veracode for the GitLab tool, you can either use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+If you want to configure Veracode for the GitLab tool, you can use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
 
-For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
 1.  Navigate to the step in your pipeline and add the custom action.
 
@@ -122,7 +122,7 @@ Harness
 
 </td><td>
 
-Run the generic Docker Container Image to use the following script. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).```
+Run the generic Docker Container Image to use the following script. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).```
 - stage:
     name: ServiceNow DevOps Security Result
     identifier: Security

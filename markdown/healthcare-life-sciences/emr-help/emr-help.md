@@ -7,7 +7,7 @@ release: zurich
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -75,18 +75,6 @@ Enjoy improved visibility by tracking task-based records such as cases, incident
 </td><td>
 
 Service Desk Agent
-
-</td></tr><tr><td>
-
-Provide encryption support to secure sensitive information.
-
-</td><td>
-
-[Encryption options in EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
-
-</td><td>
-
-Administrator
 
 </td></tr><tr><td>
 

@@ -19,7 +19,7 @@ Get your L1/L2 operators up to speed with Event Management. This section walks t
 
 ## Event Management Operator Essentials course
 
-Designed for IT operations professionals, this course covers the full alert lifecycle in Event Management. You learn to navigate the Service Operations Workspace and manage alerts using Express List and AIOps Dashboards. You also use Alert Automation and Now Assist for ITOM to reduce noise and accelerate resolution. You gain hands-on experience with the four-stage automation pipeline \(Ignore, Enrich, Group, and Respond\) and earn a digital badge upon completion. Select the **Event Management Operator Essentials** tile to open and start the course.
+Designed for IT operations professionals, this course covers the full alert lifecycle in Event Management. You learn to navigate the Service Operations Workspace and manage alerts using Express List and AIOps Dashboards. You also use Alert Automation and AI to reduce noise and accelerate resolution. You gain hands-on experience with the four-stage automation pipeline \(Ignore, Enrich, Group, and Respond\) and earn a digital badge upon completion. Select the **Event Management Operator Essentials** tile to open and start the course.
 
 ## Service Operations Workspace
 
@@ -27,7 +27,7 @@ An integrated environment where IT operations and service management converge â€
 
 ## Express List
 
-A live, continuously updating alert queue designed for active triage. Operators are coached to prioritize by business impact over raw severity, work alert groups rather than individual alerts, and use Now Assist alert analysis for plain-language summaries. They also acknowledge purposefully, escalate quickly when stuck, and document work notes to avoid repeated investigation by the next tier.
+A live, continuously updating alert queue designed for active triage. Operators are coached to prioritize by business impact over raw severity, work alert groups rather than individual alerts, and use AI alert analysis for plain-language summaries. They also acknowledge purposefully, escalate quickly when stuck, and document work notes to avoid repeated investigation by the next tier.
 
 ## Service Dashboard
 

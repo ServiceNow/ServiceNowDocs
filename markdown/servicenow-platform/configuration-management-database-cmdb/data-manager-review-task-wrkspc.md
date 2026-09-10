@@ -24,15 +24,13 @@ Canceling a life-cycle task is available only for tasks that are in the 'Not sta
 
 ## About this task
 
--   To review attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
+-   To review attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
 -   To review certification tasks, see [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Certification**.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **My Work** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Certification**.
 2.  In the My tasks section, select the **All other tasks** tab.
 
 3.  Review the Approval tasks list view and then select the task that you want to process.

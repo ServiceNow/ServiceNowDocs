@@ -80,6 +80,8 @@ When the solution is complete, the similar demands appear in the Similar demands
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md)
 
 [Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/predictive-intelligence-for-demand.md)

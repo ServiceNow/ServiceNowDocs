@@ -1,6 +1,6 @@
 ---
 title: Express List in the Service Operations Workspace for ITOM
-description: The ServiceNow Event Management Express List feature helps you identify health issues across the datacenter on the Service Operations Workspace. It provides a list of quick information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents.
+description: Express List helps you identify health issues across the datacenter on the Service Operations Workspace. It provides quick information on alerts so you can monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/express-list.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operatio
 
 # Express List in the Service Operations Workspace for ITOM
 
-The ServiceNow Event Management Express List feature helps you identify health issues across the datacenter on the Service Operations Workspace. It provides a list of quick information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents.
+Express List helps you identify health issues across the datacenter on the Service Operations Workspace. It provides quick information on alerts so you can monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents more efficiently.
 
 \[Omitted video\] Description: Service Operations Workspace for ITOM \| Identify health issues with Event Management
 
-The Express List pane sortable alert list reduces the number of clicks necessary to access alert information. Selecting the check box of an alert opens a preview panel where you can view data that helps for prioritization, impact realization, and root cause analysis. You can easily modify the Express List pane to narrow down the display by using a provided fields list, displaying additional alert information, and filtering out or showing matching alerts. You can also modify the displayed time range.
+The Express List pane sortable alert list reduces the number of clicks necessary to access alert information. Selecting the check box of an alert opens a preview panel where you can view data that helps for prioritization, impact realization, and root cause analysis. You can easily modify the Express List pane to narrow down the display. Use the provided fields list to display additional alert information and to filter out or show matching alerts. You can also modify the displayed time range.
 
 **Note:**
 
@@ -71,6 +71,15 @@ Each tile displays the following alert information:
 -   Configuration items
 -   Duration
 -   Metric name
+
+## Viewing alerts: Essential and Extended modes
+
+You can view alerts in two modes:
+
+-   **Essential** mode displays primary and single alerts only. Expand an alert group to view its secondary alerts.
+-   **Extended** mode displays all alert types, including secondary alerts.
+
+**Note:** You can switch between **Essential** and **Extended** modes without entering search text.
 
 ## Customizing the alert display time range
 

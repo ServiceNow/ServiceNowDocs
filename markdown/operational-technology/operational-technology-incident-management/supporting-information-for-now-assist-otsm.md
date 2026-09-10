@@ -24,7 +24,7 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 The ServiceNow Otto for OT Service Management application includes the skills that are listed in the following table.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 <table id="table_fc3_kbl_fdc"><thead><tr><th>
 

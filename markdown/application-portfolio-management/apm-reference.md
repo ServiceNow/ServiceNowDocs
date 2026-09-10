@@ -61,7 +61,7 @@ Application indicators are business metrics that assess the applications across 
 -   **[Scoring Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/scoring-profile-form.md)**  
 Create an application scoring profile and update the default application profile with new profile indicators as per business requirements.
 -   **[Scheduled Script Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/scheduled-script-execution-form-2.md)**  
-The script to recalculate the scores of all indicators, the scoring profiles to which these indicators are attached, and the business applications that are associated to these scoring profiles.
+Script to recalculate scores for all indicators, their attached scoring profiles, and associated business applications.
 -   **[Select Chart Dimensions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/select-chart-dimensions-form.md)**  
 This form helps to change the configurations of a bubble chart.
 -   **[Application bubble chart form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-bubble-chart-form.md)**  
@@ -79,7 +79,7 @@ The Program Navigation page guides you in setting a goal target for the fiscal y
 -   **[Business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/business-capability-form.md)**  
 Business Capability is a common table used within the Enterprise Architecture \(formerly Application Portfolio Management\) application.
 -   **[Business capability record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/business-capability-new-record-form.md)**  
-Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+Create, edit, and delete business capabilities and manage their relationships in the capability map.
 -   **[Application Service Hardware Models form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-service-hardware-models-form.md)**  
 Track your equipment assets such as computers and servers using hardware models.
 -   **[Application Service Software Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-service-software-model-form.md)**  

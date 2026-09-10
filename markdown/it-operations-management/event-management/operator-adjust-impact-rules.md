@@ -1,6 +1,6 @@
 ---
 title: Adjust alert impact while triaging an alert
-description: As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Do this when you think that the impact does not accurately represent what you see in your network environment so other operators and administrators see the correct impact information.
+description: As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Adjust the impact when it does not accurately represent your network environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-adjust-impact-rules.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Advanced operator responsibilities, Event Management Operator Tutor
 
 # Adjust alert impact while triaging an alert
 
-As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Do this when you think that the impact does not accurately represent what you see in your network environment so other operators and administrators see the correct impact information.
+As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Adjust the impact when it does not accurately represent your network environment.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ Before you make any modifications to impact calculations, make sure that you und
 
     \[Omitted image "operator-impact-rules-biz-service.png"\] Alt text: Impact rules
 
-    Notice that the impact on the Web portal itself is red, meaning critical, even though only one of the Linux servers that it relies upon actually has a critical alert. The other Linux Server does is not impacted by the alert. Assume for this example that the Linux servers perform different roles for the web service, and that even though **PS LinuxApp02** has a critical alert, the **PS LinuxApp01** server can adequately provide all the necessary services to keep the application service operational.
+    Notice that the impact on the Web portal itself is red, meaning critical. This occurs even though only one of the Linux servers that it relies upon actually has a critical alert. The other Linux Server is not impacted by the alert. Assume for this example that the Linux servers perform different roles for the web service. Even though **PS LinuxApp02** has a critical alert, the **PS LinuxApp01** server can adequately provide all the necessary services to keep the application service operational.
 
 7.  Click the **PS Apache03** CI, and then click **Impact** to display the impact rules for the CI.
 
@@ -52,9 +52,11 @@ Before you make any modifications to impact calculations, make sure that you und
 
     \[Omitted image "ci-impact-rule.png"\] Alt text: Impact tab
 
-    -   The **Impact On** and **Influence** columns show you that the CI \(**PS Apache03**\) should inherit 100% of the impact of all child CI impacts, which in this case includes the critical impact on the **PS LinuxApp02** server. This setting is why the **PS Apache03** web server, and the application service as a whole, inherits the impact 100%.
+    -   The **Impact On** and **Influence** columns show you that the CI \(**PS Apache03**\) should inherit 100% of the impact of all child CI impacts. In this case, the child CI impacts include the critical impact on the **PS LinuxApp02** server. This setting is why the **PS Apache03** web server, and the application service as a whole, inherits the impact 100%.
     -   The **Critical** column shows you that a critical alert \(red\) is inherited as critical alert \(red\).
-8.  Change the **Influence** value to `0` since the web server is still operational, and then change the **Critical** column to indicate that a critical impact status \(red\) should be inherited as a non-impact \(green\).
+8.  Change the **Influence** value to `0` since the web server is still operational.
+
+    Change the **Critical** column to indicate that a critical impact status \(red\) should be inherited as a non-impact \(green\).
 
 9.  Wait for the dashboard to update automatically, or click **Event Management** &gt; **Service Operations Workspace** and double-click the same application service to get an updated application service map.
 

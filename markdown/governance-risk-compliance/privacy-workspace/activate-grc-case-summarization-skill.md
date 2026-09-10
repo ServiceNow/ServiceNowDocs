@@ -47,7 +47,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 ## What to do next
 
-You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to [Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
+You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/customize-a-skill.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Create a knowledge article from a case
@@ -24,7 +24,7 @@ Your administrator must [enable creation of articles from customer service cases
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Open a customer service case.
 

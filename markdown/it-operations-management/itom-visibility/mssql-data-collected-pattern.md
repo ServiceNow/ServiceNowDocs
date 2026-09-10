@@ -1,6 +1,6 @@
 ---
 title: Microsoft SQL Server and Cluster discovery
-description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Microsoft SQL Server and Cluster discovery
 
-The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -480,7 +480,7 @@ Failover state.Possible values:
     |Availability Group \[availability\_group\]|References the MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] table.|
 
 
-## CI relationships
+## CI relationships and references
 
 The MSSql DB On Windows pattern creates the following relationships and references to support Microsoft SQL Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

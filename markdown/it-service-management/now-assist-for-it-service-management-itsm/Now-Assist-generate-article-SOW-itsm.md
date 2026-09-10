@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -71,14 +71,14 @@ Role required: itil
 
 3.  Create the article by selecting the **Create knowledge** option from the UI action drop-down menu in the incident.
 
-    \[Omitted image "now-assist-itsm-knowledge-option.png"\] Alt text: ServiceNow Otto in knowledge article option in knowledge article option.
+    \[Omitted image "now-assist-itsm-knowledge-option.png"\] Alt text: ServiceNow Otto in ITSM knowledge article option.
 
     **Note:**
 
     -   The **Create knowledge** UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
     -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed.
 
-        **Important:** If you have the Zurich Patch 7 version, then if the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is installed, then the interceptor page is skipped.
+        **Important:** If the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is installed, then the interceptor page is skipped.
 
         A series of steps is then executed within the [Knowledge Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management.md).
 
@@ -90,31 +90,113 @@ Role required: itil
     -   If you encounter a duplicate **Create Knowledge** button, see the [Resolving duplicate Create Knowledge actions](https://www.servicenow.com/community/itsm-articles/issue-and-resolution-two-quot-create-knowledge-quot-actions-in/ta-p/3418702) community article for the resolution.
 4.  In the Knowledge article interceptor page, select a knowledge base and an article template.
 
-    Knowledge article interceptor page for Service Operation Workspace\[Omitted image "now-assist-itsm-kb-interceptor-sow.png"\] Alt text: Knowledge interceptor page in SOW
-
-    Knowledge article interceptor page in Core UI\[Omitted image "now-assist-itsm-kb-interceptor-ui16.png"\] Alt text: Knowledge interceptor page in UI16
+    |Knowledge article interceptor page|UI display|
+    |----------------------------------|----------|
+    |**In Service Operation Workspace**|\[Omitted image "now-assist-itsm-kb-interceptor-sow.png"\] Alt text: The knowledge article interceptor page in Service Operations Workspace|
+    |**In Core UI**|\[Omitted image "now-assist-itsm-kb-interceptor-ui16.png"\] Alt text: The knowledge article interceptor page for core UI.|
 
 5.  Select **Next**.
 
-    **Note:** When you use the standard template, the content from the incident's **Description**, **Resolution**, and **Additional comments** fields are populated in the **Issue**, **Resolution**, and **Additional comments** sections respectively in the article body of the standard template.
+    **Note:** When you use the standard template, the content from the incident's **Description**, **Resolution**, and **Additional comments** fields are populated in the respective fields in the article body of the standard template.
 
-    \[Omitted image "now-assist-itsm-standard-template-art-body1.png"\] Alt text: Fields populated in the article body of the standard template
+6.  To add or update the knowledge article, follow the instructions in the table below.
 
-6.  In the Use AI to draft this article? modal, select **No, write it myself** to write the article yourself, or **Yes, draft with AI** to draft an article with ServiceNow Otto.
+<table><thead><tr><th align="left" id="d337754e527">
 
-    \[Omitted image "now-assist-itsm-kb-gen-modal1.png"\] Alt text: Now Assist ITSM KB generation modal
+To add or update the knowledge article
 
-7.  If you’re drafting the article with ServiceNow Otto, you can choose up to five relevant tasks for the creation of the article, and select **Use selected tasks to help draft new article**; otherwise, select **Cancel**.
+</th><th align="left" id="d337754e530">
 
-    \[Omitted image "now-assist-itsm-similar-incidents.png"\] Alt text: ServiceNow Otto in ITSM knowledge article related incidents modal.
+Do this
 
-    When creating an article that includes information that spans multiple similar incidents, a single article is created containing the details from the selected incidents.
+</th></tr></thead><tbody><tr><td id="d337754e536">
 
-    The article appears in a new tab, has a unique ID number for the knowledge article, and is attached to the parent record.
+**In Service Operation Workspace**
 
-8.  Review the article and edit it if necessary.
+</td><td>
 
-    \[Omitted image "now-assist-itsm-kb-gen-art.png"\] Alt text: ServiceNow Otto in ITSM knowledge article.
+-   In the main article editor, select the ServiceNow Otto icon and make changes as needed.
+
+\[Omitted image "now-assist-itsm-sow-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in SOW-Article body sections populated from fields in the corresponding incident
+
+-   Click **Save**.
+
+
+</td></tr><tr><td id="d337754e571">
+
+**In Core UI**
+
+</td><td>
+
+You can update the knowledge article manually or use Generative AI to update it.\[Omitted image "now-assist-itsm-coreui-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in CoreUI
+
+To update it:
+
+-   Manually, select **No, write it myself** and updated the contents in the fields manually.
+-   Using ServiceNow Otto, select **Yes, draft with AI** . ServiceNow Otto adds content to the **Issue** and **Resolution** fields.
+-   Select **Submit** after you make the changes.
+**Note:** Select **Edit using improved editor**. The new Knowledge Article Advanced Editor page opens in the Knowledge Center where you can edit the content and click **Save** to save the edits.
+
+</td></tr></tbody>
+</table>7.  If you’re creating a draft of the article with ServiceNow Otto, you can select more than one incident to create the article .
+
+    **Note:** Make sure that AI Search is activated.
+
+    To verify, go to **All** &gt; **AI Search** &gt; **AI Search Status** and verify that AI Search is active.
+
+    \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
+
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d337754e669">
+
+Type of UI
+
+</th><th align="left" id="d337754e672">
+
+Procedure
+
+</th></tr></thead><tbody><tr><td id="d337754e678">
+
+**In Service Operation Workspace**
+
+</td><td>
+
+1.  Open an incident.
+2.  Select **Create Knowledge**.
+3.  Select the Delete icon and select **Clear Canvas**.
+
+The 'Write about \(incident number\)' displays.
+
+4.  Enter an incident number or an incident short description and press the arrow icon\[Omitted image "now-assist-itsm-arrow-icon.png"\] Alt text:.
+\[Omitted image "now-assist-itsm-sow-clear-canvas.png"\] Alt text: Clear the canvas to view incidents with similar tasks-   When an incident number is provided, ServiceNow Otto generates the article based on the incident number.
+-   When an incident short description is copied and pasted, ServiceNow Otto searches the top three similar incidents to generate the article.
+The Knowledge article is created and attached to all selected similar incidents.
+
+\[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
+
+</td></tr><tr><td id="d337754e747">
+
+**In Core UI**
+
+</td><td>
+
+1.  In CoreUI, open an incident with similar incidents.
+2.  Select **Create Knowledge**.
+3.  Select **Yes, draft with Otto** .
+
+A popup displays similar incidents. You can select up to 5 incidents.
+
+4.  Select **Continue without more tasks**.
+
+The knowledge article is created.
+
+5.  Select **Save**.
+
+The knowledge article is attached to all similar incidents.
+
+ \[Omitted image "now-assist-itsm-coreui-multiple-inc-knowledge.png"\] Alt text: Multiple related incidents in CoreUI
+
+</td></tr></tbody>
+</table>8.  Review the article and edit it if necessary.
 
 9.  Select **Save** or **Publish**.
 

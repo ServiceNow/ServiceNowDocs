@@ -18,6 +18,8 @@ Collect skill data based on skills agents have used for incident resolution. Use
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md).
 
 Activate the Skill Recommendation application plugin \(com.snc.sre\) to use predictive intelligence for recommending skills.

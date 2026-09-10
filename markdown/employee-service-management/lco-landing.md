@@ -19,8 +19,6 @@ Through Legal Service Delivery \(LSD\) and Contract Management Pro \(CM Pro\) of
 -   Legal Service Delivery provides a unified experience between the employees requesting legal support and the legal teams serving them.
 -   Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 
-\[Omitted image "MMASSET0021500\_LCO.png"\] Alt text: Overview image of Legal and Contract Operations displaying the various components of Legal Service Delivery and Contract Management Pro.
-
 ## Get started
 
 <table id="table_dhh_5nz_sgc" class="nav-card presentation"><tbody><tr><td>

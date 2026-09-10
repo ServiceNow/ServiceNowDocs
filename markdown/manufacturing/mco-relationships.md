@@ -1,16 +1,16 @@
 ---
-title: Relationships
+title: Create a parent-child relationship
 description: Create the relationship between parent and child and assign the type of relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-relationships.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Relationships
+# Create a parent-child relationship
 
 Create the relationship between parent and child and assign the type of relationship.
 
@@ -24,18 +24,20 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
 2.  Select **New**.
 
-3.  On the Relationships form, fill in the following fields.
+3.  On the form, fill in the following fields.
 
     |Field|Description|
     |-----|-----------|
-    |Parent|Select the record to assign as parent.|
-    |Child|Select the record to assign as child.|
-    |Type|Select the type of relationship between the parent and child.|
+    |Parent|Record to assign as parent.|
+    |Child|Record to assign as child.|
+    |Type|Type of relationship between the parent and child.|
 
 4.  Select **Save**.
 
-    The [CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md) and [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md) forms are displayed.
 
+## Result
 
-**Parent Topic:**[Related lists for Non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+The [Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md) and [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md) forms are displayed.
+
+**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 

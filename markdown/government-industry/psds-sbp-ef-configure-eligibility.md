@@ -16,9 +16,9 @@ Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as 
 
 Agencies administering social benefit programs must ensure that applicants meet certain eligibility conditions before receiving benefits. With the Social Benefits Playbook Eligibility Framework, agencies can apply a low code approach to eligibility rule creation and management. This enables agencies to manage a variety of rules, from simple to complex, across multiple programs and with ease.
 
-Define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CSM Configurable Workspace. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.
+Define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CRM Workspace. In the Policy Home of the CRM Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.
 
-\[Omitted image "psds\_sbp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CSM Configurable Workspace
+\[Omitted image "psds\_sbp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CRM Workspace
 
 PaCE is a scalable workspace that allows you to set up the foundational elements of the Public Sector Eligibility Framework, use data collectors to create complex policies, save policies as a template to make future policy creation easier, and use config parameters to create reusable policies that can be applied across multiple benefit programs.
 

@@ -44,7 +44,7 @@ Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Microsoft Word b
 </table>-   **[Exploring the Microsoft Word based audit report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-document-designer-template.md)**  
 Create and customize audit report templates using a Word template. You can configure this template to match your specific needs. Once the template is set up, it can be applied to one or more audit engagements, automatically generating audit reports in Word format.
 -   **[Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/install-document-designer.md)**  
-Install ServiceNow Document Designer add-in to your Microsoft Word document. This add-in is required to create audit and CAM report templates.
+Install the ServiceNow Document designer add-in to your Microsoft Word document to create audit and CAM report templates and generate report content using the AI Reporting Assistant.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

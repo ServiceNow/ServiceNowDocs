@@ -118,7 +118,7 @@ SCCM &lt;version&gt; Software \[imp\_sccm&lt;version&gt;\_software\]
 -   Software Installation \[cmdb\_sam\_sw\_install\] \(when Software Asset Management is enabled\*\)
 
 </td></tr></tbody>
-</table>\*For more information about Software Asset Management and how to enable it, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
+</table>\*For more information about Software Asset Management and how to enable it, see Request Software Asset Management.
 
 ## SCCM data sources
 
@@ -126,7 +126,7 @@ The ServiceNow® SCCM integration uses JDBC data sources to import software data
 
 ## Transform maps
 
-Transform maps are accessed from the **Transforms** related list in each data source record. The source fields in SCCM and the target fields in the CMDB are listed in the **Field Maps** related list in each Table Transform Map record. The SCCM integration uses the transform map utility provided with the ServiceNow® platform. For instructions on editing or creating a transform map, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_CreatingNewTransformMaps.md).
+Transform maps are accessed from the **Transforms** related list in each data source record. The source fields in SCCM and the target fields in the CMDB are listed in the **Field Maps** related list in each Table Transform Map record. The SCCM integration uses the transform map utility provided with the ServiceNow® platform. For instructions on editing or creating a transform map, see Transform maps.
 
 The SCCM integration provides two transform maps for incremental software imports. Only one transform map can be enabled \(**Active**\) at a time.
 

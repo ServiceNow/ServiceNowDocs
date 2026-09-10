@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-Use the Business Capability form to create and update a business capability. If you add a new capability, update an existing capability, delete a capability at a leaf node level, then the levels of all the capabilities and the leaf node in that hierarchy must be updated accordingly. Select the **Update Capability Level and HierarchyID** related link to update the levels in the hierarchy so that the capability map reflects the updates. The **Leaf Node** and the **Level** fields are rendered uneditable to you, yet you can view the level of the capability if it is at the leaf node and its position in the hierarchy.
+Use the Business Capability form to create and update a business capability. If you add a capability, update an existing capability, or delete a capability at a leaf node level, update the levels of all the capabilities and the leaf node in that hierarchy. Select the **Update Capability Level and HierarchyID** related link to update the levels in the hierarchy so that the capability map reflects the updates. The **Leaf Node** and the **Level** fields are rendered uneditable to you, yet you can view the level of the capability if it is at the leaf node and its position in the hierarchy.
 
 Following are the conditions to update or delete a capability:
 
@@ -48,7 +48,7 @@ Following are the conditions to update or delete a capability:
 
 4.  Select **Submit**.
 
-    If a root or a level-0 capability is created or if the parent field of a capability is rendered null, then a message prompts you to run the business capability update levels job to recalculate the hierarchy IDs.
+    A message prompts you to run the business capability update levels job to recalculate the hierarchy IDs. This occurs when a root or level-0 capability is created or when the parent field of a capability is rendered null.
 
 5.  To make the **Hierarchy ID** field editable, navigate to **System Properties** &gt; **All Properties**.
 
@@ -66,7 +66,7 @@ Following are the conditions to update or delete a capability:
 
     Selecting the **Update Capability Level and HierarchyID** link executes the **Update Capability Level and HierarchyID** scheduled script. You can [view the updated hierarchy in the capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-capability-based-planning.md).
 
-    If you had navigated to the Capability Hierarchy Map after updating the parent, order, or hierarchy ID but without running the update capability levels job, then a message prompts you to run the Update Capability Levels job and relaunch the page to render the capability hierarchy map with the latest change.
+    If you update the parent, order, or hierarchy ID without running the update capability levels job, a message prompts you to run the job when you navigate to the Capability Hierarchy Map. Relaunch the page to render the capability hierarchy map with the latest change.
 
 8.  To relate the capability with an application, select open the business capability.
 

@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -26,12 +26,20 @@ View project financial details, add existing procurement objects to pipeline pro
 Reference for the fields on the savings opportunity record in the Savings Opportunities \(sn\_spend\_gen\_ai\_savings\_opportunities\) table.
 -   **[Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md)**  
 Purchase requisitions, purchase orders, and sourcing requests move through a series of states as they progress through the procurement lifecycle. Each state reflects the current stage of processing and determines what actions are available.
+-   **[Purchase requisition state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/pr-state-model.md)**  
+Reference for the complete purchase requisition \(PR\) state model, including the standard progression sequence and alternative progression branches that a PR can follow.
+-   **[Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md)**  
+The purchase order state model defines the happy-path sequence and deviation branches that a PO follows from creation to closure.
 -   **[SPO and ITAM data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)**  
 Describes the data model and state synchronization between SPO and ITAM for purchase orders, purchase requisitions,sourcing requests, shipments, and receipts.
+-   **[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)**  
+The primary data tables for Sourcing and Procurement Operations store important information about products, attributes, pricing, approvals, payment terms, shipping methods, delivery locations, and job codes.
 -   **[Domain separation and Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psm-domain-separation.md)**  
  Domain separation is unsupported for Sourcing and Procurement Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Sourcing and Procurement Operations glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md)**  
 Learn about the terms and concepts used in Sourcing and Procurement Operations \(SPO\).
+-   **[Address deletion permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-access-control.md)**  
+Only the user who saved a delivery address can delete it. If you shop on behalf of another user, you have the same ability to delete addresses saved under that account.
 
 **Parent Topic:**[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
 

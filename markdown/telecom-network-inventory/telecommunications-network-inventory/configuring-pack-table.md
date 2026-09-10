@@ -1,6 +1,6 @@
 ---
 title: Attribute pack table
-description: After you create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
+description: After you create an attribute pack table in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Telecommunications Network Inventory]
 
 # Attribute pack table
 
-After you create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
+After you create an attribute pack table in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
 
 -   **[Create attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md)**  
 Create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application so that you can use these attributes in the CI record.

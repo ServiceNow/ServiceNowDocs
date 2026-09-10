@@ -8,9 +8,9 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Tasks and requests, tasks, approvals, requests, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Tasks and requests
@@ -33,7 +33,7 @@ You can use the filters to view and track the tasks and requests from the follow
 
 ## Tasks and requests pages
 
-Employee Slate provides task and request detail pages with all the context that an employee needs. Task and request types natively render with the full AI-native experience with AI Insights for approvals. For other types, the tasks and requests provides a link to Employee Center.
+EmployeeWorks Web App provides task and request detail pages with all the context that an employee needs. Task and request types natively render with the full AI-native experience with AI Insights for approvals. For other types, the tasks and requests provides a link to Employee Center.
 
 ## AI prioritization and summaries
 
@@ -63,7 +63,7 @@ AI-generated insights may not reflect every relevant policy condition. Verify AI
 
 ## Conversational filters and chat-driven actions
 
-Access all your tasks, approvals, and requests from a unified space, Employee Slate. You can view, track, and act on pending tasks, approvals, and open requests across enterprise systems. These systems include HR approvals, IT tasks, learning content, and surveys.
+Access all your tasks, approvals, and requests from a unified space, EmployeeWorks Web App. You can view, track, and act on pending tasks, approvals, and open requests across enterprise systems. These systems include HR approvals, IT tasks, learning content, and surveys.
 
 -   Apply a filter by asking the chat to narrow the items, for example by overdue status or by request type.
 -   Clear filters by asking the chat to reset the view.
@@ -73,10 +73,16 @@ Access all your tasks, approvals, and requests from a unified space, Employee Sl
 
 Conversational filters apply along with the filters that administrators configure.
 
-**Note:** AI summaries, AI prioritization, AI Insights for approvals, and chat-driven actions require Now Assist. Employee Slate deployments that use ServiceNow Otto without Now Assist include the tasks and requests without some AI capabilities.
+**Note:** AI summaries, AI prioritization, AI Insights for approvals, and chat-driven actions require Now Assist. EmployeeWorks Web App deployments that use ServiceNow Otto without Now Assist include the tasks and requests without some AI capabilities.
+
+## Task delegation
+
+You can delegate a task or approval to one or more other employees for a specific time period. Delegates receive the item in their own tasks and requests view and can act on it. For more information, see [Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md).
 
 **Related topics**  
 
 
-[Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
+[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
+
+[Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md)
 

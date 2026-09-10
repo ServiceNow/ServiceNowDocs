@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/work-on-a-purchase-order-exception.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -16,7 +16,7 @@ View a purchase order exception task record to take action on your assigned task
 
 ## Before you begin
 
-Users who have been assigned the sn\_poem\_core.collaborator role do not have access to the Source-to-Pay Workspace.
+The Source-to-Pay Workspace is not accessible to users who have the sn\_poem\_core.collaborator role.
 
 Role required: sn\_poem\_core.collaborator
 
@@ -25,15 +25,26 @@ Role required: sn\_poem\_core.collaborator
 1.  Navigate to either of the following:
 
     -   **All** &gt; **Employee Center** &gt; **My active items** &gt; **Tasks**.
-    -   Review your work section in the home page.
+    -   The Review your work section on the home page.
 2.  Select a task.
 
+    The purchase order exception task record is displayed.
 
-## Result
 
-The purchase order exception task record is displayed. Review the task, add comments and attachments as needed, and then mark the task complete.
+## What to do next
+
+Review the task, add comments and attachments as needed, and then mark the task complete.
 
 **Note:** For tasks of the Upload Documents action type, the **Mark Complete** button is not available until a file is attached.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/work-on-a-purchase-order-exception.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

@@ -107,7 +107,7 @@ Enhance the experience
 
 </td><td>
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r-discovery.md)
+
 
 </td><td>
 
@@ -129,7 +129,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_ServiceMappingOverview.md)
+
 
 </td><td>
 
@@ -137,7 +137,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
+Roles installed with Service Mapping
 
 </td><td>
 
@@ -275,7 +275,7 @@ Optimize the functionality
 
 </td><td>
 
-[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cert-inventory-mgmt.md)
+
 
 </td><td>
 
@@ -283,7 +283,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
+Roles installed with Certificate Inventory and Management
 
 </td><td>
 
@@ -295,7 +295,7 @@ Optimize the functionality
 
 </td><td>
 
-[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/firewall-audit-reporting.md)
+
 
 </td><td>
 
@@ -303,7 +303,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
+Roles installed with Firewall Audits and Reporting
 
 </td><td>
 
@@ -336,7 +336,7 @@ Add advanced features
 
 </td><td>
 
-[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-landing-page.md)
+
 
 </td><td>
 
@@ -344,7 +344,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
+Roles installed with Health Log Analytics
 
 </td><td>
 

@@ -32,7 +32,7 @@ Bring ServiceNow and external AI assets into your inventory, and decide which as
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
 |AI asset inventory|Manage ServiceNow AI assets|Review AI systems, models, prompts, and datasets that AI Control Tower discovers automatically, and mark them as managed to bring them into governance, monitoring, and value workflows. For more information, see [Managing your AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-asset-inventory.md).|
-|Discover external AI assets|Configure external connectors|Connect to cloud hyperscalers or SaaS applications to discover AI assets automatically and bring them into your inventory. For more information, see [Configuring Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-connectors.md).|
+|Discover external AI assets|Configure external connectors|Connect to cloud hyperscalers or SaaS applications to discover AI assets automatically and bring them into your inventory. For more information, see [Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-connectors.md).|
 |Discover external AI assets|Set up traces|Connect to AWS, Microsoft Azure, or Google Cloud to collect trace data, discover AI agents running on those platforms, and generate evaluation and security metrics. For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-trace-connections.md).|
 |Discover external AI assets|Add assets manually|Register an AI system, AI model, prompt, dataset, or MCP server that isn't reachable through a connector or trace. For more information, see [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/creating-ai-assets-newexperience.md).|
 |Mark AI assets as Managed|Mark assets as Managed manually|Select assets from your inventory and mark them as managed to give them access to governance, value assessment, risk classification, monitoring, and security capabilities. For more information, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-managed-unmanaged.md).|
@@ -45,7 +45,7 @@ Configure the templates and cost inputs used to calculate the value your AI asse
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
 |Value and cost configuration|Value templates|Select from existing value templates or create custom templates to define, calculate, and track the value your AI assets deliver. For more information, see .|
-|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see [Configuring Cost in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/measure-ai-configuring-aict-value-cost.md).|
+|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see .|
 
 ## ServiceNow AI settings
 

@@ -38,15 +38,15 @@ This task details the procedure of creating stories for work items such as Epic,
 
 5.  From the work item details page, create stories manually or with Now Assist.
 
-<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d186411e131">
+<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d189961e131">
 
 Choice
 
-</th><th align="left" id="d186411e134">
+</th><th align="left" id="d189961e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186411e140">
+</th></tr></thead><tbody><tr><td id="d189961e140">
 
 **Creating manually**
 
@@ -59,15 +59,15 @@ Action
 
 The full details page of the created story is displayed.
 
-</td></tr><tr><td id="d186411e172">
+</td></tr><tr><td id="d189961e172">
 
 **Using Now Assist**
 
 </td><td>
 
-See [Create stories agentic workflow using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md).
+See [Create stories agentic workflow using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md).
 
- For epics and features, you can use the generative AI skills of Now Assist to automatically generate stories, saving time and reducing manual effort. See [Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
+ For epics and features, you can use the generative AI skills of Now Assist to automatically generate stories, saving time and reducing manual effort. See [Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 
 **Note:** This feature requires activating the Agile story generation skill of ServiceNow Otto for SPM.
 
@@ -80,7 +80,7 @@ See [Create stories agentic workflow using ServiceNow Otto for Strategic Portfol
 
     From the full details page of a story, you can perform the following actions:
 
-    -   Refine the description with Now Assist. See .
+    -   Refine the description with Now Assist.
 
         This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 

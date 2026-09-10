@@ -80,7 +80,7 @@ The following table shows examples of queries the Knowledge Graph can answer usi
 
 ## Unsupported query patterns
 
-The following query types are not currently supported. Use the recommended alternatives to get the results you need.
+The following query types aren't currently supported. Use the recommended alternatives to get the results you need.
 
 |Limitation|Unsupported Query|Recommended Alternative|
 |----------|-----------------|-----------------------|

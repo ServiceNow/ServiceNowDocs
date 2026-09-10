@@ -16,7 +16,7 @@ breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Oper
 
 This page allows the user to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
 
-The cloud asset page is a centralized, highly organized, and comprehensive set of sections with cloud asset details. This page is used to examine and edit cloud asset attributes, relationships, tags, services and offerings, account health and data associated with the cloud asset, resources, activities, and related services.
+The cloud asset page is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this page to examine and edit cloud asset attributes, relationships, tags, services and offerings, and account health. You can also view data associated with the cloud asset, resources, activities, and related services.
 
 The following sections describe the various sections of the cloud asset page.
 
@@ -63,7 +63,7 @@ This section shows cards with counts of the following services and offerings ass
 
 -   Service Instance: Any CI related to the Service Instance \[cmdb\_ci\_service\_auto\] table where Service Classification is Application Service.
 -   Business Service Offering: Any Service Instance, which has a relationship to Service\_Offering where Service Classification is Business Service.
--   Technology Management Offering: Any Service Instance, which has a relationship to Service\_Offering where Service Classification is Technical Service or the CI is related to a Dynamic CI Group, which is part of a Technical Service Offering.
+-   Technology Management Offering: Any Service Instance that has a relationship to Service\_Offering where Service Classification is Technical Service. Also includes CIs related to a Dynamic CI Group that is part of a Technical Service Offering.
 -   Technology Management Service: Parent of a Technology Management Offering.
 
 ## Health

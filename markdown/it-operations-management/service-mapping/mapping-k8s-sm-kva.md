@@ -17,9 +17,9 @@ breadcrumb: [Choose the right method for discovering and mapping services, Explo
 
 Kubernetes Visibility Agent \(KVA\) and Service Mapping discover and visualize application dependencies across Kubernetes clusters and related resources, providing complete visibility into containerized environments.
 
-Service Mapping for containerized environments provides automated discovery and visualization of application dependencies across your entire technology stack. Whether your applications run entirely within Kubernetes clusters or span multiple environments including cloud databases, API gateways, and traditional servers, Service Mapping creates comprehensive topology maps that show how services connect and depend on each other.
+Service Mapping for containerized environments provides automated discovery and visualization of application dependencies across your entire technology stack. Your applications can run entirely within Kubernetes clusters or span multiple environments including cloud databases, API gateways, and traditional servers. Service Mapping creates comprehensive topology maps that show how services connect and depend on each other.
 
-Service Mapping and KVA combined capabilities transform complex architectures into clear, actionable service maps that help teams troubleshoot faster, assess change impact more accurately, and optimize application performance across environments.
+Service Mapping and KVA combined capabilities transform complex architectures into clear, actionable service maps. These maps help teams troubleshoot faster, assess change impact more accurately, and optimize application performance across environments.
 
 ## Key capabilities
 

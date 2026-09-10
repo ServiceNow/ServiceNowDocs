@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-06-04"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Universal Request, universal request, ur, Universal Request in SPO, Universal Request in Sourcing and Procurement Operations]
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -56,11 +56,15 @@ To create routing agents, add users to the Source Operations Universal Request G
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

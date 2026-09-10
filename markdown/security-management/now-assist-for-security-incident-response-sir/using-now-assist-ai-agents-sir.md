@@ -19,7 +19,7 @@ Use the Security Incident Response AI agentic workflows to complete your tasks 
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 **Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 

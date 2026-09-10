@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 66
+reading_time_minutes: 67
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -431,18 +431,22 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
+-   Verify that the following applications are up to date:
+    -   Discovery and Service Mapping Patterns
+    -   Visibility Content
+    -   CMDB CI Class Models
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
     -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
 
-**Note:** If you do not want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
+**Note:** If you don't want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
-Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
+Service Mapping uses the SSH credentials to retrieve connections that aren't from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
     -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
-    -   Verify permissions for the following SSH commands:
+    -   Verify permissions for the following SSH commands. In newer versions of F5 BIG-IP, only A-type GTM pools are supported.
         -   `list auth partition all`
         -   `list sys global-settings`
         -   `show sys hardware`
@@ -464,6 +468,11 @@ Service Mapping uses the SSH credentials to retrieve connections that are not fr
         -   `show gtm wideip all | grep -e 'WideIp' 'State'`
         -   `list gtm wideip`
         -   `list gtm wideip all`
+        -   `list gtm pool one-line`
+        -   `list gtm pool a one-line`
+        -   `list gtm pool /<partition_name>/* one-line`
+        -   `list gtm pool a /<partition_name>/* one-line`
+        -   `list gtm server one-line`
 -   For F5REST pattern:
     -   For horizontal discovery using Discovery, provide read-only permissions to run the following APIs:
 
@@ -481,6 +490,21 @@ Service Mapping uses the SSH credentials to retrieve connections that are not fr
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
+        -   `"https://" + $ipAddress + "/mgmt/tm/gtm/server"`
+        -   For BIG-IP starting with version 12:
+
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/srv"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
     -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
@@ -499,6 +523,21 @@ Service Mapping uses the SSH credentials to retrieve connections that are not fr
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
+        -   `"https://" + $ipAddress + "/mgmt/tm/gtm/server"`
+        -   For BIG-IP starting with version 12:
+
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/srv"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
     -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
     -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
     -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
@@ -748,7 +787,7 @@ Citrix Netscaler \[cmdb\_ci\_lb\_netscaler\]
     -   `nsconfig`
     -   `hanode`
 
- Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
+ Service Mapping uses the SSH credentials to retrieve connections that aren't from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 </td></tr><tr><td>
 
@@ -2042,7 +2081,7 @@ Oracle PDB Instance \[cmdb\_ci\_db\_ora\_pdb\_instance\]
 
 </td><td>
 
--   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md) or \(for UNIX only\) [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
 -   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_WindowsCredentialsForm.md)
 -   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md)
 -   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)

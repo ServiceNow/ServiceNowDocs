@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Customer Central, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Customer Central, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configuring the Customer History component

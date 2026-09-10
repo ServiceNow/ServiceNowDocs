@@ -20,7 +20,6 @@ Health Log Analytics \(HLA\) enables you to connect your ServiceNow instance to 
 HLA supports the following data input types:
 
 -   Passive data inputs \(listeners\), which wait for log data to be pushed to them. These data inputs require a network port to be open on the MID Server:
-
     -   [Rsyslog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md)
     -   [Beats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md)
     -   [Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-splunk.md)
@@ -29,8 +28,6 @@ HLA supports the following data input types:
     -   [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mid-server.md)
     -   [GCP PubSub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.md)
     -   [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-rest-api.md)
-    The Agent Client Collector data input is supported for use with the  application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
-
 -   Active data inputs \(pullers\), which pull data from repositories:
 
     -   [Elasticsearch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-elastic.md)

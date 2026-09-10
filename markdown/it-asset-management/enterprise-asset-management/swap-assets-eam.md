@@ -18,7 +18,7 @@ Swap child assets that are part of a multi-component asset. You can swap out onl
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 

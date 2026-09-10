@@ -20,7 +20,7 @@ To enable ServiceNow notifications within Slack or Microsoft Teams, you must be 
 
 -   **1. Request Integration Hub**
 
-    The Slack and Microsoft Teams spokes require a Starter subscription to Integration Hub. To activate Integration Hub and view available subscription types, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-integrationhub.md).
+    The Slack and Microsoft Teams spokes require a Starter subscription to Integration Hub. To activate Integration Hub and view available subscription types, see Request an Integration Hub plugin.
 
 -   **2. Request the Messaging Notification plugin**
 

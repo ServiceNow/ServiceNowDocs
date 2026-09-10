@@ -237,7 +237,7 @@ This column appears only for the Failed tab.Details of the failure type and the 
 
 </td></tr></tbody>
 </table>-   **[Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md)**  
-You can choose to use or to disable Business Hours features and specify the amount of non-business hour spend that triggers notifications to users or groups. Controlling unnecessary resource use can help reduce costs.
+Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
 -   **[Create Business hours schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-bh-schedule.md)**  
 Create and apply a Business hours schedule to the cloud resources for enforcing the on/off schedule.
 -   **[Define or update a Business hours policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)**  

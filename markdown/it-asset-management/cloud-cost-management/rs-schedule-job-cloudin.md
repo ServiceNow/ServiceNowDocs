@@ -28,9 +28,11 @@ Role required: insights\_admin or insights\_owner
 
 ## About this task
 
+**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see.
+
 When you change the resources that are included in a job, Cloud Cost Management checks for the following conditions:
 
--   A resource in the job is owned by another user \(as when a insights\_admin updates a job that was created by an insights\_owner or an insights\_owner updates a job that was created by a different insights\_owner\).
+-   A resource in the job is owned by another user \(for example, when an insights\_admin updates a job that was created by an insights\_owner or an insights\_owner updates a job that was created by a different insights\_owner\).
 -   The job was created by another user.
 
 If either condition is met, the app sends an email notification to the owner of the resource or the creator of the job.
@@ -39,7 +41,7 @@ If either condition is met, the app sends an email notification to the owner of 
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Rightsizing**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Rightsizing**.
 
 2.  In the list on the appropriate tab, select the check boxes for the resources to rightsize.
 
@@ -112,9 +114,9 @@ Change request template \(Standard Change type\) to be used. If no template appe
 
 The Rightsizing job is created and will run at the scheduled time.
 
--   Until a member of the change group approves or rejects the change, the resource state is set to **Pending**, the resource remains listed on reports, and no other action is taken.
--   If a member of the change group approves the request, the state is set to **Approved** and the resource is added to the list of resources that the job will resize.
--   If a member of the change group rejects the request, the resource state is set to **Declined**, the resource remains listed on reports, and no action is taken.
+-   Until a member of the change group approves or rejects the change, the resource state is set to **Pending**. The resource remains listed on reports and no other action is taken.
+-   If a member of the change group approves the request, the state is set to **Approved**. The resource is added to the list of resources that the job will resize.
+-   If a member of the change group rejects the request, the resource state is set to **Declined**. The resource remains listed on reports and no action is taken.
 
 **Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/resize-res-ci.md)
 

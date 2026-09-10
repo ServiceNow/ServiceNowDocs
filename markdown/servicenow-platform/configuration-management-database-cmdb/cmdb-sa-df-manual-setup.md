@@ -25,7 +25,7 @@ Role required: sn\_cmdb\_admin
 
 1.  On the CMDB success advisor landing page, select **Set principal classes**.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
 2.  On the Set principal classes dialog box, select a group to choose all its classes, or expand a group to select individual classes. Move the selected classes from the **Available classes** column to the **Selected classes** column.
 

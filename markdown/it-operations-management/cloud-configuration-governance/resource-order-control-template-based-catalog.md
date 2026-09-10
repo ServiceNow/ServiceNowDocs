@@ -1,5 +1,5 @@
 ---
-title: Resource order controls for template-based cloud catalog items
+title: Resource order controls for template-based catalog items
 description: Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval subflow, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Resource order controls for template-based cloud catalog items
+# Resource order controls for template-based catalog items
 
 Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval subflow, or both.
 
@@ -20,7 +20,7 @@ Use resource order controls to perform quota checks for template-based catalog i
 
 Resource order controls enable you to control the quota limit of resources provisioned through template-based catalogs. Quota checks for cloud template-based catalog items are available beginning with the Zurich release.
 
-You can now map quota limits to template-based catalogs and trigger notifications or an approval subflow when the resource limit or quota definitions you specify for a user or user group is exceeded. For more information, see [Resource Quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-quota.md).
+You can map quota limits to template-based catalogs. When the resource limit or quota definitions you specify for a user or user group is exceeded, you can trigger notifications or an approval subflow. For more information, see [Resource Quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 Use resource controls to perform the following actions:
 

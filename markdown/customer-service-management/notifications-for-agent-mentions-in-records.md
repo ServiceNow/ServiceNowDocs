@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-12"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Notifications for agent mentions in records

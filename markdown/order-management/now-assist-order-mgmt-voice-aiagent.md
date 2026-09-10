@@ -46,7 +46,7 @@ Using the order exception AI voice agent, you can do the following:
 
     For example, say "I need it delivered by the end of this week", "I need to increase the quantity to 50 units", or "Ship it to my Boston warehouse instead".
 
-    The AI voice agent captures your request without performing inventory, quantity, or quote validation, and then offers to create an order case for an order case agent to resolve in the CSM Configurable Workspace.
+    The AI voice agent captures your request without performing inventory, quantity, or quote validation, and then offers to create an order case for an order case agent to resolve in the CRM Workspace.
 
 7.  Confirm when the agent asks whether you want to create a case for your order change request.
 

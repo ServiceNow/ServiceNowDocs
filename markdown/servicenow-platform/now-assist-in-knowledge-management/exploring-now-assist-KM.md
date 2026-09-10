@@ -16,10 +16,6 @@ breadcrumb: [ServiceNow Otto in Knowledge Management, Manage content capabilitie
 
 ServiceNow Otto in Knowledge Management enables agents to generate, edit, and publish knowledge articles from a case or incident using the ServiceNow Otto panel, classic environment, and configurable workspace.
 
-\[Omitted video\] Description: Generate a KB article from similar incidents by using ServiceNow Otto
-
-The video shows how an agent can generate a knowledge article with ServiceNow Otto from similar incidents in IT Service Management.
-
 ## ServiceNow Otto in Knowledge Management overview
 
 After activation and configuration, ServiceNow Otto in Knowledge Management provides agents with the following generative AI capabilities:
@@ -54,7 +50,9 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 
 [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Configure skills with custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+
+[Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
 
 [Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 
@@ -63,4 +61,6 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 [configure-merge-article]
+
+[Enable multilingual service in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.md)
 

@@ -34,7 +34,7 @@ You can use two ITOM Visibility apps to scan container images, Discovery and Ser
 
 -   **Use case \# 1**
 
-    Once an application has been packaged up in container images, a security professional can scan the base image, as well as the final image, for vulnerabilities, and identify OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
+    Once an application has been packaged up in container images, a security professional can scan the base image and the final image for vulnerabilities. They can identify OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
 
 
 <table id="table_m1k_b4g_vdc"><thead><tr><th>
@@ -121,7 +121,7 @@ Discovered using Kubernetes Visibility Agent
 </td></tr></tbody>
 </table>-   **Use case \#2**
 
-    A compliance officer can generate an  SBOM  to obtain a detailed list of the dependencies of the container image and to ensure that the software complies with industry regulations.
+    A compliance officer can generate an  SBOM  to obtain a detailed list of the dependencies of the container image. This ensures that the software complies with industry regulations.
 
 
 |Visibility method|Method characteristics|
@@ -205,7 +205,7 @@ Enable the Software Bill of Materials \(SBOM\) creation and avoid duplicate SBOM
 -   **[Download a software bill of materials \(SBOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/generate-sbom-pattern.md)**  
 Download a software Bill of Materials \(SBOM\) to gain visibility to the components of the container image such as the operating system packages that are installed.
 -   **[Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/container_image_scan_pattern.md)**  
-The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Parent Topic:**[Discovery for containerized resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/container-discovery.md)
 

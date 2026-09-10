@@ -83,7 +83,7 @@ Group by \(optional\)
 The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -335,6 +335,22 @@ Allow list pagination
 </td><td>
 
 Enables the list to be divided across multiple pages. When cleared, list pagination is hidden.
+
+</td></tr><tr><td>
+
+Fetch highlighted values
+
+</td><td>
+
+Render highlighted values in the list based on a predefined configuration.
+
+</td></tr><tr><td>
+
+Highlighted value configuration
+
+</td><td>
+
+Because different configurations can highlight values with different colors, select the configuration to use to render highlighted values. For more information, see [Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/config-ws-highlight-value.md).
 
 </td></tr></tbody>
 </table>

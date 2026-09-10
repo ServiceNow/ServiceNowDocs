@@ -22,7 +22,7 @@ Role required: admauthentication profile
 
 ## Procedure
 
-1.  **nRelish credentialsConnections and CredentialsCredential aliasConfiguration formauthentication configurationBasic Auth Credentialsection &amp; Credential Aliases**.
+1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
 2.  Click **New**.
 

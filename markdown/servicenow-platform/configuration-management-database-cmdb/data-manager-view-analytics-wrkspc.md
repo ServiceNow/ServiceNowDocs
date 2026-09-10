@@ -1,6 +1,6 @@
 ---
 title: View CMDB Data Manager analytics
-description: The CMDB Data Manager in CMDB Workspace and in Service Graph Workspace provides charts and counts that show the overall state of Data Manager policies in the organization. Review these details to track progress and to identify any problems that require your attention.
+description: The CMDB Data Manager in CMDB Workspace provides charts and counts that show the overall state of Data Manager policies in the organization. Review these details to track progress and to identify any problems that require your attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration M
 
 # View CMDB Data Manager analytics
 
-The CMDB Data Manager in CMDB Workspaceand in Service Graph Workspace provides charts and counts that show the overall state of Data Manager policies in the organization. Review these details to track progress and to identify any problems that require your attention.
+The CMDB Data Manager in CMDB Workspace provides charts and counts that show the overall state of Data Manager policies in the organization. Review these details to track progress and to identify any problems that require your attention.
 
 ## Before you begin
 
@@ -22,10 +22,8 @@ Role required: data\_manager\_admin or sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Governance icon. Then, in the Governance pane, select **Data Manager**.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then select the **Data Manager** quick link on the Home view.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Governance icon. Then, in the Governance pane, select **Data Manager overview**.
 2.  Select **Analytics** in the left navigation bar.
 
     The Data Manager analytics page provides the following charts:

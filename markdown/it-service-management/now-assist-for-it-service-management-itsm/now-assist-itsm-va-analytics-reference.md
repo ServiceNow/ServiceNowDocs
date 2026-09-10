@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2026-07-01"
+last_updated: "2026-08-18"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -28,5 +28,5 @@ To access the jobs, navigate to **All** &gt; **System Definition** &gt; **Schedu
 
 ## ITSM Virtual Agent analytics GAF clustering
 
-To configure the Group Action Framework \(GAF\) to cluster topics and use chat summarization to create topic names, run the **Activate topic clustering for Now Assist ITSM dashboard** script. [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-gaf.md)\[Omitted image "now-assist-itsm-script-execution-va-dashboard.png"\] Alt text: Now Assist for ITSM scheduled script execution
+To configure the Group Action Framework \(GAF\) to cluster topics and use chat summarization to create topic names, run the **Activate topic clustering for ServiceNow Otto for ITSM dashboard** script. [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-gaf.md)\[Omitted image "now-assist-itsm-script-execution-va-dashboard.png"\] Alt text: Now Assist for ITSM scheduled script execution
 

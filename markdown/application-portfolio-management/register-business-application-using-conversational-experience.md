@@ -16,7 +16,7 @@ Use the conversational experience of ServiceNow Otto in Virtual Agent to registe
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Ensure that the following tasks are completed:
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d128380e161">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d129618e158">
 
 Instruction
 
-</th><th align="left" id="d128380e164">
+</th><th align="left" id="d129618e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128380e170">
+</th></tr></thead><tbody><tr><td id="d129618e167">
 
 **Short: Register a business application**
 
@@ -63,7 +63,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d128380e217">
+</td></tr><tr><td id="d129618e214">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

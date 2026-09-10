@@ -38,6 +38,10 @@ Create flows that run with TISC roles. In TISC the flows are created for the fol
 
 -   **[Automated IOC Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ioc-enrichment.md)**  
 Learn how to automate enrichment of IOC’s using flows when they match a certain criterion.
+-   **[Automated sharing of high-risk IOC's with trusted partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-automated-sharing-flow.md)**  
+Learn how to automate sharing of high-risk IOC's with trusted partners.
+-   **[Automatically add threat intelligence to a TAXII collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-taxii-automated-flow.md)**  
+Learn how to automatically add threat intelligence to a TAXII server collection.
 -   **[Create vulnerability assessment for zero day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-vul-assess.md)**  
 Create a vulnerability assessment to evaluate and document security risks from zero day vulnerabilities in your environment. Use this when you want to assess the potential impact of newly discovered vulnerabilities that lack available patches.
 -   **[Analyze, assess, and disseminate observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-disseminate-observables.md)**  

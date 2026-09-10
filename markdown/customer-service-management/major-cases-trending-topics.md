@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Create major cases for trending case topics
@@ -24,7 +24,7 @@ If you didn't find an existing major case to add the trending case topics to and
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **Lists** &gt; **Trending Case Topics** &gt; **Last 1 week**.
 

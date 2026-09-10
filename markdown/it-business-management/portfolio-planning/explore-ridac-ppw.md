@@ -19,7 +19,7 @@ RIDAC \(Risk, Issue, Decision, Action, Change\) in Portfolio Planning Workspace 
 
 ## RIDAC overview
 
-RIDAC \(Risk, Issue, Decision, Action, and Change request\) in Strategic Planning Workspace provides a unified view of all RIDAC records across your portfolio hierarchy. Portfolio Planning Workspace delivers a holistic perspective that helps teams identify and manage risks, resolve issues, document decisions, track actions, and monitor changes across all planning items \(project and demand\)—without navigating between multiple work items.
+RIDAC \(Risk, Issue, Decision, Action, and Change request\) in Strategic Planning Workspace provides a unified view of all RIDAC records across your portfolio hierarchy. Portfolio Planning Workspace delivers a holistic perspective that helps teams identify and manage risks, resolve issues, document decisions, track actions, and monitor changes across all planning items \(project and demand\)—without navigating between multiple records.
 
 ## Supported RIDAC tables
 
@@ -27,8 +27,6 @@ RIDAC \(Risk, Issue, Decision, Action, and Change request\) in Strategic Plannin
 |-----|-----------|
 |Planning item \(Demand\)|Can create and track Risks, Issues, Decisions, Actions, and Changes directly within your demand to manage planning uncertainties and dependencies.|
 |Planning item \(Project\)|Can create and track Risks, Issues, Decisions, Actions, and Changes directly within your project to manage planning uncertainties and dependencies.|
-
-**Note:** A RIDAC record can be linked to any of these items: a planning item, a goal, or an EAP iteration.
 
 ## RIDAC benefits
 

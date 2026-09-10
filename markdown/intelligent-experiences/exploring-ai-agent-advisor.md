@@ -105,7 +105,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+Automation discovery with AI Agent Advisor
 
 </td><td>
 

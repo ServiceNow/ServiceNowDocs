@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
 breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
@@ -44,7 +44,7 @@ TPM Discovered Technology Run Log \[sn\_apm\_tpm\_discovered\_technology\_run\_l
 
 </td><td>
 
-Stores when Technology Lifecycle Management \(TLM\) refreshed its contents against Software Asset Management \(SAM\) Professional and Hardware Asset Management \(HAM\) Professional.
+Stores when Technology Portfolio Management \(TPM\) refreshed its contents against Software Asset Management \(SAM\) Professional and Hardware Asset Management \(HAM\) Professional.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\]
 
 </td><td>
 
-Stores the technology life cycles associated with the discovered technologies.
+Stores the technology life cycles associated with the discovered technologies.**Note:** When multiple sources contribute lifecycle phase dates for the same product, the source with the highest configured rank takes precedence, and phase dates are validated to stay in chronological order.
 
 </td></tr><tr><td>
 
@@ -68,8 +68,15 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 
 </td><td>
 
-Stores the TLM technology risk information.
+Stores the TPM technology risk information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md)
+
+**Related topics**  
+
+
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md)
+
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-governing-fields.md)
 

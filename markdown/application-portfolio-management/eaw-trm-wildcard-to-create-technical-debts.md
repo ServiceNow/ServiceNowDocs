@@ -1,5 +1,5 @@
 ---
-title: Work with TRM lifecycle with wildcard
+title: Work with Technology Reference Model \(TRM\) lifecycle with wildcard
 description: Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage the Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Work with TRM lifecycle with wildcard
+# Work with Technology Reference Model \(TRM\) lifecycle with wildcard
 
 Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 
@@ -38,18 +38,18 @@ You must be a part of the enterprise architects group to be able to create a TRM
 
 A TRM wildcard can’t create technical debts when the full version of a particular TRM software product exists.
 
-**Parent Topic:**[Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
 **Related topics**  
 
 
-[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-trm-tech-debt.md)
+[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-trm-tech-debt.md)
 
-[TRM Technical Debt calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-calc.md)
+[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-calc.md)
 
-[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
+[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
 [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

@@ -202,7 +202,7 @@ Displays the raw, unaggregated metric values. These values are kept only for the
 -   Point to the icon of a CI in the right-hand side bar to display the CI type.
 -   Zoom in or out by changing the default **Last Hour** time range selection. Select one of the preset time periods to display anomaly scores for the last **6 Hours** for example, or specify a custom time period for up to 90 days back.
 
-    To zoom in, highlight a section of a chart by pointing to the upper left corner of the section and dragging the mouse device to the lower right corner of the section. The time range of the chart changes accordingly. If there are other charts on the canvas, they are all automatically synchronized to display data for the same time range. The time range in the title bar automatically updates to reflect the new time range.
+    To zoom in, highlight a section of a chart. Point to the upper left corner of the section and drag to the lower right corner. The time range of the chart changes accordingly. If there are other charts on the canvas, they are all automatically synchronized to display data for the same time range. The time range in the title bar automatically updates to reflect the new time range.
 
 -   Right-click on a CI in the right-hand side bar and select **View Form** to open its CI form.
 -   Click the map icon next to an application service listed in the **Application Services** tab, to open its application service map.

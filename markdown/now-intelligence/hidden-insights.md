@@ -16,7 +16,7 @@ Generate a deeper level of analysis that can reveal new insights, enabling you t
 
 Extended analysis requires the analytics hidden insight skill from Query Generation to be active. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-query-generation.md).
 
-To turn on extended analysis for an exploration, select it in the **Ask Now Assist a question about data** field. You have the same choice when you launch AI Data Explorer in a data visualization or list.
+To turn on extended analysis for an exploration, select it in the **Ask a question about data** field. You have the same choice when you launch AI Data Explorer in a data visualization or list.
 
 \[Omitted image "nowass-expl-extended-vs-standard-analysis.png"\] Alt text: Selecting extended or standard analysis.
 
@@ -75,7 +75,7 @@ Breakdowns are returned in the following priority order:
 
 ## Extended analysis of table data
 
-For table data,[Extended analysis]() involves aggregating the records related to a response in an [exploration](). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, Glide List, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
+For table data,[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) involves aggregating the records related to a response in an [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, Glide List, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
 
 The number of columns that extended analysis examines is set in the system property **sn\_query\_gen.hidden\_insights.groupby.min\_fields**. The default value is 5. If the number of eligible columns that are visible on the record list is lower than this value, the system searches for more fields on the table. The search stops when the total number of fields from both the list view and the table search reaches the value of the system property. If the system can’t find that many fields, it uses the fields it does find.
 

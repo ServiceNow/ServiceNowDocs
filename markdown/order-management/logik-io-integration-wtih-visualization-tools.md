@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik-i
 release: zurich
 topic_type: concept
 last_updated: "2025-09-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
@@ -43,7 +43,13 @@ You can perform the following:
     -   Add a determination rule \(or enrichment\) to parse that JSON and update fields or set rows.
     -   If a listener field is present, only mappings explicitly configured for two-way will write back.
 
-\[Omitted image "cpq-integration-matrix.png"\] Alt text: Tabular format to showcase supported and non supported features of the visualization tools.
+|Viz vendor|1-way communication|2-way communication|
+|Field|Set|Set repeater: active index|Product picker|Field|Set|
+|----------|-------------------|-------------------|
+|-----|---|--------------------------|--------------|-----|---|
+|CDS|Supported|Supported|Supported|Supported|Supported|Supported through implementation. See vendor-specific implementation article.|
+|kBridge|Supported|Supported|Supported|Supported|Supported|Supported through implementation. See vendor-specific implementation article.|
+|Threekit|Supported|Not supported|Supported|Not supported|Not supported|Not supported|
 
 ## Data exchanged
 

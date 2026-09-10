@@ -24,9 +24,9 @@ You can use the results of the categorization to automatically route records to 
 
 On case and interaction records, the fields that contain predicted values are identified with an AI icon and label \(\[Omitted image "task-intel-categorization-field-icon.png"\] Alt text: generative AI sparkle icon and label\). These fields also include an information icon that displays a message with additional context about the predicted values.
 
-**Note:** in CSM Configurable Workspace, the AI icon is persistent over the life-cycle of the record. In Core UI, the AI icon is removed when the agent changes the field value.
+**Note:** in CRM Workspace, the AI icon is persistent over the life-cycle of the record. In Core UI, the AI icon is removed when the agent changes the field value.
 
-In CSM Configurable Workspace and Core UI, the fields on the record that contain predicted values are identified with the **Predicted** or **Recommended** messages.
+In CRM Workspace and Core UI, the fields on the record that contain predicted values are identified with the **Predicted** or **Recommended** messages.
 
 ## Recommended field values
 
@@ -51,7 +51,7 @@ Enable the **sn\_csm\_ml\_task.case.categorization.enable\_inactive\_filter** to
 
 When a case record includes a categorization prediction, the system displays a banner at the top of the record. The banner is displayed when there is atleast one field with auto-fill predictions in categorization models. The banner is displayed for records in the Case table and extensions of the Case table.
 
-**Note:** The banner is displayed in CSM Configurable Workspace and in the Core UI.
+**Note:** The banner is displayed in CRM Workspace and in the Core UI.
 
 The system displays the banner when there is at least one field with an auto-fill prediction in categorization models or when one of the extracted fields hasn’t been reviewed by the agent. The banner is displayed for records in the Case table.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-03"
 reading_time_minutes: 11
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a neighborhood reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d750351e86">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d751341e78">
 
 Location
 
-</th><th align="left" id="d750351e89">
+</th><th align="left" id="d751341e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d750351e95">
+</th></tr></thead><tbody><tr><td id="d751341e87">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d750351e119">
+</td></tr><tr><td id="d751341e111">
 
 **From Employee Center Portal**
 

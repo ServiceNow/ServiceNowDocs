@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/install-purch-order-mgmt.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-21"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [install POM application, Install Purchase Order Management, how to install Purchase order management]
 breadcrumb: [Configure, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -65,4 +65,10 @@ View the consolidated list of plugins, high-level description of each plugin, an
 [Assigning priority to a purchase order]()
 
 [Assigning purchase order exceptions to buyers]()
+
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assigning-priority-to-po.md)
+
+[Assigning purchase order exceptions to buyers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assigning-po-exceptions-to-buyers.md)
 

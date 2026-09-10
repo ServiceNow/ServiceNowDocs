@@ -1,6 +1,6 @@
 ---
 title: Oracle Catalog discovery
-description: The Discovery and Service Mapping Patterns application uses the Get Catalog info pattern extension of the Oracle DB on Unix and Oracle DB on Windows patterns to find Oracle Catalog objects. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Get Catalog info pattern extension of the Oracle DB on Unix and Oracle DB on Windows patterns to find Oracle Catalog objects. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Oracle Catalog discovery
 
-The Discovery and Service Mapping Patterns application uses the **Get Catalog info** pattern extension of the Oracle DB on Unix and Oracle DB on Windows patterns to find Oracle Catalog objects. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the **Get Catalog info** pattern extension of the Oracle DB on Unix and Oracle DB on Windows patterns to find Oracle Catalog objects. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery uses the Oracle DB on Unix and Oracle DB on Windows patterns and the Get Catalog info pattern extension to run horizontal discovery.
 

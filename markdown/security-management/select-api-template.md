@@ -16,7 +16,7 @@ Use the SPC Setup Connector skill to automatically complete configuration steps 
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 The SPC Setup Connector skill is included with ServiceNow Otto for Unified Security Exposure Management and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md).
 

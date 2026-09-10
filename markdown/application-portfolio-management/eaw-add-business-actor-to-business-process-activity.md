@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing business actor:
         1.  Select **Add**.
-        2.  In the Add business actor window, select the business actor and the relationship type between the business process activity and the business actor.
+        2.  In the Add business actor window, select the business actor. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a business actor, select **New** and complete the fields on the form. For field descriptions, see [Create a business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
 

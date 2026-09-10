@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -48,6 +48,8 @@ Instead of using the demo data templates, you can create a template for your spe
 
 -   **[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**  
 Configure the business continuity plan template in the Business Continuity Management application for your business. You can use the plan template to recover a specific primary element such as Employees or Web Servers. Similarly, you can create a plan template for different plan authoring types such as documentation, loss scenarios, and recovery tasks.
+-   **[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-task-temp-temp-groups.md)**  
+Create task templates and task template groups to save individual tasks or groups of tasks for reuse. Add templates to new plans or insert them into existing ones.
 
 **Parent Topic:**[Setup for a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-admin-tasks.md)
 

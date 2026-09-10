@@ -38,15 +38,15 @@ You can modify existing search application configurations, or create and configu
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d395688e227">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d395379e224">
 
 Option
 
-</th><th align="left" id="d395688e230">
+</th><th align="left" id="d395379e227">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d395688e236">
+</th></tr></thead><tbody><tr><td id="d395379e233">
 
 **Create a new search profile**
 
@@ -54,7 +54,7 @@ Procedure
 
 Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d395688e276">
+</td></tr><tr><td id="d395379e273">
 
 **Link an existing search profile**
 
@@ -137,15 +137,15 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d395688e689">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d395379e686">
 
 Option
 
-</th><th align="left" id="d395688e692">
+</th><th align="left" id="d395379e689">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d395688e698">
+</th></tr></thead><tbody><tr><td id="d395379e695">
 
 **Create a new search application configuration**
 
@@ -153,7 +153,7 @@ Procedure
 
 Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d395688e738">
+</td></tr><tr><td id="d395379e735">
 
 **Link an existing search application configuration**
 

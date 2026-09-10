@@ -75,7 +75,7 @@ The change request is approved.
 
 The change request is closed.
 
-You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see [add multi-layer model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_AddANewState.md).
+You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see add multi-layer model states.
 
 </td></tr><tr><td>
 
@@ -120,9 +120,7 @@ Create a record producer to configure an activity in the playbook. To learn more
 **Related topics**  
 
 
-[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/create-a-change-model.md)
-
-[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ChangeStateModel.md)
+[bundle-itsm.create-a-change-model]
 
 [Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Export hierarchy of models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ Learn how to migrate models and templates between ServiceNow instances by export
 
 ## Exporting hierarchy via JSON overview
 
-The Export Hierarchy action produces a JSON file containing the selected record and its complete hierarchy, including the dependent reference data the records require. The JSON file can then be imported on a target ServiceNow instance to recreate the hierarchy with system ID continuity preserved between source and target.
+The Export Hierarchy action produces a JSON file containing the selected record, its complete hierarchy, and the dependent reference data the records require. Import this file on a target instance to recreate the hierarchy with system ID continuity preserved.
 
 ## Components in JSON file
 
@@ -28,7 +28,7 @@ A JSON export packages the selected model or template along with everything it d
 -   Dependent reference data: any records the model or template references, such as manufacturer details, product information, model classifications, and currency or pricing data
 -   Inventory templates and their referenced models, when exporting a template, the models the template depends on are included automatically
 
-The dependent reference data is included because the models and templates can't function on the target instance without their references intact. For example, an exported equipment model for a Cisco router includes the Cisco manufacturer record so that the imported model on the target instance keeps its manufacturer link.
+The dependent reference data is included because models and templates can't function on the target instance without their references intact. For example, an exported Cisco router equipment model includes the Cisco manufacturer record, so the imported model keeps its manufacturer link.
 
 ## Roles required for Export Hierarchy
 
@@ -43,9 +43,9 @@ Inventory admin can perform either action. Catalog Manager can export models. Te
 
 ## How Export Hierarchy via JSON works
 
-The JSON export process operates as a single-stage interaction. When the user initiates Export Hierarchy from a model or template record, the system identifies the selected record together with all its related and referenced records, and packages them into a single JSON file. The JSON file is generated as an attachment on the Export request record. Once the export status shows Completed, the user downloads the JSON file from the right sidebar.
+The JSON export process operates as a single-stage interaction. When you initiate Export Hierarchy from a model or template record, the system identifies the record and all its related and referenced records, then packages them into a single JSON file. The file is generated as an attachment on the Export request record. Once the export status shows Completed, you download the JSON file from the right sidebar.
 
-The downloaded JSON file is then transferred to the target instance and loaded using the JSON import feature in the Network Inventory Workspace. Importing the JSON on the target instance recreates the model or template along with its complete hierarchy of related and referenced records, preserving system ID continuity between the source and target.
+Transfer the downloaded JSON file to the target instance and load it using the JSON import feature in the Network Inventory Workspace. Importing the JSON recreates the model or template hierarchy with system ID continuity preserved.
 
 This is why JSON export is the recommended path for cross-instance migration: the file contains everything needed for the records to function on the target instance, not just the records themselves.
 

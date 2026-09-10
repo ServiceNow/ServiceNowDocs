@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Marking Definition, Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_sec\_tisc.analyst
 
 3.  Go to **Marking Definition** object.
 
-4.  Select **New**.
+4.  Click **New**.
 
     **Note:** Whenever you create new object records for observables, indicators, entities or objects a source record is created and a prompt message is displayed that the new object record is created and then the user is redirected to the aggregated record.
 
@@ -80,7 +80,7 @@ TLP
 
 </td><td>
 
-TLP is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, Red, Amber+Strict\) to indicate different degrees of sensitivity.
+TLP is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, and Red\) to indicate different degrees of sensitivity.
 
 </td></tr><tr><td>
 
@@ -184,17 +184,11 @@ Created By Ref
 This property specifies that the identity object that describes the entity had created this object.
 
 </td></tr></tbody>
-</table>6.  If you want to delete any record then, select **Delete** to delete the aggregated record.
-
-    When you select this action, then it will remove all the related records, except the original source data, and trigger re aggregation.
-
-    **Note:** A confirmation message will appear to verify that you want to delete the aggregated record. If you also want to delete the source records and prevent re aggregation, select the **Delete Source Records** check box. This action will remove all the associated source records.
-
-7.  Click **Save**.
+</table>6.  Click **Save**.
 
     After you save, a prompt message is displayed indicating that A new observable record is created. Click **Continue** to edit the record and create new relationships.
 
-8.  Click **Continue**.
+7.  Click **Continue**.
 
     **Important:** After you create a new observable record, **Prevent System Updates** check box is displayed.
 

@@ -63,6 +63,7 @@ The type of case. The choices are:
 -   **Banking information change request**
 -   **Supplier information change request**
 -   **Supplier location change request**
+-   **Tax information change request**
 -   **Supplier issue**
 -   **Due diligence**
 -   **Offboard a supplier**

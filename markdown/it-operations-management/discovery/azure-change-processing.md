@@ -21,9 +21,9 @@ The Azure Change Processing scheduled jobs query the Azure API and collect the r
 
 By default, the Azure change processing scheduled jobs run in every 5 minutes. If necessary, update the execution frequency of the schedule according to your needs. Set the execution frequency within the minimum value of one minute.
 
-When you execute the Azure change processing for the first time, it may run a few hours due to processing resource changes that occurred in the last four hours. If you want to increase the default schedule execution period, ensure that enough worker nodes are available to execute the schedule.
+When you execute the Azure change processing for the first time, it may run a few hours. This is due to processing resource changes that occurred in the last four hours. If you want to increase the default schedule execution period, ensure that enough worker nodes are available to execute the schedule.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent the failed events visibility to all domains, you can set the **sn\_cmp.error\_events.default\_domain** property to sys\_id of the service-provider domain so that the failed events appears only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To restrict failed event visibility, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. Failed events then appear only to the service-provider domain administrator.
 
 **Note:**
 

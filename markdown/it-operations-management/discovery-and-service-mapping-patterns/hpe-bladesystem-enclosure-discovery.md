@@ -1,20 +1,20 @@
 ---
 title: HPE BladeSystem Enclosure Discovery
-description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-08-27"
+reading_time_minutes: 6
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # HPE BladeSystem Enclosure Discovery
 
-ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -22,11 +22,30 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Prerequisites
 
--   Ensure you are using the latest version of Discovery and Service Mapping Patterns.
--   Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_SNMPCredentials.md).
--   Set the SSH credentials for the enclosure’s Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure’s bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
--   Verify the Onboard Administrator’s IP address, which Discovery runs against.
--   Ensure that the host machine is reachable from the MID Server.
+-   **Verify the pattern version**
+
+    Verify you're using the latest version of Discovery and Service Mapping Patterns.
+
+-   **Set SNMP credentials**
+
+    Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_SNMPCredentials.md).
+
+-   **Set SSH credentials**
+
+    Set the SSH credentials for the enclosure's Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure's bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
+
+-   **Verify the Onboard Administrator IP address**
+
+    Verify the Onboard Administrator's IP address, which Discovery runs against.
+
+-   **Verify host machine reachability**
+
+    Verify that the host machine is reachable from the MID Server.
+
+-   **Populate only the serial number in the Serial Number field**
+
+    Starting with version 1.35.0 of Discovery and Service Mapping Patterns, you can populate the **Serial Number** field with only the serial number value, without the UUID suffix, by setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+
 
 ## Highlights and supported versions
 
@@ -36,10 +55,13 @@ The pattern has been tested against:
 -   HPE BladeSystem blades: HPE ProLiant BL460c
     -   Generations 8, 9 and 10
     -   ROM Versions: I31, I36, I41 \(2014-2021\)
-    -   Blades being managed by a Virtual Connect Manager/Virtual Connect Enterprise Manager \(VCM/VCEM\) have a logical serial number. In this case, the serial number, which is exposed by WMI, for example, is the logical one, rather than the physical one, as is usually the case. When creating the relation between the blade and the OS server, based on the serial number, the system attempts to match both the physical and logical serial numbers with the ones owned by the OS Server.
-    -   When discovering blade servers with the logical serial numbers, their logical serial numbers are inserted to **cmdb\_serial\_number** with the **logical** type. This is a new serial number type that was created to support these new serial numbers introduced by HP.
 
-        **Note:** The WMI provides the logical serial number as the bios serial number. ESXi servers are discovered by probes. The ESXiserver CI gets the logical serial number as **chassis**.
+Blades managed by a Virtual Connect Manager/Virtual Connect Enterprise Manager \(VCM/VCEM\):
+
+-   Have a logical serial number instead of a physical one. To relate the blade to the OS server, the system matches both physical and logical serial numbers against OS Server records.
+-   When discovering blade servers with the logical serial numbers, their logical serial numbers are inserted to **cmdb\_serial\_number** with the **logical** type. This is a new serial number type that was created to support these new serial numbers introduced by HP.
+
+    **Note:** The WMI provides the logical serial number as the bios serial number. ESXi servers are discovered by probes. The ESXiserver CI gets the logical serial number as **chassis**.
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -53,7 +75,7 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |IP Address \[ip\_address\]|The management IP of the enclosure \(Onboard Administrator address\).|
 |Model ID \[model\_id\]|The enclosure’s type \(model\).|
 |Manufacturer \[manufacturer\]|The enclosure’s manufacturer name \(“HP” or “HPE”, depending upon the model\).|
-|Serial number \[serial\_number\]|A generated serial number according to this convention: **&lt;enclosure’s original serial&gt; ::&lt;enclosure’s UUID&gt;**|
+|Serial number \[serial\_number\]|The serial number of the enclosure. The default format is **&lt;enclosure's original serial&gt;::&lt;enclosure's UUID&gt;**.\*|
 |Asset tag \[asset\_tag\]|The asset tag as extracted from the enclosure’s data.|
 |Model number \[model\_number\]|The enclosure’s part number \(HPE proprietary\).|
 |Midplane Spare Part Number \[midplane\_spare\_part\_number\]|The spare part number \(HPE proprietary\) of the mid-plane.|
@@ -63,6 +85,8 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |Onboard Administrator Tray Spare Part Number \[onboard\_admin\_tray\_spare\_part\_number\]|The Onboard Administrator tray’s spare part number \(HPE proprietary\).|
 |Onboard Administrator Tray Serial Number \[onboard\_admin\_tray\_serial\_number\]|The Onboard administrator tray’s serial number.|
 
+\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+
 |Field|Description|
 |-----|-----------|
 |Name \[name\]|The generated value, according to this convention: **&lt;enclosure’s name&gt;/bay-&lt;bay number&gt;**|
@@ -70,7 +94,7 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |Logical UUID \[uuid\_logical\]|The logical unique identifier of the HPE server blade \(HPE’s proprietary identifier\).|
 |Model ID \[model\_id\]|The blade server’s product name \(model\).|
 |Manufacturer \[manufacturer\]|The blade server’s manufacturer name \(“HP” or “HPE” depending on the model\).|
-|Serial number \[serial\_number\]|A generated serial number according to this convention: **&lt;blade’s original serial&gt; :: &lt;blade’s UUID&gt;**.|
+|Serial number \[serial\_number\]|The serial number of the blade server. The default format is **&lt;blade's original serial&gt;::&lt;blade's UUID&gt;**.\*|
 |Logical serial number \[serial\_number\_logical\]|The logical serial number of the HPE server blade \(HPE’s proprietary identifier\).|
 |Asset tag \[asset\_tag\]|The asset tag as extracted from the blade’s data.|
 |Model number \[model\_number\]|The blade’s part number \(HPE proprietary\).|
@@ -87,6 +111,8 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |Power Management Controller Version \[power\_management\_controller\_version\]|The blade’s power management controller’s version.|
 |iLO Federation Capable \[ilo\_federation\_capable\]|The iLofederation capability enabled/disabled.|
 |Bay Number \[bay\_number\]|The enclosure’s bay number in which the blade is installed.|
+
+\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 |Field|Description|
 |-----|-----------|
@@ -123,10 +149,19 @@ Discovery creates these relationships to support HPE BladeSystem Enclosure disco
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Enclosure \[cmdb\_ci\_hpe\_bladesystem\_enclosure\]|
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Blade \[cmdb\_ci\_hpe\_bladesystem\_blade\]|
 
+-   **[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)**  
+You can exclude the universally unique identifier \(UUID\) from the **Serial number** field for discovered HPE BladeSystem Enclosure and HPE BladeSystem Blade configuration items \(CIs\).
+-   **[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)**  
+Delete records with UUID-formatted serial numbers from HPE BladeSystem discovery tables.
+
 **Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
 [SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/snmp-based-queries.md)
+
+[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)
+
+[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)
 

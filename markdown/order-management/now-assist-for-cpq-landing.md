@@ -51,12 +51,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-cpq.md)**  
 With the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
 -   **[Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)**  
-Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CRM Workspace and Business Portal.
 -   **[Using ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-now-assist-cpq.md)**  
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 

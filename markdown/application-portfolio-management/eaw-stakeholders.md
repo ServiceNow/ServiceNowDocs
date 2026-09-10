@@ -26,9 +26,9 @@ You can:
 
 When you model a stakeholder in a diagram, the following default relationships are available:
 
--   With drivers: **Influenced by**::**Influences**
--   With goals: **Has goal**::**Goal of**
--   With value streams or business processes: **Interested in**::**Of interest to**
+-   With drivers: **Influenced by** :: **Influences**
+-   With goals: **Has goal** :: **Goal of**
+-   With value streams or business processes: **Interested in** :: **Of interest to**
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-architecture.md)
 

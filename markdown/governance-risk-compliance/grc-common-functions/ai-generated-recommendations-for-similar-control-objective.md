@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Explore, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # AI-generated recommendations for similar control objectives

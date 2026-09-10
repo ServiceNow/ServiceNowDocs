@@ -1,6 +1,6 @@
 ---
 title: Add AI systems to business applications
-description: You can add AI system product models to business applications in the Enterprise Architecture Workspace. Associating AI system product models to business applications enables enterprise architects to monitor AI usage along with your business applications, enabling better lifecycle visibility and tracking, and improving compliance and decision making.
+description: You can add AI system product models to business applications in the Enterprise Architecture Workspace. This association enables enterprise architects to monitor AI usage alongside business applications, improving lifecycle visibility, tracking, compliance, and decision making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-ai-systems.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Working with an application portfolio, Working with Portfolio list 
 
 # Add AI systems to business applications
 
-You can add AI system product models to business applications in the Enterprise Architecture Workspace. Associating AI system product models to business applications enables enterprise architects to monitor AI usage along with your business applications, enabling better lifecycle visibility and tracking, and improving compliance and decision making.
+You can add AI system product models to business applications in the Enterprise Architecture Workspace. This association enables enterprise architects to monitor AI usage alongside business applications, improving lifecycle visibility, tracking, compliance, and decision making.
 
 ## Before you begin
 

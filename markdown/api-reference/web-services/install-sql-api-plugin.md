@@ -1,6 +1,6 @@
 ---
-title: Install SQL API plugin on your ServiceNow instance
-description: Installing the SQL API on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
+title: Install Live Connect plugin on your ServiceNow instance
+description: Installing the Live Connect on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/install-sql-api-plugin.html
 release: zurich
@@ -9,22 +9,22 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Install SQL API plugin on your ServiceNow instance
+# Install Live Connect plugin on your ServiceNow instance
 
-Installing the SQL API on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
+Installing the Live Connect on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 
 ## Before you begin
 
-You must have an appropriate RaptorDB Pro entitlement to install the SQL API plugin.
+You must have an appropriate RaptorDB Pro entitlement to install the Live Connect plugin.
 
 Role required: admin
 
 ## About this task
 
-Install the SQL API plugin to enable the ODBC and JDBC drivers to connect to your ServiceNow instance.
+Install the Live Connect plugin to enable the ODBC and JDBC drivers to connect to your ServiceNow instance.
 
 ## Procedure
 
@@ -50,7 +50,7 @@ Install the SQL API plugin to enable the ODBC and JDBC drivers to connect to you
 
 ## Result
 
-The SQL API plugin is installed on your ServiceNow instance. You can proceed to [Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md) and create service accounts, set up access control lists, and define IP filter criteria.
+The Live Connect plugin is installed on your ServiceNow instance. You can proceed to [Configure Live Connect plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md) and create service accounts, set up access control lists, and define IP filter criteria.
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

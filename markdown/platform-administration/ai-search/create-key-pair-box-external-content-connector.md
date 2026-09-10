@@ -40,7 +40,7 @@ Role required: none
 
 ## About this task
 
-You need to create your own private and public RSA keys for use with the Box external content connector. The keys that the Box developer console generates are not secure enough to comply with the connector's security requirements.
+You need to create your own private and public RSA keys for use with the Box external content connector. The keys that the Box developer console generates aren't secure enough to comply with the connector's security requirements.
 
 To configure public/private key authentication for the connector, you need to create the following items:
 

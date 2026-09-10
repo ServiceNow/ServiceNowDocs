@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/testpub-updat-and-app-priv.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-08-20"
 reading_time_minutes: 2
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -21,6 +21,8 @@ Role required: admin
 ## Procedure
 
 1.  Download the APK file and upload it directly to a device.
+
+    If you provided a developer verification snippet with your build request, the snippet is embedded in this APK.
 
 2.  Send an email to the APK testers, asking them to open the app on their Android phones or to drag-and-drop the app onto an emulator.
 

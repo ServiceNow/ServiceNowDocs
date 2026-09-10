@@ -1,16 +1,16 @@
 ---
-title: Create an internal business location
+title: Create internal business location
 description: Create an internal business location to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-internal-business-location.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a dealer, Set up dealer, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up dealer, Configure, Manufacturing Commercial Operations]
 ---
 
-# Create an internal business location
+# Create internal business location
 
 Create an internal business location to enable users and consumers to create accounts, contacts, consumers, and households.
 
@@ -34,18 +34,23 @@ The manager of an internal business location can access all the cases for accoun
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal Business Locations**.
 
-2.  Click **New** on the Internal Business Locations list.
+2.  Select **New** on the Internal Business Locations list.
 
 3.  On the Internal business location form, fill in the fields.
 
     For a description of the field values, see [Internal business location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-internal-business-location-form.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The location is added to the Internal Business Locations list.
 
-    After creating an internal business location, you can add staff members to the location, create relationships between staff members and accounts, households, and consumers, and track the list of customers serviced by a business location.
+    After creating an internal business location, you can add staff members to the location and create relationships between staff members and accounts, households, and consumers. You can track the list of customers serviced by a business location.
 
 
-**Parent Topic:**[Create a dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-dealer.md)
+**Parent Topic:**[Set up dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/set-up-dealer.md)
+
+**Related topics**  
+
+
+[Add staff members to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/add-staff-members-biz-loc.md)
 

@@ -54,7 +54,7 @@ Role required: evt\_mgmt\_operator
 
 5.  At this point, you should not modify the alert associated with this CI.
 
-    You can open the change request to see if a schedule is attached, or coordinate with your team to find out when the CI will no longer be in maintenance.
+    You can open the change request to see if a schedule is attached. Coordinate with your team to find out when the CI will no longer be in maintenance.
 
 6.  After you verify that the **Status** field on the CI is not **In Maintenance**, open the alert again and clear the **Maintenance** check box.
 

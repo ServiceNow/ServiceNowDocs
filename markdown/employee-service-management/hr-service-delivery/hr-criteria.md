@@ -46,7 +46,7 @@ If you use HR criteria for Knowledge and Service catalog access, ensure:
 -   Conditions that can cause performance issues \(starts with\) are not used.
 -   Knowledge document searches and use cases are performance tested with instances that are similar to what is used in production.
 
-When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 **Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
@@ -186,7 +186,7 @@ This condition selects all employees who have a home country of the United State
 
  **Note:** When you use multiple conditions, only the records that match all of the conditions are used.
 
- When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+ When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 **Note:** For more information, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_Filters.md).
 

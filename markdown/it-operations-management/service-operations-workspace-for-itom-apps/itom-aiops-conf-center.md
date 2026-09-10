@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -31,5 +31,5 @@ The AIOps configuration center provides a single interface to configure and admi
 -   Configure authorization for admins, integrations, APIs, and notifications.
 -   Govern teams and approvals for service creation and on-call schedules.
 
-The AIOps configuration center consolidates all administrative tasks needed to set up and operate ITOM AIOps effectively—making it easier to streamline monitoring, improve incident response, and maintain service reliability.
+The AIOps configuration center consolidates all administrative tasks needed to set up and operate ITOM AIOps effectively. It streamlines monitoring, improves incident response, and maintains service reliability.
 

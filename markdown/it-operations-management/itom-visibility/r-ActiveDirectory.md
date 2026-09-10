@@ -1,6 +1,6 @@
 ---
 title: Active Directory Domain Controller discovery
-description: The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find Active Directory domain controllers running on a Windows server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find Active Directory domain controllers running on a Windows server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r-ActiveDirectory.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Active Directory Domain Controller discovery
 
-The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find Active Directory domain controllers running on a Windows server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find Active Directory domain controllers running on a Windows server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-When discovery runs on a domain controller, the pattern also creates LDAP endpoint connections to child domains in the same forest, triggering discovery of those domain controllers as well.
+When discovery runs on a domain controller, the pattern also creates LDAP endpoint connections to child domains in the same forest. This triggers discovery of those domain controllers as well.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 

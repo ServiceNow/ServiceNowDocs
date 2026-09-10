@@ -44,11 +44,11 @@ To learn more about configuring and using ServiceNow Otto for Operational Sustai
 -   [Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
 
 -   **[Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md)**  
-The AI-driven document intelligence for utility invoices feature is designed to automate metric data collection. It automates the metric data collection by extracting utility bill data, such as consumption, billing dates, and amounts, within the Operational Sustainability Workspace.
--   **[Supporting information for ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
+The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
+-   **[Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 -   **[Carbon calculations using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/carbon-calulations-agentic-workflow.md)**  
-Using AI agents, you can create calculated metric definition \(CMD\) records and formulas automatically for Scope 3 carbon emissions categories. The carbon calculations agentic workflow uses AI-powered document analysis and semantic matching to confirm accuracy, which helps reduce manual effort for ESG Management program managers.
+Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
 
 **Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [tisc api, tisc, observables]
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]

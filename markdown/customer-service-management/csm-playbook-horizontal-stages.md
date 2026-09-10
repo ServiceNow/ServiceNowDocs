@@ -1,6 +1,6 @@
 ---
 title: Case playbook: horizontal stages record page
-description: The Case playbook: horizontal stages page is a record page that you can use in CSM Configurable Workspace. This page includes a playbook with a horizontal stage picker that displays across the top of the user interface and persistent information in the left panel.
+description: The Case playbook: horizontal stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a horizontal stage picker that displays across the top of the user interface and persistent information in the left panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-horizontal-stages.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent too
 
 # Case playbook: horizontal stages record page
 
-The Case playbook: horizontal stages page is a record page that you can use in CSM Configurable Workspace. This page includes a playbook with a horizontal stage picker that displays across the top of the user interface and persistent information in the left panel.
+The Case playbook: horizontal stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a horizontal stage picker that displays across the top of the user interface and persistent information in the left panel.
 
 The Case playbook: horizontal stages record page is created from the [Case playbook: horizontal stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-templates.md).
 
@@ -36,7 +36,7 @@ Active
 
 </td><td>
 
-The Case playbook: horizontal stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
+The Case playbook: horizontal stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 

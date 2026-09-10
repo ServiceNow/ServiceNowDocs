@@ -110,7 +110,7 @@ Indicator Scope Control has no impact when it is not used:
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Set up indicator scope control
 

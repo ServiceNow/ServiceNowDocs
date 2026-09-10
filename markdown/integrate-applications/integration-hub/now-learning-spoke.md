@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -23,6 +23,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## ServiceNow University spoke subscription
 
 The ServiceNow University spoke is available with the ITSM Enterprise license. You can integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
+
+## Spoke version
+
+ServiceNow University Spoke v1.1.1 is the latest version.
 
 ## Spoke actions
 

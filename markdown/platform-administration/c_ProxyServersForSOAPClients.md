@@ -16,7 +16,7 @@ Administrators can specify separate proxy settings for SOAP clients, such as the
 
 To specify a proxy server for a MID Server, see [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_MIDServerConfiguration.md)
 
-To specify a proxy server for the ODBC driver, see [Configure ODBC to use proxy servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-odbc-proxy-servers.md)
+To specify a proxy server for the ODBC driver, see Configure ODBC to use proxy servers
 
 **Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_WebProxy.md)
 

@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -81,9 +81,8 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 **Note:**
 
 -   Health Log Analytics supports only failover MID Server clusters. In these clusters, multiple MID Servers are grouped together for failover protection. When selecting a cluster from the data input or integration form, the MID Server clusters list displays only failover clusters.
--   The MID Server cluster must include only MID Servers that support basic authentication. mTLS is not supported for log ingestion.
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
--   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
+-   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it. This is true even when that MID Server is down.
 
 For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
@@ -136,7 +135,7 @@ GCP Credential Alias
 
 </td><td>
 
-The credential alias to be used. Specify one GCP credential alias by selecting the magnifying glass icon and then either selecting an existing credential alias from the **Connection &amp; Credential Aliases** list, or selecting **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
+The credential alias to be used. Select the magnifying glass icon to specify a GCP credential alias. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
 
  For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/discovery-credential-alias.md).
 

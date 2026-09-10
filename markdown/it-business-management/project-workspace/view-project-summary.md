@@ -26,7 +26,7 @@ Role required: it\_project\_user
 
 ## About this task
 
-The **Analytics** tab is a PA dashboard which displays preconfigured widgets and reports to track the progress on various aspects of a project such as open risks, actual cost, and delayed milestones. The information in the reports is rolled up from the project form fields. For information about various widgets and reports for different project types, see [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-analytics-widgets.md)
+The **Analytics** tab is a PA dashboard which displays preconfigured widgets and reports to track the progress on various aspects of a project. These aspects include open risks, actual cost, and delayed milestones. The information in the reports is rolled up from the project form fields. For information about various widgets and reports for different project types, see [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-analytics-widgets.md)
 
 ## Procedure
 

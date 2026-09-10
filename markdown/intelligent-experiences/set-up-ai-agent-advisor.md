@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-07-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Configure, AI Agent Advisor, Enable AI experiences]
 ---
@@ -71,8 +71,12 @@ The AI Agent Advisor application is installed and available to the appropriate u
 
 **Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
 
+**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
+
 **Related topics**  
 
 
-[Setting up automation opportunity discovery]()
+[Setting up automation opportunity discovery in AI Admin Center]()
+
+[Setting up automation opportunity discovery in AI Admin Center]()
 

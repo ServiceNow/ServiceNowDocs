@@ -74,10 +74,6 @@ Your app doesn't have to be completely developed inside the ServiceNow AI Platfo
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **Getting started guide**
-
-
-
 -   **Build Agent docs**
 
     [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md)

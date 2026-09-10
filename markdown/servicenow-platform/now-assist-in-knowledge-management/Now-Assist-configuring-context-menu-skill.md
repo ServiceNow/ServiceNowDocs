@@ -26,11 +26,7 @@ Role required: admin
 
 2.  Select **View details** on the Knowledge feature card and navigate to Active skills.
 
-    \[Omitted image "now-assist-knowledge-content-recommendation.png"\] Alt text: Enable the knowledge content recommendation skill in AI Skills for Platform.
-
 3.  Select **Edit** from \[Omitted image "Ellipses.png"\] Alt text: Ellipses icon corresponding to the Knowledge content recommendation skill.
-
-    \[Omitted image "NA-knowledge-content-skill-enable-1.png"\] Alt text: Edit and activate the ServiceNow Otto knowledge content recommendation skill.
 
 4.  Enable the In-product display and select **Done** to activate the skill.
 
@@ -42,5 +38,5 @@ Role required: admin
 
 [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md)
 
-[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/kc-edit-knowledge-article.md)
 

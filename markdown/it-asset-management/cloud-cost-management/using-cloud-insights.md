@@ -16,14 +16,14 @@ breadcrumb: [Cloud Cost Management, IT Asset Management]
 
 Use Cloud Cost Management to rightsize, identify, assign, manage, and analyze usage data of your cloud resources.
 
--   **[Reduce resource cost with Reservation Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reserve-plan-using.md)**  
-View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.
--   **[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/resize-res-ci.md)**  
-Gain better visibility of resource usage by identifying your over-provisioned or underused resources, configuring rightsizing operations, implementing rightsizing recommendations, and performing various rightsizing operations.
 -   **[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-unused-mac.md)**  
 Reduce cost by identifying the unused resources and scheduling jobs to power-off or terminate the unused resources.
+-   **[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/resize-res-ci.md)**  
+Gain better visibility of resource usage by identifying your over-provisioned or underused resources, configuring rightsizing operations, implementing rightsizing recommendations, and performing various rightsizing operations.
 -   **[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/improve-res-use-business.md)**  
 Improve resource usage and reduce your cloud spend by running resources during the specified business hours.
+-   **[Reduce resource cost with Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reserve-plan-using.md)**  
+View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.
 -   **[Manage cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-cloud-budgets.md)**  
 Define and monitor custom budget plans for managing your cloud spend by using the Budget view in the Cloud Cost Management Workspace.
 -   **[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)**  
@@ -34,14 +34,12 @@ Assign ownership of one or more service accounts and, optionally, the related CI
 To ensure that cost data for a particular resource doesn’t appear in a report, you exclude the resource by adding it to the Excluded Resources list.
 -   **[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)**  
 Create a tag category to enable multiple tag names for representing costs against a single business entity. For example, multiple users might independently have created the tag names "App", "AppService", and "appl" to indicate applications. With a tag category of "Application", any costs for items tagged App, AppService, or appl are correctly assigned as costs against an application.
--   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
-Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
+-   **[Upload business data for unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/upload-business-data.md)**  
+Upload revenue and unit count data to populate the Unit economics dashboard in the Business Insights view. This Unit economics dashboard enables you to view unit count data across applications, departments, and business units.
 -   **[Create or update a shared cost allocation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-shared-cost-policy.md)**  
 Create a shared cost allocation policy with  different allocation types to split the cost of shared cloud resources among various business lines.
 -   **[Set up or update preferred currency options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/setup-update-currency.md)**  
 Set up or update the preferred currency options for your cloud cost and usage data to gain reporting flexibility. These currency options become available for Cloud Cost Management users to choose from.
--   **[Choose preferred currency for cost and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/choose-pref-currency.md)**  
-Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation/savings plan\), budgets, and billing data.
 -   **[Compare MetricBase data with spend data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/compare-metricbase-spend.md)**  
 Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Microsoft Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues.
 

@@ -1,35 +1,35 @@
 ---
-title: Supporting information for ServiceNow Otto for Operational Sustainability
+title: Supporting information for ServiceNow Otto for Operational Sustainability Management
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/supporting-information-for-now-assist-for-esg.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Supporting information for ServiceNow Otto for Operational Sustainability
+# Supporting information for ServiceNow Otto for Operational Sustainability Management
 
 Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 
 ## Supported versions
 
-ServiceNow Otto for Operational Sustainability is supported starting from the Yokohama patch 6.
+ServiceNow Otto for Operational Sustainability is supported starting from the Yokohama patch 6 release.
 
 ## Supported user interfaces
 
-The Document Intelligence for utility invoices can be accessed on Operational Sustainability Workspace.
+The [Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/supporting-information-for-now-assist-for-esg.md) ServiceNow Otto for Operational Sustainability application skill Document Intelligence for Utility Invoices can be accessed on Operational Sustainability Workspace.
 
 ## Application information
 
-Install the ServiceNow Otto for Operational Sustainability store app and activate the ServiceNow Otto for Operational Sustainability plugin \(com.sn\_esg\_gen\_ai\) to use the skills and agentic workflows.
+Activate the ServiceNow Otto for Operational Sustainability store app Environmental, Social, Governance Management and ServiceNow Otto for Operational Sustainability plugin \(com.sn\_esg\_gen\_ai\) to use the skills and agentic workflows.
 
-The ServiceNow Otto for Operational Sustainability store app has the following dependencies:
+This store app has the following dependencies:
 
--   Now Assist
--   Operational Sustainability Management
+-   ServiceNow Otto for Platform
+-   ESG Management
 
 For more information, see [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md).
 

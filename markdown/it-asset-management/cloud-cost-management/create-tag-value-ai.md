@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management]
 ---
 
 # Add or update a tag value for an AI Service tag category
@@ -74,12 +74,12 @@ After a tag name is associated with its corresponding tag value, you can view th
 
 After you add a tag value for an AI Service tag category, you must reimport the billing data to generate the spend for the added tag.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
 **Related topics**  
 
 
-[Tags and tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tags-overview.md)
 
 [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 

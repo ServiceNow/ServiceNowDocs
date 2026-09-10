@@ -1,6 +1,6 @@
 ---
 title: Dynamic related records
-description: Display related records in the Contextual side panel in CSM Configurable Workspace that dynamically change based on the context of the current record or playbook activity.
+description: Display related records in the Contextual side panel in CRM Workspace that dynamically change based on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-contextual-related-records.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Configure dynamic related records, Agent tools, Organize agent work
 
 # Dynamic related records
 
-Display related records in the Contextual side panel in CSM Configurable Workspace that dynamically change based on the context of the current record or playbook activity.
+Display related records in the Contextual side panel in CRM Workspace that dynamically change based on the context of the current record or playbook activity.
 
 The dynamic related records feature provides customer service agents with easy access to the information they need when they need it. Agents can view related records in the Contextual side panel without navigating away from the current tab and searching for information in other related lists. This feature also enables users to display related records without requiring any type of reference or parent-child relationship.
 
@@ -22,7 +22,7 @@ Different types of agents can use dynamic related records to see different infor
 -   A middle-office agent reviewing a complaint case can see active contracts for the customer.
 -   A back-office agent can view emails for a selected playbook activity.
 
-To view related records, click the Related Records tab in the Contextual side panel in CSM Configurable Workspace. Records appear in the Related Records list as read-only cards.
+To view related records, click the Related Records tab in the Contextual side panel in CRM Workspace. Records appear in the Related Records list as read-only cards.
 
 ## Configuring dynamic related records
 
@@ -57,7 +57,7 @@ This plugin also adds several related record definitions. For more information, 
 
 ## Using dynamic related records with Playbooks for Customer Service Management
 
-The Playbooks for Customer Service Management plugin \(sn\_csm\_playbook\) adds the dynamic related records feature to CSM Configurable Workspace. It also includes the Case context record and several related record definitions.
+The Playbooks for Customer Service Management plugin \(sn\_csm\_playbook\) adds the dynamic related records feature to CRM Workspace. It also includes the Case context record and several related record definitions.
 
 The Case Playbook for Onboarding, Case Playbook for Complaints, and Case Playbook for Product Support applications include additional context records and related record definitions.
 

@@ -56,7 +56,7 @@ Word Corpus
 
 </td><td>
 
-Collection of words and phrases related to the name and description of the business application that functions as the vocabulary the system uses to compare your instance records based on their textual similarity.
+Vocabulary of words and phrases related to application names and descriptions. The system uses this vocabulary to compare instance records based on textual similarity.
 
 </td></tr><tr><td>
 

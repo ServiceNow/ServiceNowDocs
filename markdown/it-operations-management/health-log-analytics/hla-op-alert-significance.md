@@ -49,7 +49,7 @@ Make an alert more likely to be included in a Log Analytics group when the assoc
 -   **[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute.md)**  
 Eliminate distracting new alerts for insignificant issues by muting them.
 -   **[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined.md)**  
-If you no longer want a muted alert or an alert that was marked as significant to be treated specially, you can restore normal importance to the metric involved in generating it.
+Restore normal importance to the metric involved in generating a muted alert or an alert marked as significant.
 
 **Parent Topic:**[Managing alert generation, prioritization, anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 

@@ -1,30 +1,32 @@
 ---
-title: Create a tool from Subflow
-description: Create a tool from Subflow to expose it to Model Context \(MCP\) clients from an MCP Server. Subflows and actions empower agents to complete tasks seamlessly —from submitting requests to routing for approval and confirming outcomes across workflows, without leaving the client interface.
+title: Create a tool from a Subflow
+description: Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-subflow-tool.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-07-29"
 reading_time_minutes: 2
 keywords: [Create subflow tool type for MCP server]
-breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
 ---
 
-# Create a tool from Subflow
+# Create a tool from a Subflow
 
-Create a tool from Subflow to expose it to Model Context \(MCP\) clients from an MCP Server. Subflows and actions empower agents to complete tasks seamlessly —from submitting requests to routing for approval and confirming outcomes across workflows, without leaving the client interface.
+Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
 
 ## Before you begin
 
+Perform these steps before creating a tool from a Subflow:
+
+1.  Create a Subflow in Workflow Studio using supported input and output data types. See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-subflow.md) to learn more.
+
+    **Note:** Only synchronous Subflows are supported. Subflows with wait steps, asynchronous execution, or human intervention steps can't be used as tools.
+
+2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-ai-acl.md) to learn more.
+3.  Confirm the compatibility status in the staging table. See [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
+
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
-
-Perform these steps before creating a tool:
-
-1.  Create a subflow in Flow Designer using supported input and output data types. See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-subflow.md) to learn more.
-2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create AI ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-ai-acl.md) to learn more.
-3.  Confirm the compatibility status in the staging table. See [Check compatibility of Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
-4.  Register the component as a tool within the MCP Server.
 
 ## Procedure
 
@@ -88,7 +90,7 @@ Annotations
 
 Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
 
- The MCP client will use the selected annotations to categorise tools according to their behavior.
+ The MCP client will use the selected annotations to categorize tools according to their behavior.
 
 </td></tr><tr><td>
 
@@ -99,12 +101,24 @@ MCP Servers
 One or more servers you want to add your tool to.
 
 </td></tr></tbody>
-</table>    In the Tool inputs section, add the fields associated with the capability. See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on MCP Server and discoverable by MCP clients.
+</table>    **Note:** A tool can be used by multiple servers so any changes that you make to a tool apply to all servers that use the tool. Before editing a tool, review which servers it's associated with to determine the impact for every server.
+
+    In the Tool inputs section, the fields associated with the capability are added.
+
+3.  Turn off inputs from the tool that you don't want to expose.
+
+    1.  In the Tool inputs section, locate the tool input.
+
+    2.  From the Enabled column, select the toggle to turn off the input.
+
+        **Note:** Some tool inputs are required and can't be turned off.
+
+4.  Select **Create**.
 
 
 ## What to do next
 
-Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution.
+Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connect-mcp-server-client.md).
 
-**Parent Topic:**[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/creating-tools-mcp-server.md)
 

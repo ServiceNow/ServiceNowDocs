@@ -32,15 +32,15 @@ As a fulfiller or matter owner, you can disable attorney client privilege on a l
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d739985e102">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d740975e102">
 
 Option
 
-</th><th align="left" id="d739985e105">
+</th><th align="left" id="d740975e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d739985e111">
+</th></tr></thead><tbody><tr><td id="d740975e111">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d739985e140">
+</td></tr><tr><td id="d740975e140">
 
 **As a collaborator**
 

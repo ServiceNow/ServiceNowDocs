@@ -1,6 +1,6 @@
 ---
 title: Configure SAP to forward alerts to your BADI
-description: After setting up SAP Solution Manager monitoring, you must configure SAP to forward alerts to the BADI \(Business Add-in\) you create as the first step in the SAP integration setup.
+description: Configure SAP to forward alerts to the BADI \(Business Add-in\) you create during SAP integration setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/configure-sap-fwd-alerts-badi.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [SAP Solution Manager setup configurations, Enable SAP connector con
 
 # Configure SAP to forward alerts to your BADI
 
-After setting up SAP Solution Manager monitoring, you must configure SAP to forward alerts to the BADI \(Business Add-in\) you create as the first step in the SAP integration setup.
+Configure SAP to forward alerts to the BADI \(Business Add-in\) you create during SAP integration setup.
 
 ## Before you begin
 

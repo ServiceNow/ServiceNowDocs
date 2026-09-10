@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing goal:
         1.  Select **Add**.
-        2.  In the Add goal window, select the goal and the relationship type between the goal and the business capability.
+        2.  In the Add goal window, select the goal. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a goal, select **New** and complete the fields on the form. For field descriptions, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-new-goal-form.md).
 

@@ -9,7 +9,7 @@ classification: generative-ai-controller
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Reference for Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller tables

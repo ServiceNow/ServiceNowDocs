@@ -1,5 +1,5 @@
 ---
-title: Onboard a new tool using DevOps generic playbook
+title: Onboard a tool using DevOps generic playbook
 description: DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/onboard-new-tool-generic-playbook.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
 
-# Onboard a new tool using DevOps generic playbook
+# Onboard a tool using DevOps generic playbook
 
 DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 

@@ -29,7 +29,7 @@ With the AI Admin Center workspace, you can:
 
 To access the AI Admin Center workspace, navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
-The first time you access AI Admin Center, a welcome message displays prompting you to get started by installing essential ServiceNow AI plugins. If you already have these plugins installed, the message simply introduces the benefits of AI Admin Center. Select **Let’s get started** to continue to the home page.
+The first time you access AI Admin Center, a welcome message displays prompting you to get started by installing essential ServiceNow Otto plugins. If you already have these plugins installed, the message simply introduces the benefits of AI Admin Center. Select **Let’s get started** to continue to the home page.
 
 \[Omitted image "ai-admin-center-home-welcome-message.png"\] Alt text: Welcome message showing the benefits of AI Admin Center.
 
@@ -57,8 +57,6 @@ The ServiceNow Otto panel is the conversational interface where you can interact
 
 
 [AI readiness assessments in AI Admin Center]()
-
-[AI Agent Advisor in AI Admin Center]()
 
 [Supporting information for AI Admin Center]()
 

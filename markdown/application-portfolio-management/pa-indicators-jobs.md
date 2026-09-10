@@ -1,6 +1,6 @@
 ---
 title: Performance Analytics indicators for applications
-description: Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
+description: Use performance analytic \(PA\) indicators to track incidents, problems, and changes logged against a business application. This insight helps you improve application performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/pa-indicators-jobs.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Preconfigured indicators and their sources - Legacy, Framework setu
 
 # Performance Analytics indicators for applications
 
-Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
+Use performance analytic \(PA\) indicators to track incidents, problems, and changes logged against a business application. This insight helps you improve application performance.
 
 Enterprise Architecture uses indicators that are sourced from Performance Analytics \(PA\). These indicators give a count of incidents, problems, changes, and the number of change requests that were closed on a given day. Follow the given order to run the PA jobs at the scheduled time, and get the scores of the indicators to evaluate the performance of your business applications.
 
@@ -73,7 +73,7 @@ If you are an Enterprise Architecture customer, who has upgraded to the Zurich r
 
 ## Limitations to display application breakdowns in PA scoresheet
 
-If there is a large number of business applications installed, then all the breakdowns are not displayed in the **Performance Analytics** &gt; **Scoresheet**, as there is a limitation set in the system properties: **com.snc.pa.scoresheet.max\_elements** and **com.snc.pa.scorecards.max\_breakdown\_elements**. To reconfigure the property limitation:
+If there is many business applications installed, then all the breakdowns aren't displayed in the **Performance Analytics** &gt; **Scoresheet**, as there is a limitation set in the system properties: **com.snc.pa.scoresheet.max\_elements** and **com.snc.pa.scorecards.max\_breakdown\_elements**. To reconfigure the property limitation:
 
 1.  Navigate to **Performance Analytics** &gt; **System** &gt; **Properties**.
 2.  Enter the maximum number in the **Maximum number of elements of a breakdown in Scoresheet** field. The number must be greater than or equal to the number of business applications installed in your system.

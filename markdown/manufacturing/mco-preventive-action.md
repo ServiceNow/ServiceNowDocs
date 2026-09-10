@@ -1,18 +1,19 @@
 ---
-title: Preventive action
-description: Create the preventive action for product quality issue case.
+title: Create a preventive action
+description: Create a preventive action for product quality issue case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-preventive-action.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for quality issues, Create Product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+keywords: [preventive action, product quality issue, quality issue management, product non-conformance, Manufacturing Commercial Operations]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Preventive action
+# Create a preventive action
 
-Create the preventive action for product quality issue case.
+Create a preventive action for product quality issue case.
 
 ## Before you begin
 
@@ -31,12 +32,12 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-pqi.md)
+**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
 
 **Related topics**  
 
 
-[CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
+[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
 
 [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md)
 

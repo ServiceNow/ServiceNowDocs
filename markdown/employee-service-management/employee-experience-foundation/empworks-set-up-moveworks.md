@@ -9,8 +9,8 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
-keywords: [Moveworks setup, Moveworks assistant, Product Configuration console, Employee Slate for Moveworks]
-breadcrumb: [Employee Slate for Moveworks, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [Moveworks setup, Moveworks assistant, Product Configuration console, EmployeeWorks Web App]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Set up Moveworks for Employee Slate
@@ -19,8 +19,8 @@ Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and
 
 ## Before you begin
 
--   The Employee Slate for Moveworks foundational plugin is installed from the Product Hub page.
--   The Employee Slate Advanced plugin is installed if the deployment requires the advanced experience.
+-   The EmployeeWorks Web App foundational plugin is installed from the Product Hub page.
+-   The EmployeeWorks Web App Extended plugin is installed if the deployment requires the advanced experience.
 -   You have the Moveworks entitlement for the organization.
 
 Role required: System administrator.
@@ -33,11 +33,11 @@ Setup combines two streams of work. The first stream configures the Moveworks ch
 
 1.  Configure the Moveworks chatbot for Employee Slate.
 
-    For the procedure, see [Configure the Moveworks chatbot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
+    For the procedure, see [Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
 
-2.  Configure Employee Slate for Moveworks in the Product Configuration console.
+2.  Configure EmployeeWorks Web App in the Product Configuration console.
 
-    For the procedure, see [Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md).
+    For the procedure, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md).
 
 
 ## Result

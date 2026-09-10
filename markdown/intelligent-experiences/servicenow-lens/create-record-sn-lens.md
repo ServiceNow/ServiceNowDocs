@@ -55,11 +55,11 @@ You can create a record in the ServiceNow instance in two ways:
 
 1.  Create a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d152504e265">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d164206e265">
 
 Method
 
-</th><th align="left" id="d152504e268">
+</th><th align="left" id="d164206e268">
 
 Steps
 
@@ -298,15 +298,15 @@ The form is auto-filled.
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d152504e1310">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d164206e1310">
 
 Option
 
-</th><th align="left" id="d152504e1313">
+</th><th align="left" id="d164206e1313">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d152504e1319">
+</th></tr></thead><tbody><tr><td id="d164206e1319">
 
 **If the auto-filled text looks good**
 
@@ -314,7 +314,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d152504e1331">
+</td></tr><tr><td id="d164206e1331">
 
 **If the auto-filled text requires changes**
 

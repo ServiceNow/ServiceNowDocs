@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/fix-
 release: zurich
 topic_type: concept
 last_updated: "2026-08-03"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Fix Intel, Fix Intelligence, ViPR, remediation, Security Exposure Management]
 breadcrumb: [Exploring Fix Intelligence for SEM, Fix Intelligence for Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
 ---
@@ -31,7 +31,7 @@ In this release, fixes are identified for host vulnerabilities \(host vulnerable
 
 ## Where fixes appear
 
-After fixes are identified, they are available as a list and form in Unified Security Exposure Management Workspace, and as widgets on the **Findings View** and the **Remediation View** — for example, **Findings with fix identified** and **Top fixes by finding count**. Each finding also shows a read-only **Fix** reference linking to the fix that resolves it. To learn how to read and act on this data, see [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-fixes-in-workspace.md) and [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prioritize-remediation-by-fix.md).
+After fixes are identified, they are available as a list and form in Unified Security Exposure Management Workspace, and as widgets on the **Findings View** and the **Remediation View** — for example, **Findings with fix identified** and **Top fixes by finding count**. Each finding also shows a read-only **Fix** reference linking to the fix that resolves it. To learn how to read and act on this data, see [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-fixes-in-workspace.md).
 
 **Parent Topic:**[Exploring Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-fix-intel.md)
 

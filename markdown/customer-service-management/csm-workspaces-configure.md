@@ -1,26 +1,26 @@
 ---
-title: CSM Configurable Workspace
-description: CSM Configurable Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
+title: CRM Workspace
+description: CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspaces-configure.html
 release: zurich
 topic_type: concept
 last_updated: "2025-11-25"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace
+# CRM Workspace
 
-CSM Configurable Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
+CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 
-\[Omitted image "front-line-case-page-template.png"\] Alt text: CSM Configurable Workspace enables agents to focus on the information, such as record details and activities, and the tools they need to resolve customer issues, including search and recommended actions.
+\[Omitted image "front-line-case-page-template.png"\] Alt text: CRM Workspace enables agents to focus on the information, such as record details and activities, and the tools they need to resolve customer issues, including search and recommended actions.
 
-CSM Configurable Workspace provides agents with a unified workspace to handle customer requests. Agents can manage cases, accounts, and contacts from multiple channels, like email, voice, and chat on a single screen, eliminating the need to switch between tabs.
+CRM Workspace provides agents with a unified workspace to handle customer requests. Agents can manage cases, accounts, and contacts from multiple channels, like email, voice, and chat on a single screen, eliminating the need to switch between tabs.
 
-## CSM Configurable Workspace features
+## CRM Workspace features
 
-Key features of CSM Configurable Workspace include list views for managing cases, interactions, and other records and tabs for multitasking. It also provides agents with the ability to access customer history and context without leaving the main screen.
+Key features of CRM Workspace include list views for managing cases, interactions, and other records and tabs for multitasking. It also provides agents with the ability to access customer history and context without leaving the main screen.
 
 |Feature|Description|
 |-------|-----------|
@@ -34,13 +34,13 @@ Key features of CSM Configurable Workspace include list views for managing cases
 
 For more information, see [CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-feature-overview.md).
 
-## CSM Configurable Workspace benefits
+## CRM Workspace benefits
 
-The ServiceNow [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/workspace-landing-page.md) is designed to improve user efficiency and facilitate resolutions. CSM Configurable Workspace, which is built from the Configurable Workspace UI, is specifically designed for customer service agents.
+The ServiceNow [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/workspace-landing-page.md) is designed to improve user efficiency and facilitate resolutions. CRM Workspace, which is built from the Configurable Workspace UI, is specifically designed for customer service agents.
 
-CSM Configurable Workspace brings together customer information, case management, and collaboration tools into a single window. This user experience enables agents to manage several cases and interactions across different channels at the same time.
+CRM Workspace brings together customer information, case management, and collaboration tools into a single window. This user experience enables agents to manage several cases and interactions across different channels at the same time.
 
-CSM Configurable Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
+CRM Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
 
 -   Work on multiple issues concurrently in an intuitive layout, reducing context and tab switching.
 -   Resolve issues faster with automated suggestions powered by machine learning.
@@ -51,11 +51,11 @@ For more information, see [CSM Configurable Workspace overview](https://raw.gith
 
 ## Application information
 
-The CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
-Starting with the Yokohama release, CSM Configurable Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md).
+Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md).
 
-The CSM Configurable Workspace application is available from the ServiceNow Store.
+The CRM Workspace application is available from the ServiceNow Store.
 
 ## Request apps on the Store
 

@@ -26,7 +26,7 @@ When you define a characteristic, you select the data input type, which indicate
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Characteristics** &gt; **Characteristics**.
 

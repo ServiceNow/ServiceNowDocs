@@ -1,6 +1,6 @@
 ---
 title: Azure DNS zones and record sets discovery using Patterns
-description: The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-dns-discovery.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Disc
 
 # Azure DNS zones and record sets discovery using Patterns
 
-The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

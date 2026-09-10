@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Reopen alert closed by AI Specialist
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 ## About this task
 
-When the AI Specialist classifies an alert as noise, it closes the alert automatically. If you determine the alert is significant, reopen it. Reopening tells the system the classification was wrong, so the alert is not classified as noise again. Instead, it runs through the full investigation as if it were new and significant, and your decision helps improve future classification.
+When the AI Specialist classifies an alert as noise, it closes the alert automatically. Reopening tells the system the classification was wrong, so the alert is not classified as noise again. Instead, it runs through the full investigation as if it were new and significant, and your decision helps improve future classification.
 
 ## Procedure
 
@@ -31,6 +31,8 @@ When the AI Specialist classifies an alert as noise, it closes the alert automat
 2.  From the navigation bar, select the Express list icon: \[Omitted image "express-list1.png"\] Alt text: Express list icon.
 
 3.  Open an alert that was closed by AI and you want to reopen.
+
+    When an alert is auto-closed by the AIOps AI Specialist, its reasoning appears under the **Overview** tab in the Summary section. If you determine the alert is significant, reopen it. The alert can be reopened by selecting the **Reopen** link provided following the reasoning or you can reopen the alert from the **Details** tab as shown in the procedure.
 
 4.  Select the **Details** tab.
 

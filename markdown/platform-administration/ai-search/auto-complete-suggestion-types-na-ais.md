@@ -37,7 +37,7 @@ Displays Virtual Agent conversational prompts based on previous user searches \(
 
  User queries from Virtual Agent conversations are stored as suggestions in the Utterance Suggestions \[sys\_suggested\_utterance\] table. The system prunes this table and automatically removes conversational prompt suggestions that meet any of these conditions:
 
--   The conversational prompt suggestion's query and result combination have not been used in a search within the last 180 days.
+-   The conversational prompt suggestion's query and result combination haven't been used in a search within the last 180 days.
 -   The conversational prompt suggestion refers to a record \(such as a Catalog Item or a knowledge article\) that has been deleted or deactivated.
 
  New conversational prompt suggestions are disabled if they match any exclusion rule entry from the Search Suggestion Exclusion List \[sys\_search\_suggestion\_blacklist\] table. When a new exclusion rule is added to the Search Suggestion Exclusion List table, existing conversational prompt suggestions that match it are disabled. For details on the Search Suggestion Exclusion List table, see [Prevent the creation of suggestions in special cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-suggestions/preventing-suggestions.md).

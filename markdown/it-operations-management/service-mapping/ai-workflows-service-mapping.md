@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-04-09"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, Otto, Service Mapping, AI]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -19,9 +19,49 @@ AI-powered features in Service Mapping help administrators automate service map 
 
 Service Mapping includes several AI-powered features. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
-## AI agents and agentic workflows
+## MCP servers
+
+The Service Mapping MCP server exposes instance data to external AI clients through the Model Context Protocol, giving those clients structured, ACL-enforced access to live application service data.
+
+<table id="table_sm-mcp-servers"><thead><tr><th>
+
+AI feature
+
+</th><th>
+
+Description
+
+</th><th>
+
+Use case
+
+</th><th>
+
+Resources
+
+</th></tr></thead><tbody><tr><td>
+
+Service Mapping MCP server
+
+</td><td>
+
+Exposes five read-only tools through the CMDB MCP Server. The tools give AI clients such as Claude structured access to live application service data, including full service topology, server impact graphs, and unmapped CIs. Authentication uses OAuth 2.0 with JWT tokens and enforces the same ACLs as standard instance API calls.
+
+</td><td>
+
+A Service Mapping administrator or operator wants to query service topology, identify mapping gaps, or assess server impact. They do so by using natural language in an AI client, without navigating the instance UI.
+
+</td><td>
+
+-   [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+-   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+-   [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)
+-   [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md)
+
+</td></tr></tbody>
+</table>## AI agents and agentic workflows
 
 Service Mapping AI agents and agentic workflows automate service map creation, business application mapping, and change impact analysis.
 
@@ -90,7 +130,7 @@ An operator or change manager wants to assess the risk of a change request befor
 </td><td>
 
 -   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Use the Analyze potential impact agentic workflow to assess a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.md)
+-   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.md)
 -   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidate-skill.md)
 -   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidates-impact-skill.md)
 
@@ -98,7 +138,7 @@ An operator or change manager wants to assess the risk of a change request befor
 </table>-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 -   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
-The Service Mapping tools, delivered as part of the CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology, identify mapping gaps, and create new application services in natural language.
+The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.
 
 **Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/using-service-mapping.md)
 

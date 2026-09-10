@@ -1,6 +1,6 @@
 ---
 title: Manually configure the Metric Intelligence extension
-description: Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems, to detect anomalies and report anomalies to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
+description: Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/configure-itoa-metric-extension.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations
 
 # Manually configure the Metric Intelligence extension
 
-Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems, to detect anomalies and report anomalies to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
+Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
 
 ## Before you begin
 

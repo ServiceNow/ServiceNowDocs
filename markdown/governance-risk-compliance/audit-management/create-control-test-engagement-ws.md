@@ -1,5 +1,5 @@
 ---
-title: Create a control test from an engagement
+title: Create a control test from an engagement in Audit Workspace
 description: Create a control test that runs periodically and provides documented evidence of whether the associated control is operating correctly or not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/create-control-test-engagement-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Audit Task Management, Audit Supervisor Workspace, Audit Workspace, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Create a control test from an engagement
+# Create a control test from an engagement in Audit Workspace
 
 Create a control test that runs periodically and provides documented evidence of whether the associated control is operating correctly or not.
 
@@ -283,6 +283,6 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 </td></tr></tbody>
 </table>8.  Select **Save**.
 
-    You can view the description and monitor the state of the control test in the **State** banner of the Overview page as the record progresses through the control test process flows.
+    You can view the description and monitor the state of the control test in the **State** banner of the Overview page. The state updates as the record progresses through the control test process flows.
 
 

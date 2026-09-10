@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Monitor incoming alerts
@@ -182,7 +182,7 @@ Time that the initial event occurred in the remote system.
 </table>
 ## What to do next
 
-If Operational Intelligence is activated, you can right-click an alert and click **View Metrics** to open the integrated Insights Explorer and Dependency Views map for the CI that is associated with the alert.
+If Operational Intelligence is activated, you can right-click an alert and click **View Metrics**. This opens the integrated Insights Explorer and Dependency Views map for the CI that is associated with the alert.
 
 **Related topics**  
 

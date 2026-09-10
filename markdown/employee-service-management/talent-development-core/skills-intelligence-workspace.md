@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -33,7 +33,7 @@ Access the following information on the Skills Foundation Home page to manage sk
 
 ## Job architecture view
 
-Get a visual and hierarchical overview of Job architecture data that is loaded and created to get a structural understanding of job families and role groups and skills related to them.
+View a visual and hierarchical overview of job architecture data to understand job families, role groups, and related skills.
 
 \[Omitted image "skills-intelligence-nodemap-view.png"\] Alt text: Skills Workspace Job architecture view
 

@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Threat Note, Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -156,12 +156,6 @@ This property specifies that the identity object that describes the entity had c
     |Taxonomies|
     |Select Taxonomy|Select a Taxonomy that is associated with this threat grouping.|
     |Add Taxonomy Values|Add Taxonomy values that are associated with this threat grouping.|
-
-8.  If you want to delete any record then, select **Delete** to delete the aggregated record.
-
-    When you select this action, then it will remove all the related records, except the original source data, and trigger re aggregation.
-
-    **Note:** A confirmation message will appear to verify that you want to delete the aggregated record. If you also want to delete the source records and prevent re aggregation, select the **Delete Source Records** check box. This action will remove all the associated source records.
 
 
 ## What to do next

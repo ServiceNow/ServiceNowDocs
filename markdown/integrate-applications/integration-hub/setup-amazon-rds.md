@@ -44,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these fields.
 
-<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d284086e190">
+<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d285560e190">
 
 Field
 
-</th><th align="left" id="d284086e193">
+</th><th align="left" id="d285560e193">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d284086e199">
+</th></tr></thead><tbody><tr><td id="d285560e199">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d284086e211">
+</td></tr><tr><td id="d285560e211">
 
 **Active**
 
@@ -68,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d284086e220">
+</td></tr><tr><td id="d285560e220">
 
 **Access Key ID**
 
@@ -76,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d284086e229">
+</td></tr><tr><td id="d285560e229">
 
 **Secret Access Key**
 
@@ -84,7 +84,7 @@ Access Key ID of the user with full access to Amazon RDS.
 
 Secret Access Key of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d284086e239">
+</td></tr><tr><td id="d285560e239">
 
 **Credential alias**
 
@@ -92,7 +92,7 @@ Secret Access Key of the user with full access to Amazon RDS.
 
 Associated credential record.
 
-</td></tr><tr><td id="d284086e248">
+</td></tr><tr><td id="d285560e248">
 
 **Authentication Algorithm**
 

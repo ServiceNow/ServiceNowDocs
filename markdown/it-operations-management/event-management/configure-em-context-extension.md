@@ -43,7 +43,7 @@ The URL to be used is therefore: `http://10.118.69.27:8097/api/mid/em/inbound_ev
 
     If you receive an event whose date is in a different format, you must use a `{transform_script_name}` that is appropriate for the incoming event's date format. If you do not, the event will not be processed correctly.
 
-    For example, if an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**, use a `{transform_script_name}` with a date format of **yyyy/MM/dd/ HH:mm:ss a** to match the format of the received event.
+    For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Use a `{transform_script_name}` with a date format of **yyyy/MM/dd/ HH:mm:ss a** to match the format of the received event.
 
 
 ## Procedure
@@ -152,7 +152,7 @@ Replace the variables in the default format of the URL `http://<my-instance>.ser
 
 **Example showing the URL to push messages not in jsonv2 format**
 
-The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}` where the \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. The script name must be specified as the `Transform` header parameter and must always start with the prefix `TransformEvents_`.
+The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}`. The \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. The script name must be specified as the `Transform` header parameter and must always start with the prefix `TransformEvents_`.
 
 For this example, assume that the script name is EventsToProcess, the URL is therefore:`http://10.138.64.27:8097/api/mid/em/inbound_event/TransformEvents_EventsToProcess`
 
@@ -238,7 +238,7 @@ To ensure high availability for external API integrations, deploy an external lo
 
 Reference the external load balancer hostname in your webhook URL rather than individual MID Server addresses. Replace the variables in the default format: `https://<load-balancer>/api/mid/em/inbound_event?Transform=<format>` with values from the preceding table: `https:///mid-cluster.example.com/api/mid/em/inbound_event?Transform=jsonv2`.
 
-This configuration distributes incoming requests across both MID servers, and if one server becomes unavailable, the load balancer automatically routes traffic to the remaining operational server without service interruption.
+This configuration distributes incoming requests across both MID servers. If one server becomes unavailable, the load balancer automatically routes traffic to the remaining operational server without service interruption.
 
 **Related topics**  
 

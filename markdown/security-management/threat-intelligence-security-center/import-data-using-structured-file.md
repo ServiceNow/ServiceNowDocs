@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -150,7 +150,7 @@ Override source value
 
 </td><td>
 
-Select this check box if you wish to over ride the source values for TLP, Confidence, and Expiration with the configured values. If you don't select this check box the configured values are applied if they are not empty.
+Select this check box if you wish to over ride the source values for TLP, Confidence, Expiration, Tags, and Taxonomies with the configured values. If you don't select this check box the configured values are applied if they are not empty.
 
 </td></tr></tbody>
 </table>5.  Click **Next**.

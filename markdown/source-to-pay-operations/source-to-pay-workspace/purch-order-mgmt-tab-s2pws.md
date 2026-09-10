@@ -7,7 +7,7 @@ release: zurich
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Source-to-Pay Workspace landing page, Explore, Workspace, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -52,7 +52,7 @@ Widget
 
 View the exceptions that are assigned to you,sorted by priority and creation date.
 
- Up to four open exceptions are displayed in this section sorted by priority and creation, with exception sub-type, product model, impacted purchase order number, priority, and time lapsed since creation. Select **View Details** to view the purchase order exception details.
+ Up to four open exceptions are displayed, sorted by priority and creation, with exception sub-type, product model, impacted purchase order number, priority, and time lapsed since creation. Select **View Details** to view the purchase order exception details.
 
 </td></tr><tr><td>
 

@@ -42,11 +42,11 @@ Watch this video for an overview of how the Agent Client Collector works.
 
 </td><td colspan="2">
 
-Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.
+[Live CI View \[Omitted image "bus-transaction-data.svg"\] Alt text:View live data for incident related CIs to help resolve incidents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-live-ci-view.md)
 
 </td><td>
 
-[Live CI View \[Omitted image "bus-transaction-data.svg"\] Alt text:View live data for incident related CIs to help resolve incidents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-live-ci-view.md)
+ 
 
 </td></tr></tbody>
 </table>

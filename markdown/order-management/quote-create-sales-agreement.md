@@ -28,7 +28,7 @@ Sales agreements filter the product catalog according to the agreement.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select **New**.
 

@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Manage skills for your teams from a central location. Analyze skill data and assess the skills that you need for your organization. Use Predictive Intelligence to recommend skills for your team.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 **Note:** As an admin, you can add sample data to get started building your skill taxonomy using the Skills Library Data for Skills Management \(com.snc.skills\_management.seed\_data\) plugin. You must have the Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg\_itsm\) installed. For more information on downloading skills sample data, see [Create skill categories using sample data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-skill-categories-seed-data.md).
 
 -   **[Setting up skill prediction in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/setup-skill-prediction-configurable-wfo-itsm.md)**  

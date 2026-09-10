@@ -18,6 +18,8 @@ Add or remove access to users for any event type so that they can view event typ
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.admin​
 
 ## Procedure
@@ -28,15 +30,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d340287e85">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d344401e101">
 
 To
 
-</th><th align="left" id="d340287e88">
+</th><th align="left" id="d344401e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d340287e94">
+</th></tr></thead><tbody><tr><td id="d344401e110">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -55,7 +57,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d340287e151">
+</td></tr><tr><td id="d344401e167">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 

@@ -19,11 +19,11 @@ After performing the initial data input setup and configuration in Health Log An
 -   **[Add a timestamp format in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-timestamp-formats-add.md)**  
 Define any timestamp format that does not appear in the list of defined formats. Health Log Analytics must be able to read timestamps of any format contained in your log files.
 -   **[Add a source type manually in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types-manual.md)**  
-Create a source type manually before you configure a data input if you want to stream log data to a specific source type rather than to the source type automatically extracted by Health Log Analytics during the mapping process.
+Create a source type manually to stream log data to a specific source type instead of using the source type automatically extracted during mapping.
 -   **[Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types.md)**  
 Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 -   **[Verify your log sources in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-log-sources-review.md)**  
-Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
+Verify that all your log sources are present and active after tagging and automatic mapping.
 -   **[Delete a log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-log-source-delete.md)**  
 Delete a log source with or without its associated log data in Health Log Analytics.
 -   **[Review properties extracted from a source type in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-sts-properties-table.md)**  

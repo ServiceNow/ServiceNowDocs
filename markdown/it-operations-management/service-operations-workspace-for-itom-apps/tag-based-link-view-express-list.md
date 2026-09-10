@@ -9,14 +9,14 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in tag-based alert groups
 
 View the connections between alerts in a tag-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 
-When you've set alert tags and Event Management has generated an alert group based on tag-based rules, Link View offers a visual representation of the relationships between the alerts in the group. The colored tags in the view represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
+When you've set alert tags and Event Management has generated an alert group based on tag-based rules, Link View offers a visual representation of the relationships between the alerts. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
 
 \[Omitted image "el-link-view-tag-based.png"\] Alt text: Sample tag-based alert group in Link View.
 

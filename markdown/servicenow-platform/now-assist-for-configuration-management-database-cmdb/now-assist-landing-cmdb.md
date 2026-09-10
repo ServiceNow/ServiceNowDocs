@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for Configuration Management Database \(CMDB\)
-description: Use ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
+description: Use ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 # ServiceNow Otto for Configuration Management Database \(CMDB\)
 
-Use ServiceNow® ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
+Use ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
 
 ## Get started
 

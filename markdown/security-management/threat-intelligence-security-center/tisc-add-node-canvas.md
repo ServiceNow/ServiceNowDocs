@@ -1,5 +1,5 @@
 ---
-title: Adding new nodes to Investigation Canvas
+title: Adding a new node to the canvas
 description: Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-add-node-canvas.html
@@ -7,12 +7,12 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Adding new nodes to Investigation Canvas
+# Adding a new node to the canvas
 
 Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
 
@@ -40,15 +40,15 @@ Role required: sn\_sec\_tisc.analyst
     -   Another option to view the **New Node** functionality is to view from the investigation canvas page directly.
 6.  To create a node, select the appropriate **Entity Category** and **Entity Type**.
 
-<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d132634e151">
+<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d133537e151">
 
 Field
 
-</th><th align="left" id="d132634e154">
+</th><th align="left" id="d133537e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d132634e160">
+</th></tr></thead><tbody><tr><td id="d133537e160">
 
 **Entity Category**
 
@@ -56,7 +56,7 @@ Description
 
 Select the entity category such as Observable, or Object.
 
-</td></tr><tr><td id="d132634e169">
+</td></tr><tr><td id="d133537e169">
 
 **Entity Type**
 

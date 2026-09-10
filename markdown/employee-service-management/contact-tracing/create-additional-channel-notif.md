@@ -55,7 +55,7 @@ For example, if your company's IT network group has a Slack channel that they mo
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+        For information about JavaScript APIs for GlideRecord, see GlideRecord - Scoped.
 
     3.  Click **Submit**.
 

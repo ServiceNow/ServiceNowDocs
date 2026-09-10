@@ -34,15 +34,15 @@ These virtual agent conversation topics are built using ServiceNow Virtual Agent
 
     **Note:** All conversation topics for legal services are grouped under the Legal Service Delivery category.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d766843e114">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d767889e114">
 
 Options
 
-</th><th align="left" id="d766843e117">
+</th><th align="left" id="d767889e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d766843e123">
+</th></tr></thead><tbody><tr><td id="d767889e123">
 
 **Create a new virtual agent conversation topic**
 
@@ -52,7 +52,7 @@ Steps
 2.  On the form, fill in the fields.
 For more information on creating a conversation topic and description of fields on the form, see Create a Virtual Agent topic.
 
-</td></tr><tr><td id="d766843e148">
+</td></tr><tr><td id="d767889e148">
 
 **Customize a predefined conversation topic**
 

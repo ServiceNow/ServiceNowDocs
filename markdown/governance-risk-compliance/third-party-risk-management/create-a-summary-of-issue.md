@@ -45,15 +45,15 @@ The summary for a TPRM issue is generated based on all the information captured 
 
 4.  Review the summary and complete any of the following options.
 
-<table><thead><tr><th align="left" id="d384545e186">
+<table><thead><tr><th align="left" id="d401198e186">
 
 Option
 
-</th><th align="left" id="d384545e189">
+</th><th align="left" id="d401198e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d384545e195">
+</th></tr></thead><tbody><tr><td id="d401198e195">
 
 **Share to work notes**
 
@@ -61,7 +61,7 @@ Description
 
 Select the **Share to work notes** button to launch the summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d384545e210">
+</td></tr><tr><td id="d401198e210">
 
 **View more**
 
@@ -69,7 +69,7 @@ Select the **Share to work notes** button to launch the summarized result in an 
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d384545e219">
+</td></tr><tr><td id="d401198e219">
 
 **View less**
 
@@ -77,7 +77,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d384545e228">
+</td></tr><tr><td id="d401198e228">
 
 **Provide feedback**
 
@@ -87,7 +87,7 @@ Select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text: for posit
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d384545e254">
+</td></tr><tr><td id="d401198e254">
 
 **Copy the summary**
 
@@ -95,7 +95,7 @@ Select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text: for posit
 
 Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d384545e271">
+</td></tr><tr><td id="d401198e271">
 
 **Regenerate the summary**
 

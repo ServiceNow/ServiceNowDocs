@@ -293,7 +293,7 @@ Selecting the person's name presents a popover. The information in the popover c
 
 Although rare, when you receive a synthesized response that includes a person, you may also receive other citations associated with that person. For example, a Knowledge Base article that was authored by the person you searched for may also appear.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Knowledge Graph integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
 ## Extended entities and view records
 

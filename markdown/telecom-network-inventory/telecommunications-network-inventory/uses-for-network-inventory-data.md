@@ -16,7 +16,7 @@ breadcrumb: [Explore, Telecommunications Network Inventory]
 
 The data model for Telecommunications Network Inventory displays the relationships between your network assets, infrastructure, and services. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for the network growth in your organization.
 
-The data model contains the details about your network assets, such as the telco equipment configuration data, port availability of a framework, and bandwidth allocations between your sites and services. This data model enables you to build, manage, maintain, and allocate the network infrastructure and services. Further, this data model provides a for the automation of design and creation of your network equipment and connections that support the customer service orders and internal network orders.
+The data model contains the details about your network assets, such as the telco equipment configuration data and port availability of a framework. It also includes bandwidth allocations between your sites and services. This data model enables you to build, manage, maintain, and allocate the network infrastructure and services. Further, this data model provides a for the automation of design and creation of your network equipment and connections that support the customer service orders and internal network orders.
 
 The assets, services, and the relationships of your network inventory defines the infrastructure of your telecommunications networks. With this information, you can plan and forecast your network. You can store the data of the asset in a network inventory record.
 
@@ -209,5 +209,5 @@ Represent power, HVAC, network, and their connectivity in a data center.To learn
 **Related topics**  
 
 
-[Network Inventory \(NI\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-network-inventory.md)
+[bundle-platcap.cmdb-ci-class-models-network-inventory]
 

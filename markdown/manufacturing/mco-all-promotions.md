@@ -1,22 +1,22 @@
 ---
 title: View all promotions
-description: As an OEM agent, view all the promotions that you created.
+description: View all the promotions you created as an OEM agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-all-promotions.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View all promotions
 
-As an OEM agent, view all the promotions that you created.
+View all the promotions you created as an OEM agent.
 
 ## Before you begin
 
-Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_operations\_admin\) or claims agent \(sn\_claim\_cmn.claims\_agent\)
+Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_operations\_admin\) or claims agent \(sn\_claim\_cmn.claims\_agent\).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 5.  Select **Create checklist**.
 
-    To learn how to create checklist, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-checklist.md).
+    To learn how to create a checklist, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-checklist.md).
 
 6.  Select **Publish**.
 

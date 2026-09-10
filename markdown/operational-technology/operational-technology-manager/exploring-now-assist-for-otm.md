@@ -23,7 +23,7 @@ With generative AI skills and agentic workflows, you can use the following featu
 -   An OT CMDB search feature that enables you to search for OT configuration item \(CI\) information and OT device information.
 -   An OTM agentic workflow that automates the import and validation of your OT device data into the OT CMDB.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Availability notices
 

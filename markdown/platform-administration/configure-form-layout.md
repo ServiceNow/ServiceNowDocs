@@ -14,7 +14,7 @@ breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure
 
 Administrators or users with the personalize\_form role can configure the form and related list layout.
 
-**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-form-builder.md).
+**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see .
 
 ## Show or hide fields on a form
 
@@ -291,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d333088e1212">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d332896e1211">
 
 **Enable the indicator for all administrators**
 
@@ -299,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d333088e1227">
+</td></tr><tr><td id="d332896e1226">
 
 **Enable the indicator for an individual administrator**
 

@@ -1,6 +1,6 @@
 ---
-title: SQL API architecture
-description: The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
+title: Live Connect architecture
+description: The Live Connect architecture demonstrates how the Live Connect plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/sql-api-architecture.html
 release: zurich
@@ -9,26 +9,26 @@ classification: web-services
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Explore, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# SQL API architecture
+# Live Connect architecture
 
-The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
+The Live Connect architecture demonstrates how the Live Connect plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
 
-The SQL API architecture provides a high-level view of how external Business Intelligence \(BI\) tools and data analysis platforms connect to your ServiceNow instance through standard database APIs. The architecture provides secure, read-only access to your ServiceNow data while maintaining all security controls and access restrictions.
+The Live Connect architecture provides a high-level view of how external Business Intelligence \(BI\) tools and data analysis platforms connect to your ServiceNow instance through standard database APIs. The architecture provides secure, read-only access to your ServiceNow data while maintaining all security controls and access restrictions.
 
 ## Architecture overview
 
-The SQL API uses ServiceNow web services to provide a query-only interface. This architecture enables direct connections from ODBC and JDBC-compatible tools to your ServiceNow data without data export or replication.
+The Live Connect uses ServiceNow web services to provide a query-only interface. This architecture enables direct connections from ODBC and JDBC-compatible tools to your ServiceNow data without data export or replication.
 
-The following diagram illustrates the high‑level architecture of how the SQL API connects external BI tools to ServiceNow tables via ODBC and JDBC drivers, while enforcing security and access controls.
+The following diagram illustrates the high‑level architecture of how the Live Connect connects external BI tools to ServiceNow tables via ODBC and JDBC drivers, while enforcing security and access controls.
 
 \[Omitted image "sql-api-architechture.png"\] Alt text: Architecture diagram showing SQL API interaction with ServiceNow system components
 
 ## Key architectural components
 
-The SQL API architecture consists of the following key components:
+The Live Connect architecture consists of the following key components:
 
 -   **Client applications**
 
@@ -48,17 +48,17 @@ The SQL API architecture consists of the following key components:
         3.  Auth + Role check
         4.  Encryption
     -   REST layer: There are separate dedicated services for each driver \(ODBC REST Service and JDBC REST Service\), both restricted to SELECT-only queries and rate limited, accessible only by the driver internally.
-    -   Database tier: Queries reach the Primary DB first \(read-only, used as fallback if no replica\), but are preferably routed to a Read Replica, which isolates BI workload from the primary database and handles all JDBC/ODBC SELECTs. You must configure a Read Replica to route the SQL API queries. For more information, see [Route SQL API calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/routing-sql-api-calls-to-read-replica.md).
+    -   Database tier: Queries reach the Primary DB first \(read-only, used as fallback if no replica\), but are preferably routed to a Read Replica, which isolates BI workload from the primary database and handles all JDBC/ODBC SELECTs. You must configure a Read Replica to route the Live Connect queries. For more information, see [Route Live Connect calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/routing-sql-api-calls-to-read-replica.md).
 
 ## How the architecture works
 
-When you connect your BI tool to ServiceNow through the SQL API, the following process occurs:
+When you connect your BI tool to ServiceNow through the Live Connect, the following process occurs:
 
 1.  Your BI tool establishes a standard database connection using either ODBC or JDBC APIs.
-2.  The connection request is authenticated against ServiceNow user credentials configured for SQL API access.
+2.  The connection request is authenticated against ServiceNow user credentials configured for Live Connect access.
 3.  Once authenticated, you can write SQL queries to retrieve data from authorized ServiceNow tables and fields.
-4.  The SQL API processes your queries through the security services layer, applying all security controls and access restrictions.
+4.  The Live Connect processes your queries through the security services layer, applying all security controls and access restrictions.
 5.  Query results are returned in standard tabular format, which your BI tool can visualize, analyze, or export.
 
-**Parent Topic:**[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
+**Parent Topic:**[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

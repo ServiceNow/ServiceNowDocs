@@ -70,6 +70,8 @@ After the Supplier Manager approves the case, the company profile details are up
 
 [Update default supplier]()
 
+[Update tax information using the supplier catalog]()
+
 [Request something else using the supplier catalog]()
 
 [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)

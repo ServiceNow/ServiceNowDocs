@@ -22,7 +22,7 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-These multi-sensors pass the data returned by the identity probes to the Discovery identifiers. The identifiers then search the CMDB for matching CIs. When the identity of a device is resolved, the identifiers pass the result state for the device to the multi-sensors, which react accordingly, either by launching exploration probes or stopping Discovery for that device.
+These multi-sensors pass the data returned by the identity probes to the Discovery identifiers. The identifiers then search the CMDB for matching CIs. When the identity of a device is resolved, the identifiers pass the result state for the device to the multi-sensors. The multi-sensors react accordingly, either by launching exploration probes or stopping Discovery for that device.
 
 ## Procedure
 

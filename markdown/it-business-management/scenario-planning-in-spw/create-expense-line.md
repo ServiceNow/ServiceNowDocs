@@ -26,6 +26,8 @@ An expense line is part of the project cost plans that can be associated with a 
 
 For unplanned expense lines not associated to any cost plan, the system creates a cost plan or associates an existing one of the same expense type.
 
+\[Omitted video\] Description: Add and manage expense lines
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** and select portfolio plan.
@@ -36,15 +38,15 @@ For unplanned expense lines not associated to any cost plan, the system creates 
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d148067e93">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d150662e113">
 
 Choice
 
-</th><th align="left" id="d148067e96">
+</th><th align="left" id="d150662e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148067e102">
+</th></tr></thead><tbody><tr><td id="d150662e122">
 
 **Select a cost plan**
 
@@ -54,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d148067e123">
+</td></tr><tr><td id="d150662e143">
 
 **Select options**
 
@@ -64,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d148067e150">
+</td></tr><tr><td id="d150662e170">
 
 **Select new expense line option**
 

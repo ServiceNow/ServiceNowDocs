@@ -18,12 +18,14 @@ Learn which AI models and versions Build Agent supports and how to change them. 
 
 Build Agent currently supports the following models:
 
--   Gemini 3.5 Pro \(Zurich Patch 12 or later\)
--   Gemini 2.5 Pro
--   Azure OpenAI 5.5 \(Zurich Patch 12 or later\)
 -   Azure OpenAI 5.4
--   Opus 4.8 \(Australia Patch 5 or later\)
--   Opus 4.6
+-   Azure OpenAI 5.5
+-   Azure OpenAI GPT 5.6 Sol
+-   Gemini 3.5 Flash
+-   Gemini 2.5 Pro
+-   Claude Opus 4.6
+-   Claude Opus 4.8
+-   Claude Opus 5.0
 
 ## Changing the model and version
 

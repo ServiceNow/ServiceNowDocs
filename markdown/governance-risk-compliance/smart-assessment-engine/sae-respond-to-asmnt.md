@@ -8,7 +8,7 @@ product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -42,5 +42,21 @@ The following example shows how your progress, save status, assessment status, r
 -   **Progress tracking in assessments**
 
     The progress bar indicates how many questions remain in the assessment including required and optional questions.
+
+-   **Default focus when opening or reopening an assessment**
+
+    When you open or reopen an assessment, the view defaults to the assessment instructions if configured. Otherwise, the view defaults to the first question of the first section or subsection. This default focus applies even if you or a contributor already answered later questions, or a response was set by response automation.
+
+    **Note:** This feature is available starting with Zurich Patch 10.
+
+-   **Searching reference-type question responses**
+
+    For single-select and multi-select reference-type questions, if the specified table returns more than 10 records, you see only the first 10 by default. Select the search icon to open a list of all matching records and choose from the full set.
+
+    **Note:** This feature is available starting with Zurich Patch 10.
+
+-   **Question-level change history**
+
+    Review a log of every response, justification, and flag-state change made to a question, including who made the change and when. For details, see [Question change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.md).
 
 

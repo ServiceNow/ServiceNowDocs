@@ -16,7 +16,7 @@ This section outlines the Grants Management data model and the tables installed 
 
 The following logical diagram shows the tables and their relationships within the Grants Management data model.
 
-\[Omitted image "psds-datamodel-grants.png"\] Alt text: Public Sector Digital Services Grants Management Data Model
+\[Omitted image "psds-datamodel-grants-q2-2026.png"\] Alt text: Public Sector Digital Services Grants Management Data Model
 
 -   **[Tables installed with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-gm-tables.md)**  
 This section describes the tables installed with the Grants Management application and shows how they store and manage information.

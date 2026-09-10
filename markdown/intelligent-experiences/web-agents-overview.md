@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2025-09-05"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [explore, AI Agents, Agentic AI, adaptive desktop action, probabilistic desktop action]
 breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
 ---
@@ -58,6 +58,16 @@ You access desktop actions through the ServiceNow Otto panel that has enhanced c
 When you close the chat, you have the option to delete the chat log, including all screenshots containing sensitive information. For more information, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-delete-chat-log.md).
 
 To run multiple tasks at once in adaptive desktop actions, open them in separate Chrome browser windows, each with a different user profile, logging in with different ServiceNow users. This lets the tasks run in parallel instead of one at a time.
+
+**Note:**
+
+If your goal references stored credentials that aren't defined for the website, or doesn't reference stored credentials at all, the agent prompts you to log in manually. Switch to the website's browser window, log in, and confirm in chat so the agent can continue.
+
+If your goal references stored credentials \(dynamic parameters previously configured for that website\), the agent retrieves the corresponding values and enters them on the login page automatically. You don't have to provide anything in the chat.
+
+Values marked as sensitive in the stored credentials are never displayed, in the chat or elsewhere. Non-sensitive values, such as a username, might appear as part of the agent's plan.
+
+To use the stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-parameter-record-ad.md).
 
 ## Limitation
 

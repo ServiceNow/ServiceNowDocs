@@ -1,6 +1,6 @@
 ---
 title: Pure Storage FlashArray discovery
-description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/flasharray-discovery.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Pure Storage FlashArray discovery
 
-The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Note:** Starting March 2024, the pattern execution is disabled by default. To create a CI for Pure Storage FlashArray, synchronize the pattern to the MID Server.
 
@@ -297,7 +297,7 @@ Operational status of the resource. Default value is Operational.
 |Hosted by \[hosted\_by\]|References the Storage Server \[cmdb\_ci\_storage\_server\] table.|
 |Storage \[storage\]|References the Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\] table.|
 
-## CI relationships
+## CI relationships and references
 
 The Pure Storage pattern creates CI relationships and references to support Pure Storage FlashArray discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

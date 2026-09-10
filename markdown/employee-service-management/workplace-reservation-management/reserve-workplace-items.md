@@ -18,7 +18,7 @@ breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Emplo
 Make a reservation for a workplace location or any reservable item of your organization. Make a single, recurring or a group reservation using the Reservation portal.
 
 -   **[Create a reservation]()**  
-Create reservations across multiple buildings, campuses, neighborhoods, or sites. Create a reservation spanning across multiple days. Add attendees or visitors to a reservation. Synchronize reservation details and resolve conflicts when scheduling recurring reservation events. Add workplace services \(room configurations, catering, and so on\) to your reservation.
+Create reservations across multiple buildings, campuses, neighborhoods, or sites, spanning a single day or multiple days. Add attendees, visitors, and workplace services such as room configurations and catering, and synchronize details or resolve conflicts for recurring reservations.
 -   **[Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md)**  
 Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
 -   **[Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/recurring-reservations.md)**  

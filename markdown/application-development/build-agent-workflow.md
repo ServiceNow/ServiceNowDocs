@@ -1,24 +1,24 @@
 ---
 title: Build Agent workflow
-description: The Build Agent workflow automates the process of building, testing, and deploying applications on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+description: The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-workflow.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-01"
-reading_time_minutes: 1
+last_updated: "2026-08-26"
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Build Agent workflow
 
-The Build Agent workflow automates the process of building, testing, and deploying applications on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 
 1.  Make sure that everything you need is properly configured in the settings, such as supported MCP server connections. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configure-build-agent.md).
-2.  Open ServiceNow Studio or the ServiceNow IDE to access the Build Agent panel in the workspace.
+2.  Open ServiceNow Studio.Use the central chat area on the home page to start a new conversation, or select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open an existing conversation.
 3.  Describe what to create or change in natural language.
 4.  Let Build Agent parse requirements and propose the application and files to create or modify.
 5.  Build Agent edits code or metadata or scaffolds a new application.

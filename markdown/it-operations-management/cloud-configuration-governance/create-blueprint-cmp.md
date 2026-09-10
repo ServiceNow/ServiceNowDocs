@@ -45,8 +45,6 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 5.  Connect the container resource to the first resource to deploy.
 
-    To create a connection between resources, select the parent resource, click the connection pad in the resource, and then drop the connection in any resource with a dotted outline. The system does not allow certain connections \(for example, an AWS datacenter cannot host an ARM resource\).
-
 6.  Add and connect all resources that make up the blueprint.
 
     You must add and connect all resources before you configure operations and attributes in the **Operations** section. As you update the resources in the Deployment Model tab, the system generates the Cloud Template: a complete representation of the blueprint in YAML script. You can export the Cloud Template representation of the deployment model and later import it into the Cloud Provisioning and Governance application on another instance.

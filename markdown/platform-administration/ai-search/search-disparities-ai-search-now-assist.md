@@ -51,7 +51,7 @@ Unlike those Genius Result configurations, however, ServiceNow Otto for Virtual 
 
 Because of this architectural difference, results from ServiceNow Otto for Virtual Agent searches can vary from those returned by ServiceNow Otto Genius Results, even when processing the same search and using the same search configuration. Similarly, ServiceNow Otto for Virtual Agent results may vary from the results returned by AI Search keyword searches.
 
-**Note:** If you're seeing different results for the same search in ServiceNow Otto for Virtual Agent than you are in AI Search and ServiceNow Otto Genius Results, it's worth checking that your ServiceNow Otto for Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-info-sources-assistant.md).
+**Note:** If you're seeing different results for the same search in ServiceNow Otto for Virtual Agent than you are in AI Search and ServiceNow Otto Genius Results, it's worth checking that your ServiceNow Otto for Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see .
 
 As previously described, using the same search configuration in the portal and your chat assistant doesn't guarantee that you will see exactly the same search results in ServiceNow Otto for Virtual Agent as you see in the portal using AI Search, but it does remove one possible source of difference.
 
@@ -90,5 +90,5 @@ The following table summarizes some of the key differences between AI Search, Se
 
 [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)
 
-[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+[bundle-convint.now-assist-in-va-landing]
 

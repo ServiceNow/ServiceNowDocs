@@ -18,7 +18,7 @@ Set up tools that enable accurate product configuration, pricing, and quoting. T
 
 1.  [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/setting-up-cpq-configurator.md)
 
-    Plan and configure the implementation of the advanced configurator in ServiceNow CPQ. The advanced configurator runs in the CSM Configurable Workspace and the Business Portal for customers placing orders.
+    Plan and configure the implementation of the advanced configurator in ServiceNow CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
 
 2.  \(Optional\) [Setting up the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/confguring-product-configurator.md)
 

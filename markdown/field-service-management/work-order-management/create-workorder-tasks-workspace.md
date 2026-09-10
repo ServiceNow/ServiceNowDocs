@@ -42,5 +42,5 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 
 [Qualify work order tasks in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/qualify-workorder-tasks-workspace.md)
 
-[Book work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/book-workorder-appointment-workspace.md)
+[Book work order appointment in the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/book-workorder-appointment-workspace.md)
 

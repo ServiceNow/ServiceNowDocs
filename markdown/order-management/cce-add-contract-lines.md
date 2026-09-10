@@ -1,6 +1,6 @@
 ---
 title: Add contract lines to a service contract
-description: Add one or more contract lines to a service contract on the CSM Configurable Workspace.
+description: Add one or more contract lines to a service contract on the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cce-add-contract-lines.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and 
 
 # Add contract lines to a service contract
 
-Add one or more contract lines to a service contract on the CSM Configurable Workspace.
+Add one or more contract lines to a service contract on the CRM Workspace.
 
 ## Before you begin
 

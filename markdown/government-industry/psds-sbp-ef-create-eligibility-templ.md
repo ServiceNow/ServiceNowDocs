@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Navigate to **Templates** &gt; **All Templates**.
 
@@ -135,7 +135,7 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **Templates** &gt; **All Templates**.
 

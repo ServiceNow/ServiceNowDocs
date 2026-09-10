@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Depending on your payload, Use event field mappings to provide more comprehensive information in an event alert by substituting values from the event field mapping rule into the event. Depending on your payload, transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
+Use event field mappings to provide more comprehensive information in an event alert by substituting values from the event field mapping rule into the event. Depending on your payload, transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
 
 The following table compares a message received from a topic and a flattened payload in the event **Additional info** field. The message received from a topic is flattened as a single field and appears in the event **Additional info** field. Use these flattened messages to create event rules and mappings.
 
@@ -179,7 +179,7 @@ Flattened payload in the Additional Info field
 
     2.  In the All Events table, open any Kafka consumer event that shows Error as the state in the **Severity** column.
 
-        The message received from the Kafka consumer can vary. Because the connector cannot know the attributes that will be received, you must map the **Severity** field or other event fields to the fields in the message to ensure that alert fields are correctly populated.
+        The message received from the Kafka consumer can vary. The connector cannot know the attributes that will be received. You must map the **Severity** field or other event fields to the fields in the message to ensure that alert fields are correctly populated.
 
     3.  On the All Events screen, create a new event rule by selecting **Create Event Rule**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-12-08"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -525,7 +525,7 @@ Lists information on participants from a past meeting.
 
 meeting:read:list\_past\_participants:admin
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="8">
 
 User Management
 
@@ -588,6 +588,30 @@ Retrieves all the users that are associated to your account.
 </td><td>
 
 user:read:list\_users:admin
+
+</td></tr><tr><td>
+
+Look up User Settings
+
+</td><td>
+
+Retrieves the settings details for a users profile.
+
+</td><td>
+
+user:read:settings:admin
+
+</td></tr><tr><td>
+
+Update User
+
+</td><td>
+
+Updates the Zoom profile information of the required user.
+
+</td><td>
+
+user:update:user:admin
 
 </td></tr><tr><td>
 
@@ -728,6 +752,22 @@ Copies the attachment that contains the chat message to the incident record.
 </td><td>
 
 team\_chat:read:user\_message:admin
+
+</td></tr><tr><td>
+
+Webinar Management
+
+</td><td>
+
+Look up Webinars Stream
+
+</td><td>
+
+Retrieves a list of upcoming or scheduled webinars for the required user.
+
+</td><td>
+
+webinar:read:list\_webinars:admin
 
 </td></tr></tbody>
 </table>## Available AI agents

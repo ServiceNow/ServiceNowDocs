@@ -80,7 +80,7 @@ Grants permissions to submit requests for services included in the Core Business
 |HR Service Delivery|[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-case-and-knowledge-management.md)|
 |Workplace Services Delivery|[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)|
 |Health and Safety|[Components installed with Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-hs-risk-mgmt.md)|
-|Sourcing and Procurement Operations|[Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/installed-with-FSC.md)|
+|Sourcing and Procurement Operations||
 |Finance and Supply Chain applications|[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/installed-with-fin-ops.md)|
 |Supplier Lifecycle Operations|[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/installed-with-supp-mgmt.md)|
 |Accounts Payable Operations|[Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/installed-with-acc-pay-mgmt.md)|

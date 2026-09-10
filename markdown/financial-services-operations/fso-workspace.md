@@ -14,7 +14,7 @@ breadcrumb: [Explore, Financial Services Operations \(FSO\)]
 
 The Financial Services Operations \(FSO\) workspace provides a single location for agents to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 
-FSO uses CSM Configurable Workspace that agents can use. To learn more about the features available in the CSM Configurable Workspace, see [CSM workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-feature-overview.md).
+FSO uses CRM Workspace that agents can use. To learn more about the features available in the CRM Workspace, see [CSM workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-feature-overview.md).
 
 ## Workspace users
 
@@ -58,7 +58,7 @@ Application admin
 
 </td><td>
 
-Configures the workspace as per business requirements.For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the workspace as per business requirements.For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Accessing the workspace

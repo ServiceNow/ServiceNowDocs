@@ -36,7 +36,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |-------------|--------------|--------------|----------------------|-----------|--------------------|-------------------------|----|---------|
 |Total Conversations by Assistant|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
 |Total Conversations by Channel|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
-|Result Types Offered|Now Assist in Virtual Agent Results returned|Automated|CI Analytics\[sys\_ci\_analytics\]|Count of Now Assist in Virtual Agent search results returned|By Now Assist in Virtual Agent Result Type, Assistant|Daily|\#|0|
+|Result Types Offered|ServiceNow Otto for Virtual Agent Results returned|Automated|CI Analytics\[sys\_ci\_analytics\]|Count of ServiceNow Otto for Virtual Agent search results returned|By ServiceNow Otto for Virtual Agent Result Type, Assistant|Daily|\#|0|
 |Conversation State Flow|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations in each of conversation states: Open, Canceled, Faulted, Completed.|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
 
 ## Adoption and Engagement page indicator details

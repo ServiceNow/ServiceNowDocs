@@ -65,15 +65,15 @@ The following table lists the ServiceNow Otto for Finance and Procurement and sk
 
 11. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d119657e370">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d125521e370">
 
 Option
 
-</th><th align="left" id="d119657e373">
+</th><th align="left" id="d125521e373">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119657e379">
+</th></tr></thead><tbody><tr><td id="d125521e379">
 
 **Skill is always available**
 
@@ -81,7 +81,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d119657e388">
+</td></tr><tr><td id="d125521e388">
 
 **Customize skill availability**
 
@@ -94,15 +94,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 13. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d119657e424">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d125521e424">
 
 Option
 
-</th><th align="left" id="d119657e427">
+</th><th align="left" id="d125521e427">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119657e433">
+</th></tr></thead><tbody><tr><td id="d125521e433">
 
 **In-product desktop**
 
@@ -110,7 +110,7 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d119657e454">
+</td></tr><tr><td id="d125521e454">
 
 **ServiceNow Otto panel**
 

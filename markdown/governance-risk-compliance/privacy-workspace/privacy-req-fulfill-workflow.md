@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personal Data Rights \(PDR\) external-facing form, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [PDR external-facing form, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Privacy data request fulfillment workflow

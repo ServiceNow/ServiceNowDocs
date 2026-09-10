@@ -31,7 +31,7 @@ Workplace PPE Inventory Management is part of a suite of ServiceNow® Safe Workp
 
 -   With the [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
 -   Before users re-enter workspaces, use the [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/employee-health-screening.md) application to screen users and ensure compliance with your entry requirements, such as a temperature check and PPE.
--   With the [Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
+-   With the [Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
 
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 

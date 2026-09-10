@@ -1,18 +1,18 @@
 ---
-title: CoPQ expense line
-description: Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality—Such as rework, scrap, warranty claims, customer returns.
+title: Create a CoPQ expense line
+description: Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-expense-line.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Correction actions, Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a correction action, Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# CoPQ expense line
+# Create a CoPQ expense line
 
-Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality—Such as rework, scrap, warranty claims, customer returns.
+Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
 
 ## Before you begin
 
@@ -31,5 +31,5 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 4.  Select **Save**.
 
 
-**Parent Topic:**[Correction actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)
+**Parent Topic:**[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)
 

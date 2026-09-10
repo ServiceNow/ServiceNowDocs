@@ -60,6 +60,8 @@ System properties that control Agent Client Collector upgrade behavior, includin
 Error codes generated during Agent Client Collector upgrades, with descriptions and resolution steps.
 -   **[Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md)**  
 Operating systems and package types supported for Agent Client Collector auto-upgrade, and the minimum agent version required.
+-   **[MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/msi-installation-parameters.md)**  
+The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
 

@@ -18,7 +18,7 @@ The Cascade Update function enables you to update a configuration item \(CI\) at
 
 You can use the Cascade Update function to update any field in the inventory record and cascade the changes all the way down to the hierarchy mentioned in the inventory record.
 
-If there’s a conflict, such as any discrepancies found in the related CIs, this function returns an error. For example, let's say that you pass the change request and CI but the CI isn’t added to the affected CI list of the change request. Instead, it returns a sort error with the conflict information in execution.
+If there’s a conflict, such as any discrepancies found in the related CIs, this function returns an error. For example, if you pass a change request and CI but the CI isn’t in the affected CI list, the function returns a sort error with the conflict information.
 
 **Note:** This function doesn’t work on **Life Cycle Stage** and **Life Cycle Status** fields.
 

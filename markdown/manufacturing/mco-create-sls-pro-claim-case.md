@@ -1,18 +1,19 @@
 ---
 title: Create a sales promotion claim case
-description: Create a sales promotion claim case.
+description: Submit a sales promotion claim case to request incentive amounts for a completed sale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-sls-pro-claim-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+keywords: [sales promotion claim, sales promotion claim case, dealer sales agent, incentive claim, manufacturing commercial operations]
+breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a sales promotion claim case
 
-Create a sales promotion claim case.
+Submit a sales promotion claim case to request incentive amounts for a completed sale.
 
 ## Before you begin
 
@@ -26,11 +27,11 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 3.  On the form, fill in the fields.
 
-    |Fields|Description|
-    |------|-----------|
+    |Field|Description|
+    |-----|-----------|
     |Asset|Asset for the claim.|
     |Requested by|Logged in user or member of the logged in user's service organization.|
-    |Consumer|Consumer tagged to install base.|
+    |Consumer|Consumer is associated with the install base.|
     |Dealer|Business location.|
     |Sales price|Sale price of the product sold. Select the required currency from the list|
 
@@ -38,9 +39,9 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 5.  On the form, fill in the fields.
 
-    |Fields|Description|
-    |------|-----------|
-    |Select incentives|Select the applicable promotion, fill claimed amount, and the other required fields.|
+    |Field|Description|
+    |-----|-----------|
+    |Select incentives|Applicable promotion, claimed amount, and other required fields for the claim.|
 
 6.  Select **Continue**.
 
@@ -48,10 +49,14 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
     |Activity|Description|
     |--------|-----------|
-    |**Claim in review**|The claim is successfully submitted for review.|
-    |**Review and approve**|Review the claim and approve. Enter the amount that you want to approve.|
+    |**Claim in review**|Submit the claim for review.|
+    |**Review and approve**|Review the claim and approve. Enter the amount to approve.|
     |**Claim summary**|View the summary of the sales promotion claims.|
 
+
+## Result
+
+Sales promotion claim case is created.
 
 **Parent Topic:**[Sales promotion claim management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-sls-pro-clm-mgmt.md)
 

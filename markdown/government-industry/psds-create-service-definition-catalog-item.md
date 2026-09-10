@@ -103,6 +103,6 @@ Description of the public service.
 </td></tr></tbody>
 </table>6.  Select **Submit**.
 
-    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the CSM Configurable Workspace.
+    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the CRM Workspace.
 
 

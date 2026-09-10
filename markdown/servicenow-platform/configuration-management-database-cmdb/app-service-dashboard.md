@@ -24,7 +24,7 @@ Role required: itil\_admin or app\_service\_admin
 
 The dashboard queries for Application Services by checking for those records in the \[cmdb\_ci\_service\_auto\] class in which the value of **Service classification** is **Application Service**. Reduce the number of incomplete application services by [editing application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and populating any empty attributes. For example, if an application service isn't configured with a service population method, then configure a service population method for it.
 
-The Application Services dashboard is fully integrated into the [Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md) and refreshes on a 24-hour cycle during night hours.
+The Application Services dashboard is fully integrated into the  and refreshes on a 24-hour cycle during night hours.
 
 ## Procedure
 

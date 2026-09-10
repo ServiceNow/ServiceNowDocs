@@ -27,7 +27,7 @@ The AI Search components are described in detail on the Developer Site:
 -   [Search results](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-results-container/overview)
 -   [Tab filter](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-tab-filter/overview)
 
-For details on adding components to your pages in UI Builder, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-components.md).
+For details on adding components to your pages in UI Builder, see Add and configure components.
 
 ## Entity View Action Mapping \(EVAM\) definitions
 

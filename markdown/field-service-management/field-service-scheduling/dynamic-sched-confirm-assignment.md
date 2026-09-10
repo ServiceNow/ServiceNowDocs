@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Choose tasks to run, Assigning WOTs using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---

@@ -19,7 +19,7 @@ Configure and review the details for a skill in the Guided Setup. You can edit a
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Role required: sn\_si.admin
 

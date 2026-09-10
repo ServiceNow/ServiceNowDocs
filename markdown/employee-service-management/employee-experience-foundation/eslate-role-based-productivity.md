@@ -1,6 +1,6 @@
 ---
 title: Key user roles and personas
-description: Employee Slate provides tailored experiences for everyday employees, content managers, and administrators.
+description: EmployeeWorks Web App provides tailored experiences for everyday employees, content managers, and administrators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-role-based-productivity.html
 release: zurich
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-06-17"
 reading_time_minutes: 2
 keywords: [role-based productivity, productivity tiers, specialized assistants, role-based canvas, manager productivity]
-breadcrumb: [Employee Slate introduction, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Key user roles and personas
 
-Employee Slate provides tailored experiences for everyday employees, content managers, and administrators.
+EmployeeWorks Web App provides tailored experiences for everyday employees, content managers, and administrators.
 
-Employee Slate serves different categories of employees with experiences that match their work routines.
+EmployeeWorks Web App serves different categories of employees with experiences that match their work routines.
 
 **Important:** AI-generated content may be inaccurate. Verify AI-suggested content before publishing or acting on it.
 
@@ -36,7 +36,7 @@ Plan implementation, install Moveworks or Now Assist Chat, and configure brandin
 |Monitor|Track adoption and experience metrics in the analytics dashboard.|
 |Evolve|Expand the experience to apps such as Microsoft Teams, Slack, and other third-party channels.|
 
-For more information on configuration, see [Get started with Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md)
+For more information on configuration, see [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md)
 
 ## Employee key use cases
 
@@ -44,15 +44,15 @@ From the moment you log in to the moment the task is done, everything runs from 
 
 \[Omitted image "employee-journey-es.png"\] Alt text: Diagram showing everyday employee use cases for Employee Slate
 
-|Action|ResponsibilityEmployee Slate|
-|------|----------------------------|
+|Action|ResponsibilityEmployeeWorks Web App|
+|------|-----------------------------------|
 |Ask|Ask a question in natural language to Moveworks or Now Assist chat.|
 |Discover|Find answers across enterprise knowledge sources, such as SharePoint, Drive, and Slack.|
 |Act|Submit catalog requests through the conversational catalog without leaving the chat.|
 |Track|View approvals, tasks, and updates in one timeline in Tasks and requests.|
 |Stay current|Receive targeted notifications and announcements across web and mobile browser.|
 
-For more information, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [ServiceNow Otto AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+For more information, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Content manager key use cases
 

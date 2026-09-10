@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Install the Leader Hub application

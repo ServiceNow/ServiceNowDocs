@@ -28,7 +28,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-AI analyzes project data to identify potential risks and presents them for project manager review. AI-suggested risks are generated as part of the project insights cadence and appear in the AI Risks menu for project managers to accept or reject. AI generates risks by analyzing data from project insights, resources, financials, and milestones.
+AI analyzes project data to identify potential risks and presents them for project manager review. AI-suggested risks are generated as part of the project insights cadence and appear in the AI Identified Risks menu for project managers to accept or reject. AI generates risks by analyzing data from project insights, resources, financials, and milestones.
 
 The AI Identified Risks menu is visible only to project managers when the risk generation skill is active. If no risks are identified during generation or regeneration, the AI Identified Risks page displays an empty state where you can generate risks again.
 
@@ -46,6 +46,8 @@ The AI Identified Risks menu is visible only to project managers when the risk g
     -   Accept: When you accept a risk, the approved risk appear in the RIDAC list and its state moves from AI Draft to Pending.
     -   Reject: When you reject a risk, the rejected risk is removed or hided from the AI identified risks list and its state moves to Closed skipped. The rejected risks are retained so that AI does not generate the same risk again.
     If no risks are identified during generation or regeneration, the AI identified risks page displays an empty state. In this case, you can't regenerate risks immediately and are advised to revisit the page later as the project evolves.
+
+    Once the risks are accepted, a confirmation message includes a view RIDAC link that opens the accepted risks in Risk By Type view page.
 
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 

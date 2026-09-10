@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Values that you enter in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API for the named service account.
+You can configure custom parameters for AWS member role assumption. Values that you enter in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API.
 
 ## Procedure
 

@@ -7,8 +7,8 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-07-07"
-reading_time_minutes: 1
+last_updated: "2026-08-25"
+reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -47,6 +47,18 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
         -   If all assigned work is complete, then the iteration is automatically marked complete without any confirmation from you.
         **Note:** When you complete any iteration, it is no longer displayed in the Backlog page, and all the work items which are completed in that iteration are no longer available to view from the Backlog page either.
 
+    The **Spillover** and **New scope** fields on the iteration are calculated from its stories.
+
+    -   **Spillover**
+
+        Sum of the story points of the committed stories that are no longer in the iteration when it completes.
+
+    -   **New scope**
+
+        Sum of the story points of the stories that were added to the iteration after it started.
+
+    Both fields are read-only. Select a value to open the stories that it counts. Cancelled stories aren't counted, and the values are calculated only for iterations that you complete after you upgrade to this release.
+
 4.  Start an iteration.
 
     1.  From the Backlog page, locate the iteration that you want to start and select **Start &lt;iteration&gt;**.
@@ -54,6 +66,8 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
         -   For a Sprint, the option is displayed as **Start Sprint**.
         -   For a PI, the option is displayed as **Start Planning Interval**.
         \[Omitted image "eap-start-sprint.png"\] Alt text: Start next sprint in EAP.
+
+    The stories that are in the iteration when it starts are recorded as its committed stories. This set is what the **Spillover** and **New scope** fields are measured against when you complete the iteration.
 
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)

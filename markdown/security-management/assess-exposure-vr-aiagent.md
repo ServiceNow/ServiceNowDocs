@@ -16,7 +16,7 @@ Chat with an AI agent to help you assess the potential exposure of your configur
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 

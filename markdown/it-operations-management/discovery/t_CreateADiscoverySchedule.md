@@ -1,6 +1,6 @@
 ---
 title: Schedule a horizontal discovery
-description: A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.You can run DiscoverNow from a script, such as a background job, a business rule, or web services.Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.The Discovery application follows this sequence to find a MID Server.
+description: A discovery schedule determines what horizontal discovery runs, when it runs, and which MID Servers to use. Create a discovery schedule for your local environment or for discovering the resources in your cloud service account.Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.You can run DiscoverNow from a script, such as a background job, a business rule, or web services.Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.The Discovery application follows this sequence to find a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_CreateADiscoverySchedule.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, IT
 
 # Schedule a horizontal discovery
 
-A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.
+A discovery schedule determines what horizontal discovery runs, when it runs, and which MID Servers to use. Create a discovery schedule for your local environment or for discovering the resources in your cloud service account.
 
 ## Before you begin
 

@@ -33,7 +33,7 @@ Use one of the following methods to specify change request attributes:
     -   [Get and update change request details in Azure DevOps pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.md)
     -   [Update change request details in Jenkins pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/update-change-request-details-in-jenkins-pipeline.md)
     -   [ServiceNow DevOps custom actions from GitHub marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-devops-custom-actions-from-github-marketplace.md)
-    -   [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md)
+    -   [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md)
 -   Automated flows: DevOps approval flows to make changes in a change request. For more information, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 ## Precedence of consideration

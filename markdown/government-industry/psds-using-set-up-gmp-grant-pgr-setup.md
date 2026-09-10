@@ -24,16 +24,11 @@ Grants Management is a packaged application, with playbooks and workflows built 
 
 The workflows for a type of case and the activities that you must complete to resolve these cases are outlined in the playbook. By using a playbook, you can visualize the entire life cycle of the Grants Management setup workflow.
 
-|Task|Description|
-|----|-----------|
-|Intake|Define key details regarding the grant program. Applicants submit required forms and eligibility is verified.|
-|Screen|Build the program announcement. Acts as a checkpoint for eligibility verification and provides you with an opportunity to review the grant details.|
-
 A grant announcement is a formal solicitation issued by a funding organization. It details the objectives, eligibility criteria, funding amounts, and application procedures for a specific funding opportunity. Grants Management Program Setup Playbook walks grants program managers through the process of creating and building out a grant program announcement.
 
-Grants Management Program Set Up allows you to set up and manage grant programs with guided steps to create, publish, and, manage different grant programs under your agency, making sure to protect sensitive information with role-based access management.
+Grants Management Program Set Up allows you to set up and manage grant programs with guided steps. You can create, publish, and manage different grant programs under your agency. Role-based access management protects sensitive information.
 
-Like other Public Sector Digital Services playbooks, this playbook contains four stages, and several activities in each stage. However, since this playbook is designed specifically for grant program managers create net new grant programs, it guides the program manager through the process of creating a grants program, from defining key details, to defining budget and milestones, to publishing it to the agency's Grants Portal.
+Like other Public Sector Digital Services playbooks, this playbook contains four stages, and several activities in each stage. This playbook is designed specifically for grant program managers to create net new grant programs. It guides the program manager through the process of creating a grants program, from defining key details to defining budget and milestones. The program manager can then publish it to the agency's Grants Portal.
 
 Each grant program creates a product model record.
 

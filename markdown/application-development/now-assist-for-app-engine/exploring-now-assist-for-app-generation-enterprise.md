@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-24"
 reading_time_minutes: 3
-keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
+keywords: [now assist, ServiceNow Otto, ServiceNow Otto for App Engine, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
 breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -19,7 +19,7 @@ Explore the AI capabilities, users, benefits, and workflow for using ServiceNow 
 
 ## ServiceNow Otto for App Engine overview
 
-ServiceNow Otto for App Engine is a powerful application designed to empower developers with the tools needed to supercharge custom applications with AI capabilities. Whether you're enhancing an existing custom application with AI capabilities, or creating a new application that features AI capabilities from the start, ServiceNow Otto for App Engine has everything that you need to make developing AI experiences seamless.
+ServiceNow Otto for App Engine is designed to empower developers with the tools needed to add AI to custom applications. Whether you're enhancing an existing custom application with AI capabilities, or creating a new application that features AI capabilities from the start, ServiceNow Otto for App Engine has everything that you need to make developing AI experiences seamless.
 
 With ServiceNow Otto for App Engine, you can leverage the generative and agentic AI capabilities of the ServiceNow AI Platform. For more information about the tools available with ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md).
 
@@ -67,9 +67,9 @@ The following list outlines the developer workflow for creating and embedding a 
 3.  Choose a large language model \(LLM\), define inputs, and compose prompt text for the skill.
 4.  Add tools to the skill, such as pulling in data or automating a task within a workflow or subflow.
 5.  Test and validate the skill using AI Data Kit to optimize the correctness of the skill.
-6.  Activate and embed the skill within a custom application using an AI agent, UI action, flow action, or the Now Assist panel.
+6.  Activate and embed the skill within a custom application using an AI agent, UI action, flow action, or the ServiceNow Otto panel.
 
-The process for building and embedding an AI agent or an agentic workflow within a custom application is similar. Developers use AI Agent Studio to create, define, and add tools to the AI agent. They can then deploy the AI agent for use in the Now Assist panel or within an agentic workflow.
+The process for building and embedding an AI agent or an agentic workflow within a custom application is similar. Developers use AI Agent Studio to create, define, and add tools to the AI agent. They can then deploy the AI agent for use in the ServiceNow Otto panel or within an agentic workflow.
 
 For more information about creating skills, AI agents, and agentic workflows with ServiceNow Otto for App Engine, see [Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

@@ -164,7 +164,7 @@ Requestor fields
 
 Additional information:
 
--   Verify that CSM Configurable Workspace Foundation plugin version is 25.1.4
+-   Verify that CRM Workspace Foundation plugin version is 25.1.4
 -   To access the Sentiment field, refer to the information available at these KB links:
     -   [Sentiment analysis card is missing in case records in both CSM UI16 and workspace UIs on ServiceNow Otto for CSM Sentiment Analysis feature activation](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2105461).
     -   [Sentiment analysis card display on a record in CSM workspace](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2105452)

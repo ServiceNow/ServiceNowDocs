@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 Extracting takes values from event payload fields and places them in alert output fields, while composing combines multiple alert fields into one. For more information, see [Extracting and composing alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/extract-compose-fields.md).
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better teams support. Event rules offer a few advanced features like thresholds and CI identification using IRE that are not yet available in enrich automations. Admins may also enrich alerts with event field mapping rules. Changing alert values creates an event field mapping rule with the mapping type **Map field and transform value \(Single field\)**. This rule is linked to the event rule and runs simultaneously, allowing for streamlined mapping and transformation of event data to enrich alerts.
+For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better teams support. Event rules offer a few advanced features like thresholds and CI identification using IRE that aren't yet available in enrich automations. Admins may also enrich alerts with event field mapping rules. Changing alert values creates an event field mapping rule with the mapping type **Map field and transform value \(Single field\)**. This rule is linked to the event rule and runs simultaneously, allowing for streamlined mapping and transformation of event data to enrich alerts.
 
 ## Procedure
 
@@ -62,6 +62,10 @@ For users familiar with the classic Event Management experience, enrich automati
     2.  From the **Source** field menu, select the monitoring tool from where the alert is generated.
     3.  Set up the conditions by selecting the field, operator, and field value. Then, add more conditions using OR or AND operators.
 
+        When using time-based condition filters in Enrich/Event rules \(a filter that contains a time-based condition\), the value is saved as a static value. The time is evaluated in the system time zone of the instance, defined by the **glide.sys.default.tz** system property, which defaults to America/Los\_Angeles if left empty.
+
+        \[Omitted image "enrich-automation-time-condition.png"\] Alt text: Condition based on time of event
+
         To add another set of conditions, select **+ New condition set**. You can also manually add an additional info field if you don’t see it in the drop-down list.
 
         **Note:** Select **Load past events** to view previous events when creating the automation.
@@ -76,15 +80,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d205927e269">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d214102e287">
 
 Option
 
-</th><th align="left" id="d205927e272">
+</th><th align="left" id="d214102e290">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205927e278">
+</th></tr></thead><tbody><tr><td id="d214102e296">
 
 **__Extract alert fields__**
 
@@ -115,7 +119,7 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d205927e380">
+</td></tr><tr><td id="d214102e398">
 
 **__Copy or compose fields__**
 
@@ -133,7 +137,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d205927e441">
+</td></tr><tr><td id="d214102e459">
 
 **__Change alert values__**
 
@@ -148,17 +152,17 @@ To add more field values, select **+ Add value** and to add more fields to map, 
 
 \[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d205927e500">
+</td></tr><tr><td id="d214102e518">
 
 **Improve configuration item \(CI\) identification**
 
 </td><td>
 
-This option allows you to change how alerts are bound or linked to a Configuration Item \(CI\), ensuring alerts are associated with the correct IT components for better visibility and faster issue resolution.
+This option allows you to change how alerts are bound or linked to a Configuration Item \(CI\). This ensures alerts are associated with the correct IT components for better visibility and faster issue resolution.
 
  The default and most common way to bind alerts to CIs is based on the **Node** field. This works out of the box with no configuration needed. Use it by populating the **Node** field in your alert with a CI’s Name, Fully Qualified Domain Name \(FQDN\), IP, or MAC address. This supports host CIs including Computers, Operating Systems \(OS\), Switches, Routers, or any CI type or any class that extends the \[cmdb\_ci\_hardware\] table.
 
- You may enable this action to improve the CI identification for other types of CIs such as processes or service instances. The system searches for a matching CI in the appropriate CMDB table based on the selected CI type. For example, if you select VMware Virtual Machine Instance as the CI class, the system searches for a matching record in the \[cmdb\_ci\_vmware\_instance\] table using details from the event rule record, specifically the **Additional info** fields.
+ You may enable this action to improve the CI identification for other types of CIs such as processes or service instances. The system searches for a matching CI in the appropriate CMDB table based on the selected CI type. For example, if you select VMware Virtual Machine Instance as the CI class, the system searches for a matching record in the \[cmdb\_ci\_vmware\_instance\] table. The search uses details from the event rule record, specifically the **Additional info** fields.
 
  \[Omitted image "enrich-automation-ci-identification.png"\] Alt text: Improve configuration item \(CI\) identification section
 

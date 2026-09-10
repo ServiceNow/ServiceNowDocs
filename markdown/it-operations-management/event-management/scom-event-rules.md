@@ -28,7 +28,7 @@ When an event's metrics match the event filter conditions, the metrics bind to t
 
 You can create a custom event rule to bind metrics with other CI types. For details, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-or-edit-event-rule.md).
 
-If the event rule filter doesn't match, the default rule, **SCOM Metrics - Default** \(CI type = **cmdb\_ci\_hardware**\) is invoked. The order number of the default event rule must be higher than the order number of any SCOM event rules \(both those that come with the base system and any custom rules\), so that all other rules are checked for matching before invoking the default rule. For details on event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md).
+If the event rule filter doesn't match, the default rule, **SCOM Metrics - Default** \(CI type = **cmdb\_ci\_hardware**\) is invoked. The order number of the default event rule must be higher than the order number of any SCOM event rules. This includes both base system rules and custom rules. This ensures that all other rules are checked for matching before invoking the default rule. For details on event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md).
 
 **Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
 

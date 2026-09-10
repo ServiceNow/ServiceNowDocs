@@ -1,6 +1,6 @@
 ---
 title: Visualization of application performance - Legacy
-description: Visualization of the performance of applications in different dimensions on a bubble chart, in a dashboard, and in an application 360 view helps you to take decisions on the applications.
+description: Visualize application performance across multiple dimensions using bubble charts, dashboards, and application 360 views to make informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/visualization-application-performance.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Application assessment - Legacy, Explore- Legacy, Enterprise Archit
 
 # Visualization of application performance - Legacy
 
-Visualization of the performance of applications in different dimensions on a bubble chart, in a dashboard, and in an application 360 view helps you to take decisions on the applications.
+Visualize application performance across multiple dimensions using bubble charts, dashboards, and application 360 views to make informed decisions.
 
 Having set up indicators and attaching application score profiles and running the scheduled job to calculate its scores periodically, your application scores are now ready for viewing.
 
--   Use bubble charts to visualize your business application data plotted on a chart in three dimensions, which helps you to compare and evaluate applications based on their indicator scores.
+-   Use bubble charts to visualize your business application data in three dimensions. Compare and evaluate applications based on their indicator scores.
 -   Use Application 360 to focus on the business applications that require your attention.
 -   Use Application Assessments dashboard to view the trends of indicators for different applications.
 

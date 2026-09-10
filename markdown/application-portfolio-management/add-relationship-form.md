@@ -54,7 +54,7 @@ Create, Read, Update, and Delete
 
 </td><td>
 
-Options for capturing the type of operation or a combination of operations that the business application can do on the information object.Selecting the Create, Read, Update, and Delete \(CRUD\) check boxes adds qualifiers, which are properties that define the extent of the relationship between the business application CI and the information object CI.
+Options for capturing the type of operation or a combination of operations that the business application can do on the information object.Selecting the Create, Read, Update, and Delete \(CRUD\) check boxes adds qualifiers. Qualifiers are properties that define the extent of the relationship between the business application CI and the information object CI.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-reference.md)

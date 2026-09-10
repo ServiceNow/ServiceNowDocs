@@ -45,7 +45,7 @@ Only processed expense lines are considered for projects, project tasks, and dem
     **Note:**
 
     -   Imported processed expense lines are not rolled up to the Total actual cost field in Cost Plans.
-    -   If you change the **Amount** of a Pending expense line and change the state to Processed, the latest value is captured in expense line and the same is rolled up to Total actual costs in Cost Plans.
+    -   If you change the **Amount** of a Pending expense line and change the state to Processed. The latest value is captured in expense line and the same is rolled up to Total actual costs in Cost Plans.
 
 ## Result
 

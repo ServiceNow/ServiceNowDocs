@@ -26,15 +26,14 @@ Use the RIDAC Risk form to identify and track potential risks that could impact 
 |Mitigation plan|Detailed plan and timeline for implementing mitigation strategies. Includes specific steps, responsible parties, and completion dates for risk mitigation activities.|
 |Probability|Likelihood of the risk occurring. The available options are **Absolute**, **High**, **Moderate**, and **Low**. This helps in risk assessment and prioritization of mitigation strategies.|
 |Risk status|Current status of the risk. The available options are **Pending**, **Achieved**, **Not Achieved**, **Avoid**, **Mitigate**, **Transfer**, and **Accept**. This field tracks the lifecycle status of the risk separate from the overall State field.|
-|Priority|Priority level of the risk based on its likelihood and potential impact. The available options are **1 - Critical**, **2 - High**, **3 - Moderate**, **4 - Low**, and **5 - Planning**. This helps with risk mitigation prioritization and resource allocation.|
 |Impact|Potential impact if the risk occurs. The available options are **1 - High**, **2 - Medium**, **3 - Low**. This indicates the severity of the risk on planning objectives.|
 |Estimated Cost|Estimated cost in currency \(for example, USD\) to mitigate or resolve the risk. Helps with financial tracking and planning.|
 |Risk rank|Calculated numeric ranking of the risk based on probability and impact. This field is auto-calculated and helps with risk prioritization \(higher number indicates higher risk\).|
-|Risk value|Overall risk assessment value derived from probability and impact evaluation. This field is auto-calculated to provide a composite risk score.|
-|Mitigation Strategy|Planned approach or actions to reduce the probability or impact of the risk if it occurs.|
-|Due date|Target date by which risk mitigation actions should be completed.|
 |Risk owner|Individual or role designated as the risk owner who has overall accountability for risk management and mitigation.|
+|Risk value|Overall risk assessment value derived from probability and impact evaluation. This field is auto-calculated to provide a composite risk score.|
 |Assigned to|User or team responsible for risk mitigation and monitoring activities.|
+|Task|Execution item \(such as a project or demand\) on which this RIDAC item was created. This field is the same as the Parent field and stores a reference to the execution item. When you create a RIDAC item on an execution item, this field is automatically populated. If the RIDAC item is created on a planning item, this field syncs to the related execution item.|
+|Due date|Target date by which risk mitigation actions should be completed.|
 |Planning Item|The planning item \(project, demand, epic, feature, or custom planning item\) that this risk is associated with. This field is auto-populated when a risk is created from a planning item context.|
 |Enterprise agile iteration|The EAP iteration associated with this risk. This field is auto-populated when a risk is created from an EAP iteration context.|
 |Goal|The goal \(portfolio plan goal or board goal\) that this risk is associated with. This field is auto-populated when a risk is created from a goal context.|

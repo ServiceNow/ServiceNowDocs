@@ -16,7 +16,7 @@ If you're an information request case agent or manager, you can use the Informat
 
 A playbook provides you with step-by-step guidance through the life cycle of an information request case.
 
-The Information Request Playbook automatically appears in the **Playbook** tab when you create an information request case by using the CSM Configurable Workspace.
+The Information Request Playbook automatically appears in the **Playbook** tab when you create an information request case by using the CRM Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
@@ -117,7 +117,7 @@ Constituent or Business Card
 </td></tr></tbody>
 </table>**Note:** Verify that the Information Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-information-request-playbook.md).
 
-By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CSM Configurable Workspace.
+By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CRM Workspace.
 
 -   Intake
 -   Review

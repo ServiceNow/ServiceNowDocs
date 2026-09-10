@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Use Customer Central
@@ -26,11 +26,11 @@ Use customer central to get a quick insight into key customer information and re
 
 **Note:** Accounts require contact information to display account information in Customer Central.
 
-In CSM Configurable Workspace, you can access Customer Central from within the Interaction, Contact, Account, or Consumer records.
+In CRM Workspace, you can access Customer Central from within the Interaction, Contact, Account, or Consumer records.
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  On the Interaction, Contact, Account, or Consumer record, select Customer Information to view key information on the customer.
 

@@ -1,20 +1,20 @@
 ---
 title: Import data using standard format
-description: Import data in supported formats \(STIX 2.x JSON or MISP JSON\) to enable full ingestion of all STIX Domain Objects \(SDOs\) and MISP objects.
+description: Upload the standard data in the supported file formats such as STIX 2.x JSON, MISP JSON.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/import-data-using-standard-format.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Import data using standard format
 
-Import data in supported formats \(STIX 2.x JSON or MISP JSON\) to enable full ingestion of all STIX Domain Objects \(SDOs\) and MISP objects.
+Upload the standard data in the supported file formats such as STIX 2.x JSON, MISP JSON.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ Role required: sn\_sec\_tisc.analyst
 
     Threat Intel Library page is displayed.
 
-2.  Select **Import Intelligence**.
+2.  Click **Import Intelligence**.
 
-3.  Select **Import from standard file** card.
+3.  Click **Import from standard file** card.
 
     **Important:** While importing the threat intelligence data in the supported file formats such as TXT, CSV, STIX 2.x JSON, MISP JSON, or Structured File, the file size is limited to 5 MB. The characters limit to raw text is limited to 10,000.
 
@@ -50,13 +50,10 @@ File Format
 
 Select the required option from the drop down list such as STIX 2.x JSON or MISP JSON.-   **STIX 2.x JSON**: Select the format in STIX 2.x JSON to import.
 
-**Note:** All the standard STIX entities such as Observables, Indicators, Objects, and Relationships will be imported from the uploaded STIX file.
+**Note:** Only Observables and Indicators will be imported from the uploaded STIX file. All the other object types will be ignored during the import process.
 
 -   **MISP JSON**: Select the format in MISP JSON format to import.
 
-**Note:** MISP provides the functionality to import events, attributes, and objects using its standardized import format for seamless data ingestion.
-
-For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
 
 </td></tr><tr><td>
 
@@ -141,14 +138,14 @@ Override source value
 
 </td><td>
 
-Select this check box if you wish to over ride the source values for TLP, Confidence, and Expiration from the configured values. If you don't select this check box the default values are applied.
+Select this check box if you wish to over ride the source values for TLP, Confidence, Expiration, Tags, and Taxonomies from the configured values. If you don't select this check box the default values are applied.
 
 </td></tr></tbody>
 </table>5.  Click **Next**.
 
 6.  Review the data before submission for processing.
 
-    **Note:** Reviewing of imported records is not supported for STIX JSON or MISP JSON option.
+    **Note:** Reviewing of imported records is not supported for STIX option.
 
     After you click **Next**, you can see the summary of all the information that user has provided in the above section, and the below section provides you with all the records that needs to be imported.
 
@@ -164,7 +161,7 @@ Select this check box if you wish to over ride the source values for TLP, Confid
 
     **Note:**
 
-    After you submit the import record, it is directed for approval based on the configured approval rules. If the submitting user is exempt from approval, the import job is automatically approved upon submission.
+    After you submit the import record, the user will be directed to the approver to approve the corresponding import record based on the approval rules configured. If the current user who is creating the record doesn't require the approval process then the record goes through the auto approval process the import job gets auto approved while submitting request.
 
 10. Click **View Status** to view the status of the record or click **Done**.
 
@@ -173,8 +170,6 @@ Select this check box if you wish to over ride the source values for TLP, Confid
 11. Click **Cancel** to abort the import process.
 
 12. Click **Go Back** to go back to the previous page and review the record, if necessary.
-
-    For more information, see [Viewing all imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/viewing-all-imports.md).
 
 
 **Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)

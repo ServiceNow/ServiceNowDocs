@@ -68,6 +68,6 @@ Applications:
 
         Assign the pa\_viewer role to those who must view Performance Analytics scores.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
 
 

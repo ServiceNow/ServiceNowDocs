@@ -5,7 +5,7 @@ locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2026-07-01"
-reading_time_minutes: 3
+reading_time_minutes: 2
 ---
 
 # Intelligent approvals
@@ -35,15 +35,7 @@ Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intellige
 
 ## AI licensing requirements
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
--   Foundation: AI basics to deliver insights
--   Advanced: AI to boost productivity across relevant use cases
--   Prime: Act autonomously with all AI assets, and create your own
-
-For more information, see .
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Now Assist language availability notice
 

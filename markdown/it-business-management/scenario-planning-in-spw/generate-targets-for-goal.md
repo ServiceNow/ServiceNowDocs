@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -30,6 +30,8 @@ The Target generation skill leverages the goal’s details and provided context 
 The skill automatically populates key fields in the Target form, ensuring accuracy and alignment with the goal. This helps teams define clear, measurable outcomes and speeds up the target-setting process.
 
 **Note:** Only the owner or contributors of the goal can create targets for the goal.
+
+\[Omitted video\] Description: Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
 
 ## Procedure
 

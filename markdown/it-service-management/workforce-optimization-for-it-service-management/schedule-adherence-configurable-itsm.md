@@ -16,6 +16,8 @@ breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 
 Analyze how closely your agents adhere to their scheduled activities. You can also analyze whether they complete the total time they were scheduled to work. Use these metrics to align your staffing needs better and forecast the demand for agents more effectively.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Adherence measures how closely agents follow their schedule to complete their assigned work. Conformance measures the work completed regardless of when it was completed.
 
 Use Schedule Adherence to:

@@ -196,7 +196,7 @@ Agent Client Collector
 
 </td><td>
 
-The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.This data input is supported for use with the  application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.
 
 </td></tr></tbody>
 </table>    **Note:** Selecting **Test connection** at the end of the procedure ensures that your data input is configured correctly. You can only publish a data input configuration when the connection between the MID Server and the data repository has been established.

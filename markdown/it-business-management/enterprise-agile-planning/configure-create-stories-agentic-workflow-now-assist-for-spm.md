@@ -41,7 +41,7 @@ Role required: admin
     5.  From the Select channels and status section, choose the ways in which your users can access this agentic workflow. The default selection for Create stories workflow is the Now Assist panel.
 4.  Select **Save and test**.
 
-    The Create stories agentic workflow can only be tested in the Enterprise Agile Planning \(EAP\) workspace, from an epic or a feature record. To access EAP, navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**. For more information on how to use this agentic workflow in EAP, see [Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
+    The Create stories agentic workflow can only be tested in the Enterprise Agile Planning \(EAP\) workspace, from an epic or a feature record. To access EAP, navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**. For more information on how to use this agentic workflow in EAP, see [Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 
     After testing the workflow, you can come back to AI Agent Studio to make any further changes.
 

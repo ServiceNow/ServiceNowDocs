@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/explore-purch-order-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [explore, purchase order management, POM]
 breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -34,12 +34,12 @@ Purchase Order Management simplifies the flagging of purchase orders issues and 
 A workflow for a purchase order exception might progress as follows:
 
 1.  The supplier communicates and raises attention to issues related to purchase orders by submitting purchase order exceptions in Supplier Collaboration Portal.
-2.  The supplier can communicate different types of delivery plan changes, such delivering in a single shipment on a different date, providing multiple smaller deliveries, or rejecting a purchase order line.
+2.  The supplier can communicate different types of delivery plan changes. These include delivering in a single shipment on a different date, providing multiple smaller deliveries, or rejecting a purchase order line.
 3.  The operational buyer monitors the incoming exceptions and associated tasks.
 4.  The operational buyer can act on the assigned purchase order exceptions.
 5.  The operational buyer can update impacted order and accept a supplier proposal. Alternatively, the buyer can identify other open purchase orders with other suppliers delivering the same material in the same time frame.
 6.  The operational buyer can also create, assign, and monitor tasks from the purchase order exception record. The buyer can assign tasks both to internal procurement team members and collaborators outside the procurement team.
-7.  When stronger supplier leverage is required to resolve exceptions, operational buyers can create escalations to engage strategic buyers or other internal procurement stakeholders. A supplier case is created when an exception is escalated.
+7.  When stronger supplier support is required to resolve exceptions, operational buyers can create escalations to engage strategic buyers or other internal procurement stakeholders. A supplier case is created when an exception is escalated.
 
 ## Purchase Order Management benefits
 

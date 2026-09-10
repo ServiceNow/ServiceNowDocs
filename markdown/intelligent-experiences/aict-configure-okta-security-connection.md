@@ -1,27 +1,33 @@
 ---
 title: Add an Okta connection
-description: Connect Okta to AI Control Tower so that AI agent containment with kill switch protocol prevents future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
+description: Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configure-okta-security-connection.html
 release: zurich
 topic_type: task
 last_updated: "2026-07-29"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
 # Add an Okta connection
 
-Connect Okta to AI Control Tower so that AI agent containment with kill switch protocol prevents future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
+Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
 
 ## Before you begin
 
 Confirm the following:
 
--   You have an Okta tenant with admin access to generate an API token.
--   A security connection is already established for the platform hosting the AI agent — AWS Bedrock, AWS Bedrock Agent Core, or ServiceNow Agents. An Okta connection extends containment for agents whose identity is federated through one of those platforms; it doesn't replace the platform connection. See [Add an AWS Bedrock or AWS Bedrock Agent Core connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-aws-bedrock-security-connection.md) or [Add a ServiceNow Agents connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-servicenow-agents-security-connection.md).
+-   You have an Okta tenant with admin access to generate an API token scoped to `okta.aiAgents.manage`. This scope is dedicated to AI agent lifecycle operations and meets least-privilege requirements; it isn't the broader `okta.users.manage` scope. Requires the Okta `SUPER_ADMIN` role.
+-   A security connection is already established for the platform hosting the AI agent — AWS Bedrock, AWS Bedrock Agent Core, Gemini Enterprise Agent Platform, or ServiceNow Agents. An Okta connection extends containment for agents whose identity is federated through one of those platforms; it doesn't replace the platform connection. See [Add an AWS Bedrock or AWS Bedrock Agent Core connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-aws-bedrock-security-connection.md) or [Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md).
 -   The AI agents you want covered are actively configured on the Okta tenant — in other words, their identity is federated through Okta.
+
+|Operation|Kill switch use case|Okta endpoint|
+|---------|--------------------|-------------|
+|Activate AI agent|Reinstate after investigation clearance.|`POST /api/v1/agentregistration/{id}/activate`|
+|Deactivate AI agent|Deactivate the agent as a containment action.|`POST /api/v1/agentregistration/{id}/deactivate`|
+|Get all agents|Discover agent inventory for targeting.|`GET /api/v1/agentregistration`|
 
 Role required: Creating the Connection Alias, credential, and HTTP connection in steps 1–3 below typically requires an instance admin or integration admin role. Creating the security connector in steps 4–6 requires sn\_ai\_governance.ai\_steward.
 
@@ -86,7 +92,7 @@ When Okta is configured and the agent's identity is federated through Okta, deac
 
     Select **Submit**.
 
-4.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Security**.
+4.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
 5.  On the **Available security connectors** sub-tab, select **Okta**.
 
@@ -107,7 +113,7 @@ The connector appears on the **Established connections** sub-tab. If Okta deacti
 To verify the setup:
 
 -   Open the Connection Alias record and confirm the HTTP connection appears in its **Connections** related list.
--   Optionally, test the connection with a GET request to `https://<tenant>.oktapreview.com/api/v1/ai-agents?limit=200` using the alias, and confirm a `200 OK` response.
+-   Optionally, test the connection with a GET request to `https://<tenant>.oktapreview.com/api/v1/ai-agents?limit=200``https://<tenant>.oktapreview.com/api/v1/agentregistration` using the alias, and confirm a `200 OK` response.
 
 **Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-security-connections.md)
 

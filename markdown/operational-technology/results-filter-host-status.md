@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/r
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Results page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 

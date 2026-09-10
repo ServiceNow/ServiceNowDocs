@@ -55,3 +55,5 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
 [Generate an email response for procurement cases]()
 
+[Generate a knowledge article]()
+

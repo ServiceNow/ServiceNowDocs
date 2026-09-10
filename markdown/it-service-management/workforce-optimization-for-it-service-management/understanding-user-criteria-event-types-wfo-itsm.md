@@ -16,6 +16,8 @@ breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for
 
 Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You can include or exclude Create, Read, Write or Update, and Delete \(CRUD\) rights for event types using the inclusion and exclusion user criteria access. You can perform the CRUD operations for users, groups, or roles.
 
 **Note:** By default:

@@ -1,23 +1,23 @@
 ---
-title: Now Assist for app generation in ServiceNow Studio
-description: Use ServiceNow Otto for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can then modify.
+title: App generation
+description: Use the app generation skill available with ServiceNow Otto for Creator to create applications through conversation with generative AI. Describe the app you want to build, and generative AI scaffolds the application so that you can review and modify it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-07-24"
+reading_time_minutes: 4
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Now Assist tools and AI files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
-# Now Assist for app generation in ServiceNow Studio
+# App generation
 
-Use ServiceNow Otto for Creator to work with generative AI and simplify app creation. After having a conversation about the app that you want to create, ServiceNow Otto for Creator generates the app that you can then modify.
+Use the app generation skill available with ServiceNow Otto for Creator to create applications through conversation with generative AI. Describe the app you want to build, and generative AI scaffolds the application so that you can review and modify it.
 
-\[Omitted video\] Description: Video describing Now Assist for app generation and how to use it to create applications.
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md).
 
 ## Get started
 
@@ -63,14 +63,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)**  
-With Now Assist for app generation, you can create applications through conversations with generative AI.
--   **[Configuring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)**  
-Enable the Now Assist for app generation skill in the ServiceNow Otto for Creator application so that you can get started with building applications.
--   **[Generate apps with Now Assist for app generation within ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**  
-Have a conversation with the Now Assist for app generation to start building applications.
+-   **[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)**  
+App generation enables you to create applications in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto®.
+-   **[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)**  
+To build applications with app generation, install ServiceNow Otto for Creator and enable the app generation skill in the AI Admin Hub.
+-   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**  
+Use the app generation skill to build an application in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto®.
 -   **[Now Assist for app generation in ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Now Assist tools and AI files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
+**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
 

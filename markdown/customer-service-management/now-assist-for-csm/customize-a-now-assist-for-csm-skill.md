@@ -1,6 +1,6 @@
 ---
 title: Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 
 # Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 ## Before you begin
 

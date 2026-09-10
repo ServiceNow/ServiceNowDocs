@@ -57,7 +57,7 @@ You can also compare two reports to compare and analyze the progress.
 
 [Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/status-reporting-in-pw.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
 [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
@@ -65,5 +65,5 @@ You can also compare two reports to compare and analyze the progress.
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

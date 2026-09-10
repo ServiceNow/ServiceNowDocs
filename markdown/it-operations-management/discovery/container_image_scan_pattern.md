@@ -1,6 +1,6 @@
 ---
 title: Container image discovery
-description: The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/container\_image\_scan\_pattern.html
 release: zurich
@@ -8,14 +8,14 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Trivy tool, Containers, Image, Os packages, Patterns.]
 breadcrumb: [Container image scanning for software decomposition, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Container image discovery
 
-The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Scan Container Image pattern to discover Docker images and OS packages data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -35,7 +35,7 @@ Starting with Discovery and Service Mapping Patterns version 1.18.0, the Scan Co
 -   Self-hosted private repositories
 -   Amazon Elastic Container Registry \(Amazon ECR\), both public and private repositories
 
-Starting with version 1.27.0, Discovery and Service Mapping Patterns enables you to control whether to link software packages to containers or only to images.
+Starting with version 1.27.0, Discovery and Service Mapping Patterns enables you to control whether to link software packages to containers or only to images. For more information, see [Link software package information to images only](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/link-software-package-only-image.md).
 
 ## Container image data model
 

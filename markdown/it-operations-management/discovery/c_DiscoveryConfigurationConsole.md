@@ -16,7 +16,7 @@ breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, IT
 
 Use the Discovery Configuration Console to manage what kind of configuration items \(CIs\) and CI information you want to discover.
 
-By default, Discovery finds all the information on your network that is specified in probes and patterns. Use the controls in this console to select the data Discovery adds to the CMDB that your organization needs. You can control these aspects of Discovery:
+By default, Discovery finds all the information on your network that is specified in probes and patterns. Use the controls in this console to select the data Discovery adds to the Configuration Management Database \(CMDB\) that your organization needs. You can control these aspects of Discovery:
 
 -   The discovery of entire CI types, such as Windows servers.
 -   The discovery of specific CI details, such as OS information on Windows servers.
@@ -60,7 +60,7 @@ Potential impacts include the following:
 
 ## Application Discovery
 
-Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify the applications running on a server until it first discovers that server.
+Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications running on a server until it discovers that server first.
 
 When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
@@ -316,7 +316,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, this returns the software product, publisher, and version in the payload. The data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
 
 7.  Configure **Advanced UNIX** settings.
 
@@ -332,7 +332,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table. This bypasses the software match API. This feature is turned off by default.
 
 8.  Configure **Common** settings for either Windows or UNIX.
 

@@ -1,22 +1,24 @@
 ---
 title: Managing payment inquiries
-description: Using the payment inquiry capability of the Financial Services Payment Operations application, you can submit and manage payment inquiry requests that you receive from your customers and third-party banks for your financial institution. The application supports both personal and business claims and debits.
+description: The Financial Services Payment Operations application enables you to submit and manage payment inquiry requests from customers and third-party banks. The application supports personal and business claims and debits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [payment inquiries, Beneficiary Claim Non-Receipt, BCNR, Payment in Error, PiE, internal inquiries, external inquiries, inquiry cases, payment claims, Customer Service Portal, Consumer Service Portal, third-party banks, assignment rules, inquiry agents]
+audience: [other, other, other]
 breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Managing payment inquiries
 
-Using the payment inquiry capability of the Financial Services Payment Operations application, you can submit and manage payment inquiry requests that you receive from your customers and third-party banks for your financial institution. The application supports both personal and business claims and debits.
+The Financial Services Payment Operations application enables you to submit and manage payment inquiry requests from customers and third-party banks. The application supports personal and business claims and debits.
 
-Inquiry agents in the middle and back office receive inquiries from customers as well as external banks.
+Inquiry agents in the middle and back office receive inquiries from customers and external banks.
 
 -   Internal inquiries: These inquiries come from a bank's customers. The payment recipient could be either internal or external to the bank, which determines how an inquiry is resolved.
 -   External inquiries: These inquiries come from third-party banks, which means that the payment recipient is always internal.

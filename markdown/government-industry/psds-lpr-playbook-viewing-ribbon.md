@@ -1,6 +1,6 @@
 ---
 title: Viewing the ribbon information in License and Permit Playbook
-description: You can view the information about the ribbon in the contextual side panel in CSM Configurable Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+description: You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-lpr-playbook-viewing-ribbon.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using the contextual side panel, License and Permit Playbook, Playb
 
 # Viewing the ribbon information in License and Permit Playbook
 
-You can view the information about the ribbon in the contextual side panel in CSM Configurable Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 
 Select the record information icon \(\[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon.\) in the contextual side panel to view the information about the ribbon.
 

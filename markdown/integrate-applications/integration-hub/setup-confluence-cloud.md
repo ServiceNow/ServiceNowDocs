@@ -23,7 +23,7 @@ Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAut
 -   Atlassian role required: site admin
 -   Role required: admin.
 
-## Option 1: Using OAuth authentication \(Authorization Code grant type\) connection
+## Option 1: Using OAuth authentication \(Authorization Code grant type\)
 
 Add and configure a Confluence Cloud connection to authenticate ServiceNow requests in Confluence Cloud spoke.
 

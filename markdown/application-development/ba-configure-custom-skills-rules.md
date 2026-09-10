@@ -47,7 +47,7 @@ Each skill or rule instruction has an **Applies To** setting that controls which
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio** or **All** &gt; **App Development** &gt; **ServiceNow IDE**.
+1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio**.
 
 2.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
 
@@ -57,7 +57,9 @@ Each skill or rule instruction has an **Applies To** setting that controls which
 
     -   Select the **Skills** tab to create a custom skill.
     -   Select the **Rules** tab to create a custom rule.
-4.  On the form, fill in the fields.
+4.  Select the **Create skill** or **Create rule** button.
+
+5.  On the form, fill in the fields.
 
 <table><thead><tr><th>
 
@@ -140,17 +142,17 @@ Instruction text that Build Agent follows. Plain text only, maximum 65,000 chara
 
     \[Omitted image "ba-new-custom-rule.png"\] Alt text: New rule editor form with Name, Type, Applies To, Active, Description, and Instructions for Build Agent fields, alongside the Rules settings panel listing existing custom rules with toggle switches.
 
-5.  Select **Save**.
+6.  Select **Save**.
 
     The new skill or rule appears in the settings panel list. The panel updates automatically to reflect the change.
 
-6.  Edit an existing instruction by selecting its Open rule record icon.
+7.  Edit an existing instruction by selecting its Open rule record icon.
 
     Make changes to the instruction, then select **Save**.
 
     \[Omitted image "ba-instruction-edit.png"\] Alt text: Rules panel showing two rule cards with toggles and edit icons
 
-7.  Enable or disable an instruction by selecting its toggle.
+8.  Enable or disable an instruction by selecting its toggle.
 
     \[Omitted image "ba-instruction-toggle.png"\] Alt text: Skills tab showing the toggle enabled for the add\_comments skill, highlighted with a purple box.
 

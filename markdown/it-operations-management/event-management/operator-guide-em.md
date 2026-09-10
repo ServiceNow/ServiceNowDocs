@@ -20,7 +20,7 @@ As an Event Management operator, your role is to find alerts, analyze them, and 
 
 ## Take the tutorial
 
-Before you can work as an operator, you should take a tutorial to become familiar with several Event Management concepts and understand what operators typically do on a regular basis.
+Before you can work as an operator, take a tutorial to become familiar with several Event Management concepts. The tutorial helps you understand what operators typically do on a regular basis.
 
 Start the tutorial by clicking the first lesson:
 
@@ -58,7 +58,7 @@ Lesson 4
 
 </td></tr></tbody>
 </table>-   **[An overview of alerts for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-events-alerts.md)**  
-As an Event Management operator, you need to understand how an alert is generated from an event, what to look for in an alert, and how alerts can be grouped together.
+As an Event Management operator, you need to understand how an alert is generated from an event and what to look for in an alert. You also need to understand how alerts can be grouped together.
 -   **[Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-application-services.md)**  
 As an Event Management operator, you need to understand what application services are.
 -   **[Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-user-interfaces.md)**  

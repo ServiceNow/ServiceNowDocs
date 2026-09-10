@@ -53,15 +53,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Review the proposed action plan and choose whether to accept or dismiss it.
 
-<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d88745e237">
+<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d90686e237">
 
 Option
 
-</th><th align="left" id="d88745e240">
+</th><th align="left" id="d90686e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88745e246">
+</th></tr></thead><tbody><tr><td id="d90686e246">
 
 **Accept action plan**
 
@@ -79,7 +79,7 @@ After initiating the generate regulatory action plan agentic workflow, it create
 -   The "other" type is used to capture non-standard or cross-functional activities that don’t directly map to impacted areas such as citations, control objectives, controls, or policies. These tasks are typically broader in scope and can apply to the entire regulatory alert rather than specific impacted elements.
 
 
-</td></tr><tr><td id="d88745e296">
+</td></tr><tr><td id="d90686e296">
 
 **Dismiss action plan**
 
@@ -110,7 +110,7 @@ For more information on tasks, see [Regulatory change tasks](https://raw.githubu
 **Related topics**  
 
 
-[Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 
 [Activate the Generate regulatory action plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.md)
 

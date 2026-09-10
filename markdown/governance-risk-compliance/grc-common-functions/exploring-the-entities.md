@@ -36,6 +36,8 @@ Entity classes are used to add a conceptual information about the entity or to t
 Entity class rules help to assign classes to the entities at the table level. Any new entity created on the table gets that entity class automatically. Entity classes are used to tag your entities.
 -   **[Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md)**  
 Entity type is a grouping of the entities that match a set of filter conditions. You can create a hierarchy of the entity types within the entity classes. The Entity types option is displayed under the Lists view in the workspace. Click an entity type to display its details.
+-   **[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)**  
+Entity types enable you to find and create entities that match a set of filter conditions. Entity types include predefined entity filters that define the data to be displayed in the user interface. The entity filter defines the table from which data is pulled into each entity type for display.
 -   **[Entity tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-tier-in-risk-ws.md)**  
 When you create entity tiers, you can apply a level or hierarchy to the entity classes. This level applies to all the entities that are associated with the entity classes. Entity tiers enable you to select and view the status of the most critical items in the business.
 

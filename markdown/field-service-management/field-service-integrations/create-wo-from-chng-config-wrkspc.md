@@ -1,6 +1,6 @@
 ---
-title: Create a work order from a change request in the CSM Configurable Workspace
-description: Create a work order directly from the change request using the CSM Configurable Workspace.
+title: Create a work order from a change request in the CRM Workspace
+description: Create a work order directly from the change request using the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
-# Create a work order from a change request in the CSM Configurable Workspace
+# Create a work order from a change request in the CRM Workspace
 
-Create a work order directly from the change request using the CSM Configurable Workspace.
+Create a work order directly from the change request using the CRM Workspace.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ A change request can accommodate only one work order at a time. You can create a
 
 ## Procedure
 
-1.  Log in to the CSM Configurable Workspace.
+1.  Log in to the CRM Workspace.
 
 2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [admin console, branding, themes, data sources, conversational assistant, canvas configuration, internal search, external search, Employee Slate]
-breadcrumb: [Employee Slate for Now Assist, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Slate \(built for Now Assist\), Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure branding and theme
@@ -19,11 +19,11 @@ In the admin console, configure branding, data sources, internal and external se
 
 ## Before you begin
 
-Before you configure Employee Slate for Now Assist, verify the following prerequisites:
+Before you configure Employee Slate \(built for Now Assist\), verify the following prerequisites:
 
 -   You have the administrator role on the instance.
--   The Employee Slate for Now Assist foundational plugin is installed from the Product Hub page.
--   The Employee Slate Advanced plugin is installed if the deployment requires the advanced experience.
+-   The Employee Slate \(built for Now Assist\) foundational plugin is installed from the Product Hub page.
+-   The EmployeeWorks Web App Extended plugin is installed if the deployment requires the advanced experience.
 -   Now Assist is provisioned on the instance.
 
 Role required: Administrator
@@ -38,9 +38,9 @@ The Product Configuration console organizes the configuration work into modules 
 
     The system dynamically renders application and plugin cards based on your admin entitlement status.
 
-2.  From the platform administrator home page, select **View product overview** on the Employee Slate for Now Assist card.
+2.  From the platform administrator home page, select **View product overview** on the Employee Slate \(built for Now Assist\) card.
 
-    The Product Hub page opens and lists the plugins associated with Employee Slate for Now Assist and links to documentation and release notes.
+    The Product Hub page opens and lists the plugins associated with EmployeeWorks Web App for Now Assist and links to documentation and release notes.
 
 3.  Upload a prepared update set with the **Upload Batch** option.
 
@@ -87,7 +87,7 @@ The Product Configuration console organizes the configuration work into modules 
     -   Needs update: Notifications in the base system that are not customized
     -   Updated: Notifications that are updated for Employee Slate experience
     -   Custom: Notifications that are created or customized by the administrator
-    For information about Employee Slate notifications, see [Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
+    For information about Employee Slate notifications, see [EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
 
 11. To make AI agent discoverable in Now Assist in the **AI Agent Discovery** section, enable the `sn_aia.enable_aiagents_discovery` system property.
 
@@ -118,9 +118,9 @@ The Product Configuration console organizes the configuration work into modules 
 
 ## Result
 
-Employee Slate portal is configured with your organization branding and is ready for employee access.
+EmployeeWorks Web App portal is configured with your organization branding and is ready for employee access.
 
 ## What to do next
 
-Log in as a non-administrator employee, open Employee Slate in a browser session. Verify that the branding, content, and conversational assistant work as expected.
+Log in as a non-administrator employee, open EmployeeWorks Web App in a browser session. Verify that the branding, content, and conversational assistant work as expected.
 

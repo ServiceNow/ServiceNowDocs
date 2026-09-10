@@ -1,5 +1,5 @@
 ---
-title: Managing risk and compliance
+title: Managing risk and compliance in AI Control Tower
 description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-airc-landing.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
-# Managing risk and compliance
+# Managing risk and compliance in AI Control Tower
 
 Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
 
@@ -54,5 +54,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

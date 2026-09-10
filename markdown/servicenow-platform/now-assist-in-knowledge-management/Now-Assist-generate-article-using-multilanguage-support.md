@@ -38,8 +38,6 @@ Role required: author or agent
 
 4.  In the Use AI to draft this article? modal, select **Yes, draft with Otto**.
 
-    \[Omitted image "NowAssist\_CoreUI.png"\] Alt text: Draft the article using AI.
-
 5.  In the Select Options modal, select the **Knowledge base** and the **Article language** to use for the article.
 
 6.  Select **Continue**.

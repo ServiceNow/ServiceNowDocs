@@ -1,22 +1,29 @@
 ---
 title: Getting started with Service Operations Workspace for ITSM
-description: Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
+description: Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/getting-started-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Getting started with Service Operations Workspace for ITSM
 
-Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
+Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 
 Procure the ITSM Standard license or above for ServiceNow IT Service Management applications.
+
+## Setup journey
+
+1.  Procure the ITSM Standard license or higher.
+2.  Activate the Service Operations Workspace.
+3.  Configure the [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/admin-center-sow.md).
+4.  Assign the workspace to your agent groups.
 
 ## Service Operations Workspace Admin Center
 

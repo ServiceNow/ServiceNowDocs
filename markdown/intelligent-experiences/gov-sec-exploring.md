@@ -34,7 +34,7 @@ Use the security area of AI Control Tower to monitor and improve your security p
 |Review and troubleshoot access issues, critical AI asset security events, overall security posture, and other indicators.|[Overview metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md)|AI steward|
 |Evaluate LLM model-level security exposure.|[Design-time metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md)|AI steward|
 |Stop the execution of agents that potentially violate LLM guardrails in real time.|[Runtime metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md)|AI steward|
-|Review AI asset security events to audit AI asset security threats and mitigate risk.|[Post-runtime metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md) and [AI agent containment using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)|AI steward|
+|Review AI asset security events to audit AI asset security threats and mitigate risk.|[Post-runtime metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md) and [AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)|AI steward|
 
 ## What to explore next
 
@@ -47,7 +47,7 @@ To learn more about configuring and using AI Control Tower, see:
 
 -   **[Basic concepts for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-basic-concepts.md)**  
 Learn more about the AI asset security score, agent map, AI asset security events, and internal and external agents.
--   **[AI agent containment using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)**  
+-   **[AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)**  
 Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
 
 **Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-landing.md)

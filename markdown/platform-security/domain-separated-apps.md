@@ -121,7 +121,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Manufacturing Commercial Operations|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/mco-domain-separation.md)|Standard|
 |Retail Core|Basic|
 |Retail Task Management|Basic|
-|• [Manufacturing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/manufacturing-domain-separation.md)|[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/industrial-process-manager-overview.md)|Standard|
+|• Manufacturing|[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/industrial-process-manager-overview.md)|Standard|
 |[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-manager.md)|Standard|
 |[Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/oper-tech-vulnerability-response-landing-page.md)|Standard|
 |[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-manager.md)|Standard|

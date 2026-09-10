@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configure Eligibility Rules Engine Policies, Configure PaCE Eligibility Framework Engine, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **All Policies** &gt; **New**.
 
@@ -222,7 +222,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
         2.  Select **Activate this policy** then select **Publish without testing**.
         3.  Verify that the state of the policy has changed to **Current**.
 
-            Your eligibility policy is now published and can be used to evaluate any active grants cases. Verify the policy appears in the Policy Home by navigating to **Policy Home** in the CSM Configurable Workspace sidebar, and selecting**Policies** &gt; **All Policies**.
+            Your eligibility policy is now published and can be used to evaluate any active grants cases. Verify the policy appears in the Policy Home by navigating to **Policy Home** in the CRM Workspace sidebar, and selecting**Policies** &gt; **All Policies**.
 
     -   To save this policy as a template for future use:
         1.  Select **Save as Template** &gt; **New Template**.
@@ -236,7 +236,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
 
         3.  Select **Save**
 
-            Your policy template has been created, and can be used to quick-start future policy creation. For more information on creating PaCE policy templates, see . For more information on creating a new PaCE policy from a template, see [Create a PaCE Eligibility Policy from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-pace-policy-from-template.md).
+            Your policy template has been created, and can be used to quick-start future policy creation.
 
             .
 

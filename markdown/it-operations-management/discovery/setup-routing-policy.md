@@ -24,7 +24,7 @@ Role required: pki\_admin or admin
 
 The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate Routing Policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d73184e184">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d76517e184">
 
 **If a single routing policy matches**
 
@@ -68,7 +68,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d73184e205">
+</td></tr><tr><td id="d76517e205">
 
 **If multiple routing policies are eligible**
 
@@ -76,7 +76,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d73184e214">
+</td></tr><tr><td id="d76517e214">
 
 **If there is no routing policy found**
 
@@ -84,7 +84,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d73184e223">
+</td></tr><tr><td id="d76517e223">
 
 **If single policy matches and approval needed flag is true**
 

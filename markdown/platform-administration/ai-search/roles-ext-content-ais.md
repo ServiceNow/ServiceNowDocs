@@ -24,8 +24,8 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 
 Access endpoints for AI Search external content APIs.
 
--   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
--   Imports user mappings for external content security using the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/ext-user-mapping-api.md).
+-   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the .
+-   Imports user mappings for external content security using the .
 
 ### Contains Roles
 
@@ -41,7 +41,7 @@ None.
 
 ### Special considerations
 
-Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NonInteractiveSessions.md). For details on integration users, see [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
+Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NonInteractiveSessions.md). For details on integration users, see .
 
 Users with the admin role don't need this role to access external content API endpoints.
 

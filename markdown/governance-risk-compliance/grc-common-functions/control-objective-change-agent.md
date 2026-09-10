@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Explore, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Control objective change agent

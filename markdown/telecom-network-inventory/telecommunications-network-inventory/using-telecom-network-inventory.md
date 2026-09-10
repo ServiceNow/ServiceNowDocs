@@ -20,7 +20,7 @@ Multiple methods are available for creating the network asset records that compr
 
 ## Generation of network assets using inventory models and templates
 
-Inventory models and templates provide a framework for creating representations of the telco equipment in the Telecommunications Network Inventory application.​ By using the inventory templates and models that you define, you can generate the individual network asset instances that make up the digital model of your network. When you create the model and template relationships, the generation function also creates the formal relationships between each individual network asset. Performing this task in this manner is often a less labor-intensive method of creating the digital model of your network inventory than doing it manually.
+Inventory models and templates provide a framework for creating representations of the telco equipment in the Telecommunications Network Inventory application.​ By using the inventory templates and models that you define, you can generate the individual network asset instances that make up the digital model of your network. When you create the model and template relationships, the generation function also creates the formal relationships between each individual asset. This method is often less labor-intensive than manually creating the digital model of your network inventory.
 
 To learn about how to use the Change form in Design and Assign to perform equipment instantiation, see:
 
@@ -32,7 +32,7 @@ To learn about how to use the Change form in Design and Assign to perform equipm
 
 ## Manual creation of individual network asset instances in your network inventory
 
-Instead of defining the inventory models and templates for automated generation of network asset instances, you can manually create your network assets and a digital model of your network. You use a series of forms that you access from the Network Inventory Workspace to manually create and review individual network asset instances, and then define the relationships between each individual asset.. To learn more, see:
+Instead of defining the inventory models and templates for automated generation of network asset instances, you can manually create your network assets. You use a series of forms that you access from the Network Inventory Workspace to manually create and review individual network asset instances, and then define the relationships between each individual asset.. To learn more, see:
 
 -   [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 -   [Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
@@ -52,7 +52,7 @@ Export a hierarchy of models, inventory templates, and all related records effic
 -   **[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)**  
 By instantiating your network inventory in the Telecommunications Network Inventory application, you can generate and validate your inventory records at the site level. You can also generate your individual network instances from your defined inventory templates and models and then verify that they’re properly configured.
 -   **[Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md)**  
-You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
+You can use CMDB Workspace to search and explore the CMDB and examine its health and recent activity. You can also access various dashboards and tools to support the tasks in your organization.
 -   **[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)**  
 Use the network diagram in the Telecommunications Network Inventory application to view a hierarchical map of the circuit and its underlying connection elements.
 -   **[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)**  
@@ -62,7 +62,7 @@ Use the Design and Assign function for a network service in the Telecommunicatio
 -   **[Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)**  
 Use the Network visualization view in the Telecommunications Network Inventory application to explore your network site details, datacenters's floor map, and network topology.
 -   **[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)**  
-Use Remote Hands Request Management to enables customers to request services for equipment housed in your datacenter by connecting them directly with your onsite agents handling the remote hands requests.
+Use Remote Hands Request Management to enable customers to request services for equipment in your datacenter. It connects customers directly with your onsite agents who handle the remote hands requests.
 -   **[Access TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)**  
 Access TNI data model navigator to view the contextually organised CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 

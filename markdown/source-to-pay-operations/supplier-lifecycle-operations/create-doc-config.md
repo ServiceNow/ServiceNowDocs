@@ -1,20 +1,20 @@
 ---
 title: Create a supplier document configuration
-description: supplierconfigurationsfiguration uploadeschedulesfivieweraaccess documnotificationnsettingswforeions whenve expired.
+description: Create document configurations to define upload schedules, viewer access, and notification settings for documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Supplier Document Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create a supplier document configuration
 
-supplierconfigurationsfiguration uploadeschedulesfivieweraaccess documnotificationnsettingswforeions whenve expired.
+Create document configurations to define upload schedules, viewer access, and notification settings for documents.
 
 \[Omitted video\] Description: Create a supplier document configuration
 
@@ -26,15 +26,15 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 1.  Do one of the following.
 
-<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d92055e70">
+<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d96100e70">
 
 To
 
-</th><th align="left" id="d92055e73">
+</th><th align="left" id="d96100e73">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d92055e79">
+</th></tr></thead><tbody><tr><td id="d96100e79">
 
 **Create a document configuration from the Platform UI**
 
@@ -42,7 +42,7 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d92055e103">
+</td></tr><tr><td id="d96100e103">
 
 **Create a document configuration from the Source-to-Pay Workspace**
 

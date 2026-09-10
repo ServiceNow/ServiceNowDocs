@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.7.5 is the latest version.
+Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.8.2 is the latest version.
 
 ## Spoke dependencies
 

@@ -8,7 +8,7 @@ product: User Administration
 classification: user-administration
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create a role, Managing roles, User admin, Configure core features, Administer]
 ---
 
@@ -26,13 +26,9 @@ When possible, simplify user administration by assigning roles to groups. Create
 
 To grant the admin role to a user, you must also have the admin role. To grant the security\_admin role to a user, you must also have the security\_admin role. You must elevate to the security\_admin role before granting the security\_admin role to other users. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
-**Note:**
-
-The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
-
 You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
 
-**Note:** The **Collection** list displays only roles for applications and plugins that are installed on your instance. If a role does not appear, the corresponding application may not be installed.
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-subscription-auto-assignment.md).
 
 ## Procedure
 
@@ -41,6 +37,12 @@ You can't delete roles that are assigned to the group from the user record. You 
 2.  In the **Roles** related list, select **Edit**.
 
 3.  In the **Collection** list, select the desired roles, and then select **Add**.
+
+    The **Collection** list displays only roles for applications and plugins that are installed on your instance. If a role does not appear, the corresponding application may not be installed.
+
+    **Note:**
+
+    The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
 
 4.  Select **Save**.
 

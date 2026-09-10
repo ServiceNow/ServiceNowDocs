@@ -70,7 +70,7 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_hardware
 
 </td><td>
 
-[Software Package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md) [Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md) [Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 

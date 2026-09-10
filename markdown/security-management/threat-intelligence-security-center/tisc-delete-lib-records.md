@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-12-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -50,7 +50,7 @@ Refer to the section [Define an Observable](https://raw.githubusercontent.com/Se
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Objects form view]()
 
@@ -62,5 +62,5 @@ Refer to the section [Define an Observable](https://raw.githubusercontent.com/Se
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

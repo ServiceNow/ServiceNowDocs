@@ -29,7 +29,7 @@ Automated certificate requests, renewals, and revocations are handled through ro
 
 -   Centralized certificate life-cycle management: Request, renew, and revoke certificates managed by CyberArk directly from Certificate Inventory and Management, without switching between platforms for certificate operations.
 -   Automated certificate provisioning: Automate certificate request and renewal workflows through routing policies, reducing manual effort and the risk of expired certificates causing service outages.
--   Secure private key handling: CyberArk manages Certificate private key storage, so private keys aren't transferred to or stored in Certificate Inventory and Management.
+-   Secure private key handling: CyberArk manages private key storage, so private keys aren't transferred to or stored in Certificate Inventory and Management.
 -   Change management governance: Certificate operations automatically generate change requests in Certificate Inventory and Management, providing audit trails and compliance documentation for certificate life-cycle events.
 -   Centralized visibility: Monitor all CyberArk managed certificates alongside certificates from other providers in the **Certificate Management** workspace.
 

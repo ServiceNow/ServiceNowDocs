@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Change and offboarding requests, Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Review and approve an offboarding request
@@ -39,15 +39,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 6.  Approve or reject the offboarding request.
 
-<table><thead><tr><th align="left" id="d38846e128">
+<table><thead><tr><th align="left" id="d41212e128">
 
 Option
 
-</th><th align="left" id="d38846e131">
+</th><th align="left" id="d41212e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38846e137">
+</th></tr></thead><tbody><tr><td id="d41212e137">
 
 **Approve the request.**
 
@@ -58,7 +58,7 @@ Description
 3.  Confirm the approval. AI Control Tower moves the asset into the offboarding lifecycle stage and generates the offboarding tasks defined by the offboarding playbook.
 
 
-</td></tr><tr><td id="d38846e161">
+</td></tr><tr><td id="d41212e161">
 
 **Reject the request.**
 

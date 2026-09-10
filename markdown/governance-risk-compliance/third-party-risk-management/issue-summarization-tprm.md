@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, Agentic AI, Generative AI, Gen AI, Issue Summarization]
 breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]

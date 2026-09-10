@@ -22,7 +22,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Collects and analyzes metric data for an engagement and determines if a risk signal is to be created. The Analyze metric data trend agentic workflow uses metric data to monitor the health score and generate risk signals when the Poor and Neutral range thresholds are exceeded. You can view the status of the metric collection in the .
+Collects and analyzes metric data for an engagement and determines if a risk signal is to be created. The Analyze metric data trend agentic workflow uses metric data to monitor the health score and generate risk signals when the Poor and Neutral range thresholds are exceeded. You can view the status of the metric collection in the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 

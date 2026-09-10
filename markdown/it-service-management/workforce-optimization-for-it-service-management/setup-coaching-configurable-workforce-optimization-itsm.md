@@ -16,6 +16,8 @@ breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 
 Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 To identify and add course items for a virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-identify-learning-content.md).
 
 **Important:** If you have enabled the Coaching \(sn\_coaching\) plugin, make sure that you have upgraded the following plugins to latest store release version:

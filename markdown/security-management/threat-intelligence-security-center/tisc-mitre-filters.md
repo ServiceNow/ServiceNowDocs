@@ -7,8 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Investigation canvas and MITRE ATT&amp;CK, Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -59,17 +59,6 @@ Saved Filters
 Analysts can save specific criteria as **Saved Filters** for reuse. Filters saved by an analyst are user-specific.**Note:** For example, if Analyst X saves a filter configuration, it will only be visible to Analyst X. When another analyst log in and view the filter drop down, they will not see the filters saved by others.
 
 This ensures that each user can create and manage personalized views without affecting or being affected by other users' filter preferences.
-
-You can create a filter by selecting any values or groups and then saving it as a new filter. For example, a saved filter is associated with the currently selected Enterprise ATT&amp;CK matrix.
-
-If you switch to a different matrix, the filter you previously saved for Enterprise ATT&amp;CK will no longer appear in the saved filters list, and only the filters associated with the newly selected matrix will be shown. When you switch back to the Enterprise ATT&amp;CK matrix, the filter saved for that matrix becomes visible again.
-
-**Note:**
-
--   When switching to a different matrix, a confirmation message is displayed to verify your action. Upon confirmation, the matrix will reset all the previously applied filter values.
--   Saved filters are matrix-specific, which helps prevent confusion when you are working across multiple matrices.
--   To ensure the filters are applied correctly, always verify that you are on the intended matrix before creating or using a saved filter.
-
 
 </td></tr><tr><td>
 

@@ -28,24 +28,24 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   
--   Workforce Optimization for Customer Service Management
+-   [Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
+-   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configurable-wfo-cs.md)
 
 ## DevOps applications
 
-DevOps Insights
+[DevOps Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/insights-dashboard-dev-ops.md)
 
 ## Employee Service Management
 
-Safe Workplace dashboard
+[Safe Workplace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace-dashboard.md)
 
 ## IT Asset Management applications
 
-Cloud Insights
+[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/cloud-insights-landing-page.md)
 
 ## Strategic Portfolio Management applications
 
-Strategic Spend Tracking for PPM
+[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-strategic-spend-tracking-dashboard.md)
 
 ## IT Operations Management applications
 
@@ -54,7 +54,7 @@ Strategic Spend Tracking for PPM
 ## IT Service Management applications
 
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cf-coaching-landing.md)
--   On-Call Scheduling
+-   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/viewing-performance-report-oncall.md)
 -   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications

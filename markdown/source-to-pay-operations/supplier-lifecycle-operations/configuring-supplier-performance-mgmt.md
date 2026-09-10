@@ -41,7 +41,7 @@ Add supplier-level and contract-level KPIs from **KPI management** tab to measur
 -   **[Create contract-level KPIs from KPI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-contract-level-kpis.md)**  
 Add contract-level KPIs from supplier **KPI management** tab to measure performance at contract level.
 -   **[Create KPIs without using KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.md)**  
-n add new KPIs for a supplier witha sting KPI,whicheautomaticallyA directly aerates the correspotemplate templates.
+Create KPIs for a supplier without using a templates,which automatically generates a corresponding KPI template.
 -   **[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)**  
 Create a segmentation rule that defines criteria for categorizing suppliers into different segments based on various attributes or performance factors.
 

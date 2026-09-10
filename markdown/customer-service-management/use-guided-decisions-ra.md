@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_agent, admin
 
 A decision tree presents a series of questions in the contextual side panel that you can answer and provide inputs where required. The decision tree evaluates your answers and provides the next set of questions or gives you guidance on what to do next. For example, the guidance can be to attach a knowledge article or propose a solution to a customer to help resolve an issue.
 
-Depending on the context of the case that you’re working on, a decision tree can be displayed as a Recommended Actions card in the contextual side panel of the CSM Configurable Workspace.
+Depending on the context of the case that you’re working on, a decision tree can be displayed as a Recommended Actions card in the contextual side panel of the CRM Workspace.
 
 ## Procedure
 

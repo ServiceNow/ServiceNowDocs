@@ -39,9 +39,9 @@ Using the Register a Business Application form to on-board an application in Ent
     |IT Owner of the Business Application|Name of the IT owner of the application.|
     |Business Owner of the Business Application|Name of the business owner of the application.|
 
-    As you enter the name and the benefit of the business application, the similarity solution of the machine-learning algorithm is triggered to search for a similar business application from the business applications table \[cmdb\_ci\_business\_app\]. Once the engine finds similar records, you can see a message on top of the form indicating that the ML found similar records in the applications table. Based on the findings the engine suggests a category for the application that you are registering. It also displays the suggested category in the **Category of the business application** field under which the business application can possibly be grouped.
+    As you enter the name and benefit of the business application, the similarity solution triggers. The machine-learning algorithm searches for similar business applications in the business applications table \[cmdb\_ci\_business\_app\]. When the engine finds similar records, a message appears on the form. Based on the findings, the engine suggests a category for the application you are registering. The suggested category displays in the **Category of the business application** field.
 
-    If you choose to select the category predicted and suggested by the machine-learning solution, then the application category is stored in the **ML Predicted Category** field of the Business Application Requests table \[business\_app\_request\] for future analysis.
+    If you select the category predicted by the machine-learning solution, the application category is stored in the **ML Predicted Category** field of the Business Application Requests table \[business\_app\_request\]. This data is used for future analysis.
 
 4.  Select the ML suggested category if it is suitable.
 

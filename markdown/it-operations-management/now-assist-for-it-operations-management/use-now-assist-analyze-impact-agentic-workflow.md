@@ -1,5 +1,5 @@
 ---
-title: Use the Analyze potential impact agentic workflow to assess a change request
+title: Assess a change request with the Analyze potential impact workflow
 description: Use the Analyze potential impact agentic workflow to assess the effects of a change request. This workflow highlights the potential impacted servers and suggested services to help you identify risks, benefits, and make any necessary adjustments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.html
@@ -13,7 +13,7 @@ keywords: [installing Now Assist, AI features, AI products, updating Now Assist,
 breadcrumb: [Analyze potential impact, Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Use the Analyze potential impact agentic workflow to assess a change request
+# Assess a change request with the Analyze potential impact workflow
 
 Use the Analyze potential impact agentic workflow to assess the effects of a change request. This workflow highlights the potential impacted servers and suggested services to help you identify risks, benefits, and make any necessary adjustments.
 
@@ -41,15 +41,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d295800e149">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d305833e150">
 
 Situation
 
-</th><th align="left" id="d295800e152">
+</th><th align="left" id="d305833e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d295800e158">
+</th></tr></thead><tbody><tr><td id="d305833e159">
 
 **Change request number is known**
 
@@ -60,7 +60,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d295800e196">
+</td></tr><tr><td id="d305833e197">
 
 **Open change request**
 

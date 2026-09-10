@@ -1,0 +1,73 @@
+---
+title: Contract Management Pro for Legal Service Delivery release notes
+description: The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.
+locale: en-US
+release: zurich
+topic_type: topic
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+---
+
+# Contract Management Pro for Legal Service Delivery release notes
+
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.
+
+## About Contract Management Pro for Legal Service Delivery
+
+-   Initiate and manage amendment requests for existing contracts.
+-   Record producer to initiate an amendment request from the Employee Center.
+
+See  for more information.
+
+## Activation and other requirements
+
+**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    For details, see .
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/lsd-rn-landing-page.md)
+
+## December 2025
+
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.
+
+### What's new
+
+-   ****
+
+    Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
+
+    A new field, **Request type**, has been added to clearly distinguish between contract and amendment requests.
+
+    Each amendment is linked to its parent contract, and you can easily view the amendment history directly from the contract request. Additionally, a record producer is available in the base system, allowing you to submit and monitor amendment requests efficiently.
+
+    The following related lists are now available within the contract repository record to provide amendment details:
+
+    -   Contract Requests: Displays all contract and amendment requests associated with the contract.
+    -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
+    -   Contract Documents: Provides access to all documents related to the contract, including those generated or updated as part of amendment processes. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and managing all related documents from a single location.
+
+## Zurich
+
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Zurich release.
+
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+

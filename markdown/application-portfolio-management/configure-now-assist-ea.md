@@ -16,7 +16,7 @@ If you have the admin role, you can configure the ServiceNow Otto for Enterprise
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Role required: admin
 
@@ -59,15 +59,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39557e351">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39796e349">
 
 Skill
 
-</th><th align="left" id="d39557e354">
+</th><th align="left" id="d39796e352">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39557e360">
+</th></tr></thead><tbody><tr><td id="d39796e358">
 
 **ADR Doc Summarization and Actions**
 
@@ -78,7 +78,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39557e391">
+</td></tr><tr><td id="d39796e389">
 
 **Business application insights**
 
@@ -122,7 +122,7 @@ The You are making a copy of a skill dialog box appears.
     6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d39557e602">
+</td></tr><tr><td id="d39796e600">
 
 **Diagram change analysis**
 
@@ -147,7 +147,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d39557e691">
+</td></tr><tr><td id="d39796e689">
 
 **Refine text**
 
@@ -157,7 +157,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39557e713">
+</td></tr><tr><td id="d39796e711">
 
 **Create diagram from image**
 

@@ -141,7 +141,7 @@ Role required: discovery\_admin
 9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
 
-## Adjust the regular expression for fingerprint-based discovery
+## Adjust the regular expression for fingerprint discovery
 
 Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you're not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.
 
@@ -167,9 +167,9 @@ Role required: discovery\_admin
 
     In this example, it is **."-DweblogicName=."**
 
-5.  Select **Padlock** icon \[Omitted image "lock-icon.png"\] Alt text: Padlock icon next to **Test with**.
+5.  Select **Padlock** icon \[Omitted image "lock-icon.png"\] next to **Test with**.
 
-6.  Select the **Look up** icon \[Omitted image "SearchIconHeisenberg.png"\] Alt text: Search icon to select the server on which you want to test additional regular expressions.
+6.  Select the **Look up** icon \[Omitted image "SearchIconHeisenberg.png"\] to select the server on which you want to test additional regular expressions.
 
     The list of all discovered servers opens.
 

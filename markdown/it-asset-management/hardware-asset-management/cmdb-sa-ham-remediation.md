@@ -7,7 +7,7 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [remediation actions panel, HAM data quality issues, KPI details remediation actions, stale CI cleanup, duplicate CI remediation, virtual CI with asset]
 breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]

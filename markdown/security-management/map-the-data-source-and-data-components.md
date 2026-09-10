@@ -39,8 +39,6 @@ You can continue using the [Data Source Mapping](https://raw.githubusercontent.c
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Data Component Mapping**.
 
-    The following illustration shows the list of tactics, IDs, techniques along with the data sources and data components based on your collection updates.\[Omitted image "mitre-data-component-overview.png"\] Alt text: The following illustration shows the list of tactics, techniques, IDs, along with the data sources and data components that have been populated based on your collection updates.
-
     |Field|Description|
     |-----|-----------|
     |Tactic|Adversary’s objective or the reason for performing an action.|
@@ -59,7 +57,7 @@ You can continue using the [Data Source Mapping](https://raw.githubusercontent.c
 
     1.  Navigate to **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Techniques**.
 
-    2.  Click a technique that you want to modify the data source: data component information.
+    2.  Select a technique that you want to modify the data source: data component information.
 
     3.  Unlock Data Source: Data Component.
 
@@ -67,9 +65,7 @@ You can continue using the [Data Source Mapping](https://raw.githubusercontent.c
 
     5.  Lock Data Source: Data Component.
 
-    6.  Click **Update**.
-
-    In the following illustration, you see how to add data components.\[Omitted image "mitre-data-source-component-mapping.gif"\] Alt text: This illustration shows how to map data source components to a technique.
+    6.  Select **Update**.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitre-att-ck-administration.md)

@@ -24,7 +24,7 @@ Role required: timecard\_user
 
 Starting Zurich release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
 
-The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/t_CreateAProject.md) determines the level at which the time cards for the project tasks can be created.
+The **Allow time card reporting on** field on the project form determines the level at which the time cards for the project tasks can be created.
 
 **Note:** Time Cards created from Project form do not populate Resource plans automatically to avoid random allocations. For more information, see [KB0814884](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0814884) article in the Now Support Knowledge Base.
 
@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d185484e208">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d185359e208">
 
 Option
 
-</th><th align="left" id="d185484e211">
+</th><th align="left" id="d185359e211">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d185484e217">
+</th></tr></thead><tbody><tr><td id="d185359e217">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d185484e247">
+</td></tr><tr><td id="d185359e247">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d185484e271">
+</td></tr><tr><td id="d185359e271">
 
 **From a Time sheet related link**
 
@@ -217,5 +217,5 @@ As an admin, you can configure a scheduled job to generate time cards automatica
 **Related topics**  
 
 
-[Map a time card category with operational work types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/map-time-card-category.md)
+[bundle-itbm.map-time-card-category]
 

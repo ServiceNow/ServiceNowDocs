@@ -25,7 +25,11 @@ Add a new lifecycle for a TRM product. It creates the record directly without se
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
 Add a new request to create a lifecycle for a TRM product. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-form.md)**  
-The Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
+Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+-   **[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-states.md)**  
+A TRM technical debt record persists across scheduled job runs and moves between Active, Resolved, and Archived states instead of being deleted and re-created.
+-   **[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-governing-fields.md)**  
+The TLM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table includes fields that link a discovered technology to the TRM product and product lifecycle that govern its obsolescence status.
 -   **[Technology portfolio audit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-technology-portfolio-audit-form.md)**  
 You can use the Technology portfolio audit table to view audit information for your applications.
 -   **[Indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-indicator-form.md)**  

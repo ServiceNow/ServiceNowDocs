@@ -36,18 +36,16 @@ Follow these procedures to set up and configure ServiceNow Otto for Configuratio
 Configure the ServiceNow Otto for CMDB application so users can benefit from Agentic workflows, agents, and skills.
 -   **[Configure the Search CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-search-cmdb-aw.md)**  
 Review and configure the settings of the Search CMDB agentic workflow.
--   **[Configure the CI form contextual help skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-form-sense-config.md)**  
-Configure the CI form contextual help skill.
 -   **[Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md)**  
 Review and configure the settings of the ServiceNow Otto for CMDB CI summarization skill to restrict the availability of the skill to certain users or conditions.
 -   **[Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md)**  
 Review and configure the settings of the summarize CMDB readiness skill to control its availability and to enable an AI-generated summary of the CMDB success advisor dashboard data.
 -   **[Configure the manage duplicate CIs skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-mng-dupe-ci-skill.md)**  
 Enable and configure scheduled jobs that support the manage duplicate CIs skill.
--   **[Activate the Business application candidate agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-act.md)**  
-Activate the Business application candidate agent to begin automatic discovery and matching business applications with application services. Both the Data Synchronization and Processing jobs must be activated together to function properly.
 -   **[Configure the Service Graph Connector diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 Review and configure the settings of the Service Graph Connector diagnosis skill.
+-   **[Activate the CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.md)**  
+Enable AI agents and other clients to securely access data and perform actions using the Model Context Protocol \(MCP\).
 
 **Parent Topic:**[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 

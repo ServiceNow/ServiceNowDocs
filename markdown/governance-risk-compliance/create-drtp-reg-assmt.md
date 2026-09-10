@@ -51,6 +51,8 @@ It's required that you review your contracts and third parties annually. You can
 
 5.  Select **Save**.
 
+    Every contract with specific information should have at least one assessment. If none exists, the system displays a warning instead of blocking the save.
+
 6.  To edit the assessment record, select it from the list and select **Edit**.
 
     |Step|Description|
@@ -60,15 +62,15 @@ It's required that you review your contracts and third parties annually. You can
 
 7.  To export the record, select **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d350062e235">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d365371e241">
 
 Step
 
-</th><th align="left" id="d350062e238">
+</th><th align="left" id="d365371e244">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d350062e244">
+</th></tr></thead><tbody><tr><td id="d365371e250">
 
 **Select __File Type__.**
 
@@ -80,7 +82,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d350062e274">
+</td></tr><tr><td id="d365371e280">
 
 **Select __Delivery Type__.**
 
@@ -90,7 +92,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d350062e296">
+</td></tr><tr><td id="d365371e302">
 
 **Select __Export.__**
 

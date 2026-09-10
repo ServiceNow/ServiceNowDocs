@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Raising requests, Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -82,6 +82,8 @@ The Request elevated access catalog item is available only to the secondary cont
 [Update company profile using the supplier catalog]()
 
 [Update default supplier]()
+
+[Update tax information using the supplier catalog]()
 
 [Request something else using the supplier catalog]()
 

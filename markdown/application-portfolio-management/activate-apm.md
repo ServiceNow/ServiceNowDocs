@@ -22,7 +22,7 @@ Role required: admin
 
 The Enterprise Architecture \(com.snc.apm\) plugin is the basic plugin for the application.
 
-The Enterprise Architecture plugin activates the following related plugins if they are not already active:
+The Enterprise Architecture plugin activates the following related plugins if they aren't already active:
 
 <table id="table_zzn_kx4_rx"><thead><tr><th>
 
@@ -108,7 +108,7 @@ Enables support for tree map view on any applications.
 
 -   **Enterprise Architecture Core plugin \(com.snc.apm\_core\)**
 
-    To register a new business application. The plugin is in base application and activating the Enterprise Architecture plugin \(com.snc.apm\) enhances the Register a Business Application feature to predict and suggest an application category using the machine-learning solution when you on-board an application in to the Enterprise Architecture inventory.
+    Registers a new business application. This plugin is in the base application. Activating the Enterprise Architecture plugin \(com.snc.apm\) enhances the Register a Business Application feature. The feature predicts and suggests an application category using machine learning when you onboard an application into the Enterprise Architecture inventory.
 
 -   **Domain Support – Domain Extensions Installer system plugin**
 

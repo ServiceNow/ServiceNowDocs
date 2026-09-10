@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-discovering-ai-assets.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-17"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [AI Control Tower, Enable AI experiences]
@@ -17,27 +17,21 @@ Get a complete picture of every AI system in your organization by building and m
 
 ## Why discovery matters
 
-Before you can govern, monitor, or measure the impact of AI, you need to know what AI assets exist in your organization. Many enterprises operate dozens or hundreds of AI systems across business units, with no single team holding a complete picture. Shadow AI, untracked models, and undocumented integrations create blind spots in governance and risk management. AI Control Tower addresses this by providing multiple discovery pathways that feed into a single AI asset inventory — a centralized record of every AI system, model, prompt, dataset, and MCP server across your enterprise.
+Before you can govern, monitor, or measure the impact of AI, you need to know what AI assets exist in your organization. Many enterprises operate dozens or hundreds of AI systems across business units, with no single team holding a complete picture. Shadow AI, untracked models, and undocumented integrations create blind spots in governance and risk management. AI Control Tower addresses this by providing multiple discovery pathways that feed into a single AI asset inventory — a centralized record of every AI system, model, prompt, dataset, and MCP server across your enterprise. See [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-discovering-ai-assets.md).
 
-## Managing your AI assets
+## AI asset inventory
 
-You can view and manage AI assets across your entire portfolio or focus on a single asset.
+View and manage AI assets across your entire portfolio or focus on a single asset in the AI Control Tower inventory.
 
-The **Inventory** page gives you a complete picture of every AI system, model, prompt, dataset, and MCP server in your organization. From here, you set management status, filter by asset type or lifecycle stage, manually add assets that aren't reachable by automated methods, and respond to recommendations that flag assets needing attention. See [Managing your AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-asset-inventory.md).
+The **Inventory** page is designed to give you a complete picture of every AI asset in your organization. From the inventory, you can make assets managed or unmanaged, filter by asset type or lifecycle stage, manually add assets that aren't reachable by automated methods, and respond to recommendations for assets that need attention. See [Managing your AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-asset-inventory.md).
 
-The asset record page is where you investigate and act on a single asset. Open a record to review its governance posture, evaluation scores, lifecycle progress, and value contribution, and to initiate actions such as starting a lifecycle review, submitting a change request, or turning on evaluation. See [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md).
+## AI asset records
 
-## Discovering ServiceNow AI assets automatically
+The asset record is where you investigate and act on a single asset. In the asset record, you can review the asset's governance posture, evaluation scores, lifecycle progress, and value contribution. You can initiate asset-level actions such as starting a lifecycle review, submitting a change request, or turning on evaluation. See [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md).
 
-ServiceNow AI assets including skills, agents, and models running natively on your instance are discovered automatically. No manual configuration is required. As AI capabilities are activated on your instance, the discovery process detects and registers them in the AI asset inventory, giving your governance team visibility into every ServiceNow AI system from the moment it is deployed.
+## Discovering unsanctioned AI use with Shadow AI
 
-Automatic discovery eliminates the risk of ServiceNow AI systems operating outside the governance framework. Every skill, every AI agent built in AI Agent Studio, and every model connection is tracked and available for lifecycle management, risk assessment, and performance monitoring.
+Connectors and manual entry only find AI systems your organization already knows to look for. Shadow AI detects AI use that never went through an official channel instead, such as an employee sending data to a public AI tool your organization hasn't sanctioned. It relies on multiple independent detection methods, including **Armis** and **Agent Client Collector** \(ACC\), to observe traffic and endpoint activity for signs of that use.
 
-## Discovering external AI assets with Service Graph Connectors
-
-Most enterprises run AI on more than one platform. Service Graph Connectors extend AI Control Tower's visibility beyond ServiceNow by discovering AI assets running on external platforms and synchronizing them into the inventory.
-
-Each connector requires an AI connection — a configured credential and endpoint that allows AI Control Tower to communicate with the external platform. Once configured, the connector runs on a schedule to discover new assets, update existing records, and synchronize metadata. Some connectors also collect usage and execution data, enabling monitoring and value measurement for external AI alongside ServiceNow AI.
-
-For organizations that operate AI across hyperscaler environments, AI Control Tower also supports hyperscaler connections for asset discovery and trace collection. These connections collect trace data from AWS, Azure, and GCP through a MID Server, without requiring SDK instrumentation in agent code.
+Because these detections represent AI systems your organization hasn't reviewed yet, Shadow AI keeps them in their own space rather than mixing them into the governed AI asset inventory. An AI steward reviews each detected service and decides how to respond, such as snoozing it for more time, blocking access, or confirming it's not actually an AI service. See [Detecting shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-landing.md).
 

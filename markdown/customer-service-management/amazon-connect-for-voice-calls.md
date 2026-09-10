@@ -1,6 +1,6 @@
 ---
 title: Using Interaction Controls Component \(ICC\) call controls with Amazon Connect
-description: Agents can access the Active call controls directly from their CSM Configurable Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
+description: Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/amazon-connect-for-voice-calls.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Integrating with contact centers, Integrate, Customer Service Manag
 
 # Using Interaction Controls Component \(ICC\) call controls with Amazon Connect
 
-Agents can access the Active call controls directly from their CSM Configurable Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
+Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
 
 ## Amazon Connect for voice calls overview
 

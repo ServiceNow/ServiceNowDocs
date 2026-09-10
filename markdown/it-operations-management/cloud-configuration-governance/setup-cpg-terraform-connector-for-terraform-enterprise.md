@@ -8,7 +8,7 @@ product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -39,7 +39,7 @@ Role required: admin
 
 1.  Create an API key credential for Terraform Enterprise or Terraform Cloud account.
 
-    For more information, see [Create API key credentials for the Terraform account and the supported VCS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
+    For more information, see [Create API key credentials for Terraform and VCS accounts account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
 
 2.  Create a config provider for Terraform Enterprise or Terraform Cloud.
 

@@ -1,30 +1,30 @@
 ---
 title: Mobile app prerequisites for enhanced chat
-description: Now Assist in Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
+description: ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/mobile-prereqs-enhanced-chat.html
 release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Mobile app prerequisites for enhanced chat
 
-Now Assist in Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
+ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 
-For information on choosing how you want Now Assist in Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+For information on choosing how you want ServiceNow Otto for Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 The three different mobile app components that admins can integrate with an assistant are a mobile search widget, chat launcher, and custom app.
 
 |Mobile app component|Description|Standard chat|Enhanced chat|
 |--------------------|-----------|-------------|-------------|
 |Mobile search widget|The search bar widget within the ServiceNow Mobile App|No|Full-page experience only|
-|Chat launcher|The default Virtual Agent chat widget|Yes, but only offered to existing Now Assist in Virtual Agent customers|Yes|
-|Custom app \(Mobile SDK\)|The tool to display native Virtual Agent interface in a customer’s own third-party app.|Yes, but only offered to existing Now Assist in Virtual Agent customers|Yes|
+|Chat launcher|The default Virtual Agent chat widget|Yes, but only offered to existing ServiceNow Otto for Virtual Agent customers|Yes|
+|Custom app \(Mobile SDK\)|The tool to display native Virtual Agent interface in a customer’s own third-party app.|Yes, but only offered to existing ServiceNow Otto for Virtual Agent customers|Yes|
 
 <table id="table_nzt_vbc_1fc"><thead><tr><th>
 
@@ -56,7 +56,7 @@ Chat launcher
 
 </td><td>
 
-Selecting the chat function in a mobile app opens native Virtual Agent. A user can ask questions in native Virtual Agent and get Now Assist responses. Users can also launch the search results page from the chat.
+Selecting the chat function in a mobile app opens native Virtual Agent. A user can ask questions in native Virtual Agent and get ServiceNow Otto for Virtual Agent responses. Users can also launch the search results page from the chat.
 
 </td><td>
 
@@ -68,11 +68,11 @@ Custom app \(mobile SDK\)
 
 </td><td>
 
-Selecting the custom chat function in a third-party mobile app opens native Virtual Agent. Users can ask questions in native Virtual Agent and get Now Assist responses.
+Selecting the custom chat function in a third-party mobile app opens native Virtual Agent. Users can ask questions in native Virtual Agent and get ServiceNow Otto for Virtual Agent responses.
 
 </td><td>
 
-You can't use the Now Assist in Virtual Agent AI Search experience in a custom app. Search is run by the customer's third-party mobile app/
+You can't use the ServiceNow Otto for Virtual Agent AI Search experience in a custom app. Search is run by the customer's third-party mobile app/
 
 </td></tr></tbody>
 </table>

@@ -50,7 +50,7 @@ Create stories
 
 </td><td>
 
-Convert epics into actionable user stories quickly. Powered by an agentic workflow, Now Assist analyzes epic details to recommend the optimal number of stories, enables adjustments, refines story content based on your feedback, and helps create relevant and accurate story records.
+Convert epics into actionable user stories quickly. Powered by an agentic workflow, Now Assist analyzes epic details to recommend the optimal number of stories. It also enables adjustments, refines story content based on your feedback, and helps create relevant and accurate story records.
 
 </td><td>
 

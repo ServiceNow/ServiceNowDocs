@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-11-18"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -23,6 +23,8 @@ Starting with version 21.1.x, users of the Operational Resilience Workspace and 
 **Note:** You can use the **Excel master template** option to download a document to use for data preparation and internal review and the **Plain-CSV reporting package** option to download a document to use for regulator submission and compliance validation.
 
 The RoI framework is designed to align with DORA’s five pillars, particularly ICT third-party risk management and incident reporting. RoI packages generated in the Operational Resilience Workspace follow the European Banking Authority’s structure and validation requirements.
+
+**Note:** The **decimalsMonetary** property controls decimal precision for monetary values in Master Template and CSV downloads only. It doesn't affect UI display, upload and validation, individual table downloads, or database storage.
 
 ## Digital Resilience Third-party Information Register support for RoI
 

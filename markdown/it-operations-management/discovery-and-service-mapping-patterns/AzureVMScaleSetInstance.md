@@ -1,6 +1,6 @@
 ---
 title: Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery
-description: The Discovery and Service Mapping Patterns application uses the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale Set patterns to find Azure Virtual Machine Scale Sets \(VMSS\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale Set patterns to find Azure Virtual Machine Scale Sets \(VMSS\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Disc
 
 # Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery
 
-The Discovery and Service Mapping Patterns application uses the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale Set patterns to find Azure Virtual Machine Scale Sets \(VMSS\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale Set patterns to find Azure Virtual Machine Scale Sets \(VMSS\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 VMSS let you create and manage a group of load balanced virtual machines \(VMs\). The number of VM instances can automatically increase or decrease in response to demand or a defined schedule. There Uniform Orchestration modes Flexible and achieve.
 

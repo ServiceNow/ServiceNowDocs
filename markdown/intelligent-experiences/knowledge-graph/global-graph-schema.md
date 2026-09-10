@@ -22,7 +22,7 @@ To see some examples of the Natural Language query responses, refer [Natural lan
 
 Enterprise graph schema simplifies Knowledge Graph setup by providing a preconfigured schema, eliminating the need for custom schema creation in Knowledge Graph designer.
 
-Admins can choose Enterprise graph as the Knowledge Graph schema when using AI agents, NA Virtual Agent, or NA Panel admin and add tags to enhance accuracy.
+Admins can choose Enterprise graph as the Knowledge Graph schema when using AI agents, Virtual Agent, or NA Panel admin and add tags to enhance accuracy.
 
 By mapping all tables, the Enterprise graph schema expands query capabilities to cover the entire database, whereas a custom or out-of-the-box \(OOTB\) schema limits queries to only the tables included in its specific schema.
 

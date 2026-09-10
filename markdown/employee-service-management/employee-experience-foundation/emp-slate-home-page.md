@@ -1,5 +1,5 @@
 ---
-title: Employee Slate home
+title: EmployeeWorks home
 description: Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-home-page.html
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 3
 keywords: [Employee Slate home page, home experience, personalized home, widgets, Employee Slate]
-breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate home
+# EmployeeWorks home
 
 Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 
-Employee Slate is an employee engagement layer that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost work productivity.
+EmployeeWorks is an employee engagement layer that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost work productivity.
 
 Employee Slate provides a set of default widgets on the home page that surface actionable information and give employees a consolidated view.
 
@@ -73,5 +73,5 @@ Suggested prompts help employees get started with common actions and queries.
 -   With Otto, your admins can configure these prompts based on organizational requirements.
 -   With Now Assist, your admins can configure promoted assets as prompts.
 
-For a set of prompts that you can use across Employee Slate features, see [Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
+For a set of prompts that you can use across Employee Slate features, see [EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
 

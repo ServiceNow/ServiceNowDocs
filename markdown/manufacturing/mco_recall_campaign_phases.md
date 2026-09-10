@@ -1,16 +1,16 @@
 ---
-title: Recall a campaign sub-phase
+title: Adding a sub-phase
 description: Create a sub-phase for a parent phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco\_recall\_campaign\_phases.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall a campaign phase, Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Recall a campaign sub-phase
+# Adding a sub-phase
 
 Create a sub-phase for a parent phase.
 

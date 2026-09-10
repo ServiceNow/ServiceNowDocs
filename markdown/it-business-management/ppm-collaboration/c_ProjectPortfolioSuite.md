@@ -78,7 +78,7 @@ ServiceNow® Project Workspace helps project managers to plan and manage project
 -   **[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-classic.md)**  
 Define, plan, track, and monitor your projects from a single location. View status reports and KPIs to take further actions for the project.
 -   **[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/investment-portal.md)**  
-Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. This interface is intuitive and makes project and demand management more efficient.
 -   **[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)**  
 The ServiceNow® Resource Management Workspace helps Resource Managers have a centralized view of all work across all resources.
 -   **[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourceManagement.md)**  

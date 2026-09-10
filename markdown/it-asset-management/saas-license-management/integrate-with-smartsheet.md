@@ -68,21 +68,35 @@ ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
+The Smartsheet integration supports two licensing models:
+
+-   Legacy subscription model: Subscriptions are classified as paid or free.
+-   User-based subscription model \(USM\): Subscriptions are classified by seat type. The following seat types are supported:
+    -   Member \(paid\)
+    -   Contributor \(free\)
+    -   Guest \(free\)
+    -   Provisional member \(free\)
+    -   Viewer \(free\)
+
+After the first subscription data is pulled, the integration determines which licensing model is in use. If the API returns the seat type data, the integration uses the USM model. If no seat type data is returned, the integration uses the legacy subscription model.
+
+**Note:** The USM model is supported starting from Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) version 16.9.0.
+
 If you’re using Software Asset Workspace, the option to create the Smartsheet integration profile in Core UI is inactive.
 
 ### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d238212e384">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d293747e424">
 
 Interface
 
-</th><th align="left" id="d238212e387">
+</th><th align="left" id="d293747e427">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d238212e393">
+</th></tr></thead><tbody><tr><td id="d293747e433">
 
 **Core UI**
 
@@ -93,7 +107,7 @@ Action
 3.  Select **Smartsheet Integration Profile**.
 
 
-</td></tr><tr><td id="d238212e435">
+</td></tr><tr><td id="d293747e475">
 
 **Software Asset Workspace**
 

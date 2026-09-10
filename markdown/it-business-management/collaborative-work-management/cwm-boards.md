@@ -1,22 +1,20 @@
 ---
 title: Managing work using Boards in CWM
-description: Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
+description: Use Boards in Collaborative Work Management to define and organize tasks. With views such as Dashboard, List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/cwm-boards.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-08-20"
 reading_time_minutes: 2
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Managing work using Boards in CWM
 
-Use Boards in Collaborative Work Management to define and organize tasks. With views such as List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
-
-\[Omitted video\] Description: Overview of Boards in the CWM workspace.
+Use Boards in Collaborative Work Management to define and organize tasks. With views such as Dashboard, List, Kanban, and Gantt, configure your workspace based on the way you and your team work.
 
 Using the following sections, get started with Boards in the CWM workspace.
 
@@ -34,6 +32,8 @@ Create custom fields in a Board so that you can organize all details of tasks at
 Associate a goal to your Board so that you can plan and track all the tasks and activities that contribute to this goal directly from the Collaborative Work Management workspace.
 -   **[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/board-views-in-cwm.md)**  
 Create, customize, and switch seamlessly between Board display preferences such as column display, sorting, and filtering based on the audience and purpose in Collaborative Work Management \(CWM\).
+-   **[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-board-dashboards.md)**  
+The Dashboard view displays a collection of widgets that visualize CWM Board data, giving teams an at-a-glance summary of task progress, priorities, and assignments.
 -   **[CWM Board preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-board-preferences.md)**  
 Reduce cognitive load and focus on the most relevant and actionable tasks by filtering work items on Boards in Collaborative Work Management \(CWM\).
 -   **[Export a CWM Board to CSV or Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)**  

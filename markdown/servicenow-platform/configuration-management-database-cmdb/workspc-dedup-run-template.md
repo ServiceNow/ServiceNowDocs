@@ -20,8 +20,7 @@ Run a de-duplication template to remediate de-duplication tasks in bulk. A de-du
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To access the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor and sn\_cmdb\_admin
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
 -   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task
@@ -30,10 +29,8 @@ You can run a single template to remediate its associated de-duplication tasks, 
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the Governance icon in the navigation panel.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and then select the Governance icon in the navigation panel.
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
 3.  Select a template library in the **Ready** tab, or select **All libraries** in the libraries drop-down list \(set to **All libraries** by default\).
@@ -73,5 +70,5 @@ You can run a single template to remediate its associated de-duplication tasks, 
 -   Select **View de-duplication tasks that need your attention** in the De-duplication tasks completed with errors card in the De-duplication insights pane on the right. The De-duplication tasks with errors list view shows de-duplication tasks that didn't complete successfully along with an error message. You can drill down de-duplication tasks in the list for more details.
 -   [Schedule a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-schedule-template.md).
 
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
+**Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

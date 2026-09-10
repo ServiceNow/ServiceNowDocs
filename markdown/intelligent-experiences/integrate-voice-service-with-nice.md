@@ -72,6 +72,8 @@ Connect your CXone contact center to a ServiceNow voice assistant using the Sess
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/voice-agent-reference.md).
+
 10. In your CXone account, configure the SIP trunk using the **ServiceNow SIP FQDN** and pass the **x-snc-param** value copied in the previous step as a SIP header on outbound calls to the voice assistant.
 
     For SIP trunk configuration details including IP addresses and FQDNs per region, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612). For CXone-side SIP trunk configuration steps, see the [CXone developer documentation](https://developer.niceincontact.com/Documentation/GettingStarted).

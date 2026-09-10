@@ -22,7 +22,7 @@ Threat Intelligence Security Center library explains how to browse through the d
 
 The detailed view provides the insights to the intelligence records and from list views you can perform quick actions on one or more records.
 
--   **[Understanding the Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/understanding-the-data-model.md)**  
+-   **[TISC Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/understanding-the-data-model.md)**  
 The data model and architecture of threat intelligence security center module is designed to support threat intelligence platform capabilities and different security views that provides detailed data for threat analysts.
 -   **[TISC Library Objects form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-library-home-page-view.md)**  
 The Threat Intelligence Security Center objects home page consists of the following features.
@@ -36,6 +36,6 @@ Delete threat intelligence library records such as observables, indicators, and 
 Use the export feature to manually export the intelligence data in various formats.
 -   **[Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/confirm-potential-relationships.md)**  
 Confirm the relationships between the two SDOs.
--   **[Automated Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/automated-correlation-rules.md)**  
-Automated correlation helps you identify the relationships between observables, indicators, and objects.
+-   **[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/automated-correlation-rules.md)**  
+Automated correlation automatically establishes relationships between threat intelligence records based on predefined rules, helping you identify connections between observables, indicators, and threat objects.
 

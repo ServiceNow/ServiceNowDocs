@@ -173,7 +173,7 @@ Role required:
 
 5.  View the log for the agent upgrade in the **Message** column.
 
-    -   For a failed upgrade on a Linux machine, navigate to the `<cache directory location>/upgrade/agent-client-collector-upgrade.rpm` file and ensure that the configurations are set for the relevant OS, according to the Linux Operating Systems table, above.
+    -   For a failed upgrade on a Linux machine, navigate to the `<cache directory location>/upgrade/agent-client-collector-upgrade.rpm` file. Ensure that the configurations are set for the relevant OS, according to the Linux Operating Systems table, above.
     -   For a failed upgrade on a Windows machine, check the relevant log file, located at `<user folder>\AppData\Local\Temp\ACC_Logs`:
 
         -   ACC logs: `ACC_Upgrade.log`

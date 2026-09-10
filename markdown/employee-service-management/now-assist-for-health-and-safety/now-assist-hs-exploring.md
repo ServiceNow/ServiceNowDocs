@@ -20,7 +20,7 @@ With the ServiceNow Otto for Health and Safety application, safety agents and ma
 
 The ServiceNow Otto for Health and Safety application includes the skills and features of generative AI to support safety teams working on resolving safety issues.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Use the following skill provided by the ServiceNow Otto for Health and Safety application.
 

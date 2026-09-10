@@ -23,7 +23,7 @@ By default, the Prioritization and Hierarchy tabs of a portfolio plan highlight 
 -   Configuring a new record for the required field in the sys\_highlighted\_value table.
 
 -   **[Modify Script Includes for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.md)**  
-Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
+Modify the Script Includes for Prioritization and Hierarchy views of the Planning page to change the columns to be highlighted in these views in the workspace.
 -   **[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)**  
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 

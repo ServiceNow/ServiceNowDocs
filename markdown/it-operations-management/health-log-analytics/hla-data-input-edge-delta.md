@@ -31,7 +31,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Edge Delta to handle large volumes of log data from multiple sources before sending it to Health Log Analytics, the log format HLA receives is distinct from other types. The Edge Delta data input enables HLA to detect and separate transport headers from inner log messages in this format, forwarding only the inner message to the source type structure for processing.
+If your organization uses Edge Delta to handle large volumes of log data from multiple sources, the log format is distinct from other types when sent to Health Log Analytics. The Edge Delta data input enables HLA to detect and separate transport headers from inner log messages. It forwards only the inner message to the source type structure for processing.
 
 ## Procedure
 

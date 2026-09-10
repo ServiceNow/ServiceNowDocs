@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-document-an-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
 keywords: [Build Agent, document application, README, ServiceNow IDE, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -29,13 +29,9 @@ Build Agent processes the application's codebase and produces a README file summ
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+2.  Enter a prompt requesting documentation for the application, such as `Document this app`, in the Build Agent chat box that appears on the ServiceNow Studio home page.
 
-    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
-
-2.  Enter a prompt requesting documentation for the application in the Build Agent chat panel.
-
-    For example, enter `Document this app`.
+    You can also select the Conversations icon in the Navigator panel \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text:to open Build Agent.
 
 3.  Review the response in the Build Agent chat panel.
 

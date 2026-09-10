@@ -33,7 +33,7 @@ The Change Success Score Ratings table is used to hold the records of the text a
 
 You can choose to modify the score range, color, introduce, or modify new rating values. The values defined here can be viewed in the **Change Success Score card** on the change Request form.
 
-**Important:** The **All** &gt; **Change** &gt; **Administration** &gt; **Change Success Score Ratings** module appears only when the Change Success Score feature is active in your instance. If you cannot find the module, see[Activate Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/activate-change-success-score.md) and confirm you have the `admin` role.
+**Note:** The change success score feature is installed after you activate the Change Management - change success score plugin available with the ITSM Professional subscription only. Contact your account manager for more information.
 
 \[Omitted image "change-success-score-tokyo.png"\] Alt text: Change Success Score card
 

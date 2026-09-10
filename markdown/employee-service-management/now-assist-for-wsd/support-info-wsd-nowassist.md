@@ -18,13 +18,13 @@ Get a quick overview for supported patch versions and application information.
 
 ## Supported Versions
 
-ServiceNow Otto for WSD \(sn\_wsd\_gen\_ai\) is supported on Zurich v1.1.0
+ServiceNow Otto for WSD \(sn\_wsd\_gen\_ai\) is supported on Zurich v1.0.0
 
 ## Application Information
 
 Activate the ServiceNow Otto for Workplace Service Delivery \(WSD\) store app to create a reservation.
 
-Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) \(sn\_wsd\_genai\) activates the dependent plugin, ServiceNow Otto for Platform \(sn\_genai\_platform\)
+Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) \(sn\_wsd\_genai\) activates the dependent plugin, Now Assist for Platform \(sn\_genai\_platform\)
 
 .
 

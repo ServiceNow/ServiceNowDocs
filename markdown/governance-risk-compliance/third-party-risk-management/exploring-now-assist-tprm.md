@@ -25,8 +25,6 @@ Learn the details of a third-party risk issue from AI-generated summaries, and u
 
 Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
-
 ## ServiceNow Otto for TPRM skills
 
 ServiceNow Otto for TPRM includes generative AI capabilities that help you interpret and act on TPRM records more efficiently. These capabilities support tasks such as summarizing TPRM issue details and recommending TPRM issues.

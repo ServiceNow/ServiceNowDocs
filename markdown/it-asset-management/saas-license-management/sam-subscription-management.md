@@ -1,20 +1,21 @@
 ---
 title: SaaS License Management
-description: SaaS License Management helps organizations track and control cloud-based applications and service subscriptions as part of Software Asset Management \(SAM\). It promotes ownership, visibility, agility, and accountability, enabling better cost control and efficient use of resources.
+description: SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/sam-subscription-management.html
 release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-12-04"
-reading_time_minutes: 5
+last_updated: "2026-08-13"
+reading_time_minutes: 6
+keywords: [saas license management, saas reclamation support, direct integration, SSO integration]
 breadcrumb: [Software Asset Management, IT Asset Management]
 ---
 
 # SaaS License Management
 
-SaaS License Management helps organizations track and control cloud-based applications and service subscriptions as part of Software Asset Management \(SAM\). It promotes ownership, visibility, agility, and accountability, enabling better cost control and efficient use of resources.
+SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 
 ## SaaS subscription models
 
@@ -35,7 +36,7 @@ SaaS applications and services are typically subscribed to on a per-user basis. 
 
 ## Managing Direct SaaS with the SaaS License Management application
 
-Managing Direct SaaS applications can vary based on organizational needs. The best approach depends on factors such as the level of integration required, available APIs, and whether Single Sign-On \(SSO\) is in place.
+Managing Direct SaaS applications can vary based on organizational needs. The best approach depends on factors such as the level of integration required, available APIs, and whether SSO \(Single Sign-On\) is in place.
 
 -   Use [Direct Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-profile.md) when you need deep usage insights and automated license management for supported vendors.
 -   Use [SaaS License Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/saas-license-connections.md) when you want flexibility to connect any SaaS app with a public API and prefer a low-code setup.
@@ -57,6 +58,10 @@ Key features
 
 Benefits
 
+</th><th>
+
+Reclamation support
+
 </th></tr></thead><tbody><tr><td>
 
 [Direct Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-integration-profile.md)
@@ -64,13 +69,20 @@ Benefits
 </td><td>
 
 -   Base system or default direct integrations
--   Automated license reclamation
+-   Full visibility into individual user-to-application assignments
+-   Identifies inactive or unused subscriptions based on usage and last activity signals
+-   Orchestrates the reclamation workflow end to end
 
 </td><td>
 
 -   Provides detailed usage insights
 -   Automates license management
 -   Reduces manual effort
+
+</td><td>
+
+-   When the underlying application or publisher API supports write-back \(programmatic removal or de-provisioning of users\).
+-   When an integration provides usage visibility but does not offer a reclamation or write-back API, SAM identifies reclamation candidates. You must remove users manually or through a custom workflow.
 
 </td></tr><tr><td>
 
@@ -86,6 +98,10 @@ Benefits
 -   Flexible for any SaaS application
 -   Customizable workflows
 
+</td><td>
+
+Depends on the public API and custom workflow configuration. Build removal logic through Workflow Studio for supported applications.
+
 </td></tr><tr><td>
 
 [SSO Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/saas-sso-integration.md)
@@ -93,6 +109,8 @@ Benefits
 </td><td>
 
 -   Connect via SSO providers such as Okta and Microsoft Entra ID.
+-   Analyzes user login activity
+-   Generates reclamation candidates for stale or inactive users
 -   Download the list of applications or users
 -   Identify overlapping software and rationalize applications
 
@@ -101,6 +119,11 @@ Benefits
 -   Helps tackle SaaS sprawl
 -   Improves cost control
 -   Simplifies user access management
+
+</td><td>
+
+-   For users who are directly assigned to applications \(supported for both Azure and Okta\).
+-   For users accessing applications through Okta or Microsoft Entra ID groups. Group-based removal is not automated. A single group can grant access to multiple applications. Removing a user from a group could have unintended downstream effects across other apps.
 
 </td></tr></tbody>
 </table>-   **[Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md)**  

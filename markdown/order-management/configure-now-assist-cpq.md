@@ -1,6 +1,6 @@
 ---
 title: Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)
-description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and Business Portal.
+description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CRM Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-now-assist-cpq.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Otto for CPQ]
 
 # Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CRM Workspace and Business Portal.
 
 Use the AI Admin Hub console to configure ServiceNow Otto for CPQ. Use the ServiceNow Otto for CPQ plugin to install and configure the generative AI skills.
 

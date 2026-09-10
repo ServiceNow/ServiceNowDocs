@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [HR service configuration, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [HR service configuration, HR services, HR Administration, Configure
 # Configure an HR case template
 
 Create or modify an HR case template for an HR service to automatically populate fields on the HR case form when a request for that service is made.
+
+## About this task
+
+\[Omitted video\] Description: Configure an HR case template
 
 ## Before you begin
 
@@ -28,7 +32,7 @@ Role required: sn\_hr\_core.admin
 
 3.  Open the HR template for that service.
 
-    **Note:** To create a new HR case template for the HR service, click the **Lookup** icon, and then click **New**.
+    **Note:** To create an HR case template for the HR service, select the **Lookup** icon, and then select **New**.
 
     \[Omitted image "hr-case-template-for-hr-service.png"\] Alt text: Open the HR case template for the HR service.
 
@@ -128,9 +132,9 @@ Fields to automatically populate on the HR case form when a request for that HR 
  **Note:** Select the Document Template option to associate a document template \(of Document Templates \[com.snc.document\_templates\] plugin\) with an HR service.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Update** on the HR template form.
+</table>5.  Select **Submit** or **Update** on the HR template form.
 
-6.  Click **Update** on the HR service form.
+6.  Select **Update** on the HR service form.
 
 
 **Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-configuration.md)

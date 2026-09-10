@@ -20,10 +20,6 @@ Connect agents to a MID Server to enable Agent Client Collector Monitoring funct
 
 Role required: agent\_client\_collector\_admin
 
-## About this task
-
-For details on configuring Agent Client Collector for log monitoring, see .
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **MID Servers**.

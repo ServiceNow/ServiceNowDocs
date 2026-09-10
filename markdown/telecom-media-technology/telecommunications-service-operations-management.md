@@ -35,7 +35,7 @@ Learn how Telecommunications Service Operations Management \(TSOM\) empowers com
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Service Operations Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/what-is-servicenow-telecommunications?id=learning_course_prev&course_id=34950e3d53e00b58c2245a01a0490e6d&s=1&ssa=3).

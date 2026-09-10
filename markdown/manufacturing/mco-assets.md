@@ -1,16 +1,16 @@
 ---
-title: Configuring assets
+title: Viewing assets for Manufacturing Commercial Operations
 description: An asset is a specific product or instance that is supported for a Manufacturing Commercial Operations to manage the asset details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-assets.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
 
-# Configuring assets
+# Viewing assets for Manufacturing Commercial Operations
 
 An asset is a specific product or instance that is supported for a Manufacturing Commercial Operations to manage the asset details.
 

@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -30,18 +30,14 @@ To learn more about domain separation, see [Domain Separation and HR Service Del
 
 1.  Navigate to **All** &gt; **HR Adminstration** &gt; **Guided Setup**.
 
-    Alternatively, you can click the **Guided setup** related link in a specific domain in **Workspaces** &gt; **SP Admin Workspace**.
-
     **Note:** **Guided Setup-Legacy** allows you to run guided set up at a global domain only. Use the new **Guided Setup** instead.
 
-2.  Click **Continue**.
-
-    The HR Guided Setup page appears.
+2.  On the Guided setup welcome page, select **Continue**.
 
 3.  Expand any category to view detailed status and related tasks.
 
-    1.  Click **Start** to set up each task or activity within a category.
-    2.  Click **Mark as complete** after you are done with the set up.
+    -   Select **Start** button on each setup category to start the configuration.
+    -   Select **Mark as complete** after you finish a category.
 <table id="table_zdv_f41_ybc"><thead><tr><th>
 
 Category
@@ -73,7 +69,7 @@ HR Company
 Set up your company's departments, locations, positions and skills to use within HR application that are generally to be set in a user's profile.-   Set up departments for user's profiles.
 -   Set up locations for offices, and user's profiles.
 -   Set up positions for user's profiles.
--   Set up skills for user's profiles in order to route specific HR cases to the correct group or individual.
+-   Set up skills for user's profiles to route specific HR cases to the correct group or individual.
 
 
 </td></tr><tr><td>
@@ -153,6 +149,6 @@ HR Service Definitions tables that contain data used by the HR Services. -   Set
 
 
 </td></tr></tbody>
-</table>4.  Click **Complete** after you have finished all the tasks within all categories.
+</table>4.  Select **Complete** after you have finished all the tasks within all categories.
 
 

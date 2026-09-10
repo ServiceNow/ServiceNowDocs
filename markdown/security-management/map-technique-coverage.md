@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/map-
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -34,10 +34,6 @@ The technique detection coverage mapping that you define is used in the [coverag
 ## Procedure
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Detection Coverage Mapping**.
-
-    In this illustration, you see that the Cloud Accounts \(T1078.004\) sub-technique has excellent coverage in the organization and that the Overall Technique Detection Coverage is mapped to **Excellent**.
-
-    \[Omitted image "mitre-coverage-mapping.gif"\] Alt text: Detection coverage mapping.
 
 2.  Review each technique and map your overall technique detection coverage based on your [detection coverage definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/define-technique-coverage.md) and your organization's coverage availability.
 

@@ -9,7 +9,7 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-04"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Integrate, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Connect Power BI Desktop to ODBC driver
@@ -20,7 +20,7 @@ Connect Power BI Desktop to your ServiceNow instance using the ODBC driver to ac
 
 Verify the following prerequisites are in place:
 
--   The SQL API plugin is installed on your ServiceNow instance.
+-   The Live Connect plugin is installed on your ServiceNow instance.
 -   The ServiceNow ODBC driver is installed and configured on your client machine.
 -   You have a Service Account with the **sn\_odbc\_rest\_access** role assigned.
 -   Access Control Lists \(ACLs\) are configured for the tables you must query.
@@ -56,7 +56,7 @@ This connection enables you to query ServiceNow data directly without requiring 
 
 6.  Select **Advanced options**.
 
-7.  In the **SQL statement \(optional\)** field, enter your SQL API query.
+7.  In the **SQL statement \(optional\)** field, enter your Live Connect query.
 
 8.  From the **Supported row reduction clauses \(optional\)** menu, select **TOP**.
 
@@ -79,5 +79,5 @@ This connection enables you to query ServiceNow data directly without requiring 
 
 Power BI Desktop is now connected to your ServiceNow instance via the ODBC driver. You can create visualizations, reports, and dashboards using your ServiceNow data. The connection respects all ServiceNow security controls, including ACLs and role-based access restrictions.
 
-**Parent Topic:**[Integrate SQL API Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-drivers-bi-tools.md)
+**Parent Topic:**[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-drivers-bi-tools.md)
 

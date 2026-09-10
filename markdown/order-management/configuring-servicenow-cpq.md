@@ -1,6 +1,6 @@
 ---
 title: Configuring CPQ Configurator without guided setup
-description: Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CSM Configurable Workspace, while customers using self-service features use it in the Business Portal.
+description: Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CRM Workspace, while customers using self-service features use it in the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-servicenow-cpq.html
 release: zurich
@@ -13,7 +13,7 @@ breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Cu
 
 # Configuring CPQ Configurator without guided setup
 
-Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CSM Configurable Workspace, while customers using self-service features use it in the Business Portal.
+Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CRM Workspace, while customers using self-service features use it in the Business Portal.
 
 ## Configuration overview
 

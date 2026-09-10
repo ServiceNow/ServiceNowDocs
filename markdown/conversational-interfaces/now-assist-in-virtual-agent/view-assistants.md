@@ -27,7 +27,7 @@ To view the **Assistants** tab in Assistant Designer, verify that the Platform p
 
 -   With the Platform plugin, you can see all ServiceNow Otto for Virtual Agent and ServiceNow Otto panel assistants.
 -   If you only have the Creator plugin installed, only the ServiceNow Otto panel - Developer assistant is shown.
--   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see [Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-slate-landing-page.md).
+-   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see [ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-slate-landing-page.md).
 
 |Default assistants|Activate|Deactivate|Edit|Test|Delete|
 |------------------|--------|----------|----|----|------|
@@ -96,16 +96,17 @@ To change the LLM provider for all assistants on the instance, select **Customiz
 2.  [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 3.  [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 4.  [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
-5.  [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
-6.  [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
-7.  For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
-8.  [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
-9.  [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
-10. [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
-11. [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
-12. [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
-13. [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.md).
-14. [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.md).
+5.  [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md)
+6.  [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+7.  [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+8.  For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
+9.  [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+10. [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+11. [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+12. [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
+13. [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
+14. [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.md).
+15. [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.md).
 4.  To set up your voice assistant, see [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.md).
 
     To test your voice assistant, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.md).

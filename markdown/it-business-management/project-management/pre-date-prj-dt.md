@@ -28,7 +28,7 @@ Before pre-dating a project task, note the following conditions:
 
 -   The property project.rollup\_project\_start\_date should be set to true.
 -   Pre-dating a task's planned start date also moves the project's planned start date.
--   The start date of a child task cannot be moved prior to the parent task's start date. For example, if a parent task with Start no earlier than constraint starts on 20th and the child task starts on 30th, the start date of the child task can only be moved up to 20th.
+-   The start date of a child task cannot be moved prior to the parent task's start date. For example, say a parent task with Start no earlier than constraint starts on 20th and the child task starts on 30th. In this case, the start date of the child task can only be moved up to 20th.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ Before pre-dating a project task, note the following conditions:
 
 3.  On the Project form, update the planned start date for a project task using either of the following options.
 
-<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d135219e96">
+<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d137786e101">
 
 Option
 
-</th><th align="left" id="d135219e99">
+</th><th align="left" id="d137786e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d135219e105">
+</th></tr></thead><tbody><tr><td id="d137786e110">
 
 **From the Project Task form**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the Project Task form, select the **Dates** tab and update the **Planned start date** for the task.
 
 
-</td></tr><tr><td id="d135219e129">
+</td></tr><tr><td id="d137786e134">
 
 **From the Planning Console**
 

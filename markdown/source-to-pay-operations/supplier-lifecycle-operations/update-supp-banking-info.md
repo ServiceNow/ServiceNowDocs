@@ -72,6 +72,8 @@ After the supplier manager approves the case, the banking details are updated in
 
 [Update default supplier]()
 
+[Update tax information using the supplier catalog]()
+
 [Request something else using the supplier catalog]()
 
 [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)

@@ -21,7 +21,7 @@ By default, the **Zscaler Monitoring Policy** monitoring check runs every 30 min
 -   **zscaler-monitoring-check**: Checks the status of the Zscaler app running on your agent.
 -   **zscaler-remediation-check**: Invoked only when the Zscaler app is not running efficiently. This check shuts down and restarts the app, and automatically creates an incident.
 
-    Only one incident is created every 24 hours for a Zscaler app that does not remediate properly. For example, if the remediation check runs multiple times on an agent, new remediation records are created which are associated with the same incident until 24 hours have passed, at which time a second incident is created. When the Zscaler app restarts successfully, the incident closes.
+    Only one incident is created every 24 hours for a Zscaler app that does not remediate properly. For example, if the remediation check runs multiple times on an agent, new remediation records are created and associated with the same incident. After 24 hours pass, a second incident is created. When the Zscaler app restarts successfully, the incident closes.
 
     Zscaler remediation produces the following output:
 

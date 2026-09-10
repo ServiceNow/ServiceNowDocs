@@ -1,6 +1,6 @@
 ---
 title: Manage automatically assigned Walk-up Experience interactions
-description: Technicians supporting CSM Walk-up Experience locations can view and manage interactions automatically pushed to the CSM Configurable Workspace inbox.
+description: Technicians supporting CSM Walk-up Experience locations can view and manage interactions automatically pushed to the CRM Workspace inbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-walkup-view-auto-assigned-requests.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer 
 
 # Manage automatically assigned Walk-up Experience interactions
 
-Technicians supporting CSM Walk-up Experience locations can view and manage interactions automatically pushed to the CSM Configurable Workspace inbox.
+Technicians supporting CSM Walk-up Experience locations can view and manage interactions automatically pushed to the CRM Workspace inbox.
 
 ## Before you begin
 
@@ -20,17 +20,17 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 ## About this task
 
-Walk-up Experience interactions can be automatically pushed to a personal inbox in CSM Configurable Workspace based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. Technicians fulfill interactions on a first-come-first-served basis as they appear in the inbox.
+Walk-up Experience interactions can be automatically pushed to a personal inbox in CRM Workspace based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. Technicians fulfill interactions on a first-come-first-served basis as they appear in the inbox.
 
 To manually assign and manage interactions using the CSM Walk-up Experience Technician modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-walkup-view-assigned-requests.md).
 
-Technicians set a status in the CSM Configurable Workspace inbox to indicate readiness to accept interactions. Status choices are **Available**, **Away**, and **Offline**.
+Technicians set a status in the CRM Workspace inbox to indicate readiness to accept interactions. Status choices are **Available**, **Away**, and **Offline**.
 
 Even though interactions are automatically pushed to the walk-up inbox, agents can work with anyone in the walk-up queue at any time.
 
 View walk-up queue interactions assigned to you automatically in your walk-up inbox or in your **My Assigned Walk-ups** list. You can also view all **Open - Unassigned** interactions for the queue you support.
 
-With CSM Configurable Workspace you can view lists of all your related walk-up interactions and appointments, your cases, customer accounts and contacts, incidents, requests, and more using one convenient interface. The Walk-up Experience related interaction list includes the following items:
+With CRM Workspace you can view lists of all your related walk-up interactions and appointments, your cases, customer accounts and contacts, incidents, requests, and more using one convenient interface. The Walk-up Experience related interaction list includes the following items:
 
 <table id="table_x1b_z4b_qdb"><thead><tr><th>
 
@@ -69,7 +69,7 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
 </td></tr></tbody>
 </table>## Procedure
 
-1.  To begin supporting a walk-up queue guest, open CSM Configurable Workspace.
+1.  To begin supporting a walk-up queue guest, open CRM Workspace.
 
 2.  Select **Inbox** and ensure your status is set to **Available**.
 

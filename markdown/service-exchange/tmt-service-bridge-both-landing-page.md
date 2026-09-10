@@ -54,7 +54,7 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/tmt-api-reference.md).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/service-bridge-for-implementers?id=learning_path_prev&path_id=995e40f5c3008ad45922751ce00131cf&s=1&ssa=3).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Exchange features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).

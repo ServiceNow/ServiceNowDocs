@@ -1,6 +1,6 @@
 ---
 title: Manage tasks and approvals
-description: Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
+description: Triage your queue from the EmployeeWorks Web App Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-05-28"
 reading_time_minutes: 2
 keywords: [employee communications, announcements, content library, employee slate, chat promotion]
-breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Manage tasks and approvals
 
-Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
+Triage your queue from the EmployeeWorks Web App Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 
 ## Before you begin
 
@@ -35,9 +35,11 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
     -   Select **Tasks and requests** in the side navigation.
 2.  Review items in the **Tasks** and **Requests** tabs.
 
-    The **Tasks** tab lists tasks and approvals assigned to you, sorted by AI prioritization. The **Requests** tab lists requests that you or others created for you. Each card shows an AI-generated summary of who is asking, what is needed, and why it matters. For more information, see [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
+    The **Tasks** tab lists tasks and approvals assigned to you, sorted by AI prioritization. The **Requests** tab lists requests that you or others created for you. Each card shows an AI-generated summary of who is asking, what is needed, and why it matters. Select **Sort by created date**to order the list by creation date instead. For more information, see [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
 3.  Open a card to view the task detail and approval checklist.
+
+    The administrator can select **Link to task** in the task configuration. When enabled, opening the card redirects to the parent record instead of the task detail page. Parent records include HR cases and requested items.
 
     The task detail includes a summary of the request and a checklist that highlights which knowledge article conditions the request meets.
 
@@ -67,5 +69,5 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
 **Related topics**  
 
 
-[Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
+[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
 

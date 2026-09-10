@@ -1,22 +1,22 @@
 ---
-title: Root cause analysis task
-description: Create root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
+title: Create a root cause analysis
+description: Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-root-cause-analysis-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Root cause analysis task
+# Create a root cause analysis
 
-Create root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
+Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
 
 ## Before you begin
 
-Role required: Quality Issue Management Admin or product non-conformance submitter \(sn\_mfg\_qm.product\_non\_conformance\_submitter\)
+Role required: Quality Issue Management Admin or product non-conformance resolver \(sn\_mfg\_qm.product\_non\_conformance\_case\_resolver\)
 
 ## Procedure
 
@@ -39,10 +39,10 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 6.  Select **Save**.
 
 
--   **[Task cause associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-cause-associations.md)**  
-Create the task cause for the root cause analysis of the product non-conformance.
+-   **[Associating a task cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-cause-associations.md)**  
+Associate a cause to a RCA for the root cause analysis of the product non-conformance.
 
-**Parent Topic:**[Related lists for Non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

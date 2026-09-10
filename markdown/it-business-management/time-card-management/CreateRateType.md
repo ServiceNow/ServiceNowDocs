@@ -7,7 +7,7 @@ release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d108410e109">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d110214e109">
 
 Field
 
-</th><th align="left" id="d108410e112">
+</th><th align="left" id="d110214e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108410e118">
+</th></tr></thead><tbody><tr><td id="d110214e118">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d108410e127">
+</td></tr><tr><td id="d110214e127">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d108410e136">
+</td></tr><tr><td id="d110214e136">
 
 **Active**
 

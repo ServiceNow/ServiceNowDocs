@@ -22,14 +22,7 @@ Role required: sn\_wsd\_visitor.admin
 
 ## About this task
 
-Assign visitor policy to a workplace location.
-
-You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and ensure that the **Visitor policy view** option is enabled. Click **Edit** and assign the policy.
-
--   Go to Building
--   Select the building
--   Ensure we have the view “Visitor policy view” selected
--   Click on Edit to assign the available policies to the location
+You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and ensure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
 
 ## Procedure
 

@@ -89,6 +89,8 @@ Within the Backlog, you can perform the following actions:
 
 Use the following tasks to start creating and scheduling work for teams in EAP.
 
+-   **[Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md)**  
+ Create Planning Intervals \(PIs\) and Sprints directly from the Backlog by entering start and end dates, without setting up planning calendar entries first.
 -   **[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)**  
 Create iterations of Planning Intervals \(PI\) and Sprints so that teams can start prioritizing and scheduling their work from the Backlog in Enterprise Agile Planning \(EAP\).
 -   **[Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md)**  
@@ -99,11 +101,11 @@ Create stories, features, epics, or capabilities for teams to add work to their 
 Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 -   **[Create stories for work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)**  
 Create stories directly from a work item's form. Create them manually or save time by generating them using Now Assist in the Enterprise Agile Planning \(EAP\) workspace.
--   **[Generate a story from an epic using ServiceNow Otto for SPM in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
-Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
--   **[Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)**  
-Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
--   **[Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**  
+-   **[Generate a story from an epic using ServiceNow Otto in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
+Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and ServiceNow Otto generates a story title, description, and acceptance criteria that you can review and edit before saving.
+-   **[Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)**  
+Breakdown epics and features into stories using the ServiceNow Otto panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, ServiceNow Otto generates stories.
+-   **[Generate acceptance criteria for EAP stories using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**  
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Create a copy of work items in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-copy-of-work-items-in-eap-backlog.md)**  
 For creating work items with details similar to an existing item, save time and effort by creating a copy of the existing item.

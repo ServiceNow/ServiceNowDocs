@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
-3.  On the ITOM AIOps Configuration Center page, under the Optimize section, select the automation, such as Enrich alerts or Group alerts, from which you want to delete an automation.
+3.  Under the Optimize section, select the automation type, such as Enrich alerts or Group alerts.
 
     The page for that automation type opens, showing a list of all existing automations.
 

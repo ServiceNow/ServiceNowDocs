@@ -59,7 +59,7 @@ MID Server
 
 </td><td>
 
-Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see .
+Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/integrationhub-etl.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ IntegrationHub ETL \(3.2\)
 
 </td><td>
 
-Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see .
+Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Identification and Reconciliation Engine \(IRE\)
 
 </td><td>
 
-Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the .
+Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
 
 </td></tr><tr><td>
 

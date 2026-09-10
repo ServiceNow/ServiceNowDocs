@@ -1,6 +1,6 @@
 ---
 title: AWS Lambda discovery with Patterns
-description: The ServiceNow Discovery and Service Mapping applications can find and map Lambda functions that run in your AWS cloud. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications can find and map Lambda functions that run in your AWS cloud. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-lambda-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # AWS Lambda discovery with Patterns
 
-The ServiceNow Discovery and Service Mapping applications can find and map Lambda functions that run in your AWS cloud. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications can find and map Lambda functions that run in your AWS cloud. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery and Service Mapping use the Amazon AWS Lambda pattern to run horizontal and top-down discovery. When you run cloud discovery, your instance queries your AWS service account using the necessary credentials, and then runs a query to obtain Lambda information. The pattern parses this information and then it is saved in the CMDB.
 

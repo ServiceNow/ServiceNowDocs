@@ -29,7 +29,7 @@ Review submitted ideas and then accept or reject them.
 -   **[Create a task for an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-a-task-for-an-idea.md)**  
 Create a task for planning and developing an accepted idea.
 -   **[Train the similarity solution for Innovation Management to find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/train-similarity-solution-im.md)**  
-Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
+Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability. Use it to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
 
 **Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/innovation-management-landing.md)
 

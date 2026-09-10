@@ -22,13 +22,13 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, we must install a MID Server with access to the protected SNMP devices and then create a Behavior that allows us to scan for all protocols without missing any devices or doing any extra work.
+A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, install a MID Server with access to the protected SNMP devices. Then create a Behavior that allows you to scan for all protocols without missing any devices or doing extra work.
 
 ## Procedure
 
 1.  Install a MID Server on a host permitted by the ACL.
 
-    To scan the SNMP devices in a network protected by an ACL, a MID Server must be installed on a host machine specified by IP address in the ACL as having access to the SNMP devices. Because this MID Server is scanning SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
+    Install the MID Server on a host machine specified by IP address in the ACL. The ACL must grant this host access to the SNMP devices. Because this MID Server is scanning SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
 
 2.  Install additional MID Servers if you intend to configure either functionality to load balance.
 
@@ -48,7 +48,7 @@ A specific type of Access Control List \(ACL\) on an SNMP device can prevent Dis
 
 4.  Define the functionalities.
 
-    For this behavior, we create two functionalities, one for SNMP on the MID Server installed on the host specified in the ACL and another for WMI and SSH on a second MID Server.
+    For this behavior, create two functionalities. Configure one for SNMP on the MID Server installed on the host specified in the ACL. Configure another for WMI and SSH on a second MID Server.
 
     1.  Click **New** in the Discovery Functionality related list to add functionalities.
 

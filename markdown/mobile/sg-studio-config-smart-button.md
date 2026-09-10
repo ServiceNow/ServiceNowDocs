@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-studio-config-smart-button.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Smart button functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -187,7 +187,7 @@ Button attributes
  -   **alerts\_require\_dismissal**: When set to `true`, this button attribute enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
 -   **used\_for\_deeplink**: When set to `true`, this button attribute specifies that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: When set to `true`, this button attribute triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
--   **check\_acl\_on\_url\_parameter\_field**: When set to `true`, any field in the URL string, is checked against the ACL \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is not checked against the ACL for backward compatibility.
+-   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected any field in the URL string is checked against the ACL \(Access Control List\). To opt-out of the check, mark the parameter as false. For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. If set to false, the URL parameter field is not checked against the ACL for backward compatibility.
 -   **hidden\_attachment\_sources**: Enter values in the **Value** field from where you don’t want images sourced from. Values can be `camera`, `files` or `gallery`, or any combination separated by commas. If this field is left blank, then images and files can be sourced from all locations. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/attachment-source-define.md).
 
 

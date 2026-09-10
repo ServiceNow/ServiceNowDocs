@@ -1,6 +1,6 @@
 ---
 title: NVIDIA GPU discovery using patterns
-description: The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension Discover Nvidia GPU to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension Discover Nvidia GPU to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/nvidia-gpu-discovery-pattern.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # NVIDIA GPU discovery using patterns
 
-The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension **Discover Nvidia GPU** to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension **Discover Nvidia GPU** to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Discover Nvidia GPU pattern is an extension of the Linux Server pattern. For more information, see [Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md).
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-02-06"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using Mobile AI Voice Agent

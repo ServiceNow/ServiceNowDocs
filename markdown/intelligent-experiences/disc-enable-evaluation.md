@@ -26,19 +26,19 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d103845e132">
+<table><thead><tr><th align="left" id="d111000e135">
 
 Option
 
-</th><th align="left" id="d103845e135">
+</th><th align="left" id="d111000e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103845e141">
+</th></tr></thead><tbody><tr><td id="d111000e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d103845e174">
+</td></tr><tr><td id="d111000e177">
 
 **Enable evaluation for multiple AI systems**
 

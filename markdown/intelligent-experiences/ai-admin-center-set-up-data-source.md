@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-07-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Setting up automation opportunity discovery, Configure, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Set up a data source for analysis
@@ -94,21 +94,9 @@ In the event an error occurs when performing these steps, see the troubleshootin
 
 8.  Create a cost profile to calculate the estimated time and cost savings from using the automation.
 
-    1.  Select **Add new** in the **Savings projections** section.
+    1.  Enter the hourly labor cost.
 
-        The Add new box opens.
-
-    2.  Add general details for the cost profile by entering a name and description.
-
-    3.  Select **Next**.
-
-    4.  Apply filters to the cost profile by using conditions to select certain properties.
-
-    5.  Select **Next**.
-
-    6.  Enter the hourly labor cost.
-
-    7.  Enter the active handling time rate.
+    2.  Enter the active handling time rate.
 
         The percentage of a record’s total open time that represents actual hands-on effort by a human agent.
 
@@ -125,12 +113,24 @@ View your automation opportunities on the home page. For more information, see [
 
 **Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+
 **Related topics**  
 
 
 [Edit an analysis data source]()
 
 [Deactivate an analysis data source]()
+
+[Delete an analysis data source]()
+
+[Activate a deactivated analysis data source]()
+
+[Edit an analysis data source]()
+
+[Deactivate an analysis data source]()
+
+[Delete an analysis data source]()
 
 [Activate a deactivated analysis data source]()
 

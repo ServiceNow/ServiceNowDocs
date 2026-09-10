@@ -1,6 +1,6 @@
 ---
-title: Review the kill switch protocol log
-description: The kill switch protocol log shows agents that you deactivated and reinstated for the instance. You can view audit log information for each AI agent which can help you stay compliant with regulatory guidance and your business rules.
+title: Review the agent containment list
+description: The agent containment list shows agents that were deactivated and reinstated for the instance manually with kill switch protocol or automatically by policy enforcement. You can view audit log information for each AI agent which can help you stay compliant with regulatory guidance and your business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Manage AI agents using kill switch protocol, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Contain AI agents manually using kill switch protocol, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
-# Review the kill switch protocol log
+# Review the agent containment list
 
-The kill switch protocol log shows agents that you deactivated and reinstated for the instance. You can view audit log information for each AI agent which can help you stay compliant with regulatory guidance and your business rules.
+The agent containment list shows agents that were deactivated and reinstated for the instance manually with kill switch protocol or automatically by policy enforcement. You can view audit log information for each AI agent which can help you stay compliant with regulatory guidance and your business rules.
 
 ## Before you begin
 
@@ -21,11 +21,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to **Security** &gt; **Overview** &gt; **Contained AI agents**.
-
-    All contained AI agents are shown for the last 30 days.
-
-    \[Omitted image "gov-sec-view-kill-switch-protocol-log.png"\] Alt text: Kill switch protocol log showing multiple deactivated AI agents and one AI agent reinstatement in progress.
+1.  Navigate to **Security** &gt; **Overview** &gt; **Contained AI Agents**.
 
 <table><thead><tr><th>
 
@@ -73,6 +69,14 @@ The date and time when the operation ended, regardless of status.
 
 </td></tr><tr><td>
 
+Domain
+
+</td><td>
+
+The domain the AI agent belongs to. If global or null is shown, the instance isn't domain-separated.
+
+</td></tr><tr><td>
+
 Operation
 
 </td><td>
@@ -81,13 +85,19 @@ The operation that was attempted. Possible values are:-   Deactivate
 -   Reinstate
 
 
+</td></tr><tr><td>
+
+Actions
+
+</td><td>
+
+Select one of the following:-   **View details** — Opens a side panel with two subtabs: **Overview** and **Audit log**. The Overview subtab shows containment context \(including trigger type of Manual or Automated\) and identity and enforcement information.
+-   **Reinstate agent** — Make the AI agent active again.
+
+
 </td></tr></tbody>
-</table>2.  To show contained AI agents for all time, select **Show all**.
-
-3.  In an AI agent row, under **More actions**, select **View details**.
-
-    Context, identity, enforcement, and audit log information is shown.
+</table>2.  Select **All**, **In progress**, or **Contained** to filter the list.
 
 
-**Parent Topic:**[Manage AI agents using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
+**Parent Topic:**[Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
 

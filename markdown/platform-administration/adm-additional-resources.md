@@ -98,7 +98,7 @@ Release notes
 
 </td><td>
 
-[AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/ai-search-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/ai-search-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/ai-search-rn.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Release notes
 
 </td><td>
 
-[ServiceNow AI Platform core feature release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/core-platform-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/core-platform-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/core-platform-rn.md)
 
 </td></tr><tr><td>
 
@@ -186,7 +186,7 @@ Release notes
 
 </td><td>
 
-[Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/data-management-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/data-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/data-management-rn.md)
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Release notes
 
 </td><td>
 
-[Dynamic Translation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/dynamic-translation-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/dynamic-translation-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/dynamic-translation-rn.md)
 
 </td></tr><tr><td>
 
@@ -644,7 +644,7 @@ Release notes
 
 </td><td>
 
-[Upgrade Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/upgrade-management-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/upgrade-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/upgrade-management-rn.md)
 
 </td></tr><tr><td>
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [external search sources, Employee Slate, ServiceNow Otto]
-breadcrumb: [Search sources for Employee Slate, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Search sources, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add external search sources
@@ -19,7 +19,7 @@ Add external search sources to include non-ServiceNow content in Employee Slate 
 
 ## Before you begin
 
-The Employee Slate for Now Assist product is installed and configured through the **Product Configuration console**.
+The Employee Slate \(built for Now Assist\) product is installed and configured through the **Product Configuration console**.
 
 You have network and credential details for the external source.
 
@@ -27,7 +27,7 @@ Role required: admin
 
 ## About this task
 
-No external source is linked by default for Employee Slate for Now Assist. Add an existing external connector or create a new connector to surface content from third-party systems in the conversational assistant.
+No external source is linked by default for Employee Slate \(built for Now Assist\). Add an existing external connector or create a new connector to surface content from third-party systems in the conversational assistant.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ No external source is linked by default for Employee Slate for Now Assist. Add a
 
 7.  Create a search source for the connector.
 
-    Enter a search source name and select the filters that apply to the connector. The new search source automatically links to the search profile for Employee Slate for Now Assist.
+    Enter a search source name and select the filters that apply to the connector. The new search source automatically links to the search profile for Employee Slate \(built for Now Assist\).
 
 8.  Add more search sources for the same connector.
 
@@ -66,5 +66,5 @@ No external source is linked by default for Employee Slate for Now Assist. Add a
 
 ## Result
 
-The external search source links to the Employee Slate for Now Assist search profile. The conversational assistant returns results from the external source after the initial crawl completes.
+The external search source links to the Employee Slate \(built for Now Assist\) search profile. The conversational assistant returns results from the external source after the initial crawl completes.
 

@@ -7,7 +7,7 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [missed opportunities, LEAP, automation tracking, resolution steps, playbooks, knowledge base]
 breadcrumb: [Automation opportunities overview, Explore, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
@@ -54,7 +54,7 @@ The LEAP homepage displays the missed automation opportunities card.
 
 Select the number on the missed opportunities card to filter and view only the automation opportunities that missed automation. On the details page for each automation opportunity, you can see how many times an artifact was not available when it could have assisted with incident resolution.
 
-
+\[Omitted image "missed-automation-opportunity.png"\] Alt text: Missed opportunity in automation opportunity details page
 
 LEAP administrators can use missed opportunity data to identify patterns and improve automation coverage. This helps determine where additional automation artifacts might be beneficial.
 

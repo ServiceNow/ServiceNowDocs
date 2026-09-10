@@ -40,8 +40,6 @@ Contract Management Pro solution enables you to set up contract document templat
 
 The following image provides an overview of the self-served contract requests.
 
-\[Omitted image "mmasset0021155-ss-cmpro-horizontal.png"\] Alt text: A flowchart illustrating a self-served contract request workflow in Contract Management Pro.
-
 1.  The contract requester initiates a contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
 3.  The contract fulfiller views the contract document and does one of the following actions:
@@ -54,8 +52,6 @@ The following image provides an overview of the self-served contract requests.
 ## Non-self-served contract request workflow
 
 The following image provides an overview of the non-self-served contract requests.
-
-\[Omitted image "mmasset0021156-nss-cmpro-horizontal.png"\] Alt text: A flowchart illustrating a non-self-served contract request workflow in Contract Management Pro.
 
 A workflow for non-self-served contract request might progress as follows:
 

@@ -22,7 +22,7 @@ You can leverage the same features provided by the Application Portfolio Managem
 
 Enterprise Architecture starts by building a comprehensive inventory of your business applications, providing enterprise architects, and application owners with four lenses by which to analyse the portfolio: Business Capability Planning, Application Migration &amp; Rationalization, Technology Risk Management, and Information Usage.
 
-With this level of visibility, architects can easily identify transformational opportunities, whether that's reducing the number of on-premises or duplicate apps, reducing spend on non-critical applications, or addressing gaps in the business capability model.
+With this level of visibility, architects can easily identify transformational opportunities. These opportunities include reducing the number of on-premises or duplicate apps, reducing spend on non-critical applications, or addressing gaps in the business capability model.
 
 Enterprise Architecture provides both the technology and work perspective that helps architects to easily assess the impact of any changes on the architectural state. Enterprise Architecture also ensures what is being planned is aligned with the technology and the strategic goals of the organization.
 

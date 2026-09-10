@@ -25,6 +25,8 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 2.  On the **Overview** tab, go to Your top recommendations.
 
+    **Note:** In a domain-separated instance, Your top recommendations isn't shown. Go to Security events detected instead to review AI asset security events.
+
 3.  In Your top recommendations, review the AI recommendations and security tasks assigned to you.
 
     Always confirm that these recommendations align with your specific needs before taking action.
@@ -41,6 +43,6 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 6.  In the malicious activity banner, select **View details** to address the AI agent issue.
 
-    For more information, see [Manage AI agents using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+    For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 

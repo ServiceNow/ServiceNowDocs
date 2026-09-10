@@ -44,7 +44,7 @@ A list of TRM technical debts associated with the business application is displa
 **Related topics**  
 
 
-[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[TRM Technical Debt calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-calc.md)
+[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technical-debt-calc.md)
 

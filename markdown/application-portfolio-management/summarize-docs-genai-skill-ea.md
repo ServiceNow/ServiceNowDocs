@@ -16,7 +16,7 @@ Quickly learn the details of the Architectural Decision Records \(ADR\) from the
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 **Note:**
 

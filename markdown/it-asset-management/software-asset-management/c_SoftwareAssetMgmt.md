@@ -66,7 +66,7 @@ The ServiceNow platform uses a licensing method where your organization is charg
 -   **[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-publisher-packs.md)**  
 With Software Asset Management, there are several publisher packs that can be used to extend functionality between the ServiceNow AI Platform and your third-party software applications.
 -   **[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/sam-subscription-management.md)**  
-SaaS License Management helps organizations track and control cloud-based applications and service subscriptions as part of Software Asset Management \(SAM\). It promotes ownership, visibility, agility, and accountability, enabling better cost control and efficient use of resources.
+SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 -   **[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-detection.md)**  
 Use the ServiceNow Software Spend Detection application to track, analyze, and optimize software spending from imported financial data.
 -   **[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMAdministration.md)**  

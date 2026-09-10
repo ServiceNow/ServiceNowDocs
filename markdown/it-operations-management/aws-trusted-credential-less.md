@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management
 release: zurich
 topic_type: task
 last_updated: "2025-09-03"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
@@ -92,6 +92,8 @@ To use an account without AWS credentials, you must first configure that account
 
     3.  On the form, fill in the fields.
 
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-aws-service-accounts.md).
+
     4.  Select **Submit**.
 
 6.  On the ServiceNow AI Platform, configure the trusting service account.
@@ -104,19 +106,21 @@ To use an account without AWS credentials, you must first configure that account
 
     4.  On the form, fill in the remaining fields.
 
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-aws-service-accounts.md).
+
     5.  Select **Submit**.
 
 7.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d132860e538">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d138324e582">
 
 Trusted account type
 
-</th><th align="left" id="d132860e541">
+</th><th align="left" id="d138324e585">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d132860e547">
+</th></tr></thead><tbody><tr><td id="d138324e591">
 
 **Management account**
 
@@ -161,7 +165,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d132860e664">
+</td></tr><tr><td id="d138324e708">
 
 **Member or discrete account**
 

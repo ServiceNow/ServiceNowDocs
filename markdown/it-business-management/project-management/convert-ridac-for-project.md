@@ -1,6 +1,6 @@
 ---
 title: Convert RIDAC records for a project
-description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
+description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order. This retains the record information instead of having to create a new record manually, and it lets you more easily track the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/convert-ridac-for-project.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Adding RIDAC records for a project, Use, Project Management, Projec
 
 # Convert RIDAC records for a project
 
-Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
+Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order. This retains the record information instead of having to create a new record manually, and it lets you more easily track the issue.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ When you convert a RIDAC record to another record, the values for the **Short de
 
 You can also specify to close the parent record on creation of the new record instead of manually closing the parent record.
 
-You can also view the consolidated list of all converted RIDAC records using the **View RIDAC** related link on the Project form and **View RIDAC** in the application navigator of the Project module.
+You can view the consolidated list of all converted RIDAC records using the **View RIDAC** related link on the Project form and **View RIDAC** in the application navigator of the Project module.
 
 ## Procedure
 

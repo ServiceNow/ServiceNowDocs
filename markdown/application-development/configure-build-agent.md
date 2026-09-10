@@ -29,7 +29,7 @@ Complete these steps to verify that all dependencies and integrations are in pla
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md)**  
 For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 -   **[Build Agent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-plugins.md)**  
-The plugins for Build Agent depend on whether you're using the free/trial version or premium version.
+Plugins are required for Build Agent, and vary by version.
 -   **[Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-connct-mcp-server.md)**  
 Connect a supported MCP server to Build Agent to access external tools and resources in the chat panel when building and editing apps.
 -   **[Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-configure-custom-skills-rules.md)**  

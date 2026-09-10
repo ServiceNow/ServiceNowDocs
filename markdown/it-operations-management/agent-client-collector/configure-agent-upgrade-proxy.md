@@ -25,7 +25,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Proxy configuration is managed through the Package Download Proxies table. When you add, update, or remove a proxy record, the system reads all active entries sorted by the **Order** field, generates a proxy list, and automatically pushes the updated configuration to all agents via MID Server configuration sync. No manual file editing or agent restart is required.
+Proxy configuration is managed through the Package Download Proxies table. When you add, update, or remove a proxy record, the system reads all active entries sorted by the **Order** field and generates a proxy list. The updated configuration is automatically pushed to all agents via MID Server configuration sync. No manual file editing or agent restart is required.
 
 The agent tries each proxy in order, from the lowest **Order** value to the highest. If a proxy fails, the agent moves to the next entry. To configure a direct connection as a fallback, add an entry with the URL set to `direct`.
 

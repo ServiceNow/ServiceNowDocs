@@ -1,6 +1,6 @@
 ---
 title: Configure the default canvas dashboard
-description: Configure the default canvas dashboard that Employee Slate presents to employees before they personalize their canvas. Set the subtitle, widget layout, and preview experience.
+description: Configure the default canvas dashboard that EmployeeWorks Web App presents to employees before they personalize their canvas. Set the subtitle, widget layout, and preview experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-configure-canvas.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [default canvas, canvas dashboard, widget layout, preview experience]
-breadcrumb: [Personalized canvas, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure the default canvas dashboard
 
-Configure the default canvas dashboard that Employee Slate presents to employees before they personalize their canvas. Set the subtitle, widget layout, and preview experience.
+Configure the default canvas dashboard that EmployeeWorks Web App presents to employees before they personalize their canvas. Set the subtitle, widget layout, and preview experience.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ The default canvas dashboard is the starting layout that employees see on their 
 
 ## Procedure
 
-1.  In the Employee Slate **Admin Console**, open the canvas configuration page.
+1.  In the EmployeeWorks Web App **Admin Console**, open the canvas configuration page.
 
     The canvas configuration page shows the current subtitle, a preview of the default dashboard, and presentation controls for theme and device.
 

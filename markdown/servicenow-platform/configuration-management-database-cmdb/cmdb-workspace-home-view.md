@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 21
+reading_time_minutes: 15
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,121 +16,40 @@ breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\)
 
 Home view is the default view in CMDB Workspace. It shows important tasks that you should tend to, various counts for activities in CMDB such as new CIs, CMDB Health aggregations, and various charts. The Home view also provides several links with immediate access to key CMDB tools.
 
-For Administrators, banners appear letting administrators try out Service Graph Workspace and also configuring the system to let users try Service Graph Workspace. For information about switching into permanently using Service Graph Workspace, see [Set up Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/setup-service-graph-workspace.md).
-
 ## Access
 
 Role requirements: sn\_cmdb\_admin \(CMDB Admin\), sn\_cmdb\_editor \(CMDB Editor\), or sn\_cmdb\_user \(CMDB User\).
 
 To access the Home view, navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Home** in the CMDB Workspace menu bar.
 
+## Product highlights
+
+-   **CMDB success advisor**
+
+    Drive business outcomes by establishing trust in CMDB data across your targeted IT workflows.
+
+-   **Explore &amp; Search CMDB**
+
+    Explore and Search data in CMDB using a new and improved AI-enabled search.
+
+-   **Data Owner View**
+
+    Use a central location to view health, related activity, and access authorized actions for all the data that you own or manage.
+
+-   **Insight View**
+
+    View insightful dashboards that show aggregated counts, state, and health for key features such as CMDB Health, Service Instances, and CMDB 360.
+
+-   **Dynamic IRE**
+
+    Use dynamic IRE to eliminate the need to create and manage custom static IRE rules, improve CI compression rate, and reduce dedeuplication.
+
+
 ## ServiceNow Otto® for CMDB
 
 Select the ServiceNow Otto® icon to access ServiceNow Otto® for CMDB skills, agents, and agentic workflows.
 
 For more information, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
-
-## Intelligent Search
-
-Accessible to: CMDB Admin, CMDB Editor, CMDB User.
-
-Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md). Use the input field to construct a search string using everyday language. As you type, a dynamic list of relevant suggestions appears, with items matching single words or part phrases in the typed-in text, such as table names.
-
-You can:
-
--   Select **Search tips** to see tips about constructing search strings. See details about the usage, examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search.
--   Select **Search** to either run the query if the search string is already fully converted into a valid CMDB query, or to open the Refine your query dialog box.
-    -   If the search string has no ambiguities with the table name or relationships, then the query runs and the results appear in a list view format.
-
-        Only the first 100 results of the query appear in the results pane.
-
-        -   Select **Load More Results** to view the next set of 100 results.
-        -   Select **Load All Results** to view the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
-        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Select the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
-
-    -   If there are any ambiguities with table names or relationship types in the search string, then the search string can't be converted into a valid CMDB query. In this case, the Refine your query dialog box appears letting you select from suggested CI classes and continue to parse your search string into a valid CMDB query. Those suggested CI classes are based on phrases in your search string. Use the drop-down lists to select the CI classes that match your intended search and then select **View search results** to run the query.
-    -   If Intelligent Search is unable to convert your search string into a valid CMDB query, then selecting **Search** doesn't generate any query results. Instead, a feedback form appears. Fill out the form and select **Submit Feedback** to record your feedback for your CMDB Admin to review.
--   Use the Sample searches list to get you started in running a pre-defined search. This list consists of more common searches, or searches that are more difficult to construct such as searches that involve application services.
--   Use the Your recent searches list to rerun a previous search.
--   Select **Results Feedback** to submit feedback on the search results for your CMDB Admin to review.
-
-For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
-
-Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-related-list-query.md) functionality where you can specify conditions to search for CIs of a specific class.
-
-You can:
-
--   Select **New condition set** to add a condition phrase.
--   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-related-list-query.md).
--   Select **Search** to search through the CMDB.
--   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
-
-In the results list, select a CI to see its details.
-
-<table id="table_tdz_dnw_v5b"><thead><tr><th>
-
-UI activity
-
-</th><th>
-
-Additional requirements
-
-</th></tr></thead><tbody><tr><td>
-
--   Mapped Application Service
--   Application Service
--   Application Service Group
--   Dynamic CI Group
--   Tag Based Service
-
-</td><td>
-
-app\_service\_user role
-
-</td></tr><tr><td>
-
--   Business Service
--   Technical Service
--   Application Service Outage
-
-</td><td>
-
-service\_viewer role
-
-</td></tr></tbody>
-</table>## Important actions
-
-Accessible to: CMDB Admin and CMDB Editor.
-
-Important actions of various categories that require your attention or action. There are several task categories such as:
-
--   Health tasks generated by [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md): In health-related cards, such as Duplicate CIs, Orphan CIs, stale CIs, and De-Duplication tasks, select **View CIs** or **View Tasks** to show the list of associated CIs or important tasks.In the CI list view page, you can select **CMDB Health Dashboard** to open the CMDB Health Dashboard. In de-duplication-related cards generated by [IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md), you can access the De-duplication dashboard and de-duplication libraries, to remediate de-duplication tasks in bulk.
--   Data attestation and life cycle approval tasks generated by the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md): In data attestation-related cards, such as Reassignment Requests and Unassigned Overdue cards, select **View Tasks** to drill down to the associated important tasks.
-
-Important actions are stored in the CMDB WS Imp Action Card Config \[sn\_cmdb\_ws\_imp\_action\_card\_config\] table that is accessible for editing only to users with the sn\_cmdb\_admin role. Authorized users can modify attributes of an important action such as **Active** and **Filter conditions**, but can't modify the **Type**, **Persona**, and **Table** attributes.
-
--   Important action cards show per the logged in user role, as specified in the CMDB WS Imp Action Card Config \[sn\_cmdb\_ws\_imp\_action\_card\_config\] table.
--   A card appears only if there is at least one record that meets the card's filter condition.
--   If you drill down a Health-related card and modify an associated CI, any resulting impact to health KPIs might appear only after the next cycle of the [CMDB Health dashboard jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
-
-For information about managing the cards in the Important actions tile, see [Modify important actions on the Home view of CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-edit-imp-action.md).
-
-## What's new
-
-Accessible to: CMDB Admin, CMDB Editor, CMDB User.
-
-Counts of newly created CIs within a recent time interval. The New CIs total counts all CI types including applications, hardware, and application services, which also appear in separate cards in the tile. By default, historical data is aggregated for the **Last 24 hours**, which you can set to a different time interval such as **Last 7 days**.
-
-Select a card to drill down to a Performance Analytics KPI Details pane that shows the trend for the respective item.
-
-Counts in the What's new cards are based on the following tables:
-
-|Count|Table|
-|-----|-----|
-|New CIs|Configuration Item \[cmdb\_ci\]|
-|New application|Application \[cmdb\_ci\_appl\]|
-|New hardware|Hardware \[cmdb\_ci\_hardware\]|
-|New application services|Service Instance \[cmdb\_ci\_service\_auto\]|
 
 ## CI overview
 

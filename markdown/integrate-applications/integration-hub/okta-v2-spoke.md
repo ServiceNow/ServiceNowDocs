@@ -27,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Okta spoke v4.8.0 is the latest version.
+Okta spoke v4.8.3 is the latest version.
 
 ## Spoke dependencies
 

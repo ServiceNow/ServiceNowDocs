@@ -59,9 +59,9 @@ Discovery based on Predictive Intelligence works at the product level. The **sa\
 
 [Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)
 
-[Add CIs to a specific application service using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/add-cis-connection-rules-single.md)
+[Add CIs to an application service using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/add-cis-connection-rules-single.md)
 
-[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
+[Manage CI connections in bulk using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
 
 [Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
 

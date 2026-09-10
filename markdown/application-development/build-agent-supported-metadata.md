@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-supported-metadata.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-08-26"
 reading_time_minutes: 5
 keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -289,7 +289,7 @@ Service Catalog items and configurations
 
 </td><td>
 
-Catalog items, variables, and fulfillment flows for the Service Catalog.
+Catalog items, variables, and fulfillment flows for the Service Catalog. Includes `dependentQuestion` support for variables, enabling dynamic default values that auto-populate based on a referenced variable's record. For example, when a user changes the **Requested for** field, related fields such as **Department** and **Location** can be populated automatically.
 
 </td></tr><tr><td>
 
@@ -317,6 +317,14 @@ Database tables that store application data, including fields, relationships, an
 
 </td></tr><tr><td>
 
+Transition conditions
+
+</td><td>
+
+Conditions that determine when a record can move from one state to another in a workflow or flow, enforcing stage-gate logic and data requirements.
+
+</td></tr><tr><td>
+
 UI actions
 
 </td><td>
@@ -338,6 +346,14 @@ UI pages
 </td><td>
 
 Custom pages built outside of standard form and list views.
+
+</td></tr><tr><td>
+
+UI styles
+
+</td><td>
+
+Style definitions stored in the `sys_ui_style` table that control the visual appearance of forms and fields.
 
 </td></tr><tr><td>
 

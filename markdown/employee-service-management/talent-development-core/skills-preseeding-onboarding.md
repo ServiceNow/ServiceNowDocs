@@ -1,20 +1,20 @@
 ---
 title: Add skills as part of your onboarding journey
-description: Upload your resume or LinkedIn profile as part of your onboarding journey and add skills from them to your profile in Employee Center so that you can focus on growth and career development in the organization.
+description: Upload your resume or LinkedIn profile as part of your onboarding journey and add skills from them to your profile in Employee Center. Focus on growth and career development in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-development-core/skills-preseeding-onboarding.html
 release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add skills as part of your onboarding journey
 
-Upload your resume or LinkedIn profile as part of your onboarding journey and add skills from them to your profile in Employee Center so that you can focus on growth and career development in the organization.
+Upload your resume or LinkedIn profile as part of your onboarding journey and add skills from them to your profile in Employee Center. Focus on growth and career development in the organization.
 
 ## About this task
 

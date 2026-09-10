@@ -58,7 +58,7 @@ To add a user as an Internal Team Member, an Employee Profile must be created.
 
 6.  Repeat these steps until you have added all the users and their respective responsibilities to the internal program team list.
 
-    \[Omitted image "psds\_gmp\_internalpgrteam\_view.png"\] Alt text:
+    \[Omitted image "psds\_gmp\_internalpgrteam\_view.png"\] Alt text: Internal Program Team agent view
 
 7.  Select **Mark Complete**.
 

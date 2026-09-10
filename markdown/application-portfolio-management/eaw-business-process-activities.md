@@ -31,7 +31,7 @@ You can:
 -   Assign owners and managing groups
 -   Link activities to business actors who perform them
 
-When you model a business process activity in a diagram, the default relationship between a business process activity and a business actor is Performed by:Performs.
+When you model a business process activity in a diagram, the default relationship between a business process activity and a business actor is Performed by :: Performs.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-architecture.md)
 

@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The scheduled job **Populate TPM Discovered Technologies and Lifecycles** is created to fetch the technology lifecycle data for your technology portfolio. This job can be run on-demand to calculate the technology lifecycle risk. The scheduled job executes the script generating the lifecycle risk dates, including end of support date, end of extended support date, and end of life date for your software and hardware models.
+The scheduled job **Populate TPM Discovered Technologies and Lifecycles** is created to fetch the technology lifecycle data for your technology portfolio. This job can be run on-demand to calculate the technology lifecycle risk. The scheduled job executes the script generating the lifecycle risk dates for your software and hardware models. These dates include end of support, end of extended support, and end of life.
 
 **Note:** The data for software products is displayed only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 

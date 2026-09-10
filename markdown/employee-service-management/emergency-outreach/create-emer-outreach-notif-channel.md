@@ -57,7 +57,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+        For information about JavaScript APIs for GlideRecord, see GlideRecord - Scoped.
 
     3.  Click **Submit**.
 

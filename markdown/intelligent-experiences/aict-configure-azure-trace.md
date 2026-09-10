@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-06-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
@@ -20,9 +20,11 @@ Monitor AI agents running on Microsoft Azure by adding an Azure trace connection
 Confirm the following:
 
 -   An active MID Server is installed and configured in your ServiceNow instance. See [MID Server installation](https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-installation.html).
--   Credentials for each Azure source system you plan to configure are available.
-    -   Each credential must be created in Azure for the source system it applies to. For details, see the [Azure Trace Collector Credentials Configuration \[KB3144350\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144350) article in Now Support.
-    -   After each credential is created in Azure, work with your instance administrator to store it as a record in **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+-   Credentials for the Azure source system you plan to configure are available.
+    -   Each credential must be created in Azure for the source system it applies to.
+    -   The Azure service principal or managed identity behind each OAuth-based credential has the Reader role on the resource or resource group it collects traces from.
+    -   The Azure Application Insights API key credential, used for the **New Foundry** source system, has the "Read telemetry" permission.
+    -   After each credential is created in Azure, work with your instance administrator to store it as a record in your instance. For details, see the [Azure Trace Collector Credentials Configuration \[KB3144350\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144350) article in Now Support.
 
 Role required: sn\_ai\_governance.ai\_steward
 
@@ -32,95 +34,105 @@ Role required: sn\_ai\_governance.ai\_steward
 
 2.  On the **Available** sub-tab, select **Azure**.
 
-3.  Enter a descriptive name for the connection.
-
-    The name distinguishes this connection from others you create. For instance, you may choose a name that identifies the account, project, or environment.
-
-4.  Select the Azure source systems to integrate with.
+3.  Select the Azure source systems to integrate with.
 
     -   **Classic Foundry** — collects traces from Azure AI Foundry \(classic\).
     -   **New Foundry** — collects traces from the updated Azure AI Foundry experience.
     -   **Application Insights** — collects traces from Azure Monitor Application Insights.
-5.  Select **Next**.
+4.  Fill in the credentials for the source system you selected.
 
-6.  Fill in the credentials for each source system you selected.
-
-    If you selected multiple source systems, provide the credentials for the first system and then select **Next** to continue to the credentials page for the next source system.
-
-<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d210525e199">
+<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d226025e175">
 
 Source system
 
-</th><th align="left" id="d210525e202">
+</th><th align="left" id="d226025e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d210525e208">
+</th></tr></thead><tbody><tr><td id="d226025e184">
 
 **Classic Foundry**
 
 </td><td>
 
-1.  Select the name of the credential in the **Azure AI Services Credential Alias** field.
-2.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
+1.  Enter a descriptive name for the connection.
+
+The name distinguishes this connection from others you create. For instance, you may choose a name that identifies the account, project, or environment.
+
+2.  Select the Azure AI Services OAuth 2.0 credential alias in the **Azure AI Services Credential Alias** field.
+3.  Select the Azure Machine Learning Services OAuth 2.0 credential alias in the **Azure Machine Learning Credential Alias** field.
+4.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
 
 The default is 30. Set a lower value to return results sooner or set a higher value to reduce overhead for lower-volume systems.
 
-3.  Select the name of the credential in the **Azure Machine Learning Credential Alias** field.
-4.  Select the MID Server that runs trace collection.
+5.  Select the MID Server that runs trace collection.
 
 The MID Server must be active and validated. Select **Go to Mid server installation** to install or configure one.
 
-5.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
+6.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d210525e254">
+</td></tr><tr><td id="d226025e236">
 
 **New Foundry**
 
 </td><td>
 
-1.  Select the name of the OAuth 2.0 credential in the **Azure Machine Learning Credential** field.
-2.  Select the name of the API key credential in the **Application Insights Credential** field.
-3.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
+1.  Enter a descriptive name for the connection.
 
-The default is 30. Set a lower value to return results sooner or set a higher value to reduce overhead for lower-volume systems.
+The name distinguishes this connection from others you create. For instance, you may choose a name that identifies the account, project, or environment.
 
+2.  Select the Application Insights API key credential in the **Application Insights Credential** field.
+3.  Select the Azure Machine Learning Services OAuth 2.0 credential in the **Azure Machine Learning Credential** field.
 4.  Enter the **Application Insights Application ID**.
+
+Find this value in the Azure portal, under your Application Insights resource settings.
+
 5.  Select the MID Server that runs trace collection.
 
 The MID Server must be active and validated. Select **Go to Mid server installation** to install or configure one.
 
-6.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
+6.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
+
+The default is 30. Set a lower value to return results sooner or set a higher value to reduce overhead for lower-volume systems.
+
+7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d210525e307">
+</td></tr><tr><td id="d226025e296">
 
 **Application Insights**
 
 </td><td>
 
-1.  Select the name of the OAuth 2.0 credential in the **Azure App Insights Credential** field.
-2.  Enter the **Application Insights Resource ID**.
-3.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
+1.  Enter a descriptive name for the connection.
 
-The default is 30. Set a lower value to return results sooner or set a higher value to reduce overhead for lower-volume systems.
+The name distinguishes this connection from others you create. For instance, you may choose a name that identifies the account, project, or environment.
 
-4.  Select the name of the OAuth 2.0 credential in the **Azure Machine Learning Credential** field.
+2.  Select the Azure App Insights OAuth 2.0 credential alias in the **Azure App Insights Credential** field.
+3.  Select the Azure Machine Learning Services OAuth 2.0 credential alias in the **Azure Machine learning credential** field.
+4.  Enter the **Application Insights Resource ID**.
+
+Find this value in the Azure portal, under your Application Insights resource settings.
+
 5.  Select the MID Server that runs trace collection.
 
 The MID Server must be active and validated. Select **Go to Mid server installation** to install or configure one.
 
-6.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
+6.  Enter the interval, in minutes, at which the MID Server polls for new trace data in the **Collection frequency \(minutes\)** field.
+
+The default is 30. Set a lower value to return results sooner or set a higher value to reduce overhead for lower-volume systems.
+
+7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
 </td></tr></tbody>
-</table>7.  Select **Save**.
+</table>5.  Select **Save**.
 
 
 ## Result
 
-One or more trace connections appear on the **Established** sub-tab. If the connection is active, AI Control Tower begins collecting trace data after the first polling interval.
+The trace connection appears on the **Established** sub-tab. If the connection is active, AI Control Tower begins collecting trace data after the first polling interval.
 
 ## What to do next
 

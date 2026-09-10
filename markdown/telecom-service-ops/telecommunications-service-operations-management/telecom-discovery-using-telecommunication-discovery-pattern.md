@@ -81,7 +81,7 @@ This ensures seamless alignment between operational and inventory systems, which
 
 MID Server is a Java application that runs as a Windows service or UNIX daemon on a server within your local network. The ServiceNow® MID Server facilitates communication and data transfer between a ServiceNow instance and external applications, data sources, and services.
 
-For more information, see .
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Identification &amp; Reconciliation Engine \(IRE\)
 

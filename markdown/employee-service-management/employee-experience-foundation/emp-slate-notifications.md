@@ -1,5 +1,5 @@
 ---
-title: Employee Slate notifications
+title: EmployeeWorks notifications
 description: Notifications provide real-time alerts and updates about important events, task assignments, system changes, and organizational announcements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-notifications.html
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 2
 keywords: [notifications, alerts, real-time notifications, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate notifications
+# EmployeeWorks notifications
 
 Notifications provide real-time alerts and updates about important events, task assignments, system changes, and organizational announcements.
 
-Employee Slate surfaces all relevant platform updates in a single notification tray accessible from every page. You see tasks, approvals, requests, and case activity in one place instead of monitoring separate queues or inboxes. The tray works the same way on the desktop portal and on the mobile web.
+EmployeeWorks surfaces all relevant platform updates in a single notification tray accessible from every page. You see tasks, approvals, requests, and case activity in one place instead of monitoring separate queues or inboxes. The tray works the same way on the desktop portal and on the mobile web.
 
 ## Notifications
 
@@ -26,7 +26,7 @@ The notification system delivers timely information about events requiring your 
 Employee Slate delivers notifications on the portal and in the mobile web app.
 
 -   **Notifications**: Left navigation shows the count of new notifications. Select the **Bell** icon to open the notification tray and view the list. New notifications appear with a green dot and highlighted background for quick identification of unread items.
--   **Grouped notifications**: Track and review multiple updates. Employee Slate groups the unread notifications into a single entry in the tray. The grouped entry uses aggregated template to show the most recent update with a summary of earlier activity.
+-   **Grouped notifications**: Track and review multiple updates. Access notifications groups of the unread notifications into a single entry in the tray. The grouped entry uses aggregated template to show the most recent update with a summary of earlier activity.
 -   **Mark all as read**: Clear the notification count without opening each notification. Select **Mark all as read** to move all notifications to the **Opened** state. Opening the tray marks all notifications as viewed.
 -   **Navigate to the source record**: Select any notification in the tray to open the related record or page. Examples include an approved request, an HR case needing follow-up, or an incident with a new comment. You don't search for the record or navigate through menus. Selecting a notification opens the location where you can review details and respond.
 
@@ -49,7 +49,7 @@ Every notification moves through three states that reflect how you have interact
 
 ## Preconfigured notification use cases
 
-Employee Slate for Now Assist includes 14 preconfigured notification use cases. These use cases cover common events across HR, IT, and service request workflows. They are active by default and don't require additional configuration.
+By default, you can access 14 preconfigured notification use cases. These use cases cover common events across HR, IT, and service request workflows. They are active by default and don't require additional configuration.
 
 -   HR case closed.
 -   HR case commented.
@@ -66,7 +66,7 @@ Employee Slate for Now Assist includes 14 preconfigured notification use cases. 
 -   RITM approval assigned.
 -   RITM commented.
 
-## ServiceNow Otto notifications in Employee Slate
+## ServiceNow Otto notifications
 
-In Moveworks deployments, administrators configure notifications on the Moveworks platform instead of through **Employee Slate Admin Console**. Moveworks notifications appear in Employee Slate persistent navigation alongside platform-triggered notifications. You see all your alerts in one place. Selecting a Moveworks notification brings the related update into Moveworks AI Assistant context. You can ask follow-on questions or take direct action from the assistant.
+In Moveworks deployments, administrators configure notifications on the Moveworks platform instead of through **Admin Console**. Moveworks notifications appear in the persistent navigation alongside platform-triggered notifications. You see all your alerts in one place. Selecting a Moveworks notification brings the related update into Moveworks AI Assistant context. You can ask follow-on questions or take direct action from the assistant.
 

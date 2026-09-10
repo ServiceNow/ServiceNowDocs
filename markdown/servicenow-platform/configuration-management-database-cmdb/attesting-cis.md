@@ -16,9 +16,9 @@ breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), C
 
 Verify the existence of actual IT infrastructure and applications that you own, systematically and in bulk. As CIs are continuously ingested into the CMDB from various data sources, ensure the integrity of the CMDB. Remove any stale CIs that are associated with IT infrastructure or applications that no longer exists.
 
-Use the [CMDB Data Manager in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md)and in Service Graph Workspace to [create an Attestation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md), specifying CIs that need to be attested and the attestation frequency. Assign Attestation tasks to users that are familiar with or that manage the CIs, and who can attest or reject the IT infrastructure or applications that those CIs represent. Rejected CIs that are no longer needed can then be retired, archived, or deleted from the CMDB.
+Use the [CMDB Data Manager in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md) to [create an Attestation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md), specifying CIs that need to be attested and the attestation frequency. Assign Attestation tasks to users that are familiar with or that manage the CIs, and who can attest or reject the IT infrastructure or applications that those CIs represent. Rejected CIs that are no longer needed can then be retired, archived, or deleted from the CMDB.
 
-Users can go to the [My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-govern-view.md)or to the [Tasks view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-tasks-view.md) to see their assigned attestation tasks, and then [review and process the tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
+Users can go to the [Tasks view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-tasks-view.md) to see their assigned attestation tasks, and then [review and process the tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
 
 ## Smart detection and auto-attestation
 
@@ -60,7 +60,7 @@ Disables smart detection.
     -   **true**: Disable smart detection.
     -   **false**: Enable smart detection.
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Comma-separated list of discovery sources that are excluded in smart detection p
  -   Type: string
 -   Default value: Manual Entry
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Number of days \(discovery window\) that smart detection uses to determine wheth
  -   Type: integer
 -   Default value: 30
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr></tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Oracle pluggable database and container database discovery
-description: The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.html
 release: zurich
@@ -8,13 +8,13 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Oracle pluggable database and container database discovery
 
-The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 A PDB is a portable collection of schemas, schema objects, and non-schema objects that appear to an Oracle Net client as a separate database. A collection of PDBs is called a container database \(CDB\).
 
@@ -28,7 +28,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Set the user credentials and grant permissions:
 
--   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md) or \(for UNIX only\) [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
 -   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_WindowsCredentialsForm.md)
 -   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md)
 -   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)

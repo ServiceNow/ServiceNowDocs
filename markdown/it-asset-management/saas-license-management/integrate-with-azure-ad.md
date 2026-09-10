@@ -8,7 +8,7 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d70635e584">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d54178e584">
 
 Interface
 
-</th><th align="left" id="d70635e587">
+</th><th align="left" id="d54178e587">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d70635e593">
+</th></tr></thead><tbody><tr><td id="d54178e593">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d70635e635">
+</td></tr><tr><td id="d54178e635">
 
 **Software Asset Workspace**
 
@@ -193,7 +193,11 @@ Action
 
     If you already have a Microsoft Entra ID directory integration, the SSO integration uses your existing directory integration. Otherwise, a Microsoft Entra ID directory integration is automatically created.
 
-3.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
+3.  If you want to exclude the creation of SSO subscriptions for disabled accounts, select the **Exclude disabled accounts** option.
+
+    The **Exclude disabled accounts** check box is clear by default. The disabled accounts are those accounts for which the Account status is disabled in the Entra ID portal.
+
+4.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
     **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
 
@@ -202,15 +206,15 @@ Action
     -   The **Download Activity** check box is selected by default. If you clear it, the last activity for connected applications isn't pulled.
     -   The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
 
-4.  Select **Submit**.
+5.  Select **Submit**.
 
     The **Connection &amp; Credential** field appears.
 
-5.  Select the **Create New Connection &amp; Credential** related link.
+6.  Select the **Create New Connection &amp; Credential** related link.
 
     **Note:** If you have installed Software Asset Workspace, open the Connection and credential record and select the **Create New Connection &amp; Credential** related link.
 
-6.  On the form, fill in the fields.
+7.  On the form, fill in the fields.
 
 <table id="table_dlb_lcb_blb"><thead><tr><th>
 
@@ -281,17 +285,17 @@ OAuth Redirect URL
 `https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance. This value is automatically populated.
 
 </td></tr></tbody>
-</table>7.  Select **Create and Get OAuth Token**.
+</table>8.  Select **Create and Get OAuth Token**.
 
     You're redirected to the Azure portal. For the role required to perform this step, refer to the [Minimal users permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
 
-8.  In the pop-up window, sign in to your account with Microsoft Entra ID admin credentials.
+9.  In the pop-up window, sign in to your account with Microsoft Entra ID admin credentials.
 
-9.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+10. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
-10. After the connection is verified, select **Publish**.
+11. After the connection is verified, select **Publish**.
 
-11. In the Publish Confirmation dialog box, select **OK**.
+12. In the Publish Confirmation dialog box, select **OK**.
 
     If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections because the following events occur:
 

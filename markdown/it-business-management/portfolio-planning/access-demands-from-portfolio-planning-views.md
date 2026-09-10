@@ -33,15 +33,15 @@ An execution record is created in the Demands module for each planning item dema
 
 3.  Open an execution demand from the Prioritization, Kanban, or Roadmap view.
 
-<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d76568e124">
+<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d77729e124">
 
 View
 
-</th><th align="left" id="d76568e127">
+</th><th align="left" id="d77729e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d76568e133">
+</th></tr></thead><tbody><tr><td id="d77729e133">
 
 **Prioritization**
 
@@ -52,7 +52,7 @@ Action
 
 \[Omitted image "ppw-open-demand.png"\] Alt text: Row context menu with the Open demand option.
 
-</td></tr><tr><td id="d76568e161">
+</td></tr><tr><td id="d77729e161">
 
 **Kanban**
 
@@ -63,7 +63,7 @@ Action
 
 \[Omitted image "demand-kanban-ppw.png"\] Alt text: Actions menu with the Open demand option.
 
-</td></tr><tr><td id="d76568e189">
+</td></tr><tr><td id="d77729e189">
 
 **Roadmap view**
 

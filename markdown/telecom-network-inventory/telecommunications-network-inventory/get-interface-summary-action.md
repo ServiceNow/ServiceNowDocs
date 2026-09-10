@@ -1,6 +1,6 @@
 ---
 title: Get Interface Summary function
-description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
+description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and physical connection of the equipment in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Telecommunications Network Inventory function catalog, Reference, T
 
 # Get Interface Summary function
 
-The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
+The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and physical connection of the equipment in the Telecommunications Network Inventory application.
 
 The Get Interface Summary function enables you to retrieve the network interface records that are associated with the input such as Site, Rack, or Equipment. You must enter the site, equipment, or rack value to return the output.
 
-If multiple inputs don't match, the action reports an error. For example, let's say that you can see the equipment and site details but because the equipment doesn’t belong to the site, the system reports an error with the conflict information.
+If multiple inputs don’t match, the action reports an error. For example, if the equipment doesn’t belong to the specified site, the system reports an error with the conflict information.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 
@@ -170,7 +170,7 @@ The following table lists the information about the function output.
 
 ## Example
 
-If the input is passed as Equipment-1 as shown in the following example where Port-1, Port-2, and Port-3 are connected to Equipment-1, Port-4 and Port-5 are connected to Equipment-2, physical connection-1 between Port-2 and Port-4, and physical connection-2 between Port-3 and Port-5. Then the output is as follows:
+If the input is Equipment-1 as shown in the following example, Port-1, Port-2, and Port-3 are connected to Equipment-1; Port-4 and Port-5 are connected to Equipment-2. Physical connection-1 runs between Port-2 and Port-4; physical connection-2 runs between Port-3 and Port-5. The output is as follows:
 
 -   Available Interface - Port-1
 -   Connected Interfaces - Port-2 and Port-3

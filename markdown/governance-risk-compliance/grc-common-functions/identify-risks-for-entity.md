@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Agentic workflows, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Identify risks for an entity using ServiceNow Otto for IRM

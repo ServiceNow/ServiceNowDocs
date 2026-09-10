@@ -57,9 +57,9 @@ If you have TRM products that aren't aligned with TRM phases and standards, then
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version isn’t available for current date.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with version and edition information isn’t production approved.|
 
-For details on TRM technical debts, see [Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md).
+For details on TRM technical debts, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-trm-technical-debt.md).
 
-You can schedule the **Populate TRM technical debts in the EA Workspace** job to update the TRM technical debt data in the EA Workspace. For more information, see [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+You can schedule the **Populate TRM technical debts in the EA Workspace** job to update the TRM technical debt data in the EA Workspace. For more information, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 ## Lifecycle end-date calculation logic
 

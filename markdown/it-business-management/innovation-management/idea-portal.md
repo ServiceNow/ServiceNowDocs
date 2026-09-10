@@ -20,7 +20,7 @@ The Idea Portal enables you to do the following:
 
 -   View, submit, vote, and subscribe to ideas.
 -   Collaborate using comments to discuss and exchange information on ideas.
--   Users who submit, comment, or subscribe to an idea receive a notification for any state change, comment, or reply to that idea keeping them informed about its status and progress.
+-   Users who submit, comment, or subscribe to an idea receive a notification for any state change, comment, or reply to that idea. This keeps them informed about its status and progress.
 -   View the details of an idea and ask or answer questions and exchange information about an idea using comments. Comments maintain a trail of discussion and help to identify key contributors for an idea or reasons for its success and failure.
 
 Idea and demand managers use the Idea Portal to do the following:
@@ -36,8 +36,8 @@ The selected ideas are converted into tasks for planning and then developed into
 You can use the Idea module to do the following:
 
 -   Store ideas and categories belonging to different departments, products, or business units separately.
--   Store and organize ideas, enable voting, and, if your organization is large, you can configure different portal pages with unique sets of categories, for example, for HR, IT, and Support.
--   Control access, allowing only the users of a specific business unit or department to submit and view ideas belonging to a specific category through the Idea Portal by creating access-control lists in the table that you want to use for categories. For example, if you do not want users outside the Payroll department to view the ideas associated with the category Salary, create ACLs with read access, at least, to the employees of Payroll department in the parent table that is used to derive the category Salary. The ACLs restrict the employees outside the Payroll department from viewing the ideas associated with the category Salary. For more information, see [Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-idea-module.md).
+-   Store and organize ideas, and enable voting. If your organization is large, you can configure different portal pages with unique sets of categories, for example, for HR, IT, and Support.
+-   Control access, allowing only the users of a specific business unit or department to submit and view ideas belonging to a specific category through the Idea Portal. To do so, create access-control lists in the table that you want to use for categories. For example, suppose you do not want users outside the Payroll department to view the ideas associated with the category Salary. In this case, create ACLs with read access, at least, to the employees of Payroll department in the parent table that is used to derive the category Salary. The ACLs restrict the employees outside the Payroll department from viewing the ideas associated with the category Salary. For more information, see [Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/create-idea-module.md).
 
 **Note:** Innovation Management supports basic level of domain separation. For more information about domain separation, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md) and [Domain separation and Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/domain-separation-project-portfolio-financials.md).
 

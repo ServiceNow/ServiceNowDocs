@@ -32,6 +32,8 @@ Role required: sn\_oper\_res.manager
 
 5.  Select **Save**.
 
+    Changing the third-party service provider on the associated contract's specific information also triggers this update. The rank 1 supply chain record updates automatically to match the new provider.
+
 6.  To edit the supply chain record, complete the following.
 
     1.  Navigate to **Supply chains** and select the check box of the record you want from the list.

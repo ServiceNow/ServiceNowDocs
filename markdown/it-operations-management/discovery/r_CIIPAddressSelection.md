@@ -43,7 +43,7 @@ glide.discovery.enforce\_unique\_ips
 
 </td><td>
 
-Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network gear with a valid IP address is discovered, any other devices with the same IP address have their IP address field cleared. If inactive, stores the IP address for each device.
+Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network device with a valid IP address is discovered, the IP address field is cleared on any other device sharing that address. If inactive, stores the IP address for each device.
 
  -   Type: true \| false
 -   Default value false

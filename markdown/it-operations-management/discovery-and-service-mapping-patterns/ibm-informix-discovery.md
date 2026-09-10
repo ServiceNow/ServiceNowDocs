@@ -1,6 +1,6 @@
 ---
 title: IBM Informix Dynamic Server discovery
-description: The ServiceNow Discovery and Service Mapping applications can find and map the Informix Dynamic Server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications can find and map the Informix Dynamic Server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/ibm-informix-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # IBM Informix Dynamic Server discovery
 
-The ServiceNow Discovery and Service Mapping applications can find and map the Informix Dynamic Server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications can find and map the Informix Dynamic Server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -71,7 +71,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Top-down
 
-During top-down discovery, Service Mapping discovers connections between the Informix Instance and the Informix Catalogs that the instance contains and displays them as an inclusion on the application service map.
+During top-down discovery, Service Mapping discovers connections between the Informix Instance and the Informix Catalogs that the instance contains. These connections display as an inclusion on the application service map.
 
 **Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

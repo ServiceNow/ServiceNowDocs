@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Policy exceptions, Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Policy exceptions, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Create a policy exception

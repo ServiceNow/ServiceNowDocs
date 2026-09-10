@@ -58,39 +58,39 @@ You can assign the same start and end dates to multiple quote lines while creati
 Customers can scale their purchases by adjusting the pricing and quantity throughout the contract or subscription term by using Ramps feature. For more info, see [Add price ramps on a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-price-ramps-on-a-quote-line-item.md). You can view the price ramp details on the contract line. Only the active price ramp segment is displayed on the contract line. Select a contract line and select **Ramps** to view all the details of the price ramp for that contract line. You can view start and end date, term period, ramp type \(yearly or quarterly\), ramp segments, and Annual percentage increase \(API%\).
 
 -   **[Suspend a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-suspend-service-contract.md)**  
-Suspend a service contract and its child service contract lines by creating an order on the CSM Configurable Workspace. Suspending a service contract suspends or disables the services specified in that service contract.
+Suspend a service contract and its child service contract lines by creating an order on the CRM Workspace. Suspending a service contract suspends or disables the services specified in that service contract.
 -   **[Modify a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-modify-service-contract.md)**  
 Modify a service contract so that you can update its existing configurations.
 -   **[Resume a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-resume-service-contract.md)**  
-Resume a service contract and its child service contract lines by creating an order on the CSM Configurable Workspace. By resuming a service contract, you are restarting the services specified in that service contract.
+Resume a service contract and its child service contract lines by creating an order on the CRM Workspace. By resuming a service contract, you are restarting the services specified in that service contract.
 -   **[Renew a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-renew-service-contract.md)**  
-Renew a service contract on the CSM Configurable Workspace before the service contract expires.
+Renew a service contract on the CRM Workspace before the service contract expires.
 -   **[Cancel a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-cancel-service-contract.md)**  
-Create an order to cancel a service contract and its child service contract lines on the CSM Configurable Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
+Create an order to cancel a service contract and its child service contract lines on the CRM Workspace. By canceling a service contract, you are terminating the services specified in that service contract.
 -   **[Suspend a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-suspend-service-contract-line.md)**  
 Suspend a service contract line and its child service contract lines by creating an order on the CSM Configurable Workspace. By suspending a service contract line, you are suspending or disabling the services and characteristics associated with that service contract line.
 -   **[Modify a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-modify-service-contract-line.md)**  
 Modify a service contract line so that you can update its existing configurations.
 -   **[Resume a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-resume-service-contract-line.md)**  
-Create an order to resume a service contract line and its child service contract lines on the CSM Configurable Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
+Create an order to resume a service contract line and its child service contract lines on the CRM Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
 -   **[Renew a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-renew-service-contract-line.md)**  
-Renew a service contract line on the CSM Configurable Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
+Renew a service contract line on the CRM Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
 -   **[Cancel a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-cancel-service-contract-line.md)**  
 Create an order to cancel a service contract line and its child service contract lines on the CSM Configurable Workspace. By canceling a service contract line, you are canceling or disabling the services and characteristics associated with that service contract line.
 -   **[Upsell or Downsell a service contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-upsell-downsell-service-contract.md)**  
-Upsell or downsell a service contract line on the CSM Configurable Workspace. You can reduce or increase the quantities of the products specified in the service contract line.
+Upsell or downsell a service contract line on the CRM Workspace. You can reduce or increase the quantities of the products specified in the service contract line.
 -   **[Modify an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-modify-entitlement.md)**  
 Modify an entitlement associated to an account so that you can update its existing configurations.
 -   **[Suspend an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-suspend-entitlement.md)**  
 Suspend an entitlement by creating an order on the CSM Configurable Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
 -   **[Resume an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-resume-entitlement.md)**  
-Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
+Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 -   **[Renew an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-renew-an-entitlement.md)**  
-Renew an entitlement on the CSM Configurable Workspace.
+Renew an entitlement on the CRM Workspace.
 -   **[Cancel an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-cancel-entitlement.md)**  
 Cancel an entitlement by creating an order on the CSM Configurable Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
 -   **[Add contract lines to a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cce-add-contract-lines.md)**  
-Add one or more contract lines to a service contract on the CSM Configurable Workspace.
+Add one or more contract lines to a service contract on the CRM Workspace.
 -   **[Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/adding-cov-prod-cceworkflows.md)**  
 Covered products refers to specific products or order line items that are included in a service contract. These items are linked to the contract to define what is covered for service or maintenance. Covered products can be directly tracked through the contract records, facilitating changes and visibility of what is covered.
 

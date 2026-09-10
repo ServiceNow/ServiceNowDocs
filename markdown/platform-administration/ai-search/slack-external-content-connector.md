@@ -23,7 +23,7 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 ## Slack connector limitations
 
-The Slack external content connector does not retrieve text or metadata content from messages in your Slack source system's public channels. It only retrieves and indexes attachments from those public channels.
+The Slack external content connector doesn't retrieve text or metadata content from messages in your Slack source system's public channels. It only retrieves and indexes attachments from those public channels.
 
 User access permissions aren't preserved for indexed attachments, so any user with access to your indexed Slack content can view any indexed attachment.
 

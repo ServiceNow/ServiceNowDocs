@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-04-27"
 reading_time_minutes: 2
-breadcrumb: [TISC Enrichment Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure new enrichment
@@ -109,10 +109,10 @@ Unique description for the new enrichment integration.
     **Note:** You can also enable, disable, or delete an enrichment integration using the Actions menu on the integration tile.
 
 
-**Parent Topic:**[TISC Enrichment Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 
 **Related topics**  
 
 
-[TISC Security Tools Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-edr-integrations.md)
+[TISC Security Tools integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-edr-integrations.md)
 

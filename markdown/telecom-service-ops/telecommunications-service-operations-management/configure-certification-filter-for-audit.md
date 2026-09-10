@@ -48,7 +48,7 @@ The following screenshot helps to understand the user interface of the certifica
 
 3.  Fill in the fields.
 
-    For more guidance, see .
+    For more guidance, see [Create a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreatingFilters.md).
 
 4.  Add the filter conditions.
 

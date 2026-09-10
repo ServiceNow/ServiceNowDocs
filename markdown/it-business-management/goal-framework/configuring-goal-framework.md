@@ -7,8 +7,8 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -34,6 +34,8 @@ Configure target sources for target automation so that the goal user can define 
 After upgrading to Goal Framework for SPM v2.3.0 or later, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job to migrate the existing values from the **Review frequency** field to the **Check-in frequency** field in the target records.
 -   **[Defining a custom unit of measure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/defining-a-custom-unit-of-measure-gf.md)**  
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
+-   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configure-automatic-status-calculation.md)**  
+Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework.md)
 

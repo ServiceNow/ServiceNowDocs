@@ -18,7 +18,7 @@ The MITRE attack and defend technique graph provides security analysts with an i
 
 ## MITRE attack and defend technique graph Overview
 
-The MITRE attack and defend technique graph enables analysts to explore relationships between security threats and defensive measures, helping them understand the complete attack and defense landscape for an incident. The graph uses a hierarchical structure with the SIR record as the root node, branching out to display attack techniques, defend techniques, and their associated artifacts.
+The MITRE technique graphs enables analysts to explore relationships between security threats and defensive measures, helping them understand the complete attack and defense landscape for an incident. The graph uses a hierarchical structure with the SIR record as the root node, branching out to display attack techniques, defend techniques, and their associated artifacts.
 
 Analysts can interact with nodes to view details, establish associations, and manage the visibility of information based on their investigation needs. The visualization only appears when MITRE attack and defend technique data has been ingested into the system. Without ingested data, the MITRE attack and defend technique tab remains hidden from the SIR workspace.
 
@@ -32,6 +32,8 @@ The graph consists of the following node types arranged in a hierarchical struct
 -   Artifact nodes: Second or third level nodes representing specific artifacts related to defend techniques.
 
 Nodes at the same hierarchical level can have cross-references, creating connecting edges when the same node relates to multiple parent nodes.
+
+Attack technique nodes are labeled and iconized according to their source framework. The source framework is either MITRE-ATT&amp;CK or MITRE ATLAS. You can visually distinguish which framework a technique belongs to at a glance.
 
 ## Available actions
 

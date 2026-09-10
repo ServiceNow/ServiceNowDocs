@@ -54,7 +54,7 @@ The CSDM framework provides a consistent data structure. This consistent data st
 
 Because of the way the CSDM framework is structured, you can leverage many products from ITOM, Service Management \(Service Portfolio Management\), and IT Application Management \(ITAM\).
 
-The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB, and matched with a software and hardware product model.
+The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model. These models are identified in the CMDB.
 
 You can enter the life-cycle data manually, import it from an external source, or use the data provided with your Software Asset Management Professional or Hardware Asset Management license.
 

@@ -37,7 +37,7 @@ When a constituent case is created or updated, the constituent receives an email
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM Configurable Workspace** &gt; **List**
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **List**
 
 2.  Navigate to the related list of the type of case you want to create.
 
@@ -45,7 +45,7 @@ When a constituent case is created or updated, the constituent receives an email
 
 4.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d30026e138">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d30448e138">
 
 **Add a constituent.**
 
@@ -56,7 +56,7 @@ Select a constituent in the **Constituent** field. -   If the constituent belong
 -   If the constituent does not belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d30026e171">
+</td></tr><tr><td id="d30448e171">
 
 **Add a household.**
 

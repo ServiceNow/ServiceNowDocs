@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-recall-campaign-phases-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -111,8 +111,6 @@ Brief description about the recall campaign phase.
 
 **Related topics**  
 
-
-[Create a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-all-campaign-phases.md)
 
 [Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-my-campaign-phases.md)
 

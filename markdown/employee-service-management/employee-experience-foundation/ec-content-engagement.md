@@ -1,26 +1,26 @@
 ---
 title: Content engagement
-description: Content engagement enhances news articles by providing users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
+description: Content engagement enhances news articles by enabling users to comment and react. Managers can measure content effectiveness using engagement metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-content-engagement.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-01"
 reading_time_minutes: 2
 breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
 # Content engagement
 
-Content engagement enhances news articles by providing users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
+Content engagement enhances news articles by enabling users to comment and react. Managers can measure content effectiveness using engagement metrics.
 
 ## Overview of Content engagement
 
-Content engagement features are seamlessly embedded in news articles to enable employees to view engagement summaries at the top of the article, select a reaction icon, or post a comment. \[Omitted image "emp-engagement.png"\] Alt text: Content engagement delivers engagement summary, reaction icons, and commenting capabilities to the portal
+Content engagement features are seamlessly embedded in news articles. Employees can view engagement summaries at the top of the article, select a reaction icon, or post a comment. \[Omitted image "emp-engagement.png"\] Alt text: Content engagement delivers engagement summary, reaction icons, and commenting capabilities to the portal
 
-Content managers can choose which content engagement features to enable when creating a news article. To enable faster news article publishing, content admins can pre-set Content engagement features in a content template. \[Omitted image "mgr-engagement.png"\] Alt text: Enable comments, reactions, and view count from the Content Template or New Content forms
+Content managers can choose which content engagement features to enable when creating a news article. To enable faster news article publishing, content admins can set Content engagement features in a content template. \[Omitted image "mgr-engagement.png"\] Alt text: Enable comments, reactions, and view count from the Content Template or New Content forms
 
 ## Reporting content
 
@@ -32,7 +32,7 @@ Content engagement includes a comment reporting workflow, where employees can re
 
 Content analytics provides visualizations for employee engagement metrics in the [Content engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-pro-content-engagement-dashboard.md).
 
-Additionally, you can review visualizations for a specific news article, including total views count, engagement trends by day, and unique views by day. Navigate to the news article content item and click **View analytics report** in the hamburger menu.
+Additionally, you can review visualizations for a specific news article, including total views count, engagement trends by day, and unique views by day. Navigate to the news article content item and select **View analytics report** in the form context menu.
 
 ## Setting up Content engagement
 
@@ -42,4 +42,11 @@ Content engagement is installed as a plugin. The features are enabled through th
 2.  Enable Content engagement in Content Publishing properties: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 3.  [Configure a custom reaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ce-configure-reaction.md) \(optional\)
 4.  Enable Content engagement in Content templates: [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-templates.md) \(optional\).
+
+|Role|Access|
+|----|------|
+|sn\_ce.admin|Required to view the Content engagement dashboard. Grants dashboard read access and displays the **Analytics Dashboard** navigation menu item.|
+|sn\_ce.analytics\_reader|Grants read access to the underlying engagement tables \(views, reactions, comments, and flags\).|
+
+**Note:** sn\_ce.analytics\_reader is a separate, lower-privilege role. It grants access to the underlying engagement data but does not grant access to the dashboard UI. Dashboard access requires sn\_ce.admin.
 

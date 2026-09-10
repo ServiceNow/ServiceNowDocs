@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-prioritizing-vulnerabilities-other-findings.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -57,8 +57,6 @@ Also, consider the following weights in the vulnerability roll-up calculator:
 -   Maximum risk score: 80
 -   Average risk score: 5
 -   Count of vulnerable items: 15
-
-\[Omitted image "remediation-task-rollup-calculator-example.png"\] Alt text: Vulnerability rollup calculator example with a maximum risk score of 80, an average risk score of 5, and a count of vulnerable items of 15.
 
 In the Vulnerability rollup calculator example, the formula for determining the remediation task **Risk Score** is:
 

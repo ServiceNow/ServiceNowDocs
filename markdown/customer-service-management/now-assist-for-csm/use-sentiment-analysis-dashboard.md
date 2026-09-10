@@ -21,7 +21,7 @@ The sentiment analysis dashboard provides a comprehensive view of customer senti
 
 ## Entry Point Widget
 
-The sentiment snapshot widget can be accessed from the CSM Configurable Workspace and Workforce Optimization home page. It displays a preview of the dashboard of the sentiment trend over time, using the average sentiment score per day. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
+The sentiment snapshot widget can be accessed from the CRM Workspace and Workforce Optimization home page. It displays a preview of the dashboard of the sentiment trend over time, using the average sentiment score per day. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
 
 **Note:**
 

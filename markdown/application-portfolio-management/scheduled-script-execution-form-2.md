@@ -1,6 +1,6 @@
 ---
 title: Scheduled Script Execution form
-description: The script to recalculate the scores of all indicators, the scoring profiles to which these indicators are attached, and the business applications that are associated to these scoring profiles.
+description: Script to recalculate scores for all indicators, their attached scoring profiles, and associated business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/scheduled-script-execution-form-2.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio
 
 # Scheduled Script Execution form
 
-The script to recalculate the scores of all indicators, the scoring profiles to which these indicators are attached, and the business applications that are associated to these scoring profiles.
+Script to recalculate scores for all indicators, their attached scoring profiles, and associated business applications.
 
 ## Scheduled script execution form fields
 

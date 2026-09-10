@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -17,6 +17,10 @@ Add a loss scenario and define the related asset dependencies in your business c
 ## Before you begin
 
 Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
+
+## About this task
+
+If the plan was created from a plan template, loss scenarios may already be pre-configured. When the plan template's "Synchronize loss scenario assets with recovery strategy assets" option is enabled, asset lists are kept in sync with the recovery strategy automatically.
 
 ## Procedure
 
@@ -50,6 +54,18 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     The related asset dependencies are listed on the **Related asset dependencies** tab.
 
+    Starting with the Zurich release of the application, the Loss scenario record has the following related lists:
+
+    -   Task template groups
+    -   Task templates
+    -   Recovery strategies
+    -   Plan templates
+
+## What to do next
+
+After the loss scenario is created, you can populate its **Recovery tasks** tab in bulk by selecting **Add groups** or **Add tasks**. The **Select task template groups** dialog automatically filters by the loss scenario's element definition \(for example, only groups applicable to Datacenters are shown for a Loss of Datacenters scenario\). For field-level details, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-a-recovery-task.md).
+
+\[Omitted image "plan-loss-scenario-form.png"\] Alt text: Loss of Datacenters plan-loss-scenario record showing the Details tab.
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

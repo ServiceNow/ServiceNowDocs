@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/create-delivery-plan-change.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-19"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 keywords: [delivery plan change, purchase order exception, PO exception]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -124,4 +124,6 @@ Revised delivery date.
 [Create new purchase order exception form]()
 
 [Master data tables for Purchase Order Management]()
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [data, storage, lookups, key-value, splunk, tisc, tisc integrations]
-breadcrumb: [Configure TISC add-on in Splunk, TISC add-on for Splunk overview, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Data storage in Splunk
@@ -66,5 +66,5 @@ inputlookup <tisc_store_lookup>" example : | inputlookup tisc_store_lookup
 Query to lookup records in the KV store.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-configure-splunk.md)
+</table>**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

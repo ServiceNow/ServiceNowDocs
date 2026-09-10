@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d465515e141">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d471211e141">
 
 Using
 
-</th><th align="left" id="d465515e144">
+</th><th align="left" id="d471211e144">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d465515e150">
+</th></tr></thead><tbody><tr><td id="d471211e150">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d465515e186">
+</td></tr><tr><td id="d471211e186">
 
 **Application navigator**
 

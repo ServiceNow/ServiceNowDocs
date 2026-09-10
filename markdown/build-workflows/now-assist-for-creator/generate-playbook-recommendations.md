@@ -19,11 +19,9 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
 ## Before you begin
 
--   Verify that the Now Assist for Creator plugin is installed and the Playbook recommendations skill is active.
+-   Verify that the Now Assist for Creator plugin is installed and the Playbook recommendations skill is turned on.
 
-    **Note:** The skill is available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
-
-    \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
+    **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
     To learn how to turn on the Playbook recommendations skill, see [Turn on Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/turn-on-playbook-recommendations.md).
 

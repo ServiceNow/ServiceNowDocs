@@ -16,6 +16,8 @@ breadcrumb: [Requesting time-off using the ITSM Mobile Agent, Advanced configura
 
 Receive notifications when you manage shift-swap and time-off requests. Enable notifications for the actions that are most relevant to you. For example, get notified when you receive a request for approval from an agent who wants to swap shifts with a peer.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 As a Workforce Optimization for ITSM agent \(sn\_shift\_planning.agent\) and a Workforce Optimization for ITSM manager \(sn\_wfo\_cfg\_ws.manager\), you can enable or disable notifications for shift-swap and time-off requests and approvals. Agents can request a shift-swap with their peers and get approval from their manager. They can also request approval for time-off from their managers.
 
 You must set your notification preferences in your desktop application to receive the notifications in your ITSM Mobile Agent application.

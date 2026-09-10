@@ -151,7 +151,7 @@ Allow task dates outside schedule
 
 </td><td>
 
-Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon appears next to the task in the **Short description** column.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
+Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon appears next to the task in the **Short description** column.For example, the project schedule is Monday to Friday, 8:00 to 17:00, and a project task of duration 2 days should start on Saturday. Then, an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
 
  -   The option is not available for a parent task. When a task is made off-schedule, its parent also becomes off-schedule. The project also operates as out of schedule if any of the children is set to out of schedule.
 -   Once a task is allowed outside the schedule, the **Follow schedule** option is available for the task. Right-click the task and select **Follow schedule** to follow the schedule for the task.

@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Splunk Polling, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ Set up an integration that periodically pulls log data from Splunk to your Servi
 
 -   No more than the default maximum of 10 integrations will stream logs to a single MID Server. You can modify the maximum number by adding the property `sn.occ.log_ingestion.max_datainputs_per_mid` to the MID Server and then changing the default value.
 
-    To find out how many data inputs are streaming logs to the same MID Server, navigate to the **Streaming Sources** table and count the data inputs that stream to a specific MID Server.
+    To find out how many data inputs are streaming logs to the same MID Server, navigate to the **Streaming Sources** table. Count the data inputs that stream to a specific MID Server.
 
 -   Consider whether to pull the log data to a single MID Server or to a MID Server cluster.
 

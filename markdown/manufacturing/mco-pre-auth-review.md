@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-pre-auth-review.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a pre-authorization request, Pre-authorization requests, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Review and approve a pre-authorization request
@@ -38,5 +38,5 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 5.  Select **Confirm**.
 
 
-**Parent Topic:**[Create a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agents-create-pre-auth-request.md)
+**Parent Topic:**[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agents-pre-auth-requests.md)
 

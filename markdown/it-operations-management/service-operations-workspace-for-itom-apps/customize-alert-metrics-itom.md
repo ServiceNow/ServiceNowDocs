@@ -1,6 +1,6 @@
 ---
 title: View alert metric trends in Service Operations Workspace
-description: View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\), enabling more accurate analysis and timely decision-making.
+description: View alert metrics and adjust the time range to see trends for the alert or its associated Configuration Item \(CI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-alert-metrics-itom.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Service Operations Workspace, Configure, Service Operations Workspa
 
 # View alert metric trends in Service Operations Workspace
 
-View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\), enabling more accurate analysis and timely decision-making.
+View alert metrics and adjust the time range to see trends for the alert or its associated Configuration Item \(CI\).
 
 ## Before you begin
 

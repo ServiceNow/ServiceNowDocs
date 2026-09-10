@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-tech-lifecycle.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 2
 breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_apm.apm\_user
 The TLM lifecycle data enables you to manage your technology portfolio effectively, ensuring your business applications and their related application services are updated or replaced timely.
 
 **Note:** For each TLM lifecycle phase, the end date of one phase is the start date of the next phase. For information on lifecycle end-date calculation logic, see [View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
+
+Each software technology lifecycle record also shows which TRM product and product lifecycle govern its obsolescence status. For field details, see [Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-governing-fields.md).
 
 ## Procedure
 
@@ -55,4 +57,6 @@ The TLM lifecycle data enables you to manage your technology portfolio effective
 [View TLM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-logs.md)
 
 [View TLM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tech-risk.md)
+
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-governing-fields.md)
 

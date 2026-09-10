@@ -9,12 +9,16 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrations for Leader Hub
 
 Extend the Leader Hub application's capabilities by integrating with the Talent Development suite of applications to acquire pertinent data about the talent in your organization.
+
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Leader Hub integrates with certain applications in the Talent Development suite to generate metrics for employee engagement. Organizational leaders use the data that Leader Hub generates to effectively drive performance, foster growth, and harness the potential of their teams. Leaders can view and analyze the data associated with their organization's talent from the Employee Center.
 

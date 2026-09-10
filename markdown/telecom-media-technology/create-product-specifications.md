@@ -33,7 +33,7 @@ For example, suppose you define a product specification for an SD-WAN service pa
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** &gt; **Product Specifications** and select **New**.
 
@@ -240,15 +240,15 @@ You can't change this field.
 
 5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d36074e547">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d36095e547">
 
 Action
 
-</th><th align="left" id="d36074e550">
+</th><th align="left" id="d36095e550">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36074e556">
+</th></tr></thead><tbody><tr><td id="d36095e556">
 
 **Publish**
 
@@ -258,7 +258,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d36074e574">
+</td></tr><tr><td id="d36095e574">
 
 **Update**
 
@@ -266,7 +266,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d36074e583">
+</td></tr><tr><td id="d36095e583">
 
 **Copy**
 

@@ -16,7 +16,7 @@ Create an information request record in the Public Sector Digital Services appli
 
 ## Before you begin
 
-**Note:** Before you start this procedure, verify that the Information Request Playbook application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CSM Configurable Workspace. For instructions, see [Install Information Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/install-psds-information-request-playbook.md).
+**Note:** Before you start this procedure, verify that the Information Request Playbook application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 
@@ -28,7 +28,7 @@ If a playbook is configured to use a record generator, you can create a record b
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the CRM Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

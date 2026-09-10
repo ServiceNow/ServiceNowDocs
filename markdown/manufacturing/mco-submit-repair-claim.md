@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-submit-repair-claim.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair claim for the dealer, Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a repair claim for warranty
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Select **Add claim jobs**.
 
-5.  Set **Type** to **Warranty**.
+5.  Set **Type** to **Warranty** or **Recall**.
 
 6.  On the Claim jobs form, fill in the fields.
 
@@ -40,8 +40,17 @@ Role required: admin
 
 7.  Select **Submit**.
 
+    The **claim review** is enabled.
+
 
 ## Result
 
 The Claim job is successfully submitted for review and approval.
+
+**Related topics**  
+
+
+[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-warranty-clms.md)
+
+[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-use-repair-claim.md)
 

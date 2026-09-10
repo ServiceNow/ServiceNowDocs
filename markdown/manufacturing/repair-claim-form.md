@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/repair-claim-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -40,7 +40,7 @@ Displays all the repair pre-authorization case lines previously created for the 
 
 </td></tr><tr><td>
 
-Casual part
+Causal part
 
 </td><td>
 
@@ -134,11 +134,11 @@ Part number that is repaired, replaced, or upgraded.
 
 </td></tr><tr><td>
 
-Casual part replacement
+Causal part replacement
 
 </td><td>
 
-Casual part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
+Causal part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
 
 </td></tr><tr><td>
 
@@ -323,6 +323,4 @@ Attachments that support your claims.
 
 
 [Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-submit-repair-claim.md)
-
-[Submit a repair claim for recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-submit-repair-claim-for-recall.md)
 

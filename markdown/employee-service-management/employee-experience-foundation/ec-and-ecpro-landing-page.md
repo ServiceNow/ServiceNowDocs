@@ -262,7 +262,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
+[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
 
 </td><td>
 

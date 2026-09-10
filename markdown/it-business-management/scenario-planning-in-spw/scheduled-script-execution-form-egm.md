@@ -18,7 +18,7 @@ Scheduled Jobs are automated pieces of work that can be performed at a specific 
 
 ## Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables
 
-Use the **Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables** job to migrate the existing goals data to the Goal Framework tables.
+Use the **Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables** job to migrate the legacy goals data to the Goal Framework tables.
 
 <table id="scheduled-job-to-migrate-goals-data-parameters-form"><thead><tr><th>
 

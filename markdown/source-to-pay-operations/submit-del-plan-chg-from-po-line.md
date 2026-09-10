@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/submit-del-plan-chg-from-po-line.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Submit delivery plan change, Delivery plan change, New exception record, Raise an issue, Purchase order exception, Purchase order exception from PO line]
 breadcrumb: [Reporting delivery plan issues, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -45,10 +45,15 @@ Role required: sn\_slm.contact
 
 8.  Select **Submit**.
 
+    The application creates an exception and assigns it to the operational buyer.
 
-## Result
-
-The application creates an exception and assigns it to the operational buyer.
 
 **Parent Topic:**[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/reporting-delivery-plan-issues.md)
+
+**Related topics**  
+
+
+[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-delivery-plan-change.md)
 

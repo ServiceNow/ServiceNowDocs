@@ -49,7 +49,7 @@ The Proactive Service Experience Workflows application enables service providers
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Proactive Service Experience Workflows release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/proactive-service-experience-worflows-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/proactive-service-experience-worflows-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/proactive-service-experience-worflows-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflow features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=proactive%20service%20experience%20workflows&spa=1)

@@ -18,7 +18,7 @@ Configure the generative AI skills for demands by defining their triggers, displ
 
 ## Before you begin
 
-Role required: sn\_generative\_ai.nsa\_admin
+Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 

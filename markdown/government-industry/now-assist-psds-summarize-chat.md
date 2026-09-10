@@ -39,9 +39,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  In CSM Configurable Workspace, open a chat from your inbox.
+2.  In CRM Workspace, open a chat from your inbox.
 
     The chat summarization skill automatically creates an inline summary in the Active Chat window. This summary includes the constituent’s issue, the interaction with the Virtual Agent, and any actions the constituent has taken before engaging with a live agent. This summary appears in the Active Chat window and is identified by the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto icon.\) and the **AI chat summary** label.
 

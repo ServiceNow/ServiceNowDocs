@@ -8,7 +8,7 @@ product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 111
+reading_time_minutes: 110
 breadcrumb: [Quick start tests, Test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
@@ -1606,7 +1606,7 @@ CSP - Create Product Case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an internal unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an internal unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins with CSM demo data.
 
 </td><td>
 
@@ -1618,7 +1618,7 @@ CSP - Create Product Case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an external unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an external unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins with CSM demo data.
 
 </td><td>
 
@@ -1662,8 +1662,8 @@ Rome
 </td></tr></tbody>
 </table>|Test|Description|Release version|
 |----|-----------|---------------|
-|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CSM Configurable Workspace.|Yokohama|
-|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CSM Configurable Workspace.|Yokohama|
+|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CRM Workspace.|Yokohama|
+|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CRM Workspace.|Yokohama|
 
 To learn more about Customer Service Management, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md).
 
@@ -2687,7 +2687,7 @@ GRC: Auditable Unit with Detailed Risk Assessment
 
 </td><td>
 
-Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor once the assessor responds and Marks Assessment as Complete after performing the control assessment and residual assessment, the risk assessment fields should be auto updated.
+Create an Auditable unit with method as "Detailed Risk Assessment." Request for Assessing the Risk Assessment by adding the Assessor. After the assessor responds and marks Assessment as Complete, the risk assessment fields are automatically updated.
 
 </td><td>
 
@@ -4484,7 +4484,7 @@ Validate Planned start date of a project can be shifted by using the Move projec
 
 </td><td>
 
-Validate that the Planned start date of a project in Planning or Open state can be updated to a later or earlier date than the current planned start date using the Move project related link.
+Validate that the Planned start date can be updated to a later or earlier date using the Move project related link.
 
 </td><td>
 

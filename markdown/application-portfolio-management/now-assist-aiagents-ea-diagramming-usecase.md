@@ -14,7 +14,7 @@ breadcrumb: [Working with AI agent agentic workflow in ServiceNow Otto for Enter
 
 Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Generate enterprise architecture diagram overview
 

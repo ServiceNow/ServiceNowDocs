@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, servicenow studio]
-breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Now Assist tools and AI files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Summarize the contents of an app in ServiceNow Studio

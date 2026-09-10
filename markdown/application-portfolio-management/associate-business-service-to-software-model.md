@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -18,7 +18,7 @@ Business applications have multiple instances such as development, QA, and produ
 
 **Important:**
 
-Starting with the Xanadu release, the legacy business applications module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy business applications module is moved to the Enterprise Architecture Workspace. To learn more, see [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
 
 Role required: sn\_apm.apm\_user
 

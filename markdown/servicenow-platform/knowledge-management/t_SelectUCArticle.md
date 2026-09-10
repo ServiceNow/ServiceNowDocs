@@ -42,15 +42,15 @@ If you are a part of the ownership group associated with the article then you ca
 
 2.  Assign access based on user criteria.
 
-<table id="choicetable_sqz_z3v_qjb"><thead><tr><th align="left" id="d634983e127">
+<table id="choicetable_sqz_z3v_qjb"><thead><tr><th align="left" id="d630415e127">
 
 Access
 
-</th><th align="left" id="d634983e130">
+</th><th align="left" id="d630415e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d634983e136">
+</th></tr></thead><tbody><tr><td id="d630415e136">
 
 **Allow read access**
 
@@ -58,7 +58,7 @@ Procedure
 
 In the **Can Read** field, search for and add user criteria. For example, to allow read access to a user, search for a user criteria that the user matches and add it to this field.
 
-</td></tr><tr><td id="d634983e148">
+</td></tr><tr><td id="d630415e148">
 
 **Deny read access**
 

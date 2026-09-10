@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 8
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -51,8 +51,12 @@ Additionally, the refined recovery timelines enable you to monitor the planned a
 
 -   **[States and UI actions for a BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/states-ui-actions-bcp.md)**  
 When you create a business continuity plan \(BCP\), certain UI actions are associated with each state.
+-   **[Recovery strategy and task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/recovery-strategy-and-task-templates-overview.md)**  
+Business continuity planners often rebuild the same recovery structures each time they author a plan. Reusable templates remove that repetition by capturing standard strategies, tasks, and task groupings once and applying them wherever they are needed.
 -   **[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)**  
 Create a business continuity plan in BCM UIB Workspace.
+-   **[Create a business continuity plan from a plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.md)**  
+Create a business continuity plan from a plan template in BCM UIB Workspace so that the loss scenarios, recovery strategies, and recovery tasks defined on the template are generated automatically.
 -   **[Scheduling auto-update of related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/import-cmdb-updates-in-plans.md)**  
 You can schedule an auto-update of the related assets in the plans based on the source data and relationships in the CMDB. You can receive an email notification with details of the plan dependency updates from the BCM application. Dependencies are fetched from different sources such as BIA upstream dependency, BIA downstream dependencies, and CMDB.
 -   **[Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md)**  
@@ -65,12 +69,26 @@ Add your business continuity associated plans and recovery teams to your busines
 Add a loss scenario and define the related asset dependencies in your business continuity plan. You can then view the details of the assets in BCM UIB Workspace and then plan a recovery strategy for an identified loss scenario.
 -   **[Add recovery strategies for dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-strategy-for-loss-scenario-uib-ws.md)**  
 Add a recovery strategy for the related asset dependencies and estimate the time to implement the strategy. You can then get the assets up and running quickly in an identified loss scenario.
+-   **[Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)**  
+Configure a reusable recovery strategy template so business continuity planners can apply a pre-defined strategy to loss scenarios without re-entering the implementation details each time.
 -   **[Mapping recovery tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/mapping-recovery-tasks-to-phases.md)**  
 Starting with BCM, version 9.x.x, BCM administrators set up active phases for plans and events, enhancing recovery and event task management. BCM managers then map these phases to recovery and event tasks, executing them in a desired, logical sequence.
 -   **[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-a-recovery-task.md)**  
 Add a recovery task as part of the planned recovery strategy. You can add one or more recovery tasks for a loss scenario and those recovery tasks are displayed in the loss scenario itself. Automate the recovery tasks in a plan for a faster recovery.
+-   **[Apply Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-reco-task-tem-groups.md)**  
+Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing ones. You can also generate templates directly from tasks and plans that already exist in the system.
+-   **[Create a quick recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-quick-recovery-task.md)**  
+Create a quick recovery task from Recovery tasks or as part of the planned recovery strategy for a business continuity plan. Using the quick insert feature, you can create tasks without navigating to a separate form. Tasks can be ordered, inserted in sequence \(before, after, or in parallel with existing tasks\), and dependencies are updated automatically.
+-   **[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)**  
+Export recovery tasks to a Microsoft Excel file, edit offline, and import the file to create or update multiple tasks at once.
+-   **[Visualize recovery tasks on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**  
+Use the Gantt chart component on recovery task pages to provide a visual timeline view of tasks associated with the current plan. Customize the view by adding, removing, or reordering columns as needed. The chart is implemented as a UI page to enable customizations and to support multiple versions without requiring changes to existing page behavior.
+-   **[Sync assets between loss scenarios and recovery strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/syn-ast-be-lo-sce-and-rec-stgy.md)**  
+Use the asset syncing fields in the plan template to configure whether assets synchronize to loss scenarios, to recovery strategies, or both. Syncing is a two-step process: assets flow from the plan to loss scenarios first, and then from loss scenarios to recovery strategies.
 -   **[Automate recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/automate-the-recovery-tasks.md)**  
 Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.
+-   **[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)**  
+Add an existing issue or create an issue from a business continuity plan to track problems identified during continuity planning.
 -   **[Submit the BCP for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/submit-bcp-for-review.md)**  
 Submit the business continuity plan \(BCP\) for an approval. You can then view the details in BCM UIB Workspace.
 -   **[Visualize 360° relationships for the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/relationship-view-bcp.md)**  

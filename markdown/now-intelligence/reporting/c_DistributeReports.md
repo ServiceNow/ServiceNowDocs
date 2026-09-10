@@ -55,5 +55,7 @@ Publish a report to create a URL that anyone can use to access the report, inclu
 
 [ACL troubleshooting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_ACLTroubleshoot.md)
 
-[bundle-platadm.ua-creating-roles]
+[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-roles.md)
+
+[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-groups.md)
 

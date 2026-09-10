@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, source type structure, change labels, classification, classifying, reclassify, source type]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -28,9 +28,13 @@ Reviewing and, if necessary, modifying automatically mapped labels and auto-clas
 
 **Note:** Because a single data input can contain multiple source types, HLA structures log data by source type rather than by data input.
 
-## AI-powered classification and labeling suggestions
+## AI-assisted log parsing with ServiceNow Otto
 
-Simplify classification and labeling of parsed log properties with AI-powered automatic classification and labeling suggestions. You can access the AI agent from the **Source Type Structure** page to receive AI-suggested classifications and labels based on dynamic analysis of your log samples. AI-suggested classifications include METER, GAUGE, ARC\_ONLY, and INVALID. AI-suggested labels include MESSAGE, HOST, TIMESTAMP, and SEVERITY. After reviewing the suggestions, select your preferred classifications and labels.
+AI-assisted log parsing using ServiceNow Otto provides recommendations for optimal classifications and labels for parsed log properties based on your log patterns. This approach reduces manual effort and improves accuracy without requiring custom JavaScript functions.
+
+To enable this capability, activate the integration with AI-powered capabilities by selecting the **Activate with AI** option. This option enables AI-powered automatic parsing and mapping of log data. When the integration is activated, ServiceNow Otto collects and analyzes log data and displays suggested classifications and labels for your source type properties. An AI icon indicates that AI is active. Verify that ServiceNow Otto correctly classified and labeled your log properties. You can override the suggestions by selecting a different classification or label from each list, if needed.
+
+While ServiceNow Otto generates a parser automatically for a source type, a notification banner on the **Source Type Structure** page shows the current status of the generation process.
 
 ## Example
 

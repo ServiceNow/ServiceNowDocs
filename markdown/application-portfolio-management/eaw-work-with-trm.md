@@ -50,10 +50,14 @@ You can create business applications and associate it with Technology Reference 
 You can add existing business application to Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
 -   **[Remove business applications associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/remove-ba-assoc-with-trm-product.md)**  
 You can remove the business applications associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current business applications are associated with the TRM products.
--   **[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-trm-tech-debt.md)**  
-You can view the Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
--   **[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)**  
-Run **Populate TRM technical debts in the EA Workspace** scheduled job to fetch the TRM technical debts data. You can schedule this job to periodically update the TRM technical debt for all business applications.
+-   **[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-trm-tech-debt.md)**  
+View Technology Reference Model \(TRM\) technical debts created for products that are not aligned with TRM phases and standards.
+-   **[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)**  
+Run the scheduled job to update technical debt data based on Technology Reference Model \(TRM\) phases. This job identifies products not approved for use in your enterprise and can be scheduled to run periodically.
+-   **[Update the retention period for archived technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-system-property-archived-tech-debt-retention.md)**  
+Change how long an Archived technical debt record is retained before the **Delete Archived Tech Debts** scheduled job permanently deletes it.
+-   **[Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md)**  
+Run the **Delete Archived Tech Debts** scheduled job manually or modify its default monthly schedule to match your maintenance window.
 -   **[Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**  
 Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(ServiceNow Otto for SAM\) software products.
 -   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**  

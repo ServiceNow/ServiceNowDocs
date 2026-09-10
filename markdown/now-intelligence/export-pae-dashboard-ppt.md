@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-pae-dashboard-ppt.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-10"
-reading_time_minutes: 4
+last_updated: "2026-08-14"
+reading_time_minutes: 5
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -73,8 +73,10 @@ PowerPoint \(PPT\)
 
 
 </td></tr></tbody>
-</table>-   Content is not necessarily exported in the order it appears on the dashboard.
--   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md).
+</table>-   Only the supported data visualizations and Lists are exported, not Headings or Rich Text or any other element.
+-   Content is not necessarily exported in the order it appears on the dashboard.
+-   Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
+-   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 
 -   You can also export individual data visualizations from a dashboard to a PNG or JPEG file. For more information, see [Download a data visualization from a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-data-vis-from-dboard.md).

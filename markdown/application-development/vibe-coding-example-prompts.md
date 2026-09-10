@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/
 release: zurich
 topic_type: reference
 last_updated: "2026-06-16"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [reference, prompts, vibe coding, AI-assisted development, Build Agent, app development, business rules, security, user interface, governance, ATF, testing]
 breadcrumb: [Reference, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
@@ -98,8 +98,6 @@ After you have the foundation of an app created, save your session and keep prom
 
 Prompt: `Create an application that handles several types of issues related to cash management. Create a custom data model with tables for each type of request. Add fields that are typical for these types of issues to each table. Request tables should extend the Task table. Create custom states for each request type to track issue resolution.`
 
-\[Omitted image "vc-ba-build-app-prompt-result.png"\] Alt text: List of steps completed by Build Agent to build an app
-
 ## Example Build Agent prompt to add security to an app
 
 Prompt: `Create a new role and define permissions on the request tables for two types of users:`
@@ -107,21 +105,15 @@ Prompt: `Create a new role and define permissions on the request tables for two 
 1.  `Requesters who submit issues and can only view their own requests.`
 2.  `Fulfillers who can view and edit all requests.`
 
-\[Omitted image "vc-ba-security-prompt-result.png"\] Alt text: List of steps completed by Build Agent to add security to an app
-
 ## Example Build Agent prompt to add business rules to an app
 
 Prompt: `Create business rules for each request that is triggered by state changes in the workflow. Design the business rules to work together to create business processes aligned to industry best practices for each type of issue.`
-
-\[Omitted image "vc-ba-biz-rules-prompt-result.png"\] Alt text: List of steps completed by Build Agent to add business rules to an app
 
 ## Example Build Agent prompt to generate different UIs for an app
 
 Prompt 1: `Create an easy to use UI for users with the cash management fulfiller role to view all issues, update and complete them.`
 
 Prompt 2: `Create a UI for cash management requesters to submit issues and view or edit issues that they have previously created.`
-
-\[Omitted image "vc-ba-ui-prompt-result.png"\] Alt text: List of steps completed by Build Agent to generate fulfiller and requester UIs for an app
 
 ## Example prompts for governance
 

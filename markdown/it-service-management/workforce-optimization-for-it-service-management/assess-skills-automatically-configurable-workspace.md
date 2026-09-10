@@ -18,6 +18,8 @@ Assess the ability of your agents to resolve incidents or the quality of their c
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You can create an assessment from an interaction or any task type. When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
 Role required: sn\_coaching.coach
@@ -38,15 +40,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 2.  Perform adhoc assessments or the ones triggered by coaching opportunities.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d321539e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d325399e125">
 
 To
 
-</th><th align="left" id="d321539e112">
+</th><th align="left" id="d325399e128">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d321539e118">
+</th></tr></thead><tbody><tr><td id="d325399e134">
 
 **Perform adhoc assessments**
 
@@ -58,7 +60,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d321539e148">
+</td></tr><tr><td id="d325399e164">
 
 **Use assessments triggered by coaching opportunities**
 

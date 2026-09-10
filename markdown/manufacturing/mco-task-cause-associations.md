@@ -1,18 +1,18 @@
 ---
-title: Task cause associations
-description: Create the task cause for the root cause analysis of the product non-conformance.
+title: Associating a task cause
+description: Associate a cause to a RCA for the root cause analysis of the product non-conformance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-task-cause-associations.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Root cause analysis task, Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a root cause analysis, Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Task cause associations
+# Associating a task cause
 
-Create the task cause for the root cause analysis of the product non-conformance.
+Associate a cause to a RCA for the root cause analysis of the product non-conformance.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Issue
 
 </td><td>
 
-Select the issue record number.
+Issue record number.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ RCA
 
 </td><td>
 
-Select the RCA record for which this task is being created.
+RCA record for which this task is being created.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Cause
 
 </td><td>
 
-Select the cause of the issue.
+Cause of the issue.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Type
 
 </td><td>
 
-Choose the type option:-   Possible
+Type of task cause.-   Possible
 -   Probable
 -   Root cause
 -   Contributing factor
@@ -74,5 +74,5 @@ Choose the type option:-   Possible
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Root cause analysis task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)
+**Parent Topic:**[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)
 

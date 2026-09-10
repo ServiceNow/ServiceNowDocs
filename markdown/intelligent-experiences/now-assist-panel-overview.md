@@ -31,7 +31,7 @@ If you want to use assistants, you must activate them. See [Configuring assistan
 
 **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
-For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
+For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-standard.md)**  
 ServiceNow Otto panel standard chat brings conversational support to a dynamic window where you can manage multiple active conversations and access superior search capabilities. Leverage generative AI to boost your productivity—summarize chats, cases, or incidents, request help, and generate resolution notes all in one place.

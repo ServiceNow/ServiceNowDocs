@@ -1,6 +1,6 @@
 ---
 title: Supported SQL functions
-description: Common SQL functions used in SQL API for querying and analyzing incident data.
+description: Common SQL functions used in Live Connect for querying and analyzing incident data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/supported-sql-functions.html
 release: zurich
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: reference
 last_updated: "2026-03-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Explore, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Supported SQL functions
 
-Common SQL functions used in SQL API for querying and analyzing incident data.
+Common SQL functions used in Live Connect for querying and analyzing incident data.
 
 ServiceNow supports a variety of SQL functions for querying and analyzing data in tables such as the incident table. This abbreviated list covers common SQL functions organized by category, with sample use cases and queries focused on incident management scenarios.
 
@@ -53,5 +53,5 @@ ServiceNow supports a variety of SQL functions for querying and analyzing data i
 |String FN|TRIM|Clean white space from descriptions for data quality improvement|SELECT number, TRIM\(short\_description\) AS clean\_description FROM incident WHERE short\_description IS NOT NULL;|
 |Windows FN|RANK\(\)|Rank incidents by number of updates to identify most frequently modified tickets|SELECT number, sys\_mod\_count, assignment\_group, RANK\(\) OVER \(ORDER BY sys\_mod\_count DESC\) AS modification\_rank FROM incident WHERE assignment\_group IS NOT NULL;|
 
-**Parent Topic:**[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
+**Parent Topic:**[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

@@ -126,7 +126,7 @@ The Early Warning for Security Exposure Management integration requires the foll
 Install the required applications for Early Warning for Security Exposure Management.
 -   **[Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/early-warning-integration-setup.md)**  
 Complete the following setup steps in your Armis Intelligence Center console environment before you configure Early Warning for Security Exposure Management in your ServiceNow AI Platform® instance.
--   **[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/t-configure_early_warning_integration.md)**  
+-   **[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configure-early-warning-integration.md)**  
 Install and configure the Early Warning for Security Exposure Management integration plugin to ingest vulnerability intelligence and enrich your vulnerability database with threat signals.
 -   **[Add Early Warning criteria to a risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/add-armis-early-warning-risk-rule.md)**  
 Add the Early Warning flag or Admiralty score as a weighted criterion in a risk rule to prioritize vulnerable items based on vulnerability intelligence data.
@@ -134,7 +134,7 @@ Add the Early Warning flag or Admiralty score as a weighted criterion in a risk 
 You can schedule the integration import times on the records in the Vulnerability Integrations \[sn\_vul\_int\_fw\_integration\] table and launch them on-demand.
 -   **[View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-armis-early-warning-health.md)**  
 Monitor the Early Warning for Security Exposure Management integration by reviewing run history, ingestion performance, and processing health from the Security Exposure Management Administration console.
--   **[Early Warning CVD Attributes field reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/r-early-warning-cvd-attributes.md)**  
+-   **[Early Warning CVD Attributes field reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/early-warning-cvd-attributes.md)**  
 The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
 
 **Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/integrating-usem.md)

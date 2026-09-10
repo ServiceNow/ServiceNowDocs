@@ -22,6 +22,8 @@ Learn how to fix OAuth token refresh issues.
 When a test fails for a monitor and you have configured an alert to trigger, the alert record should show the impacted service. There are a few reasons why this field might not be populated.
 -   **[Bulk monitor import issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/bulk-monitor-import-issues.md)**  
 Learn to fix issues that might occur when you create monitors in bulk.
+-   **[Troubleshoot ECC queue growth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/troubleshoot-ecc-queue-growth.md)**  
+If the ECC queue keeps growing or contains large numbers of stale synthetic monitoring messages, use this information to identify why the auto-purge job isn't clearing them.
 
 **Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/synthetic-monitoring-reference.md)
 

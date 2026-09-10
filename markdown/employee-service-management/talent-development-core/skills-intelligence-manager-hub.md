@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Validate skills in Manager Hub
@@ -30,7 +30,7 @@ Role required: sn\_skills\_int.manager
 
 4.  On the **Employee details** tab, select the **Skills** tab.
 
-    \[Omitted image "skills-validated-skills.png"\] Alt text: Skill validation section in Manager Hub.
+    \[Omitted image "skills-validated-skills.png"\] Alt text: Skills tab showing Validate skills button, list of skills needing validation, and detailed activity view for selected Agentic skill with completed credentials
 
 5.  Select the **Validate skills** button, and then select the skills that you want to validate.
 

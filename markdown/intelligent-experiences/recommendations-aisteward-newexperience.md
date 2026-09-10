@@ -24,7 +24,7 @@ AI Control Tower checks for a range of conditions on your assets on a schedule t
 Recommendations include, but aren't limited to, the following:
 
 -   Activities with no tasks: When an active life-cycle playbook activity is in an onboarding or offboarding phase but has no tasks linked to it, a recommendation is generated. This alerts you that work must be assigned before progress can continue.
--   Activities ready to be marked as complete: When every child task under an activity is complete but the activity itself is still open, a recommendation is generated. This keeps your life-cycle stages from stalling in an open state when the real work is already done.
+-   Activities ready to be marked as complete: When every child task under an activity is complete but the activity itself is still open, a recommendation is generated. This helps keep your life-cycle stages from stalling in an open state when the real work is already done.
 -   A missing or incomplete asset description.
 -   An asset that has been dormant long enough to be a candidate for retirement.
 

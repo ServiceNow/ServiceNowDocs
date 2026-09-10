@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Hardware Asset Management, IT Asset Management]
 ---
 
@@ -60,6 +60,10 @@ These readily available decision tables help you customize the flows in some of 
 Fields on the variable help you to define variables for a catalog item.
 -   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/put-away-task-form.md)**  
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
+-   **[Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-system-properties.md)**  
+System properties control asset lifecycle, procurement, inventory, reporting, and system configuration for the Hardware Asset Management application. You can view and update these properties from the Properties setup item in the Configuration Console.
+-   **[Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-modules-ham.md)**  
+Module-by-module listing of the setup items in the Configuration Console for HAM, with descriptions of what each item configures.
 
 **Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

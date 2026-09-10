@@ -206,15 +206,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d274878e761">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d317314e761">
 
 Interface
 
-</th><th align="left" id="d274878e764">
+</th><th align="left" id="d317314e764">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d274878e770">
+</th></tr></thead><tbody><tr><td id="d317314e770">
 
 **Core UI**
 
@@ -224,7 +224,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d274878e803">
+</td></tr><tr><td id="d317314e803">
 
 **Hardware Asset Workspace**
 
@@ -256,6 +256,8 @@ Action
 4.  Select the hardware asset refresh line.
 
 5.  Select the **Refresh line tasks** tab.
+
+    **Note:** The **Asset** field on refresh line task records is not populated. The task record uses the **refreshing\_asset** field for the asset being replaced and the **replacement\_asset** field for the new asset being deployed.
 
 6.  Complete the Asset pick task by using the Mobile Agent application.
 
@@ -321,4 +323,6 @@ After the aged hardware asset is reclaimed, the following changes happen on the 
 
 -   The state of the aged asset changes to In stock.
 -   The substate changes to Pending disposal.
+
+When the refresh workflow completes and the asset transitions to **In stock** and **Pending disposal** state, the system clears the **Refresh request line** field on the aged asset record. This field displays only active refresh processes.
 

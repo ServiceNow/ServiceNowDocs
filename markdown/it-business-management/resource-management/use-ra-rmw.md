@@ -64,6 +64,8 @@ Delete a resource assignment from Project Workspace. Deleting an assignment also
 Use the allocation heatmap capability in Project Workspace to view and update the resource allocation.
 -   **[Realign resource assignment to project task using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/realign-ra-pws-rmw.md)**  
 Realign or synchronize the resource assignment dates with the project task dates. This synchronization helps to schedule and align the resource assignments with the timeline of project task.
+-   **[Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-dashboard-widget-details.md)**  
+Descriptions of dashboard widgets available in Resource Management Workspace for tracking resource allocation, utilization, and assignment status.
 
 **Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-assignment.md)
 

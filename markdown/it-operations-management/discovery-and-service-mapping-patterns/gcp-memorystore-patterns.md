@@ -1,6 +1,6 @@
 ---
 title: Google Cloud Platform \(GCP\) Memorystore discovery using patterns
-description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Memorystore DB pattern to discover Memorystore for Memcached and Memorystore for Redis during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Memorystore DB pattern to discover Memorystore for Memcached and Memorystore for Redis during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/gcp-memorystore-patterns.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patter
 
 # Google Cloud Platform \(GCP\) Memorystore discovery using patterns
 
-Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Memorystore DB pattern to discover Memorystore for Memcached and Memorystore for Redis during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Memorystore DB pattern to discover Memorystore for Memcached and Memorystore for Redis during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 

@@ -63,7 +63,7 @@ An activity is one step in the overall business process represented in a playboo
 </td></tr></tbody>
 </table>## Playbook UI components
 
-Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
+Customer service agents interact with playbooks in CRM Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
 
 <table id="table_a2t_xmt_bcc"><thead><tr><th>
 

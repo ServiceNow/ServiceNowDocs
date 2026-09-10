@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Sourcing and Procurement Operations]
 breadcrumb: [Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -96,11 +96,23 @@ Several types of components are installed with the activation of Sourcing and Pr
 Use these properties to configure various settings in the Sourcing and Procurement Operations application.
 -   **[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)**  
 The following table lists the Sourcing and Procurement Operations \(SPO\) plugins, their installation sequence, high-level descriptions, and dependencies.
+-   **[Application plugins for AI capabilities in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-ai-plugins.md)**  
+View the consolidated list of plugins required to use AI capabilities in Sourcing and Procurement Operations.
 
 **Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
+
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
+[Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Setting up primary data for Shopping Hub]()
 

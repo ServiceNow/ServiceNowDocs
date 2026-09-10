@@ -109,7 +109,7 @@ With the single-select version, the agent selects a case type from a list of ava
 -   When enabled, the system displays the single-select version.
 -   When disabled, the system displays the multi-select version.
 
-**Note:** The single-select version is only available in CSM Configurable Workspace.
+**Note:** The single-select version is only available in CRM Workspace.
 
  For more information, see the following topics:
 
@@ -148,7 +148,7 @@ sn\_csm\_case\_types.case\_type\_single\_field\_select
 
 </td><td>
 
-Set this property to true to enable the case type single select feature in CSM Configurable Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector.-   **Type:** true \| false
+Set this property to true to enable the case type single select feature in CRM Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector.-   **Type:** true \| false
 -   **Default value:** false
 -   **Location:** System Property \[sys\_properties\] table
 
@@ -158,7 +158,7 @@ sn\_csm\_case\_types.service\_definition\_select
 
 </td><td>
 
-Set this property to true to enable the Product Service Select version of the case type selector in CSM Configurable Workspace. When enabled, an agent can use this version to create a record based on the selected product or service.
+Set this property to true to enable the Product Service Select version of the case type selector in CRM Workspace. When enabled, an agent can use this version to create a record based on the selected product or service.
 
 -   **Type:** true \| false
 -   **Default value:** true

@@ -35,7 +35,7 @@ Role required: sn\_apm.apm\_admin
 
 ## What to do next
 
-You can view all the business applications that require certifications and belong to this specific certification task. As a system administrator you can also track the data certifying process and view the certification fields of the business application record that have been certified as checked and those that have failed in certification. The IT\_application\_owner certifies the certification fields.
+You can view all the business applications that require certifications and belong to this specific certification task. As a system administrator, you can track the data certifying process. You can view the certification fields of the business application record that have been certified as checked and those that have failed in certification. The IT\_application\_owner certifies the certification fields.
 
 **Parent Topic:**[Schedule a data certification task - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/schedule-data-in-business-applications.md)
 

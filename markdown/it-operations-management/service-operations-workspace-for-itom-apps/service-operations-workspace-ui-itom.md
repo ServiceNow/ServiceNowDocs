@@ -8,7 +8,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Access Service Operations Workspace ITOM, Service Operations Workspace ITOM Home page]
 breadcrumb: [Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -27,9 +27,17 @@ The **Overview** tab is your team's command center. It gives you a real-time sna
 
 Use it to spot imbalances, track resolution speed, and see at a glance whether your team is keeping up with incoming alerts.
 
-Use the assignment group filter \(for example, em\_admin — 14 items selected\) to filter your view. If you're an evt\_admin, you can filter by groups you manage and groups you're a member of. If you're an aiops\_manager, you can filter only by groups you manage. Use the **Teammates** list to filter by teammate. \[Omitted image "sow-ai-specialist-dashboard-overview.png"\] Alt text: Dashboard showing alerts, workload, and MTTR metrics.
+Use the assignment group filter \(for example, em\_admin — 19 items selected\) to filter your view. If you're an evt\_admin, you can filter by groups you manage and groups you're a member of. If you're an aiops\_manager, you can filter only by groups you manage. Use the **Teammates** list to filter by teammate.
 
-**Note:** If you don't install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin, AI-related KPIs aren't visible.
+You can also reach the homepage by navigating to **All** &gt; **Event Management** &gt; **Operational Home Pages** &gt; **AIOps Managers**.
+
+\[Omitted image "sow-ai-specialist-dashboard-overview.png"\] Alt text: Dashboard showing alerts, workload, and MTTR metrics.
+
+**Note:** If you don't install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin, AI-related KPIs aren't visible. If you have the plugin enabled, you can see the **AI supervising** tab.
+
+\[Omitted image "sow-ai-specialist-dashboard-overview-2.png"\] Alt text: The AI Supervising tab, where you can see alerts that were auto-closed, processed, or are work in progress by AI.
+
+For each tile, select the \[Omitted image "icon-open-el.png"\] Alt text: Open in Express List icon to view the list of alerts in the Express List.
 
 ## List page
 
@@ -49,9 +57,9 @@ Access detailed information for any alert by selecting its alert number to open 
 
 Express List offers quick alert information for efficient monitoring, resolution, impact evaluation, tracking, and incident reporting.
 
-To access information on express list, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
+To access information on Express List, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
-\[Omitted image "express-list-page-itom.png"\] Alt text: Express list page.
+\[Omitted image "express-list-page-itom.png"\] Alt text: Express List page.
 
 ## Integrations Launchpad
 

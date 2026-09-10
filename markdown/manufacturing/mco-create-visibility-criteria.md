@@ -1,18 +1,18 @@
 ---
 title: Create a visibility criteria
-description: Create a visibility criteria so that a manufacturer can filter the dealer name for which the target sales promotion is applicable.
+description: Agents workspaces enables the manufacturers to create the visibility criteria. Manufacturer can filter the dealer name for which the target sales promotion is applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-visibility-criteria.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for My promotions, Create a promotion, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a visibility criteria
 
-Create a visibility criteria so that a manufacturer can filter the dealer name for which the target sales promotion is applicable.
+Agents workspaces enables the manufacturers to create the visibility criteria. Manufacturer can filter the dealer name for which the target sales promotion is applicable.
 
 ## Before you begin
 
@@ -54,7 +54,7 @@ Required service organization condition.To learn more about the Service Organiza
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for My promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/related-list-for-my-promotions.md)
+**Parent Topic:**[My promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-my-promotions.md)
 
 **Related topics**  
 

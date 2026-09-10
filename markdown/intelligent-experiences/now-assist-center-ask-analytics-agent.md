@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the ServiceNow Otto panel conversational experience, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Analytics Q and A agent
@@ -45,6 +45,4 @@ Role required: sn\_na\_analytics.viewer
 2.  The AI Analytics Q and A Workflow is triggered. This LLM-controlled agentic workflow evaluates your question and calls the AI Analytics Q and A agent.
 3.  The AI Analytics Q and A agent searches AI analytics content and displays a response.
 4.  Review the response. Ask follow-up questions to get more detail.
-
-**Parent Topic:**[Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 

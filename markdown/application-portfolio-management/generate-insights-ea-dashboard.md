@@ -16,7 +16,7 @@ You can use the conversational interface provided by AI Data Explorer ServiceNow
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 AI Data Explorer, Query Generation ServiceNow Otto skills must be activated. Also, AI Search must be configured. For information, see [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md).
 
@@ -78,15 +78,15 @@ You can use the AI Data Explorer on widgets that are based on the following tabl
 
 3.  On the pop-up window, perform any of the following options.
 
-<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d65349e282">
+<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d65937e279">
 
 UI element
 
-</th><th align="left" id="d65349e285">
+</th><th align="left" id="d65937e282">
 
 Function
 
-</th></tr></thead><tbody><tr><td id="d65349e291">
+</th></tr></thead><tbody><tr><td id="d65937e288">
 
 **Text box**
 
@@ -94,7 +94,7 @@ Function
 
 Use this option to ask any question related to the data associated with the selected widget. This option helps you get specific information on the widget data.
 
-</td></tr><tr><td id="d65349e303">
+</td></tr><tr><td id="d65937e300">
 
 **Analyze trend**
 
@@ -102,7 +102,7 @@ Use this option to ask any question related to the data associated with the sele
 
 Use this option to analyze overall trends in the data. This option helps you to understand how the metrics have changed over time or identify growth or decline patterns.
 
-</td></tr><tr><td id="d65349e315">
+</td></tr><tr><td id="d65937e312">
 
 **Show different distribution**
 
@@ -110,7 +110,7 @@ Use this option to analyze overall trends in the data. This option helps you to 
 
 Use this option to view the same data broken down by different dimensions. This option helps you to compare data distributions across alternative categorizations and view the data from different analytical perspectives.
 
-</td></tr><tr><td id="d65349e327">
+</td></tr><tr><td id="d65937e324">
 
 **+ Add to exploration**
 

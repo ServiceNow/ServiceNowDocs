@@ -1,13 +1,13 @@
 ---
 title: Overseeing AIOps AI Specialist in Service Operations Workspace
-description: The AIOps Supervisor home page helps supervisors review operational workload, monitor AIOps AI Specialist activity, and review alerts closed by AIOps AI Specialist in Service Operations Workspace.
+description: The AIOps Supervisor home page helps supervisors review operational workload across selected assignment groups and monitor AIOps AI Specialist activity in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/ai-supervisor-in-itom-aiops.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-08-23"
 reading_time_minutes: 2
 keywords: [AIOps Supervisor, AIOps AI Specialist, ITOM AIOps, Service Operations Workspace, Event Management]
 breadcrumb: [Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
@@ -15,57 +15,60 @@ breadcrumb: [Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Oper
 
 # Overseeing AIOps AI Specialist in Service Operations Workspace
 
-The AIOps Supervisor home page helps supervisors review operational workload, monitor AIOps AI Specialist activity, and review alerts closed by AIOps AI Specialist in Service Operations Workspace.
+The AIOps Supervisor home page helps supervisors review operational workload across selected assignment groups and monitor AIOps AI Specialist activity in Service Operations Workspace.
 
 ## AIOps Supervisor
 
-AIOps Supervisor is an elevated Event Management operator role, letting supervisors oversee the AIOps AI Specialist's work, handle only alerts requiring human attention, and run its recommended remediation actions.
+AIOps Supervisor is an elevated Event Management operator role that lets you oversee the AIOps AI Specialist's work, handle alerts that require human attention, and run recommended remediation actions.
 
 You can access the AIOps Supervisor home page with the Event Management Operator `evt_mgmt_operator` role.
 
-**Note:** The AI Specialist section appears on the AI Supervisor home page whenever you enable the Autonomous Operator Workflow, even if you have not activated AI Specialist.
-
 ## AIOps Supervisor home page scope
 
-The home page shows activity for the AIOps AI Specialist assigned to your assignment group. It enables you to review alerts closed by AIOps AI Specialist and investigate alerts that need your attention during your shift. The page shows information for the last 24 hours. Only one AIOps AI Specialist can be active for each assignment group.
+The assignment group selector defines the team scope shown on the home page. You can select one or more assignment groups to view alerts from those groups together. The selector lists the assignment groups available to you and reflects the active selection.
 
-The home page provides a consolidated view of AIOps AI Specialist activity over the last 24 hours and identifies the alerts that require human attention.
+You can also include **Unassigned alerts** to view alerts that don't have an assignment group. The **Unassigned alerts** option appears after the available assignment groups.
 
-\[Omitted image "ai-supervisor-your-work-tab.png"\] Alt text: Sample AIOps Supervisor home page - Your work tab
+Your selection persists during the session. The page shows information for the last 24 hours. Only one AIOps AI Specialist can be active for each assignment group.
 
-Highlighted work that may require your attention in the **Needs your attention** section includes:
+When at least one selected assignment group has an active AIOps AI Specialist, the home page includes the **AI supervision overview** and AIOps AI Specialist activity. When none of the selected assignment groups has an active AIOps AI Specialist, AI supervision content doesn't appear.
 
--   Critical alerts for your team
--   Open alerts assigned to the team
--   Open alerts assigned to you
--   Open incidents assigned to you
+\[Omitted image "ai-supervisor-your-work-tab.png"\] Alt text: AIOps Supervisor home page with alert workload and AI supervision information
 
-This view helps you focus on the most important alerts you should handle first without your having to check multiple lists.
+## Needs your attention
 
-The **AI supervision overview** section provides further information on AI specialist activities.
+The **Needs your attention** section highlights operational work that might require your attention. It includes:
+
+-   **Team's critical alerts**
+-   **Team's open alerts**
+-   **Your open alerts**
+-   **Your open incidents**
+
+The home page alert lists reflect the active assignment group selection. When **Unassigned alerts** is selected, the lists can also include alerts that don't have an assignment group.
+
+This view helps you focus on alerts that require attention without checking multiple alert lists.
+
+## AI supervision overview
+
+The **AI supervision overview** section provides information about AIOps AI Specialist activity when at least one selected assignment group has an active AIOps AI Specialist.
 
 |Item|Description|
 |----|-----------|
-|**Time saved by AI activity**|Estimated time saved by AIOps AI Specialist activity. The value is calculated by multiplying alerts closed by AIOps AI Specialist by the configured time saved per closed alert. This is added to alerts analyzed by AIOps AI Specialist multiplied by the configured time saved per analyzed alert.|
+|**Time saved by AIOps AI specialist activity**|Estimated time saved by AIOps AI Specialist activity. The value is calculated by multiplying alerts closed by AIOps AI Specialist by the configured time saved per closed alert. This value is added to alerts analyzed by AIOps AI Specialist multiplied by the configured time saved per analyzed alert.|
 |**Alerts processed**|Number of alerts processed by AIOps AI Specialist.|
-|**Currently processing**|Number of alerts that AIOps AI Specialist is processing.|
-|**Recent activity**|Recent alerts being analyzed by AIOps AI Specialist.|
-|**Closed by AI to review**|Alerts that were closed by AIOps AI Specialist and are ready for review.|
+|**Currently in progress**|Number of alerts that AIOps AI Specialist is processing.|
+|Auto-closed alerts|Number of alerts that AIOps AI Specialist closed automatically and that are available for review.|
+|**Recent activity**|Recent AIOps AI Specialist activity for alerts.|
 
-## AI Supervision information
+## AIOps AI Specialist alert lists
 
-The **AI Supervision** tab shows activity for the AIOps AI Specialist assigned to your assignment group.
+The **AI supervision overview** provides access to alert lists organized by AIOps AI Specialist processing state:
 
-|Item|Description|
-|----|-----------|
-|**Processed by AIOps AI Specialist**|Number of alerts processed by AIOps AI Specialist.|
-|**Closed by AIOps AI Specialist to review**|Number of alerts closed by AIOps AI Specialist and ready for review.|
-|**In process by AIOps AI Specialist**|Number of alerts currently being processed by AIOps AI Specialist.|
-|**Closed by AIOps AI Specialist alerts list**|Alerts closed by AIOps AI Specialist. The list includes alert details such as number, description, and source.|
-|**Alert details** pane|Details for the selected alert.|
-|**Insights**|AI-generated summary and context for the selected alert.|
-|**Info**|Additional information about the selected alert.|
-|**Activity**|Activity history for the selected alert.|
+-   **Processed by AIOps specialist** contains alerts processed by AIOps AI Specialist.
+-   **Closed by AIOps specialist** contains alerts closed by AIOps AI Specialist and available for review.
+-   **Currently in progress by AIOps specialist** contains alerts that AIOps AI Specialist is currently processing.
 
-AIOps AI Specialist processes alerts based on its configured scope. It can help with triage, investigation, impact analysis, and remediation recommendations. The home page shows AIOps AI Specialist activity as part of the team's operational workload.
+The alert lists provide filters and details for the selected alert. Alert details can include **Insights**, **Info**, and **Probable cause** information generated during AIOps AI Specialist processing.
+
+AIOps AI Specialist processes alerts based on its configured scope. It can assist with triage, investigation, impact analysis, and remediation recommendations. The AIOps Supervisor home page presents this activity as part of the team's operational workload.
 

@@ -21,15 +21,15 @@ Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 
 Role required: admin or virtual\_agent\_admin
 
-Create a self-configured bot for Google Chat. For more information, see [Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installing-ci-google-chat.md).
+Create a self-configured bot for Google Chat. For more information, see [Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installing-ci-google-chat.md). Verify that you have updated the version of your Google Chat app in the **Version** field.
 
-**Note:** Ensure you've updated the version of your Google Chat app in the **Version** field.
+**Note:** Notifications are not supported for premium chat at this time.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Under **ServiceNow Otto for Virtual Agent \(default\)**, select the **Edit** button.
+2.  Under **Servicenow Otto for Virtual Agent \(default\)**, select the **Edit** button.
 
 3.  Under the **Settings** tab, select **Display experiences**, then select **Channels**.
 

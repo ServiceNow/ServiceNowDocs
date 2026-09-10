@@ -127,13 +127,13 @@ Configure due dates for different case types so that the **Due date** field is a
 -   **[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)**  
 Source-to-Pay Workspace includes a generic case playbook to complete supplier cases of specific case types.
 -   **[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)**  
-Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 -   **[Assign a supplier case to yourself from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.md)**  
 Assign an open supplier case to yourself to begin working on it as supplier manager.
 -   **[Submit a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-case.md)**  
 Submit a supplier case in Draft state to indicate that it is ready to be worked on.
 -   **[Complete a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-case.md)**  
-You can mark a supplier case as complete when you finish all the tasks related to that case.
+Mark a supplier case complete after finishing all associated tasks to close the case record.
 -   **[Reopen a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/reopen-supplier-case.md)**  
 Reopen a closed supplier case if you are not satisfied with the case resolution.
 -   **[Add a related case to a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-related-case.md)**  
@@ -141,7 +141,7 @@ If a supplier case has related cases, you can add them to that supplier case fro
 -   **[View a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-ws.md)**  
 As a supplier manager, view a supplier case that requires your input or approval.
 -   **[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)**  
-Using Relish integration, checking supplier's banking details, physical addresses, and sanction screening can be done efficiently.
+Using Relish integration, checking supplier's banking details, tax information, physical addresses, and sanction screening can be done efficiently.
 
 **Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 

@@ -41,6 +41,6 @@ Role required: evt\_mgmt\_admin
 
     \[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can see the Discovery and the Event Management modules.
 
-    **Note:** The **Configure with AI** UI action appears only after you install both the ServiceNow Otto for ITOM and Now Assist plugins. This action lets you set up Now Assist powered alert handling, so you get AI assistance without configuring it manually.
+    **Note:** The **Configure with AI** UI action appears only after you install both the ServiceNow Otto for ITOM and ServiceNow Otto plugins. This action lets you set up AI-powered alert handling.
 
 

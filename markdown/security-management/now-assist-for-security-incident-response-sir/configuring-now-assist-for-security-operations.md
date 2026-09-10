@@ -32,7 +32,7 @@ Use the AI Admin Hub console to configure ServiceNow Otto for Security Incident 
 
 The following table lists the features and skills that you can access from the AI Admin Hub console.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 <table id="table_igy_kpc_1cc"><thead><tr><th>
 

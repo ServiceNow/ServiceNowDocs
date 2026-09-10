@@ -168,7 +168,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation opportunity discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+Automation opportunity discovery with AI Agent Advisor
 
 </td><td>
 
@@ -194,7 +194,7 @@ Provides centralized access to the broader AI ecosystem within a consistent tabb
 
 </td><td>
 
-[Now Assist integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md)
+[ServiceNow AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md)
 
 </td><td>
 
@@ -217,10 +217,8 @@ AI administrator
 Use the AI Admin Center workspace to set up, monitor, and manage your AI solutions.
 -   **[AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
 The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
--   **[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**  
-AI Agent Advisor automatically discovers automation opportunities in your instance based on actual operational data and helps you to deploy AI agents to implement them.
 -   **[Supporting information for AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/supporting-information-now-assist-center.md)**  
 Get a quick overview of the important information that is related to the AI Admin Center application.
 
-**Parent Topic:**[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
 

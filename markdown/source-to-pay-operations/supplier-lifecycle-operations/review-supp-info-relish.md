@@ -1,6 +1,6 @@
 ---
 title: Review supplier information using Relish
-description: Using Relish integration, checking supplier's banking details, physical addresses, and sanction screening can be done efficiently.
+description: Using Relish integration, checking supplier's banking details, tax information, physical addresses, and sanction screening can be done efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.html
 release: zurich
@@ -8,13 +8,13 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Review supplier information using Relish
 
-Using Relish integration, checking supplier's banking details, physical addresses, and sanction screening can be done efficiently.
+Using Relish integration, checking supplier's banking details, tax information, physical addresses, and sanction screening can be done efficiently.
 
 **Important:**
 
@@ -25,14 +25,19 @@ The details of the following case types in the **Review supplier primary data re
 
 -   Supplier location change request: For verifying updated address
 -   Banking information change request: For verifying banking details for bank transfers or credit card transactions
+-   Tax information change request: For verifying updated tax details
 -   Conduct sanction screening: For verifying that the supplier is not found in any sanction list
 
 -   **[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)**  
 When a location change request is assigned to a supplier manager and they start working on it, they can verify the new location using Relish.
 -   **[Verify banking information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.md)**  
 When a banking details change request is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
+-   **[Verify tax information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/validate-tax-information.md)**  
+When a tax information change request is assigned to a supplier manager and they start working on it, they can verify the tax details using Relish.
 -   **[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)**  
 When a sanction screening request for compliance verification is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
+-   **[Conduct bulk sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/perform-bulk-sanction-screening.md)**  
+Supplier managers can conduct sanction screening for multiple suppliers simultaneously using the bulk sanction screening feature.
 
 **Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

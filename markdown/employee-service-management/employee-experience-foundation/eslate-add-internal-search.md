@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [internal search sources, Employee Slate, ServiceNow Otto]
-breadcrumb: [Search sources for Employee Slate, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Search sources, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add internal search sources
@@ -19,7 +19,7 @@ Add internal search sources to include ServiceNow table content in Employee Slat
 
 ## Before you begin
 
-The Employee Slate for Now Assist product is installed and configured through the **Product Configuration console**.
+The Employee Slate \(built for Now Assist\) product is installed and configured through the **Product Configuration console**.
 
 You have identified the table that you want to index as a search source.
 
@@ -47,7 +47,7 @@ Internal search sources contribute results to the conversational assistant from 
 
 6.  Save the configuration.
 
-    The new internal source associates with the search profile for Employee Slate for Now Assist and appears in the internal sources list.
+    The new internal source associates with the search profile for Employee Slate \(built for Now Assist\) and appears in the internal sources list.
 
 7.  Select **Manage Search Profile** to open the AI Search Admin Console.
 
@@ -56,5 +56,5 @@ Internal search sources contribute results to the conversational assistant from 
 
 ## Result
 
-The internal search source links to the Employee Slate for Now Assist search profile. The conversational assistant returns results from the configured table within the filter conditions that you set.
+The internal search source links to the Employee Slate \(built for Now Assist\) search profile. The conversational assistant returns results from the configured table within the filter conditions that you set.
 

@@ -1,6 +1,6 @@
 ---
 title: Convert legacy certification schedules into Data Manager certification policies
-description: Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace or in Service Graph Workspace.
+description: Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Data Certification experience in a workspace, Data Certification, C
 
 # Convert legacy certification schedules into Data Manager certification policies
 
-Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspaceor in Service Graph Workspace.
+Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace.
 
 ## Before you begin
 
@@ -22,20 +22,18 @@ Role required: data\_manager\_admin or sn\_cmdb\_admin
 
 ## About this task
 
-If you have been using the legacy Data Certification application on Core UI, then any associated certification schedules aren't automatically available in the new implementation of Data Certification in CMDB Workspace version 6.0 and in Service Graph Workspace. You can convert those definitions into draft Data Manager Certification policies. Then you can publish the converted policies in CMDB Workspaceand in Service Graph Workspace just like publishing any draft Data Manager policy.
+If you have been using the legacy Data Certification application on Core UI, then any associated certification schedules aren't automatically available in the new implementation of Data Certification in CMDB Workspace version 6.0 . You can convert those definitions into draft Data Manager Certification policies. Then you can publish the converted policies in CMDB Workspace just like publishing any draft Data Manager policy.
 
 Important things to know:
 
 -   Legacy certification schedules that were successfully converted are automatically deactivated.
--   This conversion migrates most fields from the legacy certification schedule. However, the **Assign to empty** and the **Last run date** fields aren't migrated into CMDB Workspaceand in Service Graph Workspace Data Manager tables.
+-   This conversion migrates most fields from the legacy certification schedule. However, the **Assign to empty** and the **Last run date** fields aren't migrated into CMDB Workspace Data Manager tables.
 -   Any dot-walking settings in the legacy certification schedules used for assignments of **User Field** or **User Group Field** are preserved in this conversion.
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and in the navigation panel select the Governance icon.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and then select the Governance icon in the navigation panel.
 2.  Select the **Data Manager** link in Management tools, in the Manage section.
 
 3.  On the Data Manager overview page, select **Import** on the banner at the top of the page.

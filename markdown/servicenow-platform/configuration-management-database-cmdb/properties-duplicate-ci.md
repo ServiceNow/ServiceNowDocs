@@ -1,6 +1,6 @@
 ---
 title: Properties related to remediation of duplicate CIs
-description: Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace and in Service Graph Workspace.
+description: Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Mana
 
 # Properties related to remediation of duplicate CIs
 
-Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediatoror the De-duplication dashboard in CMDB Workspaceand in Service Graph Workspace.
+Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediatoror the De-duplication dashboard in CMDB Workspace.
 
 To view and edit these properties, the admin role is required.
 

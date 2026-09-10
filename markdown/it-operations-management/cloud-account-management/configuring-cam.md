@@ -81,7 +81,7 @@ A single AD email across multiple AWS accounts streamlines management, enhances 
 
 </td><td>
 
-\[Omitted image "bus-person.svg"\] Alt text:[Set up an Identity Access Manager account for a ServiceNow user in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.md)
+\[Omitted image "bus-person.svg"\] Alt text:[Set up an IAM account for a ServiceNow user in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.md)
 
 </td><td>
 

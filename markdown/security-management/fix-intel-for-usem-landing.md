@@ -1,6 +1,6 @@
 ---
 title: Fix Intelligence for Security Exposure Management
-description: Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
+description: Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/fix-intel-for-usem-landing.html
 release: zurich

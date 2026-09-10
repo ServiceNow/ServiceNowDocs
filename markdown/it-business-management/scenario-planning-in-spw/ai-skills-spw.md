@@ -26,7 +26,7 @@ Use ServiceNow Otto skills to generate portfolio insights, generate goals insigh
 
     \[Omitted image "view-portfolio-insights-spw.gif"\] Alt text: Portfolio insights summary card displaying AI-generated root causes and actions.
 
--   **[Goal insights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/generate-insights-for-goal-spw.md)Goal insights skill**
+-   **[Goal insights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/generate-insights-for-goal-spw.md)**
 
     Generate insights for goals to gain predictive, actionable visibility into goal health using the Goal insights skill. The skill analyzes the goal, its targets, subgoals, and aligned work. It then delivers concise, data‑driven insights, including AI forecasted status, confidence of achieving the goal, targets at risk, and delayed or stalled aligned work. These insights help goal owners and contributors proactively manage risks and improve goal outcomes. You can trigger the skill by selecting the **Goal insights** or **Show insights** on the grid view or goals' full details page respectively.
 

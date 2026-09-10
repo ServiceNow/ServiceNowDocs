@@ -22,7 +22,7 @@ Dependency view graphically displays an infrastructure view for a configuration 
 
 In Enterprise Architecture, you can see the dependency views by clicking the show dependency views icon in the related items of the Business Application form.
 
-In addition to the existing Enterprise Architecture specific configuration items based on references versus relationships, a relationship is established between the Business Capability configuration item and the Business Application configuration item.
+In addition to the existing Enterprise Architecture specific configuration items based on references versus relationships, you can establish relationships between configuration items. A relationship is established between the Business Capability configuration item and the Business Application configuration item.
 
 To view the mapping of the related items, navigate to **Dependency Views** &gt; **Map Related Items**. The table provides a list of configuration items that are related to each other by a referenced related field, because of which the dependency view is rendered.
 

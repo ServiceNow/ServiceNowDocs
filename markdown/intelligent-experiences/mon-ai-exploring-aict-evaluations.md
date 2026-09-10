@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-06-30"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Exploring AI system monitoring in AI Control Tower
@@ -126,15 +126,4 @@ To learn more about configuring and monitoring in AI Control Tower, see:
 -   [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
 -   [Reviewing AI system quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
 -   [Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
-
--   **[Sessions, traces, and spans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-sessions-traces-spans.md)**  
-Understand the three levels of AI interaction data that AI Control Tower uses to structure, score, and display runtime behavior.
--   **[How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md)**  
-Understand how AI Control Tower calculates quality and safety scores so you can interpret results accurately and configure scoring to reflect your priorities.
--   **[Evaluation scoring examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-evaluation-scoring-scenarios.md)**  
-Worked scoring examples show how metric configuration, weights, and evaluation levels combine to produce quality and safety scores for different AI system types.
--   **[How monitoring scores contribute to AI value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-monitoring-value.md)**  
-Quality scores from monitoring can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
-
-**Parent Topic:**[Monitoring and evaluating AI systems in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-landing.md)
 

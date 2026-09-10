@@ -1,6 +1,6 @@
 ---
 title: Portal prerequisites for enhanced chat
-description: Now Assist in Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
+description: ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Create a chat assistant, View assistants, Configuring assistants ov
 
 # Portal prerequisites for enhanced chat
 
-Now Assist in Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
+ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
 
 Standard chat or enhanced chat offers different experiences. Enhanced chat provides users with a resizable chat window and search experience. To understand the differences between standard chat, enhanced chat, and enhanced chat with an additional full-page experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md). If you only want a chat experience, there's no dependency on a portal's search configuration. However, ensure that your portal has the default chat widget button.
 

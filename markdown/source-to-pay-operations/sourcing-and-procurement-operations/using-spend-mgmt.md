@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Spend and Savings Management, map categories, categories]
 breadcrumb: [Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -40,4 +40,8 @@ Convert a savings opportunity into a pipeline project, or dismiss it with a reas
 [Using Sourcing Pipeline Management]()
 
 [Create a Universal Request]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 

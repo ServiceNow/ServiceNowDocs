@@ -26,11 +26,11 @@ To use voice call capabilities available with Interaction Controls Component \(I
 
 Use the ICC call control features with the existing contact center core features to promote streamlined operations and an enhanced agent experience. The following features are available within call interactions, and are numbered alongside the image as follows.
 
-## Overview of ICC call interaction features within CSM Configurable Workspace
+## Overview of ICC call interaction features within CRM Workspace
 
 \[Omitted image "ccaas-icc-features.png"\] Alt text: Interaction Controls Component call interaction features within the CSM Configurable Workspace
 
-The following table outlines the key call control features available when integrated with ICC within CSM Configurable Workspace.
+The following table outlines the key call control features available when integrated with ICC within CRM Workspace.
 
 <table id="table_gq5_m4j_1gc"><thead><tr><th>
 
@@ -117,7 +117,7 @@ Enable agent movement between screens in the ServiceNow instance by displaying r
 -   Phone directory: Agents can use the integrated address book to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window to make calls. See: [Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-phone-directory.md).
 
 </td></tr></tbody>
-</table>## Interaction record page features within the CSM Configurable Workspace
+</table>## Interaction record page features within the CRM Workspace
 
 The Interaction records page surfaces capabilities that assist agents both during and after calls. The following table describes additional features that are embedded within the record page.
 

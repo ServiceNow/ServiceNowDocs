@@ -7,8 +7,8 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-08-18"
+reading_time_minutes: 4
 breadcrumb: [Send data from SIR Workspace to TISC, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -18,7 +18,9 @@ Using this feature the security analyst can push the observables data from SIR t
 
 ## Before you begin
 
-Role required: sn\_si.analyst
+Role required: sn\_si.analyst, sn\_sec\_tisc.sir\_enrichment\_data\_writer
+
+Enable the `sn_ti.automatic_push_observable_to_tisc` system property to automatically push observables associated with security incidents to TISC when no matching observable exists.
 
 ## Procedure
 
@@ -53,7 +55,7 @@ Role required: sn\_si.analyst
 
     **Note:**
 
-    -   If the selected observable isn’t present in TISC, then first the observable will be created as observable source and then once source observable creates TISC observable record, the observable record will be automatically associated with the newly created observable.
+    -   If the selected observable isn’t present in TISC, first the observable is created as an observable source. Then, the observable record is automatically associated with the newly created observable.
     -   Once the observable push operation is performed, then an information message is displayed.
 
         ```
@@ -75,7 +77,7 @@ Role required: sn\_si.analyst
 
     **Note:** :
 
-    -   You will now see the observable that is pushed to TISC from SIR application.
+    -   You can view the observable that is pushed to TISC from the SIR application.
 
         \[Omitted image "tisc-context-associate-observables.png"\] Alt text: View observables associated info.
 
@@ -84,10 +86,20 @@ Role required: sn\_si.analyst
 
         **Note:** The **Send Observable to TISC** option disappears once the automated flow is enabled.
 
-    -   **TISC Context** shows all the SIR associated observable which are also present in TISC.
+    -   **TISC Context** lists every TISC observable linked to the security incident, whether or not a matching threat intelligence observable exists in Security Incident Response Workspace.
     -   Using TISC context, the SIR analysts can see all the TISC Enrichment data including Threat Lookups, Sighting Search, and Observable Enrichment Results.
     -   **View Associated Info** will show all the associated observable enrichment data of the selected observables.
-10. View the results.
+10. To create and link a matching threat intelligence observable in Security Incident Response Workspace, select one or more observables in the **Observables** list and select **Create and Link to SI**.
+
+    A confirmation window opens before the action runs. This action both creates the threat intelligence observable and links it to the security incident. To link an existing record without creating one, use **Link** instead. For more details, see [Link and unlink TISC records to a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/tisc-link-unlink-records-sir.md).
+
+    **Note:**
+
+    If you select lowercase and uppercase variants of the same observable value, one observable is created and linked.
+
+    An information message confirms that observable creation and linking has started. Separate messages then report which observables were created, which were newly linked, which were already linked, which were of the unknown type, and which couldn't be processed. A work note is posted to the activity stream when at least one observable is created or newly linked.
+
+11. View the results.
 
 
 **Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/send-sir-to-tisc.md)

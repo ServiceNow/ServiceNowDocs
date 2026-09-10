@@ -24,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Create a collection of structured variables that can be reused across multiple catalog items and order guides using variable sets.
 
-A new variable set will be relevant to add when there are specific request form variables needed for running actions such as a post-provisioning action or for collecting additional information such as custom tags.
+Add a new variable set when you need specific request form variables for running actions such as post-provisioning. Variable sets are also useful for collecting additional information such as custom tags.
 
 You can modify the variable set and the changes are reflected across all the catalog items that are associated with the variable set. Variable sets also allow you to define catalog client scripts and UI policies that are applicable to the variables in the set.
 

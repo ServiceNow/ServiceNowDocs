@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [MCP Server, Service Mapping, activate, OAuth, MCP Server Console, Machine Identity Console]
 breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -21,14 +21,13 @@ Activate the CMDB MCP Server and configure the OAuth inbound integration so that
 
 Before activating the CMDB MCP Server, confirm the following requirements are met.
 
--   Verify that Zurich Patch 10 is installed.
--   You have the MCP Platform Manager version 1.4.0 \(or later\) plugin activated.
--   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.0.0, application installed.
+-   You have the latest version of MCP Platform Manager version installed.
+-   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.1.1 or later, application installed.
 -   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
 Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth\_admin \(or mi\_admin\) role
 
-\[Omitted image "sm-mcp-roles.png"\] Alt text: service\_mapping\_user contains sn\_sm\_gen\_ai.sm\_mcp\_user, which contains sn\_mcp\_server.viewer. The sn\_sm\_gen\_ai.sm\_mcp\_admin role separately contains sn\_sm\_gen\_ai.sm\_mcp\_user.
+\[Omitted image "sm-mcp-roles-sep26.png"\] Alt text: sn\_sm\_gen\_ai.sm\_mcp\_admin contains sn\_sm\_gen\_ai.sm\_mcp\_user and service\_mapping\_admin. sn\_sm\_gen\_ai.sm\_mcp\_user contains service\_mapping\_user and sn\_mcp\_server.viewer.
 
 ## About this task
 
@@ -74,12 +73,12 @@ For detailed information, see [Service Mapping MCP tools](https://raw.githubuser
 
 6.  Note the **Client ID** and **Client Secret** displayed on the integration record, and provide them to users along with the server URL so they can configure their AI client connections.
 
-    The server URL follows this format: `https://<instance>.service-now.com/sncapps/mcp-server/mcp/sn_cmdb_gen_ai_now_assist_cmdb_mcp_server`
+    The server URL follows this format: `https://<instance>.service-now.com/sncapps/mcp-server/mcp/sn_cmdb_gen_ai_cmdb_mcp_server`
 
 
 ## Result
 
-The Now Assist CMDB MCP Server is active and the OAuth inbound integration is configured. Users can connect an AI client and authenticate using the Client ID, Client Secret, and server URL.
+The CMDB MCP Server is active and the OAuth inbound integration is configured. Users can connect an AI client and authenticate using the Client ID, Client Secret, and server URL.
 
 ## What to do next
 

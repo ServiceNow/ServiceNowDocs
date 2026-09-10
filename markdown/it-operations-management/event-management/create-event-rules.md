@@ -53,7 +53,7 @@ Manually update event rules to reflect current event information because once an
 -   **[Find rules that will be applied to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewRuleApply.md)**  
 View the rules that will be applied on an event to determine how this event will be processed.
 -   **[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/simulate-event-processing.md)**  
-You can simulate event processing logic on events and display the resulting alert to better understand which rules are executed on a given event and how the event fields change after the rule is executed.
+You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed on a given event and how the event fields change after the rule is executed.
 
 **Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EM.md)
 

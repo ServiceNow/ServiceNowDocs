@@ -41,8 +41,6 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 4.  In the Turn on ServiceNow Otto panel dialog box, select **Turn on**.
 
-    \[Omitted image "config-now-assist-3.png"\] Alt text: Select Turn on in the Turn on ServiceNow Otto panel dialog box to confirm your choice.
-
 5.  If you want to use assistants, you must activate them.
 
     See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.

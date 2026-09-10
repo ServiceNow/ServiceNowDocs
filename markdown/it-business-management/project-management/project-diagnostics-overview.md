@@ -45,7 +45,7 @@ Tasks with invalid top task
 
 </td><td>
 
-Lists the tasks that have an invalid top task. A task is considered to have an invalid top task if the value for the top task is set to **Null** or is mapped to a different task in the hierarchy.
+Lists the tasks that have an invalid top task. A task is considered to have an invalid top task if the value for the top task is set to **Null** . Alternatively, the value can be mapped to a different task in the hierarchy.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Invalid relations
 
 </td><td>
 
-Lists the invalid relations in a project.A relation is considered to be invalid if the predecessor or successor is not a part of the project \(unless it is an external relation\), or if the predecessor or successor record does not exist in the system.
+Lists the invalid relations in a project.A relation is considered to be invalid if the predecessor or successor is not a part of the project, unless it is an external relation. A relation is also invalid if the predecessor or successor record does not exist in the system.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Validate project task constraints in project
 
 </td><td>
 
-Lists all tasks with invalid constraint types. For example, a task with Start no later than set as a parent or the **Constraint date** field is empty for a task with Start no earlier than and Start no later than constraint.
+Lists all tasks with invalid constraint types. For example, a task with Start no later than set as a parent or the **Constraint date** field is empty. This can occur for a task with Start no earlier than and Start no later than constraint.
 
 </td></tr><tr><td>
 

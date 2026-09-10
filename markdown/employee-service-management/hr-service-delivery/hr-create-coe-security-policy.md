@@ -128,7 +128,7 @@ Condition statement that filters an HR case.If the HR case matches the condition
 
  You can create conditions based on key words or fields from the HR case.
 
- When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+ When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 **Note:** An empty filter condition matches all records for the selected COE.
 

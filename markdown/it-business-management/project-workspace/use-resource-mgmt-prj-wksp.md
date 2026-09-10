@@ -36,7 +36,7 @@ The Resource allocation view combines a hierarchical task structure by resource 
 
 **Note:** Switch between different efforts such as hours, FTE, or person days to view a resource allocation heatmap based on the selected effort type.
 
-Allocation heatmap modal gives you an overview of the resource utilization to identify the over allocated and the available resources. The allocations are color-coded to display the availability of the resources and help you to identify the availability of the resource for the filtered time frame. The new heatmap modal gives you the following insights for a resource such as the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
+Allocation heatmap modal gives you an overview of the resource utilization to identify the over allocated and the available resources. The allocations are color-coded to display the availability of the resources and help you to identify the availability of the resource for the filtered time frame. The new heatmap modal gives you the following insights for a resource. These insights include the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
 
 \[Omitted image "rmw-heatmap-legend.png"\] Alt text: Legend for resource allocation view.
 
@@ -44,7 +44,7 @@ Allocation heatmap modal gives you an overview of the resource utilization to id
 
 \[Omitted image "rmw-allocation-modal.png"\] Alt text: Heatmap modal explaining different parameter values of resource allocation.
 
-From the above example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
+From the above example, you can see the breakdown of the approved work items. This breakdown includes the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
 
 Within the Resource Allocation view, the Approved state is prioritized and listed first, followed by other statuses based on their order in the record list. Additionally, if a user has no capacity during a given period, the corresponding cell is displayed in red color.
 

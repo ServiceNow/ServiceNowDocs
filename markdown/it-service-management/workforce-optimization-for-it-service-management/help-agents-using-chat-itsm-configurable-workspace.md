@@ -8,7 +8,7 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2026-06-05"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT S
 Assist agents in real-time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Important:** The Manager Workspace navigation is only available after Workforce Optimization for ITSM is activated and you have been assigned the sn\_wfo\_cfg\_ws.manager role or sn\_wfo\_cfg\_itsm.manager in the Admin Console. If this navigation path is missing, ask your administrator to verify WFO ITSM activation and role assignment. For setup instructions, see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -29,7 +29,7 @@ If their request doesn’t fall under the listed options, users can select the *
 
 ## Remote Hands Request Management Case Creation
 
-Remote Hands Request Management is implemented using the Remote Hands Case table \(sn\_remote\_hands\_case\). This case table stores customer service requests related to remote hands activities. When a customer submits a Remote Hands request through the Customer Service Management \(CSM\) portal, the form data is captured and mapped to the corresponding fields in the Remote Hands Case table \(sn\_remote\_hands\_case\). On submission, a Remote Hands Case record is automatically created in the system.
+Remote Hands Request Management is implemented using the Remote Hands Case table \(sn\_remote\_hands\_case\). This case table stores customer service requests related to remote hands activities. When a customer submits a Remote Hands request through the CSM portal, the form data is captured and mapped to the corresponding fields in the Remote Hands Case table. On submission, a Remote Hands Case record is automatically created in the system.
 
 The Remote Hand Case table \(sn\_remote\_hands\_case\) extends from the Customer Service Case table \(sn\_customerservice\_case\) in the Customer Service Management portal \(CSM\). By extending the base table, it inherits the standard fields and functionality of the Case table \(sn\_customerservice\_case\) table.
 

@@ -31,7 +31,7 @@ If you do not intend to use the base system SIEM auto-extraction rules, then ena
 
 1.  Navigate to **MITRE ATT&amp;CK Administration** &gt; **Properties**.
 
-2.  Enable the Rollup MITRE ATT&amp;ACK information automatically from alert rules to security incidents property, and click **Save**.
+2.  Enable the Rollup MITRE ATT&amp;ACK information automatically from alert rules to security incidents property, and select **Save**.
 
     By default, this option is disabled.
 
@@ -39,11 +39,9 @@ If you do not intend to use the base system SIEM auto-extraction rules, then ena
 
     **Note:** Ensure that you add the exact Alert Rule name. To add multiple rules, you need to add the rules using a comma separator.
 
-4.  Right-click the form, and click **Save**.
+4.  Right-click the form, and select **Save**.
 
     If the alert rule name value in the security incident matches a record in the Detection rule - MITRE ATT&amp;CK TTP Mapping module, the corresponding techniques and tactics associated to the alert rule are linked to the security incident automatically.
-
-    \[Omitted image "mitre-rollup-detection-rule.gif"\] Alt text: This illustration shows how to roll up MITRE information from the detection rules to a security incident.
 
 5.  Open the security incident, select the **MITRE ATT&amp;CK Card** and validate whether the techniques are rolled up.
 

@@ -1,6 +1,6 @@
 ---
 title: OCI virtual machine pattern-based discovery
-description: Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-vm-pattern.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patter
 
 # OCI virtual machine pattern-based discovery
 
-Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 
@@ -25,7 +25,7 @@ Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) on you
 
 -   **Configure the Discovery schedule to support GovCloud**
 
-    Discovering Oracle GovCloud \(US\) accounts requires using a datacenter URL when setting up an Oracle service account. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-oci-service-accounts.md).
+    Discovering OCI GovCloud accounts requires using a datacenter URL when setting up an OCI service account. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-oci-service-accounts.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -132,7 +132,7 @@ The cloud provider, which is **OCI**.This field is only populated in the Cloud I
 </td></tr></tbody>
 </table>**Note:** When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.md).
 
-## CI relationships
+## CI relationships and references
 
 The Oracle OCI - Virtual Machine \(LP\) pattern creates the following relationships and references to support OCI VM discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
@@ -146,6 +146,7 @@ The Oracle OCI - Virtual Machine \(LP\) pattern creates the following relationsh
 |Server \[cmdb\_ci\_server\]|Virtualized by::Virtualizes|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Use End Point To::Use End Point From|VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|
 |VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Implement End Point To::Implement End Point From|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
+|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Provisioned From::Provisioned|Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|
 
 |CI|Field|Referenced CI|
 |---|-----|-------------|
@@ -161,5 +162,48 @@ The Oracle OCI - Virtual Machine \(LP\) pattern collects tags and populates them
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table.|
 
-**Parent Topic:**[Oracle Cloud Infrastructure \(OCI\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md)
+## OCI BYOL discovery
+
+Starting with Discovery and Service Mapping Patterns version 1.35.0, the pattern extension section discovers the following license types for Windows VMs:
+
+-   Bring Your Own License \(BYOL\)
+-   License included
+
+The pattern stores the license type and model in the Key Value \[cmdb\_key\_value\] table.
+
+<table id="table_p3y_djn_zjc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Key \[key\]
+
+</td><td>
+
+The license type key, which is **Windows\_OS\_License\_Type\_automatic**.
+
+</td></tr><tr><td>
+
+Value \[value\]
+
+</td><td>
+
+The license model, which is one of the following:-   BYOL
+-   License Included
+
+</td></tr><tr><td>
+
+Configuration item \[configuration\_item\]
+
+</td><td>
+
+References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Oracle Cloud Infrastructure \(OCI\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md)
 

@@ -31,11 +31,11 @@ Generative AI may produce inaccurate or incomplete information. Always validate 
 
 ## What the LEAP AI agent does
 
-The LEAP AI agent autonomously scans active automation opportunities and acts on the ones that have resolution steps, so that IT operations teams spend less time triggering automation manually. The agent provides the following capabilities:
+The LEAP AI agent autonomously scans active automation opportunities and acts on the ones that have resolution steps. IT operations teams spend less time triggering automation manually. The agent provides the following capabilities:
 
 -   **Create knowledge base articles**
 
-    The agent is triggered when resolution steps for automation opportunities are generated successfully to document and generate a draft knowledge base article that includes the automation opportunity title, resolution steps, and related incident context. You review the draft and publish it. Each published article remains traceable to its source automation opportunity. The agent doesn't create a knowledge base for an automation opportunity that is already linked to an open KB.
+    The agent is triggered when resolution steps for automation opportunities are generated successfully. It creates a draft knowledge base article that includes the automation opportunity title, resolution steps, and related incident context. You review the draft and publish it. Each published article remains traceable to its source automation opportunity. The agent doesn't create a knowledge base for an automation opportunity that is already linked to an open KB.
 
 -   **Create problem records**
 

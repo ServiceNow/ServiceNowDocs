@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Anomaly score thresholds are defined in the table Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\]. For example, by default, anomaly scores from 8 through 9 are severity 2 \(Major\), and are displayed by dark orange color in the Insights Explorer and in the Anomaly Map.
+Anomaly score thresholds are defined in the table Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\]. For example, by default, anomaly scores from 8 through 9 are severity 2 \(Major\). These anomalies are displayed by dark orange color in the Insights Explorer and in the Anomaly Map.
 
 For information on the event severities that each number corresponds to, see [Event severities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/event-severities.md).
 

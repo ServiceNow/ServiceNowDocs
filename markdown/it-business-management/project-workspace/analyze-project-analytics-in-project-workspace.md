@@ -24,7 +24,7 @@ Role required: it\_project\_user
 
 ## About this task
 
-The Analytics tab is a dashboard that showcases preconfigured widgets and reports to monitor the progress of a project, including aspects like open risks, actual costs, and delayed milestones. The reports aggregate data from the fields in the project form. For details on the various widgets and reports available for different project types, see the [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-analytics-widgets.md).
+The Analytics tab is a dashboard that showcases preconfigured widgets and reports to monitor the progress of a project. These aspects include open risks, actual costs, and delayed milestones. The reports aggregate data from the fields in the project form. For details on the various widgets and reports available for different project types, see the [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-analytics-widgets.md).
 
 ## Procedure
 

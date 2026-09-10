@@ -25,8 +25,6 @@ Use the AI Admin Hub console to configure ServiceNow Otto for TPRM. This console
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
-
 For information about configuring generative AI skills and prompts, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md).
 
 Install the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) application.

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Real-time prevention monitoring for Scan Engine, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Real-time prevention monitoring for Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Using real-time prevention monitoring

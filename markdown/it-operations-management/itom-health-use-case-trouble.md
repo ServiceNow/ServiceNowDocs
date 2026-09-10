@@ -22,7 +22,7 @@ Key considerations for implementing ITOM AIOps for CSDM framework include the fo
 
 -   **Defining Technical Services within Event Management**
 
-    Dynamic CI Group services, formerly known as Technical Services, leverage the CMDB CI Group capability to query the CMDB, enabling efficient grouping of Configuration Items \(CIs\) for various operational purposes.
+    Dynamic CI Group services, formerly known as Technical Services, leverage the CMDB CI Group capability to query the CMDB. This enables efficient grouping of Configuration Items \(CIs\) for various operational purposes.
 
 -   **Recognizing common use cases for the Dynamic CI Group service**
 

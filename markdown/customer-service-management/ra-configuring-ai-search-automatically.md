@@ -50,7 +50,7 @@ Newly created mapping records are active by default. Admins can control which se
 
 The Search result recommended action mapping table \(sn\_nb\_action\_search\_result\_ra\_mapping\) stores the mapping between search sources and actions. Records in this table include an **Active** field which the admin can use to manage the activation state of search result mappings. When a new record is created in this table, the **Active** field is set to true by default.
 
-When an agent performs a search in the Recommended Actions search component in CSM Configurable Workspace, the system displays the search sources that are marked as active in the search result mapping configuration. Inactive search sources are excluded from the search results.
+When an agent performs a search in the Recommended Actions search component in CRM Workspace, the system displays the search sources that are marked as active in the search result mapping configuration. Inactive search sources are excluded from the search results.
 
 Changes in the search result mapping, such as activating or deactivating a search source, are automatically reflected in the search results.
 

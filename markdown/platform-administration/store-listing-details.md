@@ -20,9 +20,9 @@ You can view an app's listing details by selecting an app in the ServiceNow Stor
 
 The listing details header shows procurement options, as well as basic information like the application name and the provider. For partner applications, you can select the provider name to view the seller profile.
 
-\[Omitted image "store-details-header.png"\] Alt text: Now Assist Admin Console header displaying Accept Terms procurement option.
+\[Omitted image "store-details-header.png"\] Alt text: Collaboration Services header displaying Accept Terms procurement option.
 
-There are a number of possible procurement options and additional statuses that can be found in the listing details header, including but not limited to options for requesting a 30-day trial, requesting purchase, and signing custom terms and conditions.
+There are a number of possible procurement options and additional statuses that can be found in the listing details header. Options include but not limited to requesting a 30-day trial, requesting purchase, and signing custom terms and conditions.
 
 Procurement options might be updated or replaced with status messages depending on what actions you take. For example, once you request a trial, the button with that option is replaced with a status message letting you know the trial has been requested. After the trial has been approved, the message is replaced with an option to start the 30-day trial.
 
@@ -78,16 +78,20 @@ The version details section includes the following information:
 
     Displays release date, custom table count, and platform release compatibility for the selected version. Select available platform release versions and application versions using the drop-down menus at the beginning of the version summary.
 
+-   **Dependencies**
+
+    Lists of application dependencies and plugin dependencies that are required for the application to function correctly. For more information about dependencies, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/versions-dependencies.md).
+
 -   **Release notes**
 
     Information about what's been added, removed, or fixed in the selected application version.
 
+-   **Resource permissions**
+
+    Information about how the application accesses cross scope and cross origin resources, and how its system usage is controlled, if provided by the developer.
+
 -   **Requirements**
 
     Hardware and software requirements for the application.
-
--   **Dependencies**
-
-    Lists of application dependencies and plugin dependencies that are required for the application to function correctly. For more information about dependencies, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/versions-dependencies.md).
 
 

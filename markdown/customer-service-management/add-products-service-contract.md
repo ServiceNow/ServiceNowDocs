@@ -30,17 +30,17 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 ## Procedure
 
-1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
+1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d156234e88">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d156133e88">
 
 Interface
 
-</th><th align="left" id="d156234e91">
+</th><th align="left" id="d156133e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d156234e97">
+</th></tr></thead><tbody><tr><td id="d156133e97">
 
 **ServiceNow AI Platform interface**
 
@@ -48,9 +48,9 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d156234e120">
+</td></tr><tr><td id="d156133e120">
 
-**CSM Configurable Workspace**
+**CRM Workspace**
 
 </td><td>
 
@@ -61,15 +61,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to service contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d156234e170">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d156133e170">
 
 Add to
 
-</th><th align="left" id="d156234e173">
+</th><th align="left" id="d156133e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d156234e179">
+</th></tr></thead><tbody><tr><td id="d156133e179">
 
 **Service Contracts**
 
@@ -83,7 +83,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d156234e220">
+</td></tr><tr><td id="d156133e220">
 
 **Service Contract Lines**
 
@@ -98,7 +98,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it's not added to the related entitlements.
 
-</td></tr><tr><td id="d156234e273">
+</td></tr><tr><td id="d156133e273">
 
 **Entitlements**
 

@@ -1,20 +1,20 @@
 ---
 title: CSM Configurable Workspace form templates
-description: Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically populate fields on records.
+description: Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate fields on records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-form-templates.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace form templates
 
-Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically populate fields on records.
+Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate fields on records.
 
-Form templates simplify the process of creating and submitting new records by populating fields with selected values. In CSM Configurable Workspace, form templates are available in the Templates tab in the contextual side panel. From the Templates tab, you can do the following:
+Form templates simplify the process of creating and submitting new records by populating fields with selected values. In CRM Workspace, form templates are available in the Templates tab in the contextual side panel. From the Templates tab, you can do the following:
 
 -   View template cards that display information including the template name, description, and when the template was last used.
 -   View different lists of templates, including Favorites, My Templates, and All.

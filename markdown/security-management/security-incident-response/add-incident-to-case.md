@@ -7,8 +7,9 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
+keywords: [security incident, link incident to case, Security Incident Response Workspace, Threat Intelligence Security Center, case management, security artifacts, incident investigation, TISC workspace, link TISC case]
 breadcrumb: [Send data from SIR Workspace to TISC, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -24,27 +25,23 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Security Incidents** &gt; **All**.
 
-2.  Locate and open any specific security incident that you're investigating.
+2.  Open the security incident you're investigating.
 
     This can also be done by searching for the incident ID or browsing from Quick Filters section or filtering through incident state.
 
-3.  Click on **More actions** icon.
+3.  Select **TISC Context** &gt; **TISC Cases**.
 
-4.  Click **Add to TISC Case** action.
+4.  Select **Link**.
 
-    Add to TISC Case dialog box displays and this only shows those TISC cases where the incident is not already associated.
+    The Link TISC Case dialog box displays the TISC cases where the incident is not already associated.
 
-5.  Select the case\(s\) from the **Add to Case** dialog box.
+5.  Select the cases from the list and select **Link**.
 
-    \[Omitted image "tisc-add2-case-modal.png"\] Alt text: Add to TISC Case Modal
+    \[Omitted image "link-tisc-case.png"\] Alt text: Link TISC Case
 
-    **Note:** Create a new TISC case if there no case records. For more information on how to create case\(s\), see [Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md).
+    The linked case is displayed in the **TISC Cases** list. Select the case record to view the case in the TISC Workspace. You can also select the case record from the security incident **Activity** stream.
 
-6.  Click **Add**.
-
-7.  Click the Case record to view the case in TISC from the information message displayed or from the **Activity** stream.
-
-    **Note:** To view the linked security incidents, click on the particular case record from the security incident **Activity** stream. By clicking on this will take you to the case record in TISC workspace and the security incidents will get added under **Artifacts** tab of the Case Management module.
+6.  Select **Create new TISC case** to create a TISC case within the workflow.
 
 
 **Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/send-sir-to-tisc.md)

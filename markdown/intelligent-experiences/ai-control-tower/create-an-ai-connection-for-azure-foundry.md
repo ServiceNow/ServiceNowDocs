@@ -28,7 +28,7 @@ For full instructions, see the [Azure documentation](https://learn.microsoft.com
 The Azure client application requires the following roles:
 
 -   Reader role at the subscription or resource group level to discover resources.
--   Azure User role on the Azure AI Foundry resources.
+-   Foundry user role on the Azure AI Foundry resources.
 
 **Note:** As of March 2026, ServiceNow supports the New Azure AI Foundry alongside the original Azure AI Foundry. The New Foundry treats each agent version as a distinct entity.
 

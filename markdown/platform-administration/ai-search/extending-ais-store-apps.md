@@ -16,7 +16,7 @@ breadcrumb: [AI Search, Search administration, Configure core features, Administ
 
 Applications and integrations from the ServiceNow® Store extend AI Search functionality and provide insight into search usage and behavior.
 
--   **[AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/ai-search-spoke.md)**
+-   **AI Search spoke**
 
     This Integration Hub spoke enables storage of document data from third-party applications in the AI Search index using Workflow Studio. Users can access the indexed data through portals that have AI Search enabled.
 

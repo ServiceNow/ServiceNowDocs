@@ -7,8 +7,10 @@ release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-08-19"
+reading_time_minutes: 3
+keywords: [Task Intelligence, ITSM, prediction models, machine learning, incident categorization, similar incidents, major incident recommendation, similar change requests, similar problems, field predictions, actionable recommendations, model training, model deployment, model assessment, prediction accuracy, analytics dashboard]
+audience: administrator
 breadcrumb: [Task Intelligence for ITSM, IT Service Management]
 ---
 
@@ -37,6 +39,15 @@ Creating a model involves the following steps:
 -   Train a model: Train a model to make predictions using your data.
 -   Assess your model: Assess the results from the model training, view sample results for the predictions, and select the prediction preferences and behavior for your model.
 -   Deploy your model: Deploy your model to predict incident fields on incident forms.
+
+## Testing a prediction model
+
+Before you deploy a model, preview how it performs on your data:
+
+-   During setup, use the assess step to view sample predictions on past records. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
+-   To validate a model against live data without changing incident records, set the prediction behavior to **Monitor only**. The model runs in the background and stores predictions for you to review.
+
+After deployment, track prediction accuracy over time in the analytics dashboard. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
 
 ## Editing a prediction model
 

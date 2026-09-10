@@ -1,6 +1,6 @@
 ---
-title: Common use cases for SQL API
-description: The SQL API supports business intelligence reporting, ad-hoc data analysis, and custom report development.
+title: Common use cases for Live Connect
+description: The Live Connect supports business intelligence reporting, ad-hoc data analysis, and custom report development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/common-use-cases-for-sql-api.html
 release: zurich
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Explore, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Explore, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Common use cases for SQL API
+# Common use cases for Live Connect
 
-The SQL API supports business intelligence reporting, ad-hoc data analysis, and custom report development.
+The Live Connect supports business intelligence reporting, ad-hoc data analysis, and custom report development.
 
-The SQL API is particularly useful for scenarios that require direct access to ServiceNow data from external tools and platforms. These use cases demonstrate how organizations leverage SQL API to enhance their data analysis and reporting capabilities.
+The Live Connect is particularly useful for scenarios that require direct access to ServiceNow data from external tools and platforms. These use cases demonstrate how organizations leverage Live Connect to enhance their data analysis and reporting capabilities.
 
 ## Business intelligence and reporting
 
@@ -35,11 +35,11 @@ By writing targeted SQL queries, you can retrieve only the data you need. This r
 
 Build specialized reports using your organization's standard reporting tools and frameworks. You can maintain control over report design and scheduling while accessing live ServiceNow data.
 
-The SQL API supports read-only operations that avoid unintended modifications to your ServiceNow records. This ensures that your analytical work cannot accidentally modify production data. This helps provide a secure environment for developing and executing custom reports.
+The Live Connect supports read-only operations that avoid unintended modifications to your ServiceNow records. This ensures that your analytical work cannot accidentally modify production data. This helps provide a secure environment for developing and executing custom reports.
 
 ## External data source integration
 
-SQL API is designed with built-in limits to keep your ServiceNow instance running smoothly. You can use it to query specific data and integrate it with other data sources, as long as you stay within these limits.
+Live Connect is designed with built-in limits to keep your ServiceNow instance running smoothly. You can use it to query specific data and integrate it with other data sources, as long as you stay within these limits.
 
-**Parent Topic:**[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
+**Parent Topic:**[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

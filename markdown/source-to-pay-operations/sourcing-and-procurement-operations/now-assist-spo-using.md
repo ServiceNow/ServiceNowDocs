@@ -17,8 +17,6 @@ breadcrumb: [ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finan
 
 ServiceNow Otto for SPO is an AI assistant for procurement and sourcing tasks. You can access it through Shopping Hub, Virtual Agent chat, and Source-to-Pay Workspace.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
-
 ## What ServiceNow Otto for SPO can do for you
 
 ServiceNow Otto for SPO works with your product catalog and procurement data to:
@@ -62,6 +60,8 @@ ServiceNow Otto is a chat assistant that helps you complete procurement tasks th
 Analyze requester sentiments on active procurement cases to help procurement specialists quickly identify, prioritize, and track sensitive requests.
 -   **[Generate an email response for procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/email-response-na-spo.md)**  
 Enables procurement specialists and buyers to generate professional, accurate email responses using ServiceNow Otto. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
+-   **[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)**  
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) generates knowledge articles from closed procurement cases in Source-to-Pay Workspace.
 
 **Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

@@ -57,6 +57,10 @@ View all the purchases you made from your shopping account, view their status, a
 
 [Create a Universal Request]()
 
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
+
 [Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md)
 
 [Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)

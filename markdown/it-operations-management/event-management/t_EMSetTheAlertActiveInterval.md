@@ -1,6 +1,6 @@
 ---
 title: Configure the alert active interval
-description: The active interval property \(evt\_mgmt.active\_interval\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. Based on the active interval, event, and existing closed alert information, the alert is reopened and the event information is added to the existing alert or a new alert is created.
+description: The active interval property \(evt\_mgmt.active\_interval\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. Based on the active interval, event, and existing closed alert information, the alert is reopened and the event information is added to the existing alert. Otherwise, a new alert is created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/t\_EMSetTheAlertActiveInterval.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Alert lifecycle configuration, Manage and monitor alerts, Configure
 
 # Configure the alert active interval
 
-The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. Based on the active interval, event, and existing closed alert information, the alert is reopened and the event information is added to the existing alert or a new alert is created.
+The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. Based on the active interval, event, and existing closed alert information, the alert is reopened and the event information is added to the existing alert. Otherwise, a new alert is created.
 
 ## Before you begin
 

@@ -856,7 +856,7 @@ Applications you install on your instance may include additional roles. Follow t
 
 |Product|Application|
 |-------|-----------|
-|Platform Capabilities|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/installed-with-awa.md)|
+|Platform Capabilities|Advanced Work Assignment|
 
 **Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-roles.md)
 

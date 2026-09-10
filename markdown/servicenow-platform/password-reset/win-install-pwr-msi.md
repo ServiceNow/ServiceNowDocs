@@ -7,7 +7,7 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install Password Reset Windows Application, Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

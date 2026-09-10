@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -38,6 +38,16 @@ Enables shoppers or requesters to interact with agents to resolve their issues a
 
 **Related topics**  
 
+
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
+[Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Install Sourcing and Procurement Operations]()
 

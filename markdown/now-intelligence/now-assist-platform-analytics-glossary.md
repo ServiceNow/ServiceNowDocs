@@ -7,13 +7,17 @@ release: zurich
 topic_type: concept
 last_updated: "2026-05-20"
 reading_time_minutes: 4
-keywords: [Now Assist Platform Analytics glossary, query generation terms, Now Assist Explorer terms, Analytics Assist, Now Assist panel, automated segment, query generation, dimension, semantic layer, query generation, entity, semantic layer, query generation, executable query, query generation, exploration, Now Assist Explorer, exploration creator, Now Assist Explorer, exploration goal, Now Assist Explorer, exploration participant, Now Assist Explorer, exploration viewer, Now Assist Explorer, extended analysis, Now Assist Explorer, facts table, semantic layer, query generation, LLM, large language model, query generation, manual segment, query generation, Now Assist Explorer, AI data explorer, Query Generation, natural language query, segment, semantic layer, query generation, semantic description, semantic metadata, query generation, semantic label, semantic metadata, query generation, semantic layer, query generation, semantic usage instructions, semantic metadata, query generation, utterance, natural language, query generation]
+keywords: [Now Assist Platform Analytics glossary, query generation terms, Now Assist Explorer terms, Now Assist Explorer, AI data explorer, Analytics Assist, Now Assist panel, automated segment, query generation, dimension, semantic layer, query generation, entity, semantic layer, query generation, executable query, query generation, exploration, Now Assist Explorer, exploration creator, Now Assist Explorer, exploration goal, Now Assist Explorer, exploration participant, Now Assist Explorer, exploration viewer, Now Assist Explorer, extended analysis, Now Assist Explorer, facts table, semantic layer, query generation, LLM, large language model, query generation, manual segment, query generation, Query Generation, natural language query, segment, semantic layer, query generation, semantic description, semantic metadata, query generation, semantic label, semantic metadata, query generation, semantic layer, query generation, semantic usage instructions, semantic metadata, query generation, utterance, natural language, query generation]
 breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Now Assist in Platform Analytics terms
 
 Now Assist in Platform Analytics uses terms that describe AI-assisted data exploration, query generation, and the semantic layer that connects natural language questions to instance data.
+
+## AI Data Explorer
+
+An AI-powered application in Platform Analytics that lets users ask natural language questions about data, receive data visualizations and summaries, and collaborate with others in shared explorations. Formerly called Now Assist Explorer.
 
 ## Analytics Assist
 
@@ -70,10 +74,6 @@ An AI model trained on large volumes of text data to understand and generate nat
 ## manual segment
 
 A segment created by an administrator to map user-friendly business terminology to specific query filter conditions. Manual segments receive a scoring boost over automated segments and can be shipped with applications via update sets.
-
-## Now Assist Explorer
-
-An AI-powered application in Platform Analytics that lets users ask natural language questions about data, receive data visualizations and summaries, and collaborate with others in shared explorations.
 
 ## Query Generation
 

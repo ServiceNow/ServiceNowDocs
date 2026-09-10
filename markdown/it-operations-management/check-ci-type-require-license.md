@@ -16,7 +16,7 @@ View the list of configuration item \(CI\) types that require IT Operations Mana
 
 ## Before you begin
 
-Ensure that your organization has purchased ITOM subscriptions. You can't view the information in the **ITOM License** module without subscriptions.
+Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
 
 Role required: sn\_itom\_license.reader
 

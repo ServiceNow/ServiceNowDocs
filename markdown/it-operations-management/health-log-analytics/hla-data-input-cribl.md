@@ -31,7 +31,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Cribl for filtering and routing large volumes of log data from various sources, the log format Health Log Analytics receives is distinct from other types. The Cribl data input enables HLA to detect and separate transport headers from inner log messages in this format, forwarding only the inner message to the source type structure for processing.
+If your organization uses Cribl for filtering and routing large volumes of log data from various sources, the log format Health Log Analytics receives is distinct from other types. The Cribl data input enables HLA to detect and separate transport headers from inner log messages. Only the inner message is forwarded to the source type structure for processing.
 
 ## Procedure
 

@@ -20,6 +20,16 @@ Apply your change approval policy in the Change Management Workflow Studio actio
 
 Role required: admin
 
+## About this task
+
+This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-approval-definitions.md).
+
+When approvals are being generated, the **Ask For Approval** action avoids generating more than one approval for the same user. For example, if the policy requires approval from two groups and both groups have the same user, then the shared user is notified only once for the approval.
+
+The action generates the user and group approvals automatically from the change approval policy. You do not set the approval fields on the change request manually.
+
+**Important:** The **Apply Change Approval Policy** action automatically generates the required user and group approvals. You do not need to set the approval fields on the change request manually.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer** &gt; **Flows**.

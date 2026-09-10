@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -79,6 +79,9 @@ Using Capacity, you can:
 
 -   View total resource capacity and total estimates.
 -   View the efforts for operational work and efforts for estimates outside of portfolio in the **Additional items** list.
+
+    **Note:** The **Filtered Out Items** and **Estimate outside portfolio** rows display effort only from prioritized planning items. Resource Management Workspace displays effort from all planning items regardless of prioritization state, which may result in different utilization values between the two views. To include planning items in capacity calculations, change their state to **Prioritized**.
+
 -   Redefine the workforce criteria by selecting **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\)
 
 ## Calculation of Operational Resource Assignment in Capacity

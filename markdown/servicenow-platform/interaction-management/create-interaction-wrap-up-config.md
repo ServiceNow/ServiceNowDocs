@@ -118,7 +118,7 @@ Show duration to agent
 
 Enables a duration countdown timer for the agent. The default value is false. The system displays this field when you enable the **Enforce wrap up duration** field.
 
-The interaction wrap up timer display is available in CSM Configurable Workspace.
+The interaction wrap up timer display is available in CRM Workspace.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Enable wrap up codes
 
 </td><td>
 
-Enables wrap up codes in CSM Configurable Workspace. When wrapping up an interaction, agents can select from the configured wrap up codes.
+Enables wrap up codes in CRM Workspace. When wrapping up an interaction, agents can select from the configured wrap up codes.
 
 </td></tr><tr><td>
 

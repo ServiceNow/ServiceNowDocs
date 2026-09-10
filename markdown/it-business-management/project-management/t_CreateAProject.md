@@ -31,7 +31,7 @@ You can create a project from the Projects list or from the project planning con
 After you start the project:
 
 -   The read-only **Actual start date** field of the project is populated with the planned date.
--   If a task or set of tasks are scheduled to start immediately upon project start \(meaning that their time constraints are set to **Start ASAP** and they have no other start dependencies\), the actual start dates of those tasks also get populated with the planned date.
+-   If tasks are scheduled to start immediately upon project start \(meaning that their time constraints are set to **Start ASAP** and they have no other start dependencies\). In this case, the actual start dates of those tasks also get populated with the planned date.
 -   The planned start dates of all other tasks adjust accordingly based on the time you started the project. Their new planned start dates depend on several factors, including dependent relationships with other tasks and the duration for each task.
 
     **Note:** Once a project is in the **Work in Progress** state, it does not mean that the state of every task will start updating automatically based on planned start date. Other than the project tasks that you schedule to start **ASAP** when the project starts, project tasks are not started automatically. Continue to manage the project and change the state of each task to **Work in Progress**.
@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d255288e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d261107e159">
 
 Location
 
-</th><th align="left" id="d255288e153">
+</th><th align="left" id="d261107e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d255288e159">
+</th></tr></thead><tbody><tr><td id="d261107e168">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d255288e185">
+</td></tr><tr><td id="d261107e194">
 
 **From the project workspace**
 
@@ -91,7 +91,7 @@ Associate monetary and non-monetary benefit plans, so that you can capture the p
 -   **[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectCostPlan.md)**  
 Create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects.
 -   **[Recalculating costs of all resource plans in a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/recalculate-resource-costs-of-a-project.md)**  
-Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model . This keeps the plan costs up to date.
 -   **[Create an expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAExpenseLine.md)**  
 A project expense line is cost associated with a specific source, such as a user, fixed asset, or a CI. Expense lines are part of project cost plans.
 -   **[Create and manage waterfall projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_CreateAndManageWaterfallProjects.md)**  

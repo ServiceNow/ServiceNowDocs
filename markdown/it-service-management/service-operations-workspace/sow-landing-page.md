@@ -1,6 +1,6 @@
 ---
 title: Service Operations Workspace for ITSM
-description: ServiceNow Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
+description: ServiceNow Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/sow-landing-page.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [IT Service Management]
 
 # Service Operations Workspace for ITSM
 
-ServiceNow® Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
+ServiceNow® Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 
 ## Service Operations Workspace overview
 
@@ -66,4 +66,8 @@ For information about Service Operations Workspace for ITOM, see [Service Operat
 ## Helpful resources
 
 [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+## Licensing
+
+Service Operations Workspace for ITSM is included in the ITSM Professional and Enterprise license bundles. To verify your entitlement or activate the plugin, see the **** Service Operations Workspace listing on the ServiceNow store.
 

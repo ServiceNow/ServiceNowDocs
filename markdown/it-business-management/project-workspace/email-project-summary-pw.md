@@ -68,7 +68,7 @@ When a project is created in the work in progress state, the project insight gen
 
     This skill considers task-level work notes when generating project insights.
 
-    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want, customize the insights with their own prompt instructions, add more stakeholders, and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
+    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want and customize the insights with their own prompt instructions. They can also add more stakeholders and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
 
 
 ## Schedule a project insight email

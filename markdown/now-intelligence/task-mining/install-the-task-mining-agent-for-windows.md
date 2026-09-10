@@ -40,11 +40,11 @@ Deploying the Task Mining agent using Microsoft Intune involves converting the i
 
     2.  Select an existing key or create one.
 
-        \[Omitted image "image.tm-agent-3"\] Alt text: Screenshot of registration key selection.
+        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
 
     3.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    \[Omitted image "image.tm-agent-4"\] Alt text: Screenshot of instance URL and registration key.
+    \[Omitted image "tm-agent-4.png"\] Alt text: Screenshot of instance URL and registration key.
 
 2.  Install the Windows agent by running the script.
 
@@ -52,7 +52,7 @@ Deploying the Task Mining agent using Microsoft Intune involves converting the i
 
     2.  Select **Copy** next to **Download and Install** to collect the one-line installation script.
 
-        \[Omitted image "image.tm-agent-6"\] Alt text: Screenshot of Windows command line.
+        \[Omitted image "tm-agent-6.png"\] Alt text: Screenshot of Windows command line.
 
     3.  Open Windows **PowerShell** as an administrator.
 

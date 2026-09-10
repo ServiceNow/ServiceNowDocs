@@ -16,6 +16,8 @@ breadcrumb: [IT Service Management]
 
 Manage and maintain the productivity of your workforce from a single location using Workforce Optimization for ITSM. Using this application, you can efficiently manage your team's skills and schedules, route work assignments to your team, and monitor their performance.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Workforce Optimization for ITSM in action
 
 Here's how managers use Workforce Optimization for ITSM. \[Omitted video\] Description: Workforce Optimization for ITSM Overview

@@ -1,6 +1,6 @@
 ---
 title: Create IP filter criteria
-description: Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
+description: Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the Live Connect Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-ip-filter-criteria.html
 release: zurich
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure SQL API plugin on your ServiceNow instance, Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure Live Connect plugin on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Create IP filter criteria
 
-Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
+Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the Live Connect Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required: admin
 
 ## About this task
 
-This is the third and final configuration procedure for enabling SQL API access on your instance. After completing this task, your Service Account will be able to connect to ServiceNow via ODBC or JDBC from the specified IP addresses and query the tables for which access has been granted.
+This is the third and final configuration procedure for enabling Live Connect access on your instance. After completing this task, your Service Account will be able to connect to ServiceNow via ODBC or JDBC from the specified IP addresses and query the tables for which access has been granted.
 
-By default, all incoming IP addresses are blocked for SQL API connections. You must explicitly define which IP addresses or IP ranges are permitted to connect. This ensures that only trusted client machines can access your ServiceNow data through the SQL API.
+By default, all incoming IP addresses are blocked for Live Connect connections. You must explicitly define which IP addresses or IP ranges are permitted to connect. This ensures that only trusted client machines can access your ServiceNow data through the Live Connect.
 
 **Note:** For additional details on IP filtering, refer to the [IP filter documentation](https://www.servicenow.com/docs/r/platform-security/authentication/create-ip-filter-criteria.html) in the ServiceNow Platform Security guide.
 
@@ -49,7 +49,7 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
     \[Omitted image "sql-api-IP-filter-criteria.png"\] Alt text: UI screen example showing IP filter criteria.
 
-7.  Define the specific IP addresses or IP address ranges your ODBC/JDBC client machines that should be allowed to connect to your ServiceNow instance via the SQL API drivers.
+7.  Define the specific IP addresses or IP address ranges your ODBC/JDBC client machines that should be allowed to connect to your ServiceNow instance via the Live Connect drivers.
 
     The IP address you enter here is the outbound IP address and not internal IP address. Your IT team should be able to provide this information. These are the machines from which BI tools and analytics platforms will connect to ServiceNow.
 
@@ -57,7 +57,7 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 9.  Go to the **Policy Conditions** tab and select **New**.
 
-    After defining the IP filter criteria and range, add a Policy Condition to the SQL API Authentication Policy to enforce the IP restriction for ODBC/JDBC access.
+    After defining the IP filter criteria and range, add a Policy Condition to the Live Connect Authentication Policy to enforce the IP restriction for ODBC/JDBC access.
 
 10. Provide a Name and Description of this Policy condition.
 
@@ -70,9 +70,9 @@ By default, all incoming IP addresses are blocked for SQL API connections. You m
 
 ## Result
 
-You have successfully configured IP filtering for SQL API access. Your ServiceNow instance will now accept SQL API connections only from the specified IP addresses or IP ranges. All other connection attempts will be blocked by default.
+You have successfully configured IP filtering for Live Connect access. Your ServiceNow instance will now accept Live Connect connections only from the specified IP addresses or IP ranges. All other connection attempts will be blocked by default.
 
 Your Service Account can now connect to ServiceNow via ODBC or JDBC from the permitted client machines and query the tables for which both egress\_sql and read ACLs have been configured.
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Configure Live Connect plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
 

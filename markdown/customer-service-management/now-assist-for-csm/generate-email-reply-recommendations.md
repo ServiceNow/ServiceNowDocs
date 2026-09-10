@@ -40,15 +40,15 @@ An agent can do these actions by using the AI icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d170965e118">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d170864e118">
 
 Method
 
-</th><th align="left" id="d170965e121">
+</th><th align="left" id="d170864e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d170965e127">
+</th></tr></thead><tbody><tr><td id="d170864e127">
 
 **Compose email from More actions**
 
@@ -61,7 +61,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d170965e172">
+</td></tr><tr><td id="d170864e172">
 
 **Compose an email from Activity stream**
 
@@ -75,15 +75,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the AI \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. icon.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d170965e220">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d170864e220">
 
 Email message window
 
-</th><th align="left" id="d170965e223">
+</th><th align="left" id="d170864e223">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d170965e229">
+</th></tr></thead><tbody><tr><td id="d170864e229">
 
 **Typed response**
 
@@ -98,7 +98,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d170965e259">
+</td></tr><tr><td id="d170864e259">
 
 **Left blank**
 
@@ -106,7 +106,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d170965e268">
+</td></tr><tr><td id="d170864e268">
 
 **Use template**
 

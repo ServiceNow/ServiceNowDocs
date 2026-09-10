@@ -46,7 +46,7 @@ When you run reconciliation with grouping, product summarization and recommended
 
 5.  Select **Summarize** or the Recommended actions icon on the right hand side of the page and then select **Get recommendations**.
 
-    Now Assist for SAM application starts generating recommended actions for the selected product. After the recommended actions are generated, the results appear as cards under the following three categories:
+    ServiceNow Otto for SAM application starts generating recommended actions for the selected product. After the recommended actions are generated, the results appear as cards under the following three categories:
 
     -   Configuration
     -   Maintenance
@@ -63,15 +63,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d218077e195">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d283798e195">
 
 Action
 
-</th><th align="left" id="d218077e198">
+</th><th align="left" id="d283798e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d218077e204">
+</th></tr></thead><tbody><tr><td id="d283798e204">
 
 **Regenerate icon**
 
@@ -81,7 +81,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d218077e219">
+</td></tr><tr><td id="d283798e219">
 
 **Feedback**
 

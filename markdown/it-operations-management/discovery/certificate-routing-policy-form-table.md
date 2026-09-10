@@ -1,5 +1,5 @@
 ---
-title: Certificate Routing Policy form for EJBCA ACME
+title: Certificate routing policy form for EJBCA ACME
 description: To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Certificate Routing Policy form for EJBCA ACME
+# Certificate routing policy form for EJBCA ACME
 
 To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 
@@ -79,6 +79,14 @@ Credential alias. Your options are based on the aliases that you create in the C
 
 </td></tr><tr><td>
 
+Vault Type
+
+</td><td>
+
+External vault provider to use for private key storage with this routing policy. When set to HashiCorp Vault, the system stores private keys in the HashiCorp Vault during automated certificate operations.
+
+</td></tr><tr><td>
+
 Certification Purpose
 
 </td><td>
@@ -124,7 +132,7 @@ DNS Task Assignment Group
 
 </td><td>
 
-DNS Task Assignment Group. Select **Certificate Inventory and Management**
+DNS Task Assignment Group. Select **Certificate Inventory and Management**.
 
 </td></tr><tr><td>
 
@@ -132,7 +140,7 @@ Domain
 
 </td><td>
 
-Domain of the policy. This field is automatically set to **global**
+Domain of the policy. This field is automatically set to **global**.
 
 </td></tr><tr><td>
 

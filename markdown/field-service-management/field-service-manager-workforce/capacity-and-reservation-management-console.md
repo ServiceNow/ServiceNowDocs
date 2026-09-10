@@ -8,7 +8,7 @@ product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Capacity, Workforce, Use, Field Service Management]
 ---
 
@@ -46,7 +46,7 @@ It provides an intuitive, visual representation of capacity utilization, empower
 
     -   Save filter preferences: Save your chosen filter settings for quick and easy access in future sessions.
     -   Customize calendar capacity data parameters: Update the calendar to prioritize specific metrics:
-        -   Replace existing metrics \(for example, "Used Capacity" with "Unused Capacity"\).
+        -   Replace existing metrics by customizing the fields shown on events \(for example, "Used Capacity" with "Unused Capacity"\). You can also customize the summary operator used in the event \(for example, replace "+" with "-", "\*", or "/"\).
         -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   **Refining data with the filters**
 

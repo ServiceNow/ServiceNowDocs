@@ -47,3 +47,7 @@ Role required: discovery\_admin
 
 [Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 
+[Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md)
+
+[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
+

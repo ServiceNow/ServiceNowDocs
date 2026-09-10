@@ -26,7 +26,7 @@ To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin inst
 
 1.  Confirm that the ServiceNow Otto Panel and AI Search module are both enabled.
 
-    For instructions on how to enable the ServiceNow Otto panel and on how to set up AI Search, see [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring.md) and [Configure AI search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
+    For instructions on how to enable the ServiceNow Otto panel and on how to set up AI Search, see [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring.md) and [Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
 
 2.  Navigate to **All** &gt; **AI Search** &gt; **Indexed Sources.**.
 

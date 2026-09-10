@@ -54,7 +54,7 @@ You can also create a feedback record and link it with an idea or planning items
 
 ## Product idea
 
-A product idea is a solution or improvement that is developed based on one or multiple feedback records, ensuring it benefits all the customers. Assess and prioritize the product idea or link it to another planning item \(epic, demand, or project\).​ Manage your product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, number of product ideas linked to the feedback, latest ideas, and planning state of the ideas. Use the filters at the top of the page to view the product ideas.
+A product idea is a solution or improvement that is developed based on one or multiple feedback records, ensuring it benefits all the customers. Assess and prioritize the product idea or link it to another planning item \(epic, demand, or project\). Manage your product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, number of product ideas linked to the feedback, latest ideas, and planning state of the ideas. Use the filters at the top of the page to view the product ideas.
 
 ## Product ideas List view
 

@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Microsoft Viva Engage source system to allow access by the Microsoft Viva Engage external content connector. For details on configuring these settings in the source system, see [Configure Microsoft Viva Engage for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-microsoft-viva-engage-external-content-indexing.md).
+A source system administrator must have already configured your Microsoft Viva Engage source system to allow access by the Microsoft Viva Engage external content connector. For the required source system configuration steps, see [Configure Microsoft Viva Engage for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-microsoft-viva-engage-external-content-indexing.md).
 
 You need login credentials for a Microsoft Entra service user account that can grant the Microsoft Viva Engage connector access to your Microsoft Viva Engage tenant.
 

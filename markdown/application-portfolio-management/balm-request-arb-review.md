@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-As an application owner you can propose a modification to the underlying technology of a business application, modification to network design, or propose a new service, solution, or hardware standard.
+As an application owner you can propose a modification to the underlying technology of a business application or to network design. You can also propose a new service, solution, or hardware standard.
 
 Your design proposal is reviewed by a team of enterprise architects forming an Architecture Review Board with goals to:
 

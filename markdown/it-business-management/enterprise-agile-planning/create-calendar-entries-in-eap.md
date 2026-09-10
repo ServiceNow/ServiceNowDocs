@@ -26,7 +26,7 @@ This task is explained using Planning Interval \(PI\) and Sprint as an example. 
 
 By the end of this task, you define the timeline for a PI and its child Sprints. The EAP teams can then create their own team-specific PIs and Sprints, within this defined timeline, in a naming convention of their choice.
 
-From EAP version 4.17.0, teams don't need predefined calendar entries. An EAP scrum master creates Planning Intervals and Sprints directly from the Backlog by entering the dates, and the calendar entries are created in the background. Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see .
+From EAP version 4.17.0, teams don't need predefined calendar entries. An EAP scrum master creates Planning Intervals and Sprints directly from the Backlog by entering the dates, and the calendar entries are created in the background. Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 **Note:** You can create PIs in a naming convention of your choice, but the Sprint names are predefined. After creating Sprints for the PI, you can manually update their names per your preference.
 

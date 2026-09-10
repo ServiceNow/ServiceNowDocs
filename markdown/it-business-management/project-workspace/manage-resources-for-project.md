@@ -73,7 +73,7 @@ When you select a resource plan in the resource grid section, the availability d
     -   To [create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), click **New**.
     -   To view the allocations in weekly or monthly format in the grid, click **Week** or **Month** button. The selected option changes the grid view in both the resource grid and resource finder sections.
 
-        The time duration in the grid is displayed based on the earliest start date of the project or resource plans, and the last end date of the project or resource plans.
+        The time duration in the grid is displayed based on the earliest start date and the last end date of the project or resource plans.
 
     -   To view the allocations in hours, FTE, or person days format in the grid, click **Hours**, **FTE**, or **Person Days** option in the list. The selected option changes the grid view in both the resource grid section and resource finder section.
     -   To [search the resources and create a resource plan for them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-resource-plan-with-finder.md), click the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \).

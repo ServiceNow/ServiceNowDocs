@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Sourcing and Procurement Operations reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -36,9 +36,17 @@ Glossary terms are grouped alphabetically.
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and ITAM data model mappings]()
 
+[Primary data tables for Sourcing and Procurement Operations]()
+
 [Domain separation and Sourcing and Procurement Operations]()
+
+[Address deletion permissions]()
 
 ## A
 

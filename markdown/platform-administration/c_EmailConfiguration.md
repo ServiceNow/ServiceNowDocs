@@ -39,7 +39,7 @@ For instructions on creating and sending custom emails when events on the instan
 
 ## Instance-to-instance communication via email
 
-Use [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/r_AvailableWebServices.md) to communicate between two instances.
+Use Web services to communicate between two instances.
 
 ## Designate untrusted and trusted email domains
 

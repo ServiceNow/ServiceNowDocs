@@ -7,9 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Microsoft Defender for EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Install and configure Microsoft Defender for EDR Integration
@@ -185,5 +185,5 @@ The expiry period in days that are applied for the Hash type of observable when 
 
 After the integration is configured, you can select any type of observable that supports Microsoft Defender EDR from Threat Intel Library, you can then send observables to EDR. For more information, see [Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ms-defend-edr.md).
 
-**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

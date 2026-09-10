@@ -14,7 +14,7 @@ breadcrumb: [Technology risks in timeline - Legacy, Use - Legacy, Enterprise Arc
 
 Multiple views within a TPM timeline screen facilitate users to view the risks of business applications in the way they want. Views can be a simple list of applications, categorizing the applications by products based on their functions, or by the underlying technology of the applications.
 
-In each of these views, you can drill down to the respective underlying application service that is supported by the application, the underlying technology on which the application runs, or the business application that is used.
+In each view, you can drill down to the underlying application service, technology, or business application. This allows you to see the relationships between these components.
 
 -   **[By Business Application view - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/by-business-app-view-apm.md)**  
 The By Business Application view displays all the software models and hardware models that are tied to the application services of a business application.

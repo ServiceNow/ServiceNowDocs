@@ -18,7 +18,7 @@ Take advantage of the flow designer to automate your Day 2 operations. Quickly w
 
 Day 1 operations provision resources in a cloud as part of ordering from the ServiceNow catalog or the cloud catalog. These operations result in a stack that contains a list of provisioned resources. Day 2 operations can be carried out on the resources that are part of the stack or the resources discovered by the system.
 
-Previously, to execute Day 2 operations in Cloud Provisioning and Governance, you had to interact directly with the Cloud API \(CAPI\), which frequently meant that you had to write new APIs to support a new operation. You can now use subflows to map Day 2 operations and create REST endpoints that call cloud providers and trigger platform-specific actions.
+Previously, to execute Day 2 operations in Cloud Provisioning and Governance, you had to interact directly with the Cloud API \(CAPI\). This frequently meant that you had to write new APIs to support a new operation. You can now use subflows to map Day 2 operations and create REST endpoints that call cloud providers and trigger platform-specific actions.
 
 ## Learn more
 

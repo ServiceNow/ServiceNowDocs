@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-07-13"
-reading_time_minutes: 5
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Activate evaluation scoring for external AI systems
@@ -36,15 +36,15 @@ External AI systems require trace data to be scored by the evaluation engine. Un
 
 4.  Connect your external AI system to send trace data to AI Control Tower using SDK instrumentation or a trace connection.
 
-<table id="choicetable_connection_method"><thead><tr><th align="left" id="d30289e143">
+<table id="choicetable_connection_method"><thead><tr><th align="left" id="d31378e149">
 
 Connection method
 
-</th><th align="left" id="d30289e146">
+</th><th align="left" id="d31378e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d30289e152">
+</th></tr></thead><tbody><tr><td id="d31378e158">
 
 **SDK instrumentation**
 
@@ -133,7 +133,7 @@ The new API key appears in the **API key for external AI system evaluation** sec
 
 For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for AI Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
 
-</td></tr><tr><td id="d30289e340">
+</td></tr><tr><td id="d31378e346">
 
 **Trace connection**
 
@@ -144,86 +144,23 @@ Use when your AI agents run on a supported cloud platform or already send traces
  See [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-trace-connections.md).
 
 </td></tr></tbody>
-</table>5.  Review the quality and safety metrics that are included by default.
-
-    The following quality and safety metrics are evaluated for external AI systems with a 5% sample rate by default.
-
-    -   **Task completion**
-
-        Whether the agent decision path and output satisfy the user's request.
-
-    -   **Answer relevancy**
-
-        Whether the response addresses the query and remains on topic.
-
-    -   **Secrets detection**
-
-        Whether the response contains leaked credentials, API keys, or other sensitive secrets.
-
-    -   **Instruction adherence**
-
-        How closely the response follows the given instructions.
-
-    For a complete list of available metrics and their descriptions, see [Evaluation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-evaluation-metrics-reference.md).
-
-6.  Add or remove metrics that you want to evaluate.
-
-    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases the processing performed to evaluate it. Select the metrics that give you the insight you need.
-
-<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d30289e443">
-
-Option
-
-</th><th align="left" id="d30289e446">
-
-Description
-
-</th></tr></thead><tbody><tr><td id="d30289e452">
-
-**Add metrics**
-
-</td><td>
-
-1.  Select **+ Add metrics**.
-2.  In the Add evaluation metrics panel, find or search for the metric that you want to add.
-3.  Select the metric.
-4.  Select **Done**.
-
-
-</td></tr><tr><td id="d30289e482">
-
-**Remove metrics**
-
-</td><td>
-
-1.  In the Included Agentic AI metrics table, find the metric that you want to remove.
-2.  Select the remove icon.
-3.  Select **Remove** to confirm.
-
-
-</td></tr></tbody>
-</table>7.  Update the sample rate for one or more included metrics.
-
-    The sample rate determines what percentage of AI executions a metric evaluates. For external AI systems, each metric has its own sample rate, so you can evaluate the metrics that matter most on more executions and sample the rest to limit processing.
-
-    **Note:** When metrics that contribute to the same quality or safety score use different sample rates, the metric with the higher rate evaluates more executions and can skew that score toward its results.
-
-    1.  In the Agentic AI metrics table, select the edit icon next to the sample rate that you want to update.
-
-    2.  Enter the new sample rate.
-
-    3.  Select **Apply**.
-
-
+</table>
 ## Result
 
 Evaluation scoring is active for external AI systems. Scores appear on the monitoring Overview page as new sessions are evaluated.
 
 ## What to do next
 
-To have a metric contribute to your quality or safety scores, add it to a metric template and assign a weight. See [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-metric-templates.md).
+To add or remove global metrics and adjust their sample rate, see [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-global-metrics-external.md).
 
-To start evaluating a managed external AI system, you must turn on evaluation at the asset level. See [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-enable-evaluation.md).
+**Parent Topic:**[Configure evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-external-ai-systems.md)
 
-**Parent Topic:**[Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
+**Related topics**  
+
+
+[Configure global metrics for external AI systems]()
+
+[Configure asset-specific metrics for external AI systems]()
+
+[Exclude external AI systems from a metric]()
 

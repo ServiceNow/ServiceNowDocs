@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Look up and verify a contact or consumer
@@ -24,7 +24,7 @@ Agents can search for information such as name, phone number, email address, cas
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  In the contextual side panel, select the Contact Verify icon or the Consumer Verify icon to access the lookup and verify feature.
 

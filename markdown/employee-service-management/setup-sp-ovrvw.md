@@ -191,7 +191,7 @@ Role required: sn\_sp\_con.admin and admin.
 
     -   `<Graph application registry name>.default_profile`
     -   `<REST application registry name>.default_profile`
-    Two system-generated OAuth entity profiles \(REST and Graph\) are created in the OAuth Entity Profiles \[oauth\_entity\_profile\] table. For more information, see [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md)
+    Two system-generated OAuth entity profiles \(REST and Graph\) are created in the OAuth Entity Profiles \[oauth\_entity\_profile\] table. For more information, see 
 
 7.  **OAuth Entity Scopes**
 8.  Insert a row with the following values in the OAuth Entity Scopes \[oauth\_entity\_scope\] table:
@@ -237,7 +237,7 @@ Application: Global
 OAuth Scope:`https://<instance name>.sharepoint.com/`
 
 </td></tr></tbody>
-</table>    For more information, see [Specify an OAuth scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_SpecifyAnOAuthScope.md).
+</table>    For more information, see .
 
 9.  **OAuth Entity Profiles Scopes**
 10. Insert a row with the following values in the OAuth Entity Profiles Scopes \[oauth\_entity\_profile\_scope\] table:

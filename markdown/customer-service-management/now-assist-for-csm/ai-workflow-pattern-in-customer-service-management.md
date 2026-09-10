@@ -53,7 +53,7 @@ This allows admin to control whether the **Triage Cases** button appears in the 
 
 **Note:** The sn\_now\_canvas\_ai.interactive\_view\_user role must be manually added to the sn\_esm\_agent role to enable agents to view the **AI Workflows** tab in the side panel.
 
-The **AI Workflow** tab is visible on following pages in CSM Configurable Workspace:
+The **AI Workflow** tab is visible on following pages in CRM Workspace:
 
 -   CSM default record page
 -   CSM frontline case page

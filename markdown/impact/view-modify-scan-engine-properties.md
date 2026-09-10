@@ -1,24 +1,41 @@
 ---
-title: View and modify Scan Engine definitions
-description: You can modify an existing definition to further customize and refine its scanning criteria.
+title: Customize Scan Engine definitions
+description: You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/view-modify-scan-engine-properties.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-22"
-reading_time_minutes: 2
+last_updated: "2026-08-21"
+reading_time_minutes: 3
+keywords: [scan engine definitions, customize, active, override]
 breadcrumb: [Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
-# View and modify Scan Engine definitions
+# Customize Scan Engine definitions
 
-You can modify an existing definition to further customize and refine its scanning criteria.
+You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
+
+## Pre-defined definitions
+
+There are various types of definitions available as a baseline in the Impact Scan Engine.
+
+|Category|Description|
+|--------|-----------|
+|Security|Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.|
+|Performance|Measures the efficiency of a ServiceNow instance, encompassing aspects such as speed, responsiveness, resource utilization, and overall dependability.|
+|Manageability|Measures the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.|
+|Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.|
+|User Experience|Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.|
+
+For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 ## Before you begin
 
-Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\) .
+A list of specific Scan Engine definitions are available in your instance and vary based on instance setup.
 
-While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
+Scan Engine admins can toggle the Active field on any definition without using the override function. To modify other definition properties, you must use the Override Definition option. Any user with the Scan Engine user role can view definitions.
+
+Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
 ## Procedure
 
@@ -26,33 +43,34 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
 2.  Select a definition number to open its details.
 
-3.  To modify a base system definition’s properties, select **Override Definition**.
+3.  Deactivate a definition
+4.  To deactivate a definition without requiring an approval override, deselect the **Active** checkbox.
 
-    When a definition is overridden, the base system definition will no longer be used in any scan \(real-time, scheduled, update set, application, or on demand\). All fields in the overridden definition become editable.
+    The Active field is editable without requiring an override. This field deactivates the definition so it will no longer run in any scan type. No other changes to the definition are needed.
 
-4.  Modify the required and optional fields.
+    **Note:** Minimum versions required are Scan Engine version 4.0.3 \(Zurich 11\) or Australia AP5.
 
-    -   Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definitions.md) for details.
-    -   In addition to those fields, when viewing an existing definition, you will also see **Override**. To modify a base system definition, use the override field to disable it and create a new custom definition.
-    The definition is overridden to create the current definition.
+5.  Modify definition properties
+6.  To modify other definition properties, select **Override Definition**.
 
-    This field is only visible if a base definition has been overridden using **Override Definition**. Deleting an overridden definition re-enables the base system definition.
+    When a definition is overridden, the base system definition will no longer be used in any scan type \(real-time, scheduled, update set, application, or on demand\). All fields in the overridden definition become editable. You can then modify the required and optional fields. Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definitions.md) for complete field details.
 
-    **Note:** Overridden definitions are considered custom definitions. As a result, they are included in the count of 10 active custom definitions limit for Guided customers.
+7.  When updating an overridden definition, review the override field information.
 
-5.  Select **Update**.
-
-    Selecting Delete will delete the override, meaning the base system definition will be used going forward.
+    -   The **Override** field is only visible if a base definition has been overridden using **Override Definition**.
+    -   Deleting an overridden definition re-enables the base system definition.
+    -   Overridden definitions are considered custom definitions. As a result, they are included in the count of 10 active custom definitions limit for Guided customers.
+8.  Select **Update**.
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d77267e147">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d76844e285">
 
 **Applicable Tables**
 
 </td><td>
 
-Displays all tables scanned by the definition, as well as the conditions table records must match in order to be scanned.To add a table to the list:
+Displays all tables scanned by the definition, as well as the conditions table records must match to be scanned.To add a table to the list:
 
 1.  Select **New**.
 2.  In the New Applicable Table form, define the potential tables to scan:
@@ -64,10 +82,10 @@ Displays all tables scanned by the definition, as well as the conditions table r
 
 See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege) for more information.
 
-    -   **Conditions**: Defines the conditions that table records must meet in order to be scanned.
+    -   **Conditions**: Defines the conditions that table records must meet to be scanned.
 
 
-</td></tr><tr><td id="d77267e209">
+</td></tr><tr><td id="d76844e350">
 
 **Findings For This Definition**
 
@@ -75,7 +93,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d77267e218">
+</td></tr><tr><td id="d76844e359">
 
 **Resolved Finding Histories**
 
@@ -83,7 +101,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d77267e227">
+</td></tr><tr><td id="d76844e368">
 
 **Scan Engine Suites**
 

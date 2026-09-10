@@ -26,7 +26,7 @@ An agent or agent manager can close a case at any time, except when it is in the
 
 ## Procedure
 
-1.  Open a customer service case in CSM Configurable Workspace.
+1.  Open a customer service case in CRM Workspace.
 
 2.  Select the **Details** tab.
 

@@ -8,7 +8,7 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Create inventory models, Use, Telecommunications Network Inventory]
 ---
 

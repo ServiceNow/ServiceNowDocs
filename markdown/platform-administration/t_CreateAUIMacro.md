@@ -79,5 +79,5 @@ Role required: ui\_macro\_admin
 
 [Override a formatter with macros]()
 
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_JellyTags.md)
+[bundle-crapiref.r_JellyTags]
 

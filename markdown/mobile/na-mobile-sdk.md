@@ -1,25 +1,25 @@
 ---
-title: Now Assist mobile SDK
-description: The ServiceNow mobile SDK with Now Assist enables you to use the power of generative AI in your custom mobile apps.
+title: ServiceNow Otto mobile SDK
+description: The ServiceNow mobile SDK with ServiceNow Otto enables you to use the power of generative AI in your custom mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/na-mobile-sdk.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist]
 breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
-# Now Assist mobile SDK
+# ServiceNow Otto mobile SDK
 
-The ServiceNow mobile SDK with Now Assist enables you to use the power of generative AI in your custom mobile apps.
+The ServiceNow mobile SDK with ServiceNow Otto enables you to use the power of generative AI in your custom mobile apps.
 
 For more information on the Mobile SDK, see the [Mobile SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-sdk.md).
 
-## Custom app Now Assist skills
+## Custom app Otto skills
 
-The following Now Assist skills are available for use on your custom mobile apps.
+The following Otto skills are available for use on your custom mobile apps.
 
 -   **Standard and enhanced chat for Virtual Agent**
 

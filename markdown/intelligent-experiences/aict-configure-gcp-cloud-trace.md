@@ -21,8 +21,7 @@ Confirm the following:
 
 -   An active MID Server is installed and configured in your ServiceNow instance. See [MID Server installation](https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-installation.html).
 -   A Google Cloud OAuth 2.0 credential with permission to read trace data is available.
-    -   The credential must be configured in Google Cloud. For details, see the [Configuring GCP Permissions and Credentials for ServiceNow AI Control Tower Trace Ingestion \[KB3144347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144347) article in Now Support.
-    -   After the credential is configured in Google Cloud, work with your instance administrator to store it as a new Google Cloud credential record in **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+    -   You must set up the GCP service account and grant the required IAM permissions in Google Cloud. After configuring the service account, work with your instance administrator to generate a certificate and create the OAuth 2.0 credentials and alias in your instance. For details, see the [Configuring GCP Permissions and Credentials for ServiceNow AI Control Tower Trace Ingestion \[KB3144347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144347) article in Now Support.
 
 Role required: sn\_ai\_governance.ai\_steward
 

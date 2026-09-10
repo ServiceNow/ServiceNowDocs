@@ -1,6 +1,6 @@
 ---
 title: Task configuration enhancements
-description: Task configurations control how tasks appear and behave in Employee Center and Employee Slate, including widget mappings, action groups, and AI insights.
+description: Task configurations control how tasks appear and behave in Employee Center and EmployeeWorks Web App, including widget mappings, action groups, and AI insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/es-task-configuration.html
 release: zurich
@@ -10,20 +10,20 @@ topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 2
 keywords: [task configuration, Employee Center, Employee Slate, Applies to, action group, AIX widget, AI insights skill, custom script]
-breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Task configuration enhancements
 
-Task configurations control how tasks appear and behave in Employee Center and Employee Slate, including widget mappings, action groups, and AI insights.
+Task configurations control how tasks appear and behave in Employee Center and EmployeeWorks Web App, including widget mappings, action groups, and AI insights.
 
 Task configurations define how to-do items display and function across employee experiences. You can configure task-specific widgets, action groups, and AI insights for different task types without breaking existing widget mappings.
 
-## Configure task experiences and actions
+## Configure task scope and actions
 
 You can customize task configurations in two ways:
 
--   **Scope configurations by experience**: Use the **Applies to** field to control which experience uses a task configuration. You can scope configurations to Employee Center, Employee Slate, or both. When set to **All**, you configure both Angular and AIX widgets for each platform. When scoped to a single platform, only the relevant widget fields appear.
+-   **Scope configurations by experience**: Use the **Applies to** field to control which experience uses a task configuration. You can scope configurations to Employee Center, EmployeeWorks Web App, or both. When set to **All**, you configure both Angular and AIX widgets for each platform. When scoped to a single platform, only the relevant widget fields appear.
 -   **Build custom action widgets**: Use the **Action** tab to configure custom LIT-based action widgets for task types. Custom action widget provides an alternative to the out-of-the-box action group. The **AIX action widget** field accepts LIT-based widgets that embed custom Angular widgets for task-specific actions.
 
 For more information, see [Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md).

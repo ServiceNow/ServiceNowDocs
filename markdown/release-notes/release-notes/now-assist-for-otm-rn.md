@@ -1,0 +1,138 @@
+---
+title: Operational Technology \(OT\) Manager Foundation release notes
+description: The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+locale: en-US
+release: zurich
+topic_type: topic
+last_updated: "2026-07-20"
+reading_time_minutes: 5
+---
+
+# Operational Technology \(OT\) Manager Foundation release notes
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+## About Operational Technology \(OT\) Manager Foundation
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+[Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+[Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
+
+-   Review changes to Now Assist usage measurement.
+
+[Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
+
+-   Some Now Assist skills, agents, and agentic workflows are now turned on by default.
+-   Find OT Configuration Management Database \(CMDB\) records more quickly by using the OT CMDB search function.
+-   Simplify the upload, validation, and import of your OT device data by using the Import OT device spreadsheet into OT CMDB agentic workflow.
+
+See [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md) for more information.
+
+## Activation and other requirements
+
+**Important:** OT Manager Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/install-operational-technology-manager.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### What's new
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## April 2026
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### What's changed
+
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
+## January 2026
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### What's changed
+
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+## December 2025
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### What's new
+
+-   **[Search for related records in an OT CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.md)**
+
+    Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
+
+-   **[Upload, validate, and import your OT device inventory spreadsheet using the Import OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/upload-import-validate-ot-device-inventory-spreadsheet.md)**
+
+    Use the Import OT device spreadsheet into OT CMDB agentic workflow to begin the process for uploading, validating, and importing your OT device inventory into ServiceNow.
+
+
+### What's changed
+
+-   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+-   **[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
+
+    Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+
+
+## Zurich General Availability
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+## Zurich
+
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
+
+### Plugin information
+
+-   **New plugins**
+
+    The following plugins are new in Zurich:
+
+    OT Manager Foundation \(com.sn\_otm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for OT Manager Foundation.
+
+

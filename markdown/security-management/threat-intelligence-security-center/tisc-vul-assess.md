@@ -1,6 +1,6 @@
 ---
 title: Create Vulnerability Assessment from a Vulnerability
-description: Use this feature to create a vulnerability assessment for a specific vulnerability.
+description: Use this feature to conduct a vulnerability assessment for a specific vulnerability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-vul-assess.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Access Vulnerability Downstream actions, Threat Intel Library, Use,
 
 # Create Vulnerability Assessment from a Vulnerability
 
-Use this feature to create a vulnerability assessment for a specific vulnerability.
+Use this feature to conduct a vulnerability assessment for a specific vulnerability.
 
 ## Before you begin
 

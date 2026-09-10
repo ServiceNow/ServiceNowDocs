@@ -39,7 +39,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d92139e124">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d93101e124">
 
 **If you know the automation type**
 
@@ -47,7 +47,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d92139e133">
+</td></tr><tr><td id="d93101e133">
 
 **If you don't know the automation type**
 

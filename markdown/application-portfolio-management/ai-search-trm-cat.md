@@ -1,24 +1,22 @@
 ---
 title: AI Search on the TRM catalog
-description: Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
+description: Use the ServiceNow Otto panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/ai-search-trm-cat.html
 release: zurich
 topic_type: concept
 last_updated: "2026-04-17"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Working with the publishing center, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # AI Search on the TRM catalog
 
-Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
+Use the ServiceNow Otto panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 
-Installing the May 2026 EA Workspace update with ServiceNow Otto for EA automatically registers the TRM catalog as a searchable source in AI Search. You can then use the Now Assist panel to ask natural language questions about your published TRM catalog records. The panel provides answers with citations linked to the source knowledge articles.
+Installing the Australia Patch 2 EA Workspace update with ServiceNow Otto for EA automatically registers the TRM catalog as a searchable source in AI Search. You can then use the ServiceNow Otto® panel to ask natural language questions about your published TRM catalog records. The panel provides answers with citations linked to the source knowledge articles.
 
-For example, you can ask the Now Assist panel questions such as *List all published TRM products* and receive a summarized response with references to the relevant catalog records.
-
-\[Omitted image "ai-search-trm-cat.png"\] Alt text: An example showing how AI Search works for searching all published TRM catalogs
+For example, you can ask the ServiceNow Otto® panel questions such as *List all published TRM products* and receive a summarized response with references to the relevant catalog records.
 
 Sample queries:
 
@@ -32,9 +30,9 @@ Sample queries:
 
 EA Workspace ships with an AI Search configuration record that registers the TRM catalog \[sn\_apm\_ws\_kb\_template\_trm\_product\] as an indexed source.
 
-After you install the May 2026 update, the indexing behavior depends on when your TRM catalog records were published:
+After you install the Australia Patch 2 update, the indexing behavior depends on when your TRM catalog records were published:
 
--   Records published after the update: Automatically indexed and searchable through the Now Assist panel. No additional configuration is required.
+-   Records published after the update: Automatically indexed and searchable through the ServiceNow Otto panel. No additional configuration is required.
 -   Records published before the update: Not automatically indexed. You must manually trigger indexing. See [Index previously published TRM catalog records for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/index-archive-pub-trm-cat.md).
 
 ## Prerequisites
@@ -42,7 +40,7 @@ After you install the May 2026 update, the indexing behavior depends on when you
 Before you can search TRM catalog records using AI Search, verify the following are configured on your instance:
 
 -   AI Search is activated. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**.
--   Now Assist panel is enabled. Navigate to **Now Assist admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and verify that the panel is turned on. For instructions, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   ServiceNow Otto® panel is enabled. Navigate to **AI Admin Hub** &gt; **AI Experiences** &gt; **ServiceNow Otto panel** and verify that the panel is turned on. For instructions, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Install the ServiceNow Otto for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md).
 -   At least one TRM catalog is published to a knowledge base. AI Search returns results only for published records. See [Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/publish-trm-cat-to-kb.md).
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -27,6 +27,8 @@ From the Portfolio page in Enterprise Architecture Workspace, you can perform th
 -   Associate a business capability with the business unit that uses it
 
 You can also view and add business capabilities and perform a host of other tasks relating to business capabilities, from the Business Portfolio page. For more information, see [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-business-portfolio.md).
+
+**Note:** Before Zurich Patch 12, a business capability could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business capability with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-architecture.md)
 

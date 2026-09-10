@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Operate, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ This section displays the detailed information of a change request. For informat
 
 For information about how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-form-layout-task.md).
 
-From the **Compose** section, you can add work notes for the change request.
+From the **Compose** section, you can add work notes and additional comments for the change request.
 
 ## Change tasks tab
 

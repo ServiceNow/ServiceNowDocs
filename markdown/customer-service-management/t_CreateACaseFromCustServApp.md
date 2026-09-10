@@ -24,23 +24,23 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, or admi
 
 1.  Create a case.
 
-<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d219411e74">
+<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d219310e74">
 
 Option
 
-</th><th align="left" id="d219411e77">
+</th><th align="left" id="d219310e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d219411e83">
+</th></tr></thead><tbody><tr><td id="d219310e83">
 
-**CSM Configurable Workspace**
+**CRM Workspace**
 
 </td><td>
 
 From the Interaction form, select **Create Case**.
 
-</td></tr><tr><td id="d219411e96">
+</td></tr><tr><td id="d219310e96">
 
 **Platform interface**
 

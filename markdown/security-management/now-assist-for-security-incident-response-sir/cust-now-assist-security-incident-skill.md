@@ -19,7 +19,7 @@ Customize some of the input fields of a generative AI skill to suit the requirem
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Roles required: sn\_si.admin
 

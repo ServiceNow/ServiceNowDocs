@@ -42,7 +42,7 @@ Example attempt number parameter in the release pipeline payload:
 
 If a change enabled job is rerun, and a change request exists for the previous run/attempt, you can choose to reuse the previous change request or create a new change request, using the base system ‘DevOps Change Request Reusability Decision Subflow’. The default implementation of this subflow, allows you to reuse a change request from the previous attempt if the change request is in implement, or post-implement states. If the Change request is in any other state, by default, a new change request is created when you rerun the job. Per existing behavior, all associated details such as test summaries, and scans, are newly generated while commits and work items are retained unchanged for new change requests.
 
-For example, when a pipeline fails at a specific stage after the change request is approved, and you rerun that stage. The change request is reused, the associated test summary and software quality scans, and the commits and work items associated to the artifact are associated with the same change request which you approved.
+For example, when a pipeline fails at a specific stage after the change request is approved, and you rerun that stage, the change request is reused. The associated test summary and software quality scans, the commits and work items associated to the artifact are associated with the same change request which you approved.
 
 To apply a custom logic for reusability, you can copy the existing subflow, make the changes, publish it, and update the new subflow name under **DevOps Properties** &gt; **DevOps Change Request Reusability Decision Subflow**.
 

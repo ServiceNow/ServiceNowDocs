@@ -1,6 +1,6 @@
 ---
 title: Run a certification policy on-demand
-description: Run a certification policy in Service Graph Workspace or in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
+description: Run a certification policy in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Data Certification experience in a workspace, Data Certification, C
 
 # Run a certification policy on-demand
 
-Run a certification policy in Service Graph Workspace or in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
+Run a certification policy in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
 
 ## Before you begin
 
@@ -24,10 +24,8 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and in the navigation panel select the Governance icon.
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and in the navigation panel select the Governance icon.
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and select **Management** in the CMDB Workspace menu bar.
 2.  Select the **Data Manager** link in Management tools, in the Manage section.
 
 3.  In the Data Manager navigation panel, select **Policies**.

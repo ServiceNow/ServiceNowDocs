@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-27"
 reading_time_minutes: 1
 keywords: [Topic Page widget, widget instance, employee slate, widget properties, featured applications, topic subtopics, topic assistance]
-breadcrumb: [Browse and topic experience, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure topic page widget instance

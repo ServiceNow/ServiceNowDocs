@@ -27,7 +27,7 @@ While creating a project task in the project workbench, the time constraint type
 -   For a manual project, the default constraint is Start On and cannot be changed.
 -   For an automatic project, the default constraint is Start ASAP and can be changed to Start On if required.
 -   When the constraint is Start ASAP, the **Planned start date** is disabled.
--   When you create an agile phase and associate a sprint, the start date of the task is set from the sprint start date and the constraint becomes Start On automatically.
+-   When you create an agile phase and associate a sprint, the start date of the task is set from the sprint start date . The constraint becomes Start On automatically.
 
 ## Procedure
 

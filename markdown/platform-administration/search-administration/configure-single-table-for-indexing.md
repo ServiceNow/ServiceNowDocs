@@ -140,7 +140,7 @@ The list search for text option appears on the list views for the table and its 
 
 You can search records on the indexed table using list search in form view. To learn more about using list search, see [List search finds records from the current table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/c_TextSearchesInRecordLists.md).
 
-You can also query the indexed table for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTQUERY321` reserved name. For more information about querying for string matches, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+You can also query the indexed table for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTQUERY321` reserved name. For more information about querying for string matches, see Querying tables in script.
 
 **Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/zing-indexes-words.md)
 

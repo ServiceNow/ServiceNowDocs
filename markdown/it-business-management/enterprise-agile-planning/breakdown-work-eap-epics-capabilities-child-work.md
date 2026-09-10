@@ -59,7 +59,7 @@ This task provides guidance to create child items directly from the parent work 
 
 ## What to do next
 
--   Refine the description with Now Assist. See .
+-   Refine the description with Now Assist. .
 
     This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 

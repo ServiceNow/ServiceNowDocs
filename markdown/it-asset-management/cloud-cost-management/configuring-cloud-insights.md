@@ -145,7 +145,7 @@ Configure the Cloud Cost Management features to rightsize, identify, assign, man
 
 </td><td>
 
--   [Reservation or Saving plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/ri-cloudin.md)
+-   [Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/ri-cloudin.md)
 -   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/rs-cloudin.md)
 -   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/um-cloudin.md)
 -   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/bh-cloudin.md)

@@ -1,18 +1,18 @@
 ---
-title: Set up a form header in CSM Configurable Workspace
-description: You can create a form header for use in CSM Configurable Workspace.
+title: Set up a form header in CRM Workspace
+description: You can create a form header for use in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-config-ws-form-header.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+reading_time_minutes: 1
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up a form header in CSM Configurable Workspace
+# Set up a form header in CRM Workspace
 
-You can create a form header for use in CSM Configurable Workspace.
+You can create a form header for use in CRM Workspace.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a form header, you must link it to a form header configuration if you want it to appear in CSM Configurable Workspace.
+After creating a form header, you must link it to a form header configuration if you want it to appear in CRM Workspace.
 
-**Note:** You can also use form headers from CSM Agent Workspace in CSM Configurable Workspace if you link the setting to the form header configuration.
+**Note:** You can also use form headers from CSM Agent Workspace in CRM Workspace if you link the setting to the form header configuration.
 
-One form header configuration **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace. You can use this configuration out of the box without completing any additional configuration steps.
+One form header configuration **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace. You can use this configuration out of the box without completing any additional configuration steps.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco\_corrective\_action\_charges\_form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -48,22 +48,6 @@ Labor code
 </td><td>
 
 Name of the labor code.
-
-</td></tr><tr><td>
-
-Part
-
-</td><td>
-
-Select the part name to be replaced.
-
-</td></tr><tr><td>
-
-Main part
-
-</td><td>
-
-Select the main part to designate the part as main part.
 
 </td></tr><tr><td>
 

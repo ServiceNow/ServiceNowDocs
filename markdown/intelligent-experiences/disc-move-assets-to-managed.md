@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance\_ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  Select the check box for each asset that you want to move to managed.
 

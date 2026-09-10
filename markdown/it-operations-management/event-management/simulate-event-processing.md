@@ -1,24 +1,28 @@
 ---
 title: Simulate event processing
-description: You can simulate event processing logic on events and display the resulting alert to better understand which rules are executed on a given event and how the event fields change after the rule is executed.
+description: You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed on a given event and how the event fields change after the rule is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/simulate-event-processing.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Simulate event processing
 
-You can simulate event processing logic on events and display the resulting alert to better understand which rules are executed on a given event and how the event fields change after the rule is executed.
+You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed on a given event and how the event fields change after the rule is executed.
 
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
+
+## About this task
+
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 ## Procedure
 

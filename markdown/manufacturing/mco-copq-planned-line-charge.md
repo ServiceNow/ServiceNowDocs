@@ -1,16 +1,16 @@
 ---
-title: CoPQ planned line charge
+title: Create a CoPQ planned line charge
 description: Create a CoPQ planned line charge for CoPQ financial request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-planned-line-charge.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CoPQ financial requests, Related list for remediation action plan, Create remediation action plan, Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a CoPQ financial request, Create a remediation action plan, Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# CoPQ planned line charge
+# Create a CoPQ planned line charge
 
 Create a CoPQ planned line charge for CoPQ financial request.
 
@@ -31,10 +31,10 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[CoPQ financial requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-financial-requests.md)
+**Parent Topic:**[Create a CoPQ financial request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-financial-requests.md)
 
 **Related topics**  
 
 
-[CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
+[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
 

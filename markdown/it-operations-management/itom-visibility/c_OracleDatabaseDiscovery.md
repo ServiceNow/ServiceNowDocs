@@ -59,11 +59,11 @@ The user needs permissions for the SQL\*Plus command line tool and permissions t
 
 </td></tr><tr><td>
 
-[Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
+[Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
 
 </td><td>
 
-You can use Oracle Wallet instead of applicative credentials \(for UNIX only\).
+You can use Oracle Wallet instead of applicative credentials.
 
 </td></tr><tr><td>
 

@@ -31,7 +31,7 @@ There are specific settings or limits used to control the behavior of text-based
 
 The EM Alert Clustering Solution definition is located in the \[ml\_capability\_definition\_clustering\] table. To access it, navigate to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
 
-To verify if the solution definition is active, see [Verify text-based clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, disable text-based alert grouping by setting the property **sa\_analytics.text\_based\_group\_enabled** to `false` and clearing the **Active** check box in the EM Alert Clustering Solution definition.
+To verify if the solution definition is active, see [Verify text-based clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, set the property **sa\_analytics.text\_based\_group\_enabled** to `false`. Then clear the **Active** check box in the EM Alert Clustering Solution definition.
 
 ## Example of text-based alert grouping
 
@@ -49,7 +49,7 @@ Network Connectivity Problems: There are widespread network connectivity issues 
 
 </td><td>
 
-Alerts from various network monitoring tools might report issues like Network segment down, High packet loss, or Connectivity issues in subnet. Text-based alert grouping uses the EM Alert Clustering Solution and ML Predictor to streamline alert management. The EM Alert Clustering Solution employs Natural Language Processing \(NLP\) algorithms to analyze and identify common text patterns in alerts such as Network segment down or High packet loss. It then clusters these alerts based on their text similarity, grouping related issues together. The ML Predictor further enhances this process by evaluating new alerts in real time and assigning them to the appropriate existing clusters based on their text patterns.
+Alerts from various network monitoring tools might report issues like Network segment down, High packet loss, or Connectivity issues in subnet. Text-based alert grouping uses the EM Alert Clustering Solution and ML Predictor to streamline alert management. The EM Alert Clustering Solution employs Natural Language Processing \(NLP\) algorithms to analyze and identify common text patterns in alerts. These patterns include Network segment down or High packet loss. It then clusters these alerts based on their text similarity, grouping related issues together. The ML Predictor further enhances this process by evaluating new alerts in real time and assigning them to the appropriate existing clusters based on their text patterns.
 
  This dynamic grouping provides a consolidated view of the connectivity problems, allowing network engineers to quickly diagnose and address the root cause of the issues more efficiently.
 

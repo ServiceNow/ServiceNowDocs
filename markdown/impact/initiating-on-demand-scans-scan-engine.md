@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Running on-demand scans, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Running on-demand scans, Platform Health, Using Impact, Impact]
 ---
 
 # Initiate application scans

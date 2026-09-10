@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2026-02-05"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Using agentic and generative AI in Express List

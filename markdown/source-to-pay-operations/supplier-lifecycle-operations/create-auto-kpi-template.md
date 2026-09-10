@@ -18,9 +18,9 @@ Create automated KPI templates to eliminate manual data input by configuring dat
 
 ## Before you begin
 
-Role required: sn\_kpi.admin or sn\_slm.maSupplier Lifecycle Operations
+Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
--   SLOSource-to-Pay Workspaceautomated KPI templatesQuantitativePerformance domainCollection frequencyData collection typebe created for **Quantitative** KPI template type only.
+-   Automated KPI templates can be created for **Quantitative** KPI template type only.
 -   You must have access to data tables for extracting information for automated KPI templates.
 -   If the automated KPI collection fails to extract data, manual KPI data collection tasks are created and assigned to the supplier manager.
 

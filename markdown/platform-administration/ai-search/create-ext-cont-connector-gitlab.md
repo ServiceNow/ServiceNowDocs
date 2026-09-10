@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your GitLab source system to allow access by the GitLab external content connector. For details on configuring these settings in the source system, see [Configure GitLab for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-gitlab-external-content-indexing.md).
+A source system administrator must have already configured your GitLab source system to allow access by the GitLab external content connector. For the required source system configuration steps, see [Configure GitLab for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-gitlab-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

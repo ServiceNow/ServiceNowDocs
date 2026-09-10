@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure record pages to hide Customer Central components
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-Starting with the Yokohama release, CSM Configurable Workspace has a dependency on the [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md). The Customer Central application is installed automatically with CSM Configurable Workspace.
+Starting with the Yokohama release, CRM Workspace has a dependency on the [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md). The Customer Central application is installed automatically with CRM Workspace.
 
-The Customer Central installation can result in the Customer Activity and Customer Information tab components appearing on the following CSM Configurable Workspace record pages:
+The Customer Central installation can result in the Customer Activity and Customer Information tab components appearing on the following CRM Workspace record pages:
 
 -   CSM default record page
 -   CSM Interaction record page

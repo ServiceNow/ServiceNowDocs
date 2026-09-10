@@ -14,13 +14,13 @@ breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Por
 
 The Predictive Intelligence for Enterprise Architecture uses machine-learning algorithms to predict, suggest, and drive the data outcome of the new application that is onboarded.
 
-The application similarity machine-learning solution predicts and suggests the category of the business application when you enter the name and the benefit of the business application in the Register a Business Application form.
+The application similarity machine-learning solution predicts and suggests the category of the business application. The solution analyzes the name and benefit you enter in the Register a Business Application form.
 
 Predictive Intelligence for Enterprise Architecture has the following benefits:
 
--   Uses the data in your instance and hence the suggestions of the machine-learning solution are more accurate.
+-   Uses the data in your instance and therefore the suggestions of the machine-learning solution are more accurate.
 -   Provides similarity definition for new applications based on the name and description of the existing applications in the Business Application table \[cmdb\_ci\_business\_app\].
--   Suggests categories for the application that you are onboarding to help you sort it into an appropriate category. It is important to categorize an application as it defines its purpose and key business function in the Enterprise Architecture inventory.
+-   Suggests categories for the application that you're onboarding to help you sort it into an appropriate category. It is important to categorize an application as it defines its purpose and key business function in the Enterprise Architecture inventory.
 -   Enhances the **Register a Business Application** feature offered by [Business Application Lifecycle Management services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/business-application-lifecycle-mangmt-svc-cat.md).
 
 ## Solution definitions for Predictive Intelligence of Enterprise Architecture
@@ -33,7 +33,7 @@ The solution definitions for the predictive intelligence of Enterprise Architect
 
 ## Maintaining prediction accuracy
 
-If your business applications table has more diversified data, then the chances of the machine-learning solution to collect and compare your existing records with new similar records are more. Therefore, the prediction results of categorizing the business application from the name and the description entered by the requester may be more accurate.
+More diversified data in your business applications table improves prediction accuracy. The machine-learning solution can better collect and compare existing records with new similar records. This results in more accurate categorization of business applications based on the name and description.
 
 You can manage prediction drift by retraining the similarity definition of a business application similarity model provided by the base system. Once your machine-learning solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction.
 

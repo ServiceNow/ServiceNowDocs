@@ -20,7 +20,7 @@ Role required: sales agent, order agent, customer
 
 ## Procedure
 
-1.  Create the transaction, for example an opportunity or quote in the CSM Configurable Workspace.
+1.  Create the transaction, for example an opportunity or quote in the CRM Workspace.
 
     1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

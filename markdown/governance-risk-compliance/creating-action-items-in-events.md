@@ -195,6 +195,8 @@ The roles associated with action items are listed in the table.
 
 -   **[Create task and assessment-type action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-action-items-in-events.md)**  
 Use integration of events and Smart Assessment for creating necessary action items related to an event.
+-   **[Action item collaborator synchronization with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/action-item-collaborators-smart-assessment-sync-events.md)**  
+When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 
 **Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

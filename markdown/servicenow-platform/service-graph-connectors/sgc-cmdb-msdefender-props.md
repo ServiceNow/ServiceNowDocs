@@ -1,20 +1,20 @@
 ---
 title: Service Graph Connector for Microsoft Defender Endpoint properties
-description: Service Graph Connector for Microsoft Defender Endpoint properties control the behavior of the connector.
+description: Service Graph Connector properties control the behavior of connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-msdefender-props.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Graph Connector for Microsoft Defender Endpoint properties
 
-Service Graph Connector for Microsoft Defender Endpoint properties control the behavior of the connector.
+Service Graph Connector properties control the behavior of connections.
 
 ## System properties
 
@@ -36,7 +36,7 @@ sn\_defender\_integ.pagination\_record\_count
 
 </td><td>
 
-Enter the maximum number of rows fetched in the List machines API response from the machine resource type.-   Type: integer
+Set the maximum number of rows to be fetched in the List machines API response from the machine resource type.-   Type: integer
 -   Default value: `500`
 -   Location: System Property \[sys\_properties\] table
 

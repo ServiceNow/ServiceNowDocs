@@ -1,6 +1,6 @@
 ---
-title: Generate a story from an epic using ServiceNow Otto for SPM in EAP
-description: Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
+title: Generate a story from an epic using ServiceNow Otto in EAP
+description: Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and ServiceNow Otto generates a story title, description, and acceptance criteria that you can review and edit before saving.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Generate a story from an epic using ServiceNow Otto for SPM in EAP
+# Generate a story from an epic using ServiceNow Otto in EAP
 
-Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
+Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and ServiceNow Otto generates a story title, description, and acceptance criteria that you can review and edit before saving.
 
 ## Before you begin
 
@@ -24,6 +24,8 @@ Generate a complete user story directly from an epic using Quick story generatio
 
 -   Agile story generation
 -   Generate acceptance criteria
+
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -45,13 +47,11 @@ Role required: sn\_apw\_advanced.eap\_user
 
 6.  In the context field, enter one or two lines describing the focus of the story.
 
-    For example, enter context such as "progress tracking for onboarding steps to help users visualize their journey and reduce abandonment rates" to direct Now Assist toward a specific area of the epic.
+    For example, enter context such as "progress tracking for onboarding steps to help users visualize their journey and reduce abandonment rates" to direct ServiceNow Otto toward a specific area of the epic.
 
 7.  Select **Generate**.
 
-    \[Omitted image "eap-na-quick-story.png"\] Alt text: Generate story modal with a Story context field to enter details.
-
-    Now Assist generates a story title, description, and acceptance criteria based on the epic context and the input you provided.
+    ServiceNow Otto generates a story title, description, and acceptance criteria based on the epic context and the input you provided.
 
 8.  Review and edit any of the generated fields inline to refine the story before saving.
 
@@ -66,14 +66,14 @@ Role required: sn\_apw\_advanced.eap\_user
 
 ## What to do next
 
-To further refine the story after saving, open the story record and select **Generate acceptance criteria** to regenerate or update the acceptance criteria using Now Assist. For more information, see [Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md).
+To further refine the story after saving, open the story record and select **Generate acceptance criteria** to regenerate or update the acceptance criteria using ServiceNow Otto. For more information, see [Generate acceptance criteria for EAP stories using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md).
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)
+[Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)
 
-[Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
+[Generate acceptance criteria for EAP stories using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
 

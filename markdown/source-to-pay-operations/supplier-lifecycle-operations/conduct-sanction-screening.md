@@ -40,7 +40,9 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
     For more about the parameters sent to and received from Relish, see [Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md).
 
-5.  Approve or reject changes.
+5.  Approve or reject changes based on the validation result.
+
+    **Note:** If approved, the Valid risk assessment field in the supplier record is set to True. If rejected, the Relationship status field in supplier record is set to Excluded.
 
 6.  Select **Accept** to verify that the changes are made in other systems, if required.
 
@@ -49,6 +51,8 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 8.  Close the case.
 
 
+-   **[View supplier sanction status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-sanction-status.md)**  
+Supplier managers can view the sanction status and last sanction check date for suppliers from the Manage Suppliers list.
 -   **[Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md)**  
 Request and response parameters for screening entities against sanction lists through the Relish Data Assure API.
 

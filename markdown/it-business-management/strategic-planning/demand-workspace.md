@@ -16,6 +16,8 @@ breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 
 Next Experience for Demand Management enables you to create, evaluate, and prioritize demands throughout the demand life cycle.
 
+\[Omitted video\] Description: Overview of Next Experience for Demand Management
+
 ## Get started
 
 <table id="table_is2_hh1_dzb" class="nav-card"><tbody><tr><td>

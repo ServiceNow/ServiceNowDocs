@@ -45,7 +45,7 @@ The Enterprise Architecture \(formerly Application Portfolio Management\) portal
         -   exchange mail box \(cmdb\_ci\_exchange\_mailbox\)
     **Note:**
 
-    Your enterprise might have any number of database catalogs, but only the number of database catalogs that are linked to the information objects are displayed as counts in each of the information portfolio sections. Those information objects in turn are related to the business applications, Similarly, only those numbers of database instances that are referenced in the database catalogs are summed up as database instances.
+    Your enterprise might have any number of database catalogs. Only database catalogs linked to information objects are displayed as counts in each information portfolio section. Those information objects are related to business applications. Similarly, only database instances referenced in the database catalogs are summed up as database instances.
 
     Click the **Information Objects** link to view the details of the information objects that are related to the business applications in your enterprise. See [Information Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-information-architecture.md).
 
@@ -79,7 +79,7 @@ The Enterprise Architecture \(formerly Application Portfolio Management\) portal
 
 -   **Notifications**
 
-    View the results of [desired and scripted audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md), the number of hardware and software models that face high and moderate risks, expiring on the current date and in the next 90 days, and pending certification instances that are open and not 100% complete. Click the notification to open the related task or the related data certification schedule instance to view the record details.
+    View the results of [desired and scripted audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md), the number of hardware and software models that face high and moderate risks, and pending certification instances that are open and not 100% complete. Risks expire on the current date and in the next 90 days. Select the notification to open the related task or the related data certification schedule instance to view the record details.
 
 -   **Recent Activity**
 

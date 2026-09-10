@@ -9,7 +9,7 @@ classification: itom-visibility
 topic_type: task
 last_updated: "2026-05-13"
 reading_time_minutes: 1
-breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Set the preferred IP version for network adapter discovery
@@ -50,7 +50,7 @@ When a network adapter supports both IPv4 and IPv6, Discovery populates the IP A
 
 Run discovery again or wait for the scheduled run to apply the changes.
 
-**Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Computers.md)
 
 **Related topics**  
 

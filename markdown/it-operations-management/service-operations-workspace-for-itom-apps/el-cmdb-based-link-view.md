@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in CMDB-based alert groups
@@ -20,7 +20,7 @@ When alerts on CIs that are located near each other in the CMDB topology occur w
 
 \[Omitted image "el-link-view-topology.png"\] Alt text: Sample CMDB-based alert group in Link View.
 
-In this sample Link View of a CMDB-based alert group, the dashed line with the number 2 between the CIs indicates that the CIs are not connected directly, but are separated by two CIs in the service map in the CMDB topology. The sample CMDB service map also shows correlated CIs separated by two CIs.
+In this sample Link View, the dashed line with the number 2 between the CIs indicates that the CIs are not connected directly. They are separated by two CIs in the service map in the CMDB topology. The sample CMDB service map also shows correlated CIs separated by two CIs.
 
 \[Omitted image "el-correlated-cis.png"\] Alt text: Sample service map with correlated CIs.
 

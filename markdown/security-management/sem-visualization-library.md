@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 3
-breadcrumb: [Administration view, Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Administration, Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
 # Visualization library

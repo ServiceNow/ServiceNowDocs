@@ -27,7 +27,7 @@ This process describes the use of probes, which are active on your instance if y
 3.  The Windows - Weblogic - Find config.xml probe or the Linux - Weblogic - Find config.xml probe attempts to find the related `config.xml` file for the server by:
     -   Using the **-Dweblogic.RootDirectory=&lt;path&gt;** parameter defined in the running process.
     -   \[Windows\] Searching for `config.xml` files under the **–Dplatform.home=&lt;path&gt;** parameter defined in the running process \(not as efficient using the parameters of the process\).
-    -   \[Linux\] Searching for the parent process that started the WebLogic server \(only viable if the weblogic jvm was started via the `startWeblogic.sh` or related custom script and not the init process\).
+    -   \[Linux\] Searching for the parent process that started the WebLogic server. This method is viable only if the weblogic jvm was started via the `startWeblogic.sh` or related custom script and not the init process.
 4.  If there are associated web applications found in the WebLogic `config.xml` file, the Windows – Weblogic find web.xml probe triggers for each application. This probe reads the WebLogic `web.xml` file for each web application and the sensor, and then populates additional information.
 
 **Parent Topic:**[WebLogic application server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_DataCollDiscoWebLogicServers.md)

@@ -1,5 +1,5 @@
 ---
-title: Create a status report template in Project Workspace
+title: Create a status report or docs template in Project Workspace
 description: Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create a status report template in Project Workspace
+# Create a status report or docs template in Project Workspace
 
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 
@@ -30,8 +30,10 @@ Role required: it\_project\_manager
 
 3.  Select **New**.
 
-4.  On the Create new document template form, fill in the fields.
+4.  On the Create new Document Template form, fill in the fields.
 
+    -   To create a project status report template, select **Project status report** from the Category list.
+    -   To enable dynamic content on Docs, select **Project Docs** from the Category list and select the **Is Dynamic** check box.
     For a description of the field values, see [Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-new-document-template-form.md).
 
     \[Omitted image "create-status-report-template.png"\] Alt text: Create status report template
@@ -64,5 +66,5 @@ The template you created appears as an option when you try to create a status re
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-02-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,7 +20,7 @@ You can share threat intelligence data between TISC instances using one of the f
 
 -   **Manual sharing through the user interface \(GUI\)**: Manually curate and share intelligence records with a target instance through the TISC interface. For more information, see [Sharing of Outbound Intelligence Records from the GUI](https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.html).
 -   **Automated sharing using flows**: Configure flows to automatically share intelligence data to a target instance based on a defined condition. For more information, see [Automated Sharing of Outbound Intelligence Records](https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.html).
--   **Sharing through a TAXII server**: Exchange threat intelligence data through TAXII collections using standardized threat intelligence sharing protocols. For more information, see .
+-   **Sharing through a TAXII server**: Exchange threat intelligence data through TAXII collections using standardized threat intelligence sharing protocols. For more information, see [Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md).
 
 **Data transfer mechanism**
 
@@ -30,7 +30,9 @@ You can share threat intelligence data between TISC instances using one of the f
 **Related topics**  
 
 
-[tisc-create-intel-records-lib]
+[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
 
-[Add to TAXII Collections from Library List View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-obs-add-taxii-collects.md)
+[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
+
+[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
 

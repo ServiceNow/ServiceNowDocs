@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Lucidchart source system to allow access by the Lucidchart external content connector. For details on configuring these settings in the source system, see [Configure Lucidchart for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-lucidchart-external-content-indexing.md).
+A source system administrator must have already configured your Lucidchart source system to allow access by the Lucidchart external content connector. For the required source system configuration steps, see [Configure Lucidchart for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-lucidchart-external-content-indexing.md).
 
 You must be an application collaborator with the Owner or Tester role on the new OAuth 2.0 application that grants the connector access to your Lucidchart content. If you're not sure whether you have this application collaborator role for the application, check with your Lucid administrator.
 

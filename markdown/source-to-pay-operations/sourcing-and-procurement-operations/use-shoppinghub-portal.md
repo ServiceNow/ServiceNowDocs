@@ -75,6 +75,8 @@ Shop products from the various categories in Shopping Hub Home with employee cre
 Several alerts and email notifications are triggered from ShoppingHub. This may be a result of your actions, an assignment for you, or to keep you updated on the status of your purchases, including blanket contracts.
 -   **[Prioritize Shopping Hub email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/prioritize-email-notifications.md)**  
 To ensure that your customers receive the focused Shopping Hub email notifications, over the global notifications that are sent by default from the platform team, you can manually add a condition to suppress them.
+-   **[Delete a saved address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-delete-single.md)**  
+Shoppers can delete saved delivery addresses they no longer need.
 
 **Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
@@ -92,6 +94,10 @@ To ensure that your customers receive the focused Shopping Hub email notificatio
 [Using Sourcing Pipeline Management]()
 
 [Create a Universal Request]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 
 [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 

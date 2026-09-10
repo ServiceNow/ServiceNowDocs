@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 8
 breadcrumb: [Setup for BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -152,6 +152,20 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
     1.  To proceed, select **OK**.
 
     2.  To return to the template list on the Assessment Workspace landing page, select **Return to template list**.
+
+12. To update a published impact assessment template, use one of the following Smart Assessment Engine capabilities.
+
+    Choose the approach based on whether the change affects the meaning or scoring of the question.
+
+    -   For minor, non-contextual fixes such as typos, grammar, or phrasing clarity that do not change the meaning, scoring, or logic of a question, use **Quick Edit** in the question menu. Quick Edit applies the correction immediately to past, in-progress, and future BIA assessments. It logs the change in the template edit history.
+
+        Quick Edit must be enabled on the Business impact assessment template category to appear in the question menu. For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
+
+        \[Omitted image "bia-sae-quick-edit-menu.png"\] Alt text: Quick edit option in the three-dot menu of a question in a published Smart Assessment template.\[Omitted image "bia-sae-quick-edit-history.png"\] Alt text: Edit history showing Before and After question text for a quick edit, with user and timestamp.
+
+    -   For functional changes —changing question types, adding or removing choices, moving questions between sections, or changing the referenced table on a Reference question, publish a new template version. The previous version is retired automatically and future BIAs use the new version. A copy of the existing Post Assessment Actions is created in the Draft state on the new version. Review and publish the Post Assessment Actions on new version before relying on them to update RTO, RPO, MTPD, or Recovery Tier fields. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-smart-asmt-template.md).
+    -   Open BIA assessments based on the retired version are either retained or canceled depending on the **Assessment handling on version retirement** option configured on the **Business impact assessment** template category. Configure this option before publishing a new version.
+    **Note:** Starting with GRC: Business Continuity Management - Core, version 11.0.1, Smart Assessment templates support version control, and version details are displayed on each template.
 
 
 ## Result

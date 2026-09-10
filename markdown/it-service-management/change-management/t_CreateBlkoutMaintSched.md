@@ -1,6 +1,6 @@
 ---
 title: Create blackout and maintenance schedules in Change Management
-description: Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year. blackout-maintenance-schedule
+description: Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/t\_CreateBlkoutMaintSched.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Conflict detection, Configure, Change Management, IT Service Manage
 
 # Create blackout and maintenance schedules in Change Management
 
-Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year. blackout-maintenance-schedule
+Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d342651e106">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d346789e106">
 
 **Create a blackout schedule**
 
@@ -44,7 +44,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d342651e139">
+</td></tr><tr><td id="d346789e139">
 
 **Create a maintenance schedule**
 
@@ -159,7 +159,7 @@ To exclude specific change
 
         For more information about the schedule entries field, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_ScheduleEntryFields.md).
 
-    **Note:** To delete the schedule created, select **Delete**. If you delete a schedule, the child schedules and schedule entries associated with the schedule would be deleted automatically.
+    **Note:** To delete a blackout or maintenance schedule, open the schedule and select **Delete**.When you delete a schedule, the child schedules and schedule entries associated with it would be deleted automatically.
 
 5.  **Optional**: Add a child schedule to refine the blackout coverage.
 

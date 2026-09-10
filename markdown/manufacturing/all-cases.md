@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/all-cases.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View sales promotion claim cases
@@ -26,8 +26,8 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
     -   My Cases: Cases assigned to the agents.
     -   All: All the cases that belong to that business location.
-    -   Open: All the open cases.
-    -   Unassigned: Unassigned cases and assign them to the available agent.
+    -   Open- All the open cases.
+    -   Unassigned- Unassigned cases and assign them to the available agent.
     -   Escalated: Cases that are escalated and need attention.
 
 **Parent Topic:**[Sales promotion claim management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-sls-pro-clm-mgmt.md)

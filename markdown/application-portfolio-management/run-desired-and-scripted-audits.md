@@ -42,7 +42,7 @@ As a user with the sn\_apm.apm\_admin role, you require all the configuration it
     -   Create tasks to address the disparity in the records.
     -   Communicate to the owners of the IT business application, software model, and the business capability through an email notification to resolve the gap or certify the data.
 
-        Application to facilitate addressing these notifications and to access the applications data, the IT business application owners, software model owners, and the business capability owners are granted the sn\_apm.apm\_user role. Users with this role can navigate to **Compliance** &gt; **My Follow On Tasks** to update the data.
+        To facilitate addressing these notifications and to access the application data, the IT business application owners, software model owners, and the business capability owners are granted the sn\_apm.apm\_user role. Users with this role can navigate to **Compliance** &gt; **My Follow On Tasks** to update the data.
 
     -   **Hardware Models with no life-cycle data**
 
@@ -62,7 +62,7 @@ As a user with the sn\_apm.apm\_admin role, you require all the configuration it
 
     -   **Business applications related to multiple business capabilities in the same hierarchy**
 
-        The scripted audit checks the CI relationship \[cmdb\_rel\_ci\] table for a possibility where the same business application is tied to multiple business capabilities at the same level in the hierarchy. For example, BA1 is tied to Cap 1.1.2 and is also tied to Cap 1.1.2.1. You can understand the hierarchy level of the capability from the Business Capability \[cmdb\_ci\_business\_capability\] table.
+        The scripted audit checks the CI relationship \[cmdb\_rel\_ci\] table for a possibility where the same business application is tied to multiple business capabilities at the same level in the hierarchy. For example, BA1 is tied to Cap 1.1.2 and is also tied to Cap 1.1.2.1. The hierarchy level of the capability is available in the Business Capability \[cmdb\_ci\_business\_capability\] table.
 
     -   **Business applications not related to any software model**
 

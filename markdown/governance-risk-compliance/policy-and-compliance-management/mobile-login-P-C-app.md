@@ -34,7 +34,7 @@ Time to complete this task: 5-7 minutes.
 
 2.  If the ServiceNow AI Platform instance with the Policy and Compliance Management core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
+    1.  On the Instances screen that is displayed, tap the Plus icon.
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 
@@ -101,13 +101,13 @@ Enter a nickname for this instance. If you have multiple instances added to the 
     4.  Tap another instance to log in to it, or, alternatively, follow the preceding steps to add another instance.
 
 
-If the instances screen for the GRC Mobile application is not displayed after you tap the **ServiceNow Agent** app on your device, verify that the **ServiceNow Agent** app is permitted as a trusted app on your device. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, etc.\) to permit access.
+If the screen is not displayed after you tap the **ServiceNow Agent** app on your device, verify that the app is permitted as a trusted app on your device. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, etc.\) to permit access.
 
-If an error message is displayed after you enter your credentials in the log in screen, verify that your User name and password for the ServiceNow AI Platform instance is correct.
+If an error message is displayed after you enter your credentials in the log in screen, verify that your User name and password for the instance is correct.
 
 If you have problems viewing the landing screen, verify your network connection.
 
-If you cannot view the Instances screen after you tap the **ServiceNow Agent** app, try uninstalling it from your device. Verify you have the most current version of the app from the Apple iOS App Store or the Google Play Store and try reinstalling it.
+If you can't view the Instances screen after you tap the **ServiceNow Agent** app, try uninstalling it from your device. Verify you have the most current version of the app from the Apple iOS App Store or the Google Play Store and try reinstalling it.
 
 ## What to do next
 

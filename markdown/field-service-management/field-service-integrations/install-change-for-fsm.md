@@ -21,7 +21,7 @@ You can install the Change Management for Field Service application \(sn\_fsm\_c
 -   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Change Management for Field Service requires the following plugins. Ensure that these plugins are activated before you install Change Management for Field Service.
     -   **Required ServiceNow plugins**
-        -   **CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)**
+        -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
             Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-set-up.md).
 

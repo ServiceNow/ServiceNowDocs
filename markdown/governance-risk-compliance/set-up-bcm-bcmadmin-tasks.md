@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -27,6 +27,20 @@ Business Continuity Management administrators perform these administrative tasks
 -   Configure the recovery tiers and recovery timeframes. For more information, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md) and [Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md).
 -   View the My tasks page configurations module, approval configurations, and properties. For more information, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/my-tasks-page-config-module.md), [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-approval-configuration.md), and [BCM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-properties-module.md).
 -   For more information on the grid configurations and categories, see [Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-configuration-uib-ws.md) and [Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-category.md).
+
+## Custom queue for the Update dependencies process
+
+Previously, Update dependencies events were added to the platform default queue, which is shared across all ServiceNow applications. During periods of high activity, this could result in delays in processing BCM dependency updates. It can happen either because other applications saturated the queue, or because a long-running BCM process affected other items in it.
+
+With the Australia release and later, the Update dependencies process uses a dedicated custom queue \(bcm\_dependencies\) instead of the platform default queue. This is a backend change with no visible indicator in the UI.
+
+The dedicated queue ensures that Update dependencies events have their own processor and do not compete with or block other platform activity.
+
+If you previously configured a custom queue for BCM dependency processing on your instance, remove it — BCM now provides this configuration natively.
+
+For more information about custom queues and the event registry, see [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/events.md) and [Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_EventRegistry.md).
+
+This change applies to the Australia release and later.
 
 ## BIA Configuration module
 

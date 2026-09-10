@@ -1,16 +1,16 @@
 ---
-title: Check compatibility of Subflow or Action
+title: Check the compatibility of a Subflow or Action
 description: After establishing the ACL, publish the component and check the compatibility staging table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/check-compatibility-of-subflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
-# Check compatibility of Subflow or Action
+# Check the compatibility of a Subflow or Action
 
 After establishing the ACL, publish the component and check the compatibility staging table.
 
@@ -41,5 +41,5 @@ Role required: admin
 
 Subflows must be activated for AI use in Flow Designer to be available as MCP tools. Open the subflow, go to Manage Security, enable Callable by Client API, and add a Client Callable Flow Object ACL with execute permission. Skipping this step will prevent the subflow from appearing in the tool creation list.
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-mcp-server-console.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/create-po-exception-universal-req.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -34,7 +34,9 @@ Role required: Operational buyer
 
 5.  Select **Create purchase order exception**.
 
-6.  In the Create New Purchase Order form, fill in the details.
+6.  In the Create New Purchase Order Exception form, fill in the details.
+
+    For a description of the field values, see [Create new purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-new-poe-form.md).
 
     The universal request number from which the purchase order exception is created appears in the **Universal Request** field on the purchase order exception form.
 
@@ -53,4 +55,8 @@ A purchase order exception record is created, which links to the original univer
 [Reporting delivery plan issues]()
 
 [Resolving purchase order exceptions]()
+
+[Universal Request in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/universal-request.md)
+
+[Create new purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-new-poe-form.md)
 

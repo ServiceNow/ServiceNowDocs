@@ -1,6 +1,6 @@
 ---
 title: Investment Portal
-description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. This interface is intuitive and makes project and demand management more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/ppm-collaboration/investment-portal.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 
 # Investment Portal
 
-Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. This interface is intuitive and makes project and demand management more efficient.
 
 Tracking and managing your investments \(both projects and demands\) and then creating investment reports and sharing them through email is time consuming and inefficient. To generate a report you must obtain the status of projects and demands from project and demand managers, produce the report, and then email it.
 

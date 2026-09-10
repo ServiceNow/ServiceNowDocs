@@ -43,3 +43,9 @@ Role required: admin
 10. Review the summary and select **Confirm and Submit**.
 
 
+## Result
+
+You will receive an email with the ServiceNow CPQ details. Select the **View request** to access the support portal and set a password.
+
+**Note:** You can proceed with the guided setup only after you receive ServiceNow CPQ details.
+

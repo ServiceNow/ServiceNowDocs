@@ -1,20 +1,22 @@
 ---
-title: Using agentic workflows in Now Assist for POM
-description: Use agentic workflows in Now Assist for Purchase Order Management to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
+title: Using agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\)
+description: Use agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-agentic-wf-na-for-pom.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Using agentic workflows in Now Assist for POM
+# Using agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\)
 
-Use agentic workflows in Now Assist for Purchase Order Management to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
+Use agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 
-Use the following agentic workflows that are available with Now Assist for Purchase Order Management
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+Use the following agentic workflows that are available with ServiceNow Otto for Purchase Order Management \(POM\)
 
 |Available agentic workflows|Description|Available AI agents|
 |---------------------------|-----------|-------------------|

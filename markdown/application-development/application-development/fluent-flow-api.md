@@ -13,7 +13,7 @@ keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api, service
 
 The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate business processes with reusable multiple-step components.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 Create a flow using the Flow object. For more information, see [Flow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/fluent-flow-api.md).
 

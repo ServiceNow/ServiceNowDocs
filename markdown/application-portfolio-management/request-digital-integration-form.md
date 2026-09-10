@@ -119,7 +119,7 @@ Description
 
 </td><td>
 
-Description about the digital integration. Describe in detail why the integration is being created between two business applications or between an external service provided interface and a business application, And how and what business value it adds.
+Description about the digital integration. Describe why the integration is being created between two business applications or between an external service and a business application. Explain the business value it adds.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-reference.md)

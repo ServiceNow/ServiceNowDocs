@@ -46,15 +46,15 @@ A processing activity can have multiple key stakeholders. While you can add or d
 
 7.  In the **Processing activity privileges** field, select one of the following options.
 
-<table id="choicetable_qyt_gy1_2sb"><thead><tr><th align="left" id="d96376e150">
+<table id="choicetable_qyt_gy1_2sb"><thead><tr><th align="left" id="d98438e150">
 
 Option
 
-</th><th align="left" id="d96376e153">
+</th><th align="left" id="d98438e153">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d96376e159">
+</th></tr></thead><tbody><tr><td id="d98438e159">
 
 **Respond to privacy assessments**
 
@@ -62,7 +62,7 @@ Result
 
 To enable the stakeholder only to respond to the privacy assessment.**Note:** When you choose this option, the role of the stakeholder changes to sn\_privacy.assessment\_responder
 
-</td></tr><tr><td id="d96376e171">
+</td></tr><tr><td id="d98438e171">
 
 **Edit processing activity and respond to privacy assessments**
 

@@ -1,5 +1,5 @@
 ---
-title: Employee Slate for Moveworks use cases
+title: EmployeeWorks Web App use cases
 description: Use the Moveworks AI assistant, specialized assistants, Enterprise Search, and the interactive split view to handle daily work tasks. Available on web and mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/empworks-experience-journey.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 3
 keywords: [experience journey, end-to-end scenario, AI front door, day in the life]
-breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Moveworks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate for Moveworks use cases
+# EmployeeWorks Web App use cases
 
 Use the Moveworks AI assistant, specialized assistants, Enterprise Search, and the interactive split view to handle daily work tasks. Available on web and mobile.
 
@@ -85,7 +85,7 @@ You can manage all your work routines using the same AI assistant apps in portal
 **Related topics**  
 
 
-[Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
+[EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
 
 [Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -70,7 +70,13 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 17. On the form, fill in the fields.
 
+    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
+
 18. Select **Save**.
+
+    Every contractual arrangement with specific information must have at least one rank 1 ICT service supply chain record. The system enforces this requirement, including for records created through data migration.
+
+    The system also checks referential integrity between related DORA reporting sheets, for example, between template B\_05.02 and template B\_07.01. A record with no matching entry in the related sheet is an orphaned record. Saving an orphaned record fails validation with an error.
 
 19. To add intra-group contractual arrangements, navigate to the **Intra-group contractual arrangements** tab of the contract and select **Add**.
 

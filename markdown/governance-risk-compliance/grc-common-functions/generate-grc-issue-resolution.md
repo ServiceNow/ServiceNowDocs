@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Agentic workflows, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Optimize a GRC issue resolution
@@ -18,6 +18,8 @@ breadcrumb: [Agentic workflows, Use agentic AI, Now Assist, Common GRC features,
 Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution agentic workflow in the Now Assist panel. This agentic workflow generates an action plan for the issue and suggests remediation tasks to resolve the issue.
 
 ## Before you begin
+
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
@@ -33,9 +35,9 @@ To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.
 
 2.  Open the issue that you want to resolve by using the agentic workflow.
 
-3.  Select the Now Assist \(\[Omitted image "icon-ai-admin-center-otto-panel.png"\] Alt text: Now Assist panel icon.\) icon.
+3.  Select the ServiceNow Otto icon.
 
-    The Now Assist panel is displayed.
+    The ServiceNow Otto panel is displayed.
 
 4.  Resolve the GRC issue by generating an issue action plan and generating recommended remediation tasks.
 
@@ -49,7 +51,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Issue action plan AI agent
+Generate an issue action plan
 
 </td><td>
 
@@ -64,7 +66,7 @@ On the Now Assist panel, ask the agent to optimize the GRC issue resolution work
 
 </td></tr><tr><td>
 
-Remediation tasks AI agent
+Generate recommended remediation tasks
 
 </td><td>
 

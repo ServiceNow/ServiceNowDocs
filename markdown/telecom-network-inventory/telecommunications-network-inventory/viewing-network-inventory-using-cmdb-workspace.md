@@ -1,6 +1,6 @@
 ---
 title: Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace
-description: You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
+description: You can use CMDB Workspace to search and explore the CMDB and examine its health and recent activity. You can also access various dashboards and tools to support the tasks in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Use, Telecommunications Network Inventory]
 
 # Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace
 
-You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
+You can use CMDB Workspace to search and explore the CMDB and examine its health and recent activity. You can also access various dashboards and tools to support the tasks in your organization.
 
 ## Prerequisites for Service Graph Workspace or CMDB Workspace
 
@@ -100,7 +100,7 @@ When you drill down to a network asset CI record, you can see the following deta
 On the CI details page, you can do the following actions:
 
 -   To open Dependency Views and to get a graphic infrastructure view of the network asset CI record, click **Open Dependency View**.
--   To open the Multisource Data Report Builder and track how the CMDB is populated by the various discovery sources at the network asset CI attribute level of the network asset CI record, click **View Multisource Data**.
+-   To open the Multisource Data Report Builder and track how the CMDB is populated by the various discovery sources at the CI attribute level, click **View Multisource Data**.
 -   To save your changes to the attributes for the network asset CI record, click **Save**.
 
 

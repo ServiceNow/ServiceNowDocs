@@ -25,7 +25,9 @@ Review [the application listing](https://store.servicenow.com/store/app/a36ed8ba
 
 AI Service Graph Connectors are available for third-party AI security tools \(for example, Cisco AI Defense or HiddenLayer\). Install and configure the Service Graph Connector for the security tool you use to see the data reflected in design-time metrics.
 
-The AI Security Exposure Management plugin \(`com.sn_sec_ai`\) provides these additional metrics: Approaching remediation target, Remediation overdue, Vulnerabilities deferred, Findings deferred, and Vulnerabilities by risk metrics. It also provides details for every design-time metric.
+The AI Security Exposure Management plugin \(`com.sn_sec_ai`\) provides these additional metrics: Critical findings approaching remediation target, Critical findings with remediation overdue, Number of findings deferred, Findings by risk rating,Approaching remediation target, Remediation overdue, Vulnerabilities deferred, Findings deferred, and Vulnerabilities by risk metrics. It also provides details for every design-time metric.
+
+Until you install the AI Security Exposure Management plugin, a source dropdown appears at the top of the Design-time tab, letting you filter the AI security posture, AI vulnerabilities, and AI validation subtabs by source.
 
 ## Procedure
 

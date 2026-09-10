@@ -103,7 +103,7 @@ Weightage
 Numeral for the indicator.Weightage provided in the application score profile for an indicator contributes to the total score of the application.
 
 </td></tr></tbody>
-</table>        An indicator that is added to the profile can be a parent indicator with dependent child indicators. When such a parent indicator is added to a scoring profile, then all its dependent child indicators are also added with weightage 0, if they are not already present in the scoring profile.
+</table>        An indicator that is added to the profile can be a parent indicator with dependent child indicators. When such a parent indicator is added to a scoring profile, all its dependent child indicators are also added with weightage 0. This occurs only if the child indicators aren't already present in the scoring profile.
 
         For more information on how to create a dependent indicator, see [Create or edit an indicator to assess an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-application-indicators.md).
 

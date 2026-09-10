@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-the-connection-impact-delivery-instance.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use manual registration to IDI, Impact reference, Impact]
 ---

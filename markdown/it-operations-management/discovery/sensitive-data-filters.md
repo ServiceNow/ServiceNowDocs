@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery,
 
 The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
-Discovery collects configuration and operational data from servers and applications to populate the CMDB. Some of this data may include sensitive information such as passwords, tokens, or credentials. Storing these values in CMDB can create security and compliance risks. Sensitive data filters enable administrators to define regex filters that identify sensitive information in probe results. When Discovery runs, the probe collects data and processes it on the MID Server. Before the ECC Queue input payload is sent to the instance, the Post Processor script applies transformations and checks for regex filters defined in the Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table. If a match is found, the script redacts the sensitive value in the payload so that only redacted data is transmitted to the instance and stored in CMDB.
+Discovery collects configuration and operational data from servers and applications to populate the CMDB. Some of this data may include sensitive information such as passwords, tokens, or credentials. Storing these values in CMDB can create security and compliance risks. Sensitive data filters enable administrators to define regex filters that identify sensitive information in probe results. When Discovery runs, the probe collects data and processes it on the MID Server. Before the ECC Queue input payload is sent to the instance, the Post Processor script applies transformations. The script checks for regex filters defined in the Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table. If a match is found, the script redacts the sensitive value in the payload so that only redacted data is transmitted to the instance and stored in CMDB.
 
 For example, if the regex is `(?i)(?:pwd|password|passwd|secret)=(\S+)` and the original content is:
 

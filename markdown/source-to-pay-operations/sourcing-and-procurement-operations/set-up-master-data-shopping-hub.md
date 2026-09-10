@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -43,6 +43,16 @@ As a procurement administrator, you can create and modify purchase process steps
 
 **Related topics**  
 
+
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
+[Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Install Sourcing and Procurement Operations]()
 

@@ -8,7 +8,7 @@ product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -58,7 +58,9 @@ You can change any base-system policy by modifying settings or making the policy
 
 7.  In the Policy Rule Actions related list, click the \(empty\) **Name** of the action.
 
-8.  On the Update Action pop-up window, enter an **Action Name** \(the value is required\), notice the value of the **Notification** \(you will use it in the next step\), and then close the pop-up window.
+8.  On the Update Action pop-up window, enter an **Action Name**.
+
+    Note the value of the **Notification** field for use in the next step.
 
     \[Omitted image "policy-lease-end-action.png"\] Alt text: Sending a notification
 

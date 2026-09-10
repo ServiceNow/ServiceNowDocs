@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1
-breadcrumb: [Create a lineage for a processing activity, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage data lineage, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Update the maximum node level for the lineage map
@@ -37,5 +37,5 @@ By default, the lineage map displays nodes up to five levels downstream and one 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
+**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/lineage.md)
 

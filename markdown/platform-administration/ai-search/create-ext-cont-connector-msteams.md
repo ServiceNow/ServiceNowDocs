@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Microsoft Teams source system to allow access by the Microsoft Teams external content connector. For details on configuring these settings in the source system, see [Create a public/private key pair for the Microsoft Teams external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gen-cert-msteams-ext-cont-connector.md) and [Configure Microsoft Teams for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-settings-msteams-ext-cont-connector.md).
+A source system administrator must have already configured your Microsoft Teams source system to allow access by the Microsoft Teams external content connector. For the required source system configuration steps, see [Create a public/private key pair for the Microsoft Teams external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gen-cert-msteams-ext-cont-connector.md) and [Configure Microsoft Teams for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-settings-msteams-ext-cont-connector.md).
 
 If your Microsoft Teams tenant is in the Microsoft 365 GCC or GCC High cloud or the Microsoft 365 DoD cloud, you must have already configured the Microsoft cloud service endpoint URL. For instructions on configuring this setting, see .
 

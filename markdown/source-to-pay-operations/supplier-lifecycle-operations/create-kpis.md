@@ -1,6 +1,6 @@
 ---
 title: Create KPIs without using KPI template
-description: n add new KPIs for a supplier witha sting KPI,whicheautomaticallyA directly aerates the correspotemplate templates.
+description: Create KPIs for a supplier without using a templates,which automatically generates a corresponding KPI template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure Supplier Relationship and Performance Management, Configu
 
 # Create KPIs without using KPI template
 
-n add new KPIs for a supplier witha sting KPI,whicheautomaticallyA directly aerates the correspotemplate templates.
+Create KPIs for a supplier without using a templates,which automatically generates a corresponding KPI template.
 
 ## Before you begin
 

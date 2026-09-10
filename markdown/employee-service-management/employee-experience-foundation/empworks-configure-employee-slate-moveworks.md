@@ -1,6 +1,6 @@
 ---
-title: Configure Employee Slate for Moveworks
-description: Configure Employee Slate for Moveworks from the Product Configuration console. Set branding, the Moveworks AI Assistant connection, the canvas configuration, and the update set package that promotes configurations between environments.
+title: Configure EmployeeWorks Web App
+description: Configure EmployeeWorks Web App from the Product Configuration console. Set branding, the Moveworks AI Assistant connection, the canvas configuration, and the update set package that promotes configurations between environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.html
 release: zurich
@@ -9,21 +9,21 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 3
-keywords: [Employee Slate for Moveworks, Product Configuration console, Conversational Assistant, Canvas configuration, update set package]
-breadcrumb: [Employee Slate for Moveworks, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [EmployeeWorks Web App, Product Configuration console, Conversational Assistant, Canvas configuration, update set package]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure Employee Slate for Moveworks
+# Configure EmployeeWorks Web App
 
-Configure Employee Slate for Moveworks from the Product Configuration console. Set branding, the Moveworks AI Assistant connection, the canvas configuration, and the update set package that promotes configurations between environments.
+Configure EmployeeWorks Web App from the Product Configuration console. Set branding, the Moveworks AI Assistant connection, the canvas configuration, and the update set package that promotes configurations between environments.
 
 ## Before you begin
 
-Before you configure Employee Slate for Moveworks, verify the following prerequisites:
+Before you configure EmployeeWorks Web App, verify the following prerequisites:
 
 -   You have the administrator role.
--   The Employee Slate for Moveworks foundational plugin is installed from the **Product Hub** page.
--   The Employee Slate Advanced plugin is installed if the deployment requires the advanced experience.
+-   The EmployeeWorks Web App foundational plugin is installed from the **Product Hub** page.
+-   The EmployeeWorks Web App Extended plugin is installed if the deployment requires the advanced experience.
 -   The Moveworks AI Assistant instance URL is available.
 
 Role required: Admin
@@ -36,7 +36,7 @@ The Product Configuration console organizes the configuration work into modules 
 
 1.  From the platform administrator home page, select **View product overview** on the Employee Slate for Moveworks card.
 
-    The **Product Hub** page opens and lists the plugins associated with Employee Slate for Moveworks.
+    The **Product Hub** page opens and lists the plugins.
 
 2.  Upload a prepared update set with the **Upload Batch** option.
 
@@ -44,7 +44,7 @@ The Product Configuration console organizes the configuration work into modules 
 
 3.  Select **Configure** to open the Product Configuration console.
 
-    The configuration summary lists the modules available for Employee Slate for Moveworks and the progress of each module.
+    The configuration summary lists the modules available for EmployeeWorks Web App and the progress of each module.
 
 4.  In the **Appearance** module, set the branding and theming for the experience.
 
@@ -54,7 +54,7 @@ The Product Configuration console organizes the configuration work into modules 
 
 5.  In the **Conversational Assistant** module, enter the Moveworks AI Assistant instance URL and save the configuration.
 
-    The page also offers a redirection to the Moveworks setup experience so you can further configure AI Assistant sources and behaviors. For the chatbot procedure, see [Configure the Moveworks chatbot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
+    The page also offers a redirection to the Moveworks setup experience so you can further configure AI Assistant sources and behaviors. For the chatbot procedure, see [Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
 
 6.  In the **Canvas** module, configure the default canvas view and the widget library.
 

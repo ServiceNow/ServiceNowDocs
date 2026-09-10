@@ -55,15 +55,15 @@ A manager receives a notification from ServiceNow Otto after they access the Emp
 
 4.  Converse with ServiceNow Otto to convey the changes you want made to the ramp-up plan.
 
-<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d206197e211">
+<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d206471e211">
 
 Option
 
-</th><th align="left" id="d206197e214">
+</th><th align="left" id="d206471e214">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206197e220">
+</th></tr></thead><tbody><tr><td id="d206471e220">
 
 **Create a stage**
 
@@ -71,7 +71,7 @@ Description
 
 Tell ServiceNow Otto to add a stage with a title of your choice. You can also add courses or tasks to the stage you’re creating in a single request. For example, type `Create a stage named Data Science` to create a stage titled, "Data Science."
 
-</td></tr><tr><td id="d206197e237">
+</td></tr><tr><td id="d206471e237">
 
 **Delete a stage**
 
@@ -79,7 +79,7 @@ Tell ServiceNow Otto to add a stage with a title of your choice. You can also ad
 
 Tell ServiceNow Otto to delete a stage that you want removed from the ramp-up plan. Deleting a stage also deletes the courses or tasks that are nested in that stage.
 
-</td></tr><tr><td id="d206197e249">
+</td></tr><tr><td id="d206471e249">
 
 **Add a course or task**
 
@@ -87,7 +87,7 @@ Tell ServiceNow Otto to delete a stage that you want removed from the ramp-up pl
 
 Tell ServiceNow Otto to add a course or task to an existing or new stage. For example, type `Add a task named "Knowledge transfer from Adam Clark" to the Data Science stage` to add a task to the new hire's onboarding journey that appears in the Data Science stage.
 
-</td></tr><tr><td id="d206197e266">
+</td></tr><tr><td id="d206471e266">
 
 **Delete a course or task**
 
@@ -95,7 +95,7 @@ Tell ServiceNow Otto to add a course or task to an existing or new stage. For ex
 
 Tell ServiceNow Otto to delete a course or task that you want removed from a stage in the ramp-up plan.
 
-</td></tr><tr><td id="d206197e281">
+</td></tr><tr><td id="d206471e281">
 
 **Create a one-on-one meeting**
 
@@ -103,7 +103,7 @@ Tell ServiceNow Otto to delete a course or task that you want removed from a sta
 
 Tell ServiceNow Otto to create a one-on-one meeting for the new hire with the employee you specify.For example, type `Add 1:1 meeting with Abel Tuter` to schedule a one-on-one meeting between the new hire and Abel Tuter as part of the ramp-up plan.
 
-</td></tr><tr><td id="d206197e298">
+</td></tr><tr><td id="d206471e298">
 
 **Delete a one-on-one meeting**
 
@@ -111,7 +111,7 @@ Tell ServiceNow Otto to create a one-on-one meeting for the new hire with the em
 
 Tell ServiceNow Otto to delete a one-on-one meeting that you want removed from the ramp-up plan.For example, type `Delete 1:1 meeting with Abel Tuter` to remove a scheduled one-on-one meeting between the new hire and Abel Tuter from the ramp-up plan.
 
-</td></tr><tr><td id="d206197e317">
+</td></tr><tr><td id="d206471e317">
 
 **Update a field in the Journey Accelerator Plan record**
 
@@ -119,7 +119,7 @@ Tell ServiceNow Otto to delete a one-on-one meeting that you want removed from t
 
 Tell ServiceNow Otto to update a field in the Journey Accelerator Plan record to a value that you specify.
 
-</td></tr><tr><td id="d206197e335">
+</td></tr><tr><td id="d206471e335">
 
 **Create a task**
 

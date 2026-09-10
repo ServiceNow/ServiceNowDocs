@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Configure an evaluation metric template
@@ -51,6 +51,4 @@ For the full list of quality and safety metrics, see [Evaluation metrics](https:
 ## Result
 
 The updated formula is applied to new evaluation sessions. Scores on the monitoring overview reflect the updated formula as new data is collected.
-
-**Parent Topic:**[Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
 

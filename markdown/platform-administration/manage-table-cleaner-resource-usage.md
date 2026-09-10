@@ -32,6 +32,8 @@ You can mitigate the impact to system performance by starting a table cleaner ru
 
 3.  Select **Update**.
 
+4.  Contact ServiceNow Support to change the number of producers or consumers devoted to creating or deleting chunks of records.
+
 
 ## Result
 

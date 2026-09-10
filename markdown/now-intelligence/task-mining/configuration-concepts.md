@@ -7,8 +7,8 @@ release: zurich
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-08-27"
+reading_time_minutes: 4
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
 
@@ -25,6 +25,10 @@ Task Mining categorization determines how information displays in analyses and p
 -   Anonymization of personal information such as a client name in window names for specific categories with replacement text you specify.
 -   Grouping similar activities using categories and application groups making dashboards clearer.
 
+## How rules match activities
+
+You define a categorization rule with a condition builder. Each condition is a combination of a field \(Application Name, Window Name, or URL\), an operator \(Equals, Contains, Starts with, or Ends with\), and a value. A rule matches an activity when its conditions evaluate true against the activity's application name, window name, and URL values. Combine conditions with and and or logic to match a range of activities with a single rule.
+
 ## Categorization workflow
 
 The process to categorize activities is as follows:
@@ -33,7 +37,7 @@ The process to categorize activities is as follows:
 
     For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/mine-project-data.md).
 
-2.  The Task Mining power user creates categorization rules with fixed order values that determine how data from apps and windows is shown on dashboards.
+2.  The Task Mining power user creates categorization rules with the condition builder. Each rule has a rank that determines when it applies relative to other rules and how data from apps and windows is shown on dashboards.
 
     For more information, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/define-default-categorization-rules.md).
 
@@ -53,7 +57,7 @@ Rules are ordered to define which rule applies first. The following five categor
 2.  **Lock**: Defines the activity as a break, and is used when the workstation is locked.
 3.  **Off**: Defines the activity as off, and is used when the workstation is turned off.
 4.  **Idle**: Defines the activity as idle, and is used on analyses during targeted recordings when the agent is idle.
-5.  **MAX**: Applies to uncategorized apps that don’t match any rule and are anonymized by default.
+5.  **MAX**: Applies to uncategorized apps that don’t match any rule. By default, this uncategorized activity doesn't appear in dashboards and falls into the Other category.
 
 ## Category and application names
 

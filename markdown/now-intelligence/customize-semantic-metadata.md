@@ -15,7 +15,7 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 
-Both [entities]() \(tables\) and [dimensions]() \(fields\) in the [semantic layer]() have three metadata fields that Query Generation uses when processing a question:
+Both [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\) and [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) have three metadata fields that Query Generation uses when processing a question:
 
 -   **Semantic Label**
 
@@ -27,7 +27,7 @@ Both [entities]() \(tables\) and [dimensions]() \(fields\) in the [semantic laye
 
 -   **Semantic Usage Instructions**
 
-    Instructions injected directly into the [LLM]() prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
+    Instructions injected directly into the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
 
 
 ## When to customize

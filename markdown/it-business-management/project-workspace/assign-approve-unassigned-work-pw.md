@@ -47,15 +47,15 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d233711e158">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d238624e158">
 
 Assign work choices
 
-</th><th align="left" id="d233711e161">
+</th><th align="left" id="d238624e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233711e167">
+</th></tr></thead><tbody><tr><td id="d238624e167">
 
 **Auto Assign**
 
@@ -63,7 +63,7 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d233711e181">
+</td></tr><tr><td id="d238624e181">
 
 **Manual Assign**
 

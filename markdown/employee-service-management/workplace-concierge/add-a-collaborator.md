@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 breadcrumb: [Set Employee Presence, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,6 +17,12 @@ breadcrumb: [Set Employee Presence, Workplace Concierge, Workplace Service Deliv
 Coordinate your in-office days with your co-workers. Add them as your collaborators and view the days that your co-workers are present at the office.
 
 ## Before you begin
+
+-   Workplace Core
+-   Workplace Reservation Management
+-   Workplace Concierge
+
+\[Omitted video\] Description: Manage workplace presence settings and your collaborators.
 
 Role required: sn\_wsd\_core.workplace\_user
 

@@ -1,6 +1,6 @@
 ---
-title: Configure the AI widget builder for Employee Slate
-description: Configure the AI widget builder in Employee Slate. Set the scope, the role access, and the chat panel that drives widget generation.
+title: Configure the AI widget builder
+description: Configure the AI widget builder in EmployeeWorks Web App. Set the scope, the role access, and the chat panel that drives widget generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.html
 release: zurich
@@ -10,20 +10,20 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [AI widget builder, widget configuration, widget scope, chat compatibility, role access, Employee Slate]
-breadcrumb: [AI-powered Widget Builder, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [AI-powered Widget Builder, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure the AI widget builder for Employee Slate
+# Configure the AI widget builder
 
-Configure the AI widget builder in Employee Slate. Set the scope, the role access, and the chat panel that drives widget generation.
+Configure the AI widget builder in EmployeeWorks Web App. Set the scope, the role access, and the chat panel that drives widget generation.
 
 ## Before you begin
 
-Activate Employee Slate for Now Assist in the instance.
+Activate Employee Slate \(built for Now Assist\) in the instance.
 
 An Oasis for Creator license for any admin who uses the AI chat panel.
 
-Role required: admin or Employee Slate administrator.
+Role required: admin.
 
 ## About this task
 

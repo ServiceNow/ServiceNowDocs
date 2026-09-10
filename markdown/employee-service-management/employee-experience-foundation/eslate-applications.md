@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-28"
 reading_time_minutes: 1
 keywords: [app launcher, applications, SSO, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Featured applications
@@ -19,7 +19,7 @@ Employees can discover, access, and manage all their business applications from 
 
 The featured apps serve as a central hub where employees can discover, access, and manage all their work applications from a single location.
 
-**Note:** To use featured applications, you must install Employee Slate Advanced.
+**Note:** To use featured applications, you must install EmployeeWorks Web App Extended.
 
 \[Omitted image "es-featured-applications.png"\] Alt text: Featured applications widget showing the app launcher with categorized business application tiles
 

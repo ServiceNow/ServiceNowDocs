@@ -1,18 +1,18 @@
 ---
-title: Change priority level of a purchase order exception
-description: Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+title: Change the priority level of a purchase order exception
+description: Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/change-priority-of-poe.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Change priority level of a purchase order exception
+# Change the priority level of a purchase order exception
 
-Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an exception that you want to work on.
 
-4.  Select the More actions icon.
+4.  Select the More actions icon \(\[Omitted image "pom-more-actions-icon.png"\] Alt text:\).
 
 5.  Select **Change priority level**.
 
@@ -34,10 +34,13 @@ Role required: sn\_poem\_core.operational\_buyer
 
 7.  Select **Update**.
 
+    The priority level of the purchase order exception is updated to reflect the new value.
 
-## Result
-
-The priority level of the purchase order exception is updated to reflect the new value.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assigning-priority-to-po.md)
 

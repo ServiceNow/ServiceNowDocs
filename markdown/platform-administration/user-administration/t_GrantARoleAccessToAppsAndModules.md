@@ -20,6 +20,10 @@ Roles control access to features and capabilities in applications and modules. Y
 
 Role required: admin
 
+## About this task
+
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-subscription-auto-assignment.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Applications** or **System Definition** &gt; **Modules**.

@@ -103,7 +103,7 @@ Watch this video to understand how to create a tool integration from the DevOps 
 
     -   Enter the resource path API endpoint in the **Resource path** field if you use the generic script. \[Omitted image "custom-tool-transformation-script.png"\] Alt text: Transformation step in tool integration creation
     -   If not already available, create a record transformer for the Notification, Discover, and Import actions for each of the capabilities by selecting the **Create a record transformer**, and add record transformer rules to map fields in your tool to fields in the DevOps Data Model. For information on creating a record transformer and manually mapping it to the field, see [Add custom fields for a planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.md). \[Omitted image "custom-tool-record-transformer.png"\] Alt text: Transformation step - Record transformer section in tool integration creation
-14. In Next steps, you can validate your tool integration by connecting to an instance of the tool through the playbook experience, and you can also view the tool integration record. \[Omitted image "custom-tool-next-steps.png"\] Alt text: Next steps in tool integration creation
+14. In Next steps, you can validate your tool integration by connecting to an instance of the tool through the playbook experience and view the tool integration record. \[Omitted image "custom-tool-next-steps.png"\] Alt text: Next steps in tool integration creation
 
     **Note:** On selecting the **Connect to a tool** button, you will see the newly created tool integration in the list of tools available to connect.
 

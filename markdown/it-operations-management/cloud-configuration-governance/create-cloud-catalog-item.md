@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_designer.
 
 ## About this task
 
-While creating a catalog item, you can associate the catalog item with a template either native to the cloud provider \( for example, CFT, ARM, GDM\) or a Terraform IaC template. After you generate a catalog item, the system automatically generates components such as variable sets, lifecycle operations, rules, and pre- and post-provision operations. You can manage all these components from the Create Catalog Item page.
+While creating a catalog item, you can associate it with a cloud provider template \(for example, CFT, ARM, GDM\) or a Terraform IaC template. After you generate a catalog item, the system automatically generates components such as variable sets, lifecycle operations, rules, and pre- and post-provision operations. You can manage all these components from the Create Catalog Item page.
 
 ## Procedure
 

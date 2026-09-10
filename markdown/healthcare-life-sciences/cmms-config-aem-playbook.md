@@ -20,9 +20,9 @@ To use maintenance and servicing workflows or inventory and management workflows
 
 As a user with the admin role, you can create a playbook by using Playbooks, a ServiceNow AI Platform® feature. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md).
 
-The playbooks in the Healthcare CMMS application use the CSM Configurable Workspace playbook experience. By default, the Healthcare CMMS application includes the playbook for reviewing AEM requests for medical device models and its devices to assist clinical engineers to resolve medical device AEM cases.
+The playbooks in the Healthcare CMMS application use the CRM Workspace playbook experience. By default, the Healthcare CMMS application includes the playbook for reviewing AEM requests for medical device models and its devices to assist clinical engineers to resolve medical device AEM cases.
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with the medical device cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-definitions.md).
 
-**Note:** When configuring a process definition for the playbook associated with medical device AEM cases, ensure that the application scope is set to Healthcare Computerized Maintenance Management System using the application picker. For more information, see Application picker.
+**Note:** When configuring a process definition for the playbook associated with medical device AEM cases, ensure that the application scope is set to Healthcare Computerized Maintenance Management System using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 

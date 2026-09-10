@@ -1,6 +1,6 @@
 ---
 title: Modify the greeting text on the landing page
-description: Customize the header message that is a part of the greeting text on the home page. This will create a more personalized user experience, making visitors feel welcomed and valued, and can also help in setting the right tone and context for the information presented.
+description: Customize the header message that is a part of the greeting text on the home page. This creates a personalized user experience and sets the right tone for the information presented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/modify-greeting-text-itom.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Customize the SOW for ITOM home page, Configure, Service Operations
 
 # Modify the greeting text on the landing page
 
-Customize the header message that is a part of the greeting text on the home page. This will create a more personalized user experience, making visitors feel welcomed and valued, and can also help in setting the right tone and context for the information presented.
+Customize the header message that is a part of the greeting text on the home page. This creates a personalized user experience and sets the right tone for the information presented.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin or admin
 
 The Get service desk agent shift data broker server script calls the `SOWServiceDeskAgentShift` script includes to display the shift information in the greeting text.
 
-While the display text can be customized for the default landing page, the visual styling changes to the text can be done only by creating a copy of the landing page.
+The display text can be customized for the default landing page. Visual styling changes to the text can be done only by creating a copy of the landing page.
 
 Suppose you are on call until Monday, March 21. You can update your greetings to reflect your on-call status.
 

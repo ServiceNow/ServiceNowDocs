@@ -1,16 +1,17 @@
 ---
-title: Dealer management
+title: Using the dealer portal
 description: The dealer portal enables you to manage the repair, recall, and sales promotion claims.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-use-dealer-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [dealer portal, repair claim, recall campaign, sales promotion claim, product non-conformance, asset lookup]
 breadcrumb: [Use, Manufacturing Commercial Operations]
 ---
 
-# Dealer management
+# Using the dealer portal
 
 The dealer portal enables you to manage the repair, recall, and sales promotion claims.
 
@@ -19,4 +20,5 @@ The dealer portal enables you to manage the repair, recall, and sales promotion 
 |[Look up an asset or claim by its serial number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-lookup.md)|View asset or claim details.|
 |[Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-claim-dealer.md)|Submit a repair claim for warranty and recall.|
 |[Sales promotion for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-sales-promotion-dealer.md)|Submit a sales promotion claim.|
+|[Quality issue management for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-for-the-dealer.md)|Submit a product non-conformance issue report.|
 

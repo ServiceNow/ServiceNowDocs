@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Security tasks, Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Security tasks, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Resolve a security task

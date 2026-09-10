@@ -66,3 +66,7 @@ When a Universal Request arrives in the Source-to-Pay Workspace, create a linked
 
 [Using Sourcing Pipeline Management]()
 
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
+

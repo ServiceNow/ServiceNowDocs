@@ -45,7 +45,7 @@ Role required: admin
 
 5.  Select **Save**.
 
-    Once you make the project confidential, the confidentiality setting is applied to the project, all sub projects, and entities such as cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, status reports, baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
+    Once you make the project confidential, the confidentiality setting is applied to the project, all sub projects, . It also applies to entities such as cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, and status reports. These entities also include baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
 
     These will only be accessible to individuals who have been explicitly added to the project.
 

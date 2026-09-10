@@ -8,13 +8,15 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Setting up, Demand Forecast, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Demand Forecast components in Workforce Optimization for ITSM
 
 Workforce Optimization for ITSM installs roles to administer ITSM Manager Workspace Demand Forecast, properties to configure default behavior, scheduled jobs to collect data for the configurations, tables to store data, forecast configurations to collect data for incidents and interactions and a retention policy to store metric data.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Forecast configurations
 

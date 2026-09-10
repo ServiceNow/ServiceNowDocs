@@ -1,20 +1,20 @@
 ---
 title: View related info from TISC
-description: Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in SIR workspace.
+description: Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in Security Incident Response Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/tisc-related-info-sir.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # View related info from TISC
 
-Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in SIR workspace.
+Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in Security Incident Response Workspace.
 
 ## Before you begin
 
@@ -24,19 +24,19 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Security Incidents** &gt; **All**.
 
-2.  Locate and open any specific security incident that you are investigating.
+2.  Locate and open any specific security incident that you're investigating.
 
-    This can also be done by searching for the incident ID or browsing from Quick Filters section or filtering through incident state.
+    This can also be done by searching for the incident ID or browsing from **Quick Filters** section or filtering through incident state.
 
 3.  Once the incident is open, navigate to **TISC Context** tab.
 
-    **Viewing View Related Information:**
+    **View related information:**
 
     Within the incident details, you can view related information in several sections.
 
     1.  Select one or more observables.
 
-    2.  Click on **View Related Info** button.
+    2.  Select **View Related Info** button to view the related observables information.
 
         This section displays the associated information that are related to the selected observables.
 

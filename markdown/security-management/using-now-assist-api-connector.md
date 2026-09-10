@@ -14,7 +14,7 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 
 Developers can use the SPC Setup Connector generative AI skill to help them quickly and automatically create an API connector that they can publish. Use the connector in the Security Posture Control workspace.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 At a minimum, either Now Assist for Vulnerability Response \(starting with Zurich Patch 4 - Patch 11 and Australia Patch 1- Patch 4\) or ServiceNow Otto for Unified Security Exposure Management \(starting with Zurich patch 12 and Australia Patch 5\) is required if you want to use the SPC Setup Connector with the API Connector builder. See [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-usem-landing-ties.md) for more information.
 

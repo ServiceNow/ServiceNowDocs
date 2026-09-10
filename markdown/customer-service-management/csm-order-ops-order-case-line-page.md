@@ -1,6 +1,6 @@
 ---
 title: Order case line item page
-description: The Order case line item page displays information about an order case line item associated with an order case in CSM Configurable Workspace.
+description: The Order case line item page displays information about an order case line item associated with an order case in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-order-ops-order-case-line-page.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Order case pages, Order Operations Case Management, Case management
 
 # Order case line item page
 
-The Order case line item page displays information about an order case line item associated with an order case in CSM Configurable Workspace.
+The Order case line item page displays information about an order case line item associated with an order case in CRM Workspace.
 
 \[Omitted image "csm-order-ops-order-case-line-page.png"\] Alt text: Order case line item page includes case line item details, activity stream, and contextual side panel.
 

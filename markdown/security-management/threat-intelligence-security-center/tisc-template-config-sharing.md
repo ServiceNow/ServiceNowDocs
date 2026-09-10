@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manual and Automated Sharing using flows, Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,6 +20,6 @@ The template determines which profiles are included, which sharing settings are 
 
 Role required: sn\_sec\_tisc.admin
 
-1.  Create and publish an outbound intelligence sharing template with the required configuration. For more information, see .
+1.  Create and publish an outbound intelligence sharing template with the required configuration. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 2.  Associate the published template with the outbound intelligence profile configured for the target TISC instance to begin sharing intelligence data.
 

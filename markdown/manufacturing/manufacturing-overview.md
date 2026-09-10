@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/manufacturing-overview.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
 
@@ -23,9 +23,13 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how manufacturers, dealers, and consumers can use Manufacturing Commercial Operations to manage manufacturing ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-using.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Manufacturing Commercial Operations capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-integrating-with-other-applications.md)
 
 </td></tr><tr><td>
+
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how manufacturers, dealers, and consumers can use Manufacturing Commercial Operations to manage manufacturing ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-using.md)
+
+</td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Manufacturing Commercial Operations use cases and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-reference.md)
 
@@ -33,14 +37,22 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 [Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/data-model.md)
 
+</td></tr><tr><td>
+
+ 
+
 </td><td>
 
-[Now Assist for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/now-assist-for-MCO.md)
+[ServiceNow Otto for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/now-assist-for-MCO.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed at [Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/manufacturing-commercial-operations-rn.md).
+-   Learn more about what's new and changed at [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/manufacturing-commercial-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/manufacturing-commercial-operations-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Manufacturing Commercial Operations features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).

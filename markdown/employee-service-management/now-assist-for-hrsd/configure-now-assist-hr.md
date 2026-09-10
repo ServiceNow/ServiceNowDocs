@@ -35,7 +35,7 @@ The following list contains skills that you can access from the AI Admin Hub con
 -   Employee information summarization
 -   Manager insights
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Procedure
 

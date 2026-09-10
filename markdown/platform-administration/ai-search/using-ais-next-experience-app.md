@@ -125,7 +125,7 @@ If ServiceNow Otto for Virtual Agent enhanced chat is activated in the ServiceNo
 To see this enhanced chat entry point behavior, your instance must satisfy all of the following conditions:
 
 -   [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-ais.md) is installed.
--   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) is installed.
+-    is installed.
 -   Enhanced chat is activated via the ServiceNow Otto panel. For details on activating enhanced chat, see [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
 If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show ServiceNow Otto suggestions.

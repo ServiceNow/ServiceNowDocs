@@ -1,5 +1,5 @@
 ---
-title: Configure Amazon Web Service Credentials for Cloud License Estimator
+title: Configure AWS credentials for Cloud License Estimator
 description: This task guides you in configuring IAM user permanent credentials for the designated account.There are several ways to configure AWS Service Accounts depending on the credentials and master accounts.The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure Cloud License Estimator, Cloud License Estimator, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure Amazon Web Service Credentials for Cloud License Estimator
+# Configure AWS credentials for Cloud License Estimator
 
 This task guides you in configuring IAM user permanent credentials for the designated account.
 

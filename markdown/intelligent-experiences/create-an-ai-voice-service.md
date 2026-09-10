@@ -91,7 +91,7 @@ Instructions that tell the assistant how to handle specific situations and topic
 
 5.  Select language and voice persona.
 
-    \[Omitted image "image.ai-voice-assistant-language-voice-step"\] Alt text: Language and voice step showing the Opening message field, primary and secondary language selection, and the Welcome message, Voice persona, Pronunciation dictionary, and Key term dictionary tabs.
+    \[Omitted image "ai-voice-assistant-language-voice-step.png"\] Alt text: Language and voice step showing the Opening message field, primary and secondary language selection, and the Welcome message, Voice persona, Pronunciation dictionary, and Key term dictionary tabs.
 
     1.  Select the primary language your assistant will use for interacting with callers.
 

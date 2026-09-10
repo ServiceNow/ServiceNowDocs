@@ -34,7 +34,7 @@ Set up an integration to stream log messages to your ServiceNow instance over th
 
 -   No more than the default maximum of 10 integrations will stream logs to a single MID Server. You can modify the maximum number by adding the property `sn.occ.log_ingestion.max_datainputs_per_mid` to the MID Server and then changing the default value.
 
-    To find out how many data inputs are streaming logs to the same MID Server, navigate to the **Streaming Sources** table and count the data inputs that stream to a specific MID Server.
+    To find out how many data inputs are streaming logs to the same MID Server, navigate to the **Streaming Sources** table. Count the data inputs that stream to a specific MID Server.
 
 
 Role required: evt\_mgmt\_admin

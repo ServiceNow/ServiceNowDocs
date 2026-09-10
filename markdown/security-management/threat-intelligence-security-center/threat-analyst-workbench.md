@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -28,7 +28,7 @@ Cases are used to track information about a campaign or threat actor threatening
 Create case tasks to associate with case\(s\).
 -   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)**  
 The Investigation Canvas is a key significant feature, which provides more valuable information for the Threat Intelligence \(TI\) analysts. It provides a structured framework by mapping one to one or one to many relationships and visualizing information related to observables, indicators of compromise \(IOCs\), or entities.
--   **[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
+-   **[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 -   **[Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/run-enrichment-results.md)**  
 Use this section to understand how enrichments actions are performed on case\(s\).

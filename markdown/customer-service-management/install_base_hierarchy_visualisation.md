@@ -1,18 +1,18 @@
 ---
 title: Install base hierarchy visualization
-description: Use the Install Base Hierarchy tab on the CSM Configurable Workspace to view the parent-child hierarchy structure of an install base item.
+description: Use the Install Base Hierarchy tab on the CRM Workspace to view the parent-child hierarchy structure of an install base item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install\_base\_hierarchy\_visualisation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Install base hierarchy visualization
 
-Use the **Install Base Hierarchy** tab on the CSM Configurable Workspace to view the parent-child hierarchy structure of an install base item.
+Use the **Install Base Hierarchy** tab on the CRM Workspace to view the parent-child hierarchy structure of an install base item.
 
 The install base hierarchy provides a node map of both parent and child items associated with an install base item. The hierarchy node begins with the install base item that is currently open. The node map extends toward both the root install base item and the child install base item up to seven levels of hierarchy.
 

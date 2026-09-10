@@ -1,6 +1,6 @@
 ---
 title: Apigee Edge Enterprise edition discovery
-description: The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/apigee-edge-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Apigee Edge Enterprise edition discovery
 
-The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The APIGee pattern uses a built-in cache mechanism that collects data from each API service into a local cache file. Service Mapping performs top-down discovery on these cache files to find outgoing Apigee Edge connections.
 

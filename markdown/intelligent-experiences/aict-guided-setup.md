@@ -41,7 +41,7 @@ Guided setup organizes configuration into four areas. [Guided setup areas](https
 The AI Steward \[sn\_ai\_governance.ai\_steward\] and sn\_ia\_config.ia\_user roles are required to access guided setup. For information about opening guided setup, see [Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-access-guided-setup.md).
 
 -   **[Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-access-guided-setup.md)**  
-Open guided setup from the AI Control Tower Home page to configure AI Control Tower in a logical sequence and track your progress toward a complete setup.
+Configure AI Control Tower in a logical sequence and track your progress toward a complete setup.
 -   **[Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-guided-setup-modules.md)**  
 Area-by-area listing of the setup items in guided setup, with cross-references to the topic each item relates to.
 

@@ -1,6 +1,6 @@
 ---
 title: Create announcements
-description: Create announcements to highlight important content on the Employee Slate home page, such as new policies, required actions, or featured knowledge articles as a carousel.
+description: Create announcements to highlight important content on the EmployeeWorks Web App home page, such as new policies, required actions, or featured knowledge articles as a carousel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-create-employee-slate-announcement.html
 release: zurich
@@ -8,14 +8,14 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-05-28"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [employee communications, announcements, employee slate, content library, content versioning, version history, activate deactivate]
-breadcrumb: [Employee communications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee communications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Create announcements
 
-Create announcements to highlight important content on the Employee Slate home page, such as new policies, required actions, or featured knowledge articles as a carousel.
+Create announcements to highlight important content on the EmployeeWorks Web App home page, such as new policies, required actions, or featured knowledge articles as a carousel.
 
 ## Before you begin
 
@@ -84,7 +84,7 @@ You can create announcements from scratch or from existing knowledge articles an
 
     The announcement appears in the Employee Comms widget according to the priority and freshness algorithm.
 
-    **Note:** For a list of fields, see [Employee Slate announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md).
+    **Note:** For a list of fields, see [Announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md).
 
     **Note:** Publishing creates a version of the announcement and locks the published content from further inline edits.
 

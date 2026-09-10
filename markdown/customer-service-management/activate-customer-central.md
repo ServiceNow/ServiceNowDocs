@@ -16,7 +16,7 @@ Activate the Customer Central plugin to use Customer Central.
 
 ## About this task
 
-Starting with the Yokohama release, the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md) application \(com.sn\_csm\_customer\_central\) is activated with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CSM Configurable Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
+Starting with the Yokohama release, the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-central.md) application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
 

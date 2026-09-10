@@ -18,7 +18,7 @@ Upload or drag files into ServiceNow Otto for Virtual Agent to extract relevant 
 
 ## Before you begin
 
-ServiceNow Otto for Virtual Agent standard and enhanced chat support uploading documents to the assistant. For more information about the different chat capabilities, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) and [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). Uploading a document within a chat is available to you when an admin activates this feature in the admin guided setup. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ServiceNow Otto for Virtual Agent standard and enhanced chat support uploading documents to the assistant. For more information about the different chat capabilities, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) and [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). You can upload documents within a chat after an admin activates this feature in the admin guided setup. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 Uploaded file formats include text and image files such as PDF, Word \(.doc, .docx\), JPEG, and PNG. The maximum size of a file is 5 megabytes \(MB\).
 
@@ -30,14 +30,14 @@ Role required: requestor
 
 2.  Launch the ServiceNow Otto for Virtual Agent chat window.
 
-3.  Select the paperclip icon to upload the file or drag the file into the chat.
+3.  Select the **paperclip** icon to upload the file or drag the file into the chat.
 
-    One or more files can be uploaded to the chat. The maximum number of files that can be uploaded is three. You see the progress as the file uploads, until its completion. If the file fails to upload, or the content can't be properly parsed, take corrective action.
+    One or more files can be uploaded to the chat. The maximum number of files that can be uploaded is three. You see the progress as the file uploads, until its completion. If the file fails to upload or the content can't be properly parsed, correct the issue and try again.
 
-    The file is checked for viruses, and an error message appears when a file is non-security compliant. After the file passes the virus scan, the document is secure, and sensitive data isn't retained beyond the chat session. You can't ask follow-up questions about the file after the chat session ends.
+    The file is checked for viruses, and an error message appears when a file is non-security compliant. After the file passes the virus scan, the document is secure, and sensitive data is not retained beyond the chat session. You can't ask follow-up questions about the file after the chat session ends.
 
     \[Omitted image "dw-upload-multi-files.png"\] Alt text: Window displaying multiple uploaded files.
 
-4.  To ask questions about another file, exit the chat, and upload or drag a new file to the assistant.
+4.  To ask questions about a different file, exit the chat and upload a new file.
 
 

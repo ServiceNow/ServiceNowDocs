@@ -1,20 +1,20 @@
 ---
 title: Update severity scoring configuration for portfolio insights
-description: Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk, so that Portfolio insights generates recommendations based on your organization's risk criteria.
+description: Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk. This lets Portfolio insights generate recommendations based on your organization's risk criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/configure-severity-scoring-planning-items.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update severity scoring configuration for portfolio insights
 
-Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk, so that Portfolio insights generates recommendations based on your organization's risk criteria.
+Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk. This lets Portfolio insights generate recommendations based on your organization's risk criteria.
 
 ## Before you begin
 
@@ -77,7 +77,7 @@ The insights are generated for the following categories for a portfolio plan:
     |--------------|-----------|
     |Critical|Planning items whose risk score meets or exceeds the critical threshold. Displayed in red.|
     |Medium|Planning items whose risk score falls between the critical and low thresholds. Displayed in yellow.|
-    |Low|Planning items whose risk score falls below the medium threshold. Displayed in green.|
+    |Low|Planning items whose risk score is less than the medium threshold. Displayed in green.|
 
     Default `severityThresholds` configuration: `{ "severityThresholds": { "critical": { "minScore": 10 }, "medium": { "minScore": 5 }, "low": { "minScore": 1 } }`
 
@@ -88,7 +88,7 @@ The insights are generated for the following categories for a portfolio plan:
     |Scheduled delay|Contributes to the risk score based on the number of days a planning item is delayed beyond its planned end date. The score is calculated as 0.5 points per day delayed, up to a maximum of 10 points.|
     |Priority|Contributes to the risk score based on the priority assigned to the planning item: High \(3 points\), Medium \(1 point\), or Low \(0 points\).|
     |Dependency impacts|Contributes to the risk score based on the number of downstream dependent planning items affected by the delay, up to a maximum of 6 points.|
-    |Financial risk|Contributes to the risk score based on the financial exposure associated with the planning item. Planning items with a benefit above the threshold receive additional points, up to a maximum of 3 points.|
+    |Financial risk|Contributes to the risk score based on the financial exposure associated with the planning item. Planning items with a benefit more than the threshold receive additional points, up to a maximum of 3 points.|
 
     Default `scoringFactors` configuration: `"scoringFactors": { "scheduleDelay": { "enabled": true, "pointsPerDay": 0.5, "maxPoints": 10 }, "priority": { "enabled": true, "weights": { "High": 3, "Medium": 1, "Low": 0 } }, "dependencyImpact": { "enabled": true, "pointsPerDownstreamDependency": 1, "maxPoints": 6 }, "financialRisk": { "enabled": true, "benefitThreshold": 100000, "pointsIfAboveThreshold": 3, "maxPoints": 3 } } }`
 
@@ -99,5 +99,5 @@ The insights are generated for the following categories for a portfolio plan:
 
 ## What to do next
 
-To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/view-portfolio-insights.md).
+To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays. Confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/view-portfolio-insights.md).
 

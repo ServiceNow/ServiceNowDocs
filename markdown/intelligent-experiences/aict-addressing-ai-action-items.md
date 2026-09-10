@@ -19,7 +19,7 @@ Activity Center is the single workspace where AI Control Tower brings together e
 
 ## Governance work
 
-Lifecycle tasks, security tasks, requests, cases, risk assessments, issues, attestations, policy exceptions, and inquiries are all routed to the people who own them, with a single view to track and resolve each one. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-managing-tasks-and-approvals.md).
+Lifecycle tasks, security tasks, requests, cases, risk assessments, issues, attestations, policy exceptions, and inquiries are routed to the people who own them, with a single view to track and resolve each one. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-managing-tasks-and-approvals.md).
 
 ## AI-generated recommendations
 

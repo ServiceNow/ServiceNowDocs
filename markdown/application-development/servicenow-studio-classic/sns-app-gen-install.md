@@ -1,5 +1,5 @@
 ---
-title: Install Now Assist for app generation in ServiceNow Studio
+title: Turn on the app generation skill
 description: Install the ServiceNow Otto for Creator application so that you can get started with creating an application for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-app-gen-install.html
@@ -7,87 +7,51 @@ release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Configure, Now Assist for app generation in ServiceNow Studio, Now Assist tools and AI files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, App generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
-# Install Now Assist for app generation in ServiceNow Studio
+# Turn on the app generation skill
 
 Install the ServiceNow Otto for Creator application so that you can get started with creating an application for your organization.
 
 ## Before you begin
 
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md).
+
+Install ServiceNow Otto for Creator on your instance before turning on the skill. For more information, see .
+
+Enable the ServiceNow Otto® panel before completing these steps. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+
 Role required: admin
 
 ## Procedure
 
-1.  Go to the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  Review the listing to learn about dependencies, licensing, subscription requirements, and release compatibility.
+2.  In the workflow list, select **Creator**.
 
-    In the listing, see that ServiceNow Otto for Creator includes Now Assist application generation.
+3.  Find the app generation card using either the search bar or by selecting the next page icon.
 
-    \[Omitted image "app-generation-install-na-creator.png"\] Alt text: ServiceNow Otto for Creator listing in the ServiceNow Store with application generation skill highlighted.
+4.  Select **Turn on**.
 
-3.  On the ServiceNow Otto for Creator application page, select **Buy**.
-
-4.  After your request is approved, open your instance and navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
-
-5.  Find and select the ServiceNow Otto for Creator application \(sn\_now\_creator\) by using the filter criteria and search bar.
-
-6.  Select **Install**.
-
-7.  Verify that ServiceNow Otto for Creator is installed.
-
-    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences**.
-
-    2.  In the workflow list, select **Creator**.
-
-    3.  On the App Generation card, verify that the app generation skill is active.
-
-        \[Omitted image "install-now-assist-app-skill-ys2.png"\] Alt text: App Generation Card that displays the app generation skill on the AI Admin Hub skills tab.
-
-        If app generation is not active, select **Turn on**.
-
-        \[Omitted image "app-generation-install-turn-on-button-ys2.png"\] Alt text: App generation skill card with turn on button highlighted.
-
-    For more information about setting up, configuring, and monitoring Now Assist, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
-
-8.  Activate the Now Assist panel.
-
-    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences**.
-
-    2.  In **Summary**, select **Turn on**.
-
-        \[Omitted image "app-generation-nap-activate1.png"\] Alt text: Now Assist experience tab with summary and turn on button highlighted.
-
-    3.  In the confirmation, select **Turn on**.
-
-    4.  Close the success message by selecting the **X**.
-
-    5.  In **Summary**, select the **CI Admin console** link.
-
-        \[Omitted image "app-generation-nap-activate2.png"\] Alt text: Now Assist panel page with summary and CI Admin console link highlighted.
-
-    6.  If the **Status** of **Now Assist Panel - Platform \(default\)** is **Off**, select the actions icon, and then select **Turn on/off**.
-
-        \[Omitted image "app-generation-nap-activate3.png"\] Alt text: Now Assist assistants page with Now Assist Panel - Platform \(default\) option and action icon highlighted.
+    \[Omitted image "app-generation-install-turn-on-button-ys2.png"\] Alt text: App generation skill card with turn on button highlighted.
 
 
 ## What to do next
 
-Grant the now\_assist\_panel\_user role, and either the admin or sn\_g\_app\_creator.app\_creator role to each user that you want to create and edit applications using app generation.
+-   Set app generation as your preference for creating AI-assisted applications in the ServiceNow Studio user preferences menu. For more information, see .
+-   Grant the now\_assist\_panel\_user role and either the admin or sn\_g\_app\_creator.app\_creator role to each user that you want to create and edit applications using app generation.
+-   Users that only need to edit \(not create\) applications using app generation can be granted the delegated\_developer, now\_assist\_panel\_user, and now.assist.creator roles. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
-Users that only need to edit \(not create\) applications using app generation can be granted the delegated\_developer and now\_assist\_panel\_user roles. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
-
-To begin generating applications, see [Generate apps with Now Assist for app generation within ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md).
-
-**Parent Topic:**[Configuring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
+**Parent Topic:**[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
 
 **Related topics**  
 
 
-[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
+[install-now-assist-for-creator]
+
+[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md)
 

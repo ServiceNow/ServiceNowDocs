@@ -80,7 +80,7 @@ Allow access only to APIs in selected scope
 
 </td><td>
 
-Clear the check box to make the OAuth integration broadly scoped.
+Clear the check box to make the OAuth integration broadly scoped.**Important:** You must leave this option cleared. If you select this option, clients are unable to fetch tools from the server.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -97,6 +97,8 @@ Select **JWT**.
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
+    **Note:** If you're prompted to assign an auth scope, select **Skip for now**.
+
     The OAuth inbound integration is created as broadly scoped with a client ID and client secret that you use when configuring the client to connect to servers on the instance.
 
     \[Omitted image "mcp-server-oauth-inbound-integration.png"\] Alt text: An OAuth inbound integration for Claude to connect to MCP servers as an MCP client.
@@ -104,7 +106,7 @@ Select **JWT**.
 
 ## What to do next
 
-Configure the client to use the client ID and client secret to authenticate with servers on the instance.
+Configure the client to use the client ID and client secret to authenticate with servers on the instance. For more information, see [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-client-connect-server.md).
 
 -   **[Create client authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-client-authorizations.md)**  
 Establish connections between your MCP clients and servers with client authorizations.

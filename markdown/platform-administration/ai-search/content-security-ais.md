@@ -61,7 +61,7 @@ Late binding
 
 </td><td>
 
-More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the [GlideRecord.canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
+More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the GlideRecord.canRead\(\) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
 
  Late binding security supports all indexed security features.
 

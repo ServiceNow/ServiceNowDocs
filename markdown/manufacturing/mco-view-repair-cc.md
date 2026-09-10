@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-view-repair-cc.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View a repair claim case

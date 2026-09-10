@@ -39,11 +39,11 @@ You can auto-fill catalog item forms in the Service Portal in two ways:
 
 1.  Auto-fill catalog item forms in Service Portal by performing any of the following methods.
 
-<table id="choicetable_zd4_nxq_pjc"><thead><tr><th align="left" id="d68010e122">
+<table id="choicetable_zd4_nxq_pjc"><thead><tr><th align="left" id="d72779e122">
 
 Method
 
-</th><th align="left" id="d68010e125">
+</th><th align="left" id="d72779e125">
 
 Steps
 
@@ -201,15 +201,15 @@ The catalog item form is auto-filled.
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d68010e609">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d72779e609">
 
 Option
 
-</th><th align="left" id="d68010e612">
+</th><th align="left" id="d72779e612">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68010e618">
+</th></tr></thead><tbody><tr><td id="d72779e618">
 
 **If the auto-filled text looks good**
 
@@ -217,7 +217,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d68010e630">
+</td></tr><tr><td id="d72779e630">
 
 **If the auto-filled text requires changes**
 

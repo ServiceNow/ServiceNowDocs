@@ -63,5 +63,5 @@ Role required: admin
 
 If the skill was successfully activated, the system notifies you.
 
-**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configuring-now-ass-skills-pa.md)
 

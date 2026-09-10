@@ -7,8 +7,8 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -16,37 +16,29 @@ breadcrumb: [Payment Operations, Banking applications, Financial Services Operat
 
 You can use the ServiceNow® Financial Services Payment Operations application to create and manage requests for payment inquiries, claims, and debit approvals for your financial institution.
 
-Transform your financial institution's middle and back office payment operations through the following features:
+Transform your financial institution's middle and back office payment operations through the following capabilities:
 
-## Payment inquiries
+-   [Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md): Create and manage Beneficiary Claim Non-Receipt \(BCNR\) and Payment in Error \(PiE\) inquiries, from customers or third-party banks.
+-   [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md): Manage internal and external claims, and debit approval cases for refund authorization.
 
-The application enables creating the following types of payment inquiries:
+## Who uses Financial Services Payment Operations
 
--   Beneficiary Claim Non-Receipt \(BCNR\): The customer has sent a payment but the recipient claims that they didn't receive the money. These inquiries can be internal or external.
--   Payment in Error \(PiE\): The customer made a mistake when sending a payment and is trying to retrieve the money.
+The application is used by:
 
-## Payment claims and debit approvals
-
-The application enables creating these types of claims:
-
--   Internal claims: The claim comes from a customer of the bank either from an inquiry or through a front-office worker \(branch or call center\). For internal claims, the refund can come internally from the bank – by a customer or the bank itself, or externally from a third-party bank.
--   External claims: The claim comes from a third-party bank. For external claims, the refund is always made internally by the bank – by a customer or the bank itself.
-
-Debit approval cases help to get approval from customers for a refund against claims.
-
-## Targeted users
-
-The Financial Services Payment Operations application is aimed at the following users:
-
--   Administrator: Responsible for configuring the Financial Services Payment Operations application.
--   Fulfillers: Agents in a bank's middle or back office of financial institutions who work with payment operations, such as inquiries and claims that come into Payment Services.
-    -   Inquiry agents
-    -   Claim agents
--   End users: Customers and branch workers \(or call center agents\) who submit payment requests and check the status of cases.
+-   Administrators, who configure the application. For the full list of installed roles and permissions, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
+-   Fulfillers, such as inquiry agents and claim agents in the middle and back office, who work cases from the Workspace. For details on workspace users, see [Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/using-payment-operations.md).
+-   End users — customers, branch workers, and call center agents — who submit payment requests and check case status.
 
 ## Payment dashboard
 
 Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service. For more information, see [Payment Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/payment-operations-dashboard.md).
 
 **Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
+
+**Related topics**  
+
+
+[Financial Services Payment Operations workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.md)
+
+[Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md)
 

@@ -65,11 +65,11 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 
 -   **[Explore generating or exporting dashboards and visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/exploring-analytics-assist.md)**  
 Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
--   **[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configuring-now-ass-skills-pa.md)**  
+-   **[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configuring-now-ass-skills-pa.md)**  
 Activate the skills for generating and exporting Platform Analytics dashboards and data visualizations from conversations in the ServiceNow Otto panel.
 -   **[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-dv-generation.md)**  
 Request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
--   **[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md)**  
+-   **[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md)**  
 Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 -   **[Reference for dashboard and visualization skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analgen-reference.md)**  
 Information about the roles, tables, and scheduled jobs included with the data visualization generation and dashboard and visualization export skills.

@@ -8,7 +8,7 @@ product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
 
@@ -22,15 +22,30 @@ Without credential aliases, Discovery schedules can access all credentials that 
 
 A business rule called **Insert Discovery Affinity &amp; Cred Aliases** \(previously named **Insert Discovery Affinity**\) runs when a record \(a task for performing Discovery\) is inserted into the ECC Queue.
 
-The business rule attaches the credential aliases defined in the Discovery schedule to the probe, so when the probe reaches the MID Server on its way to performing discovery, the MID Server knows exactly which credentials it can use to attempt to access the device the probe was sent to scan.
+The business rule attaches the credential aliases defined in the Discovery schedule to the probe. When the probe reaches the MID Server to perform discovery, the MID Server uses these credentials to access the target device.
 
-The MID Server filters credentials by [affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CredentialAffinity.md) and then by tags, if any exist. Credentials must match all credential tags. The MID Server iterates until it finds a credential that works.
+The business rule can populate two parameters on the ECC Queue record:
 
-If the business rule determines that an affinity exists for the device, the rule identifies the proper **credential\_id** to use. This is the **__sys\_id__** of the record in the Credentials `[discovery_credentials]` table.
+-   **credential\_tag**: The list of sys\_alias ID values defined in the Discovery schedule, which correspond to the **Credential alias** field on the credential records.
+-   **credential\_id**: Populated when an affinity record exists for the target device.
 
-When the platform encounters an affinity with a credential alias value, defined as **credential\_alias** in the business rule, the business rule determines whether or not the credential referenced by the affinity has the specified alias. If it does, the business rule selects the **credential\_id** of the alias and passes that value to the MID Server.
+Both parameters are optional, so a record can carry neither, one, or both.
 
-If a credential alias is defined for a schedule and the schedule is configured to use that alias, the schedule will ignore any previously existing credential-to-target affinity—*but only if the credential itself is not associated with any other credential alias*. If the credential does not have any credential alias, any other affinities that exist for the target system are checked.
+The MID Server then selects a credential in the following order:
+
+1.  The MID Server keeps only credentials that match the command type for the probe, such as SSH, Windows, or SNMP.
+2.  The MID Server filters the remaining credentials by tag. A credential stays eligible if it is linked to a tag value defined on the schedule, or if the record has no **credential\_tag** parameter. Otherwise, the MID Server drops the credential.
+3.  The MID Server applies [affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CredentialAffinity.md). If a credential's sys\_id matches the **credential\_id** value for the device, the MID Server moves that credential to the top of the list. The MID Server tries the remaining credentials in the sequence set by their Order value.
+
+The MID Server iterates until it finds a credential that works.
+
+If the business rule determines that an affinity exists for the device, the rule identifies the proper **credential\_id** to use. This is the sys\_id of the credential referenced by the affinity record in the **dscy\_credentials\_affinity** table.
+
+When the platform encounters an affinity with a credential alias value, the business rule checks whether the credential that the affinity references has the specified alias. If the credential has the alias, the business rule selects the **credential\_id** of the alias and passes that value to the MID Server.
+
+If a credential alias is defined for a schedule and the schedule is configured to use that alias, the schedule ignores any previously existing credential-to-target affinity. This occurs only if the credential itself is not associated with any other credential alias. If the credential does not have any credential alias, any other affinities that exist for the target system are checked. As a result, an affinity credential that does not have a tag value on the schedule is dropped at the tag filter. The credential is not attempted, even if it authenticated in a previous scan. Adding or changing schedule tags can therefore change which credential the MID Server selects.
+
+Credential tags scope to the Discovery schedule and its IP ranges, not to an individual target device.
 
 ## Create a Discovery credential alias
 

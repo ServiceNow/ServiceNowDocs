@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -26,7 +26,7 @@ Use playbooks to deliver a guided, stage-based experience within the project wor
 
 Create a status report for your projects and run analytics for your projects. Experience the Gen AI feature in Project Workspace. Summarize, elaborate, or shorten the selected content on Docs to quickly understand the key information in documents using Project Gen AI Docs skill.
 
-Refine planning item descriptions using write items skill to improve the clarity and completeness of your work item and reduce the rework due to missing or unclear planning item information.
+Refine planning item descriptions using write items skill to improve the clarity and completeness of your work item. This also reduces the rework due to missing or unclear planning item information.
 
 ## Get started
 

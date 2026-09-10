@@ -23,7 +23,7 @@ For example, a CMDB CI Lifecycle Management API can use a CMDB group scriptable 
 You can configure a CMDB group with one of the following group types:
 
 -   Health: The CIs in the group can be monitored by CMDB Health, and the aggregated health is reported for the group as a whole in the CMDB group view dashboard. For example, you can monitor health only for CIs in a specific location.
--   CMDB Workspace: Group appears in the [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md)in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+-   CMDB Workspace: Group appears in the Management viewin the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
 
 ## Create and populate a CMDB group
 

@@ -55,7 +55,7 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
     -   **Adaptive**: Adjust to changing situations and business needs.
     -   **Collaborative**: Work together to complete complex tasks.
     -   **Intelligent**: Use large language models and business data to make informed decisions.
--   **[Orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-glossary.md)**
+-   **[orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-glossary.md)**
 
     The AI agent Orchestrator is a central management system that coordinates AI agents to ensure they collaborate effectively to complete complex workflows.
 

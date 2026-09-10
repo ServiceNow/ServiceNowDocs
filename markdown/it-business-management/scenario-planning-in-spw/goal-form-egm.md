@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -68,7 +68,7 @@ Status
 
 </td><td>
 
-Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **None**.
+Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

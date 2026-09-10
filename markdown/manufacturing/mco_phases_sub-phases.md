@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco\_phases\_sub-phases.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a phase and sub-phase in a recall campaign
@@ -54,7 +54,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
     |------------|-----------|
     |[Assign an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco_assign_impacted_asset.md)|Assign an impacted asset to the recall campaign.|
     |[Adding a phase task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-phase-task.md)|Agents workspace enables the manufacturers to add the phase task details for the recall campaigns.|
-    |[Recall a campaign sub-phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco_recall_campaign_phases.md)|Create a sub-phase for a parent phase.|
+    |[Adding a sub-phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco_recall_campaign_phases.md)|Create a sub-phase for a parent phase.|
 
 7.  Add a sub-phase by selecting the plus icon \(+\).
 

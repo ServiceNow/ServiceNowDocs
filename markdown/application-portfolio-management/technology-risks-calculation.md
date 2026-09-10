@@ -1,6 +1,6 @@
 ---
 title: Technology risk calculation - Legacy
-description: Assess the technology risks of your business applications by calculating their risks at the software product \(considering the model and full version\) level and then at the business application level.
+description: Assess technology risks by calculating them at the software product level and then at the business application level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/technology-risks-calculation.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Por
 
 # Technology risk calculation - Legacy
 
-Assess the technology risks of your business applications by calculating their risks at the software product \(considering the model and full version\) level and then at the business application level.
+Assess technology risks by calculating them at the software product level and then at the business application level.
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
 
 Technology risks are calculated at the hardware model and software product \(considering the model and full version\) levels to determine the risk at the business application level.
 
@@ -63,7 +63,7 @@ A business application can run on many software models. The risk of a business a
 
 -   **Risk at hardware model level**
 
-    Based on the four hardware risk parameters, the technology model suggestion engine calculates the risk of the hardware model and the highest risk value is assigned to the hardware model. If the risk of hardware is high, then the risk of the application service, which runs on the hardware, is evaluated to be high. The engine stores the risk data of the hardware model in the Hardware Model Risks \[sn\_apm\_tpm\_hardware\_model\_risk\] table.
+    Based on the four hardware risk parameters, the technology model suggestion engine calculates the risk of the hardware model. The highest risk value is assigned to the hardware model. If the risk of hardware is high, then the risk of the application service, which runs on the hardware, is evaluated to be high. The engine stores the risk data of the hardware model in the Hardware Model Risks \[sn\_apm\_tpm\_hardware\_model\_risk\] table.
 
 -   **Risk at software model level**
 
@@ -71,7 +71,7 @@ A business application can run on many software models. The risk of a business a
 
 -   **Risk at application service level**
 
-    If any of the hardware or software models on which the application service runs is evaluated to be on high risk, then the application service is determined to be at a high risk.
+    The application service is at high risk if any hardware or software model it runs on is at high risk.
 
 -   **Risk at business application level**
 
@@ -85,7 +85,9 @@ A business application can run on many software models. The risk of a business a
 -   If one of the hardware models is at Medium risk, then the business application is at Medium risk.
 -   The risk of the business application is Low only if all the underlying hardware models have a Low risk.
 
-You can customize the script that is executed to calculate the risks at the product model risk level \(hardware and software models\), application service risk level, and business application risk level. For more information, see [Configure risk bubble up logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-risk-bubble.md).
+You can customize the script that is executed to calculate the risks at the product model risk level \(hardware and software models\). The script also calculates risks at the application service risk level and business application risk level.
+
+For more information, see [Configure risk bubble up logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-risk-bubble.md).
 
 **Related topics**  
 

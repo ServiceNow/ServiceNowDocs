@@ -28,7 +28,7 @@ With AI Search, you can use semantic queries to find relevant product offerings 
 
 ## Procedure
 
-1.  Access the product catalog through a Sales Customer Relationship Management transaction, such as a quote created in the CSM Configurable Workspace or an order created in the Business Portal.
+1.  Access the product catalog through a Sales Customer Relationship Management transaction, such as a quote created in the CRM Workspace or an order created in the Business Portal.
 
 2.  Select the Catalog tab to open the catalog interface, then choose the appropriate catalog.
 
