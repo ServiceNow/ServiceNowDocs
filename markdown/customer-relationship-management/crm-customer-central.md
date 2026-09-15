@@ -2,10 +2,12 @@
 title: Customer Central
 description: Customer Central gives users a view of a customer's details and recent service history within a configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-customer-central.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 2
+breadcrumb: [Workspace experience, Customer Relationship Management]
 ---
 
 # Customer Central

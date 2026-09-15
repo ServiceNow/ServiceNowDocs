@@ -2,10 +2,12 @@
 title: Data models
 description: The CRM portfolio is built on a layered data architecture where each tier inherits from the one following it. This topic explains the four layers, ServiceNow AI Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-data-models.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 8
+breadcrumb: [Data management, Customer Relationship Management]
 ---
 
 # Data models

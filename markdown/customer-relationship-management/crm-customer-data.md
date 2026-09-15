@@ -2,10 +2,12 @@
 title: Customer data
 description: Configure and manage the core customer records, accounts, contacts, consumers, households, and billing accounts, that agents, sales teams, and technicians rely on across the CRM portfolio. Because customer data is shared across all CRM products, a record created in one context is immediately available in another without duplication or manual transfer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-customer-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 6
+breadcrumb: [Data management, Customer Relationship Management]
 ---
 
 # Customer data

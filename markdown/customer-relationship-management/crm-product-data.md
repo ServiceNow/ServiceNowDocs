@@ -2,10 +2,12 @@
 title: Product data
 description: Product data in the CRM portfolio gives agents, customers, and sales teams a shared view of what has been sold, how it has been deployed, and what service coverage applies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-product-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 3
+breadcrumb: [Data management, Customer Relationship Management]
 ---
 
 # Product data

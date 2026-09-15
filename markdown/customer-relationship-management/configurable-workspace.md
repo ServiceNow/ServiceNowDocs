@@ -2,11 +2,13 @@
 title: Playbooks on Configurable Workspace
 description: Configurable Workspace is the main environment where users work through a playbook. When a user opens a record that has a playbook attached, the playbook loads automatically; displaying the stages, the activities within each stage, and the current activity to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
 reading_time_minutes: 2
 keywords: [Playbooks on Configurable Workspace]
+breadcrumb: [Playbooks, Workspace experience, Customer Relationship Management]
 ---
 
 # Playbooks on Configurable Workspace

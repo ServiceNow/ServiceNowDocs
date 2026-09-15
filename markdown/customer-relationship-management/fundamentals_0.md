@@ -2,11 +2,13 @@
 title: Fundamentals
 description: Playbooks are built from a set of core components that work together to guide users through a business process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/fundamentals\_0.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-06"
 reading_time_minutes: 2
 keywords: [Playbooks basics, understanding playbooks, playbook fundamentals]
+breadcrumb: [Playbooks, Workspace experience, Customer Relationship Management]
 ---
 
 # Fundamentals

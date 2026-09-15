@@ -2,10 +2,12 @@
 title: User management
 description: Configure internal and external users, assign roles and group memberships, and control access to CRM features and case data. Establish the user structures that support case routing, team collaboration, and portal access across the CRM portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-user-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 6
+breadcrumb: [Data management, Customer Relationship Management]
 ---
 
 # User management

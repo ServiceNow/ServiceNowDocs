@@ -2,10 +2,12 @@
 title: Portal and Embeddables
 description: Playbooks can be surfaced on a portal or embedded in a custom page, giving users outside the agent workspace access to a guided, step-by-step process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/playbooks-on-portal-and-embeddables.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
 reading_time_minutes: 3
+breadcrumb: [Playbooks, Workspace experience, Customer Relationship Management]
 ---
 
 # Portal and Embeddables

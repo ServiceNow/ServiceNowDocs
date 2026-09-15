@@ -2,10 +2,12 @@
 title: Service Model Foundation
 description: The Service Model Foundation \(SMF\) framework enables you to model your business organization structure, customer organizations, and the relationships between them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-service-model-foundation.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 3
+breadcrumb: [Data management, Customer Relationship Management]
 ---
 
 # Service Model Foundation

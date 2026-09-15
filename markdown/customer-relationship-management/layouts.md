@@ -2,11 +2,13 @@
 title: Layouts
 description: Layouts set how a playbook's stages and activities are presented to different users in the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-14"
 reading_time_minutes: 3
 keywords: [Playbook layouts, horizontal layout, vertical layout, playbooks]
+breadcrumb: [Playbooks on Configurable Workspace, Playbooks, Workspace experience, Customer Relationship Management]
 ---
 
 # Layouts

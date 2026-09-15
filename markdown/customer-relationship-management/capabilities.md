@@ -2,11 +2,13 @@
 title: Capabilities
 description: Playbooks give agents, fulfillers, and technicians the structure and information they need to work through a process consistently and completely. These integrated technical capabilities work together to provide that guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/capabilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-06"
 reading_time_minutes: 3
 keywords: [Playbook Capabilities]
+breadcrumb: [Playbooks, Workspace experience, Customer Relationship Management]
 ---
 
 # Capabilities
