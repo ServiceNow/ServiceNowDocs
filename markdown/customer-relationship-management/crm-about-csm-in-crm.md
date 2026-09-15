@@ -2,7 +2,7 @@
 title: Customer Service Management
 description: Customer Service Management \(CSM\) is the foundation of the CRM solution. It defines how customers are managed, how service requests are tracked, and how the shared data model that connects the rest of the CRM portfolio is built and maintained.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-about-csm-in-crm.html
+canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-about-csm-in-crm.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"

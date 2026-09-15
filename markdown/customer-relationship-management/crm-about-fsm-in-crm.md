@@ -2,7 +2,7 @@
 title: Field Service Management
 description: Field Service Management \(FSM\) is the part of the CRM solution that extends service delivery into the field, ensuring that when a customer problem requires physical intervention, it flows seamlessly from the service record rather than becoming a disconnected activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-about-fsm-in-crm.html
+canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-about-fsm-in-crm.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"

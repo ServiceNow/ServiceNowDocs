@@ -2,7 +2,7 @@
 title: Partner Relationship Management
 description: Partner Relationship Management \(PRM\) enables enterprises to onboard channel partners, manage ongoing partner relationships, and collaborate with partners on sales opportunities, orders, and quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-partner-relationship-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-partner-relationship-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"

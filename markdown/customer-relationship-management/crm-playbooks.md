@@ -2,7 +2,7 @@
 title: Playbooks
 description: Playbooks are structured workflows that guide users, agents, and technicians step-by-step through the activities required to complete a business process. They are available as discrete applications for Sales CRM, Customer Service Management \(CSM\), Field Service Management \(FSM\), and individual industry solutions, and are installed separately from the core CRM products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
