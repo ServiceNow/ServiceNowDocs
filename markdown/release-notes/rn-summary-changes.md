@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-change
 release: australia
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 165
+reading_time_minutes: 166
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -505,7 +505,7 @@ App Engine Management Center
 
 </td><td>
 
--   ****
+-   **[Filter and search for requests in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/filter-search-aemc.md#section_kvc_43q_dtb)**
 
 Filter by key fields, such as status, owner, type, environment, and date, with the option to apply multiple filters simultaneously for the **Requests** tab. Filtered results update in realtime, and active filters are clearly indicated. Remove individual filters, reset the list to its default state, and save your commonly used filter combinations to reuse later.
 
@@ -577,7 +577,7 @@ Build Agent
 
 </td><td>
 
--   **Build Agent in ServiceNow Studio UI updates**
+-   **[Build Agent in ServiceNow Studio UI updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md)**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -585,37 +585,37 @@ Several changes have been made to how you access Build Agent in ServiceNow Studi
     -   To open an existing conversation, select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
     -   The Build Agent panel now opens on the Navigator panel of ServiceNow Studio.
 
--   **Organized settings with tabs**
+-   **[Organized settings with tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-settings.md)**
 
 Find Build Agent easier now that the Settings panel has tabs: **General**, **Skills**, **Rules**, and **MCP**.
 
 
--   **ServiceNow Otto rebrand**
+-   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Build Agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
--   **Licensing change for in-app agents and skills**
+-   **[Licensing change for in-app agents and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-about-creating-in-app-agents.md)**
 
 Only users with Build Agent - Prime can create agents and skills.
 
 
--   **Enhanced semantic metadata search tool**
+-   **[Enhanced semantic metadata search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md)**
 
 An updated semantic metadata search tool improves performance replaces the previous semantic search tool.
 
 
--   **New button prompt to add AI to an app**
+-   **[New button prompt to add AI to an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md)**
 
 A new **Add AI** button when you first open the Build Agent chat panel starts a guided conversation to help you define and generate a skill or agent.
 
 **Note:** You must have a ServiceNow Otto for Creator license for the new button to appear.
 
--   **Open Build Agent from ServiceNow Studio banner**
+-   **[Open Build Agent from ServiceNow Studio banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md)**
 
 A new icon in the ServiceNow Studio application banner provides another way to access Build Agent.
 
 
--   **Improved checkpoint and update set management**
+-   **[Improved checkpoint and update set management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)**
 
 Build Agent handles checkpoints and update sets differently in the following ways:
 
@@ -623,17 +623,17 @@ Build Agent handles checkpoints and update sets differently in the following way
     -   Checkpoint 1 is the base update set for all subsequent changes.
     -   Update sets use human-readable naming.
 
--   **Generated artifact preview**
+-   **[Generated artifact preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-an-existing-application-using-build-agent.md)**
 
 Preview generated tables, flows, and scripts that Build Agent creates in ServiceNow Studio so you can review and approve changes inline before saving or committing them to the application.
 
 
 
--   **Build Agent version parity for PDIs**
+-   **[Build Agent version parity for PDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 Personal development instances \(PDIs\) are now updated to match the latest Build Agent version, delivering a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments.
 
--   **Updated interaction limits**
+-   **[Updated interaction limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 To provide developers more room to iterate, the following Build Agent limits have been increased:
 
@@ -642,7 +642,7 @@ To provide developers more room to iterate, the following Build Agent limits hav
 **Note:** Limits are per-instance, not per-user. Only submitted prompts contribute to the limit. Plan approvals are not counted.
 
 
--   **Support for global scope**
+-   **[Support for global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 Build apps and metadata in the global scope.
 
@@ -1158,12 +1158,12 @@ Creator Studio
 
 </td><td>
 
--   **ServiceNow Otto rebrand**
+-   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 
--   **Updated identifiers for AI-generated components**
+-   **[Updated identifiers for AI-generated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
 AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 
@@ -1356,38 +1356,38 @@ Developer Sandboxes
 
 </td><td>
 
--   **Upgrade enhancements**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
 Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
 
--   **Schema change for shared tables isolates the table**
+-   **[Schema change for shared tables isolates the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dsb-installed-with.md)**
 
 To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
 
 
--   **Upgrade enhancements**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
 After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **Queuing for successive sandbox creation**
+-   **[Queuing for successive sandbox creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/allocating-sandboxes.md)**
 
 To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
 
--   **SSO support for vanity URLs**
+-   **[SSO support for vanity URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-general-guidelines.md)**
 
 Instances with vanity URLs can now support Single Sign-On \(SSO\).
 
--   **New vibe coding documentation**
+-   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
 Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
--   **Clarified sandbox initialization status**
+-   **[Clarified sandbox initialization status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/allocating-sandboxes.md)**
 
 An error status message now appears on the instance home page when there’s an initialization error when allocating a sandbox.
 
--   **Developer Sandboxes home page hidden when product is inactive**
+-   **[Developer Sandboxes home page hidden when product is inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-entitlements.md)**
 
 The Developer Sandboxes home page is unavailable when Developer Sandboxes is inactive on an instance.
 
@@ -1972,7 +1972,7 @@ Key Management
 
 Use the streamlined workflow designed for faster, easier creation of cryptographic modules.
 
--   **SecurityUtils Enhancements**
+-   **[SecurityUtils Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.md)**
 
 The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 
@@ -2995,7 +2995,7 @@ Playbook
 
 </td><td>
 
--   **Required role update**
+-   **[Required role update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-playbooks.md)**
 
 Any tasks that previously required only the admin role now require the playbook.admin role instead.
 
@@ -3576,7 +3576,7 @@ The following UI components have been added on the Email Interaction page:
 
 Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
--   **Subscriptions and Activity Feed Framework**
+-   **[Subscriptions and Activity Feed Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/actsub-api.md)**
 
 Starting with the Australia release, the Subscriptions and Activity Feed Framework plugin \(com.snc.subscriptions\_activity\_feed\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Subscriptions and Activity Feed Framework store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 
@@ -3696,7 +3696,7 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
--   **Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard**
+-   **[Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
 
 View data volumes returned in integration responses and monitor domain-level usage.
 
@@ -3721,11 +3721,11 @@ Use a guest user's IP address to set their language through the **glide\_i18n.ip
 
 Activate additional choices for countries in the Next Experience language and region preferences or in a User record.
 
--   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
+-   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
 
 Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **JavaScript engine updated with changes from the Rhino engine**
+-   **[JavaScript engine updated with changes from the Rhino engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/updates-javascript-engine.md)**
 
 The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
@@ -3756,7 +3756,7 @@ ServiceNow IDE
 
 </td><td>
 
--   **Updated Activity Bar**
+-   **[Updated Activity Bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-user-interface.md)**
 
 The Activity Bar includes additional views for bookmarks and recent activity, and the Metadata Explorer view has been replaced with the File Categories and Apps views.
 
@@ -3868,7 +3868,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
--   ****
+-   **[Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-use-app-gen-skill.md)**
 
 Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
 
@@ -4141,15 +4141,15 @@ ServiceNow SDK
 
 </td><td>
 
--   **Flow API supports Service Catalog triggers and actions**
+-   **[Flow API supports Service Catalog triggers and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/fluent-flow-api.md)**
 
 Use triggers and actions related to Service Catalog with the Flow API.
 
--   **Access Control List API supports protection policies**
+-   **[Access Control List API supports protection policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/acl-api-now-ts.md)**
 
 Control whether someone can view or edit an access control list \(ACL\) with the protectionPolicy property in an ACL object.
 
--   **Keys updated for static assets in full-stack applications**
+-   **[Keys updated for static assets in full-stack applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md)**
 
 Static UX Assets \[sys\_ux\_lib\_asset\] in full-stack applications have updated keys in the `keys.ts` file. UX Asset sys\_ids aren’t changed.
 
@@ -4160,35 +4160,35 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/working-with-now-assist-tools-sn-studio.md)**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Developers who prompt Build Agent to create an app from the [ServiceNow Developer site](https://developer.servicenow.com/dev.do) are redirected to ServiceNow Studio instead of ServiceNow IDE to continue building their app.
 
 
--   ****
+-   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-app-file.md)**
 
 Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
 
 
--   **Integrated tab groupings**
+-   **[Integrated tab groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-open-apps-files-across-scopes.md)**
 
 Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Build Agent is the default setting for AI-assisted app generation in ServiceNow Studio. You can change this setting in the ServiceNow Studio user preferences menu.
 
 
--   ****
+-   **[Create a collection of files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-create-a-collection.md)**
 
 As of the Australia Patch 3 \(June\), the Bookmark icon is now the Collections icon. Bookmarks are available as a category under collections.
 
--   ****
+-   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-user-interface.md)**
 
 The Navigator panel icons in ServiceNow Studio have changed slightly in size and appearance, but not in function.
 
@@ -4449,7 +4449,7 @@ Table Builder
 
 </td><td>
 
--   ****
+-   **[Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/field-parameters.md)**
 
 A new **Read Only Option** has been added to the dictionary tables \(`sys_dictionary` and `sys_dictionary_override`\). The existing **read\_only** field is now locked and cannot be edited in the UI. Field behavior depends on the selected option. With **Display Read Only**, the field appears read-only but can still be updated through APIs. With **Strict Read Only**, the field can't be changed in the UI or by client scripts such as \[`g_form.setValue()`\]. A new system property,`glide.read_only.legacy_read_only_behavior`, controls whether the old behavior, where client scripts could override read-only settings, is retained.
 
@@ -4566,7 +4566,7 @@ UI Builder
 
 </td><td>
 
--   ****
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-across-pages.md)**
 
 Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 

@@ -18,7 +18,7 @@ Learn about ServiceNow products and tools that can improve your upgrade experien
 
 Use these ServiceNow products to automate parts of your upgrade testing and manage your upgrades from one central place.
 
--   **Automated Test Framework**
+-   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md)**
 
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 

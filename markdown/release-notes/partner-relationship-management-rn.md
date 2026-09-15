@@ -1,0 +1,79 @@
+---
+title: Partner Relationship Management
+description: The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/partner-relationship-management-rn.html
+release: australia
+topic_type: topic
+last_updated: "2026-06-05"
+reading_time_minutes: 3
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+---
+
+# Partner Relationship Management
+
+The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.
+
+## About Partner Relationship Management
+
+-   Enable channel partners to create, manage, and track quotes end-to-end directly in the Partner portal.
+-   Accelerate deal registration velocity, with a guided creation playbook for channel partners.
+-   Enable channel partners to monitor their quote pipeline from a dedicated quotes landing page in the Partner portal. Widgets track quote volume, stalled quotes, and highest-value active quotes.
+-   Submit deal registrations for structured approval using configurable approval rules driven by deal attributes.
+-   Create and manage deal registration tasks with automatic task creation triggered by deal state transitions and email notifications to assigned users.
+-   PRM applications are upgraded to Fluent Apps, delivering enhanced usability and maintainability
+
+See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md) for more information.
+
+## Activation and other requirements
+
+**Important:** The Partner Relationship Management app for CRM Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md).
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Deal registration Advanced Approval Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**
+
+    Submit deal registrations for approval, configure rules by deal attributes, and auto-approve low-risk deals. Lock records during review, recall and resubmit if needed, track audit trails, and automatically notify approvers.
+
+-   **[Deal registration task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**
+
+    Create and manage structured deal registration tasks, configure auto-creation rules via Flow Designer, centralize visibility in Channel Partner workspace. Notify assigned users via email, and control data growth with retention policies.
+
+
+## June 2026
+
+The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Install Quote Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-quote-management-for-channel-partners.md)**
+
+    Install the Quote Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_qm\) to enable channel partners to track quotes with channel partners.
+
+-   **[Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**
+
+    Channel partners can create, manage, and track quotes end-to-end in the Partner portal using the new Quote Self-Service application \(`com.sn_quote_self_service`\). Built on the existing Quote Management application, the guided quote creation playbook delivers a self-service quoting experience without requiring access to internal workspaces.
+
+
+## Australia Early Availability
+
+The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Install Opportunity Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-opportunity-management-for-channel-partners.md)**
+
+    Install the Opportunity Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_oppty\) to enable channel partners to track opportunities with channel partners.
+
+

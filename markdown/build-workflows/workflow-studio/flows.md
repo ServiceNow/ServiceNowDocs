@@ -193,9 +193,9 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
     -   Set max records on Look Up Records to 1000.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider concurrent imports.
+    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md).
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   QuickAPI executions are much faster, but there is less debugging capability.
+    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**

@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 breadcrumb: [Integrating with Microsoft Copilot, Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---

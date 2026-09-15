@@ -36,15 +36,15 @@ For more information about executing desktop actions, see [Examples of executing
 
 2.  Choose one of the following options.
 
-<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d166591e137">
+<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d166572e137">
 
 Option
 
-</th><th align="left" id="d166591e140">
+</th><th align="left" id="d166572e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166591e146">
+</th></tr></thead><tbody><tr><td id="d166572e146">
 
 **An existing one**
 
@@ -59,7 +59,7 @@ When you add an on-screen task desktop action, additional fields require configu
 -   **Background tasks**: These actions include prebuilt connectors that enable your AI agents to interact with applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area and provides a collection of related methods. You can't create background tasks actions.
 
 
-</td></tr><tr><td id="d166591e187">
+</td></tr><tr><td id="d166572e187">
 
 **A new desktop action**
 
@@ -70,15 +70,15 @@ Option to create a defined or adaptive desktop actions. For more information, se
 </td></tr></tbody>
 </table>3.  If creating a new desktop action, select how you want to create it.
 
-<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d166591e207">
+<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d166572e207">
 
 Option
 
-</th><th align="left" id="d166591e210">
+</th><th align="left" id="d166572e210">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166591e216">
+</th></tr></thead><tbody><tr><td id="d166572e216">
 
 **Let AI determine the steps dynamically**
 
@@ -96,7 +96,7 @@ For more information, see [Adaptive desktop actions for desktop and web-based ta
 
 For more information, see [Adaptive desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md).
 
-</td></tr><tr><td id="d166591e271">
+</td></tr><tr><td id="d166572e271">
 
 **Record a fixed sequence of steps**
 

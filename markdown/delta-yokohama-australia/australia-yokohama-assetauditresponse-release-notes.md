@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-assetauditresponse-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---

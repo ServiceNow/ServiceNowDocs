@@ -48,15 +48,15 @@ For example, reservation planners or space planners with the dedicated role \(sn
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d273882e156">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d273872e156">
 
 Location
 
-</th><th align="left" id="d273882e159">
+</th><th align="left" id="d273872e159">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d273882e165">
+</th></tr></thead><tbody><tr><td id="d273872e165">
 
 **From Employee Center Portal**
 

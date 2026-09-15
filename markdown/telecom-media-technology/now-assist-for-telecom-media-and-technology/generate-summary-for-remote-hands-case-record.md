@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---

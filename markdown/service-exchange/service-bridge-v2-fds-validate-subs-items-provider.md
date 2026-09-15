@@ -81,7 +81,7 @@ Description
 A message is displayed stating that you're about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
+3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see .
 
 The system creates a basic field mappings based on matching field names. Review and customize the mappings as needed for your instance.
 
@@ -90,7 +90,7 @@ The system creates a basic field mappings based on matching field names. Review 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36186e258">
+</td></tr><tr><td id="d36186e257">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -105,7 +105,7 @@ A message is displayed stating that you’re about to navigate to the Transform 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36186e300">
+</td></tr><tr><td id="d36186e299">
 
 **Configure data integration for non-CMDB table**
 

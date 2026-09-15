@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 keywords: [address deletion, permissions to delete address, delegated shopper, saved addresses]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]

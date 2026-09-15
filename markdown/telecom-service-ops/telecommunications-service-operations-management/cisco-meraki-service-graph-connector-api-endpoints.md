@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---

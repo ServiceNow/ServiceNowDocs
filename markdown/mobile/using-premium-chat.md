@@ -73,7 +73,7 @@ For more information, see [Using Mobile AI Voice Agent](https://raw.githubuserco
 
 ## Additional resources
 
-For more detailed information on all of standard chat’s specific skills, see .
+For more detailed information on all of standard chat’s specific skills, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
 For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 

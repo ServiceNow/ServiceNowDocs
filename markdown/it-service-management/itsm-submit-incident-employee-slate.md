@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-submit-incident-employee-slate.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [Employee experience in Employee Slate, Simplified IT Service Management, IT Service Management]
 ---

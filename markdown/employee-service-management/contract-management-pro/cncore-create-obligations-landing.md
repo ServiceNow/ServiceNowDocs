@@ -39,15 +39,15 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556723e140">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556602e140">
 
 Method
 
-</th><th align="left" id="d556723e143">
+</th><th align="left" id="d556602e143">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556723e149">
+</th></tr></thead><tbody><tr><td id="d556602e149">
 
 **Contract Workspace**
 
@@ -60,7 +60,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d556723e196">
+</td></tr><tr><td id="d556602e196">
 
 **Workspace used by your application**
 
@@ -72,7 +72,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d556723e223">
+</td></tr><tr><td id="d556602e223">
 
 **Email notification**
 
@@ -167,15 +167,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an executed contract from the your workspace.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556723e603">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556602e603">
 
 Method
 
-</th><th align="left" id="d556723e606">
+</th><th align="left" id="d556602e606">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556723e612">
+</th></tr></thead><tbody><tr><td id="d556602e612">
 
 **Contract Workspace**
 
@@ -188,7 +188,7 @@ Steps
 5.  Select an active contract repository record.
 
 
-</td></tr><tr><td id="d556723e660">
+</td></tr><tr><td id="d556602e660">
 
 **Workspace used by your application**
 
@@ -230,15 +230,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556723e806">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d556602e806">
 
 Method
 
-</th><th align="left" id="d556723e809">
+</th><th align="left" id="d556602e809">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556723e815">
+</th></tr></thead><tbody><tr><td id="d556602e815">
 
 **Contract Workspace**
 
@@ -251,7 +251,7 @@ Steps
 5.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d556723e863">
+</td></tr><tr><td id="d556602e863">
 
 **Workspace used by your application**
 

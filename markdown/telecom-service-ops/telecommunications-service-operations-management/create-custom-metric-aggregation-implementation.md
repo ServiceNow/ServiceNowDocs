@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [custom metric aggregation, scripted extension point, TSOMMetricAggregator, TSOM]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]

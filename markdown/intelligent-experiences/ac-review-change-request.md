@@ -43,15 +43,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 7.  Approve or reject the change request.
 
-<table><thead><tr><th align="left" id="d207139e155">
+<table><thead><tr><th align="left" id="d207115e155">
 
 Option
 
-</th><th align="left" id="d207139e158">
+</th><th align="left" id="d207115e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d207139e164">
+</th></tr></thead><tbody><tr><td id="d207115e164">
 
 **Approve the request**
 
@@ -62,7 +62,7 @@ Description
 3.  Confirm the approval. AI Control Tower applies the change to the asset and updates the asset record with the new values.
 
 
-</td></tr><tr><td id="d207139e188">
+</td></tr><tr><td id="d207115e188">
 
 **Reject the request**
 

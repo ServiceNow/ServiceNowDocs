@@ -19,7 +19,7 @@ Use AI-powered theme creation in Theme Builder to generate themes from brand ima
 
 This feature requires:
 
--   The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   The ServiceNow Otto for Creator application must be installed. See .
 
 Role required: ui\_builder\_admin
 

@@ -18,7 +18,7 @@ Turn on the ServiceNow Otto for Creator skills for using generative AI for creat
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. For more information, see .
+-   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task

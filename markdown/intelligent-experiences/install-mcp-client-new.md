@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-mcp-client-new.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
 ---

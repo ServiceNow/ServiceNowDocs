@@ -149,15 +149,15 @@ When you select **Fill with Lens** on the Service Portal form, the ServiceNow AI
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88102e602">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88094e602">
 
 Option
 
-</th><th align="left" id="d88102e605">
+</th><th align="left" id="d88094e605">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88102e611">
+</th></tr></thead><tbody><tr><td id="d88094e611">
 
 **If the auto-filled text looks good**
 
@@ -165,7 +165,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d88102e623">
+</td></tr><tr><td id="d88094e623">
 
 **If the auto-filled text requires changes**
 
@@ -293,15 +293,15 @@ When you select **Fill with Lens** on the Service Portal form, the ServiceNow AI
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88102e1251">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88094e1251">
 
 Option
 
-</th><th align="left" id="d88102e1254">
+</th><th align="left" id="d88094e1254">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88102e1260">
+</th></tr></thead><tbody><tr><td id="d88094e1260">
 
 **If the auto-filled text looks good**
 
@@ -309,7 +309,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d88102e1272">
+</td></tr><tr><td id="d88094e1272">
 
 **If the auto-filled text requires changes**
 

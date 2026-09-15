@@ -42,17 +42,17 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
--   ****
+-   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/associate-header-api-resource.md)**
 
     The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
     The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/export-openapi-specification.html)
 
--   ****
+-   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/AssocQueryParmResource.md)**
 
     The following procedure describes the process for manually associating a query parameter with a resource. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   ****
+-   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/autogenerate-api-request-definitions.md)**
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
@@ -80,31 +80,31 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 -   ****
 -   ****
 -   ****
--   ****
+-   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-api-response-header.md)**
 
     Define one or more REST API response headers in a REST API.
 
--   ****
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-rest-api-schema.md)**
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   ****
+-   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-request.md)**
 
     Add a schema to a REST request record to define the request's expected data structure.
 
     The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html)
 
--   ****
+-   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-response.md)**
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   ****
+-   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineAvailableQueryParameters.md)**
 
     The following procedure describes the process for manually defining query parameters for a scripted REST API service. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   ****
+-   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineRESTServiceHeaders.md)**
 
     a scripted REST API request header
 
@@ -141,7 +141,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 
--   ****
+-   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_CustomWebServices.md)**
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 

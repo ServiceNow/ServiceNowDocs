@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 keywords: [human-assisted SMS OTP, SMS OTP, one-time passcode, agent identity verification, generateCode, validateCode]
 breadcrumb: [Authentication factors, Authentication, Access Management]

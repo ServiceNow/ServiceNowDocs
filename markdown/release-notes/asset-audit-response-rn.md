@@ -1,0 +1,88 @@
+---
+title: Asset Audit Response release notes
+description: The ServiceNow Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.The ServiceNow Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.The ServiceNow Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/asset-audit-response-rn.html
+release: australia
+topic_type: topic
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+---
+
+# Asset Audit Response release notes
+
+The ServiceNow® Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.
+
+## About Asset Audit Response
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   Automatically generate summaries of completed and in-progress evidence requests for your financial regulatory audits.
+-   Track and manage impacted records that are associated with your remediation tasks.
+-   Gain insight into the citations associated with your evidence requests.
+
+See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response.md) for more information.
+
+## Activation and other requirements
+
+**Important:** Asset Audit Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Asset Audit Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Upgrade information**
+
+    The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+
+**Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now Assist to ServiceNow Otto® name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## April 2026
+
+The ServiceNow® Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Automate the summarization of evidence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+
+    Use generative AI to summarize completed and in-progress evidence requests for your ﬁnancial regulatory audits. Gain insight into the corresponding audit engagements, the associated financial regulations, and the evidence that was submitted for each request. In addition, view details about the remediation rules that were created for each request and the corresponding remediation tasks that were generated based on those rules. Use this information to help plan for and complete other in-progress evidence requests so that you can improve your operational efficiency.
+
+-   **[Track impacted records that require remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+
+    Use the Impacted Records related list in your remediation tasks to track and take any necessary actions on the impacted records, including asset and configuration item \(CI\) records, that are associated with each task. These remediation tasks are automatically generated based on the remediation rules that you define during evidence request fulfillment.
+
+-   **[View citations for your evidence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/fulfill-evidence-requests-guided-experience.md)**
+
+    Gain insight into the citations that are associated with your evidence requests by using the Citation details fields in the Asset Response Guided Experience. Use these fields to identify the name, description, and supplemental guidance for any citation that is associated with a request.
+
+-   **[Streamline the fulfillment of evidence requests by using financial regulatory context from the Digital Operational Resilience Act \(DORA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/audit-workspace.md)**
+
+    Associate your evidence requests with financial regulatory requirements and guidelines from the Digital Operational Resilience Act \(DORA\). By aligning the relevant requests with these requirements and guidelines, you can help your asset managers better understand the compliance obligations that are associated with each request. They can then use this information to fulfill each request more accurately and efficiently.
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+

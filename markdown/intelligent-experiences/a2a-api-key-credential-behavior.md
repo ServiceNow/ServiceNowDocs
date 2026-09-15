@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/a2a-api-key-credential-behavior.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---

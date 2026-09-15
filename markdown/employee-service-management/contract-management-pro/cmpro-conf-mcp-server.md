@@ -50,15 +50,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d147935e227">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d147931e227">
 
 Authentication option
 
-</th><th align="left" id="d147935e230">
+</th><th align="left" id="d147931e230">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147935e236">
+</th></tr></thead><tbody><tr><td id="d147931e236">
 
 **Use the Contract Management Pro MCP Server OAuth client entry**
 
@@ -73,7 +73,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d147935e274">
+</td></tr><tr><td id="d147931e274">
 
 **Set up your own OAuth connection**
 

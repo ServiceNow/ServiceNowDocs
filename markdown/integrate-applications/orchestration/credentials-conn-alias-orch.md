@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---

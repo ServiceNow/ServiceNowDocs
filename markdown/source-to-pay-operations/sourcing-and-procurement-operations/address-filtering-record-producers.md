@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [record producer, address filtering, removed addresses, off-catalog requestors, delivery location]
 breadcrumb: [Saved delivery addresses, Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]

@@ -7,7 +7,7 @@ release: australia
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 3
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

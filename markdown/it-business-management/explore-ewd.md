@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-ewd.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 7
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-fe
 release: australia
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 360
+reading_time_minutes: 361
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -807,7 +807,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -828,7 +828,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
 
 </td><td>
 
@@ -836,7 +836,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 </td><td>
 
@@ -845,7 +845,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
 
 </td><td>
 
@@ -856,11 +856,11 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_nds_wxf_gfc"><thead><tr><th>
@@ -897,11 +897,11 @@ v19.2.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
-The new getEligibleCatalogCategoryHierarchy\(\) method lets you retrieve the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The API automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that customers see only the offerings they qualify for.**Note:** The REST version of this endpoint is .
+The new getEligibleCatalogCategoryHierarchy\(\) method lets you retrieve the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The API automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that customers see only the offerings they qualify for.**Note:** The REST version of this endpoint is [Product Catalog Search - POST /api/sn\_prd\_pm/v1/catalog/eligible-catalog-category-hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md).
 
 </td></tr><tr><td>
 
@@ -917,7 +917,7 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
@@ -926,7 +926,7 @@ v20.0
 
  Though identically named to `CatalogSearch` Server API, the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
 
- **Note:** The  REST API wraps this Server API.
+ **Note:** The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
@@ -942,7 +942,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -992,7 +992,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -1013,7 +1013,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
 </td><td>
 
@@ -1021,7 +1021,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDateAPI.md)
 
 </td><td>
 
@@ -1030,7 +1030,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
 
 </td><td>
 
@@ -1038,7 +1038,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
 
 </td><td>
 
@@ -1048,7 +1048,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[MIDHermesProducer - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MIDHermesProducerAPI.md)
 
 </td><td>
 
@@ -1057,11 +1057,11 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_bps_p1y_x3c"><thead><tr><th>
@@ -1098,7 +1098,7 @@ v3.1
 
 </td><td>
 
-
+[Cloud Runner TestRunnerApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.md)
 
 </td><td>
 
@@ -1122,7 +1122,7 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
@@ -1131,7 +1131,7 @@ v20.0
 
  Though identically named, to `CatalogSearch`, the new `CatalogSearchAPI` is used within the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
 
- **Note:** The  REST API wraps this Server API.
+ **Note:** The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
@@ -1147,7 +1147,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -1173,7 +1173,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md)
 
 </td><td>
 
@@ -1187,7 +1187,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-
+[Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/help-request-api.md)
 
 </td><td>
 
@@ -1195,7 +1195,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/atf-code-coverage-api.md)
 
 </td><td>
 
@@ -1205,7 +1205,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)
 
 </td><td>
 
@@ -1555,20 +1555,20 @@ App Engine Management Center
 
 </td><td>
 
--   **Platform version of AEMC now available**
+-   **[Platform version of AEMC now available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-aemc.md)**
 
 Access core AEMC features from a new platform version of AEMC from the ServiceNow Store.
 
--   ****
+-   **[Configure a standalone environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-standalone.md)**
 
 Configure a standalone environment for deployments in the platform version of AEMC.
 
--   **AEMC guided setup now includes ReleaseOps**
+-   **[AEMC guided setup now includes ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configuring-aemc.md)**
 
 Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
 
 
--   ****
+-   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-release-lifecycle-documentation-agent.md)**
 
 Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
 
@@ -1754,7 +1754,7 @@ Build Agent
 
 </td><td>
 
--   **Playbook support updates**
+-   **[Playbook support updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md)**
 
 Build Agent includes the following updates to Playbook support:
 
@@ -1764,83 +1764,83 @@ Build Agent includes the following updates to Playbook support:
     -   Build Agent can now configure agentic fields on form-based and record-based activities when the AI Agent plugin is active.
     -   Build Agent can now generate on-demand playbook launcher configurations.
     -   Build Agent can now define optional activities in a playbook.
--   **New model support**
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-models-versions.md)**
 
 Build Agent now supports the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
     -   Anthropic Claude on AWS Opus 5
--   **Test suite authoring and execution**
+-   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**
 
 Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
 
--   **ATF list step support**
+-   **[ATF list step support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**
 
 Test Agent can now generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list. List step support extends test coverage beyond form-based interactions to include the full list view experience on the ServiceNow AI Platform.
 
--   **Support for Box MCP server**
+-   **[Support for Box MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
 
 Build Agent now supports integrations with Box MCP server.
 
--   **Domain separation for ServiceNow Fluent**
+-   **[Domain separation for ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-domain-separation.md)**
 
 ServiceNow Fluent, which Build Agent uses to create apps, now supports domain separation on records and APIs. You can set the **sys\_domain** field and use **sys\_override** fields when working with records in domain-separated environments, so ServiceNow Fluent operates correctly across domains in your instance.
 
--   **Additional metadata support**
+-   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 
 The following metadata are now supported in Build Agent:
 
     -   Service Catalog dependent question support
     -   Transition condition
     -   UI style
--   **Right-click to configure ServiceNow AI Platform metadata**
+-   **[Right-click to configure ServiceNow AI Platform metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md)**
 
 When you right-click a record or artifact and select **Configure**, the metadata editor now opens in ServiceNow Studio.
 
--   **Automatic upgrades for Build Agent**
+-   **[Automatic upgrades for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md)**
 
 Build Agent now supports automatic upgrades through the ServiceNow Store. Instances running Australia Patch 5 and later releases or Zurich Patch 12 and later releases that have Build Agent installed receive automatic upgrades when a new version is published.
 
 
--   **Web search tool**
+-   **[Web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md)**
 
 Access public web content from Build Agent using two new search tools. Use the web search tool to find information on the public web, and use the web fetch tool to retrieve content from a URL that you supply.
 
--   **Consolidated update sets**
+-   **[Consolidated update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md)**
 
 Track changes generated by Build Agent and manual edits in update sets for checkpointing and rollback. Update sets can be merged into a single update set before deployment. All changes to your application are captured in the same scope, making it easier to review what was modified and merge updates to other environments.
 
--   **Expanded metadata support**
+-   **[Expanded metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 
 Work with more metadata types in Build Agent, which now supports connection and credential alias, data lookup, playbooks, rest message/HTTP method, and user criteria.
 
 
--   **MCP server support in ServiceNow Studio**
+-   **[MCP server support in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-connct-mcp-server.md)**
 
 Connect Build Agent to external MCP servers in ServiceNow Studio. Previously, MCP server connectivity was only available in the ServiceNow IDE.
 
--   **Additional MCP server integrations**
+-   **[Additional MCP server integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
 
 Integrate Build Agent with newly supported MCP servers.
 
--   **Access update sets from Build Agent**
+-   **[Access update sets from Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md)**
 
 View update sets created by Build Agent from within the chat panel in ServiceNow Studio. Each checkpoint includes a button that opens the relevant update set in a new tab.
 
--   **UI validation tool in ServiceNow Studio**
+-   **[UI validation tool in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md)**
 
 Validate user interface output during app creation with the UI validation tool in Build Agent, available in ServiceNow Studio.
 
--   **Search retrieval tool support**
+-   **[Search retrieval tool support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-about-creating-in-app-agents.md)**
 
 Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can retrieve knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
 
--   **Support for more file types**
+-   **[Support for more file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-supported-file-types.md)**
 
 Upload more types of files to Build Agent to describe what you want to build, including images, documents, and text and code files.
 
 
--   **Expanded metadata support**
+-   **[Expanded metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 
 Work with more metadata types in Build Agent, which now supports assignment rules, forms, and data policies.
 
@@ -1854,20 +1854,20 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
     -   Prime: Act autonomously with all AI assets, and create your own
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **Additional metadata support**
+-   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 
 Work with more metadata types in Build Agent, which now supports email.
 
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
 
--   **Improved LLM support**
+-   **[Improved LLM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
 Use AWS Claude Opus 4.6 and Sonnet 4.5 in Build Agent for contextual conversations.
 
--   **New metadata support**
+-   **[New metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 
 Work with more metadata types, as Build Agent now supports the following:
 
@@ -3211,11 +3211,11 @@ Developer Sandboxes
 
 </td><td>
 
--   **New granular roles for administration**
+-   **[New granular roles for administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dsb-installed-with.md)**
 
 Several new granular roles enable developers to complete administrative and configuration tasks without requiring the full admin role.
 
--   **Support for separate indices for AI Search**
+-   **[Support for separate indices for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-sandboxes.md)**
 
 AI Search \(AIS\) now maintains separate indices for each sandbox environment, ensuring development activities that rely on AIS are correctly supported.
 
@@ -3921,27 +3921,27 @@ Flows, subflows, and actions
 </td><td>
 
 
--   **Business calendar as a scheduled trigger**
+-   **[Business calendar as a scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-trigger-business-calendar.md)**
 
 Use the business calendar to trigger flows on existing business schedules. The business calendar trigger helps align automation with shifts, holidays, and operating hours.
 
--   ****
+-   **[Flow history compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-history-compare-view.md)**
 
 Compare two flow history entries in a side-by-side view. Use the step highlighting and change type icons to determine what flow components have been added, removed, and changed.
 
--   **Flow execution analysis**
+-   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-analysis-landing.md)**
 
 Analyze flow execution details to identify errors and suggest potential fixes.
 
--   ****
+-   **[Test conversational action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-conversational-action.md)**
 
 Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
--   ****
+-   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-conversational-subflow.md)**
 
 Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
--   ****
+-   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/use-an-ai-agent-action.md)**
 
 Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 
@@ -4583,7 +4583,7 @@ Key Management
 
 </td><td>
 
--   **Added SHA512 support for message digests**
+-   **[Added SHA512 support for message digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)**
 
 GlideDigest has been updated to allow creation and verification of message digests using the SHA512 cryptographic hash function.
 
@@ -4591,7 +4591,7 @@ GlideDigest has been updated to allow creation and verification of message diges
 
 Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 
--   **Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation**
+-   **[Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**
 
 The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
@@ -5403,7 +5403,7 @@ Platform Analytics experience
 
 </td><td>
 
--   **Use new UI Builder templates for Dashboards and Data visualization libraries**
+-   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
 
 Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 
@@ -5430,12 +5430,12 @@ Playbook
 
 </td><td>
 
--   **Use AI agents as a playbook activity**
+-   **[Use AI agents as a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ai-agent-as-activity.md)**
 
 Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
 
 
--   **Nested playbooks**
+-   **[Nested playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/nested-playbooks.md)**
 
 Nest playbooks as a step within other playbooks to enable the following scenarios:
 
@@ -5445,7 +5445,7 @@ Nest playbooks as a step within other playbooks to enable the following scenario
 
 Implement a wizard experience for guiding your end users through a sequence of steps to achieve an outcome, such as servicing a printer.
 
--   **Automated Test Framework support for playbooks**
+-   **[Automated Test Framework support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/testing-support-playbooks.md)**
 
 The Automated Test Framework can be used to create automated tests to confirm your playbooks run as planned.
 
@@ -5731,12 +5731,12 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
--   **Eligible catalog-category hierarchy API**
+-   **[Eligible catalog-category hierarchy API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)**
 
 Enable external integrations and in-platform applications to retrieve the eligible catalog-category tree hierarchy by using a REST endpoint.
 
 
--   ****
+-   **[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)**
 
 Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
 
@@ -5746,11 +5746,11 @@ Enable external integrations to query the product catalog by calling the `POST /
 Certain key fields in Product Catalog Management tables, such as product offering name and description, have been changed in the Data Dictionary from type string to translated\_text. Admins can now set these product catalog fields to display in multiple languages in the product catalog interface.
 
 
--   **Support manual pricing adjustments in the Sales CRM Pricing API**
+-   **[Support manual pricing adjustments in the Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)**
 
 Pass manual pricing adjustments as part of a pricing request payload using the Pricing API. External systems can include adjustment values directly in a pricing run, rather than fetch manual adjustments from the pricing database when running pricing calculations.
 
--   **Support external IDs in the Sales CRM Pricing API**
+-   **[Support external IDs in the Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)**
 
 Submit pricing requests that use custom external IDs or codes to reference objects from external systems, such as product offerings, price lists, and cost books. Set a request-level flag that indicates external IDs are to be used for these objects rather than sys\_ids. For additional information, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-ids-pricingapi.md).
 
@@ -6080,28 +6080,28 @@ ReleaseOps
 
 </td><td>
 
--   ****
+-   **[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-update-set-description.md)**
 
 Generate update descriptions using the release lifecycle documentation AI agent.
 
--   ****
+-   **[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-release-notes.md)**
 
 Generate release notes using the release lifecycle documentation AI agent.
 
 
--   ****
+-   **[Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/complete-guided-setup.md)**
 
 Use guided setup to start using ReleaseOps quickly. You can also continue to use manual setup for more complex setup scenarios and if you need to add changes to your ReleaseOps ecosystems later.
 
--   ****
+-   **[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/runbook-tasks.md)**
 
 Add custom, flexible, and manual activities to your assessment and release playbooks with runbook tasks, without having to adjust the structure of your playbooks from one release to the next.
 
--   ****
+-   **[Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-runbook-task.md)**
 
 Define the type of runbook task and when the task should occur in your ReleaseOps playbooks.
 
--   ****
+-   **[Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-atf-code-coverage-threshold.md)**
 
 Leverage Automated Test Framework \(ATF\) code coverage in ReleaseOps. ATF code coverage enables you to determine what percentage of code in a deployment request is covered by ATF test suites. You can define the threshold for ATF test failure and see what lines of code were covered by the ATF test suites.
 
@@ -6618,12 +6618,12 @@ ServiceNow AI Platform core feature
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
 
--   **Enhance instance security for sandbox scripts with guarded script**
+-   **[Enhance instance security for sandbox scripts with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**
 
 The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Australia Patch 2 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
 
 
--   **Automatically generate request definitions for scripted REST API resources**
+-   **[Automatically generate request definitions for scripted REST API resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/autogenerate-api-request-definitions.md)**
 
 Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
 
@@ -6648,7 +6648,7 @@ Show or hide the mail icon in email fields by configuring the hide\_email\_icon 
 
 Easily identify AI involvement across the ServiceNow AI Platform® through a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
 
--   **Guest API access control**
+-   **[Guest API access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_RESTAPI.md)**
 
 Manage guest access to REST and GraphQL API endpoints using path-based ACLs while maintaining separate authenticated user controls.
 
@@ -6656,15 +6656,15 @@ Manage guest access to REST and GraphQL API endpoints using path-based ACLs whil
 
 Grant specific permissions to developers or users who perform minor administrative tasks without granting them unrestricted access to the full admin role by reviewing and assigning available granular admin roles.
 
--   **Optional trailing slash configuration**
+-   **[Optional trailing slash configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
 
 Align with external specifications and industry standards by configuring REST APIs with optional trailing slash support.
 
--   **Path-based REST ACL control**
+-   **[Path-based REST ACL control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
 
 Control access to REST services by creating path-based ACLs using specific HTTP method and path combinations.
 
--   **Resource-level security configuration**
+-   **[Resource-level security configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-rest.md)**
 
 Enable public access or custom ACL authorization by configuring resource-level security settings.
 
@@ -6683,11 +6683,11 @@ ServiceNow IDE
 
 </td><td>
 
--   **Create and convert global applications**
+-   **[Create and convert global applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creating-applications-servicenow-ide.md)**
 
 Create and convert applications in the global scope that are accessible to other global applications with instances on the Australia release.
 
--   **Generated ServiceNow Fluent code organized in taxonomy-based directories**
+-   **[Generated ServiceNow Fluent code organized in taxonomy-based directories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md#application-structure)**
 
 Configure a custom directory structure for metadata transformed into ServiceNow Fluent code with the `taxonomy` parameter in an application's `now.config.json` file. By default, generated ServiceNow Fluent files are organized in a taxonomy-based directory structure within the `fluent/generated` directory.
 
@@ -6698,7 +6698,7 @@ ServiceNow Otto for App Engine
 
 </td><td>
 
--   **Create AI assets conversationally with Build Agent**
+-   **[Create AI assets conversationally with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md)**
 
 If you have a ServiceNow Otto for Creator subscription, you can use Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
 
@@ -6828,7 +6828,7 @@ ServiceNow Otto for Creator
 Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
 
 
--   ****
+-   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-release-lifecycle-documentation-agent.md)**
 
 Improve transparency across your app development environment using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
 
@@ -6846,15 +6846,15 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
--   ****
+-   **[Generate modules using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-ai-modules.md)**
 
 Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **New agentic development documentation**
+-   **[New agentic development documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
 Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
@@ -7320,19 +7320,19 @@ ServiceNow SDK
 
 </td><td>
 
--   **Create and convert global applications**
+-   **[Create and convert global applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creating-applications-servicenow-sdk.md)**
 
 Create and convert applications in the global scope that are accessible to other global applications with instances on the Australia release.
 
--   **Move application metadata from the global scope into a global application**
+-   **[Move application metadata from the global scope into a global application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk-cli-commands.md)**
 
 Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code to customize it in a local global application using the `now-sdk move` command.
 
--   **Configure a default language for field labels**
+-   **[Configure a default language for field labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md#application-structure)**
 
 Configure a default language for field labels \[sys\_documentation\] in a table or column with the `tableDefaultLanguage` parameter in an application's `now.config.json` file.
 
--   **Configure read-only options with the Table API**
+-   **[Configure read-only options with the Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/table-api-now-ts.md)**
 
 Control the editability of read-only fields by configuring read-only options for a field with the readOnlyOption property in a Column object.
 
@@ -7343,38 +7343,38 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-apps-in-source-code-sn-studio.md)**
 
 Use ServiceNow IDE capabilities within ServiceNow Studio to create apps in source code. Use the new Explorer tab to open Fluent files and see underlying Fluent source code.
 
--   ****
+-   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-control-in-servicenow-studio.md)**
 
 Upgrade to the new version of source control in ServiceNow Studio to access more features, such as additional Git commands.
 
 
--   ****
+-   **[Create a collection of files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/qs-create-a-collection.md)**
 
 Create collections of your most frequently used apps, files, and lists for easy access. Collections extend current bookmark capabilities and can contain apps and files from different scopes.
 
--   ****
+-   **[App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-deployment-servicenow-studio.md)**
 
 View deployment requests directly within ServiceNow Studio. Attach update sets to a request to group related changes for deployment.
 
 
--   **Create an application in ServiceNow Studio with Build Agent**
+-   **[Create an application in ServiceNow Studio with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-an-application-in-servicenow-studio.md)**
 
 Begin a chat with Build Agent directly from the app creation workflow. This setting can be configured in user preferences.
 
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
 Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
--   **Add UI Builder files to your apps in ServiceNow Studio**
+-   **[Add UI Builder files to your apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-file-navigator-taxonomy.md)**
 
 Add UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
 
--   **New vibe coding documentation**
+-   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
 Explore agentic development, which is a natural language approach to application development in ServiceNow. Learn how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
@@ -8207,7 +8207,7 @@ UI Builder
 
 </td><td>
 
--   **Update an existing UI interaction flow**
+-   **[Update an existing UI interaction flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-ui-interaction.md)**
 
 As of UI Builder version 29.2, the UI interaction diagram editor now supports in-place editing, giving you more flexibility when modifying existing interactions without rebuilding downstream flows.
 
@@ -8216,7 +8216,7 @@ As of UI Builder version 29.2, the UI interaction diagram editor now supports in
     -   Delete events and their downstream steps directly from the diagram.
     -   View which toolbox items are unavailable for a specific location, with guidance on why.
 
--   **Create event-driven UI interactions**
+-   **[Create event-driven UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-ui-interactions.md)**
 
 Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic with the following benefits:
 

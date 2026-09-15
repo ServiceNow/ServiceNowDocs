@@ -37,15 +37,15 @@ In the Shadow AI overview, see how many AI services have been detected, how many
 
 4.  Review and assess detected AI traffic, detected users, or detected departments.
 
-<table><thead><tr><th align="left" id="d91197e154">
+<table><thead><tr><th align="left" id="d90883e154">
 
 Subtab
 
-</th><th align="left" id="d91197e157">
+</th><th align="left" id="d90883e157">
 
 What to look for
 
-</th></tr></thead><tbody><tr><td id="d91197e163">
+</th></tr></thead><tbody><tr><td id="d90883e163">
 
 **AI traffic**
 
@@ -56,7 +56,7 @@ What to look for
 3.  Select a row to open that service's own record. See [Investigating a detected AI service in Shadow AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sh-ai-investigating-detected-services.md).
 
 
-</td></tr><tr><td id="d91197e203">
+</td></tr><tr><td id="d90883e203">
 
 **Users**
 
@@ -67,7 +67,7 @@ What to look for
 3.  View detailed information, including detected services they've used by selecting the user name.
  **Note:** Activity that can't be matched to a known person, typically from a personal device or a shared machine, appears under a single **Unknown user** entry instead of being dropped, with fields like email, role, and department left blank. Unknown user activity likely indicates a coverage finding rather than a usage finding.
 
-</td></tr><tr><td id="d91197e236">
+</td></tr><tr><td id="d90883e236">
 
 **Departments**
 

@@ -31,8 +31,8 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     Use a builder application, such as Creator Studio or ServiceNow Studio, to create an application in a new scope. For detailed information and steps, see:
 
-    -   [Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-app-creator-studio.md)
-    -   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-an-application-in-servicenow-studio.md)
+    -   Create the foundation of an app in Creator Studio
+    -   
     -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
@@ -42,7 +42,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
         \[Omitted image "erpc-check-update-set-content-pack-model-clone.png"\] Alt text: Update set list with default update set for the new application highlighted.
 
-        If a default update set wasn't created for the new application, follow the instructions in [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
+        If a default update set wasn't created for the new application, follow the instructions in .
 
     3.  In **Name**, enter a unique name for the update set.
 

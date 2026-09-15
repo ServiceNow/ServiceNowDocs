@@ -31,15 +31,15 @@ The **Issues** related list appears on the exercise record when GRC: Profiles is
 
 2.  Complete the following steps to create or manage an issue from an exercise.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d106260e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d106184e109">
 
 Step
 
-</th><th align="left" id="d106260e112">
+</th><th align="left" id="d106184e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106260e118">
+</th></tr></thead><tbody><tr><td id="d106184e118">
 
 **Create an issue from the exercise record**
 
@@ -70,7 +70,7 @@ Use this option when you want to associate an existing issue with the exercise a
 
 The issue association is removed from the exercise; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d106260e191">
+</td></tr><tr><td id="d106184e191">
 
 **Link an exercise from the issue record**
 

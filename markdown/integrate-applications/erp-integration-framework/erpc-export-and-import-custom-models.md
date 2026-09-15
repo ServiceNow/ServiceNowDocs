@@ -64,7 +64,7 @@ Note the following rules when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following steps use update sets. For general information, see [Exploring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-system-update-sets.md).
+    The following steps use update sets. For general information, see .
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 

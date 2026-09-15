@@ -34,7 +34,7 @@ Service Model Foundation uses the household form to store details about a consum
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields on the Household form, see [Household form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-model-household-form.md).
+    For more information on the fields on the Household form, see .
 
 4.  Select **Submit**.
 

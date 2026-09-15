@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-email-summarization-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [email interaction summarization, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, AI summarization, generative AI]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]

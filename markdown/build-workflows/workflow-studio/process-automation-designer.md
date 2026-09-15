@@ -92,11 +92,11 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 
 |Integration|Content available|
 |-----------|-----------------|
-|App Engine Studio|Build playbooks from App Engine Studio.|
-||Create basic request and fulfillment apps without code.|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|Build playbooks from App Engine Studio.|
+|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
 ||Create playbooks for Customer Service Management.|
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
-||Create playbooks for HR services.|
+|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|
 |[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|

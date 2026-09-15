@@ -27,15 +27,15 @@ The **Get started with AI Control Tower** widget on the **Home** page is visible
 
 1.  Launch the guided setup experience from the **Home** page in AI Control Tower or the **Admin Home** page.
 
-<table><thead><tr><th align="left" id="d155873e89">
+<table><thead><tr><th align="left" id="d155856e89">
 
 Option
 
-</th><th align="left" id="d155873e92">
+</th><th align="left" id="d155856e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155873e98">
+</th></tr></thead><tbody><tr><td id="d155856e98">
 
 **Home page in AI Control Tower**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the **Get started with AI Control Tower** widget, select **Set up now** to open guided setup, or select **Continue** to pick up where you left off.
 
 
-</td></tr><tr><td id="d155873e139">
+</td></tr><tr><td id="d155856e139">
 
 **Admin Home**
 

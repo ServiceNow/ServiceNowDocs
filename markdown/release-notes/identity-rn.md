@@ -1,0 +1,90 @@
+---
+title: Identity release notes
+description: The ServiceNow Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.The ServiceNow Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/identity-rn.html
+release: australia
+topic_type: topic
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+---
+
+# Identity release notes
+
+The ServiceNow® Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
+
+## About Identity
+
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   **[Role Masking enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/role-masking.md)**
+
+    Dynamic role addition: Add multiple roles to an AI agent's role masking configuration as individual records, rather than as a single delimited list. Each role you add through the embedded list on the Agent Access Role Configuration form creates a record in the Agent Access Role Mapping table.
+
+
+Australia
+
+-   Use the granular roles to complete administrative configuration tasks for Identity without requiring the full admin role.
+-   Configure AI Agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
+-   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.
+-   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
+
+See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity-landing.md) for more information.
+
+## Activation and other requirements
+
+-   **Activation information**
+
+    Identity is a ServiceNow AI Platform product that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Coral theme**
+
+        Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Identity application supports mechanisms that let you validate the identity of users. Identity was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)**
+
+    The granular admin role enables developers and administrators to complete administrative configuration tasks for Identity without requiring the full admin role.
+
+
+### What's changed
+
+-   **[Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md)**
+
+    Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
+
+-   **[User management enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)**
+
+    User management enhancements:
+
+    -   Configure AI agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
+    -   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Use this role to view, create, edit, assign roles to, and delete users with the identity type as `AI`.
+    -   Use the Identity sub-type field to categorize the identity type while creating a user.
+    -   Use the new date and time formats based on the user's preference while creating users.
+-   **[Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/federated-id.md)**
+
+    Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances.
+
+-   **[Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/machine-identity-console.md)**
+
+    View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requesters and their API calls.
+
+
+-   **[Scripting Governance Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scripting-governance.md)**
+
+    Manage user permissions for scripting on the ServiceNow AI Platform from the enhanced scripting governance tool.
+
+

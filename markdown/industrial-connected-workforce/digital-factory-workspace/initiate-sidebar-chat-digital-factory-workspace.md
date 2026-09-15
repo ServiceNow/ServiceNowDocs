@@ -35,7 +35,7 @@ Role required: sn\_icw.user
 
 ## Result
 
-Added participants are notified. They can join the discussion by selecting the **Sidebar discussions** icon \(\[Omitted image "sidebar-discussions.png"\] Alt text: Sidebar discussion icon.\). To read more about the Sidebar discussions functionality, see .
+Added participants are notified. They can join the discussion by selecting the **Sidebar discussions** icon \(\[Omitted image "sidebar-discussions.png"\] Alt text: Sidebar discussion icon.\). To read more about the Sidebar discussions functionality, see [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-sidebar.md).
 
 **Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
 

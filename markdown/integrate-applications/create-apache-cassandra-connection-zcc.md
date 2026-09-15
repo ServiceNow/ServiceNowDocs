@@ -49,15 +49,15 @@ Work with your data source admin to create a connection to Apache Cassandra. For
 
 4.  Configure secure authentication by uploading a keystore file or by entering the keystore details manually.
 
-<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d226546e240">
+<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d226360e240">
 
 Option
 
-</th><th align="left" id="d226546e243">
+</th><th align="left" id="d226360e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226546e249">
+</th></tr></thead><tbody><tr><td id="d226360e249">
 
 **Upload keystore file**
 
@@ -67,7 +67,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d226546e270">
+</td></tr><tr><td id="d226360e270">
 
 **Enter keystore contents manually**
 

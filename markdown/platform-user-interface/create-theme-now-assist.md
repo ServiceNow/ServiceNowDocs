@@ -18,7 +18,7 @@ Use ServiceNow Otto® to generate themes from your brand image or brand guidelin
 
 This feature requires:
 
--   The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+-   The ServiceNow Otto for Creator application must be installed. See 
 -   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
 -   The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

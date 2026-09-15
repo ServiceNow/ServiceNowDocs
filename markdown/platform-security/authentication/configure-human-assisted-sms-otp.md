@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 keywords: [configure human-assisted SMS OTP, HA SMS OTP service configuration, delivery mode, phone number resolution]
 breadcrumb: [Human-assisted SMS OTP authentication, Authentication factors, Authentication, Access Management]

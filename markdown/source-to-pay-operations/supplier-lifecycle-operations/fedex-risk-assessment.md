@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 keywords: [FedEx risk assessment, supplier risk assessment, supplier onboarding, FedEx]
 breadcrumb: [FedEx Dataworks Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]

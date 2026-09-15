@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [enable browser extension, dex browser extension, chrome extension, edge extension, web application monitoring]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]

@@ -277,7 +277,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md) for more information.
 
 </td></tr><tr><td>
 
@@ -464,7 +464,7 @@ App Engine ERP Rapid Deployment Packs
 -   Review and act on transactions, master data records, and month-end journal entries from a single location through the centralized Approvals Hub.
 -   Post, validate, and authorize manual journal entries before they post to the general ledger through the Journal Entry Approval Portal.
 
-See  for more information.
+See [App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ App Engine Management Center
 -   Use the release lifecycle documentation AI agent to regenerate release notes.
 -   Use the improved filter feature to sort requests based on specific criteria.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -494,7 +494,7 @@ App Engine Studio
 
 Several Integration Hub flow templates are being deprecated.
 
-See  for more information.
+See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -617,7 +617,7 @@ Build Agent
 -   Choose from newly supported models.
 -   Search external content without leaving Build Agent.
 
-See  for more information.
+See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md) for more information.
 
 </td></tr><tr><td>
 
@@ -975,7 +975,7 @@ Creator Studio
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1184,7 +1184,7 @@ Developer Sandboxes
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
-See  for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sandboxes-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1528,7 +1528,7 @@ Flows, subflows, and actions
 -   Test conversation-enabled actions and subflows from a conversation.
 -   Use an AI agent from a flow.
 
-See , , and  for more information.
+See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-actions.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2162,7 +2162,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md).
 
 </td></tr><tr><td>
 
@@ -2454,7 +2454,7 @@ Performance Analyzer
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See Performance Analyzer for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2481,7 +2481,7 @@ Playbook
 -   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
 -   Use AI agents as activities in your playbook to automate tasks.
 
-See  for more information.
+See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2812,7 +2812,7 @@ ReleaseOps
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   Generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
-See  for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3098,7 +3098,7 @@ ServiceNow IDE
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See  for more information.
+See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3113,7 +3113,7 @@ ServiceNow Lux Lab for VS Code
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See  for more information.
+See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3133,7 +3133,7 @@ ServiceNow Otto for App Engine
 
 -   If you have a ServiceNow Otto for Creator subscription, you can create AI assets conversationally using Build Agent.
 
-See  for more information.
+See [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3236,7 +3236,7 @@ ServiceNow Otto for Creator
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
-See  for more information.
+See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3485,7 +3485,7 @@ ServiceNow SDK
 
 Create or convert applications in the global scope with instances on the Australia release.
 
-See  for more information.
+See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3499,7 +3499,7 @@ ServiceNow Studio
 -   As of version 29.2.6, organize apps and files into collections, which extend the existing bookmark system by allowing multiple organized folders of applications, app files, and lists.
 -   As of version 29.2.6, view all deployment requests and attach update sets to them directly in ServiceNow Studio.
 
-See  for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3713,7 +3713,7 @@ Table Builder
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See  for more information.
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3858,7 +3858,7 @@ UI Builder
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See  for more information.
+See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) for more information.
 
 </td></tr><tr><td>
 

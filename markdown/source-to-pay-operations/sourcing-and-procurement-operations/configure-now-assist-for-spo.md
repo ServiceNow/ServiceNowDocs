@@ -141,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d229012e688">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d228886e688">
 
 Option
 
-</th><th align="left" id="d229012e691">
+</th><th align="left" id="d228886e691">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d229012e697">
+</th></tr></thead><tbody><tr><td id="d228886e697">
 
 **Skill is always available**
 
@@ -157,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d229012e706">
+</td></tr><tr><td id="d228886e706">
 
 **Customize skill availability**
 
@@ -170,15 +170,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d229012e742">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d228886e742">
 
 Option
 
-</th><th align="left" id="d229012e745">
+</th><th align="left" id="d228886e745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d229012e751">
+</th></tr></thead><tbody><tr><td id="d228886e751">
 
 **In-product desktop**
 
@@ -186,7 +186,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d229012e760">
+</td></tr><tr><td id="d228886e760">
 
 **ServiceNow Otto panel**
 

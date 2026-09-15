@@ -35,15 +35,15 @@ The registry is the catalog Shadow AI checks against to recognize a domain as an
 
 4.  Control whether AI-related traffic is detected for the service by updating the status.
 
-<table id="choicetable_ydw_3cx_3kc"><thead><tr><th align="left" id="d76035e133">
+<table id="choicetable_ydw_3cx_3kc"><thead><tr><th align="left" id="d76027e133">
 
 Option
 
-</th><th align="left" id="d76035e136">
+</th><th align="left" id="d76027e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76035e142">
+</th></tr></thead><tbody><tr><td id="d76027e142">
 
 **Mark as active**
 
@@ -54,7 +54,7 @@ Steps
 3.  Enable traffic detection by selecting **Mark as active**.
 
 
-</td></tr><tr><td id="d76035e169">
+</td></tr><tr><td id="d76027e169">
 
 **Mark as not Shadow AI**
 

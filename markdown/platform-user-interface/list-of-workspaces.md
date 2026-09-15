@@ -20,7 +20,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Workspace acts as the default workspace available on the ServiceNow AI Platform and provides the foundation for the targeted workspaces ServiceNow offers.
 
--   **[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management-overview-ws.md)**
+-   **Audit Workspace**
 
     Audit workspace is a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, and trace high priority observations and issues. Monitor ongoing control testing and audit task progress.
 
@@ -32,11 +32,11 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     CMDB Workspace is an efficient, central, and modernized way for you to work. Use CMDB Workspace to search and explore the CMDB, examine health and recent activity, and access various CMDB dashboards and tools to support tasks in your organization.
 
--   **[Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-unified-compliance-workspace.md)**
+-   **Compliance Workspace**
 
     Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, issues, and policy exceptions.
 
--   **[Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-cam-landing-page.md)**
+-   **Continuous Authorization and Monitoring**
 
     Continuous Authorization and Monitoring employs the seven steps defined by the Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 

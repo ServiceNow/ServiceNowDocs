@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d147041e77">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d147037e77">
 
 Field
 
-</th><th align="left" id="d147041e80">
+</th><th align="left" id="d147037e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147041e86">
+</th></tr></thead><tbody><tr><td id="d147037e86">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d147041e95">
+</td></tr><tr><td id="d147037e95">
 
 **Category**
 
@@ -58,7 +58,7 @@ The content type category. The types are:-   Portal Content
 
 See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d147041e134">
+</td></tr><tr><td id="d147037e134">
 
 **Associated widgets**
 
@@ -66,7 +66,7 @@ See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d147041e143">
+</td></tr><tr><td id="d147037e143">
 
 **Active**
 
@@ -74,7 +74,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d147041e153">
+</td></tr><tr><td id="d147037e153">
 
 **Value**
 

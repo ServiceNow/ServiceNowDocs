@@ -34,15 +34,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d154090e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d153974e80">
 
 Option
 
-</th><th align="left" id="d154090e83">
+</th><th align="left" id="d153974e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d154090e89">
+</th></tr></thead><tbody><tr><td id="d153974e89">
 
 **From the Align work window**
 
@@ -65,7 +65,7 @@ You can search for the required planning items by applying filter on the Name co
 
 For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d154090e180">
+</td></tr><tr><td id="d153974e180">
 
 **From the Planning items or Other items tab**
 

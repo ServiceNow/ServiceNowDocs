@@ -64,15 +64,15 @@ It's required that you review your contracts and third parties annually. You can
 
 7.  To export the record, select **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d203836e247">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d203878e247">
 
 Step
 
-</th><th align="left" id="d203836e250">
+</th><th align="left" id="d203878e250">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203836e256">
+</th></tr></thead><tbody><tr><td id="d203878e256">
 
 **Select __File Type__.**
 
@@ -84,7 +84,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d203836e286">
+</td></tr><tr><td id="d203878e286">
 
 **Select __Delivery Type__.**
 
@@ -94,7 +94,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d203836e308">
+</td></tr><tr><td id="d203878e308">
 
 **Select __Export.__**
 

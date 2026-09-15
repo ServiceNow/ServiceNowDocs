@@ -29,15 +29,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, disable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d151504e104">
+<table><thead><tr><th align="left" id="d151490e104">
 
 Option
 
-</th><th align="left" id="d151504e107">
+</th><th align="left" id="d151490e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d151504e113">
+</th></tr></thead><tbody><tr><td id="d151490e113">
 
 **Disable evaluation for a single AI system**
 
@@ -49,7 +49,7 @@ Steps
 4.  Select **Turn off evaluation** to confirm.
 
 
-</td></tr><tr><td id="d151504e146">
+</td></tr><tr><td id="d151490e146">
 
 **Disable evaluation for multiple AI systems**
 

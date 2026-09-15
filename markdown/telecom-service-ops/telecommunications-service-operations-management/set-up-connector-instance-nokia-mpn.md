@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 3
 keywords: [Nokia MPN, connector instance, Elastic, fault management, alarm collection]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]

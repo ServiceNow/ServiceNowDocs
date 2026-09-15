@@ -33,15 +33,15 @@ You can optionally override which metrics are evaluated for specific external AI
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d322728e132">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d322689e132">
 
 Option
 
-</th><th align="left" id="d322728e135">
+</th><th align="left" id="d322689e135">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322728e141">
+</th></tr></thead><tbody><tr><td id="d322689e141">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +54,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d322728e177">
+</td></tr><tr><td id="d322689e177">
 
 **Remove one or more metrics**
 

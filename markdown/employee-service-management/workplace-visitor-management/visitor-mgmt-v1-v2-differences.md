@@ -7,7 +7,7 @@ release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 5
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---

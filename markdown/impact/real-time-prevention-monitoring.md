@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/real-time-prevention-monitoring.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 3
 keywords: [real-time prevention, AI code fix, Otto, Scan Engine, technical debt prevention]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]

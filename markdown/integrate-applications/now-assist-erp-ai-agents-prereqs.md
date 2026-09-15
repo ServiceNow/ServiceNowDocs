@@ -20,7 +20,7 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 ## Check status of assistants
 
-ServiceNow Otto for Virtual Agent and the ServiceNow Otto panel must be on. For information about how to check the status of assistants, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-llm-va.md).
+ServiceNow Otto for Virtual Agent and the ServiceNow Otto panel must be on. For information about how to check the status of assistants, see .
 
 ## Activate conversational skills
 

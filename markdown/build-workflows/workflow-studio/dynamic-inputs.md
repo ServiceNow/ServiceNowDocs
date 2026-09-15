@@ -16,7 +16,7 @@ breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows
 
 Generate a list of action inputs or input values each time that someone configures the action in a flow. Dynamic inputs can display a list of related action inputs, a list of fields from a record, or a list of options available in a choice list.
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin. Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md). Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
 
 During flow design, dynamic inputs retrieve values and display them as inputs within an action dynamically. These types of dynamic inputs are available to action authors.
 
@@ -227,7 +227,7 @@ String
 
 -   **Consider dynamic inputs for third-party integrations**
 
-    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
+    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
 
 -   **Be aware of the time required to retrieve large amounts of data**
 

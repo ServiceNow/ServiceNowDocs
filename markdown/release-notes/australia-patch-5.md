@@ -46,13 +46,13 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 -   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/integration-hub-rn.md)**
 -   **[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-usage-dashboard.md)**
 
-    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see .
+    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see [Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md).
 
 -   **[Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md)**
 
     Updates to OAUTHBEARER, Token endpoint URL, Client ID, Client Secret, Scope, and OAUTH extensions.
 
--   ****
+-   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
 
     Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
 
@@ -133,7 +133,7 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 
     Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
 
--   ****
+-   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**
 
     View integration request counts, data egress volume, and domain-level usage.
 

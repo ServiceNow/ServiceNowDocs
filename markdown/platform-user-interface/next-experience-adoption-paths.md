@@ -39,9 +39,9 @@ If you're an existing customer who has made any of the following modifications t
 
 You can use the following tools and APIs with your implementation partner to help adjust your customizations to work well with the new Next Experience theme:
 
--   [Scriptable PolarisUI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
+-   Scriptable PolarisUI API
 -   [Next Experience client scripting globals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-exp-client-script-globals.md)
--   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
+-   Jelly tags
 
 ## Existing customer who upgraded previously
 

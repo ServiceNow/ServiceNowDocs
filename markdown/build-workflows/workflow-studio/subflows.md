@@ -191,7 +191,7 @@ Reasons to use a subflow instead of a flow include:
     -   To configure parallel subflows, launch each subflow without a wait and then use wait for condition to wait for each subflow to be terminal \(complete, error, canceled\)
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
 
 -   **Avoid the 10-item limit in the error-handling-process**
 

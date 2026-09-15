@@ -1,0 +1,45 @@
+---
+title: IT Service Management release notes
+description: IT Service Management has new and updated features in the Australia release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/it-service-management-rn-landing.html
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+---
+
+# IT Service Management release notes
+
+IT Service Management has new and updated features in the Australia release.
+
+-   **[Change Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/change-management-rn.md)**  
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Australia release.
+-   **[DevOps Change Velocity release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/devops-change-velocity-rn.md)**  
+The ServiceNow® DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Australia release.
+-   **[Digital End-User Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/digital-end-user-experience-rn.md)**  
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
+-   **[Incident Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/incident-management-rn.md)**  
+The ServiceNow® Incident Management application helps you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Australia release.
+-   **[ITSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/itsm-mcp-server-rn.md)**  
+Using the ServiceNow® ITSM MCP Server application connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
+-   **[ITSM Employee Slate for Moveworks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/itsm-employeeslate-moveworks-rn.md)**  
+The ServiceNow® ITSM Employee Slate for Moveworks application surfaces active outages, scheduled maintenance, and trending incidents directly on the employee home page. ITSM Employee Slate for Moveworks is a new application in the Australia release.
+-   **[Simplified IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-native-it-service-desk-rn.md)**  
+The ServiceNow® IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).
+-   **[L1 IT Service Desk AI Specialist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/l1-service-desk-ai-specialist-rn.md)**  
+The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as a software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Australia release. See the following sections for release notes by version.
+-   **[L1 IT Service Desk AI Specialist release notes]()**  
+The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as a software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Australia release. See the following sections for release notes by version.
+-   **[ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)**  
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Australia release.
+-   **[On-Call Scheduling release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/on-call-scheduling-rn.md)**  
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+-   **[Service Operations Workspace for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/service-operations-workspace-itsm-rn.md)**  
+The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
+-   **[Workforce Optimization for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/workforce-optimization-for-itsm-rn.md)**  
+The ServiceNow® Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Australia release, but it will be deprecated in a future release.
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+

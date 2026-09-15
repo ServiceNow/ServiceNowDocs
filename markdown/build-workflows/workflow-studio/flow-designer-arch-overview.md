@@ -32,7 +32,7 @@ Flow processing occurs in this sequence.
 
 -   **1. Process flow triggers and API calls**
 
-    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see Execution order of scripts and engines. Typically, How business rules work and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
+    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md). Typically, [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md) and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
 
 -   **2. Process events in the queue**
 
@@ -148,12 +148,12 @@ For collision avoidance to work, both users must be in the same application scop
 
 Control access to Workflow Studio processes and records.
 
--   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the delegated development permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see Developer permissions.
+-   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-permissions.md).
 -   Administrators can grant access to Workflow Studio flows by directly assigning users the flow\_designer user role, which includes the role to view flow execution details.
 
     **Warning:** Directly granting a user the flow\_designer role is equivalent to giving the user the admin role, because Workflow Studio can run flows as the System user, which has access to all tables and all database operations.
 
--   Flow and action designers can use standard Application access settings to manage how their content interacts with other applications.
+-   Flow and action designers can use standard [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md) to manage how their content interacts with other applications.
 
 ## Action limit
 

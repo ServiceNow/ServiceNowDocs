@@ -23,7 +23,7 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
     **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-    For information about installing ServiceNow Otto for Creator, see 
+    For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
 
 -   You can only generate recommendations for placeholder activities in a generated playbook outline. To learn how to generate a playbook outline, see [Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md).
 -   Role required:

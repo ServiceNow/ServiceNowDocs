@@ -55,15 +55,15 @@ Global metric configuration determines which metrics evaluate every external AI 
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases the processing performed to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d71104e180">
+<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d71097e180">
 
 Option
 
-</th><th align="left" id="d71104e183">
+</th><th align="left" id="d71097e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d71104e189">
+</th></tr></thead><tbody><tr><td id="d71097e189">
 
 **Add metrics**
 
@@ -75,7 +75,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d71104e219">
+</td></tr><tr><td id="d71097e219">
 
 **Remove metrics**
 

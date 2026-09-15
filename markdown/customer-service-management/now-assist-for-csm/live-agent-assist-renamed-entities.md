@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [Live interaction recommendations AI agent, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---

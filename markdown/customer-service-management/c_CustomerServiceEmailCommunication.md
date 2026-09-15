@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CustomerServiceEmailCommunication.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 5
 keywords: [email, omnichannel, configure]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]

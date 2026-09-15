@@ -55,7 +55,7 @@ Use these general guidelines when using the Send Notification action.
 
 -   **Use a Integration Hub spoke action for other types of notifications**
 
-    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see .
+    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see [Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/spokes-list.md).
 
 
 **Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)

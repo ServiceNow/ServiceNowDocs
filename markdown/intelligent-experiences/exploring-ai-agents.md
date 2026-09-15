@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 keywords: [AI Agents, agentic AI]
 breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]

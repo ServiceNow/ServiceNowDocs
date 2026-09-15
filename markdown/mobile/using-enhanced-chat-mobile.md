@@ -42,7 +42,7 @@ If your request is unclear or ambiguous, the agent will prompt you with clarifyi
 
 Suggested actions provide you with next steps you can take related to your Virtual Agent conversation. After completing a chat topic or request, these suggestions appear under a **Here's what you can do next** header. Selecting a suggested action initiates it directly in the same conversation, carrying over any relevant details such as your name.
 
-For more information on configuration, see 
+For more information on configuration, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)
 
 ## Knowledge base citations
 
@@ -111,7 +111,7 @@ You can find information about people in your organization if you have Knowledge
 
 ## Additional resources
 
-For more detailed information on all of standard chat’s specific skills, see .
+For more detailed information on all of standard chat’s specific skills, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
 For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 

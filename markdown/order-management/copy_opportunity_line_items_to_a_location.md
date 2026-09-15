@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---

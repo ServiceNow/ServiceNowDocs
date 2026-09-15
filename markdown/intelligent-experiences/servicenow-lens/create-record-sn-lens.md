@@ -177,15 +177,15 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205405e896">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205381e896">
 
 Option
 
-</th><th align="left" id="d205405e899">
+</th><th align="left" id="d205381e899">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205405e905">
+</th></tr></thead><tbody><tr><td id="d205381e905">
 
 **If the auto-filled text looks good**
 
@@ -193,7 +193,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d205405e917">
+</td></tr><tr><td id="d205381e917">
 
 **If the auto-filled text requires changes**
 
@@ -323,15 +323,15 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205405e1553">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d205381e1553">
 
 Option
 
-</th><th align="left" id="d205405e1556">
+</th><th align="left" id="d205381e1556">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205405e1562">
+</th></tr></thead><tbody><tr><td id="d205381e1562">
 
 **If the auto-filled text looks good**
 
@@ -339,7 +339,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d205405e1574">
+</td></tr><tr><td id="d205381e1574">
 
 **If the auto-filled text requires changes**
 

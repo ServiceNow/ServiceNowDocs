@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 2
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -47,15 +47,15 @@ For collection types and format details, see [Discovery IP address configuration
 
 5.  Enter the required information for each IP data type you're adding.
 
-<table id="choicetable_pxd_mzd_ckc"><thead><tr><th align="left" id="d243794e157">
+<table id="choicetable_pxd_mzd_ckc"><thead><tr><th align="left" id="d243721e157">
 
 IP data type
 
-</th><th align="left" id="d243794e160">
+</th><th align="left" id="d243721e160">
 
 What to enter
 
-</th></tr></thead><tbody><tr><td id="d243794e166">
+</th></tr></thead><tbody><tr><td id="d243721e166">
 
 **IP address list**
 
@@ -63,7 +63,7 @@ What to enter
 
 Enter a name, then enter one or more IP addresses separated by commas.
 
-</td></tr><tr><td id="d243794e175">
+</td></tr><tr><td id="d243721e175">
 
 **IP ranges**
 
@@ -71,7 +71,7 @@ Enter a name, then enter one or more IP addresses separated by commas.
 
 Enter each range as startIP-endIP, separated by commas. For example: `10.0.0.1-10.0.0.254`
 
-</td></tr><tr><td id="d243794e188">
+</td></tr><tr><td id="d243721e188">
 
 **IP networks**
 
@@ -79,7 +79,7 @@ Enter each range as startIP-endIP, separated by commas. For example: `10.0.0.1-1
 
 Enter each network in CIDR notation, separated by commas. For example: `192.168.1.0/24`
 
-</td></tr><tr><td id="d243794e201">
+</td></tr><tr><td id="d243721e201">
 
 **Discovery range set**
 

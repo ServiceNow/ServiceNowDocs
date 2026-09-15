@@ -19,7 +19,7 @@ Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\),
 
 ## Licensing
 
-Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/licensing.md).
+Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see .
 
 ## ServiceNow AI Platform plugins
 

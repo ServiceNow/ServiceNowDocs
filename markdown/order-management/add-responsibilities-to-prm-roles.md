@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-responsibilities-to-prm-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

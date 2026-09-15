@@ -54,9 +54,9 @@ Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the follo
 
 Choose the **UXR Base Experience Shell**.
 
- The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see .
+ The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-shells-uibuilder.md).
 
-</td></tr><tr><td id="d77006e138">
+</td></tr><tr><td id="d77006e139">
 
 **Landing path**
 
@@ -64,7 +64,7 @@ Choose the **UXR Base Experience Shell**.
 
 The landing path is the prefix that people will use to reach your experience homepage. It matches your experience name by default. To designate a page as the homepage, you will need to create a page that has a matching path.
 
-</td></tr><tr><td id="d77006e147">
+</td></tr><tr><td id="d77006e148">
 
 **Roles**
 
