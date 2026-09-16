@@ -336,7 +336,7 @@ The topics you want your content to appear in under a taxonomy. For more informa
 
 </td><td>
 
-The following fields appear when **Community Content** is the content type for content selected. For more information, see [Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_communities-content-types.md).
+The following fields appear when **Community Content** is the content type for content selected. For more information, see Community content types.
 
 </td><td>
 
@@ -352,7 +352,7 @@ Forum
 
 </td><td>
 
-The forum you want to post the community content.For more information on forums, see [Create a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-forum.md).
+The forum you want to post the community content.For more information on forums, see Create a forum.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ Topics
 
 The area of interest that users can discuss.Click to select a topic that is within the forum.
 
- For more information on topics, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-topic.md).
+ For more information on topics, see Create a topic.
 
 </td></tr><tr><td>
 

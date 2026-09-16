@@ -7,7 +7,7 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 keywords: [User Experience Analytics, conversion funnels, Employee Slate, analytics navigation, user behavior tracking]
 breadcrumb: [Analytics and reporting, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
@@ -67,9 +67,9 @@ Conversion funnels help you interpret how employees move through specific workfl
 
 6.  Select a specific event to view detailed analytics and user flow data.
 
-    Each event metrics detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, selecting buttons, and others. For more information, see [View Usage Insights Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/view-events.md).
+    Each event metrics detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, selecting buttons, and others. For more information, see .
 
-7.  Follow instructions available at [Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-funnel.md) and [View Usage Insights Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/view-events.md) for any additional configuration.
+7.  Follow instructions available at  and  for any additional configuration.
 
 
 ## Result
@@ -85,9 +85,9 @@ EmployeeWorks Web App provides similar analytics. Navigate to **Platform Analyti
 **Related topics**  
 
 
-[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/funnel-reports-uxa.md)
+[bundle-par.funnel-reports-uxa]
 
-[Configure analytics settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/enable-user-experience-analytics.md)
+[bundle-par.config-analytics-settings]
 
-[Edit a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/edit-funnel.md)
+[bundle-par.edit-funnel]
 

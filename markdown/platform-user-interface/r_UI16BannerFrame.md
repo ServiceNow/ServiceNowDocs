@@ -92,8 +92,8 @@ Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/Servi
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md).
--   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_ResponsiveDashboards.md).
+-   Dashboards in the Analytics Center.
+-   Working with responsive dashboards.
 
 </td></tr><tr><td>
 
@@ -217,8 +217,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-channel.md) using the **Create Channel** option.
--   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   Add channels using the **Create Channel** option.
+-   Modify channel information. Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr><td>
 
@@ -230,8 +230,8 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
+    -   Apply notification conditions, such as schedules and filters, that affect the delivery of the notification.
+-   Create personal notifications, which are subscriptions to specific notifications that matter to you.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

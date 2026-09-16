@@ -24,7 +24,7 @@ Role required: sn\_imt\_tracing.wearable\_manager
 
 ## About this task
 
-You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see [Easy import data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_EasyImport.md).
+You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see Easy import data from a list.
 
 ## Procedure
 

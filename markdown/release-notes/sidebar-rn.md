@@ -18,7 +18,7 @@ The ServiceNow® Sidebar application enables agents and subject matter experts t
 
 Prevent Sidebar discussions from becoming cluttered by using threaded replies when responding to messages.
 
-See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -26,6 +26,6 @@ See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich
 
 -   **Activation information**
 
-    Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/install-sidebar.md).
+    Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see .
 
 

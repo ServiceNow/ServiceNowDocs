@@ -72,6 +72,6 @@ There are multiple ways to add the check box and text for the different task typ
 
 -   **Automate signing requests using templates**
 
-    For more information on using DocuSign templates and automating signing requests using templates, see [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automate-docusign-templates.md).
+    For more information on using DocuSign templates and automating signing requests using templates, see How to automate signing requests using templates.
 
 

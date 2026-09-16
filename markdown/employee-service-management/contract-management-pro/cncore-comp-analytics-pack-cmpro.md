@@ -83,7 +83,7 @@ Provides an immediate insight from your existing contract request data.
 
  Run this job when you first activate Analytics Pack for Contract Management Pro or create indicators. When collecting data for the first time, the job generates scores and snapshots for existing records.
 
- For more information on running historical data collection jobs, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
+ For more information on running historical data collection jobs, see .
 
 </td></tr></tbody>
 </table>**Note:** The jobs must be run in the following sequence:

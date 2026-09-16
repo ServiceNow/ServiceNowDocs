@@ -71,7 +71,7 @@ Pre-integrated with IT Service Management.
 
  Can also be integrated with HR Service Delivery and other Enterprise Service Management applications.
 
- Collaboration services. For information about Collaboration services, see [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/collab-services-tcm.md).
+ Collaboration services. For information about Collaboration services, see Collaboration services.
 
 </td><td>
 
@@ -98,7 +98,7 @@ Build custom integrations
 
 </td><td>
 
-For information about building custom integrations, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/zoom-spoke.md).
+For information about building custom integrations, see Zoom spoke.
 
 </td><td>
 

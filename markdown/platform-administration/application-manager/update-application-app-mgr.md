@@ -47,7 +47,7 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 6.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/manage-customizations-store-apps.md).
 
 7.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
@@ -55,15 +55,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 8.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d93797e243">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d94006e244">
 
 Installation option
 
-</th><th align="left" id="d93797e246">
+</th><th align="left" id="d94006e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d93797e252">
+</th></tr></thead><tbody><tr><td id="d94006e253">
 
 **Install now**
 
@@ -73,7 +73,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d93797e276">
+</td></tr><tr><td id="d94006e277">
 
 **Install later**
 

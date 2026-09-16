@@ -100,7 +100,7 @@ Use HR walk-up to support HR requests raised by deskless workers.
 
 -   Role required: sn\_hr\_core.case\_writer
 -   Verify that the Walk-up Experience \(com.snc.walkup\) and Employee Center Pro \(sn\_ex\_sp\_pro\) plugins are installed.
--   Employee must raise a walk-up appointment request. See [Plan your walk-up experience visit with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/plan-your-visit.md) for more information. Based on the service and location, the appointment is assigned to an HR agent.
+-   Employee must raise a walk-up appointment request. See  for more information. Based on the service and location, the appointment is assigned to an HR agent.
 
 ### Procedure
 

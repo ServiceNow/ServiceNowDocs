@@ -128,7 +128,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
+ requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 

@@ -30,7 +30,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 2.  Activate the \[Enterprise Service Management Integrations Framework\] application from the ServiceNow® Store.
 
-3.  Configure the [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workday-hr-spoke.md) to pull data from Workday system.
+3.  Configure the Workday HR Spoke to pull data from Workday system.
 
 4.  Create subflows aligning with Template Integration Gateway.
 

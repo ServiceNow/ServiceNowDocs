@@ -32,7 +32,7 @@ Search sources have simple and advanced configurations.
 
     Define a table within your ServiceNow instance as a source of searchable data. To learn more, see [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/add-table-search-source.md).
 
-    When you create a simple search source, Service Portal uses the search engine settings configured on your instance. To learn more, see [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ZingTextSearch.md).
+    When you create a simple search source, Service Portal uses the search engine settings configured on your instance. To learn more, see Zing text indexing and search engine.
 
 -   **Advanced**
 
@@ -43,7 +43,7 @@ Search sources have simple and advanced configurations.
 
 ## Text index groups
 
-A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/index-multiple-tables.md).
+A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see Configure multiple tables for indexing and searching.
 
 Associate a portal with a text index group to create common search rules and to combine search results from all search sources in the group. If you have a custom search source or portal, consider whether you want to use the base system **portal\_index\_group** text index group, or create your own text index group. The base system text index group includes the Catalog items and Knowledge tables. When a user searches for an item in Service Portal, they see combined results from these tables. To add an index group to a portal, see [Add a text index group to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/create-text-index-group.md).
 
@@ -60,7 +60,7 @@ Enable your end users to filter search results for a more meaningful result set.
 -   Fields in a table such as **Active** or **Author**.
 -   Query conditions such as **\[Updated\]\[After\]\[Last week\]**.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-single-table-for-indexing.md).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: .
 
 Search facets render in the Faceted Search widget on the sp\_search page. In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-facets.md).
 

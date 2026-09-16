@@ -48,13 +48,13 @@ Map the topics with deflection patterns of the **HR VA Default** deflection trac
 
 ## What to do next
 
-Set up the fulfillment automation level of the HR catalog items, see [Set fulfillment automation level of catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/set-fulfillment-automation-level-sdb.md).
+Set up the fulfillment automation level of the HR catalog items, see Set fulfillment automation level of catalog item.
 
 You may also configure the dashboard indicators KPIs, add contributing indicators, or update the More information card, as required.
 
-1.  For more information on configuring the Success Dashboard indicators KPIs, see [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/config-kpis-sdb.md).
-2.  For more information on adding contributing indicators, see [Add contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/add-contributing-indicators.md).
-3.  For more information on updating the More information card, see [Update more information cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/update-sidepanel-more.md).
+1.  For more information on configuring the Success Dashboard indicators KPIs, see Configure Success Dashboard indicators KPIs.
+2.  For more information on adding contributing indicators, see Add contributing indicators.
+3.  For more information on updating the More information card, see Update more information cards.
 
 **Related topics**  
 

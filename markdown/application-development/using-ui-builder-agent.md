@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/using-ui-builder-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
 breadcrumb: [Use, UI generation, Builder library, Developing your application, Building applications]
 ---

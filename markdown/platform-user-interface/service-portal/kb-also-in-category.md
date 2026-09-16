@@ -16,7 +16,7 @@ breadcrumb: [Knowledge Management widgets, Widget library, Using portal widgets,
 
 List of articles also included within a particular category. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-The information that appears in the KB also in Category widget is determined by the knowledge article child categories. For more information, see [Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_DefineAKnowledgeCategory.md).
+The information that appears in the KB also in Category widget is determined by the knowledge article child categories. For more information, see Define a knowledge article category.
 
 \[Omitted image "WidgetKBAlsoInCategory.png"\] Alt text: Knowledge Base also in Category widget
 

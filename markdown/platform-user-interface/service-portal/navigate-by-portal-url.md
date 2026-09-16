@@ -93,7 +93,7 @@ Additional parameters are required by some pages to load dynamic content by look
 </td></tr></tbody>
 </table>For example, the URL for a public knowledge base page in Spanish in Service Portal could be `https://<instance>/sp/es/faq/what-is-a-cookie?id=kb_article&sys_id=KB0000007`.
 
-**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/article-versioning.md).
+**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see Article versioning.
 
 ## Referencing a page ID
 

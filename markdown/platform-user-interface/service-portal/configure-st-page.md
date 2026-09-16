@@ -214,5 +214,5 @@ Configure summary fields on the standard ticket page such that the page displays
 
 [Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
 
-[Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
+[bundle-platai.now-assist-in-standard-ticket-page]
 

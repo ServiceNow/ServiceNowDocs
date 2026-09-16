@@ -79,7 +79,7 @@ Site \[cmdb\_ci\_site\]
 
 Captures and maintains the location-specific attributes for each network site, including the network centers, buildings, floors, and rooms where the equipment is located.
 
- The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+ The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Hardware \[cmdb\_ci\_hardware\]
 
 Represents the physical units that contain the telecommunications equipment, including the cages, bays, cabinets, slots, and relay racks. An equipment holder can contain the other equipment holders. For example, the line-ups contain the individual relay racks and each relay rack contains the equipment shelves.
 
- Use the equipment holder records to track and manage your network assets. To learn more, see [ef50e6a82895815b2866410c0972666bc0a3bad3.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+ Use the equipment holder records to track and manage your network assets. To learn more, see [97cbb0ebaaf9181e528f50a636a270ad5566c3e1.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 
  To learn more about the extension classes of the equipment holder, see [Equipment holder extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-holder-types.md).
 
@@ -209,5 +209,5 @@ Represent power, HVAC, network, and their connectivity in a data center.To learn
 **Related topics**  
 
 
-[bundle-platcap.cmdb-ci-class-models-network-inventory]
+[Network Inventory \(NI\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-network-inventory.md)
 

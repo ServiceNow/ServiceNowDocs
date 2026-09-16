@@ -60,7 +60,7 @@ A data gathering action collects data to be used by other actions. Data gatherin
 
 ## Supported dynamic input data types
 
-Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_FieldTypes.md).
+Dynamic inputs support a limited number of ServiceNow AI Platform data types. You can use the example JSON to build your own dynamic inputs. You can change the values of the label and name properties to met your needs. The type property must specify a ServiceNow AI Platform data type name. For more information about ServiceNow AI Platform field data types and how to configure them, see .
 
 <table id="table_xv2_2lh_xcc"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Example JSON
 
 </th></tr></thead><tbody><tr><td>
 
-[Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ChoiceLists.md)
+Choice
 
 </td><td>
 
@@ -141,7 +141,7 @@ Email
 
 </td></tr><tr><td>
 
-[HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseHTMLFields.md)
+HTML
 
 </td><td>
 
@@ -189,7 +189,7 @@ Password 2
 
 </td></tr><tr><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ReferenceField.md)
+Reference
 
 </td><td>
 

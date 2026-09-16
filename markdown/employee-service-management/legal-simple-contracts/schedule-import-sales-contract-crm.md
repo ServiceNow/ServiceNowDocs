@@ -50,10 +50,10 @@ Based on the number of records pulled for your system, you can modify the values
 
 3.  Configure the data import job as needed.
 
-    For more information on configuring a data import set schedule, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md) .
+    For more information on configuring a data import set schedule, see Schedule a data import .
 
 4.  To pull data from a different set of fields from the CRM system, update the corresponding transformation maps.
 
-    For more information on configuring a transformation map, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_CreateATransformMap.md) .
+    For more information on configuring a transformation map, see Create a transform map .
 
 

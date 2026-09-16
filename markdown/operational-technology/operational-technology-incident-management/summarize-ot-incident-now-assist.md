@@ -48,15 +48,15 @@ An OT incident summary provides you with a concise summary of an incident. The s
 
 6.  Manage the OT incident summary using the available options.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49432e169">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49452e169">
 
 Option
 
-</th><th align="left" id="d49432e172">
+</th><th align="left" id="d49452e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d49432e178">
+</th></tr></thead><tbody><tr><td id="d49452e178">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -67,7 +67,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d49432e205">
+</td></tr><tr><td id="d49452e205">
 
 **Expand or collapse the summary**
 
@@ -75,7 +75,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text:\) to view a collapsed summary.
 
-</td></tr><tr><td id="d49432e224">
+</td></tr><tr><td id="d49452e224">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) to
 
 If the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).**Note:** This feedback improves the generative AI model and can help improve future versions of this skill.
 
-</td></tr><tr><td id="d49432e245">
+</td></tr><tr><td id="d49452e245">
 
 **Copy the incident summary**
 
@@ -91,7 +91,7 @@ If the summary was helpful, select the helpful icon \(\[Omitted image "icon-help
 
 To reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\).
 
-</td></tr><tr><td id="d49432e260">
+</td></tr><tr><td id="d49452e260">
 
 **View the information about the incident summary**
 

@@ -60,5 +60,5 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 ## What to do next
 
-Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting-landing-page.md).
+Generate reports on the data you imported to the Log \[sn\_imt\_core\_log\] table using Reporting.
 

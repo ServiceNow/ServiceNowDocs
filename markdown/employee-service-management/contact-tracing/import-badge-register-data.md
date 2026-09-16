@@ -60,7 +60,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 **Related topics**  
 
 
-[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md)
+[bundle-crint.t_ScheduleADataImport]
 
-[Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md)
+[bundle-crint.t_ScheduleADataImport]
 

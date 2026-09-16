@@ -31,15 +31,15 @@ The **Issues** related list appears on a plan record when GRC: Profiles is insta
 
 2.  Complete the following steps to create or manage an issue from a plan record.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d287612e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d287469e109">
 
 Step
 
-</th><th align="left" id="d287612e112">
+</th><th align="left" id="d287469e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287612e118">
+</th></tr></thead><tbody><tr><td id="d287469e118">
 
 **Create or add an issue from the plan record**
 
@@ -72,7 +72,7 @@ Use this option when you want to associate an existing issue with the plan as an
 
 The issue association is removed from the plan; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d287612e193">
+</td></tr><tr><td id="d287469e193">
 
 **Link a plan from the issue record**
 

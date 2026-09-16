@@ -44,11 +44,11 @@ Industrial Workspace
 
 The OT CMDB search feature uses the following agentic workflow and skill:
 
-    -   ServiceNow Otto for CMDB's Search CMDB agentic workflow. For more information, see [Search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-search.md).
+    -   ServiceNow Otto for CMDB's Search CMDB agentic workflow. For more information, see Search the CMDB.
 
 **Note:** You must have the cmdb\_ot\_viewer role at minimum to use the CMDB search agentic workflow.
 
-    -   ServiceNow AI Platform's Analytics Query Generator skill. For more information, see the [Query Generation store listing](https://store.servicenow.com/store/app/b779efee1be06a50a85b16db234bcb4e#description) and [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/enable-query-generation.md).
+    -   ServiceNow AI Platform's Analytics Query Generator skill. For more information, see the [Query Generation store listing](https://store.servicenow.com/store/app/b779efee1be06a50a85b16db234bcb4e#description) and .
 -   Agentic workflow for uploading, importing, and validating your OT device data with the Service Graph Connector for Microsoft Excel.
 
 </td></tr></tbody>

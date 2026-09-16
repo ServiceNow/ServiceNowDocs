@@ -19,7 +19,7 @@ Activate a system property to display the **Role** field when configuring intern
 
 ## Before you begin
 
-Docusign starting with version 4.4.3 must be configured Docusign as your electronic signature provider. For more information, see [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-docusign-authorization-code.md).
+Docusign starting with version 4.4.3 must be configured Docusign as your electronic signature provider. For more information, see .
 
 Role required: admin
 

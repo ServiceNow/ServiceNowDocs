@@ -152,7 +152,7 @@ Build Custom integrations
 
 </td><td>
 
-For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/msteams-spoke.md), and [Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/msteams-comm.md).
+For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/msteams-spoke.md), and Microsoft Teams Communications spoke.
 
 </td><td>
 

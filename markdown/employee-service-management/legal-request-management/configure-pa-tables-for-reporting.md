@@ -48,7 +48,7 @@ The record producer uses variables to store field information submitted via inta
 
         **\[Category\] \[is\] \[Compliance \[sn\_lg\_ops\_compliance\]\]**
 
-    For more information, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/c_BusinessRules.md).
+    For more information, see Create a business rule.
 
 
 **Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/legal-ops-administration.md)

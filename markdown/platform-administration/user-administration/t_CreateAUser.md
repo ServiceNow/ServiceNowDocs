@@ -125,7 +125,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to Mark service accounts as internal integration users.
+Select this check box to [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
 </td></tr><tr><td>
 

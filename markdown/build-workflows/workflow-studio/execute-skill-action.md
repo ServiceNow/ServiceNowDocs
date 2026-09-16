@@ -22,7 +22,7 @@ Available as a Now Assist Skill Kit action.
 
 -   **Subscription requirements**
 
-    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see .
 
 -   **Role requirements**
 
@@ -37,31 +37,31 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Choice**
 
-    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Workflow deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
 
 -   **Product**
 
     Data type: **Dynamic Choice**
 
-    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Product deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
 
 -   **Feature**
 
     Data type: **Dynamic Choice**
 
-    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-skill-settings.md).
+    The Feature deployment setting that the Now Assist skill uses. For more information on skill deployment settings, see .
 
 -   **Skill Config**
 
     Data type: **Dynamic Choice**
 
-    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-new-skill.md).
+    The name of the Now Assist skill that you want the action to run. For more information on skill configurations, see .
 
 -   **Skill Inputs**
 
     Data type: **Dynamic Inputs**
 
-    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-new-skill.md).
+    The list of inputs that the Now Assist skill uses. For more information on skill inputs, see .
 
 
 ## Outputs

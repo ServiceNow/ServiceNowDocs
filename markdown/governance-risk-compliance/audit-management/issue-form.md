@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 7
 breadcrumb: [Manually create issues, Audit Issues &amp; Remediation, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

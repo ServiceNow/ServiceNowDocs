@@ -193,7 +193,7 @@ Priority level at which you want the system to run this flow by default. Options
 
 8.  If the generated flow preview does not meet your needs, you can update the Now Assist directions, and select **Rebuild flow**.
 
-    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
 9.  If you want to stop creating a flow and return to the Workflow Studio homepage, you can select **Discard flow**.
 

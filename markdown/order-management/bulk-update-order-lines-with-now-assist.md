@@ -96,15 +96,15 @@ Acknowledged
 
 8.  Choose the order update that you want to perform.
 
-<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d84559e282">
+<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d84554e282">
 
 Action
 
-</th><th align="left" id="d84559e285">
+</th><th align="left" id="d84554e285">
 
 What to do in ServiceNow Otto panel
 
-</th></tr></thead><tbody><tr><td id="d84559e294">
+</th></tr></thead><tbody><tr><td id="d84554e294">
 
 **Bulk update quantity**
 
@@ -114,7 +114,7 @@ What to do in ServiceNow Otto panel
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d84559e312">
+</td></tr><tr><td id="d84554e312">
 
 **Bulk update shipping address**
 
@@ -124,7 +124,7 @@ What to do in ServiceNow Otto panel
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d84559e330">
+</td></tr><tr><td id="d84554e330">
 
 **Apply bulk discount**
 
@@ -135,7 +135,7 @@ What to do in ServiceNow Otto panel
 3.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d84559e351">
+</td></tr><tr><td id="d84554e351">
 
 **Delete order line**
 
@@ -143,7 +143,7 @@ What to do in ServiceNow Otto panel
 
 Specify the top-level order line you want to remove when prompted, then confirm the deletion.
 
-</td></tr><tr><td id="d84559e361">
+</td></tr><tr><td id="d84554e361">
 
 **Create Order case**
 

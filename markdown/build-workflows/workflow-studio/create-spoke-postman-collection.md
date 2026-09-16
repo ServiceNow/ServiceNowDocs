@@ -96,7 +96,7 @@ Description about the custom spoke.
 
     2.  Install the spoke from the Store.
 
-        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+        For more details, see .
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 

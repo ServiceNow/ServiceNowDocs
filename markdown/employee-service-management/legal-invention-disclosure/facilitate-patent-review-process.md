@@ -28,15 +28,15 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 2.  Based on the resolution of the patent application review by the outside counsel, either close the request or indicate that the patent was filed.
 
-<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d110131e69">
+<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d110128e69">
 
 Outside counsel decision
 
-</th><th align="left" id="d110131e72">
+</th><th align="left" id="d110128e72">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d110131e78">
+</th></tr></thead><tbody><tr><td id="d110128e78">
 
 **Accepted**
 
@@ -54,7 +54,7 @@ Actions
     -   If an optional reward for the inventor at the Patent filed stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d110131e153">
+</td></tr><tr><td id="d110128e153">
 
 **Rejected**
 
@@ -72,15 +72,15 @@ Actions
 </td></tr></tbody>
 </table>3.  Once the outside counsel notifies the patent fulfiller about the resolution of the patent application to the patent authorities, either close the request if the patent was rejected or indicate that the patent was granted.
 
-<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d110131e226">
+<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d110128e226">
 
 Outside counsel decision
 
-</th><th align="left" id="d110131e229">
+</th><th align="left" id="d110128e229">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d110131e235">
+</th></tr></thead><tbody><tr><td id="d110128e235">
 
 **Accepted**
 
@@ -99,7 +99,7 @@ Actions
     -   If an optional reward for the inventor at the Patent granted stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d110131e312">
+</td></tr><tr><td id="d110128e312">
 
 **Rejected**
 

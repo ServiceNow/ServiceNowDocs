@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-If you are creating a catalog site in CMS, see [Using the content management system with the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/p_ConfigureContentManagementSystem.md).
+If you are creating a catalog site in CMS, see .
 
 ## Procedure
 

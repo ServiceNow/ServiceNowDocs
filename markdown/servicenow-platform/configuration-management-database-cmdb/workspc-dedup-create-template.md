@@ -178,15 +178,15 @@ When merging duplicate CIs into the main CI:-   Prevents updates to main CI attr
 
 10. **Merge related items**: Select the method to use for merging related items associated with the duplicate CIs into the main CI, and then select **Next**.
 
-<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d152002e547">
+<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d152220e547">
 
 Choice
 
-</th><th align="left" id="d152002e550">
+</th><th align="left" id="d152220e550">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d152002e556">
+</th></tr></thead><tbody><tr><td id="d152220e556">
 
 **Merge default related items**
 
@@ -194,7 +194,7 @@ Description
 
 Merge only related items in the default related items list, from duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d152002e565">
+</td></tr><tr><td id="d152220e565">
 
 **Do not merge any related items**
 
@@ -202,7 +202,7 @@ Merge only related items in the default related items list, from duplicate CIs i
 
 Don't merge related items from any duplicate CI into the main CI.
 
-</td></tr><tr><td id="d152002e574">
+</td></tr><tr><td id="d152220e574">
 
 **Merge all available related items**
 
@@ -210,7 +210,7 @@ Don't merge related items from any duplicate CI into the main CI.
 
 Merge all related items from all duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d152002e583">
+</td></tr><tr><td id="d152220e583">
 
 **Merge related items based on condition**
 

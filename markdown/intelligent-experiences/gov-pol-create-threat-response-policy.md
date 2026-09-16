@@ -51,15 +51,15 @@ A Threat Response policy watches for a specific threat type. Once conditions mat
 
     A follow-up fires only when the policy actually blocks an attempt, not just because it's published.
 
-<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d131557e206">
+<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d131543e206">
 
 Follow-up action
 
-</th><th align="left" id="d131557e209">
+</th><th align="left" id="d131543e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131557e215">
+</th></tr></thead><tbody><tr><td id="d131543e215">
 
 **Create a ticket**
 
@@ -70,7 +70,7 @@ Description
 3.  Select the assignment group that will receive the ticket.
 
 
-</td></tr><tr><td id="d131557e242">
+</td></tr><tr><td id="d131543e242">
 
 **Notify**
 

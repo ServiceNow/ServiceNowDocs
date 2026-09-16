@@ -140,7 +140,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 ## Related ServiceNow applications and features
 
--   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-overview.md)**
+-   **App Engine Studio**
 
     ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 

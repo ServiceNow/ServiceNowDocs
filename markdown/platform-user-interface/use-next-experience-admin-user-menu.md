@@ -39,7 +39,7 @@ Impersonate user
 
 </td><td>
 
-Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ImpersonateAUser.md).
+Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see Impersonate a user.
 
 </td></tr><tr><td>
 

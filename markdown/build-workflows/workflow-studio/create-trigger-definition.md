@@ -18,7 +18,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Before you begin
 
--   Make sure to set your current application to the application that you want your playbook to run in. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
+-   Make sure to set your current application to the application that you want your playbook to run in. For more information, see Application picker.
 -   Role required: admin, playbook.admin, or pd\_trigger\_author
 
 ## Procedure
@@ -57,7 +57,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 9.  To trigger your playbook for tables that extend your selected table, select the **Run On Extended** check box.
 
-    For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md).
+    For more information, see .
 
 10. Click **Update** to finish creating your trigger definition.
 

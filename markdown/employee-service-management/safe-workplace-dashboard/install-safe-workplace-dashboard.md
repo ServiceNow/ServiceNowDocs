@@ -337,5 +337,5 @@ For information about customizing Service Portal widgets, see [Service Portal wi
 -   Number of Workplace Reserved Spaces
 -   PPE Inventory % Change from Prior Day
 
-For information about using Performance Analytics, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/pa-overview.md).
+For information about using Performance Analytics, see Performance Analytics.
 

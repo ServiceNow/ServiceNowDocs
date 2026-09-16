@@ -51,5 +51,5 @@ When you add multiple users to a glide\_list, such as a watch list, the slushbuc
 
 [Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/t_ConfigNotifications4WatchLists.md)
 
-[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailNotifications.md)
+[bundle-platadm.c_EmailNotifications]
 

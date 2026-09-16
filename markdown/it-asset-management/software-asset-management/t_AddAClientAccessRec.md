@@ -7,7 +7,7 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 9
 breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---

@@ -67,7 +67,7 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **Step 3: Configure the MCP client**
 
-    Configure MCP clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connect-mcp-server-client.md)
+    Configure MCP clients to connect to the server and use the tool. For more information, see 
 
 -   **Step 4: Use the playbook from the MCP client**
 

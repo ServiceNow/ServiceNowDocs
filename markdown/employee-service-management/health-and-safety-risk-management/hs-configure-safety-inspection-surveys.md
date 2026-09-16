@@ -25,7 +25,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager, sn\_hs\_rm.safety\_audit\
 
 ## About this task
 
-You can convert your existing Survey templates related to Health and Safety into Smart Assessment templates using the Smart Assessment Engine migration tool. For more information, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-template-migrating.md).
+You can convert your existing Survey templates related to Health and Safety into Smart Assessment templates using the Smart Assessment Engine migration tool. For more information, see .
 
 ## Procedure
 

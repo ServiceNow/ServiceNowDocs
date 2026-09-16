@@ -19,7 +19,7 @@ Create a tool in the MCP Server Console and expose it in an MCP server so that M
 
 ## Before you begin
 
-Make sure you have an existing MCP server to which you want to add the playbook as a tool. For more information, see [Create an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-mcp-server.md)
+Make sure you have an existing MCP server to which you want to add the playbook as a tool. For more information, see Create an MCP server
 
 Create or update existing playbooks to make sure that they are compatible for exposing as an MCP tool. For more information, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
 
@@ -58,7 +58,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 ## What to do next
 
-Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connect-mcp-server-client.md)
+Configure clients to connect to the server and use the tool. For more information, see 
 
 **Parent Topic:**[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-as-mcp-tool.md)
 
