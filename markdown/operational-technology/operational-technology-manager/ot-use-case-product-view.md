@@ -18,7 +18,7 @@ Following the CSDM framework ensures that you meet your primary goal of consiste
 
 ## CSDM framework for OT
 
-You must complete the implementation for the CSDM framework in stages. For more information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/csdm-implementation-stages.md).
+You must complete the implementation for the CSDM framework in stages. For more information, see .
 
 ## Operational Technology product view
 

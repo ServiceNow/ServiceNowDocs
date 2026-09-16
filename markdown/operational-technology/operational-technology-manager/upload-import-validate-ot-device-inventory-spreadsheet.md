@@ -18,7 +18,7 @@ Chat with an AI agent in the ServiceNowOtto panel to begin the process for uploa
 
 ## Before you begin
 
-The ServiceNow Otto panel must be activated. For more information, see [Activate the panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+The ServiceNow Otto panel must be activated. For more information, see Activate the panel standard chat.
 
 Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 

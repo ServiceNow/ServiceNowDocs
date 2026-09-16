@@ -18,7 +18,7 @@ If you enabled unauthenticated user tracking in your portal, you may be required
 
 ## Before you begin
 
-By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/enable-user-experience-analytics.md).
+By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see Configure User Experience Analytics Settings.
 
 Role required: sp\_admin
 

@@ -24,8 +24,8 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following external storage provider spokes for saving documents attached to legal contract requests and signed contract documents:
 
-    -   [Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/googledrive-spoke.md)
-    -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/onedrive-spoke.md)
+    -   Google Drive spoke
+    -   Microsoft OneDrive spoke
 -   **Configure an external storage provider**
 
     The legal configurator can set up the external storage app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
@@ -37,8 +37,8 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following electronic signature provider spokes for contract documents:
 
-    -   [Adobe Acrobat Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/adobe-sign-spoke.md)
-    -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/docusign-spoke.md)
+    -   Adobe Acrobat Sign spoke
+    -   Docusign spoke
 -   **Set up the electronic signature provider app**
 
     The legal configurator can set up the electronic signature app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.md).

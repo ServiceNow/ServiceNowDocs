@@ -33,15 +33,15 @@ You can optionally override which metrics are evaluated for specific ServiceNow 
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d215557e141">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d215529e141">
 
 Option
 
-</th><th align="left" id="d215557e144">
+</th><th align="left" id="d215529e144">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d215557e150">
+</th></tr></thead><tbody><tr><td id="d215529e150">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +54,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d215557e186">
+</td></tr><tr><td id="d215529e186">
 
 **Remove one or more metrics**
 

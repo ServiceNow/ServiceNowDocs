@@ -83,7 +83,7 @@ A system property and scheduled jobs control the data retention policy for conta
 
     3.  Import the downloaded XML file into the Scheduled Job \[sysauto\] table.
 
-        For more information on importing, see [Import a record from the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ImportARecordFromTheTemplate.md).
+        For more information on importing, see Import a record from the template.
 
     4.  Search and open the **Purge Contact Tracing Deleted Records \(Data Retention\)** record.
 

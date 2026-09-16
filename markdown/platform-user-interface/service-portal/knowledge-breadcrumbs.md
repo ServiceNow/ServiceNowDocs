@@ -64,7 +64,7 @@ Search Application
 
 Defines search experience settings for the widget, such as the search engine, search results limit, and suggestions limit. By default, the widget uses the same search application configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+ For more information on defining a search application configuration, see Defining search application configurations.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Search Results Configuration
 
 Defines how search results are displayed after using the widget. By default, the widget uses the same search results configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/define-composite-dataset.md).
+ For more information on defining a search results configuration, see Define a composite dataset.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ AI Search Source Filter
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-sources-ais.md).
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see Defining search sources.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/km-widgets.md)

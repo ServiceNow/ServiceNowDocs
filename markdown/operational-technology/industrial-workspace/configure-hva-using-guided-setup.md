@@ -62,7 +62,7 @@ Set up automatic deletion of obsolete or expired assessment records.
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md)
+[bundle-platux.guided-setup]
 
 [Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 

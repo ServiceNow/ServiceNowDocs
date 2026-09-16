@@ -64,7 +64,7 @@ For more information about OT change requests, see [Create a change request](htt
 
 Incident was resolved with a problem that identified the cause of the incident.
 
-For more information about problems, see [Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/problem-mgmt-lifecycle.md).
+For more information about problems, see .
 
 -   **Resolved by request**
 

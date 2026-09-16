@@ -30,7 +30,7 @@ Role required: admin
 
 1.  Setup Zoom to enable virtual meeting.
 
-    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-zoom.md)
+    Refer to the Create a connected app in Zoom topic in 
 
     **Note:** While setting up zoom, ensure the following:
 

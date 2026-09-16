@@ -34,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d562059e112">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d562055e112">
 
 Field
 
-</th><th align="left" id="d562059e115">
+</th><th align="left" id="d562055e115">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d562059e121">
+</th></tr></thead><tbody><tr><td id="d562055e121">
 
 **Name**
 
@@ -50,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d562059e130">
+</td></tr><tr><td id="d562055e130">
 
 **Type**
 
@@ -58,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d562059e139">
+</td></tr><tr><td id="d562055e139">
 
 **Path**
 
@@ -66,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d562059e148">
+</td></tr><tr><td id="d562055e148">
 
 **Script**
 

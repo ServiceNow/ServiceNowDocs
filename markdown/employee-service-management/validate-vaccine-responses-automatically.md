@@ -67,7 +67,7 @@ Validation subflow
 
 </td><td>
 
-The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md).If you create your own subflow, it must have the same inputs and outputs as the template subflow.
+The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see Create a flow.If you create your own subflow, it must have the same inputs and outputs as the template subflow.
 
 </td></tr><tr><td>
 

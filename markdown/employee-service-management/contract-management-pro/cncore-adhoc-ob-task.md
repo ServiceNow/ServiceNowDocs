@@ -28,15 +28,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d298434e64">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d298422e64">
 
 Method
 
-</th><th align="left" id="d298434e67">
+</th><th align="left" id="d298422e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d298434e73">
+</th></tr></thead><tbody><tr><td id="d298422e73">
 
 **Contract Workspace**
 
@@ -49,7 +49,7 @@ Steps
 5.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d298434e121">
+</td></tr><tr><td id="d298422e121">
 
 **Workspace used by your application**
 

@@ -42,7 +42,7 @@ Set up Oracle HCM for HR Service Delivery to pull worker data from Oracle HCM in
 
 4.  Set up Oracle HCM spoke.
 
-    For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-oracle-hcm.md).
+    For more information, see set up Oracle HCM Cloud spoke.
 
 5.  Configure integration source properties for HR Service Delivery integration with Oracle Cloud HCM
 

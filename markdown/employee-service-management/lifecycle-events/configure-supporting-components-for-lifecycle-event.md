@@ -104,7 +104,7 @@ Incident
 
 </td><td>
 
-[Create an incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_CreateAnIncidentTemplate.md) To learn more about incident management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_IncidentManagement.md).
+Create an incident template To learn more about incident management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_IncidentManagement.md).
 
 </td></tr><tr><td>
 

@@ -30,7 +30,7 @@ Use the following tools to investigate and resolve unexpected behavior in your c
 
     The following tips can help determine the cause of performance issues in portals:
 
-    -   Determine if the issue is related to the portal or platform-wide by comparing the functionality in both interfaces. For more information about platform performance issues, see [Platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/platform-performance-landing.md).
+    -   Determine if the issue is related to the portal or platform-wide by comparing the functionality in both interfaces. For more information about platform performance issues, see .
     -   Determine if the issue affects the entire portal or specific pages. If all pages in the portal are slow, check if scripted menu items in the header menu or themes with large font or image files could be the cause. If a specific page is slow, use the browser developer console to determine which widget could be the cause.
     -   Check the Log \[syslog\] table for warnings related to large JSON objects causing slowness. If these warnings are appear with the action that causes slowness, this indicates that a widget is using too much data.
     For more information, see the [Six common performance pitfalls in Service Portal and how to avoid them \[KB0634588\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0634588) article in the Now Support Knowledge Base.

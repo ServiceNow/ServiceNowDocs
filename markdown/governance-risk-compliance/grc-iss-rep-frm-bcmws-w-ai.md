@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-iss-rep-frm-bcmws-w-ai.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 keywords: [GRC, business continuity, issue tracking, compliance, Otto AI]
 breadcrumb: [Managing issues from Business Continuity Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]

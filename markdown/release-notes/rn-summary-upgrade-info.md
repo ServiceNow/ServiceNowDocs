@@ -373,7 +373,7 @@ If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2
 3.  In the script, add the use case IDs that you want to migrate to the AI Admin Hub console.
 4.  Select **Run Fix Script**.
 
-For more information, see .
+For more information, see [Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-upgrade-steps.md).
 
 </td></tr><tr><td>
 
@@ -452,7 +452,7 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/download-installer-rpa.md).
+For more information, see Download the RPA applications from RPA Hub.
 
 The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Zurich.
 

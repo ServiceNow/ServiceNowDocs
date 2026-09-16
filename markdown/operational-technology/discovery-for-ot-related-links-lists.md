@@ -28,7 +28,7 @@ Quick Ranges
 
 </td><td>
 
-IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-ip-address-configuration.md).
+IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see Create a Quick IP range for a Discovery schedule.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Run Point Scan
 
 </td><td>
 
-Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/hs-execute-point-scan.md).
+Access to the Execute Point Scan dialog. To learn more, see Execute a point scan.
 
 </td></tr></tbody>
 </table><table id="related-lists"><thead><tr><th>
@@ -83,9 +83,9 @@ History of the results of the current and past OT discovery schedule runs.
 </table>**Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md)
+[bundle-platcap.mid-server-landing]
 
-[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_DiscoveryPortsAndProtocols.md)
+[bundle-itom.r_DiscoveryPortsAndProtocols]
 
-[Create a Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md)
+[bundle-itom.t_ConfigureTheShazzamProbe]
 

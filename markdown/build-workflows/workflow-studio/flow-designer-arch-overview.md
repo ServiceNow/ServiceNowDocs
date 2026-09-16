@@ -148,12 +148,12 @@ For collision avoidance to work, both users must be in the same application scop
 
 Control access to Workflow Studio processes and records.
 
--   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/developer-permissions.md).
+-   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the delegated development permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see Developer permissions.
 -   Administrators can grant access to Workflow Studio flows by directly assigning users the flow\_designer user role, which includes the role to view flow execution details.
 
     **Warning:** Directly granting a user the flow\_designer role is equivalent to giving the user the admin role, because Workflow Studio can run flows as the System user, which has access to all tables and all database operations.
 
--   Flow and action designers can use standard [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationAccessSettings.md) to manage how their content interacts with other applications.
+-   Flow and action designers can use standard Application access settings to manage how their content interacts with other applications.
 
 ## Action limit
 

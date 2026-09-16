@@ -55,7 +55,7 @@ Account
 The name of the account associated with this contract.**Note:**
 
 -   A service contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-account-form.md).
+-   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see .
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-a-consumer-record.md).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see .
 
 </td></tr><tr><td>
 

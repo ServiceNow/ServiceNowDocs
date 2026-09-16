@@ -20,7 +20,7 @@ Connect to the Microsoft Exchange Online spoke by creating a connection.
 
 Ensure the following:
 
-1.  Install Microsoft Exchange Online spoke from the ServiceNow Store. For more information, refer to [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/ms-exch-online-spoke.md).
+1.  Install Microsoft Exchange Online spoke from the ServiceNow Store. For more information, refer to Microsoft Exchange Online spoke.
 
     **Important:** After installing Microsoft Exchange Online spoke, check that the **Data Stream action** field of the Data source **Exchange Online Calendar** is not set to empty. Otherwise, repair the Microsoft Exchange Online spoke plugin.
 
@@ -46,7 +46,7 @@ Synchronize reservations using a connection with the Microsoft Exchange Online s
 
     Refer to the **Before you begin** section.
 
-2.  [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-ms-exch-ol.md).
+2.  Set up Microsoft Exchange Online spoke.
 
     If you are a new customer, in the **Create Connection records for the Microsoft Exchange Online spoke** procedure, perform the following actions:
 

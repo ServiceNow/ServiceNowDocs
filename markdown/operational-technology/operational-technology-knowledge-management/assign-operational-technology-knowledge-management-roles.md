@@ -24,7 +24,7 @@ Role required: admin
 
 If you're assigned a Knowledge Management role, you can use the Operational Technology Knowledge Management capabilities.
 
-**Note:** The user criteria determine the access to knowledge articles. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/user-access-knowledge.md).
+**Note:** The user criteria determine the access to knowledge articles. For more information, see .
 
 For more information about the Knowledge Management roles applicable to Operational Technology Knowledge Management, see [Operational Technology Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-roles.md).
 

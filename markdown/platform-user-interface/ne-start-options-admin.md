@@ -40,6 +40,6 @@ The start page that you configure should address your needs and the needs of you
     -   [Configure per-user landing pages in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
-    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_SetDashboardsAsHome.md).
+    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see .
 
 

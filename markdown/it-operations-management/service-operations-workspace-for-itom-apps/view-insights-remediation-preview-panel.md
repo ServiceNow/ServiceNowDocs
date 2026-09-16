@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 1
 breadcrumb: [Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---

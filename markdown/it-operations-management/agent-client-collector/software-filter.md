@@ -7,7 +7,7 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 keywords: [Software Asset Management, SAM, inventory, filter, Agent Client Collector]
 breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]

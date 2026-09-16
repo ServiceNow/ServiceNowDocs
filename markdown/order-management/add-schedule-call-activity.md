@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-sch
 release: zurich
 topic_type: task
 last_updated: "2025-11-11"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -18,7 +18,7 @@ Add a schedule call activity in your sequences to support telesales workflows.
 
 Review feature support information in [Compatibility information for Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/compatibility-matrix-upgrade-info.md).
 
-To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see [Install Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/install-omnichannel-callback.md).
+To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see .
 
 Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/grant-delegated-developer-permissions.md).
 
@@ -40,7 +40,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 
 5.  In the sequence diagram, create a stage to add the activity.
 
-    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
+    For more information, see .
 
 6.  Within a stage, select the Add icon \[Omitted image "circle-plus-fill-24.svg"\] Alt text:.
 
@@ -64,9 +64,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 **Related topics**  
 
 
-[Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/start-with-delay-properties.md)
+[bundle-crworkflow.start-with-delay-properties]
 
 [Add decision nodes to a sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-decision-nodes-sequences.md)
-
-[Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/omnichannel-callback.md)
 

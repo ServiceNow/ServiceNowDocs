@@ -20,7 +20,7 @@ Select a link from the following table to learn about key features and benefits 
 
 |Application|Description|
 |-----------|-----------|
-|[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-life-cycle-management-workflows.md)|Manage the life cycle of your sold products.|
+||Manage the life cycle of your sold products.|
 
 ## What to do next
 

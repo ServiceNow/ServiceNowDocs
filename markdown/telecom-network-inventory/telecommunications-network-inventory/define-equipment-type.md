@@ -32,15 +32,15 @@ You can create the equipment instances that have the inventory category set as E
 
     You can create the following equipment types by selecting the options from the List menu.
 
-<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d73354e108">
+<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d73329e108">
 
 Option
 
-</th><th align="left" id="d73354e111">
+</th><th align="left" id="d73329e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73354e117">
+</th></tr></thead><tbody><tr><td id="d73329e117">
 
 **IP Routers, IP Switches, IP Firewalls, IP Load Balancers, Servers, or Virtual Machines**
 
@@ -48,7 +48,7 @@ Description
 
 Creates a record that you’ve selected. To learn more about the fields in the form, see [Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/router-form.md).
 
-</td></tr><tr><td id="d73354e139">
+</td></tr><tr><td id="d73329e139">
 
 **Kubernetes Clusters**
 
@@ -56,7 +56,7 @@ Creates a record that you’ve selected. To learn more about the fields in the f
 
 Creates a Kubernetes cluster instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/kubernetes-discovery.md).
 
-</td></tr><tr><td id="d73354e155">
+</td></tr><tr><td id="d73329e155">
 
 **Kubernetes Pods**
 
@@ -71,7 +71,7 @@ Creates a Kubernetes pod machine instance. To learn more about the fields in the
 
 4.  In the Equipment form, fill in the fields.
 
-    To learn more about the fields in the Equipment form, see [7caa6327c2947bf4e3fc7e6fbe4cac73b55e16d5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
+    To learn more about the fields in the Equipment form, see [7a0aa4debbdbeebbcfbf23ab94704afff3cba5aa.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
 
 5.  Create the Telecommunications Network Inventory attributes for the Telco Equipment form by selecting **Set Inventory Attributes**.
 

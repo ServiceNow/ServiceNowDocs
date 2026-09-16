@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Update the toolbar options for your preferred HTML field editor.
 
-<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d146204e57">
+<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d146270e57">
 
 **htmlArea toolbar**
 
@@ -33,7 +33,7 @@ Role required: admin
 3.  Select the **glide.ui.html.toolbar** property.
 
 
-</td></tr><tr><td id="d146204e90">
+</td></tr><tr><td id="d146270e90">
 
 **TinyMCE**
 

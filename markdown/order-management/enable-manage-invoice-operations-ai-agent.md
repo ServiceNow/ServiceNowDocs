@@ -63,7 +63,5 @@ The chat assistant is activated in the Business Portal.
 
 [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
 
-[Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/promote-demote-va-topics.md)
-
-[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md)
+[bundle-convint.promote-demote-va-topics]
 

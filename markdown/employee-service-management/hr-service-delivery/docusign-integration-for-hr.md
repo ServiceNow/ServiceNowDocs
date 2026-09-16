@@ -30,8 +30,8 @@ This integration depends on the DocuSign spoke in IntegrationHub, and is enabled
 
 The DocuSign integration depends on the DocuSign spoke in IntegrationHub. Before you begin, an admin must have set up the DocuSign spoke, including registering as an OAuth provider and creating credential and connection records. You must also synchronize DocuSign with your ServiceNow instance.
 
--   Set up DocuSign spoke. See [Docusign eSignature Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/docusign-spoke.md).
--   [Sychronize DocuSign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sync-docusign-servicenow.md)
+-   Set up DocuSign spoke. See .
+-   Sychronize DocuSign with ServiceNow
 
     **Note:**
 

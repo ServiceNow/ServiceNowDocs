@@ -33,7 +33,7 @@ A preconfigured HR service, flow, and HR case template for both the adhoc docume
 The Adobe Sign integration depends on the Adobe Sign spoke in IntegrationHub. Before you begin, your administrator must have:
 
 -   [activated the Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-adobe.md)
--   [set up the Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/adobe-sign-spoke.md)
+-   set up the Adobe Sign spoke
 
 
 ## Adobe Sign integration setup

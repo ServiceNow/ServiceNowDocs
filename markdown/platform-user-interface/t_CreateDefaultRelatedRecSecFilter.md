@@ -52,7 +52,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
 
 [Add fields to selections in a related list]()
 
-[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
+[bundle-platadm.t_ConfigureReferenceQualifiers]
 
 [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_ConditionBuilder.md)
 

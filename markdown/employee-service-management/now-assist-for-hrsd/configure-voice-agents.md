@@ -85,7 +85,7 @@ Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Re
     -   sn\_hr\_integr\_fw \(3.8.1 or later\)
     -   sn\_hr\_oracle\_adv \(1.2.1 or later\)
     -   com.glide.hub.integrations.enterprise
-2.  Follow the steps to [Set up the Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-the-oracle-hcm-spoke.md)
+2.  Follow the steps to 
 
 
 </td></tr></tbody>

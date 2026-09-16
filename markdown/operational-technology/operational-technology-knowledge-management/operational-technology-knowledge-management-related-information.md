@@ -20,14 +20,14 @@ Find more information about the OT extension classes and related applications.
 
 The extension classes help you understand how Operational Technology Management works with the Configuration Management Database \(CMDB\).
 
--   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)**
+-   ****
 
     The CMDB updates classes for OT.
 
 
 ## Related applications
 
--   **[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management.md)**
+-   ****
 
     The Knowledge Management application enables the sharing of information in knowledge bases. These knowledge bases contain articles that provide users with information such as self-help, troubleshooting, and task resolution.
 
@@ -35,7 +35,7 @@ The extension classes help you understand how Operational Technology Management 
 
     The Operational Technology Incident Management application enables manufacturers to manage OT device incidents from the time the incident is opened to when it's complete.
 
--   **[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ITServiceManagement.md)**
+-   ****
 
     When integrated with Operational Technology Knowledge Management, the ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 

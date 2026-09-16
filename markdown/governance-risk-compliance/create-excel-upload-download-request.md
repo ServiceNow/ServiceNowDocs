@@ -54,15 +54,15 @@ To become familiar with the process before handling more complex operations, you
 
     When you apply a filter to the list and then select All, the download includes only the records that match the filter.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d46902e205">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d46989e205">
 
 Step
 
-</th><th align="left" id="d46902e208">
+</th><th align="left" id="d46989e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46902e214">
+</th></tr></thead><tbody><tr><td id="d46989e214">
 
 **Export to excel**
 
@@ -70,7 +70,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, simply select the **Export to Info Excel** to export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d46902e232">
+</td></tr><tr><td id="d46989e232">
 
 **Export to info register**
 
@@ -125,15 +125,15 @@ When making a download request for a Third-Party Information Register record, se
 
 12. To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d46902e468">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d46989e468">
 
 Step
 
-</th><th align="left" id="d46902e471">
+</th><th align="left" id="d46989e471">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46902e477">
+</th></tr></thead><tbody><tr><td id="d46989e477">
 
 **Select __File Type__.**
 
@@ -145,7 +145,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d46902e507">
+</td></tr><tr><td id="d46989e507">
 
 **Select __Delivery Type__.**
 
@@ -155,7 +155,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d46902e529">
+</td></tr><tr><td id="d46989e529">
 
 **Select __Export.__**
 

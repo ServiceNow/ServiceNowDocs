@@ -49,7 +49,7 @@ Role required: None
     |Allow horizontal moving?|Select this check box to permit users to drag timeline spans horizontally. Dragging changes the start and end dates and updates the record.|
     |Allow start time dragging?|Select this check box to permit users to update the record by dragging the start time of a span.|
     |Allow end time dragging?|Select this check box to permit users to update the record by dragging the end time of a span.|
-    |Range calculator|Specify a script include that Using DurationCalculator to calculate a due date range restrictions and processes parent updates, if appropriate.|
+    |Range calculator|Specify a script include that [Using DurationCalculator to calculate a due date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_DrtnClDueDate.md) range restrictions and processes parent updates, if appropriate.|
 
 
 **Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimelinePages.md)

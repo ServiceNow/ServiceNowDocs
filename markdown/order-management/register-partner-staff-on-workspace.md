@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/register-partner-staff-on-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

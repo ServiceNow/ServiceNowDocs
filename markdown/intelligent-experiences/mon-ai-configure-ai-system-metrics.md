@@ -34,15 +34,15 @@ The metrics evaluated for an AI system come from your organization's global metr
     -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 2.  Configure which metrics to score for this asset.
 
-<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d243676e160">
+<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d243644e160">
 
 Scenario
 
-</th><th align="left" id="d243676e163">
+</th><th align="left" id="d243644e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d243676e169">
+</th></tr></thead><tbody><tr><td id="d243644e169">
 
 **Configuring for the first time**
 
@@ -53,7 +53,7 @@ Steps
 3.  Select the check box next to each metric that you want to evaluate for this AI system.
 
 
-</td></tr><tr><td id="d243676e205">
+</td></tr><tr><td id="d243644e205">
 
 **Modifying an existing configuration**
 

@@ -64,7 +64,7 @@ Flow action that takes the customer order line Item and characteristic as input 
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md)
+[bundle-crworkflow.flows]
 
 [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md)
 

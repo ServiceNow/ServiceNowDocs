@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 breadcrumb: [Configure, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---

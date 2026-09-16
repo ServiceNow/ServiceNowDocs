@@ -24,7 +24,7 @@ Use the Maintenance Management dashboard to get an insight into maintenance case
 
     You can also create a maintenance plan record by using the Preventative Maintenance option on the Workplace central home page. Navigate to **All** &gt; **Workplace Central**. Select the Preventative Maintenance icon \(\[Omitted image "icon-preventative-maintenance.png"\] Alt text: Preventative Maintenance icon on the context side bar to create a maintenance plan.\) on the context side bar to create a maintenance plan.
 
--   Ensure that the plugin Performance Analytics \(com.snc.pa\) is installed and that you have the Performance Analytics premium entitlement. For more information, see [Install Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/install-configure-agile-dashboard.md)
+-   Ensure that the plugin Performance Analytics \(com.snc.pa\) is installed and that you have the Performance Analytics premium entitlement. For more information, see 
 -   Ensure that the Workplace Central, Workplace Maintenance Management applications and all of their associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Run the **Workplace Maintenance Case Historical Data Collection** job before viewing the dashboard for the first time. For more information, see [Run the scheduled job for the Maintenance Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/run-job-for-wmm-dashboard.md).
 
@@ -167,7 +167,7 @@ Workplace.Maintenance.Case.Opened
 -   Workplace Maintenance Case Opened Preventive Closed Complete Count
 
 </td></tr></tbody>
-</table>You can also add new indicators. For more information on how to work with indicators, see [Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PAWidgetsAndDashboards.md).
+</table>You can also add new indicators. For more information on how to work with indicators, see .
 
 -   **[Run the scheduled job for the Maintenance Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/run-job-for-wmm-dashboard.md)**  
 As an admin, run the scheduled job **Workplace Maintenance Case Historical Data Collection** to collect data for the past year that is used by the Maintenance Management dashboard.

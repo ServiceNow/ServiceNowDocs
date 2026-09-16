@@ -98,7 +98,7 @@ Complete [Configuring spreadsheets to import workplace data](https://raw.githubu
 
 [View workplace service usage analytics with Usage Insights]()
 
-[Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_RunImport.md)
+[bundle-crint.t_RunImport]
 
-[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_CreateATransformMap.md)
+[bundle-crint.t_CreateATransformMap]
 

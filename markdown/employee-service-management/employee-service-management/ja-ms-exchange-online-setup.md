@@ -22,11 +22,11 @@ Some integrations and related plugins require activation by ServiceNow® personn
 
 ## Journey Accelerator v2
 
--   **[Microsoft AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-ad-spoke.md) \[com.sn.ad.spoke\]**
+-   **Microsoft AD Spoke \[com.sn.ad.spoke\]**
 
     Provides communication between Journey Accelerator and Microsoft Active Directory to manage objects such as users, groups, and computers.
 
--   **[Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md) \[com.sn.azure\_ad.spoke\]**
+-   **Microsoft Azure AD spoke \[com.sn.azure\_ad.spoke\]**
 
     Provides security requirements to Journey Accelerator so that users, security groups, and office groups are appropriately managed.
 

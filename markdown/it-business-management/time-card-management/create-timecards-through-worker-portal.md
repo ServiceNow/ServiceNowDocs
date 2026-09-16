@@ -7,7 +7,7 @@ release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
