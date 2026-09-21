@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d405133e127">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d405113e127">
 
 Method
 
-</th><th align="left" id="d405133e130">
+</th><th align="left" id="d405113e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d405133e136">
+</th></tr></thead><tbody><tr><td id="d405113e136">
 
 **Manually**
 
@@ -55,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d405133e172">
+</td></tr><tr><td id="d405113e172">
 
 **Copy the data from an existing role group**
 

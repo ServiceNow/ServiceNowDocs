@@ -26,7 +26,7 @@ For more information about Usage Insights, refer to [Usage Insights](https://raw
 
 ## System properties
 
-ServiceNow®, by default, provides a set of properties with Usage Insights that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to user experience analytics, refer to [Usage Insights related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/all-analytics-properties.md).
+ServiceNow®, by default, provides a set of properties with Usage Insights that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to user experience analytics, refer to .
 
 ## Settings
 

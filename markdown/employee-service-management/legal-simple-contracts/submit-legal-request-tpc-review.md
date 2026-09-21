@@ -29,15 +29,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the third-party contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d304360e76">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d304345e76">
 
 Option
 
-</th><th align="left" id="d304360e79">
+</th><th align="left" id="d304345e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d304360e85">
+</th></tr></thead><tbody><tr><td id="d304345e85">
 
 **Using __Employee Center__**
 
@@ -48,7 +48,7 @@ Description
 3.  Search for and open the **Third-party Contract Review** request item.
 
 
-</td></tr><tr><td id="d304360e128">
+</td></tr><tr><td id="d304345e128">
 
 **Using __Legal Service Portal__**
 

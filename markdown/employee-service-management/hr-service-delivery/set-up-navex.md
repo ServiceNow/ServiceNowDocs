@@ -34,7 +34,7 @@ Role required: sn\_hr\_navex\_ep.admin
 
 4.  Set up Navex EthicsPoint spoke.
 
-    For more information, see [Set up Navex EthicsPoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/navex-ethics-spoke.md).
+    For more information, see Set up Navex EthicsPoint spoke.
 
 5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/prop-navex.md).
 

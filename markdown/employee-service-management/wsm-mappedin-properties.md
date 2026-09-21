@@ -36,15 +36,15 @@ Role required: sn\_wsd\_mappedin.admin
 
 4.  Enter `sys_properties.list` in the navigation filter and open the following properties
 
-<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d269050e105">
+<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d269040e105">
 
 System property
 
-</th><th align="left" id="d269050e108">
+</th><th align="left" id="d269040e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269050e114">
+</th></tr></thead><tbody><tr><td id="d269040e114">
 
 **sn\_wsd\_core.external\_id\_generator.field​**
 
@@ -52,7 +52,7 @@ Description
 
 Defines the external ID.
 
-</td></tr><tr><td id="d269050e123">
+</td></tr><tr><td id="d269040e123">
 
 **sn\_wsd\_core.external\_id\_generator.max\_buildings**
 
@@ -60,7 +60,7 @@ Defines the external ID.
 
 The maximum number of buildings to generate IDs for with a single selection.50 is the default.
 
-</td></tr><tr><td id="d269050e135">
+</td></tr><tr><td id="d269040e135">
 
 **sn\_wsd\_core.external\_id\_generator.max\_spaces**
 
@@ -68,7 +68,7 @@ The maximum number of buildings to generate IDs for with a single selection.50 i
 
 The maximum number of spaces to generate IDs for at a given time.The default is 5000.
 
-</td></tr><tr><td id="d269050e147">
+</td></tr><tr><td id="d269040e147">
 
 **sn\_wsd\_core.external\_id\_generator.stagger​**
 

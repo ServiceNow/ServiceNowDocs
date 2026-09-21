@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Install Microsoft Exchange Online spoke from the ServiceNow Store.
 
-    For more information, refer to [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/ms-exch-online-spoke.md).
+    For more information, refer to Microsoft Exchange Online spoke.
 
     **Note:** After installing Microsoft Exchange Online spoke, check that the **Data Stream action** field of the Data source **Exchange Online Calendar** is not set to empty. Otherwise, repair the Microsoft Exchange Online spoke plugin.
 

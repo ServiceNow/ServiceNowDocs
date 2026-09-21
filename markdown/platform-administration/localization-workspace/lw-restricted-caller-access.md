@@ -79,7 +79,9 @@ Continue with setup of Localization Workspace. See [Configuring Localization Wor
 **Related topics**  
 
 
-[bundle-cadev.c_ApplicationScope]
+[Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md)
 
 [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/framework-configuration.md)
+
+[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/restricted-caller-access-privilege.md)
 

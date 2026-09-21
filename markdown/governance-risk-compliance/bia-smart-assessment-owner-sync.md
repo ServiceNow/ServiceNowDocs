@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-smart-assessment-owner-sync.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 keywords: [BIA, business impact analysis, owner sync, field reference]
 breadcrumb: [Group owner fields and role requirements, Reference, Business Continuity Management, Governance, Risk, and Compliance]

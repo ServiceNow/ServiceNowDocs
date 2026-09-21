@@ -80,7 +80,7 @@ Choice
 </td><td>
 
 Each view type displays different field combinations. There are two options available:-   **Calendars**
--   Schedule Pages
+-   [Schedule Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_SchedulePages.md)
 
 </td></tr><tr><td>
 

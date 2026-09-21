@@ -35,7 +35,7 @@ After you install the HR Service Delivery Integration with SuccessFactors, the s
 
     **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the SuccessFactors spoke version 3.1.2
 
-    For more information, see set up [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/successfactors-spoke.md).
+    For more information, see set up SuccessFactors Spoke.
 
 4.  Configure integration source properties for [Source for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/source-for-hrsd-successfactors.md).
 

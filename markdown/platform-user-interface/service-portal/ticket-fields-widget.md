@@ -28,7 +28,7 @@ If a user entered variables when submitting the request, they can view those var
 
 \[Omitted image "ticket-fields-options.png"\] Alt text: Options section of the Ticket Fields widget
 
-**Note:** The values that appear in the Options section are not field values from the ticket. They are Service Catalog variables that are associated with the ticket. For more information, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+**Note:** The values that appear in the Options section are not field values from the ticket. They are Service Catalog variables that are associated with the ticket. For more information, see Service catalog variables.
 
 ## Instance options
 

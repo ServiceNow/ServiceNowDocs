@@ -24,7 +24,7 @@ Role required: none
 
 Typically, you receive an email or a mobile notification from your organization with a link to the health verification form.
 
-**Note:** If the ServiceNow® Customer Service Management application is activated, consumers and contacts can access the health verification form on the Consumer or Customer Service Portals. To set up the health verification form on the portals, [allow external users access to "Health Verification" catalog item \(KB0856301\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856301). For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-integration-safe-workplace.md).
+**Note:** If the ServiceNow® Customer Service Management application is activated, consumers and contacts can access the health verification form on the Consumer or Customer Service Portals. To set up the health verification form on the portals, [allow external users access to "Health Verification" catalog item \(KB0856301\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856301). For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 3.  Take one of the following actions.
 
-<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d786094e149">
+<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d786051e149">
 
 **If you agree to all statements**
 
@@ -47,7 +47,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 Select the **I acknowledge that I meet all the above criteria** check box.
 
-</td></tr><tr><td id="d786094e161">
+</td></tr><tr><td id="d786051e161">
 
 **If you can't agree to one or more of the statements**
 

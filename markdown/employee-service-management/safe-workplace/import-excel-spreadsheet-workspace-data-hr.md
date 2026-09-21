@@ -54,7 +54,7 @@ Role required: sn\_wsd\_core.admin
 **Related topics**  
 
 
-[Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_RunImport.md)
+[bundle-crint.t_RunImport]
 
-[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_CreateATransformMap.md)
+[bundle-crint.t_CreateATransformMap]
 

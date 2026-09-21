@@ -33,15 +33,15 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d124154e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d124146e105">
 
 To
 
-</th><th align="left" id="d124154e108">
+</th><th align="left" id="d124146e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124154e114">
+</th></tr></thead><tbody><tr><td id="d124146e114">
 
 **Create quote for an account**
 
@@ -53,7 +53,7 @@ Select the **Account** and enter the following:-   Contact: Name of the primary 
 -   Channel partner: \(Optional\) The name of the organization selling a product or service.
 
 
-</td></tr><tr><td id="d124154e140">
+</td></tr><tr><td id="d124146e140">
 
 **Create quote for a consumer**
 

@@ -34,15 +34,15 @@ If you have the admin role, you can use the Industrial Process Manager Guided Se
 
 4.  Select the following task tabs, then select **Configure** to complete the configuration tasks.
 
-<table><thead><tr><th align="left" id="d95463e101">
+<table><thead><tr><th align="left" id="d95483e101">
 
 Task
 
-</th><th align="left" id="d95463e104">
+</th><th align="left" id="d95483e104">
 
 Purpose
 
-</th></tr></thead><tbody><tr><td id="d95463e110">
+</th></tr></thead><tbody><tr><td id="d95483e110">
 
 **Import OT Subnets**
 
@@ -50,7 +50,7 @@ Purpose
 
 Upload a spreadsheet of OT subnets to import subnets from network management platforms.
 
-</td></tr><tr><td id="d95463e119">
+</td></tr><tr><td id="d95483e119">
 
 **Add Sites**
 
@@ -58,7 +58,7 @@ Upload a spreadsheet of OT subnets to import subnets from network management pla
 
 Add a site to each OT subnet so that OT devices with IP addresses matched with the OT subnet record can be mapped to that site automatically.
 
-</td></tr><tr><td id="d95463e128">
+</td></tr><tr><td id="d95483e128">
 
 **Add Equipment Model Entities**
 
@@ -66,7 +66,7 @@ Add a site to each OT subnet so that OT devices with IP addresses matched with t
 
 Add an equipment model entity to the OT subnet record to automatically associate an OT device with the equipment model entity.
 
-</td></tr><tr><td id="d95463e137">
+</td></tr><tr><td id="d95483e137">
 
 **Select Discovery Source\(s\)**
 
@@ -76,7 +76,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 -   sn\_otsm.map\_all\_ot\_devices.discovery\_sources
 
 
-</td></tr><tr><td id="d95463e156">
+</td></tr><tr><td id="d95483e156">
 
 **Test Mappings**
 
@@ -84,7 +84,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 
 Validate assigned mappings of individual OT devices, individual OT subnets, multiple selected OT subnets, or all active OT subnets.
 
-</td></tr><tr><td id="d95463e165">
+</td></tr><tr><td id="d95483e165">
 
 **Activate and Schedule**
 
@@ -101,7 +101,7 @@ Activate the scheduled flows to run scheduled mapping of all OT devices regularl
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md)
+[bundle-platux.guided-setup]
 
 [Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

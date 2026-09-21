@@ -25,11 +25,11 @@ The Contract Management Pro application use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following external storage provider spokes for saving documents attached to contract requests and signed contract documents:
 
-    -   [Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/googledrive-spoke.md)
+    -   Google Drive spoke
 
         **Note:** Word \(.docx\) files edited directly from Google Drive using Google Docs may become incompatible with Contract Management Pro causing failures during processing, signature operations, and document updates. To avoid these issues, download the .docx file from the Google Drive, edit it in Microsoft Word \(desktop or online\), and upload it into the system using the Create Revision option.
 
-    -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/onedrive-spoke.md)
+    -   Microsoft OneDrive spoke
 -   **Configure an external storage provider**
 
     The contract configurator can set up the external storage app integrations from **Contract Integrations**. For more information, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
@@ -52,8 +52,8 @@ The Contract Management Pro application use spokes from Integration Hub to integ
 
     The administrator can use the Integration Hub to install and configure the following electronic signature provider spokes for contract documents:
 
-    -   [Adobe Acrobat Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/adobe-sign-spoke.md)
-    -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/docusign-spoke.md)
+    -   Adobe Acrobat Sign spoke
+    -   Docusign spoke
 -   **Set up the electronic signature provider app**
 
     The configurator can set up the electronic signature app integrations from **Contract Integrations**. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-integrate-esign.md).

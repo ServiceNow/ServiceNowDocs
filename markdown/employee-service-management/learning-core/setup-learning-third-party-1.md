@@ -30,71 +30,71 @@ The following plugins are not active by default, and you must install them to us
 
 1.  Integrate your ServiceNow instance with the third-party learning source account that you plan to use.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d81052e98">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d81050e98">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d81052e101">
+</th><th align="left" id="d81050e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d81052e107">
+</th></tr></thead><tbody><tr><td id="d81050e107">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
 
-</td></tr><tr><td id="d81052e122">
+</td></tr><tr><td id="d81050e122">
 
 **Cornerstone OnDemand application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
+Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in Set up the Cornerstone spoke to perform the integration.
 
-</td></tr><tr><td id="d81052e140">
+</td></tr><tr><td id="d81050e140">
 
 **Udemy application**
 
 </td><td>
 
-Integrate your Udemy application with your ServiceNow instance. For more information, see [Set up the Udemy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-udemy-spk.md)
+Integrate your Udemy application with your ServiceNow instance. For more information, see Set up the Udemy spoke
 
  **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d81052e161">
+</td></tr><tr><td id="d81050e161">
 
 **Sumtotal application**
 
 </td><td>
 
-Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-sumtotal.md).
+Integrate your Sumtotal application with your ServiceNow instance. For more information, see Set up the Sumtotal spoke.
 
-</td></tr><tr><td id="d81052e183">
+</td></tr><tr><td id="d81050e183">
 
 **Saba application**
 
 </td><td>
 
-Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/saba-spoke.md) .
+Integrate your Saba application with your ServiceNow instance. For more information, see Set up Saba spoke .
 
-</td></tr><tr><td id="d81052e203">
+</td></tr><tr><td id="d81050e203">
 
 **Workday Learning**
 
 </td><td>
 
-Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/saba-spoke.md) .
+Integrate your Workday Learning application with your ServiceNow instance. For more information, see Set up Workday spoke .
 
-</td></tr><tr><td id="d81052e223">
+</td></tr><tr><td id="d81050e223">
 
 **SuccessFactors Learning**
 
 </td><td>
 
-Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see [Set up SuccessFactors Learning spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/successfactors-learning-setup.md) .
+Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see Set up SuccessFactors Learning spoke .
 
 </td></tr></tbody>
 </table>    The records from the third-party content are pulled into your ServiceNow instance using an API call. To successfully run this API call, you must configure the **com.glide.transform.json.max-partial-length** and **com.snc.process\_flow.reporting.serialized.val\_size\_limit** properties. For more information on these system properties, see [Configure properties for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/config-ln-prop.md) .

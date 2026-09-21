@@ -36,13 +36,13 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 
 3.  Modify the trigger to set the conditions for the flow to trigger, and actions to add or update the approval levels.
 
-    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md).
+    For information on how to create or modify flows, see Create a flow.
 
 4.  Click **Save**.
 
 5.  Test the flow by clicking **Test**.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-test.md).
+    For more information, see Test a flow.
 
 6.  If not already active, click **Activate** to enable the flow.
 

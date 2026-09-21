@@ -430,7 +430,7 @@ send\(\) - Added a return value and error handling.
 
 </td></tr><tr><td>
 
-
+[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
 
 </td><td>
 
@@ -478,7 +478,7 @@ Remove GlideTransientDynamicAttribute API documentation because GlideDynamicAttr
 
 </td></tr><tr><td>
 
-
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -519,7 +519,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-
+[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
 
 </td><td>
 
@@ -617,9 +617,9 @@ Agent experience for CSM
 
 Updated the bell icon behavior so the notification count accurately reflects the number of unique, unread notifications in real time, eliminating duplicate increments.
 
--   **[Follow records to receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-default-record-page.md#section_follow_action)**
+-   **Follow records to receive notifications**
 
-Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md) and the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-default-record-page.md).
+Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the Front-line case page and the CSM default record page.
 
 
 -   **Coral theme**
@@ -627,7 +627,7 @@ Select the **Follow** action to receive notifications when comments or work note
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Thin compose modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md#section_nws_1rs_rfc)**
+-   **Thin compose modeless dialogs**
 
 Enable agents to initiate a comment, work note, or email in the activity stream and then open the text in a modeless dialog. This feature is available on the following record pages:
 
@@ -637,7 +637,7 @@ Enable agents to initiate a comment, work note, or email in the activity stream 
     -   CSM voice interaction record page
     -   CSM centered chat interaction record page
     -   Email interaction record page
--   **[Lookup component on CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-record-page-lookup-component.md)**
+-   **Lookup component on CSM Configurable Workspace record pages**
 
 Use the Lookup component to look up and link a contact and then verify the contact. The Lookup component replaces the Lookup and Verify component on the CRM Workspace record pages.
 
@@ -649,7 +649,7 @@ The Inbox panel collapses after selecting an inbox item, enabling agents to see 
 
 Supports having two forms on a record page.
 
--   **[Customer History enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-history-component-features.md)**
+-   **Customer History enhancements**
 
 Use the following enhancements to control grouping, appearance, and refresh behavior in customer history:
 
@@ -658,7 +658,7 @@ Use the following enhancements to control grouping, appearance, and refresh beha
     -   Display activities by updated date: A new property enables feeds to surface activities based on the last updated timestamp in Customer History.
     -   Dynamic refresh updates: Customer History feeds now refresh automatically, but only for records in the Customer History activities table and within the current context \(for example, Contact\). Other tables and parent records are not included.
     -   Introduced a new search icon that lets agents show or hide the search bar with a click.
--   **[Improve discoverability of Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md)**
+-   **Improve discoverability of Recommended Actions**
 
 Use the following updates to improve the visibility of Recommended Actions across key CSM pages:
 
@@ -671,11 +671,11 @@ Use the following updates to improve the visibility of Recommended Actions acros
         -   CSM centered chat interaction record page
     -   Load Recommended Actions asynchronously to keep the UI responsive while recommendations load.
     -   Enable agents to send relevant KB articles through SMS during voice interactions and messaging-type interactions.
--   **[Default recommendations for Pro customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md)**
+-   **Default recommendations for Pro customers**
 
 Recommendations are now delivered by default for Pro customers when either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Agents can view contextual recommendations under the **Suggested Actions** tab, such as similar cases and open incidents, when the case meets the predefined criteria. Agents can link or copy resolutions directly into the current case.
 
--   **[Resurface special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OnScreenAlerts.md)**
+-   **Resurface special handling notes**
 
 Display the special handling notes at any time by selecting  Special handling notes  from the More actions menu on the case record action bar. This action is now available on records from the following tables:
 
@@ -687,21 +687,21 @@ Display the special handling notes at any time by selecting  Special handling 
     -   Work Order Task
 This applies only to records where special handling notes are configured.
 
--   **[Information session tab enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-chat-session-tabs-configure.md)**
+-   **Information session tab enhancements**
 
 Use the following changes to enforce permissions and improve usability of the **Session** tab:
 
     -   Restrict access to unauthorized users with error messages and validate role-based permissions.
     -   Auto-save admin updates to timer and color changes in real time.
     -   Display workspace settings only after the Session tab is enabled.
--   **[Configure Alert Dismissal settings at experience and alert level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.md)**
+-   **Configure Alert Dismissal settings at experience and alert level**
 
 Use the following settings to control alert dismissal:
 
     -   Set alerts to auto-dismiss or require manual dismissal.
     -   Configure alert behavior globally or according to alert.
     -   Reduce alert overload while supporting accessibility standards, which helps agents focus on critical alerts.
--   **[ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-snow-link-manager.md)**
+-   **ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store**
 
 Streamline tab management and reduce browser clutter with ServiceNow Link Manager:
 
@@ -1018,7 +1018,7 @@ Career Conversations
 
 </td><td>
 
--   **AI Agents button to create a growth conversation using Now Assist**
+-   **[AI Agents button to create a growth conversation using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
 
 A **Plan conversation with AI** button is added to the Career Conversations home page.
 
@@ -1043,22 +1043,22 @@ Sharing task plan templates ensures that only authorized users can access, edit,
     -   Global template: Task plan templates can be marked as global, making them visible to all users with read access.
     -   Form and List Layouts: Admins can view and edit form and list layouts for sharing, displaying all relevant fields.
     -   Notifications: In-app notifications are sent when access is granted, Selecting the notification opens the shared template directly.
--   **[Task plan template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/task_plan_template_configurations.md)**
+-   **Task plan template configurations**
 
 Admins can create configurations for task plan templates that pre-fill information when creating a new task plan template.
 
 
--   **[Filtering service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definitions.md)**
+-   **Filtering service definitions**
 
 Enable agents to filter the service definitions that are shown on the service selector in the following ways:
 
     -   By user, role, group, or agent
     -   By entity critera such as location, customer level, or related entities
--   **[Case lines for Case Management - Add multiple entitlements to case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-case-lines.md)**
+-   **Case lines for Case Management - Add multiple entitlements to case lines**
 
 View the available entitlements on a case line and associate the multiple entitlements to that case line. Available entitlements are associated with the contracts and entitlements that are purchased by the customer.
 
--   **[Customer Service Case Types moved from family to store release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-types.md)**
+-   **Customer Service Case Types moved from family to store release**
 
 Starting with the Zurich release, the Customer Service Case Types application \(sn\_csm\_case\_types\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Service Case Types store app.
 
@@ -1068,7 +1068,7 @@ Starting with the Zurich release, the Customer Service Case Types application \(
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/targeted-comm-publication-workflows.md) and [Case Digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-digests.md#section_ast_r2k_qfc) workflows**
+-   **Targeted Communications and Case Digests workflows**
 
 Legacy workflows for the Targeted Communications \(com.sn\_publications\) and Case Digests \(com.sn\_csm\_case\_digest\) applications have been migrated to low-code flows in Workflow Studio. The functionality of the flows remains the same.
 
@@ -1602,24 +1602,24 @@ Partial sync processes the data sections you specify instead of the entire struc
 
 Gain precision in sales entity setup with three new columns in the Lead to Cash Entity Definition table: Filter Conditions, Enable Post Processing, and Post Processing Script. These columns enable targeted data filtering and post-processing logic execution.
 
--   **[Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/products-services-at-bus-loc.md)Support for service-related capabilities in business locations**
+-   **Support for service-related capabilities in business locations**
 
 Enable service-related capabilities for business locations by activating the optional Customer Service Case Types \(sn\_csm\_case\_types\) plugin.
 
 
--   **[Delta price enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md)**
+-   **Delta price enhancements**
 
 The following are enhancements added in Delta pricing:
 
     -   Added pricing fields that reference sales agreements and captures base prices on sold products to verify consistent pricing during modifications, such as quantity changes or attribute updates. New fields are added to enhance the traceability for subscription-based products.
     -   Added columns to the Sold Product base table. Use the Split from and Split from root to track lineage during upsells, downsells, and expiration date changes ensuring accurate order management, compliance, and analytics.
--   **[Install base data model enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-install-base-item.md)**
+-   **Install base data model enhancements**
 
 Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
 
 Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
 
--   **[Access control improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md)**
+-   **Access control improvements**
 
 Provide hierarchical access to Install Base items for location managers and staff to manage assets sold by or associated with their service organizations.
 
@@ -1629,22 +1629,22 @@ Provide hierarchical access to Install Base items for location managers and staf
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Enhancements to the declarative responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/declarative-resposibility-framework.md)**
+-   **Enhancements to the declarative responsibility framework**
 
 Introduced several key improvements to enhance the flexibility and usability of the declarative responsibility framework:
 
     -   Enabled responsibility access configurations to support more granular access control.
     -   Updated the data model by adding new fields and renaming select field labels for improved clarity.
     -   Refreshed associated forms and lists to reflect the latest framework updates.
--   **[Updated account manager responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/list-of-reponsibilities-provided-with-base-system.md)**
+-   **Updated account manager responsibility access configuration**
 
 Enhanced access configurations for account manager responsibilities by creating a unified entity that defines access based on record and role for more consistent and streamlined access control.
 
--   **[Managing account addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/associate-address-account.md)**
+-   **Managing account addresses**
 
 Manage account addresses by associating locations with accounts where the Update access is granted to confirm tracking of address information and support account management.
 
--   **[Updating location records associated with account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/delete-address-location-form.md)**
+-   **Updating location records associated with account**
 
 Restricts users from updating a shared location record unless they have the Update access to all associated accounts, confirming location details can only be modified with the necessary permissions across every linked account.
 
@@ -1914,7 +1914,7 @@ The consumer dispute intake questionnaire for RC 13.3 now includes an additional
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Visa Resolve Online \(VROL\) version 26.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
+-   **Visa Resolve Online \(VROL\) version 26.1 updates**
 
 Updated the dispute questionnaire provided through the Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 26.1 revision changes.
 
@@ -2031,7 +2031,7 @@ ERP Semantic Mining
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[ERP Customization Mining application name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md)**
+-   **ERP Customization Mining application name change**
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
@@ -2108,35 +2108,35 @@ Added granular level admin role \(sn\_apm.apm\_admin\) to the following system p
     -   sn\_apm\_tpm.discoveryModelProductTypesForTPM- Product types of discovery models to consider for TPM software suggestions.
     -   sn\_apm\_tpm.configurationItemsWithSoftwareInstalls- Non hardware configuration items which have software models for TPM discovery process.
 
--   **[Data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-data-cert.md)**
+-   **Data certification**
 
 Added the Data Certification section to the Enterprise Architecture Workspace. Also, added the Data Certification icon to the navigation menu of the Enterprise Architecture Workspace.
 
--   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
+-   **Enterprise Modeling and Visualization enhancements**
     -   Added AWS, CSDM, and EA Extended shape libraries.
     -   Added the Toggle Shape Library icon to show or hide the shapes panel.
     -   Added the expand and collapse icons to the shapes categories within the shapes panel.
     -   Added a view modes icon to switch between list and grid views for shape libraries.
     -   Added a download icon to download the diagram as a PNG image.
     -   Added the Modify business process details icon on the business process diagram page.
--   **[TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**
+-   **TRM catalog**
 
 Added an export icon to the TRM catalog page under Technology Portfolio.
 
--   **[Business Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-business-portfolio-data.md)**
+-   **Business Portfolio**
 
 Added an export icon to the Business Portfolio page.
 
--   **[TRM category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/trm-category-form.md)**
+-   **TRM category**
 
 Added the Owner field in the TRM category form.
 
--   **[TPM lifecycle identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-tpm.md)**
+-   **TPM lifecycle identifier**
 
 Added the TPM lifecycle record identifier on the **TPM lifecyles** tab on the Technology Portfolio page.
 
 
--   **[Application Rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
+-   **Application Rationalization page enhancements**
     -   Changed the landing page for application rationalization from Bubble chart view to List view.
     -   Enhanced the Bubble chart view to group the business application bubbles whose X and Y-axis values are within the range of +/-0.25 of each other.
     -   Added zoom in, zoom out, and zoom reset buttons to the Bubble chart page.
@@ -2152,13 +2152,13 @@ Added the TPM lifecycle record identifier on the **TPM lifecyles** tab on the Te
     -   Added the technical debt column on the list view page.
     -   Added the technical debt indicator in the bubble size list under the settings of the bubble chart page.
     -   Updated the color palette of the bubbles in the bubble chart view with bolder hues to enhance the usability and legibility of the bubbles.
--   **[Business applications by TCO score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-workspace-dashboard.md)**
+-   **Business applications by TCO score widget**
     -   Added X and Y-axis details for the Business applications by TCO score widget in the **Portfolio TCO** tab of the Enterprise Architecture Workspace page. The X-axis denotes the TCO scores while the Y-axis denotes the number of business applications.
     -   Score calculations are denoted by integers.
--   **[Portfolio page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-portfolio-list-view.md)**
+-   **Portfolio page enhancements**
     -   Added the AI Portfolio module.
     -   Added the Product Capabilities section to the Application Portfolio module.
--   **[Portfolio Overview and Health section enhancements on Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-apply-filters-portfolio-overview-and-health.md)**
+-   **Portfolio Overview and Health section enhancements on Enterprise Architecture Workspace home page**
     -   Added a filter button to the Portfolio Overview and Health section.
     -   Removed the previously available filter drop-downs.
     -   Added an indicator on the filter button to show the number of applied filters.
@@ -2167,11 +2167,11 @@ Added the TPM lifecycle record identifier on the **TPM lifecyles** tab on the Te
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)**
+-   ****
 
 Added the **Business Capabilities** tab in the business application related list. **Add** and **Remove** buttons are added to associate or dissociate a business capability with a business application.
 
--   **[Business application related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-app-portfolio.md)**
+-   **Business application related list enhancements**
 
 The business application related list is reorganized, and includes the following available tabs:
 
@@ -2189,13 +2189,13 @@ The business application related list is reorganized, and includes the following
     -   CI Scores
     -   Architecture Reviews
     -   Lifecycle Timelines
--   **[Insights section enhancements on Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-insights.md)**
+-   **Insights section enhancements on Enterprise Architecture Workspace home page**
 
 A new card "Past due certification tasks for business applications" is added in the **Application Portfolio** tab of the Insights section. The following cards are removed from the **Application Portfolio** tab of the Insights section:
 
     -   Open quarterly certifications for business applications
     -   Open on demand certifications for business applications
--   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling.md)**
+-   **Enterprise Modeling and Visualization enhancements**
     -   Added an option to select upstream related records in the Add related records pop-up window.
     -   Added new fields to the Duplicate pop-up window, when trying to duplicate a business process map. The fields are to associate the duplicated business process map with a new business process or an existing business process.
     -   Added an adornment to add text to the connector line between shapes in a diagram.
@@ -2946,7 +2946,7 @@ Coral is now the default theme for new portal, web, and mobile experiences with 
     -   The Rescan Topics and Topic Inspector menu items are no longer listed under Stream Connect. You can view them on the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/hermes-messaging-service.md) menu.
     -   The Stream Connect Alerts sub menu has been removed. Its menu items, Alerts and Alerting Properties, are now listed directly under Stream Connect.
 
--   **[New debugging property for Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/kafka-subscriptions-statistics.md)**
+-   **New debugging property for Stream Connect**
 
 Enable more detailed logging in the Stream Connect logs with the **glide.ih.kafka.stream\_connect.debug** property. This property replaces the **glide.ih.kafka.debug.consume** property.
 
@@ -2961,7 +2961,7 @@ Intelligence for CSM
 
 </td><td>
 
--   **[Recommended Actions - The primary call-to-action changes on the KB article recommendation card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-contexts.md)**
+-   **Recommended Actions - The primary call-to-action changes on the KB article recommendation card**
 
 The primary call-to-action \(CTA\) on a recommended knowledge base article is determined by the source channel of the case. If the case originates from an email, the primary CTA displayed is Attach and share link in the email. For all the other channels, the primary CTA is Attach and add link in comments. If the article isn’t accessible to the requester, the primary CTA is set to Read article. Accessible articles display the full set of actions \(Attach and add link in comments, Add link in work note, and so on\). Inaccessible articles are limited to internal-use actions only \(Read article, Share link in work notes, and so on\).
 
@@ -2976,11 +2976,11 @@ Interview management
 
 </td><td>
 
--   ****
+-   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/schedule-interview.md)**
 
 Schedule interviews more efficiently with auto-populated template variables that reduce manual email editing.
 
--   ****
+-   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
 
 Track applicants' responses to interview invites on interviews records directly.
 
@@ -2995,7 +2995,7 @@ Journey designer
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **Cancel Journey Accelerator Journeys**
+-   **[Cancel Journey Accelerator Journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cancel-ja-journeys.md)**
 
 Journey owners having access to Journey Accelerator only journeys now have a **Cancel** option instead of the **Delete** option in the Employee Center portal.
 
@@ -3071,7 +3071,7 @@ Lifecycle Events
 
 </td><td>
 
--   **HR Lifecycle Events Case Logs table**
+-   **[HR Lifecycle Events Case Logs table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/le-logging.md#section_jjn_ffv_rfc)**
 
 Lifecycle Events records each log entry to the HR Lifecycle Events Case Logs \[sn\_hr\_le\_case\_log\] table. Lifecycle Events administrators can access this table by selecting **Show execution logs** from the Related Links section in a Lifecycle Events case.
 
@@ -3142,7 +3142,7 @@ Mentoring
 
 </td><td>
 
--   ****
+-   **[Create a Mentoring program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-mentoring-pgm.md)**
 
 The multiple mentoring program enables mentor admins to configure multiple programs that can run at the same time. It enables admins to restrict access based on employee criteria. The multiple mentoring program enables employees to choose and enroll in available mentoring programs, edit their preferences, search for mentors, and send connection requests.
 
@@ -3372,16 +3372,16 @@ The Now LLM Service is no longer the default model provider for new or inactive 
 The default model provider for contract metadata extraction, contract analysis, and contract obligation extraction is Azure OpenAI.
 
 
--   **Improved missing clause detection**
+-   **[Improved missing clause detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-NA-review-land.md)**
 
 Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
 
 
--   **Configure use case mappings for metadata and obligation extraction**
+-   **[Configure use case mappings for metadata and obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md)**
 
 Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
 
--   ****
+-   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
 
 The Now Assist powered conversational search feature's improved experience enables you to:
 
@@ -3401,7 +3401,7 @@ The new default behavior works as follows:
 
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Enhanced Manage contract repository agentic workflow**
+-   **[Enhanced Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
 
 The manage contract repository agentic workflow has been optimized for enhanced performance. It now utilizes a single agent, the Contract Repository AI agent to extract both contract metadata and obligations from signed contracts, and retrieve required information to calculate the contract reminder date.
 
@@ -3410,11 +3410,11 @@ The manage contract repository agentic workflow has been optimized for enhanced 
 Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
--   **Extract metadata from signed contracts automatically**
+-   **[Extract metadata from signed contracts automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
 
 Use the AI agents in the manage contract repository agentic workflow to automatically extract metadata from signed contracts and calculate the contract reminder dates for contract renewal or termination. You can review the AI results in the contract playbook and update it if necessary before saving it.
 
--   ****
+-   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/metadata-extraction-use-case.md)**
 
 Support for 14 additional metadata fields in the CM Pro - Contract Metadata Extraction use case is available in the base system.
 
@@ -3507,11 +3507,11 @@ Now Assist in Virtual Agent
 
 </td><td>
 
--   **[Refresh to the organization chart user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+-   **Refresh to the organization chart user interface**
 
 The org chart's user interface was updated for premium chat in ServiceNow Otto for Virtual Agent and ServiceNow Otto panel.
 
--   **[Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/brand-assistant.md)**
+-   ****
 
 In **Assistant Designer** &gt; **Assistants** &gt; **Branding**, the standard chat and enhanced chat sections are condensed into one section.
 
@@ -3526,11 +3526,11 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **[UI Virtual Agent Designer updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md)**
+-   **UI Virtual Agent Designer updates**
     -   Use a new option in the Actions on row icon to remove an LLM assistant from a given asset.
     -   View a tooltip if you try to promote more than six topics for a given LLM assistant.
     -   View a list of available asset types and their descriptions when you select **Create asset** in the Asset library tab.
--   **[UI chat assistant updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/assistant-designer.md)**
+-   **UI chat assistant updates**
     -   Configuring a chat or voice assistant is done in **All** &gt; **Assistant Designer** &gt; **Assistants** tab. **All** &gt; **Conversational Interfaces** &gt; **Assistants** contains a **Manage assistants** button that directs you to Assistant Designer.
     -   Chat and voice assistants are shown in both card and map views.
     -   Pages within the chat assistant setup have been removed, added, or moved to a different spot within the create or edit flow.
@@ -3544,7 +3544,7 @@ Starting with Australia Early Access, AI usage measurement is transitioning from
         -   Web search mode, response streaming, document uploads, and closed chats have been moved to its own Chat features page.
         -   Testing a chat assistant is no longer part of the Review page. Access it from the **Assistant Designer** &gt; **Assistants** tab, or on each page while in edit mode.
         -   Editing a chat assistant is done from the **Assistant Designer** &gt; **Assistants** tab.
--   **[UI enhanced chat updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)**
+-   **UI enhanced chat updates**
     -   Dynamic processing messages for agentic conversations are now consolidated under one View AI Steps header rather than under several View AI Steps headers.
     -   The **View all options** link appears below the suggested or promoted topics cards on the greeting topic in Now Assist in Virtual Agent and Now Assist panel's enhanced chat. At least one suggested or promoted asset must be enabled for this link to appear.
     -   The auto-complete suggestion type in the Ask Now Assist header appears at the top of the portal search bar's drop-down list. The results in the Ask Now Assist header can now show more targeted search results from AI Search rather than the GlideRecord. The entered search term can appear highlighted in bold after you have configured AI Search as the source for Ask Now Assist suggestions. For more information about this configuration, see [Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md).
@@ -3566,12 +3566,12 @@ The following Platform Now Assist skills are active by default and no longer vis
     -   Custom skills
     -   AI agents
 
--   **[Agentic conversation processing messages for Now Assist panel and Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)**
+-   **Agentic conversation processing messages for Now Assist panel and Now Assist in Virtual Agent**
 
 Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen processing messages to let you know where the agent is at in the agentic processing flow. The on-screen processing messages appear in present tense until the processing flow is complete. After the processing flow is complete, the on-screen messages change to past tense and a View AI Steps section header appears above the processed messages. You can expand the collapsed View AI Steps section header to view the processed messages.
 
 
--   **[UI chat updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)**
+-   **UI chat updates**
     -   The enhanced chat navigation area was updated. The New Chat, Chats, Support, and Settings icons were reworked into a simplified subheader. Additionally, each chat title now appears in the simplified subheader.
     -   The enhanced chat's subheader reflects conversational modes in a banner whenever you enter into a specific mode, such as web search, live agent, or document upload.
     -   In the enhanced chat's **Chats** &gt; **Closed chats** section, hover over a chat to view the delete option and complete the delete confirmation prompts.
@@ -3594,7 +3594,7 @@ Coral is now the default theme for new portal, web, and mobile experiences with 
     -   The simple and advanced views within the Chat experience page are consolidated into a single view.
     -   The **Copy existing configuration** button is featured more prominently, and it's shown with information about its use.
 
--   **[Additional fallback options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md)**
+-   **Additional fallback options**
 
 There are up to five fallback options that can be presented to end users:
 
@@ -3609,11 +3609,11 @@ There are up to five fallback options that can be presented to end users:
 **Note:** This option is only available to standard chat conversations.
 
     -   **Custom fallback option**: Presents a fallback Virtual Agent topic.
--   **[Web search mode enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/web-search-requestor.md)**
+-   **Web search mode enhancements**
 
 Manually enter into web search mode via the input bar for standard and enhanced chat conversations. Web search mode includes in-line citations and the associated sources. A web search mode banner appears in enhanced chat conversations that end users can use to end the mode.
 
--   **[Profanity recognition response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)**
+-   **Profanity recognition response**
 
 If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
@@ -3881,7 +3881,7 @@ You can migrate to Platform Analytics even if Next Experience isn’t enabled. C
     -   Geomap migration supported.
     -   Interactive filter check box option.
     -   Export to CSV from lists is supported.
--   **[Data visualizations and filters support Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric.md)**
+-   **Data visualizations and filters support Workflow Data Fabric tables**
 
 Perform data analysis on external data fabric sources.
 
@@ -3907,7 +3907,7 @@ User experience improvements to decision activities:
     -   In the Board view, select the branch to see a list of dependent activities and branches, and to navigate to them.
     -   When a decision or one of its branch nodes is selected in Diagram view, the decision and all of its branches are selected, and the side panel opens.
     -   Add parallel activities within decision branches.
--   **[Enter a combination of pills and text in an email body](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-activity.md)**
+-   **Enter a combination of pills and text in an email body**
 
 Enter a combination of text and multiple pills in any rich text / HTML editor container, such as an email body.
 
@@ -4173,7 +4173,7 @@ Recruitment workspace
 
 </td><td>
 
--   ****
+-   **[Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-oveview.md)**
 
 View all the job requisitions where you're listed as an additional recruiter or recruitment coordinator, on the home page cards and list view in Recruitment workspace. Previously, only the primary recruiter saw these requisitions in Recruitment workspace.
 
@@ -4366,14 +4366,14 @@ The Data List widget now offers more configuration flexibility and supports dyna
     -   Script‑Based View Selection: Use the Data List Condition Script option to choose a view dynamically. Scripts can evaluate URL parameters and other context to determine the most appropriate view at runtime.
     -   Configurable Default Sorting: Define initial sorting behavior using the new sort\_by and sort\_order options letting the users see a meaningful default order when the list loads.
 
--   **[Selecting queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/select-queues-for-outbound-calls.md)**
+-   ****
 
 The following UI components have been added to the Global Call window when making outbound calls from a keypad or phone directory:
 
     -   A new Search field to search and select from a list of available queues.
     -   A new toggle control that applies the selected queue to either the current call or all outbound calls by default. This option appears after selecting a queue.
 
--   **[CCaaS callback features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)**
+-   **CCaaS callback features**
 
 Callback management has been improved to make handling requests easier for agents. The key changes include:
 
@@ -4381,7 +4381,7 @@ Callback management has been improved to make handling requests easier for agent
     -   Enable scheduled callbacks, which help customers to choose a preferred callback time in addition to the existing ASAP option.
     -   Facilitate agents to view the list of queues and other agents for easier callback transfers and efficient customer management.
     -   Capture callback reasons more effectively with the expanded Reason for Call field, which includes additional choice values.
--   **[Unified routing of email interactions via CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-email-interaction-customer-service-management.md)**
+-   **Unified routing of email interactions via CCaaS**
 
 Email interaction handling has been enhanced to improve efficiency and responsiveness in managing customer communications. The key changes include:
 
@@ -4391,12 +4391,12 @@ Email interaction handling has been enhanced to improve efficiency and responsiv
     -   Send automatic email reminders to customers for interactions that are on hold for a configurable period.
     -   Reroute email interactions to available agents when the originally assigned agent is unavailable.
     -   Prevent creating outbound email interactions when emails are sent on top of cases.
--   **[Import queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/import-queues.md)**
+-   ****
 
 Use bulk action to assign service channels to multiple queues simultaneously during queue-import, simplifying queue management for CCaaS integrations.
 
 
--   **[Using the voice interaction page for callback requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-native-voice-record-page.md)**
+-   **Using the voice interaction page for callback requests**
 
 The following UI components have been added on the voice interaction page to manage callback requests:
 
@@ -4410,7 +4410,7 @@ The following UI components have been added on the voice interaction page to man
         -   Sales Discovery
         -   Product Feedback
         -   Customer Relationship Building
--   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-email-interaction-page.md)**
+-   ****
 
 The following changes have been made to the Email Interaction page:
 
@@ -4418,7 +4418,7 @@ The following changes have been made to the Email Interaction page:
     -   A modeless dialog has been added to respond to emails without interrupting your workflow, enabling you to multitask and easily refer to record details.
     -   A compact email header has been added to help you focus on key message details.
     -   The activity stream shows only the latest reply in the email conversation for each response.
--   **[Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md)**
+-   ****
 
 A **Leave Chat** button has been added to the record page so you can leave the chat without ending the session for other participating agents.
 
@@ -4823,7 +4823,7 @@ You can now view the **Helpful resources** and **Frequently asked questions \(FA
 
 The email response creation skill helps you choose the most appropriate template based on your context. Additionally, it identifies the potential errors when a response isn't generated as intended.
 
--   **[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agentic-conversations-vad.md)**
+-   ****
 
 Halt an agentic conversation mid-query by hovering over the send icon \[Omitted image "vad-send-icon.png"\] Alt text: and selecting the interrupt flow icon \[Omitted image "vad-interrupt-flow-icon.png"\] Alt text: Interrupt flow icon when the icon changes.
 
@@ -4982,36 +4982,36 @@ ServiceNow Otto® introduced AI on the platform. As that experience has evolved,
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
--   **[Automated quality assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quality-assurance-management.md)**
+-   ****
 
 Enable admins to filter scoring parameters and sort agents and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
 
--   **[Activate ServiceNow Otto Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
+-   ****
 
 Admins can view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities
 
 
--   **[Provide Customer 360 insights agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)**
+-   **Provide Customer 360 insights agentic workflow**
 
 Enhanced Provide Customer 360 Insights with Enterprise Graph and AI agent deep research for richer, more contextual query results.
 
--   **[Triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-resolving-use-case.md)**
+-   **Triage cases agentic workflow**
 
 Multilingual and localization flows in the Triage Cases workflow are now fully supported.
 
 
--   **[Changes to Complaint Case AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/accelerate-complaint-case-handling.md)**
+-   **Changes to Complaint Case AI agent collection**
 
 Updates have been added to the Complaint Case playbook to work better with the Complaint Case AI agent:
 
     -   Triage displays complaint details and enables a human agent to identify and request missing information.
     -   Complaint‑specific case summarization is available directly within the playbook.
     -   Replace research case task activities with case tasks list activity.
--   **[Enhancements in the Sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/use-sentiment-analysis-dashboard.md)**
+-   **Enhancements in the Sentiment analysis dashboard**
     -   Sentiment analysis dashboard support has expanded to include interaction records, and positive and negative sentiment drivers have been consolidated into a single Sentiment Drivers view.
     -   The top negative assignment group and number of cases by channel visualizations have been merged into the new Impact Explorer visualization for streamlined analysis.
     -   Widget placement in the Workforce Optimization dashboard has been optimized for accessing insights and trends across interfaces.
--   **[Enhancements in Trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/view-trending-topics-dashboard.md)**
+-   **Enhancements in Trending topics dashboard**
     -   The Accounts, Products, Assignment Groups, and Channels graphs have been consolidated into the Impact Explorer card.
     -   Search and pagination have been added to the list header.
     -   The Historical trends resurfacing graph has been added the Trending topics dashboard to show historical trends at a glance.
@@ -5023,15 +5023,15 @@ Updates have been added to the Complaint Case playbook to work better with the C
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **[Enhancement in case summarization skill flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-summarization-generation-in-now-assist.md)**
+-   **Enhancement in case summarization skill flow**
 
 The **Define trigger** step has been added to the case summarization flow. Admins can choose between the User Trigger option, where users select a button to generate a summary, and the Automatic Trigger option, where summaries are generated automatically.
 
--   **[Enhancement in email reply recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/generate-email-reply-recommendations.md)**
+-   **Enhancement in email reply recommendation skill**
 
 Generate reply suggestions in the compose area using preset templates that include headers, footers, and signatures.
 
--   **[Unified admin experience for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customizing-now-assist-skills.md)**
+-   **Unified admin experience for Now Assist skills**
 
 Skills cloned in AI Admin Hub console can now be edited in AI Skill Kit. This update unifies the admin experience across AI Admin Hub and AI Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
 
@@ -5039,26 +5039,26 @@ Skills cloned in AI Admin Hub console can now be edited in AI Skill Kit. This up
 
 Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
--   **[Display sentiment scale in case list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
+-   **Display sentiment scale in case list view**
 
 Sentiment scoring has been added to both the case record page and list view across cases, giving agents immediate visibility into the emotional tone of customer interactions. The sentiment scale ranges from very positive, positive, neutral, negative, to very negative.
 
 
--   **[Multilingual support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-supporting-info.md)**
+-   **Multilingual support**
 
 Enhanced multilingual support in chat summarization, resolution notes, and knowledge generation. Leveraged native multilingual LLMs for improved fluency and domain specificity, addressing translation inconsistencies across Tier 1 and Tier 2 languages.
 
 
--   **[Suggested steps in the Recommended Actions tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)**
+-   **Suggested steps in the Recommended Actions tab**
 
 View the suggested steps on the **Recommended Actions** tab in the contextual side panel. If suggested steps are available for a case, ServiceNow Otto for CSM generates and displays these steps in a card at the top of the **Recommended Actions** tab.
 
--   **[KB generation skill configuration enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-configuring.md)**
+-   **KB generation skill configuration enhancement**
 
 The **Is Template** field on the KB generation skill configuration record is enabled by default. With the skill\_builder.admin role, you can copy or clone the KB generation skill and customize the prompt in the skill kit.
 
 
--   **[Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-knowledge-generation-in-now-assist_0.md)**
+-   ****
 
 Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in ServiceNow Otto for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
 
@@ -5160,15 +5160,15 @@ The Now LLM Service is no longer the default model provider for new or inactive 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **Functional change**
+-   **[Functional change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
 
 The resolve HR cases agentic workflow has been broken down into three agentic flows:
 
-    -   
-    -   
-    -   
+    -   [Predict service and transfer HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/predict-transfer-hrcase.md)
+    -   [Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)
+    -   [Resolve critical HR case agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolve-critical.md)
 
--   **Flow name**
+-   **[Flow name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
 
 The resolve noncritical HR cases workflow has been renamed to the resolve HR cases workflow.
 
@@ -5351,7 +5351,7 @@ ServiceNow Otto for Legal Service Delivery \(LSD\)
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
--   ****
+-   **[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-summarize-case.md)**
 
 Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
@@ -5539,7 +5539,7 @@ When you call Query Generation from AI Data Explorer or another application, you
 
 Query Generation supports related table conditions and dot-walking in queries.
 
--   **[Get insights and visualizations for Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-integrations-applications.md)**
+-   **Get insights and visualizations for Workflow Data Fabric tables**
 
 Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
 
@@ -5860,7 +5860,7 @@ Skills Foundation
 
 </td><td>
 
--   ****
+-   **[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence.md)**
 
 Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.Multilingual skill support is limited to the languages supported by AI Search, which is fewer than the previously supported 23 languages.Resume parsing is done using Now Assist.ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
 
@@ -6248,21 +6248,21 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md)**
+-   ****
     -   Tabs have replaced pills in the Virtual Agent Designer list view.
     -   Hover over the tooltip icon \(\[Omitted image "i-tooltip.png"\] Alt text:\) to see information about the assistant you have selected from the drop-down menu.
     -   Use the new **AI agents** and **Agentic workflows** tabs to select from the types of topics on the home page, along with **Topics**, **Subflows**, **Actions**, and **Custom skills**.
--   **Virtual Agent Designer [Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/table-bot-response.md)**
+-   **Virtual Agent Designer **
 
 Slide the new Show links for each record toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
 
--   **[Test assistant options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/test-llm-topics.md)**
+-   **Test assistant options**
 
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
 
--   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/table-bot-response.md)**
+-   ****
 
 Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
@@ -6278,7 +6278,7 @@ Visa Spoke
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
+-   **Visa Resolve Online \(VROL\) version 25.2 updates**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -6364,15 +6364,15 @@ Zero Copy Connector Hub
 
 </td><td>
 
--   **[SAP ECC primary connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sap-ecc-primary-wdf.md)**
+-   **SAP ECC primary connector**
 
 The SAP ECC connector is now certified as a primary connector.
 
--   **[SAP S/4HANA primary connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sap-s4hana-primary-wdf.md)**
+-   **SAP S/4HANA primary connector**
 
 The SAP S/4HANA connector is now certified as a primary connector.
 
--   **[Primary connectors in preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/primary-connectors-wdf.md)**
+-   **Primary connectors in preview**
 
 Primary connectors that are still being enhanced to include all planned functionality are now identified as in preview. These connectors are fully supported by ServiceNow®.
 
@@ -6393,24 +6393,24 @@ Zero Copy Connector for ERP
 The system property sn\_erp\_integration.result\_page\_size has been added to specify the number of records to retrieve from the external system. The default global property for all extractions is set to 50, but can be overridden with this new property.
 
 
--   **[New icon for outbound messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-an-idoc-outbound-message-configuration.md)**
+-   **New icon for outbound messages**
 
 A new icon is available in the sidebar to help you easily see existing and create new outbound message configurations for IDOC.
 
--   **[View model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-use-model-versioning.md)**
+-   **View model version**
 
 To help you better understand if your production instance is using the latest version of a model, the version number is visible in the models list and on individual model records.
 
 
--   **[Zero Copy Connector for ERP Enterprise Data Foundation data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-canvas-enterprise-data-foundation-content-pack.md)**
+-   ****
 
 Additional models, including Business Partner, Chart of Account, Cost Center, and Vendor have been added to the data product for use when interacting with an SAP system.
 
--   **[Zero Copy Connector for ERP Quote to Cash data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-canvas-sales-order-content-pack.md)**
+-   ****
 
 Additional models, including Customer Invoice, Outbound Deliveries, and Service Notification have been added to the data product for use when interacting with an SAP system.
 
--   **[Zero Copy Connector for ERP Source to Settle data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-source-to-settle-data-product.md)**
+-   ****
 
 Additional purchase order models have been added to the data product for use when interacting with an SAP system.
 
@@ -6423,7 +6423,7 @@ Agentic workflows and AI agents included with your applications require addition
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[System info page displays more details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/view-erp-system-information.md)**
+-   **System info page displays more details**
 
 On the system info page, software and other information is shown from the system info table.
 

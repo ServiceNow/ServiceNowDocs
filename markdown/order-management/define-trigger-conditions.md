@@ -67,7 +67,5 @@ The new triggers appear in the Record based triggers section of the Triggers pan
 **Related topics**  
 
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)
-
-[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-trigger.md)
+[bundle-crworkflow.process-automation-designer-triggers]
 

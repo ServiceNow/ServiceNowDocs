@@ -75,7 +75,7 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
     -   Requests \(REQ\): If there are items \(RITMs\) under a Request \(REQ\), the items may require additional approvals.
     -   Requests for items \(RITM\): The default threshold is $1000 and defined in the Service Catalog Request \(sc\_request\) and found in the Workflow Editor. Any item requested that is $1000 or more requires an approval.
 
-        **Note:** For more information, see [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-editor.md).
+        **Note:** For more information, see Workflow editor.
 
     -   HR cases: Some HR cases through their related HR service are configured to require an approval.
 

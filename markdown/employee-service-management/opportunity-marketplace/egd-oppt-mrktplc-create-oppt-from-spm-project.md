@@ -24,7 +24,7 @@ Role required: Must be a licensed OPM user and have the \[sn\_ppm\_read\] and \[
 
 ## About this task
 
-You must have Project Workspace installed and configured to create opportunities from project files. See, [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/project-workspace-landing-page.md).
+You must have Project Workspace installed and configured to create opportunities from project files. See, .
 
 ## Procedure
 

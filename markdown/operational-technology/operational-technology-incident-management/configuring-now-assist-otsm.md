@@ -84,7 +84,7 @@ Gen AI skills for OT incident
 10. Select where to display the skill.
 
     -   **In-product**: When selected, the AI skills are displayed on forms and workspaces.
-    -   **ServiceNow Otto panel**: When selected, the AI skills are available in the ServiceNowOtto panel. If you don't see this option, you must activate the panel. For more information, see [Activate the panel in standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Otto panel**: When selected, the AI skills are available in the ServiceNowOtto panel. If you don't see this option, you must activate the panel. For more information, see Activate the panel in standard chat.
 11. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
 12. Review your choices and select **Activate** to complete the configuration.

@@ -39,7 +39,7 @@ The Upgrade Monitor helps you upgrade an individual instance. You can monitor th
     -   Were created while reviewing the skipped updates list.
     -   Were created while changing customizations to work with the latest release.
     -   Must go live immediately after your next upgrade.
-    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to System update sets for details.
+    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md) for details.
 
 4.  Before and after upgrading, conduct smoke tests on your development instance. Use your comprehensive test plan to perform functional testing.
 

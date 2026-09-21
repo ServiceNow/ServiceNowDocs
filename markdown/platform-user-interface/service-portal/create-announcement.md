@@ -22,7 +22,7 @@ Role required: announcement\_admin, sp\_admin, or admin
 
 ## About this task
 
-The title and summary of an announcement can be localized in the Translated Text \[sys\_translated\_text\] table. For more information, see [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseTranslatedText.md).
+The title and summary of an announcement can be localized in the Translated Text \[sys\_translated\_text\] table. For more information, see .
 
 ## Procedure
 

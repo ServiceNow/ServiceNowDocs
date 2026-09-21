@@ -16,7 +16,7 @@ There are different plugins that activate CSS themes support.
 
 Activate the following plugins to use themes, based on the version of the UI you use.
 
-**Core UI:** CSS Theme support See [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
+**Core UI:** CSS Theme support See Activate a plugin.
 
 **Parent Topic:**[CSS theme support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_CSSThemeSupport.md)
 

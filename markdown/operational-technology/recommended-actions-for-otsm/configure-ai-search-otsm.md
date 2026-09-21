@@ -26,7 +26,7 @@ For Operational Technology Service Management users, you must define the OT inci
 
 **Note:** Knowledge \[kb\_knowledge\] is also used as an indexed source for Recommended Actions for OTSM, but Knowledge is already indexed.
 
-To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ais.md).
+To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see .
 
 ## Procedure
 

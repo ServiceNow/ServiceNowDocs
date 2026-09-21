@@ -53,15 +53,15 @@ OT incident resolution notes are generated from the following information:
 
 8.  Manage the OT resolution notes using the available options.
 
-<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d67076e191">
+<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d67096e191">
 
 Option
 
-</th><th align="left" id="d67076e194">
+</th><th align="left" id="d67096e194">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d67076e200">
+</th></tr></thead><tbody><tr><td id="d67096e200">
 
 **Insert the resolution notes**
 
@@ -69,7 +69,7 @@ Procedure
 
 To insert the generated OT resolution notes in the **Resolution note** field, select **Insert**.
 
-</td></tr><tr><td id="d67076e215">
+</td></tr><tr><td id="d67096e215">
 
 **Refine the resolution notes by elaborating or shortening**
 
@@ -77,7 +77,7 @@ To insert the generated OT resolution notes in the **Resolution note** field, se
 
 To provide more details in the OT resolution notes, select **Refine** and then **Elaborate**. To shorten the resolution notes, select **Shorten**.
 
-</td></tr><tr><td id="d67076e233">
+</td></tr><tr><td id="d67096e233">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ To provide more details in the OT resolution notes, select **Refine** and then *
 
 If the OT resolution notes were helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the resolution notes weren't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).**Note:** This feedback improves the generative AI model and can help improve future versions of this skill.
 
-</td></tr><tr><td id="d67076e254">
+</td></tr><tr><td id="d67096e254">
 
 **Copy the resolution notes**
 
@@ -93,7 +93,7 @@ If the OT resolution notes were helpful, select the helpful icon \(\[Omitted ima
 
 To reuse the OT resolution notes, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\).
 
-</td></tr><tr><td id="d67076e269">
+</td></tr><tr><td id="d67096e269">
 
 **View the information about the resolution notes**
 

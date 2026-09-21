@@ -45,7 +45,7 @@ Configure the ServiceNow AI Search application for Service Portal so that portal
     For more information on using facets and tabs, see [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/faceted-search.md).
 
 
-For more information on AI Search features, see [Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/explore-ais.md).
+For more information on AI Search features, see Exploring AI Search.
 
 ## Activation information
 
@@ -63,11 +63,11 @@ Configure AI Search in Service Portal by defining the following:
 
 -   **Search application configuration**
 
-    Defines search experience settings, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+    Defines search experience settings, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see Defining search application configurations.
 
 -   **Search results configuration**
 
-    Defines how search results are displayed. For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/define-composite-dataset.md).
+    Defines how search results are displayed. For more information on defining a search results configuration, see Define a composite dataset.
 
 
 You can change the search application configuration or search results configuration that your portal uses by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-ais-sp.md).
@@ -82,7 +82,7 @@ To use a different search application or search results configuration for a spec
 
 To configure the search results payload to navigate to and display the appropriate portal page for a selected data source, define an AI Search results action. For more information, see [Define an AI Search Results Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/ais-results-action.md).
 
-You can configure the action buttons in genius results by defining an Entity View Action Mapping \(EVAM\) action. For more information, see [Define an EVAM action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/define-evam-action.md).
+You can configure the action buttons in genius results by defining an Entity View Action Mapping \(EVAM\) action. For more information, see Define an EVAM action.
 
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables. For more information on these variables, see [Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/ais-sp-css-vars.md).
 

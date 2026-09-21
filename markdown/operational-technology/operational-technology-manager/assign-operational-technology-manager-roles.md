@@ -56,7 +56,7 @@ Operational Technology Manager Editor \[cmdb\_ot\_editor\]
 
 </td><td>
 
-Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for Operation Technology \(OT\) extension classes.**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Operational Technology Manager Admin \[cmdb\_ot\_admin\]
 
 </td><td>
 
-Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_admin** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see Operation Technology \(OT\) extension classes.**Note:** Users assigned the **cmdb\_ot\_admin** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
 
 </td></tr></tbody>
 </table>## Procedure

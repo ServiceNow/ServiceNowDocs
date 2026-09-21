@@ -587,7 +587,7 @@ Text background color for title highlights in search results.**Note:** For this 
 }
 ```
 
-To learn about configuring settings in EVAM view templates, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/define-evam-template.md).
+To learn about configuring settings in EVAM view templates, see .
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/css-override-ais-theming-sp.md)

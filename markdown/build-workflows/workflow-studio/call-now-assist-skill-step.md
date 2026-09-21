@@ -22,7 +22,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 -   **AI Skill Kit requirements**
 
-    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+    This step requires the AI Skill Kit. For more information, see .
 
 -   **Role requirements**
 

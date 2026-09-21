@@ -30,7 +30,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 2.  Activate the \[Enterprise Service Management Integrations Framework\] application from the ServiceNow® Store.
 
-3.  Configure the [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/oracle-hcm.md) to pull data from Oracle system.
+3.  Configure the  to pull data from Oracle system.
 
 4.  Create subflows aligning with Template Integration Gateway.
 

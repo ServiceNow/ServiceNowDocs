@@ -57,15 +57,15 @@ Role required: sn\_lco\_cmn.config
 
 3.  Configure evaluation type.
 
-<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d431175e260">
+<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d431154e260">
 
 Evaluation type
 
-</th><th align="left" id="d431175e263">
+</th><th align="left" id="d431154e263">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d431175e269">
+</th></tr></thead><tbody><tr><td id="d431154e269">
 
 **Subflow**
 
@@ -75,7 +75,7 @@ A Subflow reference field appears.
 
 Select the Flow Designer subflow that executes custom evaluation logic and returns a risk score in the Subflow field.
 
-</td></tr><tr><td id="d431175e280">
+</td></tr><tr><td id="d431154e280">
 
 **Condition**
 
@@ -92,7 +92,7 @@ Select the Flow Designer subflow that executes custom evaluation logic and retur
 -   In the **Applies to** filter, define filter conditions using the condition builder. Example: Is it a true governance board for an organization is Advisory Board.
 
 
-</td></tr><tr><td id="d431175e347">
+</td></tr><tr><td id="d431154e347">
 
 **Skill**
 

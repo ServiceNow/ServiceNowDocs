@@ -105,7 +105,7 @@ Refer to these design considerations when working with stages and activities:
 
 -   **Keep ServiceNow AI Platform state models in mind when designing your playbook**
 
-    Some record types already have state models that describe their life cycle. Use any existing state model as a template for the design of your playbook. For more information, see [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/state-model.md).
+    Some record types already have state models that describe their life cycle. Use any existing state model as a template for the design of your playbook. For more information, see State Management.
 
 
 -   **[Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-configure-stage.md)**  

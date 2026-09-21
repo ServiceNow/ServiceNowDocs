@@ -27,7 +27,7 @@ The ServiceNow® Employee Health Screening application enables organizations to 
 
 ## Integrate with Customer Service Management
 
-Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-integration-safe-workplace.md).
+Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
 
 ## Use with other Safe Workplace suite applications
 

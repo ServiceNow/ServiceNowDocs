@@ -125,7 +125,7 @@ Communities \(com.sn\_communities\)
 
 The Communities plugin supports [Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-[Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-communities.md)
+
 
 </td></tr><tr><td>
 

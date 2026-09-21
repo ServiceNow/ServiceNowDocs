@@ -271,7 +271,7 @@ Changes the form view to the default or advanced view. The fields change based o
 **Related topics**  
 
 
-[bundle-crapiref.client-scripts]
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/client-scripts.md)
 
 ## Example: creating a UI policy
 

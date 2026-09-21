@@ -24,7 +24,7 @@ The widget uses credentials from the User \[sys\_user\] record. In the **User na
 
 \[Omitted image "WidgetLogin.png"\] Alt text: Default login widget on the Service Portal landing page
 
-The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset-landing-page.md).
+The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see Password Reset.
 
 **Note:** When the user selects **Forgot Password?**, the system redirects the user to the page value specified in the **glide.security.password\_reset.uri** system property.
 

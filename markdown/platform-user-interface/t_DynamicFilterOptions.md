@@ -22,7 +22,7 @@ Role required: admin
 
 This task describes how to create a new dynamic filter option and an associated [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ReferenceQualifiers.md). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
+Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_ConditionBuilder.md) and dynamic Reference qualifiers. This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
 
 When defining a dynamic filter, you can:
 

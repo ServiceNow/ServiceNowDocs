@@ -21,7 +21,7 @@ Success Dashboard is available for HR Service Delivery and IT Service Management
 -   HR Success Dashboard indicators
 -   ITSM Success Dashboard indicators
 
-    For more information on the ITSM dashboard, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/success-dashboard-indicator-landing.md).
+    For more information on the ITSM dashboard, see ITSM Success Dashboard indicators.
 
 
 ## Request apps on the Store

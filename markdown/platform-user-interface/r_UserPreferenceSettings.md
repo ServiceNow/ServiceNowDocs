@@ -375,7 +375,7 @@ Admin or User
 
 </td><td>
 
-Indicates what action opens the list editor in List v2. This record updates automatically when the user personalizes any v2 list and changes the **Double click to edit** setting. For more information, see [List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AdministeringTheListEditor.md) . This preference does not apply to v3 lists. Single-click list editing is not supported in List v3.**True** = open the list editor when the user double-clicks a field in a v2 list.
+Indicates what action opens the list editor in List v2. This record updates automatically when the user personalizes any v2 list and changes the **Double click to edit** setting. For more information, see List editor administration . This preference does not apply to v3 lists. Single-click list editing is not supported in List v3.**True** = open the list editor when the user double-clicks a field in a v2 list.
 
  **False** = open the list editor when the user single-clicks a field in a v2 list.
 
@@ -575,7 +575,7 @@ User Only
 
 </td><td>
 
-**DO NOT MODIFY.** Shows who the administrator most recently impersonated. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ImpersonateAUser.md).**Type**: **String**
+**DO NOT MODIFY.** Shows who the administrator most recently impersonated. For more information, see Impersonate a user.**Type**: **String**
 
  **Default value**: **None**
 
@@ -653,7 +653,7 @@ User Only
 
 </td><td>
 
-Indicates whether forms that contain more than two sections use a tabbed interface or a scrolling list of sections. This setting applies to all forms. It's not set on a form-by-form basis. This record updates automatically when a user clicks the Toggle Tabs icon in the banner bar. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md) .**True** = display multi-section forms as tabs.
+Indicates whether forms that contain more than two sections use a tabbed interface or a scrolling list of sections. This setting applies to all forms. It's not set on a form-by-form basis. This record updates automatically when a user clicks the Toggle Tabs icon in the banner bar. For more information, see Configure the form layout .**True** = display multi-section forms as tabs.
 
  **False** or blank = display multi-section forms as a scrolling list of sections.
 
@@ -719,7 +719,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the task record should be returned by a global text search in which the search text exactly matches a task number. This record updates automatically when a user clicks the **Search tips and preferences** link on the search results page and changes the **Return task record if searching for exact number** setting. For more information, see [Global text search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_GlobalTextSearch.md).**True** = return the task record. A link is provided for full search results.
+Indicates whether the task record should be returned by a global text search in which the search text exactly matches a task number. This record updates automatically when a user clicks the **Search tips and preferences** link on the search results page and changes the **Return task record if searching for exact number** setting. For more information, see Global text search finds records from multiple tables.**True** = return the task record. A link is provided for full search results.
 
  **False** = return full search results, even if the search term matches a task number.
 

@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-To add streaming video or Flash video \(.flv\), for example, to a knowledge article, see [Embed videos in HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_EmbeddingVideoInHTMLFields.md) .
+To add streaming video or Flash video \(.flv\), for example, to a knowledge article, see Embed videos in HTML fields .
 
 ## Procedure
 

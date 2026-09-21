@@ -33,15 +33,15 @@ For worked examples of choosing between options, see [Shadow AI triage examples]
 
 3.  Triage the detected AI service by choosing the action that you want to take.
 
-<table><thead><tr><th align="left" id="d149224e127">
+<table><thead><tr><th align="left" id="d149207e127">
 
 Action
 
-</th><th align="left" id="d149224e130">
+</th><th align="left" id="d149207e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d149224e136">
+</th></tr></thead><tbody><tr><td id="d149207e136">
 
 **__Snooze for 7 days__**
 
@@ -51,7 +51,7 @@ Steps
 2.  Allow more time or context to surface by selecting **Snooze for 7 days**.
  The status changes to **Snoozed** and the service is deprioritized for 7 days, then returns to **New** once new traffic is detected.
 
-</td></tr><tr><td id="d149224e170">
+</td></tr><tr><td id="d149207e170">
 
 **__Dismiss__**
 
@@ -61,7 +61,7 @@ Steps
 2.  Address a known, low-risk pattern that might come back by selecting **Dismiss**.
  The status changes to **Dismissed**. However, the **Dismiss** action leaves the registry entry active, so a dismissed service returns as a new detection the next time it sees traffic.
 
-</td></tr><tr><td id="d149224e204">
+</td></tr><tr><td id="d149207e204">
 
 **__Block__**
 
@@ -77,7 +77,7 @@ Steps
 6.  Review the policy details, and then select **Block**.
  Blocking creates a policy in AI Control Tower and is enforced only on devices running the ACC agent. To extend a block's reach, deploy the agent to more devices. See [Connect Agent Client Collector to detect AI use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-connect-acc.md).
 
-</td></tr><tr><td id="d149224e285">
+</td></tr><tr><td id="d149207e285">
 
 **__This is not Shadow AI__**
 

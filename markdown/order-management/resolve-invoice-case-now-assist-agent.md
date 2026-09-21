@@ -19,9 +19,9 @@ Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Co
 
 The invoice dispute assist agentic workflow must be made available on the ServiceNow Otto panel. For more information, see [Make the invoice dispute assist workflow available in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
 
-ServiceNow Otto for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm.md).
+ServiceNow Otto for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see .
 
-Chat Summarization must be configured to use the summarization and recommendation features. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
+Chat Summarization must be configured to use the summarization and recommendation features. For more information, see .
 
 Role required: awa\_agent, sn\_csm\_invoice.agent, sn\_otc.accounts\_receivable\_agent, and now\_assist\_panel\_user
 
@@ -31,7 +31,7 @@ When a customer escalates an invoice dispute to a human agent either through a V
 
 When a customer is transferred from the Virtual Agent, the interaction record opens automatically with a conversation summary, giving you full context of the dispute discussed on the Virtual Agent side.
 
-You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see [Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-summarize-chat.md) and [Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/generate-chat-reply-recommendations.md).
+You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see  and .
 
 ## Procedure
 
@@ -94,7 +94,5 @@ When the dispute is resolved, the invoice case is closed with the resolution det
 **Related topics**  
 
 
-[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-using.md)
-
-[Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
+[bundle-csm.now-assist-csm-using]
 

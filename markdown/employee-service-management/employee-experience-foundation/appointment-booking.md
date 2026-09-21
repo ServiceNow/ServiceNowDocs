@@ -66,7 +66,7 @@ After an employees books their appointment. As an agent, you can check all the a
 
         You can also check the appointments from the **Default lists**. Go to **Default lists** &gt; **Walk-up** &gt; **Appointments**.
 
-    For more information, refer to [Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/walkup-sow.md) and [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/create-walkup-appointment-incident-sow.md).
+    For more information, refer to  and .
 
 -   To check the appointments in the Agent workspace, refer to . .
 
